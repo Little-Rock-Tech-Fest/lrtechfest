@@ -9,9 +9,26 @@ html
 		link(href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css", rel="stylesheet")
 		link(link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css")
 		link(href="/public/css/site.css", rel="stylesheet")
+
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js")
 		script(src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js")
 		script(src="/public/js/site.js")
 
 	body
+		.navbar.navbar-inverse.navbar-fixed-top
+			.container-fluid
+				.navbar-header
+					a(class="navbar-brand" href="#")
+						img(id='navbar-logo' src="/public/img/logo_lrtf-white.png" )
+				.collapse.navbar-collapse
+					ul.nav.navbar-nav
+						li
+							a(class="btn btn-primary btn-sm" href="/call")
+								i.fa.fa-microphone.fa-2x
+								span Call for Speakers
+						li
+							a(class="btn btn-primary btn-sm" href="/sponsors")
+								i.fa.fa-trophy.fa-2x
+								span Sponsorship Info
+
 		block content
