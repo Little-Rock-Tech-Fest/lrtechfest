@@ -1,8 +1,16 @@
 extends layout
 
 block content
-	.jumbotron
-		h1 Little Rock Techfest 2014
-		p Coming September 25 2014
-		p
-			a(class="btn btn btn-primary btn-lg" href="/call") Call for Speakers
+	#landing.jumbotron
+		.landing-content.text-center
+			.container
+				h1 Little Rock<br/> Tech Fest
+				h2 One-day <strong>free</strong> technology conference featuring popular developer topics from industry leaders
+				
+				a(class="btn btn-primary btn-lg" href="/call")
+					i.fa.fa-microphone.fa-2x
+					span Call for Speakers
+
+				a(class="btn btn-primary btn-lg" href="/sponsors")
+					i.fa.fa-trophy.fa-2x
+					span Sponsorship Info
