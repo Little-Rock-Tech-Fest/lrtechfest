@@ -2,7 +2,8 @@
 	function landingInit() {
 		var landing = $('#landing');
 		var winHeight = $(window).height();
-		var landingHeight = winHeight;
+		var contentHeight = $(".landing-content").height();
+		var landingHeight = Math.max(winHeight, contentHeight+195);
 		landing.css({
 			height: landingHeight + "px"
 		});

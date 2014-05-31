@@ -7,9 +7,11 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
 .btn { border: 1px solid #ddd; border-radius: 0; background: transparent; }
 .btn:Hover { opacity: 1; }
 .btn-lg { font-size: 28px; }
+.btn-sm { font-size: 20px; }
 .btn .fa {opacity: .4; color: #333; margin-right: 10px;}
-.btn span {position: relative; top:-8px;}
+.btn-lg span {position: relative; top:-8px;}
 .btn-primary { opacity: 1; background: #fe4918; color: #fff; border-color:#fe4918;}
+.btn-secondary {opacity: 1; background: #4918fe; color: #fff; border-color:#4918fe;}
 .btn-primary:hover{ background: #f2613a; color: #fff; border-color:#fe4918; }
 
 
@@ -17,11 +19,13 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
 #landing { background: url('../img/lrskyline.jpg') center center no-repeat;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
 	background-size: cover; background-attachment: fixed; min-height: 500px; 
-	overflow:hidden; margin-bottom: 0px}
+	overflow:hidden; margin-bottom: 0px;  }
 #landing .landing-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px; color:#fff;}
 #landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 100pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; }
 #landing h2 { font-size: 22pt; margin: 15px 0px 40px 0px; }
-#landing .landing-content a {margin: 10px}
+#landing .landing-content .btn {margin: 10px}
+
+#mce-EMAIL {font-size: 28; color:black; min-width: 300px}
 
 
 /* Mobile device */
@@ -32,8 +36,6 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
   #landing h2 {font-size: 18pt; margin: 0px 0px 20px 0px;}
 }
 
-@media (max-width: 767px) {
-}
 
 @media (max-width: 767px) {
   #landing .btn { margin: 0px 0px 15px 0px; }
@@ -65,3 +67,4 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
 	.container {
 		width: 970px;
 	}
+}
