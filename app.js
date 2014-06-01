@@ -9,10 +9,17 @@ app.get("/call", function(req, res){
 	res.render('call')
 });
 
+app.get("/sponsors", function(req, res){
+	res.render('sponsor_list')
+});
+
+app.get("/become-sponsor", function(req, res){
+	res.render('become_sponsor')
+});
+
 app.get('/', function(req, res){
 	res.render('index')
 });
 
- 
-var port = Number(process.env.PORT || 5000);
+var port = Number(process.env.PORT || 9990);
 app.listen(port);
