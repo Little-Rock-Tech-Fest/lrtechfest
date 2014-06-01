@@ -4,7 +4,7 @@ green: #7db660;
 blue: #4918fe;
 */
 
-body { font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal; padding-top: 50px }
+body { font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal; padding-top: 70px }
 .btn { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: normal; }
 
 body { color: #000; font-size: 11pt; background: #fff; margin: 0; }
@@ -22,8 +22,8 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
 .btn-primary:hover{ background: #fe4918 !important; color: #fff; }
 .btn-primary:hover .fa {color:white;}
 
-.navbar {min-height: 50px}
-#navbar-logo {height:50px; }
+.navbar {min-height: 70px}
+#navbar-logo {height:50px; position: relative; top: -5px;}
 .navbar-inverse .navbar-nav>li>a span {color:white;}
 .navbar .navbar-nav .btn {margin-right:10px;}
 .navbar .navbar-nav .btn span {top:-8px;}
@@ -32,10 +32,17 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
 	background-size: cover; background-attachment: fixed; min-height: 500px; 
 	overflow:hidden; margin-bottom: 0px;  }
+#time-place .time-place-inner { font-size: 18pt; font-weight:300; display: inline-block; margin: 0 20px 15px; position: relative; top: -12px; }
+#time-place .fa {margin: 0px 10px 0px 0px; font-size: 20pt; top: -3px;}
+#time-place .sep { width: 15px; display: inline-block; }
+#time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 #landing .landing-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px; color:#fff;}
 #landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 100pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; }
 #landing h2 { font-size: 22pt; margin: 15px 0px 40px 0px; }
 #landing button {margin-left: 10px}
+
+#timer-div {margin-bottom: 50px}
+.is-countdown {background-color: transparent;}
 
 #mce-EMAIL {font-size: 28; color:black; min-width: 300px}
 
@@ -46,6 +53,9 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
   #landing .landing-content { top: 57%; }
   #landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px; }
   #landing h2 {font-size: 18pt; margin: 0px 0px 20px 0px;}
+
+  #time-place .time-place-inner {  margin: 0; position: static; }
+  #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px;}
 }
 
 
@@ -59,9 +69,11 @@ p {font-size:11pt; line-height: 20pt; font-weight:300;}
   margin-bottom: 0px;
   }
   
-  #landing h2{font-size: 18pt; margin: 0px 0px 20px 0px;}
-  
   #landing { padding-top: 2%; }
+  #landing h2{font-size: 18pt; margin: 0px 0px 20px 0px;}
+
+
+  }
 }
 
 /* Tablet device */

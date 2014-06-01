@@ -1,11 +1,26 @@
 extends layout
 
+block stylesheets
+	link(href="/public/css/jquery.countdown.css", rel="stylesheet")
+
 block content
 	#landing.jumbotron
 		.landing-content.text-center
 			.container
+				#time-place
+					hr
+					.time-place-inner
+						span.fa.fa-calendar
+						span September 25, 2014
+						.sep
+						span.h3.fa.fa-map-marker
+						span UALR
+					hr
 				h1 Little Rock<br/> Tech Fest
 				h2 One-day <strong>free</strong> technology conference featuring popular developer topics from industry leaders
+
+				#timer
+					#timer-div
 
 				form(action="http://lrdnug.us2.list-manage.com/subscribe/post?u=8067ea5d5e1f796c71c1d3673&amp;id=ecc720713a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate)
 					.form-group.form-inline
@@ -13,3 +28,9 @@ block content
 						button(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-sm")
 							i.fa.fa-envelope.fa-lg
 							span Subscribe
+
+block scripts
+	script(src="/public/js/jquery.plugin.min.js")
+	script(src="/public/js/jquery.countdown.min.js")
+	script.
+		$('#timer-div').countdown({ until: new Date(2014, 9 - 1, 25) });
