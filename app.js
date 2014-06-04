@@ -10,7 +10,8 @@ app.get("/call", function(req, res){
 });
 
 app.get("/sponsors", function(req, res){
-	res.render('sponsor_list')
+	//res.render('sponsor_list')
+	res.render('become_sponsor');
 });
 
 app.get("/become-sponsor", function(req, res){
