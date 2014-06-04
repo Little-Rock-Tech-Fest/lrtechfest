@@ -6,9 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/kneumei/lrtechfest2014.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kneumei/lrtechfest2014.git"
   },
   "author": "Kyle Neumeier",
   "license": "BSD-2-Clause",

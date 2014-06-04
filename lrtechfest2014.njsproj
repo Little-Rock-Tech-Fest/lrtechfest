@@ -36,8 +36,6 @@
     <Compile Include="public\js\jquery.plugin.min.js" />
     <Compile Include="public\js\loadWufoo.js" />
     <Compile Include="public\js\site.js" />
-    <None Include="lrtechfest.com - Web Deploy.pubxml" />
-    <None Include="lrtechfest.com - FTP.pubxml" />
     <Content Include="package.json" />
     <Content Include="public\css\jquery.countdown.css" />
     <Content Include="public\css\site.css" />
