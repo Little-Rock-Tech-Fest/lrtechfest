@@ -22,4 +22,4 @@ app.get('/', function(req, res){
 });
 
 var port = Number(process.env.PORT || 9990);
-app.listen(port);
+app.listen(process.env.PORT);
