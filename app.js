@@ -18,6 +18,10 @@ app.get("/become-sponsor", function(req, res){
 	res.render('become_sponsor')
 });
 
+app.get("/contact", function (req, res) {
+	res.render('contact')
+});
+
 app.get('/', function(req, res){
 	res.render('index')
 });

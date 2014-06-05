@@ -1,10 +1,15 @@
 extends layout
 
 block content
-	h1 Speak at Tech Fest
-
-	#wufoo-z7x3p9.
-		Fill out my <a href="http://lrdnug.wufoo.com/forms/z7x3p9"> online form</a>.
+	.container-fluid
+		.row.page-banner
+			.col-md-21
+				ul
+					li
+						.page-banner-title Speakers
+	.container
+		#wufoo-z7x3p9.
+			Fill out my <a href="http://lrdnug.wufoo.com/forms/z7x3p9"> online form</a>.
 
 block scripts
 	script(src='public/js/loadWufoo.js')

@@ -34,10 +34,13 @@ h4 {font-size: 32px}
 .navbar {min-height: 70px}
 #navbar-logo {height:50px; position: relative; top: -5px;}
 .navbar-inverse .navbar-nav>li>a span {color:white;}
-.navbar .navbar-nav .btn {margin-right:10px;}
+.navbar .navbar-nav .btn {margin-right:10px; text-align:left}
 .navbar .navbar-nav .btn span {top:-8px;}
+.navbar-inverse .navbar-nav>li>a.social {color:white;}
+.navbar-inverse .navbar-nav>li>a:hover.social {color:#999;}
+.navbar .social {margin-right: 10px; font-size:20px}
 
-#landing { background: url('../img/lrskyline.jpg') center center no-repeat;
+#landing { background: url('../img/lrskyline-small.jpg') center center no-repeat;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
 	background-size: cover; background-attachment: fixed; min-height: 500px; 
 	overflow:hidden; margin-bottom: 0px;  }

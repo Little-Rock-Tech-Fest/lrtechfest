@@ -44,6 +44,7 @@
     <Content Include="README.md" />
     <Content Include="views\become_sponsor.jade" />
     <Content Include="views\call.jade" />
+    <Content Include="views\contact.jade" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
     <Content Include="views\sponsors.jade" />
