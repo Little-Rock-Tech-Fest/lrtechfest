@@ -2,6 +2,7 @@
 orange: #fe4918
 green: #7db660;
 blue: #4918fe;
+light orange #fead97
 */
 
 body { font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal; padding-top: 70px }
@@ -15,21 +16,29 @@ h4, h5, h6 {margin-top: 10px;}
 h3 {font-size: 40px}
 h4 {font-size: 32px}
 
-.article-big h3 {margin-bottom: 40px}
-.article-big h4 {margin-bottom: 30px}
-.article-big p {margin-bottom: 20px; font-size: 14pt}
+.page-title h3 {margin-bottom: 40px}
+.page-title h4 {margin-bottom: 30px}
+.page-content p {margin-bottom: 20px; font-size: 14pt}
+
+.panel .panel-heading {background-color: #fe8564}
+.panel .panel-heading .panel-title {font-weight: 600; color:black}
 
 .btn { border: 0px; background: transparent; }
 .btn:Hover { opacity: 1; }
 .btn-lg { font-size: 28px; }
 .btn-sm { font-size: 20px; }
-.btn .fa {opacity: .4; color: #fff; margin-right: 10px;}
+.btn .fa {opacity: .4; color: #000; margin-right: 10px;}
 .btn-lg span {position: relative; top:-8px;}
 .btn-sm span { position: relative; }
-.btn-primary { opacity: 1;  color: #fff;}
+.btn-primary { opacity: 1;  color: #fff; background: #fe4918}
 .btn-secondary {opacity: 1; background: #7db660; color: #fff; }
-.btn-primary:hover{ background: #fe4918 !important; color: #fff; }
+.btn-primary:hover{ background: #000 !important; color: #fff; }
 .btn-primary:hover .fa {color:white;}
+
+.navbar .btn {border:0px}
+.navbar .btn .fa  {color: #fff;}
+.navbar .btn-primary { color: #000; background: transparent}
+.navbar .btn-primary:hover{ background: #fe4918 !important; color: #fff; }
 
 .navbar {min-height: 70px}
 #navbar-logo {height:50px; position: relative; top: -5px;}
@@ -65,6 +74,10 @@ h4 {font-size: 32px}
 .page-banner ul li {display: inline; padding-right: 20px;}
 .page-banner .btn-primary:hover{ background: #4918fe !important; color: #fff; }
 
+
+#become-sponsor {text-align:center; display:block}
+#become-sponsor .btn {display: block}
+	
 .sponsor-table th {font-size: 16pt; text-align:center }
 .sponsor-table th .price {font-size: 12pt}
 .sponsor-table td { font-size: 14pt; font-weight: 500}
@@ -101,7 +114,10 @@ h4 {font-size: 32px}
   
   #landing { padding-top: 2%; }
   #landing h2{font-size: 18pt; margin: 0px 0px 20px 0px;}
-
+	
+	
+	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
+	#become-sponsor .btn {display: inline-block}
 
   }
 }
