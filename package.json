@@ -1,7 +1,7 @@
 {
   "name": "techfest-2014",
   "version": "0.0.0",
-  "description": "Little Rock Techfest 2014",
+  "description": "Little Rock Tech Fest 2014",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
