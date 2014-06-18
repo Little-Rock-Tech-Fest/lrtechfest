@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.js" />
+    <Compile Include="public\js\google-analytics.js" />
     <Compile Include="public\js\jquery.countdown.min.js" />
     <Compile Include="public\js\jquery.plugin.min.js" />
     <Compile Include="public\js\loadWufoo.js" />
