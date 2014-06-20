@@ -57,7 +57,7 @@ h4 {font-size: 32px}
 #time-place .fa {margin: 0px 10px 0px 0px; font-size: 20pt; top: -3px;}
 #time-place .sep { width: 15px; display: inline-block; }
 #time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
-#landing .landing-content { position: absolute; top: 50%; left: 0; right: 0; margin-top: -195px; color:#fff;}
+#landing .landing-content { position: absolute; left: 0; right: 0;  color:#fff;}
 #landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 100pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; }
 #landing h2 { font-size: 22pt; margin: 15px 0px 40px 0px; }
 #landing button {margin-left: 10px}
@@ -93,7 +93,6 @@ h4 {font-size: 32px}
 /* Mobile device */
 @media (max-width: 480px) {
   #landing .btn { margin: 0px 0px 15px 0px; }
-  #landing .landing-content { top: 57%; }
   #landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px; }
   #landing h2 {font-size: 18pt; margin: 0px 0px 20px 0px;}
 
@@ -119,8 +118,18 @@ h4 {font-size: 32px}
 	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
 	#become-sponsor .btn {display: inline-block}
 
-  }
 }
+
+@media (max-width: 991px) {
+	#navbar-techfest .fa{font-size: 1.5em}
+	.navbar {min-height: 50px}
+	#navbar-logo {height:40px; top: -8px;}
+	.navbar .navbar-nav .btn {margin-right:5px; }
+	.navbar .navbar-nav .btn span {top:-4px;}
+	.navbar .social {margin-right: 2px; font-size:20px}
+	body {padding-top: 50px;}
+	#navbar-techfest a {padding-left: 8px; padding-right: 8px;}
+	}
 
 /* Tablet device */
 @media (max-width: 991px) and (min-width: 768px) {
