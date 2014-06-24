@@ -4,8 +4,8 @@ block stylesheets
 	link(href="/public/css/jquery.countdown.css", rel="stylesheet")
 
 block content
-	#landing.jumbotron
-		.landing-content.text-center
+	#landing
+		#announcement-content.text-center
 			.container
 				#time-place
 					hr
@@ -16,8 +16,8 @@ block content
 						span.h3.fa.fa-map-marker
 						span UALR
 					hr
-				h1 Little Rock<br/> Tech Fest
-				h2 One-day <strong>technology</strong> conference featuring popular developer topics from industry leaders
+				h1 Little Rock<br> Tech Fest
+				h3 One-day <strong>technology</strong> conference featuring popular developer topics from industry leaders
 
 				#timer
 					#timer-div
@@ -28,6 +28,37 @@ block content
 						button(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-secondary btn-sm")
 							i.fa.fa-envelope.fa-lg
 							span Subscribe
+		#sponsors-content
+			.container-fluid
+				.row.sponsor-header
+					h2.text-center Check Out Our Sponsors!
+				.row.sponsor-level
+					h3 Platinum
+				.row
+					.col-md-3.col-sm-4.col-sm-6
+						.thumbnail
+							img(src="/public/img/lrdnug.jpg")
+					.col-md-3.col-sm-4.col-sm-6
+						.thumbnail.your-logo-here
+									h3 Your Logo Here
+				.row.sponsor-level
+					h3 Gold
+				.row
+					.col-md-3.col-sm-4.col-sm-6
+						.thumbnail.your-logo-here
+							h3 Your Logo Here
+				.row.sponsor-level
+					h3 Silver
+				.row
+					.col-md-3.col-sm-4.col-sm-6
+						.thumbnail.your-logo-here
+							h3 Your Logo Here
+				.row.sponsor-level
+					h3 Bronze
+				.row
+					.col-md-3.col-sm-4.col-sm-6
+						.thumbnail.your-logo-here
+							h3 Your Logo Here
 
 block scripts
 	script(src="/public/js/jquery.plugin.min.js")

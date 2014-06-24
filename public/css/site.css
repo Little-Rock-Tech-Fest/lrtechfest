@@ -49,23 +49,37 @@ h4 {font-size: 32px}
 .navbar-inverse .navbar-nav>li>a:hover.social {color:#999;}
 .navbar .social {margin-right: 10px; font-size:20px}
 
-#landing { background: url('../img/lrskyline-small.jpg') center center no-repeat;
+#announcement-content {
+	background: url('../img/lrskyline-small.jpg') center center no-repeat;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
-	background-size: cover; background-attachment: fixed; min-height: 500px; 
-	overflow:hidden; margin-bottom: 0px;  }
+	background-size: cover; background-attachment: fixed; 
+	overflow:hidden; margin-bottom: 0px;
+	color:#fff;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 100pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; }
+#landing h2 { font-family: 'Ubuntu', sans-serif; font-size: 50pt; text-transform: uppercase; }
+#landing button {margin-left: 10px}
+
 #time-place .time-place-inner { font-size: 18pt; font-weight:300; display: inline-block; margin: 0 20px 15px; position: relative; top: -12px; }
 #time-place .fa {margin: 0px 10px 0px 0px; font-size: 20pt; top: -3px;}
 #time-place .sep { width: 15px; display: inline-block; }
 #time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
-#landing .landing-content { position: absolute; left: 0; right: 0;  color:#fff;}
-#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 100pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; }
-#landing h2 { font-size: 22pt; margin: 15px 0px 40px 0px; }
-#landing button {margin-left: 10px}
+
 
 #timer-div {margin-bottom: 50px}
 .is-countdown {background-color: transparent;}
 
 #mce-EMAIL {font-size: 28; color:black; min-width: 300px}
+
+#sponsors-content {background-color: white; color: black;}
+#sponsors-content .sponsor-header {background-color: #7db660; color: black}
+#sponsors-content .sponsor-level {background-color: black; margin-bottom: 15px; color: white}
+#sponsors-content .sponsor-level h3 {margin-left: 40px;}
+#sponsors-content .thumbnail { min-height:300px; overflow:hidden}
+#sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; }
+#sponsors-content h3 {}
 
 .page-banner{background-color: #7db660; margin-bottom: 30px;}
 .page-banner-title {font-size: 36px; font-weight: 500; display: inline; vertical-align: middle; padding-bottom: 10px}
@@ -73,7 +87,6 @@ h4 {font-size: 32px}
 .page-banner ul {list-style-type: none; margin-bottom: 0px}
 .page-banner ul li {display: inline; padding-right: 20px;}
 .page-banner .btn-primary:hover{ background: #4918fe !important; color: #fff; }
-
 
 #become-sponsor {text-align:center; display:block}
 #become-sponsor .btn {display: block}
@@ -92,9 +105,10 @@ h4 {font-size: 32px}
 
 /* Mobile device */
 @media (max-width: 480px) {
-  #landing .btn { margin: 0px 0px 15px 0px; }
-  #landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px; }
-  #landing h2 {font-size: 18pt; margin: 0px 0px 20px 0px;}
+	#landing .btn { margin: 0px 0px 15px 0px; }
+	#landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px; }
+  #landing h2 {font-size: 24pt; margin: 0px 0px 20px 0px;}
+	#landing h3 {font-size: 18pt; margin: 0px 0px 20px 0px;}
 
   #time-place .time-place-inner {  margin: 0; position: static; }
   #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px;}
@@ -102,22 +116,16 @@ h4 {font-size: 32px}
 
 
 @media (max-width: 767px) {
-  #landing .btn { margin: 0px 0px 15px 0px; }
-  #landing h1 {
+	#landing .btn { margin: 0px 0px 15px 0px; }
+	#landing h1 {
   font-size: 80px;
   text-transform: uppercase;
   line-height: 70px; 
   margin-top: 10px;
   margin-bottom: 0px;
   }
-  
-  #landing { padding-top: 2%; }
-  #landing h2{font-size: 18pt; margin: 0px 0px 20px 0px;}
-	
-	
 	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
 	#become-sponsor .btn {display: inline-block}
-
 }
 
 @media (max-width: 991px) {
@@ -133,7 +141,7 @@ h4 {font-size: 32px}
 
 /* Tablet device */
 @media (max-width: 991px) and (min-width: 768px) {
-  #landing h1 { font-size: 130px; }
+	#landing h1 { font-size: 130px; }
 }
 
 /* Desktop small screen */

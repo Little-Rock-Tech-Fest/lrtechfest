@@ -43,6 +43,7 @@
     <Content Include="public\css\jquery.countdown.css" />
     <Content Include="public\css\site.css" />
     <Content Include="public\img\logo_lrtf-white.png" />
+    <Content Include="public\img\lrdnug.jpg" />
     <Content Include="public\img\lrskyline-small.jpg" />
     <Content Include="public\img\lrskyline.jpg" />
     <Content Include="README.md" />
