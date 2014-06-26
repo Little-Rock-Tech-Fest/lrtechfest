@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5 {font-weight: 100px; display: block}
 h4, h5, h6 {margin-top: 10px;}
 h3 {font-size: 40px}
 h4 {font-size: 32px}
+h5 {font-size: 24px}
 
 .page-title h3 {margin-bottom: 40px}
 .page-title h4 {margin-bottom: 30px}
@@ -73,13 +74,21 @@ h4 {font-size: 32px}
 
 #mce-EMAIL {font-size: 28; color:black; min-width: 300px}
 
-#sponsors-content {background-color: white; color: black;}
+#sponsors-content {background-color: white; color: black; margin-bottom: 30px}
+#sponsors-content a {color:inherit; text-decoration:none}
 #sponsors-content .sponsor-header {background-color: #7db660; color: black}
-#sponsors-content .sponsor-level {background-color: black; margin-bottom: 15px; color: white}
-#sponsors-content .sponsor-level h3 {margin-left: 40px;}
-#sponsors-content .thumbnail { min-height:300px; overflow:hidden}
-#sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; }
-#sponsors-content h3 {}
+#sponsors-content .logo-row {margin-top: 10px}
+#sponsors-content .logo-container {padding: 20px; border:1px solid #d8d8d8; margin-left: 50px; margin-top: 20px; display:inline-block}
+#sponsors-content .logo { overflow:hidden; height: 300px; width: 300px; margin: 0 auto}
+#sponsors-content .logo img {width: 300px; height:auto; max-height:300px}
+#sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; height: 300px; width:300px; background-color:lightgray; padding:10px; background-clip: padding-box;}
+#sponsors-content .level{ margin-bottom: 20px; font-size: 28px; font-weight: 500; text-align:center; background-color:black; color:white; margin-left:-20px; margin-right:-20px;}
+#sponsors-content .level span{ position:relative; top: -3px}
+#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em; text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black}
+#sponsors-content .fa.platinum {color:#E5E4E2; }
+#sponsors-content .fa.gold {color:#FFDF00; }
+#sponsors-content .fa.silver {color:#C0C0C0; }
+#sponsors-content .fa.bronze {color:#CD7F32; }
 
 .page-banner{background-color: #7db660; margin-bottom: 30px;}
 .page-banner-title {font-size: 36px; font-weight: 500; display: inline; vertical-align: middle; padding-bottom: 10px}
@@ -109,6 +118,16 @@ h4 {font-size: 32px}
 	#landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px; }
   #landing h2 {font-size: 24pt; margin: 0px 0px 20px 0px;}
 	#landing h3 {font-size: 18pt; margin: 0px 0px 20px 0px;}
+	#landing h4 {font-size: 14pt; margin: 0px 0px 20px 0px;}
+
+	#sponsors-content .logo-row {margin-top: 10px}
+	#sponsors-content .logo-container {padding: 15px; margin-top: 20px; display:inline-block}
+	#sponsors-content .logo { height: 200px; width: 200px; }
+	#sponsors-content .logo img {width: 200px; height:auto; max-height:200px}
+	#sponsors-content .your-logo-here{ height: 200px; width:200px; padding:10px; }
+	#sponsors-content .level{ margin-bottom: 20px; font-size: 20px; font-weight: 500; margin-left:-15px; margin-right:-15px;}
+	#sponsors-content .level span{  top: -3px}
+	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em;}
 
   #time-place .time-place-inner {  margin: 0; position: static; }
   #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px;}

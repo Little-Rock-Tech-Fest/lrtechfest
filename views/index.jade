@@ -31,34 +31,46 @@ block content
 		#sponsors-content
 			.container-fluid
 				.row.sponsor-header
-					h2.text-center Check Out Our Sponsors!
-				.row.sponsor-level
-					h3 Platinum
-				.row
-					.col-md-3.col-sm-4.col-sm-6
-						.thumbnail
-							img(src="/public/img/lrdnug.jpg")
-					.col-md-3.col-sm-4.col-sm-6
-						.thumbnail.your-logo-here
+					h2.text-center Sponsors
+					h4.text-center We love our fantastic sponsors. Without their support, Little Rock Techfest would not happen.
+				.row.logo-row
+
+						.logo-container
+							.level
+								i.fa.fa-trophy.platinum
+								span Platinum Sponsor
+							.logo
+								img(src="/public/img/sponsors/logo_lrdnug.png")
+
+						.logo-container
+							.level
+								i.fa.fa-trophy.gold
+								span Gold Sponsor
+							.logo
+								img(src="/public/img/sponsors/innovateark.jpg")
+
+						.logo-container
+							.level
+								i.fa.fa-trophy.bronze
+								span Bronze Sponsor
+							.logo
+								img(src="/public/img/sponsors/logo_argov.png")
+
+						.logo-container
+							.level
+								i.fa.fa-trophy.bronze
+								span Bronze Sponsor
+							.logo
+								img(src="/public/img/sponsors/sqlsmash_small.png")
+
+						.logo-container
+							.level
+								i.fa.fa-trophy.silver
+								span Sponsor Us!
+							a(href="/sponsors")
+								.logo.your-logo-here
 									h3 Your Logo Here
-				.row.sponsor-level
-					h3 Gold
-				.row
-					.col-md-3.col-sm-4.col-sm-6
-						.thumbnail.your-logo-here
-							h3 Your Logo Here
-				.row.sponsor-level
-					h3 Silver
-				.row
-					.col-md-3.col-sm-4.col-sm-6
-						.thumbnail.your-logo-here
-							h3 Your Logo Here
-				.row.sponsor-level
-					h3 Bronze
-				.row
-					.col-md-3.col-sm-4.col-sm-6
-						.thumbnail.your-logo-here
-							h3 Your Logo Here
+									h5 Click here to learn about available sponsorship opportunities
 
 block scripts
 	script(src="/public/js/jquery.plugin.min.js")
