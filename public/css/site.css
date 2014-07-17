@@ -116,6 +116,12 @@ h5 {font-size: 24px}
 .special-sponsorship .price {font-size: 11pt; font-weight:300; text-wrap:avoid}
 .special-sponsorship i {float:left; margin:10px}
 
+.location-box {margin-bottom:20px; margin-left:10px}
+.location-icon {margin-right:10px; display:inline-block; font-size:30px;}
+.location-title {font-weight: 400; font-size:30px; display:inline-block}
+.location-text span{ display:block; margin-left:8px}
+#parking-map img {max-width:400px; border:5px solid black; border-radius:10px}
+
 #footer {margin-bottom: 50px}
 /* Mobile device */
 @media (max-width: 480px) {
@@ -135,7 +141,9 @@ h5 {font-size: 24px}
 	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em;}
 
   #time-place .time-place-inner {  margin: 0; position: static; }
-  #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px;}
+  #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
+
+	#parking-map img {max-width:300px; }
 }
 
 /*This is the point that we go down to one column of sponsors*/

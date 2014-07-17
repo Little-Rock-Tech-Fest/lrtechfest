@@ -9,15 +9,20 @@ block content
 						.page-banner-title Venue
 	.container
 		.row
-			span.h2.fa.fa-map-marker
-			span.h2 Location
-		.row
-			span Donaghey Student Center, UALR, 
-			span 2801 S University Ave, Little Rock, AR 72204
-		.row
-			span.h2.fa.fa-car
-			span.h2 Parking
-		.row
-			span Please park in the parking deck
-		.row
-			img(src="http://i.imgur.com/5j7ME0V.png")
+			.col-md-4
+				.row.location-box
+					.location-icon.fa.fa-map-marker
+					.location-title Location
+					p.location-text
+						span 2801 S University Ave 
+						span Donaghey Student Center 
+						span Little Rock, AR 72204
+				.row.location-box
+					.location-icon.fa.fa-car
+					.location-title Parking
+					p.location-text 
+						span Please park in the parking deck
+			.col-md-8
+				#parking-map
+					a(href="http://i.imgur.com/5j7ME0V.png")
+						img(src="http://i.imgur.com/5j7ME0V.png")

@@ -22,10 +22,6 @@ app.get("/venue", function (req, res) {
 	res.render('venue')
 });
 
-app.get("/schedule", function (req, res) {
-	res.render('schedule')
-});
-
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
 		if (err) {
