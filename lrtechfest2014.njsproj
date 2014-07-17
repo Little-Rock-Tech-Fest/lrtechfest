@@ -51,6 +51,7 @@
     <Content Include="views\call.jade" />
     <Content Include="views\index.jade" />
     <Content Include="views\layout.jade" />
+    <Content Include="views\schedule.jade" />
     <Content Include="views\sponsors.jade" />
     <Content Include="views\sponsor_list.jade" />
   </ItemGroup>
@@ -63,6 +64,7 @@
     <Folder Include="views\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="views\venue.jade" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config" />
     <Content Include="bin\ChangeConfig.ps1" />

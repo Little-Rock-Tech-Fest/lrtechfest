@@ -5,8 +5,8 @@ blue: #4918fe;
 light orange #fead97
 */
 
-body { font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal; padding-top: 70px }
-.btn { font-family: 'Roboto', sans-serif; font-weight: 200; font-style: normal; }
+body { font-family: 'Roboto', sans-serif; font-weight: 100; font-style: normal; padding-top: 50px }
+.btn { font-family: 'Roboto', sans-serif; font-weight: 600; font-style: normal; }
 
 body { color: #000; font-size: 11pt; background: #fff; margin: 0; }
 p {font-size:11pt; line-height: 20pt; font-weight:300;}
@@ -27,9 +27,9 @@ h5 {font-size: 24px}
 .btn { border: 0px; background: transparent; }
 .btn:Hover { opacity: 1; }
 .btn-lg { font-size: 28px; }
-.btn-sm { font-size: 20px; }
+.btn-sm { font-size: 14px; }
 .btn .fa {opacity: .4; color: #000; margin-right: 10px;}
-.btn-lg span {position: relative; top:-8px;}
+.btn-lg span {position: relative; top:-6px;}
 .btn-sm span { position: relative; }
 .btn-primary { opacity: 1;  color: #fff; background: #fe4918}
 .btn-secondary {opacity: 1; background: #7db660; color: #fff; }
@@ -37,18 +37,22 @@ h5 {font-size: 24px}
 .btn-primary:hover .fa {color:white;}
 
 .navbar .btn {border:0px}
-.navbar .btn .fa  {color: #fff;}
+.navbar .fa  {color: #fff; opacity: .4; margin-right: 10px;}
 .navbar .btn-primary { color: #000; background: transparent}
 .navbar .btn-primary:hover{ background: #fe4918 !important; color: #fff; }
 
-.navbar {min-height: 70px}
-#navbar-logo {height:50px; position: relative; top: -5px;}
+.navbar {min-height: 40px}
+#navbar-logo {height:40px; position: relative; top: -5px;}
 .navbar-inverse .navbar-nav>li>a span {color:white;}
-.navbar .navbar-nav .btn {margin-right:10px; text-align:left}
-.navbar .navbar-nav .btn span {top:-8px;}
+.navbar .navbar-nav .btn {margin-right:5px; text-align:left}
+.navbar .navbar-nav .btn span {top:-5px;}
 .navbar-inverse .navbar-nav>li>a.social {color:white;}
 .navbar-inverse .navbar-nav>li>a:hover.social {color:#999;}
-.navbar .social {margin-right: 10px; font-size:20px}
+.navbar .social {margin-right: 10px; font-size:14px}
+
+.navbar .dropdown > i {display:inline-block}
+.navbar .dropdown > a {display:inline-block; font-size:14px; font-weight:600}
+.navbar .dropdown > a > span {position:relative; top:-5px}
 
 #announcement-content {
 	background: url('../img/lrskyline-small.jpg') center center no-repeat;
@@ -115,6 +119,12 @@ h5 {font-size: 24px}
 .speaker-question {}
 .speaker-answer {font-size:11pt; line-height: 20pt; font-weight:300;}
 
+.location-box {margin-bottom:20px; margin-left:10px}
+.location-icon {margin-right:10px; display:inline-block; font-size:30px;}
+.location-title {font-weight: 400; font-size:30px; display:inline-block}
+.location-text span{ display:block; margin-left:8px}
+#parking-map img {max-width:400px; border:5px solid black; border-radius:10px}
+
 #footer {margin-bottom: 50px}
 /* Mobile device */
 @media (max-width: 480px) {
@@ -134,7 +144,9 @@ h5 {font-size: 24px}
 	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em;}
 
   #time-place .time-place-inner {  margin: 0; position: static; }
-  #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px;}
+  #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
+
+	#parking-map img {max-width:300px; }
 }
 
 /*This is the point that we go down to one column of sponsors*/

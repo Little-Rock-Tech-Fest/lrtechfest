@@ -1,4 +1,5 @@
 var express = require('express');
+var fs = require('fs');
 var app = express();
 
 app.set('views', __dirname+"/views");
@@ -10,12 +11,23 @@ app.get("/call", function(req, res){
 });
 
 app.get("/sponsors", function(req, res){
-	//res.render('sponsor_list')
 	res.render('become_sponsor');
 });
 
 app.get("/become-sponsor", function(req, res){
 	res.render('become_sponsor')
+});
+
+app.get("/venue", function (req, res) {
+	res.render('venue')
+});
+
+app.get("/programs/:year", function (req, res) {
+	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
+		if (err) {
+			res.send(404);
+		}
+	});
 });
 
 app.get('/', function(req, res){
