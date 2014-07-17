@@ -112,6 +112,9 @@ h5 {font-size: 24px}
 .special-sponsorship .price {font-size: 11pt; font-weight:300; text-wrap:avoid}
 .special-sponsorship i {float:left; margin:10px}
 
+.speaker-question {}
+.speaker-answer {font-size:11pt; line-height: 20pt; font-weight:300;}
+
 #footer {margin-bottom: 50px}
 /* Mobile device */
 @media (max-width: 480px) {
