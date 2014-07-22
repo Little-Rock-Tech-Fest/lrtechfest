@@ -195,3 +195,9 @@ h5 {font-size: 24px}
 		width: 970px;
 	}
 }
+
+#footer {
+	padding-top: 10px;
+	text-align: center;
+	font-size: small;
+}
