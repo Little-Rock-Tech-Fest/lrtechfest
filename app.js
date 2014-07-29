@@ -34,5 +34,8 @@ app.get('/', function(req, res){
 	res.render('index')
 });
 
-var port = Number(process.env.PORT || 9990);
+var port = process.env.PORT;
+if (!port) {
+	port = 9990;
+}
 app.listen(port);
