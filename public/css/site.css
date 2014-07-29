@@ -123,10 +123,47 @@ h5 {font-size: 24px}
 .location-icon {margin-right:10px; display:inline-block; font-size:30px;}
 .location-title {font-weight: 400; font-size:30px; display:inline-block}
 .location-text span{ display:block; margin-left:8px}
-#parking-map img {max-width:400px; border:5px solid black; border-radius:10px}
+
+#parking-map iframe {width:600px; height:450px; border:5px solid black; border-radius:10px}
 
 #footer {margin-bottom: 50px}
+
+
 /* Mobile device */
+
+
+@media (max-width: 991px) {
+	#navbar-techfest .fa{font-size: 1.5em}
+	.navbar {min-height: 50px}
+	#navbar-logo {height:40px; top: -8px;}
+	.navbar .navbar-nav .btn {margin-right:5px; }
+	.navbar .navbar-nav .btn span {top:-4px;}
+	.navbar .social {margin-right: 2px; font-size:20px}
+	body {padding-top: 50px;}
+	#navbar-techfest a {padding-left: 8px; padding-right: 8px;}
+	#time-place .time-place-inner {  margin: 0; position: static; }
+	#time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
+	}
+
+@media (max-width: 767px) {
+	#landing .btn { margin: 0px 0px 15px 0px; }
+	#landing h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+  line-height: 70px; 
+  margin-top: 10px;
+  margin-bottom: 0px;
+  }
+	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
+	#become-sponsor .btn {display: inline-block}
+}
+
+/*This is the point that we go down to one column of sponsors*/
+@media (max-width: 640px){
+		#sponsors-content .logo-row {text-align:center}
+		#parking-map iframe {width:400px; height:307px; }
+}
+
 @media (max-width: 480px) {
 	#landing .btn { margin: 0px 0px 15px 0px; }
 	#landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px;} 
@@ -143,41 +180,8 @@ h5 {font-size: 24px}
 	#sponsors-content .level span{  top: -3px}
 	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em;}
 
-  #time-place .time-place-inner {  margin: 0; position: static; }
-  #time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
-
-	#parking-map img {max-width:300px; }
+	#parking-map iframe {width:300px; height:230px; }
 }
-
-/*This is the point that we go down to one column of sponsors*/
-@media (max-width: 640px){
-		#sponsors-content .logo-row {text-align:center}
-}
-
-
-@media (max-width: 767px) {
-	#landing .btn { margin: 0px 0px 15px 0px; }
-	#landing h1 {
-  font-size: 80px;
-  text-transform: uppercase;
-  line-height: 70px; 
-  margin-top: 10px;
-  margin-bottom: 0px;
-  }
-	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
-	#become-sponsor .btn {display: inline-block}
-}
-
-@media (max-width: 991px) {
-	#navbar-techfest .fa{font-size: 1.5em}
-	.navbar {min-height: 50px}
-	#navbar-logo {height:40px; top: -8px;}
-	.navbar .navbar-nav .btn {margin-right:5px; }
-	.navbar .navbar-nav .btn span {top:-4px;}
-	.navbar .social {margin-right: 2px; font-size:20px}
-	body {padding-top: 50px;}
-	#navbar-techfest a {padding-left: 8px; padding-right: 8px;}
-	}
 
 /* Tablet device */
 @media (max-width: 991px) and (min-width: 768px) {
