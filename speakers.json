@@ -1,0 +1,17 @@
+[
+	{
+		"Id" : 1,
+		"FirstName": "Homer",
+		"LastName": "Simpson",
+		"Bio": "Homer is an all-around regular guy. By day he works at a nuclear power plant. By night he eats donuts.",
+		"Website": "www.thesimpsons.com",
+		"Photo": "/public/img/speakers/homer.jpg",
+		"Presentations":[
+			{
+				"Track":"Other",
+				"Topic": "Lazy Evaluation",
+				"Description": "How to evaluate things while sitting on the couch watching tv"
+			}
+		]	
+	}
+]
