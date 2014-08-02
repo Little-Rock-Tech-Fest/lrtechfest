@@ -1,16 +1,127 @@
 [
 	{
 		"Id" : 1,
-		"FirstName": "Homer",
-		"LastName": "Simpson",
-		"Bio": "Homer is an all-around regular guy. By day he works at a nuclear power plant. By night he eats donuts.",
-		"Website": "www.thesimpsons.com",
-		"Photo": "/public/img/speakers/homer.jpg",
+		"FirstName": "Taylor",
+		"LastName": "Otwell",
+		"Bio": "Taylor is one of the top 10 most active Github users in the world, as well as the creator of the Laravel PHP web framework, which is the most popular PHP web framework on Github. A lifetime Arkansan, Taylor is passionate about all things web and is a Software Engineer for UserScape as well as the founder of Forge, a PHP server provisioning and deployment service.",
+		"Website": "http://taylorotwell.com",
+		"Photo": "/public/img/speakers/taylor_otwell.jpg",
 		"Presentations":[
 			{
-				"Track":"Other",
-				"Topic": "Lazy Evaluation",
-				"Description": "How to evaluate things while sitting on the couch watching tv"
+				"Track":"Web",
+				"Topic": "Intro To Angular.js",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 2,
+		"FirstName": "Mark Anthony",
+		"LastName": "McCray",
+		"Bio": "Mark Anthony McCray is a speaker, financial counselor and entrepreneur - the last label basically means he's always open to new opportunities so see talk to him after the program. His passion is helping people get beyond their spiritual, emotional, financial, and entrepreneurial and LIFE limitations. He is committed to killing IGNORANCE and hopelessness worldwide! 
+
+Known as a knowledgeable and inspiring teacher, Mark Anthony has launched several businesses, worked in full-time ministry and served on multiple advisory boards such as the Austin CDC Entrepreneur Development Program, Collegiate Entrepreneurs Organization and the Texas State University: - Management & Marketing Advisory Council. He currently lives and works in Houston but is planning to spend more time out here in God's country so don't hold that against him.
+
+He gets great joy from teaching people how to find hope, learn winning methods and then helping them in their life journeys. Mark has assisted thousands of entrepreneurs with their consulting, business and financial planning needs through his seminars, workshops, outreach programs, radio Interviews, published articles, coaching and mastermind groups. For more information about Mark, check out: http://livebigdieempty.blogspot.com/p/about-mark_29.html
+
+Most important, he's always happy to share!",
+		"Website": "http://livebigdieempty.blogspot.com",
+		"Photo": "/public/img/speakers/default.jpg",
+		"Presentations":[
+		]	
+	},
+	{
+		"Id" : 3,
+		"FirstName": "Seth",
+		"LastName": "Fendley",
+		"Bio": "Seth Fendley has been an Inbound Marketing Specialist and Project Manager at ClearPivot for 3 years. Currently pursuing he is Masters in Communication Studies from Arkansas State University. In pursuing his graduate degree he is actively researching ways for businesses to stay ahead of the social media curve. In his spare time you can find him working as the Assistant Debate Coach for Arkansas State and representing the university as the team captain of their disc golf team.",
+		"Website": "http://www.clearpivot.com",
+		"Photo": "/public/img/speakers/seth_fendley.jpg",
+		"Presentations":[
+			{
+				"Track":"Collaboration and Content Management",
+				"Topic": "Telecommuting 101: Tips & Tricks to effectively managing projects online",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 4,
+		"FirstName": "Dustin",
+		"LastName": "Williams",
+		"Bio": "Dustin started life as a developer, which influences his design. He draws on keen understanding, experience, seeing, and confidence to design with clean lines and strong user focus. Dustin has worked for many Fortune 500 companies & startups, often employing user research to focus on user experience.
+
+Dustin’s many specialties all have “user experience” at their core. They include Interaction Design, User Interface Design, Website Design, Website Development, Conversion Rate Optimization, User Testing and Usability. With a strong user experience background and deep understanding of the production process, Dustin is well equipped to conceive innovative experiences, but also manage the execution of those ideas down to the pixel.
+
+Dustin is deeply rooted in the Arkansas Startup Eco-System and is currently a founding partner of a startup (BourbonAndBoots.com). Dustin is a supporter of the Arkansas Venture Center, an organizer in the Little Rock, AR chapter of 1 Million Cups and a past Mentor for The ARK Challenge Northwest Arkansas.
+
+While living in Seattle, Dustin worked with Microsoft Mobile, Microsoft Zune and TEAGUE. Dustin has also worked with Arkansas based companies such as Walmart and Acumen Brands (CountryOutfitter.com).",
+		"Website": "http://www.dustinowilliams.com",
+		"Photo": "/public/img/speakers/dustin_williams.jpg",
+		"Presentations":[
+			{
+				"Track": "UI/UX",
+				"Topic": "Using data to design killer experiences for your user",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 5,
+		"FirstName": "Ryan",
+		"LastName": "Rousseau",
+		"Bio": "Ryan has been programming for over 10 years in various languages and platforms. He is always trying to find ways to automate and make cumbersome processes easier.",
+		"Website": "",
+		"Photo": "/public/img/speakers/ryan_rousseau.jpg",
+		"Presentations":[
+			{
+				"Track": "Other",
+				"Topic": "Automated deployment for .NET with Octopus Deploy",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 6,
+		"FirstName": "Randy",
+		"LastName": "Walker",
+		"Bio": "A MicroISV owner for 8 years, Microsoft MVP for 6 years, and former Board member for INETA, Randy Walker has dedicated his life efforts towards fostering the software development community and discipiling young men for Christ.",
+		"Website": "",
+		"Photo": "/public/img/speakers/randy_walker.jpg",
+		"Presentations":[
+		]	
+	},
+	{
+		"Id" : 7,
+		"FirstName": "Maya",
+		"LastName": "Gaddie",
+		"Bio": "I am a Digital Mentor. I work with those who believe what I believe, which is: their diversity and radically different perspectives matter, and that they should be seen and heard. I help them spread their message by figuring out what digital tools are easy for them to use and implement. If we work together in my mentoring group, they design the organized and streamlined business and lifestyle they’ve been dreaming about and free up their time and location to create a life they enjoy.
+
+You can also see my professional biography here: http://www.mayagaddie.com/professionalbio",
+		"Website": "http://www.mayagaddie.com",
+		"Photo": "/public/img/speakers/maya_gaddie.jpg",
+		"Presentations":[
+			{
+				"Track": "Tech Entrepreneurship",
+				"Topic": "How Purpose-Driven Entrepreneurs Can Use Digital Tools To Spread Their Message with Ease",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 8,
+		"FirstName": "David",
+		"LastName": "Felio",
+		"Bio": "David Felio is a Managing Consultant in the Application Security practice at FishNet Security. During his years in application security, he has conducted scores of application assessments and code reviews. He also delivers application security training classes, threat modeling, architecture reviews, and secure SDLC reviews. David has conducted assessments and training for national and international clients in myriad industries, including retail, healthcare, petroleum, financial services, and government. 
+
+David has been working in information technology for over 15 years. Prior to joining FishNet Security, David worked for a government contractor, where he led his division’s security efforts. Before realizing he enjoyed breaking applications more than building them, he was a senior developer. David is a PCI QSA and a member of the SANS/GIAC advisory board.",
+		"Website": "",
+		"Photo": "/public/img/speakers/default.jpg",
+		"Presentations":[
+			{
+				"Track": "Web",
+				"Topic": "To OWASP and Beyond - Common Application Vulnerabilities",
+				"Description": ""
 			}
 		]	
 	}
