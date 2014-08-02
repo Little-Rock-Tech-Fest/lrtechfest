@@ -1,0 +1,33 @@
+extends layout-speaker
+
+block speaker-content
+	.container
+		.row.page-title.col-md-12
+			h3 Little Rock Tech Fest 2014 Speakers
+			p Interested in seeing your profile here? We're still <a href="/call">accepting</a> proposals!
+			.speaker 
+				hr
+
+		each speaker in speakers
+			.row.speaker
+				.col-sm-2.photo
+					img(src="#{speaker.Photo}")
+				.col-sm-8
+					div.name #{speaker.FirstName} #{speaker.LastName}
+					div.section-title Meet #{speaker.FirstName}
+					p.section-content #{speaker.Bio}
+					for talk in speaker.Presentations
+						div.section-title #{talk.Topic}
+						p.secton-content #{talk.Description}
+					p.section-content
+						if(speaker.Twitter)
+							div.fa.fa-twitter 
+								a(href="http://www.twitter.com/#{speaker.Twitter}")
+									span #{speaker.Twitter}
+						if(speaker.Website)
+							div.fa.fa-globe
+								a(href="http://www.#{speaker.Website}")
+									span #{speaker.Website}
+			.row.speaker
+				hr
+					

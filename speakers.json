@@ -4,8 +4,9 @@
 		"FirstName": "Homer",
 		"LastName": "Simpson",
 		"Bio": "Homer is an all-around regular guy. By day he works at a nuclear power plant. By night he eats donuts.",
-		"Website": "www.thesimpsons.com",
+		"Website": "thesimpsons.com",
 		"Photo": "/public/img/speakers/homer.jpg",
+		"Twitter":  "homersimpson",
 		"Presentations":[
 			{
 				"Track":"Other",
