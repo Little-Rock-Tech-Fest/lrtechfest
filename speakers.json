@@ -138,5 +138,20 @@
 				"Description": ""
 			}
 		]	
+	},
+	{
+		"Id" : 10,
+		"FirstName": "Sean",
+		"LastName": "Townsend",
+		"Bio": "<p>Sean is currently an Android developer with Rockfish Digital. He prefers dark chocolate to milk chocolate and tea over coffee.</p>",
+		"Website": "",
+		"Photo": "/public/img/speakers/default.jpg",
+		"Presentations":[
+			{
+				"Track": "Mobile",
+				"Topic": "Developing Mobile Games With LibGDX",
+				"Description": ""
+			}
+		]	
 	}
 ]
