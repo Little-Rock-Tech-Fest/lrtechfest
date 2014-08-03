@@ -122,10 +122,9 @@
 		"Id" : 9,
 		"FirstName": "Michael",
 		"LastName": "Perry",
-		"Bio": "Software is math. Every class is a theorem. The compiler is the proof. And unit tests check our work.
-
-Michael has recorded Pluralsight courses on CQRS, XAML Patterns, and Cryptography, in addition to Provable Code. He maintains the spoon-bending Update Controls and Correspondence open-source libraries. And he helps his clients at Improving Enterprises benefit from the power of software mathematics. You can find out more at qedcode.com.",
+		"Bio": "<p>Software is math. Every class is a theorem. The compiler is the proof. And unit tests check our work.</p> <p>Michael has recorded Pluralsight courses on CQRS, XAML Patterns, and Cryptography, in addition to Provable Code. He maintains the spoon-bending Update Controls and Correspondence open-source libraries. And he helps his clients at Improving Enterprises benefit from the power of software mathematics. You can find out more at qedcode.com.</p>",
 		"Website": "http://qedcode.com",
+		"Twitter":"michaellperry",
 		"Photo": "/public/img/speakers/michael_perry.jpg",
 		"Presentations":[
 			{
