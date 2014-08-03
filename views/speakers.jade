@@ -14,12 +14,6 @@ block speaker-content
 					img(src="#{speaker.Photo}")
 				.col-sm-8
 					div.name #{speaker.FirstName} #{speaker.LastName}
-					div.section-title Meet #{speaker.FirstName}
-					.section-content 
-						!{speaker.Bio}
-					for talk in speaker.Presentations
-						div.section-title #{talk.Topic}
-						p.secton-content #{talk.Description}
 					p.section-content
 						if(speaker.Twitter)
 							div.fa.fa-twitter 
@@ -27,8 +21,14 @@ block speaker-content
 									span #{speaker.Twitter}
 						if(speaker.Website)
 							div.fa.fa-globe
-								a(href="http://www.#{speaker.Website}")
+								a(href="#{speaker.Website}")
 									span #{speaker.Website}
+					div.section-title Meet #{speaker.FirstName}
+					.section-content 
+						!{speaker.Bio}
+					for talk in speaker.Presentations
+						div.section-title #{talk.Topic}
+						p.secton-content #{talk.Description}
 			.row.speaker
 				hr
 					

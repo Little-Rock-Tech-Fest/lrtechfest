@@ -5,6 +5,7 @@
 		"LastName": "Otwell",
 		"Bio": "<p>Taylor is one of the top 10 most active Github users in the world, as well as the creator of the Laravel PHP web framework, which is the most popular PHP web framework on Github. A lifetime Arkansan, Taylor is passionate about all things web and is a Software Engineer for UserScape as well as the founder of Forge, a PHP server provisioning and deployment service.</p>",
 		"Website": "http://taylorotwell.com",
+		"Twitter": "taylorotwell",
 		"Photo": "/public/img/speakers/taylor_otwell.jpg",
 		"Presentations":[
 			{
