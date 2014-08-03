@@ -10,9 +10,9 @@ block speaker-content
 
 		each speaker in speakers
 			.row.speaker
-				.col-sm-4.photo
+				.col-sm-3.col-md-2.photo
 					img(src="#{speaker.Photo}")
-				.col-sm-8
+				.col-sm-8.col-md-9
 					div.name #{speaker.FirstName} #{speaker.LastName}
 					p.section-content
 						if(speaker.Twitter)
