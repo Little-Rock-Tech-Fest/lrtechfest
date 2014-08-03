@@ -127,7 +127,7 @@ h5 {font-size: 24px}
 #parking-map iframe {width:600px; height:450px; border:5px solid black; border-radius:10px}
 
 .speaker .photo {margin-bottom: 10px}
-.speaker .photo img {max-width: 300px}
+.speaker .photo img {max-width: 200px}
 .speaker .name {font-size: 32px; font-weight: 300; line-height: 1; margin-bottom:10px}
 .speaker .website {margin-left: 10px}
 .speaker .section-title {font-size: 18px; font-weight: 700; margin-bottom: 7px}
