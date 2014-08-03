@@ -45,14 +45,14 @@ h5 {font-size: 24px}
 #navbar-logo {height:40px; position: relative; top: -5px;}
 .navbar-inverse .navbar-nav>li>a span {color:white;}
 .navbar .navbar-nav .btn {margin-right:5px; text-align:left}
-.navbar .navbar-nav .btn span {top:-5px;}
+.navbar a > span {position:relative; top:-5px}
 .navbar-inverse .navbar-nav>li>a.social {color:white;}
 .navbar-inverse .navbar-nav>li>a:hover.social {color:#999;}
 .navbar .social {margin-right: 10px; font-size:14px}
 
 .navbar .dropdown > i {display:inline-block}
 .navbar .dropdown > a {display:inline-block; font-size:14px; font-weight:600}
-.navbar .dropdown > a > span {position:relative; top:-5px}
+
 
 #announcement-content {
 	background: url('../img/lrskyline-small.jpg') center center no-repeat;
@@ -78,6 +78,10 @@ h5 {font-size: 24px}
 .is-countdown {background-color: transparent;}
 
 #mce-EMAIL {font-size: 28; color:black; min-width: 300px}
+
+#register-now i {opacity:1; color:black}
+#register-now .btn-primary:hover{ background: #7db660 !important; }
+#register-now i span {margin-left: 20px}
 
 #sponsors-content {background-color: white; color: black;}
 #sponsors-content a {color:inherit; text-decoration:none}
@@ -151,18 +155,26 @@ h5 {font-size: 24px}
 /* Mobile device */
 
 
-@media (max-width: 991px) {
+@media (max-width: 1050px) {
 	#navbar-techfest .fa{font-size: 1.5em}
 	.navbar {min-height: 50px}
 	#navbar-logo {height:40px; top: -8px;}
 	.navbar .navbar-nav .btn {margin-right:5px; }
-	.navbar .navbar-nav .btn span {top:-4px;}
+	.navbar a > span {top:-4px;}
 	.navbar .social {margin-right: 2px; font-size:20px}
 	body {padding-top: 50px;}
 	#navbar-techfest a {padding-left: 8px; padding-right: 8px;}
 	#time-place .time-place-inner {  margin: 0; position: static; }
 	#time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
 	}
+
+@media (max-width: 890px){
+	#navbar-techfest .fa{font-size: 1.3em}
+	.navbar .social {font-size:15px}
+	.navbar .social i {margin-right: 0px}
+	.navbar .btn-sm {font-size: 12px}
+	.navbar a > span {top:-2px;}
+}
 
 @media (max-width: 767px) {
 	#landing .btn { margin: 0px 0px 15px 0px; }
@@ -200,6 +212,10 @@ h5 {font-size: 24px}
 	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em;}
 
 	#parking-map iframe {width:300px; height:230px; }
+
+	#register-now i {font-size: 32px}
+	#register-now i span {margin-left: 10px}
+
 }
 
 /* Tablet device */
