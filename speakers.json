@@ -24,6 +24,11 @@
 		"Twitter": "LiveBIGDieEmpty",
 		"Photo": "/public/img/speakers/default.jpg",
 		"Presentations":[
+			{
+				"Track":"Other",
+				"Topic": "Social Media Success for Influencers",
+				"Description": ""
+			}
 		]	
 	},
 	{
@@ -108,6 +113,29 @@
 			{
 				"Track": "Web",
 				"Topic": "To OWASP and Beyond - Common Application Vulnerabilities",
+				"Description": ""
+			}
+		]	
+	}
+	,
+	{
+		"Id" : 9,
+		"FirstName": "Michael",
+		"LastName": "Perry",
+		"Bio": "Software is math. Every class is a theorem. The compiler is the proof. And unit tests check our work.
+
+Michael has recorded Pluralsight courses on CQRS, XAML Patterns, and Cryptography, in addition to Provable Code. He maintains the spoon-bending Update Controls and Correspondence open-source libraries. And he helps his clients at Improving Enterprises benefit from the power of software mathematics. You can find out more at qedcode.com.",
+		"Website": "http://qedcode.com",
+		"Photo": "/public/img/speakers/michael_perry.jpg",
+		"Presentations":[
+			{
+				"Track": "Mobile",
+				"Topic": "Build Flappy Bird in 50 Minutes",
+				"Description": ""
+			},
+			{
+				"Track": "Other",
+				"Topic": "Modeling Settlers of Catan with Degrees of Freedom",
 				"Description": ""
 			}
 		]	
