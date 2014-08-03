@@ -30,6 +30,18 @@ app.get("/programs/:year", function (req, res) {
 	});
 });
 
+app.get("/speakers", function (req, res) {
+	fs.readFile('speakers.json', 'utf8', function (err, data) {
+		if (err) {
+			console.log(error);
+		} else {
+			var speakers = JSON.parse(data);
+			res.render('speakers', { speakers: speakers });
+		}
+	});
+	
+});
+
 app.get('/', function(req, res){
 	res.render('index')
 });

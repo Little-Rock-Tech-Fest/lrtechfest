@@ -50,8 +50,10 @@
     <Content Include="views\become_sponsor.jade" />
     <Content Include="views\call.jade" />
     <Content Include="views\index.jade" />
+    <Content Include="views\layout-speaker.jade" />
     <Content Include="views\layout.jade" />
     <Content Include="views\schedule.jade" />
+    <Content Include="views\speakers.jade" />
     <Content Include="views\sponsors.jade" />
     <Content Include="views\sponsor_list.jade" />
   </ItemGroup>

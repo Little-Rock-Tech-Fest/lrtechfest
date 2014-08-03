@@ -17,8 +17,8 @@ h3 {font-size: 40px}
 h4 {font-size: 32px}
 h5 {font-size: 24px}
 
-.page-title h3 {margin-bottom: 40px}
-.page-title h4 {margin-bottom: 30px}
+.page-title {margin-bottom: 40px}
+.page-title p {margin-left: 20px; font-size: 24px; }
 .page-content p {margin-bottom: 20px; font-size: 14pt}
 
 .panel .panel-heading {background-color: #fe8564}
@@ -97,7 +97,7 @@ h5 {font-size: 24px}
 
 .page-banner{background-color: #7db660; margin-bottom: 30px;}
 .page-banner-title {font-size: 36px; font-weight: 500; display: inline; vertical-align: middle; padding-bottom: 10px}
-.page-banner .btn {padding-bottom:10px; padding-top: 10px}
+.page-banner .btn {padding-bottom:10px; padding-top: 20px}
 .page-banner ul {list-style-type: none; margin-bottom: 0px}
 .page-banner ul li {display: inline; padding-right: 20px;}
 .page-banner .btn-primary:hover{ background: #4918fe !important; color: #fff; }
@@ -125,6 +125,22 @@ h5 {font-size: 24px}
 .location-text span{ display:block; margin-left:8px}
 
 #parking-map iframe {width:600px; height:450px; border:5px solid black; border-radius:10px}
+
+.speaker .photo {margin-bottom: 10px}
+.speaker .name {font-size: 32px; font-weight: 300; line-height: 1; margin-bottom:10px}
+.speaker .website {margin-left: 10px}
+.speaker .section-title {font-size: 18px; font-weight: 700; margin-bottom: 7px}
+.speaker .section-content {line-height:1.2}
+.speaker .fa {margin-bottom: 8px; font-size: 18px; font-weight:300}
+.speaker .fa a {margin-left: 10px; margin-right: 20px; margin-bottom: 10px}
+.speaker hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
 
 #footer {margin-bottom: 50px}
 
