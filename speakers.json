@@ -158,7 +158,7 @@
 		"Id" : 11,
 		"FirstName": "Shawn",
 		"LastName": "Weisfeld",
-		"Bio": "<p>Shawn is passionate about building awesome applications and websites with .NET technologies. He is currently an Application Development Manager for Microsoft based in Austin TX and founder of http://UserGroup.tv. Read his full bio at http://about.me/shawnweisfeld</p>",
+		"Bio": "<p>Shawn is passionate about building awesome applications and websites with .NET technologies. He is currently an Application Development Manager for Microsoft based in Austin TX and founder of <a href=\"http://UserGroup.tv\">UserGroup.tv</a>. Read his full bio at <a href=\"http://about.me/shawnweisfeld\">about.me/shawnweisfeld</a></p>",
 		"Website": "http://www.UserGroup.tv",
 		"Photo": "/public/img/speakers/shawn_weisfeld.jpg",
 		"Presentations":[
