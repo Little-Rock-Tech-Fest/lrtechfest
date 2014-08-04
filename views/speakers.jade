@@ -24,8 +24,8 @@ block speaker-content
 								a(href="#{speaker.Website}")
 									span #{speaker.Website}
 					div.section-title Meet #{speaker.FirstName}
-					.section-content 
-						!{speaker.Bio}
+					.section-content
+						span !{speaker.Bio}
 					for talk in speaker.Presentations
 						div.section-title #{talk.Topic}
 						p.secton-content #{talk.Description}
