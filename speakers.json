@@ -153,5 +153,20 @@
 				"Description": ""
 			}
 		]	
+	},
+	{
+		"Id" : 11,
+		"FirstName": "Shawn",
+		"LastName": "Weisfeld",
+		"Bio": "<p>Shawn is passionate about building awesome applications and websites with .NET technologies. He is currently an Application Development Manager for Microsoft based in Austin TX and founder of http://UserGroup.tv. Read his full bio at http://about.me/shawnweisfeld</p>",
+		"Website": "http://www.UserGroup.tv",
+		"Photo": "/public/img/speakers/shawn_weisfeld.jpg",
+		"Presentations":[
+			{
+				"Track": "Cloud",
+				"Topic": "Redis",
+				"Description": ""
+			}
+		]	
 	}
 ]
