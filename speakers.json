@@ -169,5 +169,35 @@
 				"Description": ""
 			}
 		]	
-	}
+	},
+	{
+		"Id" : 11,
+		"FirstName": "Bill",
+		"LastName": "Hartzer",
+		"Bio": "<p>Bill Hartzer is the Senior SEO Strategist at Globe Runner. Bill is a frequent speaker and expert discussion panel participant at various search engine marketing and internet marketing conferences and events such as the Search Engine Strategies and the PubCon conferences. Bill writes frequently for Search Engine Watch, Search Engine Guide, and is regularly published in many online publications. He maintains a blog on his website, www.BillHartzer.com, and is one of the original founders of the Dallas/Fort Worth Search Engine Marketing Association. He has over 18 years of search engine marketing, SEO, and social media marketing experience.</p>",
+		"Website": "",
+		"Photo": "/public/img/speakers/bill_hartzer.jpg",
+		"Presentations":[
+			{
+				"Track": "Web",
+				"Topic": "SEO For Web Developers",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 12,
+		"FirstName": "Jake",
+		"LastName": "Truemper",
+		"Bio": "<p>Jake is a nimble-minded innovator with a passion for collaboration and user-centered methodologies. He is heavily involved in the St. Louis digital community, and is a regular guest lecturer at colleges, special interest groups and conferences. Jake has led User Experience initiatives for more than 50 companies from over 20 distinct industries. He is currently leading the User Experience team at Manifest Digital in St. Louis.</p>",
+		"Website": "",
+		"Photo": "/public/img/speakers/jake_truemper.jpg",
+		"Presentations":[
+			{
+				"Track": "Web",
+				"Topic": "Dr.* Truemper, or: How I Learned to Stop Being Wasteful and Love Lean UX",
+				"Description": ""
+			}
+		]	
+	}	
 ]
