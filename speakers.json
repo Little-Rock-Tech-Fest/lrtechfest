@@ -219,9 +219,7 @@
 		"Id" : 14,
 		"FirstName": "Jon",
 		"LastName": "Robertson",
-		"Bio": "<p>As a software developer using Delphi since 1996, Jon has earned three Delphi certifications and has presented at three Delphi conferences.  He has also contributed to multiple commercial software products, partially through his work at MedEvolve, an ISC developing healthcare software, for the last fourteen years.</p>
- 
-<p>Jon is a DJ at heart and can almost always be found with music playing as his background noise.  He is very excited about exploring new mobile development opportunities using Delphi.</p>",
+		"Bio": "<p>As a software developer using Delphi since 1996, Jon has earned three Delphi certifications and has presented at three Delphi conferences.  He has also contributed to multiple commercial software products, partially through his work at MedEvolve, an ISC developing healthcare software, for the last fourteen years.</p><p>Jon is a DJ at heart and can almost always be found with music playing as his background noise.  He is very excited about exploring new mobile development opportunities using Delphi.</p>",
 		"Website": "",
 		"Photo": "/public/img/speakers/jon_robertson.jpg",
 		"Presentations":[
