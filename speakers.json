@@ -199,5 +199,37 @@
 				"Description": ""
 			}
 		]	
+	},
+	{
+		"Id" : 13,
+		"FirstName": "Duncan",
+		"LastName": "Jimbo",
+		"Bio": "<p>Born and raised in Kenya, Duncan Jimbo is currently a front-end developer based in Saint Louis, Missouri. Curious and creatively motivated, he finds great satisfaction in using new technology to make the web a more delightful place to work and play. In addition to being a programmer and problem-solver, he also loves the teaching and learning opportunities that come from collaboration. Outside of work, Duncan enjoys taking road trips and sharing his latest brew — the finest Kenyan tea this side of the Mississippi.</p>",
+		"Website": "",
+		"Photo": "/public/img/speakers/duncan_jimbo.jpg",
+		"Presentations":[
+			{
+				"Track": "Web",
+				"Topic": "Think Fast: Getting started with website performance in the age of responsive web design",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 14,
+		"FirstName": "Jon",
+		"LastName": "Robertson",
+		"Bio": "<p>As a software developer using Delphi since 1996, Jon has earned three Delphi certifications and has presented at three Delphi conferences.  He has also contributed to multiple commercial software products, partially through his work at MedEvolve, an ISC developing healthcare software, for the last fourteen years.</p>
+ 
+<p>Jon is a DJ at heart and can almost always be found with music playing as his background noise.  He is very excited about exploring new mobile development opportunities using Delphi.</p>",
+		"Website": "",
+		"Photo": "/public/img/speakers/jon_robertson.jpg",
+		"Presentations":[
+			{
+				"Track": "Mobile",
+				"Topic": "Cross platform mobile development with Delphi XE 6",
+				"Description": ""
+			}
+		]	
 	}	
 ]
