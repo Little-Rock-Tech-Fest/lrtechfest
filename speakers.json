@@ -232,5 +232,25 @@
 				"Description": ""
 			}
 		]	
+	},
+	{
+		"Id" : 15,
+		"FirstName": "Paul",
+		"LastName": "Hacker",
+		"Bio": "<p>Paul Hacker has over 10 years of application architecture, design, development, and management expertise in Microsoft technologies. His strong technical aptitude, excellent communication skills, and dedicated work ethic have enabled him to drive and deliver successful projects and solutions to clients.Paul has a depth of experience in ALM, Process Improvement, and Team Foundation Server. Having distinguished himself as a leader in the IT industry he has been awarded the distinction of Microsoft MVP in the ALM category every year since 2006. Prior to 2006 Paul carried the Microsoft MVP distinction in the C# category consistently from 2002 to 2005.Over the years Paul has proven his expertise in Application Lifecycle Management and has demonstrated his professionalism and commitment to the continuous process of managing the life of an application through governance, development and maintenance.</p>",
+		"Website": "",
+		"Photo": "/public/img/speakers/jon_robertson.jpg",
+		"Presentations":[
+			{
+				"Track": "Other",
+				"Topic": "What's New for ALM in Visual Studio 2013 and Team Foundation Server 2013",
+				"Description": ""
+			},
+			{
+				"Track": "Other",
+				"Topic": "Define you Release Pipeline with Release Management 2013",
+				"Description": ""
+			}
+		]	
 	}	
 ]
