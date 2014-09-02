@@ -3,3 +3,4 @@ obj
 *.pubxml
 *.user
 *.suo
+*.db
