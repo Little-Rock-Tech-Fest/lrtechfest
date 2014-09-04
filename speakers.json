@@ -253,5 +253,56 @@
 				"Description": ""
 			}
 		]	
-	}	
+	},
+	{
+		"Id" : 16,
+		"FirstName": "Angie",
+		"LastName": "Albright",
+		"Bio": "<p>Angie Albright is the Director of Programs for the Arkansas Nonprofit Alliance. She has many years of experience in online instructional design, and more recently has become a passionate advocate for the use of technology to support nonprofit organizations' needs. She loves to do crazy things like develop technology strategic plans, fool around on the back side of websites, sit on boards of directors for organizations whose missions she's passionate about, and learn new technologies that contribute to the social good. </p>",
+		"Website": "http://www.angiemalloyalbright.com",
+		"Twitter":"AngieAlbright",
+		"Photo": "/public/img/speakers/angie_albright.jpg",
+		"Presentations":[
+			{
+				"Track": "IT Professional",
+				"Topic": "IT Where You Least Expect It",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 17,
+		"FirstName": "Meredith",
+		"LastName": "Lowry",
+		"Bio": "<p>Meredith is a partner and registered patent attorney with Smith Hurst. She is a native of Northwest Arkansas with substantial experience in all aspects of intellectual property law. Meredith’s practice principally involves various aspects of intellectual property, including patent litigation, trademark litigation, and computer technology. Since 2005, she has assisted a variety of inventors from individual entrepreneurs to large companies in their efforts to obtain patent, trademark and copyright protection and has also worked with such clients to protect those assets and defend against allegations of infringement. A meaningful amount of her practice is devoted to the transfer and licensing of rights of intellectual property, including technology transfer agreements and due diligence, as well as in trademark prosecution and patent prosecution.</p>",
+		"Website": "http://www.smithhurst.com",
+		"Twitter":"MeredithLowry",
+		"Photo": "/public/img/speakers/meredith_lowry.jpg",
+		"Presentations":[
+			{
+				"Track": "IT Professional",
+				"Topic": "IT Where You Least Expect It",
+				"Description": ""
+			}
+		]	
+	},
+	{
+		"Id" : 18,
+		"FirstName": "Adam",
+		"LastName": "Hill",
+		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p>
+<p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> 
+<p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
+		"Website": "",
+		"Twitter":"adamhill",
+		"Photo": "/public/img/speakers/adam_hill.jpg",
+		"Presentations":[
+			{
+				"Track": "Other",
+				"Topic": "DEPLOY ALL THE GAMES!!!",
+				"Description": ""
+			}
+		]	
+	}			
+
 ]
