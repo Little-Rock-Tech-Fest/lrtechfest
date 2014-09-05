@@ -7,7 +7,7 @@ app.set('view engine', 'jade');
 app.use(express.static(__dirname, 'public'));
 
 app.get("/call", function(req, res){
-	res.render('call')
+	res.redirect('speakers')
 });
 
 app.get("/sponsors", function(req, res){

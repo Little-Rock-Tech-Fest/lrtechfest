@@ -290,9 +290,7 @@
 		"Id" : 18,
 		"FirstName": "Adam",
 		"LastName": "Hill",
-		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p>
-<p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> 
-<p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
+		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p><p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> <p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
 		"Website": "",
 		"Twitter":"adamhill",
 		"Photo": "/public/img/speakers/adam_hill.jpg",
