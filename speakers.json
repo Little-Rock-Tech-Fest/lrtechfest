@@ -11,7 +11,9 @@
 			{
 				"Track":"Web",
 				"Topic": "Intro To Angular.js",
-				"Description": ""
+				"Description": "<p>Angular.js is a powerful JavaScript framework developed by Google, and you can totally learn how to use it! In this talk we'll cover the basics of Angular with live code and demos, using Laravel PHP to power the back-end JSON API.</p>
+				<p>Demo will include setting up an Angular application, pulling JSON from a server, binding data to your view, posting data from a form, and showing error and success messages. All "real world" stuff you can use in your applications, even if they aren't fancy single page applications!</p>
+				<p>We'll also check out some other web related goodies like Gulp.js for compiling our CSS (LESS) and JavaScript files.</p>"
 			}
 		]	
 	},
@@ -22,12 +24,31 @@
 		"Bio": "<p>Mark Anthony McCray is a speaker, financial counselor and entrepreneur - the last label basically means he's always open to new opportunities so see talk to him after the program. His passion is helping people get beyond their spiritual, emotional, financial, and entrepreneurial and LIFE limitations. He is committed to killing IGNORANCE and hopelessness worldwide!</p>  <p> Known as a knowledgeable and inspiring teacher, Mark Anthony has launched several businesses, worked in full-time ministry and served on multiple advisory boards such as the Austin CDC Entrepreneur Development Program, Collegiate Entrepreneurs Organization and the Texas State University: - Management & Marketing Advisory Council. He currently lives and works in Houston but is planning to spend more time out here in God's country so don't hold that against him. <p> He gets great joy from teaching people how to find hope, learn winning methods and then helping them in their life journeys. Mark has assisted thousands of entrepreneurs with their consulting, business and financial planning needs through his seminars, workshops, outreach programs, radio Interviews, published articles, coaching and mastermind groups. For more information about Mark, check out: <a href=\"http://livebigdieempty.blogspot.com/p/about-mark_29.html\">http://livebigdieempty.blogspot.com/p/about-mark_29.html </a></p> <p> Most important, he's always happy to share!</p>",
 		"Website": "http://livebigdieempty.blogspot.com",
 		"Twitter": "LiveBIGDieEmpty",
-		"Photo": "/public/img/speakers/default.jpg",
+		"Photo": "/public/img/speakers/mark_mccray.jpg",
 		"Presentations":[
 			{
 				"Track":"Other",
 				"Topic": "Social Media Success for Influencers",
-				"Description": ""
+				"Description": "<p>In today’s business world, there is a shift in the way we are all communicating. You must keep up in order to stay relevant and to connect with clients in today’s marketplace. I have specifically designed this presentation exclusively for professionals just like you including tangible ready-to-use approaches! Attendees will learn:</p>
+
+								<p>How to blog for profit and purpose<br/>
+								Where to find your current and prospective clients on the internet.<br/>
+								How to brand yourself, your products and your services.<br/>
+								How to build and maintain a relationship online.<br/>
+								How to optimize your visibility on the internet.<br/>
+								How to convey your expertise in order to build client confidence in you.<br/>
+								How to manage your social media effort in a consistent way.</p>
+
+
+								<p>How can you as a professional speaker, coach, expert and business leader use social media and traditional marketing approaches to effectively and profitably monetize your online presence and market position? Why should you as a professional want to learn the strategy and tools of social media? It’s very simple: LEVERAGE!</p>
+
+								<p>Social media isn't going away and more and more, if you aren't taking advantage of the best tools, techniques and approaches, YOU ARE BEING LEFT BEHIND. You already know what I'm saying. You know you need to:<br/><br/>
+
+								1. Get new clients<br/>
+								2. Maintain and grow your current client relationships<br/>
+								3. Find ways to monetize your commitment to social media.<br/><br/> 
+
+								...and do it all with panache!</p>"
 			}
 		]	
 	},
@@ -42,7 +63,7 @@
 			{
 				"Track":"Collaboration and Content Management",
 				"Topic": "Telecommuting 101: Tips & Tricks to effectively managing projects online",
-				"Description": ""
+				"Description": "<p>Today it is easier than ever to work from home. Understanding how to effectively manage your web development and inbound marketing projects online will help speed up project timelines and make working from home a breeze. From Google Drive to GoToMeeting, in this session you will learn all of the tips and tricks from a native Arkansan with 3 years telecommuting experience working for a company based in Denver, Colorado.</p>"
 			}
 		]	
 	},
@@ -58,7 +79,14 @@
 			{
 				"Track": "UI/UX",
 				"Topic": "Using data to design killer experiences for your user",
-				"Description": ""
+				"Description": "<p>We'll explore why designers should be designing experiences for the user and not for the boss or themselves. Dustin will showcase tools that he used for User Research, A/B Testing, Usability Testing, Prototyping, and Design. </p>
+							<br/>
+							<p>Dustin will also explain his process on:<br/>
+							-- How he farms customer/user data from research<br/>
+							-- What to do with the customer/user data once obtaining it<br/>
+							-- How to use design to solve problems<br/>
+							-- How to use A/B Testing to test design ideas<br/>
+							-- What his iteration cycle looks like</p>"
 			}
 		]	
 	},
@@ -73,7 +101,7 @@
 			{
 				"Track": "Other",
 				"Topic": "Automated deployment for .NET with Octopus Deploy",
-				"Description": ""
+				"Description": "<p>Do you have an unruly build and deploy process? Find out how to tame it with Octopus Deploy and some related continuous integration / deployment tools.</p>"
 			}
 		]	
 	},
@@ -85,6 +113,16 @@
 		"Website": "",
 		"Photo": "/public/img/speakers/randy_walker.jpg",
 		"Presentations":[
+				{
+					"Track" : "Database",		
+					"Topic" : "SQL Scripting",
+					"Description" : "<p>Loading from text files using BCP, parsing rows with cursors, temp tables, and crazy sub-queries!</p>"	
+				},
+				{
+					"Track" : "Web",
+					"Topic" : "I’m a Development God and I know it! (Soft skills for the technically skilled)",		
+					"Description" : "<p>Let’s face it, geeks rule the world. We’re the smartest, brightest, and some of the richest on the planet. So why do we suck with our people skills? Come find out and discuss how we can help ourselves to become the most successful (and richest) people we deserve to be.</p>"	
+				}
 		]	
 	},
 	{
@@ -98,7 +136,11 @@
 			{
 				"Track": "Tech Entrepreneurship",
 				"Topic": "How Purpose-Driven Entrepreneurs Can Use Digital Tools To Spread Their Message with Ease",
-				"Description": ""
+				"Description": "<p>In this talk I cover why diversity and radically different perspectives matter and how they can be seen and heard.</p>
+
+						<p>I also dive into how you can create organized, streamlined, consistent, remote work to free up time and location (organized with tech) to work on what you’re passionate about and enjoy your life.</p>
+
+						<p>Finally, I do a deep dive and give specific examples on why creating a delightful customer experience is the key to making your purpose and voice matter.</p>"
 			}
 		]	
 	},
@@ -113,7 +155,7 @@
 			{
 				"Track": "Web",
 				"Topic": "To OWASP and Beyond - Common Application Vulnerabilities",
-				"Description": ""
+				"Description": "<p>Application security is talked about more than it is acted on, as evidenced by the vulnerabilities we continue to see every day. In order to highlight these types of vulnerabilities, OWASP (the Open Web Application Security Project) publishes its Top Ten web application vulnerabilities every 3 years. We'll review the current Top Ten list and then discuss other vulnerabilities that aren't included as well as combo attacks (combining multiple vulnerabilities into a finishing move). Along the way, we will laugh and cringe at tales of applications that didn't quite get it right. (Identities of the examples will not be disclosed so as to protect the fails -- and my job.)</p>"
 			}
 		]	
 	}
@@ -130,12 +172,20 @@
 			{
 				"Track": "Mobile",
 				"Topic": "Build Flappy Bird in 50 Minutes",
-				"Description": ""
+				"Description": "<p>You have your choice of thousands of Flappy Bird knockoffs on any platform you want. But you can do it better than those guys! Learn how to build Flappy Bird for Android, iOS, and Windows Phone with one common C# code base using MonoGame.</p>
+
+				<p>You will learn how to maximize the code reuse across platforms. You will see how to abstract control structures to work best on the target platform. You will explore physics, game play, and graphics options to make the game as fun -- or frustrating -- as you like.</p>
+
+			<p>Bird's gonna flap. Build your app!</p>"
 			},
 			{
 				"Track": "Other",
 				"Topic": "Modeling Settlers of Catan with Degrees of Freedom",
-				"Description": ""
+				"Description": "<p>You probably aren't writing games. But you are writing business rules. Just like the rules of games, business rules are interrelated and complex. We'll practice writing business rules by modeling games.</p>
+
+						<p>In any mathematical model, we identify equations and unknowns. The difference between those two tells us the number of degrees of freedom in the system. Once we know the degrees of freedom, we can identify the independent variables and the dependent variables.</p>
+
+					<p>We'll build mathematical models for three popular games: bowling, Dungeons and Dragons, and Settlers of Catan. We'll write code for each of these models in C# using the Update Controls dependency tracking library. This will give us the skills we need to easily model any business system.</p>"
 			}
 		]	
 	},
@@ -145,12 +195,16 @@
 		"LastName": "Townsend",
 		"Bio": "<p>Sean is currently an Android developer with Rockfish Digital. He prefers dark chocolate to milk chocolate and tea over coffee.</p>",
 		"Website": "",
-		"Photo": "/public/img/speakers/default.jpg",
+		"Photo": "/public/img/speakers/sean_townsend.jpg",
 		"Presentations":[
 			{
 				"Track": "Mobile",
 				"Topic": "Developing Mobile Games With LibGDX",
-				"Description": ""
+				"Description": "<p>Video games are currently among the best selling apps on both the App Store and Google Play. Whilst traditionally writing video games has been the domain of professional studios often with large budgets and publisher support, the barriers to game development have in recent years plummeted. The rise of the indie developer and high-powered mobile devices has seen an explosion in smaller-scale video game development. The smartphone app stores are now the most dynamic and interesting video game platforms in the world.</p>
+
+<p>This presentation will take participants through an overview of a multi-platform mobile game development framework called LibGDX. Core concepts of video game design will be discussed along with an outline of the technical challenges that face mobile video game developers. Insights into some of the technical solutions that are provided by the framework such as object pooling, texture atlases and pre-allocated arrays will be demonstrated.</p>
+
+<p>A current game in development (predicted to be 80% completed) will be shown and some of the experiences and ups and downs of developing the game will be shared.</p>"
 			}
 		]	
 	},
@@ -166,7 +220,7 @@
 			{
 				"Track": "Cloud",
 				"Topic": "Redis",
-				"Description": ""
+				"Description": "<p>Redis (http://msopentech.com/opentech-projects/redis) is a very popular open-source, networked, in-memory, key-value data store. It is known for high performance, flexibility, a rich set of data structures, and a simple straightforward API. MS Open Tech has been working with the Redis community to build a production-ready Windows port of Redis, including 64-bit support, an installer for Windows Azure, NuGet support, and much more. In this talk we will discuss what it takes as a .NET Developer to work with Redis both on prem and in the cloud.</p>"
 			}
 		]	
 	},
@@ -175,7 +229,9 @@
 		"FirstName": "Bill",
 		"LastName": "Hartzer",
 		"Bio": "<p>Bill Hartzer is the Senior SEO Strategist at Globe Runner. Bill is a frequent speaker and expert discussion panel participant at various search engine marketing and internet marketing conferences and events such as the Search Engine Strategies and the PubCon conferences. Bill writes frequently for Search Engine Watch, Search Engine Guide, and is regularly published in many online publications. He maintains a blog on his website, www.BillHartzer.com, and is one of the original founders of the Dallas/Fort Worth Search Engine Marketing Association. He has over 18 years of search engine marketing, SEO, and social media marketing experience.</p>",
-		"Website": "",
+		"Website": "<p>As web developers, we know that SEO (Search Engine Optimization) is important when building a website. But what parts of SEO is important, and what parts of on-site SEO can be ignored? In this panel, we'll discuss search engine friendly websites, building sites with 'responsive design' and migrating sites from old an older CMS to WordPress.</p> 
+
+						<p>The focus will be primarily on on-site search engine optimization, and making websites are search engine friendly. We'll also discuss how to perform a search engine optimization audit of your own website, using several widely available tools. Some of the tools discussed will be website crawlers (you can crawl your own website and check for errors and common SEO problems) and using the data provided in Google Webmaster Tools and Bing Webmaster Tools.</p>",
 		"Twitter": "bhartzer",
 		"Photo": "/public/img/speakers/bill_hartzer.jpg",
 		"Presentations":[
@@ -198,7 +254,7 @@
 			{
 				"Track": "Web",
 				"Topic": "Dr.* Truemper, or: How I Learned to Stop Being Wasteful and Love Lean UX",
-				"Description": ""
+				"Description": "<p>Bloat. Waste. Fatty surplus. Years ago, these ever-present and profit-consuming words pushed Toyota to create a new way of thinking about the manufacturing process. A way that would eliminate waste. A lean way, you might say. Lean UX is the extension of that thinking in the digital world. It’s a process that promises to create quality and efficiency, while eliminating headaches and finger pointing. In this session Jake Truemper (not actually a doctor) will dive in to explain how teams can immediately employ Lean UX techniques to improve workflow.</p>"
 			}
 		]	
 	},
@@ -214,7 +270,9 @@
 			{
 				"Track": "Web",
 				"Topic": "Think Fast: Getting started with website performance in the age of responsive web design",
-				"Description": ""
+				"Description": "<p>Who ultimately should be the steward of website performance? The designers? The developers? Someone else? Of course, the right answer to this critical element of website creation is that it is everyone’s responsibility. Each role and department within an organization (project managers, UX, account managers, designers, developers – and even clients) has a role to play in ensuring the final product delivered to users is as fast, quick and speedy as can be. Not only does this make for better user experiences, but it also ensures we meet our business objectives.</p>
+
+					<p>Making websites fast is a battle I fight daily as we try to maintain the balance between fast, usable and beautiful. Over the past few years, especially with the growth of mobile usage, I've found that it is important to be aware of the consequences of the decisions we make as we create sites, be it design or development, and the biggest step forward is ensuring that we are all aware of these challenges as well as ways that we can counter them. While each project is different from the next, the material in this discussion should serve as a handy guide to making sites faster for everyone involved in making websites</p>"
 			}
 		]	
 	},
@@ -229,7 +287,7 @@
 			{
 				"Track": "Mobile",
 				"Topic": "Cross platform mobile development with Delphi",
-				"Description": ""
+				"Description": "<p>With Delphi XE 6, you can develop an application that can run on Windows, Mac OS X, iOS, and Android. All from a single IDE. In this session, I'll give an introduction to using Delphi XE 6 to do just that. For each platform, I'll demonstrate how to build, deploy, and debug a sample application.</p>"
 			}
 		]	
 	},
@@ -245,12 +303,12 @@
 			{
 				"Track": "Other",
 				"Topic": "What's New for ALM in Visual Studio 2013 and Team Foundation Server 2013",
-				"Description": ""
+				"Description": "<p>The latest versions of Visual Studio and TFS bring some great new features for developers, Product Owners, testers, and even the crusty old stakeholders. More than ever, TFS integrates the whole ALM story to help you deliver your project on time and on budget. In this session, we'll quickly recap the best features of TFS 2012 and then look at the great new features in TFS 2013. Paul will show you the new ALM features that make TFS perfect for Product Owners and company Stakeholders. He will also show you how developers work with TFS more effectively than ever, right from Visual Studio. We will finish off with the awesome story for testers.</p>"
 			},
 			{
 				"Track": "Other",
 				"Topic": "Define you Release Pipeline with Release Management 2013",
-				"Description": ""
+				"Description": "<p>Are you looking for a way to track your release process and start automating your deployments for repeatable success? Are you wanting to have automation that is the same across development, test, and even production environments? If so, come and learn about release management tooling. Microsoft recently acquired InRelease from InCycle Software which is now the release management components being integrated into Team Foundation Server. In this session, we will explore this new technology set and what it means for your team in the Visual Studio 2013 and Team Foundation Server 2013 release</p>"
 			}
 		]	
 	},
@@ -298,7 +356,11 @@
 			{
 				"Track": "Other",
 				"Topic": "DEPLOY ALL THE GAMES!!!",
-				"Description": ""
+				"Description": "<p>Come see how you can use Unity3D toolset to build and deploy your game to ALL THE DEVICES!. New devices do not need ports from scratch anymore, its the 21st Century.</p>
+
+<p>We will explore how to deal with differing form factors, pixel densities, graphics support, input systems and other multi platform madness.</p>
+
+<p>It can be done. It’s not too hard.</p>"
 			}
 		]	
 	}			
