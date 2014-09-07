@@ -79,5 +79,8 @@ block content
 				.list-group
 					each presentation in presentations
 						a.list-group-item(href="#{presentation.Url}") 
-							span #{presentation.Topic}
-							i.pull-right.fa.fa-arrow-right
+							.container-fluid
+								.col-xs-10
+									span #{presentation.Topic}
+								.col-xs-2
+									i.pull-right.fa.fa-arrow-right
