@@ -238,7 +238,9 @@
 			{
 				"Track": "Web",
 				"Topic": "SEO For Web Developers",
-				"Description": ""
+				"Description": "<p>As web developers, we know that SEO (Search Engine Optimization) is important when building a website. But what parts of SEO is important, and what parts of on-site SEO can be ignored? In this panel, we'll discuss search engine friendly websites, building sites with 'responsive design' and migrating sites from old an older CMS to WordPress.</p> 
+
+				<p>The focus will be primarily on on-site search engine optimization, and making websites are search engine friendly. We'll also discuss how to perform a search engine optimization audit of your own website, using several widely available tools. Some of the tools discussed will be website crawlers (you can crawl your own website and check for errors and common SEO problems) and using the data provided in Google Webmaster Tools and Bing Webmaster Tools.</p>"
 			}
 		]	
 	},
@@ -324,7 +326,13 @@
 			{
 				"Track": "IT Professional",
 				"Topic": "IT Where You Least Expect It",
-				"Description": ""
+				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p>
+
+<p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p>
+
+<p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p>
+
+<p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
 			}
 		]	
 	},
@@ -340,7 +348,13 @@
 			{
 				"Track": "IT Professional",
 				"Topic": "IT Where You Least Expect It",
-				"Description": ""
+				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p>
+
+<p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p>
+
+<p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p>
+
+<p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
 			}
 		]	
 	},
