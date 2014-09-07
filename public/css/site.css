@@ -21,9 +21,6 @@ h5 {font-size: 24px}
 .page-title p {margin-left: 20px; font-size: 24px; }
 .page-content p {margin-bottom: 20px; font-size: 14pt}
 
-.panel .panel-heading {background-color: #fe8564}
-.panel .panel-heading .panel-title {font-weight: 600; color:black}
-
 .btn { border: 0px; background: transparent; }
 .btn:Hover { opacity: 1; }
 .btn-lg { font-size: 28px; }
@@ -50,7 +47,7 @@ h5 {font-size: 24px}
 .navbar-inverse .navbar-nav>li>a:hover.social {color:#999;}
 .navbar .social {margin-right: 10px; font-size:14px}
 
-.navbar .dropdown > i {display:inline-block}
+.navbar-navbar .dropdown > i {display:inline-block}
 .navbar .dropdown > a {display:inline-block; font-size:14px; font-weight:600}
 
 
@@ -100,7 +97,7 @@ h5 {font-size: 24px}
 #sponsors-content .fa.silver {color:#C0C0C0; }
 #sponsors-content .fa.bronze {color:#CD7F32; }
 
-.page-banner{background-color: #7db660; margin-bottom: 30px;}
+.page-banner{background-color: #7db660; margin-bottom: 30px; margin-top: 8px}
 .page-banner-title {font-size: 36px; font-weight: 500; display: inline; vertical-align: middle; padding-bottom: 10px}
 .page-banner .btn {padding-bottom:10px; padding-top: 20px}
 .page-banner ul {list-style-type: none; margin-bottom: 0px}
@@ -149,10 +146,24 @@ h5 {font-size: 24px}
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
+#schedule {text-align: center; font-weight: 500; font-size: 14pt}
+#schedule, #schedule td, #schedule th{border-color: black}
+#schedule .subheader {display: block; font-size: 12pt}
+#schedule tbody tr td:nth-child(1) {font-weight: 700}
+#schedule tbody tr td.room {font-weight: 700}
+#schedule tbody tr td.talk {background-color: #eee}
+
+.slug{    padding-top: 70px;
+    margin-top: -70px;}
+
 #footer {margin-bottom: 50px}
 
 
 /* Mobile device */
+
+@media (max-width: 1190px) {
+	#navbar-techfest a {padding-left: 6px; padding-right: 8px;}
+	}
 
 
 @media (max-width: 1050px) {
@@ -163,9 +174,10 @@ h5 {font-size: 24px}
 	.navbar a > span {top:-4px;}
 	.navbar .social {margin-right: 2px; font-size:20px}
 	body {padding-top: 50px;}
-	#navbar-techfest a {padding-left: 8px; padding-right: 8px;}
+	#navbar-techfest a {padding-left: 4px; padding-right: 4px;}
 	#time-place .time-place-inner {  margin: 0; position: static; }
 	#time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
+	.page-banner{margin-top: 0px}
 	}
 
 @media (max-width: 890px){
@@ -174,6 +186,7 @@ h5 {font-size: 24px}
 	.navbar .social i {margin-right: 0px}
 	.navbar .btn-sm {font-size: 12px}
 	.navbar a > span {top:-2px;}
+	#navbar-techfest a {padding-left: 2px; padding-right: 2px;}
 }
 
 @media (max-width: 767px) {

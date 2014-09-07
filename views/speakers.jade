@@ -8,7 +8,7 @@ block speaker-content
 				hr
 
 		each speaker in speakers
-			.row.speaker
+			.row.speaker(id="#{speaker.Slug}").slug
 				.col-sm-3.col-md-2.photo
 					img(src="#{speaker.Photo}")
 				.col-sm-8.col-md-9

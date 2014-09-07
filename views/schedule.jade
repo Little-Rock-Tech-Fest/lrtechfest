@@ -1,1 +1,81 @@
-﻿
+﻿extends layout
+
+block content
+	.container-fluid
+		.row.page-banner
+			.col-md-12
+				ul
+					li
+						.page-banner-title Schedule
+	.container
+		.row
+			h4.col-xs-12 Conference Schedule
+		.row
+			.col-xs-12
+				table#schedule.table.table-bordered
+					tbody
+						tr
+							td 7:30 - 8:30
+							td(colspan=4) 
+								span.header Registration. 
+								span.subheader Morning refreshments available at Wasabi
+						tr
+							td 8:30 - 8:45
+							td(colspan=4) Introduction
+						tr
+							td
+							td.room Miller
+							td.room Izzard
+							td.room Pope
+							td.room Fulton
+						tr
+							td 9:00 - 9:50
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+						tr
+							td 10:00 - 10:50
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+						tr
+							td 11:00 - 12:50
+							td(colspan=4) 
+								span Lunch
+								span.subheader On your own at various local downtown restaurants
+						tr
+							td 1:00 - 1:50
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+						tr
+							td 2:00 - 2:50
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+						tr
+							td 3:00 - 3:50
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+							td.talk TBD
+						tr
+							td 4:00 - 5:00
+							td(colspan=4) Closing and prizes
+						tr
+							td 5:30 - 9:00
+							td(colspan=4) 
+								span.header After Party
+								span.subheader Party room at Flying Saucer
+
+		.row
+			h4.col-xs-12 2014 Little Rock Techfest Talks
+		.row
+			.col-xs-12
+				.list-group
+					each presentation in presentations
+						a.list-group-item(href="#{presentation.Url}") #{presentation.Topic}
