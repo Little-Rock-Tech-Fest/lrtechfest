@@ -78,4 +78,6 @@ block content
 			.col-xs-12
 				.list-group
 					each presentation in presentations
-						a.list-group-item(href="#{presentation.Url}") #{presentation.Topic}
+						a.list-group-item(href="#{presentation.Url}") 
+							span #{presentation.Topic}
+							i.pull-right.fa.fa-arrow-right
