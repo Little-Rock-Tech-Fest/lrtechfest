@@ -100,7 +100,7 @@
 		"Presentations":[
 			{
 				"Track": "Other",
-				"Topic": "Automated deployment for .NET with Octopus Deploy",
+				"Topic": "Automated Deployment for .NET with Octopus Deploy",
 				"Description": "<p>Do you have an unruly build and deploy process? Find out how to tame it with Octopus Deploy and some related continuous integration / deployment tools.</p>"
 			}
 		]	
@@ -218,7 +218,7 @@
 		"Photo": "/public/img/speakers/shawn_weisfeld.jpg",
 		"Presentations":[
 			{
-				"Track": "Cloud",
+				"Track": "Database",
 				"Topic": "Redis",
 				"Description": "<p>Redis (http://msopentech.com/opentech-projects/redis) is a very popular open-source, networked, in-memory, key-value data store. It is known for high performance, flexibility, a rich set of data structures, and a simple straightforward API. MS Open Tech has been working with the Redis community to build a production-ready Windows port of Redis, including 64-bit support, an installer for Windows Azure, NuGet support, and much more. In this talk we will discuss what it takes as a .NET Developer to work with Redis both on prem and in the cloud.</p>"
 			}
@@ -377,6 +377,43 @@
 <p>It can be done. It’s not too hard.</p>"
 			}
 		]	
-	}			
+	},
+	{
+		"Id" : 18,
+		"FirstName": "Adam",
+		"LastName": "Hill",
+		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p><p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> <p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
+		"Website": "",
+		"Twitter":"adamhill",
+		"Photo": "/public/img/speakers/adam_hill.jpg",
+		"Presentations":[
+			{
+				"Track": "Other",
+				"Topic": "DEPLOY ALL THE GAMES!!!",
+				"Description": "<p>Come see how you can use Unity3D toolset to build and deploy your game to ALL THE DEVICES!. New devices do not need ports from scratch anymore, its the 21st Century.</p>
+
+<p>We will explore how to deal with differing form factors, pixel densities, graphics support, input systems and other multi platform madness.</p>
+
+<p>It can be done. It’s not too hard.</p>"
+			}
+		]	
+	},
+	{
+		"Id" : 19,
+		"FirstName": "Nancy",
+		"LastName": "Knighten",
+		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p><p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> <p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
+		"Website": "http://asbtdc.org",
+		"Twitter":"",
+		"Photo": "/public/img/speakers/nancy_knighten.jpg",
+		"Presentations":[
+			{
+				"Track": "Tech Entrepreneurship",
+				"Topic": "Designing Your Business Venture",
+				"Description": "<p>You’ve got tech, now what? This is an informational session about evaluating the next steps in the dynamic planning and development process for your technology as a business venture. The session will take a look at business modeling and how to monetize and bring your technology to the masses. Think brainstorming with a little lagniappe!</p>"
+			}
+		]	
+	}	
+
 
 ]
