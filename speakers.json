@@ -11,9 +11,7 @@
 			{
 				"Track":"Web",
 				"Topic": "Intro To Angular.js",
-				"Description": "<p>Angular.js is a powerful JavaScript framework developed by Google, and you can totally learn how to use it! In this talk we'll cover the basics of Angular with live code and demos, using Laravel PHP to power the back-end JSON API.</p>
-				<p>Demo will include setting up an Angular application, pulling JSON from a server, binding data to your view, posting data from a form, and showing error and success messages. All "real world" stuff you can use in your applications, even if they aren't fancy single page applications!</p>
-				<p>We'll also check out some other web related goodies like Gulp.js for compiling our CSS (LESS) and JavaScript files.</p>"
+				"Description": "<p>Angular.js is a powerful JavaScript framework developed by Google, and you can totally learn how to use it! In this talk we'll cover the basics of Angular with live code and demos, using Laravel PHP to power the back-end JSON API.</p><p>Demo will include setting up an Angular application, pulling JSON from a server, binding data to your view, posting data from a form, and showing error and success messages. All \"real world\" stuff you can use in your applications, even if they aren't fancy single page applications!</p><p>We'll also check out some other web related goodies like Gulp.js for compiling our CSS (LESS) and JavaScript files.</p>"
 			}
 		]	
 	},
@@ -29,26 +27,7 @@
 			{
 				"Track":"Other",
 				"Topic": "Social Media Success for Influencers",
-				"Description": "<p>In today’s business world, there is a shift in the way we are all communicating. You must keep up in order to stay relevant and to connect with clients in today’s marketplace. I have specifically designed this presentation exclusively for professionals just like you including tangible ready-to-use approaches! Attendees will learn:</p>
-
-								<p>How to blog for profit and purpose<br/>
-								Where to find your current and prospective clients on the internet.<br/>
-								How to brand yourself, your products and your services.<br/>
-								How to build and maintain a relationship online.<br/>
-								How to optimize your visibility on the internet.<br/>
-								How to convey your expertise in order to build client confidence in you.<br/>
-								How to manage your social media effort in a consistent way.</p>
-
-
-								<p>How can you as a professional speaker, coach, expert and business leader use social media and traditional marketing approaches to effectively and profitably monetize your online presence and market position? Why should you as a professional want to learn the strategy and tools of social media? It’s very simple: LEVERAGE!</p>
-
-								<p>Social media isn't going away and more and more, if you aren't taking advantage of the best tools, techniques and approaches, YOU ARE BEING LEFT BEHIND. You already know what I'm saying. You know you need to:<br/><br/>
-
-								1. Get new clients<br/>
-								2. Maintain and grow your current client relationships<br/>
-								3. Find ways to monetize your commitment to social media.<br/><br/> 
-
-								...and do it all with panache!</p>"
+				"Description": "<p>In today’s business world, there is a shift in the way we are all communicating. You must keep up in order to stay relevant and to connect with clients in today’s marketplace. I have specifically designed this presentation exclusively for professionals just like you including tangible ready-to-use approaches! Attendees will learn:</p><p>How to blog for profit and purpose<br/>Where to find your current and prospective clients on the internet.<br/>How to brand yourself, your products and your services.<br/>How to build and maintain a relationship online.<br/>How to optimize your visibility on the internet.<br/>How to convey your expertise in order to build client confidence in you.<br/>How to manage your social media effort in a consistent way.</p><p>How can you as a professional speaker, coach, expert and business leader use social media and traditional marketing approaches to effectively and profitably monetize your online presence and market position? Why should you as a professional want to learn the strategy and tools of social media? It’s very simple: LEVERAGE!</p><p>Social media isn't going away and more and more, if you aren't taking advantage of the best tools, techniques and approaches, YOU ARE BEING LEFT BEHIND. You already know what I'm saying. You know you need to:<br/><br/>1. Get new clients<br/>2. Maintain and grow your current client relationships<br/>3. Find ways to monetize your commitment to social media.<br/><br/> ...and do it all with panache!</p>"
 			}
 		]	
 	},
@@ -79,14 +58,7 @@
 			{
 				"Track": "UI/UX",
 				"Topic": "Using data to design killer experiences for your user",
-				"Description": "<p>We'll explore why designers should be designing experiences for the user and not for the boss or themselves. Dustin will showcase tools that he used for User Research, A/B Testing, Usability Testing, Prototyping, and Design. </p>
-							<br/>
-							<p>Dustin will also explain his process on:<br/>
-							-- How he farms customer/user data from research<br/>
-							-- What to do with the customer/user data once obtaining it<br/>
-							-- How to use design to solve problems<br/>
-							-- How to use A/B Testing to test design ideas<br/>
-							-- What his iteration cycle looks like</p>"
+				"Description": "<p>We'll explore why designers should be designing experiences for the user and not for the boss or themselves. Dustin will showcase tools that he used for User Research, A/B Testing, Usability Testing, Prototyping, and Design. </p><br/><p>Dustin will also explain his process on:<br/>-- How he farms customer/user data from research<br/>-- What to do with the customer/user data once obtaining it<br/>-- How to use design to solve problems<br/>-- How to use A/B Testing to test design ideas<br/>-- What his iteration cycle looks like</p>"
 			}
 		]	
 	},
@@ -136,11 +108,7 @@
 			{
 				"Track": "Tech Entrepreneurship",
 				"Topic": "How Purpose-Driven Entrepreneurs Can Use Digital Tools To Spread Their Message with Ease",
-				"Description": "<p>In this talk I cover why diversity and radically different perspectives matter and how they can be seen and heard.</p>
-
-						<p>I also dive into how you can create organized, streamlined, consistent, remote work to free up time and location (organized with tech) to work on what you’re passionate about and enjoy your life.</p>
-
-						<p>Finally, I do a deep dive and give specific examples on why creating a delightful customer experience is the key to making your purpose and voice matter.</p>"
+				"Description": "<p>In this talk I cover why diversity and radically different perspectives matter and how they can be seen and heard.</p><p>I also dive into how you can create organized, streamlined, consistent, remote work to free up time and location (organized with tech) to work on what you’re passionate about and enjoy your life.</p><p>Finally, I do a deep dive and give specific examples on why creating a delightful customer experience is the key to making your purpose and voice matter.</p>"
 			}
 		]	
 	},
@@ -172,20 +140,12 @@
 			{
 				"Track": "Mobile",
 				"Topic": "Build Flappy Bird in 50 Minutes",
-				"Description": "<p>You have your choice of thousands of Flappy Bird knockoffs on any platform you want. But you can do it better than those guys! Learn how to build Flappy Bird for Android, iOS, and Windows Phone with one common C# code base using MonoGame.</p>
-
-				<p>You will learn how to maximize the code reuse across platforms. You will see how to abstract control structures to work best on the target platform. You will explore physics, game play, and graphics options to make the game as fun -- or frustrating -- as you like.</p>
-
-			<p>Bird's gonna flap. Build your app!</p>"
+				"Description": "<p>You have your choice of thousands of Flappy Bird knockoffs on any platform you want. But you can do it better than those guys! Learn how to build Flappy Bird for Android, iOS, and Windows Phone with one common C# code base using MonoGame.</p><p>You will learn how to maximize the code reuse across platforms. You will see how to abstract control structures to work best on the target platform. You will explore physics, game play, and graphics options to make the game as fun -- or frustrating -- as you like.</p><p>Bird's gonna flap. Build your app!</p>"
 			},
 			{
 				"Track": "Other",
 				"Topic": "Modeling Settlers of Catan with Degrees of Freedom",
-				"Description": "<p>You probably aren't writing games. But you are writing business rules. Just like the rules of games, business rules are interrelated and complex. We'll practice writing business rules by modeling games.</p>
-
-						<p>In any mathematical model, we identify equations and unknowns. The difference between those two tells us the number of degrees of freedom in the system. Once we know the degrees of freedom, we can identify the independent variables and the dependent variables.</p>
-
-					<p>We'll build mathematical models for three popular games: bowling, Dungeons and Dragons, and Settlers of Catan. We'll write code for each of these models in C# using the Update Controls dependency tracking library. This will give us the skills we need to easily model any business system.</p>"
+				"Description": "<p>You probably aren't writing games. But you are writing business rules. Just like the rules of games, business rules are interrelated and complex. We'll practice writing business rules by modeling games.</p><p>In any mathematical model, we identify equations and unknowns. The difference between those two tells us the number of degrees of freedom in the system. Once we know the degrees of freedom, we can identify the independent variables and the dependent variables.</p><p>We'll build mathematical models for three popular games: bowling, Dungeons and Dragons, and Settlers of Catan. We'll write code for each of these models in C# using the Update Controls dependency tracking library. This will give us the skills we need to easily model any business system.</p>"
 			}
 		]	
 	},
@@ -200,11 +160,7 @@
 			{
 				"Track": "Mobile",
 				"Topic": "Developing Mobile Games With LibGDX",
-				"Description": "<p>Video games are currently among the best selling apps on both the App Store and Google Play. Whilst traditionally writing video games has been the domain of professional studios often with large budgets and publisher support, the barriers to game development have in recent years plummeted. The rise of the indie developer and high-powered mobile devices has seen an explosion in smaller-scale video game development. The smartphone app stores are now the most dynamic and interesting video game platforms in the world.</p>
-
-<p>This presentation will take participants through an overview of a multi-platform mobile game development framework called LibGDX. Core concepts of video game design will be discussed along with an outline of the technical challenges that face mobile video game developers. Insights into some of the technical solutions that are provided by the framework such as object pooling, texture atlases and pre-allocated arrays will be demonstrated.</p>
-
-<p>A current game in development (predicted to be 80% completed) will be shown and some of the experiences and ups and downs of developing the game will be shared.</p>"
+				"Description": "<p>Video games are currently among the best selling apps on both the App Store and Google Play. Whilst traditionally writing video games has been the domain of professional studios often with large budgets and publisher support, the barriers to game development have in recent years plummeted. The rise of the indie developer and high-powered mobile devices has seen an explosion in smaller-scale video game development. The smartphone app stores are now the most dynamic and interesting video game platforms in the world.</p><p>This presentation will take participants through an overview of a multi-platform mobile game development framework called LibGDX. Core concepts of video game design will be discussed along with an outline of the technical challenges that face mobile video game developers. Insights into some of the technical solutions that are provided by the framework such as object pooling, texture atlases and pre-allocated arrays will be demonstrated.</p><p>A current game in development (predicted to be 80% completed) will be shown and some of the experiences and ups and downs of developing the game will be shared.</p>"
 			}
 		]	
 	},
@@ -229,18 +185,14 @@
 		"FirstName": "Bill",
 		"LastName": "Hartzer",
 		"Bio": "<p>Bill Hartzer is the Senior SEO Strategist at Globe Runner. Bill is a frequent speaker and expert discussion panel participant at various search engine marketing and internet marketing conferences and events such as the Search Engine Strategies and the PubCon conferences. Bill writes frequently for Search Engine Watch, Search Engine Guide, and is regularly published in many online publications. He maintains a blog on his website, www.BillHartzer.com, and is one of the original founders of the Dallas/Fort Worth Search Engine Marketing Association. He has over 18 years of search engine marketing, SEO, and social media marketing experience.</p>",
-		"Website": "<p>As web developers, we know that SEO (Search Engine Optimization) is important when building a website. But what parts of SEO is important, and what parts of on-site SEO can be ignored? In this panel, we'll discuss search engine friendly websites, building sites with 'responsive design' and migrating sites from old an older CMS to WordPress.</p> 
-
-						<p>The focus will be primarily on on-site search engine optimization, and making websites are search engine friendly. We'll also discuss how to perform a search engine optimization audit of your own website, using several widely available tools. Some of the tools discussed will be website crawlers (you can crawl your own website and check for errors and common SEO problems) and using the data provided in Google Webmaster Tools and Bing Webmaster Tools.</p>",
+		"Website": "",
 		"Twitter": "bhartzer",
 		"Photo": "/public/img/speakers/bill_hartzer.jpg",
 		"Presentations":[
 			{
 				"Track": "Web",
 				"Topic": "SEO For Web Developers",
-				"Description": "<p>As web developers, we know that SEO (Search Engine Optimization) is important when building a website. But what parts of SEO is important, and what parts of on-site SEO can be ignored? In this panel, we'll discuss search engine friendly websites, building sites with 'responsive design' and migrating sites from old an older CMS to WordPress.</p> 
-
-				<p>The focus will be primarily on on-site search engine optimization, and making websites are search engine friendly. We'll also discuss how to perform a search engine optimization audit of your own website, using several widely available tools. Some of the tools discussed will be website crawlers (you can crawl your own website and check for errors and common SEO problems) and using the data provided in Google Webmaster Tools and Bing Webmaster Tools.</p>"
+				"Description": "<p>As web developers, we know that SEO (Search Engine Optimization) is important when building a website. But what parts of SEO is important, and what parts of on-site SEO can be ignored? In this panel, we'll discuss search engine friendly websites, building sites with 'responsive design' and migrating sites from old an older CMS to WordPress.</p> <p>The focus will be primarily on on-site search engine optimization, and making websites are search engine friendly. We'll also discuss how to perform a search engine optimization audit of your own website, using several widely available tools. Some of the tools discussed will be website crawlers (you can crawl your own website and check for errors and common SEO problems) and using the data provided in Google Webmaster Tools and Bing Webmaster Tools.</p>"
 			}
 		]	
 	},
@@ -272,9 +224,7 @@
 			{
 				"Track": "Web",
 				"Topic": "Think Fast: Getting started with website performance in the age of responsive web design",
-				"Description": "<p>Who ultimately should be the steward of website performance? The designers? The developers? Someone else? Of course, the right answer to this critical element of website creation is that it is everyone’s responsibility. Each role and department within an organization (project managers, UX, account managers, designers, developers – and even clients) has a role to play in ensuring the final product delivered to users is as fast, quick and speedy as can be. Not only does this make for better user experiences, but it also ensures we meet our business objectives.</p>
-
-					<p>Making websites fast is a battle I fight daily as we try to maintain the balance between fast, usable and beautiful. Over the past few years, especially with the growth of mobile usage, I've found that it is important to be aware of the consequences of the decisions we make as we create sites, be it design or development, and the biggest step forward is ensuring that we are all aware of these challenges as well as ways that we can counter them. While each project is different from the next, the material in this discussion should serve as a handy guide to making sites faster for everyone involved in making websites</p>"
+				"Description": "<p>Who ultimately should be the steward of website performance? The designers? The developers? Someone else? Of course, the right answer to this critical element of website creation is that it is everyone’s responsibility. Each role and department within an organization (project managers, UX, account managers, designers, developers – and even clients) has a role to play in ensuring the final product delivered to users is as fast, quick and speedy as can be. Not only does this make for better user experiences, but it also ensures we meet our business objectives.</p><p>Making websites fast is a battle I fight daily as we try to maintain the balance between fast, usable and beautiful. Over the past few years, especially with the growth of mobile usage, I've found that it is important to be aware of the consequences of the decisions we make as we create sites, be it design or development, and the biggest step forward is ensuring that we are all aware of these challenges as well as ways that we can counter them. While each project is different from the next, the material in this discussion should serve as a handy guide to making sites faster for everyone involved in making websites</p>"
 			}
 		]	
 	},
@@ -326,13 +276,7 @@
 			{
 				"Track": "IT Professional",
 				"Topic": "IT Where You Least Expect It",
-				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p>
-
-<p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p>
-
-<p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p>
-
-<p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
+				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p><p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p><p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p><p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
 			}
 		]	
 	},
@@ -348,13 +292,7 @@
 			{
 				"Track": "IT Professional",
 				"Topic": "IT Where You Least Expect It",
-				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p>
-
-<p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p>
-
-<p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p>
-
-<p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
+				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p><p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p><p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p><p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
 			}
 		]	
 	},
@@ -370,31 +308,7 @@
 			{
 				"Track": "Other",
 				"Topic": "DEPLOY ALL THE GAMES!!!",
-				"Description": "<p>Come see how you can use Unity3D toolset to build and deploy your game to ALL THE DEVICES!. New devices do not need ports from scratch anymore, its the 21st Century.</p>
-
-<p>We will explore how to deal with differing form factors, pixel densities, graphics support, input systems and other multi platform madness.</p>
-
-<p>It can be done. It’s not too hard.</p>"
-			}
-		]	
-	},
-	{
-		"Id" : 18,
-		"FirstName": "Adam",
-		"LastName": "Hill",
-		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p><p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> <p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
-		"Website": "",
-		"Twitter":"adamhill",
-		"Photo": "/public/img/speakers/adam_hill.jpg",
-		"Presentations":[
-			{
-				"Track": "Other",
-				"Topic": "DEPLOY ALL THE GAMES!!!",
-				"Description": "<p>Come see how you can use Unity3D toolset to build and deploy your game to ALL THE DEVICES!. New devices do not need ports from scratch anymore, its the 21st Century.</p>
-
-<p>We will explore how to deal with differing form factors, pixel densities, graphics support, input systems and other multi platform madness.</p>
-
-<p>It can be done. It’s not too hard.</p>"
+				"Description": "<p>Come see how you can use Unity3D toolset to build and deploy your game to ALL THE DEVICES!. New devices do not need ports from scratch anymore, its the 21st Century.</p><p>We will explore how to deal with differing form factors, pixel densities, graphics support, input systems and other multi platform madness.</p><p>It can be done. It’s not too hard.</p>"
 			}
 		]	
 	},
@@ -402,7 +316,7 @@
 		"Id" : 19,
 		"FirstName": "Nancy",
 		"LastName": "Knighten",
-		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p><p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> <p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
+		"Bio": "<p>Nancy Knighten has worked for the Arkansas Small Business and Technology Development Center at the University of Arkansas at Little Rock for six years in economic development. She provides management and technical advice to current and potential small business owners and assists clients in solving business problems and advancing their companies. Business planning, marketing strategy development, and loan packaging are some of her specialities.</p>",
 		"Website": "http://asbtdc.org",
 		"Twitter":"",
 		"Photo": "/public/img/speakers/nancy_knighten.jpg",
@@ -414,6 +328,4 @@
 			}
 		]	
 	}	
-
-
 ]

@@ -27,7 +27,8 @@ block speaker-content
 						span !{speaker.Bio}
 					for talk in speaker.Presentations
 						div.section-title #{talk.Topic}
-						p.secton-content #{talk.Description}
+						.section-content 
+							//span !{talk.Description}
 			.row.speaker
 				hr
 					
