@@ -14,7 +14,7 @@ app.get("/call", function(req, res){
 	res.redirect('speakers')
 });
 
-app.get("/schedule", function(req, res){
+app.get("/agenda", function(req, res){
 	fs.readFile('speakers.json', 'utf8', function(err, data){
 		if(err){
 			console.log(err);
