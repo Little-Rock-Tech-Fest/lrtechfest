@@ -6,81 +6,104 @@ block content
 			.col-md-12
 				ul
 					li
-						.page-banner-title Schedule
+						.page-banner-title Agenda
 	.container
-		.row
-			h4.col-xs-12 Conference Schedule
+
 		.row
 			.col-xs-12
 				table#schedule.table.table-bordered
 					tbody
 						tr
-							td 7:30 - 8:30
+							td.time 7:30 - 8:30
 							td(colspan=4) 
 								span.header Registration. 
 								span.subheader Morning refreshments available at Wasabi
 						tr
-							td 8:30 - 8:45
+							td 8:30 - 8:40
 							td(colspan=4) Introduction
 						tr
 							td
-							td.room Miller
-							td.room Izzard
-							td.room Pope
-							td.room Fulton
+							td.room Track 1
+							td.room Track 2
+							td.room Track 3
+							td.room Track 4
 						tr
-							td 9:00 - 9:50
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
+							td 8:50 - 9:40
+							td.talk 
+								+topic("1.1")
+							td.talk
+								+topic("2.1")
+							td.talk
+								+topic("3.1")
+							td.talk
+								+topic("14.1")
 						tr
-							td 10:00 - 10:50
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
+							td 9:50 - 10:40
+							td.talk
+								+topic("5.1")
+							td.talk
+								+topic("9.1")
+							td.talk
+								+topic("6.2")
+							td.talk
+								+topic("7.1")
 						tr
-							td 11:00 - 12:50
+							td 10:50 - 11:40
+							td.talk
+								+topic("8.1")
+							td.talk
+								+topic("6.1")
+							td.talk
+								+topic("9.2")
+							td.talk
+								+topic("10.1")
+						tr
+							td 11:50 - 1:20
 							td(colspan=4) 
 								span Lunch
 								span.subheader On your own at various local downtown restaurants
 						tr
-							td 1:00 - 1:50
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
+							td 1:30 - 2:20
+							td.talk
+								+topic("11.1")
+							td.talk
+								+topic("16.1")
+							td.talk
+								+topic("13.1")
+							td.talk
+								+topic("4.1")
+								
 						tr
-							td 2:00 - 2:50
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
+							td 2:30 - 3:20
+							td.talk
+								+topic("15.1")
+							td.talk
+								+topic("12.1")
+							td.talk
+								+topic("16.2")
+							td.talk
+								+topic("17.1")
+								
 						tr
-							td 3:00 - 3:50
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
-							td.talk TBD
+							td 3:30 - 4:20
+							td.talk
+								+topic("19.1")
+							td.talk
+								+topic("20.1")
+							td.talk
+								TBD
+							td.talk
+								TBD
 						tr
-							td 4:00 - 5:00
+							td 4:20 - 5:00
 							td(colspan=4) Closing and prizes
 						tr
 							td 5:30 - 9:00
 							td(colspan=4) 
 								span.header After Party
-								span.subheader Party room at Flying Saucer
+								span.subheader Downstairs at Flying Saucer
 
-		.row
-			h4.col-xs-12 2014 Little Rock Techfest Talks
-		.row
-			.col-xs-12
-				.list-group
-					each presentation in presentations
-						a.list-group-item(href="#{presentation.Url}") 
-							.container-fluid
-								.col-xs-10
-									span #{presentation.Topic}
-								.col-xs-2
-									i.pull-right.fa.fa-arrow-right
+mixin topic(uid)
+	- topic = _.find(presentations, {"UID":uid}); 
+	a(href="#{topic.Url}")
+		span #{topic.Topic}

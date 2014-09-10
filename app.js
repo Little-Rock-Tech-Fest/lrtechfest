@@ -31,6 +31,7 @@ app.get("/agenda", function(req, res){
 						var speakerName = speaker.FirstName + " " + speaker.LastName;
 						presentation.Speakers.push(speakerName);
 						presentation.Url = '/speakers#'+slugs(speakerName);
+						presentation.UID = speaker.Id + "." + presentation.Id;
 						talks.push(presentation);
 					}
 				});
