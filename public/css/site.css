@@ -50,7 +50,6 @@ h5 {font-size: 24px}
 .navbar-navbar .dropdown > i {display:inline-block}
 .navbar .dropdown > a {display:inline-block; font-size:14px; font-weight:600}
 
-
 #announcement-content {
 	background: url('../img/lrskyline-small.jpg') center center no-repeat;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
@@ -76,9 +75,10 @@ h5 {font-size: 24px}
 
 #mce-EMAIL {font-size: 28; color:black; min-width: 300px}
 
-#register-now i {opacity:1; color:black}
-#register-now .btn-primary:hover{ background: #7db660 !important; }
-#register-now i span {margin-left: 20px}
+.announcement {display: inline-block; padding:7px 7px 7px 7px;}
+.announcement .fa {opacity:1; color:black}
+.announcement .btn-primary:hover{ background: #7db660 !important; }
+.announcement i span {margin-left: 20px}
 
 #sponsors-content {background-color: white; color: black;}
 #sponsors-content a {color:inherit; text-decoration:none}
@@ -201,6 +201,14 @@ h5 {font-size: 24px}
   }
 	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
 	#become-sponsor .btn {display: inline-block}
+
+	.announcement { padding:4px 4px 4px 4px;}
+	#landing .announcement .btn{margin:0px 0px 0px 0px;}
+
+	#schedule { font-weight: 300; font-size: 12pt; }
+	#schedule .subheader { font-size: 10pt}
+	#schedule tbody tr td:nth-child(1) {font-weight: 600; min-width: 115px}
+	#schedule tbody tr td.room {font-weight: 600}
 }
 
 /*This is the point that we go down to one column of sponsors*/
@@ -212,7 +220,7 @@ h5 {font-size: 24px}
 @media (max-width: 480px) {
 	#landing .btn { margin: 0px 0px 15px 0px; }
 	#landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px;} 
-  #landing h2 {font-size: 24pt; margin: 0px 0px 20px 0px;}
+  	#landing h2 {font-size: 24pt; margin: 0px 0px 20px 0px;}
 	#landing h3 {font-size: 18pt; margin: 0px 0px 20px 0px;}
 	#landing h4 {font-size: 14pt; margin: 0px 0px 20px 0px;}
 
@@ -227,8 +235,17 @@ h5 {font-size: 24px}
 
 	#parking-map iframe {width:300px; height:230px; }
 
-	#register-now i {font-size: 32px}
-	#register-now i span {margin-left: 10px}
+	.announcement { padding:4px 4px 4px 4px;}
+	.announcement i {font-size: 32px}
+	.announcement i span {margin-left: 10px}
+	#landing .announcement .btn{margin:0px 0px 0px 0px;}
+
+	#schedule { font-weight: 300; font-size: 10pt; }
+	#schedule .subheader { font-size: 8pt}
+	#schedule, #schedule td, #schedule th{padding:4px;}
+	#schedule tbody tr td:nth-child(1) {font-weight: 600; min-width: 70px}
+	#schedule tbody tr td.room {font-weight: 600}
+
 
 }
 
