@@ -350,5 +350,22 @@
 				"Description": "<p>You’ve got tech, now what? This is an informational session about evaluating the next steps in the dynamic planning and development process for your technology as a business venture. The session will take a look at business modeling and how to monetize and bring your technology to the masses. Think brainstorming with a little lagniappe!</p>"
 			}
 		]	
+	},
+	{
+		"Id" : 21,
+		"FirstName": "LJ",
+		"LastName": "Wilson",
+		"Bio": "<p>A user experience junkie, LJ had been on a quest to find the ultimate development platform for years, and in 2009 found iOS development to be the one. LJ has worked in a variety of programming roles, from industrial programmable logic controllers (PLC’s) and robotics to open source development and then on to .NET and iOS development, LJ works full time for Arkansas Children’s Hospital and has created a complete infrastructure for iOS applications. What started out as an experimental in-house phonebook app for the iPhone has expanded into sixteen production iOS apps and counting in the span of less than 3 years. In addition to his primary mission of in-house development, LJ has also developed several apps for others ranging from an app for lawyers to take on pro-bono cases to a soon to be released health-care app. For fun, LJ loves to run and ride his motorcycle in circles around a track.</p>",
+		"Website": "http://irockios.com/",
+		"Twitter":"eljaywilson",
+		"Photo": "/public/img/speakers/lj_wilson.jpg",
+		"Presentations":[
+			{
+				"Id" : 1,
+				"Track": "Tech Entrepreneurship",
+				"Topic": "iOS Development for the Enterprise",
+				"Description": "<p>When most people think of iOS development, the natural assumption is Apple’s App Store. A lesser known option for development is enterprise or in-house development. In this session we will cover the unique considerations and advantages that enterprise development has. Since there is no review and approval process, we will learn that with great power comes great responsibility. Imagine creating your own “App Store” and distributing your apps to users that you get to interact with daily. We will also touch on some of the updated MDM services that Apple has rolled out and how they can make devices easy to manage. Get ready to see the fun world of enterprise app development!</p>"
+			}
+		]	
 	}	
 ]
