@@ -318,6 +318,23 @@
 		]	
 	},
 	{
+		"Id" : 22,
+		"FirstName": "Sarah ",
+		"LastName": " Daigle Scott",
+		"Bio": "<p>A Technology Ambassador. Canadian-American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy.</p><p>Her specialties include startup dreaming, technical training, social strategies and mobile apps. She is a strong advocate for exposing female and male children alike to coding at an early age as a leader of Ozark STEM Foundation. Sarah earned her B.A. degree at Bishop’s University and her Masters in IT Education at Dalhousie University (Canada).</p>",
+		"Website": "http://thetechambassador.com/",
+		"Twitter":"techteachergirl",
+		"Photo": "/public/img/speakers/sarah_scott.jpg",
+		"Presentations":[
+			{
+				"Id" : 1,
+				"Track": "IT Professional",
+				"Topic": "IT Where You Least Expect It",
+				"Description": "<p>Basic knowledge of software and web development is becoming a must in industries where people might least expect it. This panel will address several faces of IT in the areas of law, nonprofit management, education, and software product management.</p><p>Angie Albright: Nonprofit organizations are catching up to the commercial world in their use of web design and development, software, and CRMs. Their ability to manage programs, raise money, and communicate effectively with their supporters and the community relies on these technologies. A whole new market for developers and IT specialists are opening up in the field of nonprofit technology education and services.</p><p>Meredith Lowery: IT in the legal arena has developed leaps and bounds with new developments in software, data management, and within the courts and bureaucratic offices in the government. Added to that, the legal arena also provides protections for IT through the patent arena.</p><p>Sarah Daigle: Educators and parents are taking a deep dive into the IT sphere through their kids and schools. Smart phones, Minecraft, tablets and streaming everything have upped the ante for technology in the home. The industry needs technologists of all flavors from hard-core gear heads to gentle email marketing gurus.</p>"
+			}
+		]	
+	},
+	{
 		"Id" : 19,
 		"FirstName": "Adam",
 		"LastName": "Hill",
