@@ -126,6 +126,9 @@ h5 {font-size: 24px}
 .location-title {font-weight: 400; font-size:30px; display:inline-block}
 .location-text span{ display:block; margin-left:8px}
 
+#restaurants .location-title {font-size: 24px}
+#restaurants .location-text span {font-size: 14px}
+
 #parking-map iframe {width:600px; height:450px; border:5px solid black; border-radius:10px}
 
 .speaker .photo {margin-bottom: 30px; margin-right:15px }
