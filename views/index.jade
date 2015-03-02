@@ -1,264 +1,51 @@
 extends layout
 
-block stylesheets
-	link(href="/public/css/jquery.countdown.css", rel="stylesheet")
-
 block content
 	#landing
-		#announcement-content.text-center
-			.container
-				#time-place
-					hr
-					.time-place-inner
-						span.fa.fa-calendar-o
-						span Friday, September 26, 2014
-						.sep
-						span.h3.fa.fa-map-marker
-						span Statehouse Convention Center
-					hr
+		.container-fluid
+			#time-place
+				hr
+				.time-place-inner
+					span.fa.fa-calendar-o
+					span Friday, October 16, 2015
+					.sep
+					span.h3.fa.fa-map-marker
+					span Statehouse Convention Center
+				hr
+			#landing-content.text-center
 				h1 Little Rock<br> Tech Fest
 				h3 One-day <strong>technology</strong> conference featuring popular developer topics from industry leaders
+		
+			#announcement
+				.row
+					.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.alert.alert-warning
+						p.text-center Tech Fest 2015 has a date! Mark your calendars for October 16th! 
 
-				#timer
-					#timer-div
+	#sponsors
+		.section
+			.section-header
+				h2 Sponsors
+				h3 We are currently seeking sponsors for 2015. To see your logo here, please <a href="/sponsors">contact</a> us!
+			.section-content
+				#sponsors-content
+					.container-fluid
+						.row.logo-row
+							each sponsor in sponsors
+								a(href="#{sponsor.Website}")
+									.logo-container
+										.level
+											i(class="fa fa-trophy #{sponsor.Level}")
+											span #{sponsor.Level} Sponsor
+										.logo-frame
+											.logo-img
+											img(src="#{sponsor.Logo}")
+							a(href="/sponsors")
+								.logo-container
+									.level
+										i.fa.fa-trophy.silver
+										span Sponsor Us!
+									.logo-frame
+										.logo-img
+										img(src="/public/img/sponsors/default.png")
 
-				.announcement
-					a(class="btn btn-primary btn-lg" href=" http://lrtechfest.eventbrite.com")
-						i.fa.fa-ticket.fa-2x
-							span Register Now!
-				
-				.announcement
-					a(class="btn btn-primary btn-lg" href="/agenda")
-						i.fa.fa-calendar.fa-2x
-							span Talks Finalized
-
-
-		#sponsors-content
-			.container-fluid
-				.row.sponsor-header
-					h2.text-center Sponsors
-					h4.text-center We love our fantastic sponsors. Without their support, Little Rock Techfest would not happen.
-				.row.logo-row
-
-						a(href="http://lrdnug.org/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.platinum
-									span Platinum Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/logo_lrdnug.png")
-
-						a(href="http://balsamiq.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.platinum
-									span Platinum Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/balsamiq-logo.png")
-						
-						a(href="http://www.innovatearkansas.org/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.gold
-									span Gold Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/innovateark.jpg")
-
-						a(href="http://pluralsight.com/training")
-							.logo-container
-								.level
-									i.fa.fa-trophy.gold
-									span Gold Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/pluralsight-logo.png")
-						
-						a(href="http://www.abcfinancial.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.gold
-									span Gold Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/abc-logo.jpg")
-
-						a(href="http://ina.arkansas.gov/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/logo_ina.png")
-
-						a(href="https://github.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/GitHub_Logo_Small.png")
-
-						a(href="http://sibanking.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/sti-logo.png")
-
-						a(href="http://www.arhub.org/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/innovation-hub-logo.png")
-
-						a(href="http://bbasolutions.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/BBAHoriz-logo.png")
-
-						a(href="http://www.mainstream-tech.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/mainstream-logo.png")
-						
-						a(href="http://www.ozarkstem.org")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Silver Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/ozark-STEM.png")
-
-						a(href="http://sqlsmash.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/sqlsmash_small.png")
-
-						a(href="http://few.io/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/few-logo-small.png")
-
-						a(href="https://www.venturecenter.co/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/avc.png")
-
-						a(href="http://www.teksystems.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/TEKsystems_logo.png")
-
-						a(href="http://www.perks.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/perks-logo.jpg")
-
-						a(href="http://www.arkansasbluecross.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/abcbs-logo.png")
-
-						a(href="http://www.medevolve.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/medevolve_logo.jpg")
-
-						a(href="http://www.devexpress.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/devexpress-logo.png")
-
-						a(href="http://www.praeses.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/praeses-logo.png")
-						
-						a(href="http://www.gdhconsulting.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/gdh-logo.jpg")
-
-						a(href="http://www.dpath.com/")
-							.logo-container
-								.level
-									i.fa.fa-trophy.bronze
-									span Bronze Sponsor
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/dp-logo.png")
-
-
-						a(href="/sponsors")
-							.logo-container
-								.level
-									i.fa.fa-trophy.silver
-									span Sponsor Us!
-								.logo-frame
-									.logo-img
-									img(src="/public/img/sponsors/default.png")
-
-block scripts
-	script(src="/public/js/jquery.plugin.min.js")
-	script(src="/public/js/jquery.countdown.min.js")
-	script.
-		$('#timer-div').countdown({ until: new Date(2014, 9 - 1, 26, 8, 0, 0) });
+	

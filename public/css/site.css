@@ -5,52 +5,32 @@ blue: #4918fe;
 light orange #fead97
 */
 
-body { font-family: 'Roboto', sans-serif; font-weight: 400; font-style: normal; padding-top: 50px }
-.btn { font-family: 'Roboto', sans-serif; font-weight: 600; font-style: normal; }
+body {  font-family: 'Roboto', sans-serif; color: white; background: black;}
 
-body { color: #000; font-size: 12pt; background: #fff; margin: 0; }
-p {font-size:11pt; line-height: 20pt; font-weight:400;}
+h1 { font-size: 4em; font-weight: bold}
+h2 { font-size: 3em; font-weight: bold}
+h3 { font-size: 2em}
+h4 { font-size: 1.5em}
+p  { line-height: 1.4}
 
-h1, h2, h3, h4, h5 {font-weight: 600; display: block}
-h4, h5, h6 {margin-top: 10px;}
-h3 {font-size: 40px}
-h4 {font-size: 32px}
-h5 {font-size: 24px}
+.header { padding: 20px; }
+.header h1 { display: inline-block; margin-left: 30px;}
+.header img {position: relative; top: -20px;}
 
-.page-title {margin-bottom: 40px}
-.page-title p {margin-left: 20px; font-size: 24px; }
-.page-content p {margin-bottom: 20px; font-size: 14pt}
+.alert-warning {background-color: #fe4918; color: black; }
 
-.btn { border: 0px; background: transparent; }
-.btn:Hover { opacity: 1; }
-.btn-lg { font-size: 28px; }
-.btn-sm { font-size: 14px; }
-.btn .fa {opacity: .4; color: #000; margin-right: 10px;}
-.btn-lg span {position: relative; top:-6px;}
-.btn-sm span { position: relative; }
-.btn-primary { opacity: 1;  color: #fff; background: #fe4918}
-.btn-secondary {opacity: 1; background: #7db660; color: #fff; }
-.btn-primary:hover{ background: #000 !important; color: #fff; }
-.btn-primary:hover .fa {color:white;}
+.section{}
+.section-header{background-color: #7db660; color: black; padding: 20px;}
+.section-content{ background-color: white; color: black; padding: 20px;}
 
-.navbar .btn {border:0px}
-.navbar .fa  {color: #fff; opacity: .4; margin-right: 10px;}
-.navbar .btn-primary { color: #000; background: transparent}
-.navbar .btn-primary:hover{ background: #fe4918 !important; color: #fff; }
+.navbar { color: #000; background: transparent; font-size:.9em; font-weight: bold; margin-bottom:0px;}
+.navbar-brand img {position: relative; height: 40px; top: -8px;}
+.navbar .fa  {color: #fff; opacity: .4; margin-right: 10px; position:relative; top: 4px;}
+.navbar-nav .btn-primary {color: #000; background: transparent}
+.navbar-nav>li>a.btn{ border:0px;  font-size:.9em; font-weight: bold;}
+.navbar-nav>li>a.btn:hover{ background: #fe4918; color: #fff; }
 
-.navbar {min-height: 40px}
-#navbar-logo {height:40px; position: relative; top: -5px;}
-.navbar-inverse .navbar-nav>li>a span {color:white;}
-.navbar .navbar-nav .btn {margin-right:5px; text-align:left}
-.navbar a > span {position:relative; top:-5px}
-.navbar-inverse .navbar-nav>li>a.social {color:white;}
-.navbar-inverse .navbar-nav>li>a:hover.social {color:#999;}
-.navbar .social {margin-right: 10px; font-size:14px}
-
-.navbar-navbar .dropdown > i {display:inline-block}
-.navbar .dropdown > a {display:inline-block; font-size:14px; font-weight:600}
-
-#announcement-content {
+#landing{
 	background: url('../img/lrskyline-small.jpg') center center no-repeat;
 	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
 	background-size: cover; background-attachment: fixed; 
@@ -59,218 +39,86 @@ h5 {font-size: 24px}
 	padding-top: 50px;
 	padding-bottom: 50px
 }
-#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 100pt; text-transform: uppercase; line-height: 100px; margin-bottom: 25px; }
-#landing h2 { font-family: 'Ubuntu', sans-serif; font-size: 50pt; text-transform: uppercase; }
-#landing h3 {font-weight:300}
-#landing button {margin-left: 10px}
 
-#time-place .time-place-inner { font-size: 18pt; font-weight:300; display: inline-block; margin: 0 20px 15px; position: relative; top: -12px; }
-#time-place .fa {margin: 0px 10px 0px 0px; font-size: 20pt; top: -3px;}
-#time-place .sep { width: 15px; display: inline-block; }
+#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 7.5em; text-transform: uppercase; margin-bottom: .5em; }
+#landing h2 { font-family: 'Ubuntu', sans-serif; font-size: 5em; text-transform: uppercase; }
+
+#time-place {text-align: center;}
+#time-place .time-place-inner { font-size: 1.5em; font-weight:300; display: inline-block; position: relative; top: -12px; margin-left: 10px; margin-right: 10px}
+#time-place .fa {margin: 0px 10px 0px 0px; font-size: 1.5em; top: -3px;}
+#time-place .sep { width: 1.3em; display: inline-block; }
 #time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 
+#announcement {margin-top: 20px; font-size: 1.5em; font-weight:bold;}
 
-#timer-div {margin-bottom: 50px}
-.is-countdown {background-color: transparent;}
-
-#mce-EMAIL {font-size: 28; color:black; min-width: 300px}
-
-.announcement {display: inline-block; padding:7px 7px 7px 7px;}
-.announcement .fa {opacity:1; color:black}
-.announcement .btn-primary:hover{ background: #7db660 !important; }
-.announcement i span {margin-left: 20px}
-
-#sponsors-content {background-color: white; color: black;}
 #sponsors-content a {color:inherit; text-decoration:none}
-#sponsors-content .sponsor-header {background-color: #7db660; color: black; padding-bottom: 20px}
 #sponsors-content .logo-row {margin-top: 10px; }
 #sponsors-content .logo-container {padding: 20px; border:1px solid #d8d8d8; margin-left:10px; margin-right: 10px; margin-top: 20px; display:inline-block}
 #sponsors-content .logo-frame { overflow:hidden; height: 250px; width: 250px; text-align:center}
 #sponsors-content .logo-img { display:inline-block; height:100%; vertical-align:middle}
 #sponsors-content  img {width: 250px;  max-height:250px; vertical-align:middle}
 #sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; height: 250px; width:250px; background-color:lightgray; padding:10px; background-clip: padding-box;}
-#sponsors-content .level{ margin-bottom: 20px; font-size: 18px; font-weight: 500; text-align:center;}
-#sponsors-content .level span{ position:relative; top: -3px}
-#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em; }
-#sponsors-content .fa.platinum {color:#E5E4E2; }
-#sponsors-content .fa.gold {color:#FFDF00; }
-#sponsors-content .fa.silver {color:#C0C0C0; }
-#sponsors-content .fa.bronze {color:#CD7F32; }
+#sponsors-content .level{ margin-bottom: 20px; font-weight: 500; text-align:center}
+#sponsors-content .level span{ position:relative; top: -3px; font-size: 1.2em}
+#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.5em;}
+#sponsors-content .fa.Platinum {color:#E5E4E2; }
+#sponsors-content .fa.Gold {color:#FFDF00; }
+#sponsors-content .fa.Silver {color:#C0C0C0; }
+#sponsors-content .fa.Bronze {color:#CD7F32; }
 
-.page-banner{background-color: #7db660; margin-bottom: 30px; margin-top: 8px}
-.page-banner-title {font-size: 36px; font-weight: 500; display: inline; vertical-align: middle; padding-bottom: 10px}
-.page-banner .btn {padding-bottom:10px; padding-top: 20px}
-.page-banner ul {list-style-type: none; margin-bottom: 0px}
-.page-banner ul li {display: inline; padding-right: 20px;}
-.page-banner .btn-primary:hover{ background: #4918fe !important; color: #fff; }
 
-#become-sponsor {text-align:center; display:block}
-#become-sponsor .btn {display: block}
+/* Extra Small */
+@media(max-width:767px){
+	body {
+    	font-size: 11px; /* 1.5x default size */
+	}
+
+	.header h1{  margin-left: 15px;}
+	.header img {position: relative; top: -15px; width: 150px;}
+
+	#time-place {text-align: inherit;}
+	#time-place .time-place-inner {display:table; margin: 0 auto; position:inherit;}
+	#time-place hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; }
+	#time-place .sep { margin-top:5px; display: block; }
+
+	#sponsors-content .logo-container {padding: 9px; margin-left:8px; margin-right: 0px}
+	#sponsors-content .logo-frame { height: 125px; width: 125px; }
+	#sponsors-content  img {width: 125px;  max-height:125px;}
+	#sponsors-content .level{ margin-bottom: 16px; margin-left:-9px; margin-right:-9px;}
+	#sponsors-content .level span{  top: -1px}
+	#sponsors-content .fa {margin-top: 1px; margin-left: 5px; margin-right: 5px; }
+
 	
-.sponsor-table th {font-size: 16pt; text-align:center }
-.sponsor-table th .price {font-size: 12pt}
-.sponsor-table td { font-size: 14pt; font-weight: 500}
-.sponsor-table td.check {text-align:center}
-
-.special-sponsorship {border:1px solid black; padding:10px; margin:5px;  border-radius:10px; background-color: #7db660}
-.special-sponsorship .info {text-align:left; ;}
-.special-sponsorship .type {font-size: 14pt; font-weight:800;}
-.special-sponsorship .price {font-size: 11pt; font-weight:300; text-wrap:avoid}
-.special-sponsorship i {float:left; margin:10px}
-
-.speaker-question {}
-.speaker-answer {font-size:11pt; line-height: 20pt; font-weight:300;}
-
-.location-box {margin-bottom:20px; margin-left:10px}
-.location-icon {margin-right:10px; display:inline-block; font-size:30px;}
-.location-title {font-weight: 400; font-size:30px; display:inline-block}
-.location-text span{ display:block; margin-left:8px}
-
-#restaurants .location-title {font-size: 24px}
-#restaurants .location-text span {font-size: 14px}
-
-#parking-map iframe {width:600px; height:450px; border:5px solid black; border-radius:10px}
-
-.speaker .photo {margin-bottom: 30px; margin-right:15px }
-.speaker .photo img {max-width: 150px; border-radius:50px; box-shadow: -10px 10px 50px #888888;}
-.speaker .name {font-size: 26px; font-weight: 600; line-height: 1; margin-bottom:10px}
-.speaker .website {margin-left: 10px}
-.speaker .section-title { font-weight: 700; margin-bottom: 7px}
-.speaker .section-content {line-height:1.4}
-.speaker .section-content p {line-height:1.4}
-.speaker .fa {margin-bottom: 8px; font-size: 18px; font-weight:300}
-.speaker .fa a {margin-left: 10px; margin-right: 20px; margin-bottom: 10px}
-.speaker hr {
-	border: 0;
-	height: 1px;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
-#schedule {text-align: center; font-weight: 500; font-size: 14pt; }
-#schedule, #schedule td, #schedule th{border-color: black}
-#schedule .subheader {display: block; font-size: 12pt}
-#schedule tbody tr td:nth-child(1) {font-weight: 700; min-width: 130px}
-#schedule tbody tr td.talk {width:25%}
-#schedule tbody tr td.room {font-weight: 700}
-#schedule tbody tr td.talk {background-color: #eee}
-
-.slug{    padding-top: 70px;
-    margin-top: -70px;}
-
-#footer {margin-bottom: 50px}
-
-
-/* Mobile device */
-
-@media (max-width: 1190px) {
-	#navbar-techfest a {padding-left: 6px; padding-right: 8px;}
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+	body {
+    	font-size: 14px; /* 1.5x default size */
 	}
 
+	.header h1{  margin-left: 15px;}
+	.header img {position: relative; top: -15px; width: 200px;}	
 
-@media (max-width: 1050px) {
-	#navbar-techfest .fa{font-size: 1.5em}
-	.navbar {min-height: 50px}
-	#navbar-logo {height:40px; top: -8px;}
-	.navbar .navbar-nav .btn {margin-right:5px; }
-	.navbar a > span {top:-4px;}
-	.navbar .social {margin-right: 2px; font-size:20px}
-	body {padding-top: 50px;}
-	#navbar-techfest a {padding-left: 4px; padding-right: 4px;}
-	#time-place .time-place-inner {  margin: 0; position: static; }
-	#time-place  hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; font-size:18px}
-	.page-banner{margin-top: 0px}
-	}
-
-@media (max-width: 890px){
-	#navbar-techfest .fa{font-size: 1.3em}
-	.navbar .social {font-size:15px}
-	.navbar .social i {margin-right: 0px}
-	.navbar .btn-sm {font-size: 12px}
-	.navbar a > span {top:-2px;}
-	#navbar-techfest a {padding-left: 2px; padding-right: 2px;}
-}
-
-@media (max-width: 767px) {
-	#landing .btn { margin: 0px 0px 15px 0px; }
-	#landing h1 {
-  font-size: 80px;
-  text-transform: uppercase;
-  line-height: 70px; 
-  margin-top: 10px;
-  margin-bottom: 0px;
-  }
-	#become-sponsor {text-align:left; display:inline; margin-bottom:30px}
-	#become-sponsor .btn {display: inline-block}
-
-	.announcement { padding:4px 4px 4px 4px;}
-	#landing .announcement .btn{margin:0px 0px 0px 0px;}
-
-	#schedule { font-weight: 300; font-size: 12pt; }
-	#schedule .subheader { font-size: 10pt}
-	#schedule tbody tr td:nth-child(1) {font-weight: 600; min-width: 115px}
-	#schedule tbody tr td.room {font-weight: 600}
-}
-
-/*This is the point that we go down to one column of sponsors*/
-@media (max-width: 640px){
-		#sponsors-content .logo-row {text-align:center}
-		#parking-map iframe {width:400px; height:307px; }
-}
-
-@media (max-width: 480px) {
-	#landing .btn { margin: 0px 0px 15px 0px; }
-	#landing h1 { font-size: 50px !important; line-height: 70px; margin-top: 10px;} 
-  	#landing h2 {font-size: 24pt; margin: 0px 0px 20px 0px;}
-	#landing h3 {font-size: 18pt; margin: 0px 0px 20px 0px;}
-	#landing h4 {font-size: 14pt; margin: 0px 0px 20px 0px;}
-
-	#sponsors-content .sponsor-header {padding-left: 10px; padding-right: 10px}
-	#sponsors-content .logo-container {padding: 15px; margin-left:0px; margin-right: 0px}
+	#sponsors-content .logo-container {padding: 15px; margin-left:10px; margin-right: 0px}
 	#sponsors-content .logo-frame { height: 200px; width: 200px; }
 	#sponsors-content  img {width: 200px;  max-height:200px;}
-	#sponsors-content .your-logo-here{ height: 200px; width:200px; padding:10px; }
-	#sponsors-content .level{ margin-bottom: 20px; font-size: 20px; font-weight: 500; margin-left:-15px; margin-right:-15px;}
+	#sponsors-content .level{ margin-bottom: 20px; margin-left:-15px; margin-right:-15px;}
 	#sponsors-content .level span{  top: -3px}
-	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.4em;}
-
-	#parking-map iframe {width:300px; height:230px; }
-
-	.announcement { padding:4px 4px 4px 4px;}
-	.announcement i {font-size: 32px}
-	.announcement i span {margin-left: 10px}
-	#landing .announcement .btn{margin:0px 0px 0px 0px;}
-
-	#schedule { font-weight: 300; font-size: 10pt; }
-	#schedule .subheader { font-size: 8pt}
-	#schedule, #schedule td, #schedule th{padding:4px;}
-	#schedule tbody tr td:nth-child(1) {font-weight: 600; min-width: 70px}
-	#schedule tbody tr td.room {font-weight: 600}
-
+	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; }
 
 }
 
-/* Tablet device */
-@media (max-width: 991px) and (min-width: 768px) {
-	#landing h1 { font-size: 130px; }
-}
-
-/* Desktop small screen */
-@media (min-width: 992px) {
-	
-}
-
-/* Desktop large screen */
-@media (min-width: 1200px) {
-	.container {
-		width: 970px;
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+	body {
+    	font-size: 16px; /* 1.5x default size */
 	}
 }
 
-#footer {
-	padding-top: 10px;
-	text-align: center;
-	font-size: small;
+/* Large */
+@media(min-width:1200px){
+	body {
+    	font-size: 16px; /* 1.5x default size */
+	}
 }

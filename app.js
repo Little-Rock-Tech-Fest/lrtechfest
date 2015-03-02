@@ -1,58 +1,17 @@
 var express = require('express');
 var _ = require('lodash')._;
-var slugs = require('slugs');
 var fs = require('fs');
+var Q = require('q');
 var app = express();
-app.locals._ = _;
 
+//create a promise-compatible readfile method
+var fs_readFile = Q.denodeify(fs.readFile);
+
+app.locals._ = _;
 
 app.set('views', __dirname+"/views");
 app.set('view engine', 'jade');
 app.use(express.static(__dirname, 'public'));
-
-app.get("/call", function(req, res){
-	res.redirect('speakers')
-});
-
-app.get("/agenda", function(req, res){
-	fs.readFile('speakers.json', 'utf8', function(err, data){
-		if(err){
-			console.log(err);
-		}else{
-			var speakers = JSON.parse(data);
-			var talks = [];
-			_.each(speakers, function(speaker){
-				_.each(speaker.Presentations, function(presentation){
-					var foundPresentation = _.find(talks, {Topic: presentation.Topic});
-					if(foundPresentation){
-						foundPresentation.Speakers.push(speaker.FirstName + " " + speaker.LastName);
-					}else{
-						presentation.Speakers = [];
-						var speakerName = speaker.FirstName + " " + speaker.LastName;
-						presentation.Speakers.push(speakerName);
-						presentation.Url = '/speakers#'+slugs(speakerName);
-						presentation.UID = speaker.Id + "." + presentation.Id;
-						talks.push(presentation);
-					}
-				});
-			});
-			res.render('schedule', {presentations:talks})
-		}
-	});
-});
-
-
-app.get("/sponsors", function(req, res){
-	res.render('become_sponsor');
-});
-
-app.get("/become-sponsor", function(req, res){
-	res.render('become_sponsor')
-});
-
-app.get("/venue", function (req, res) {
-	res.render('venue')
-});
 
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
@@ -62,23 +21,38 @@ app.get("/programs/:year", function (req, res) {
 	});
 });
 
-app.get("/speakers", function (req, res) {
-	fs.readFile('speakers.json', 'utf8', function (err, data) {
-		if (err) {
-			console.log(error);
-		} else {
-			var speakers = JSON.parse(data);
-			_.each(speakers, function(speaker){
-				speaker.Slug = slugs(speaker.FirstName + " " + speaker.LastName);
-			});
-			res.render('speakers', { speakers: speakers });
-		}
-	});
-	
+
+app.get("/2014", function (req, res) {
+
+	var speakers;
+
+	fs_readFile('archive/2014/2014-speakers.json', 'utf8')
+		.then(function(speakerData){
+			speakers = JSON.parse(speakerData);
+			return fs_readFile('archive/2014/2014-sponsors.json', 'utf8');
+		}, console.error)
+		.then(function(sponsorData){
+			var sponsors = JSON.parse(sponsorData);
+			res.render('2014', {speakers: speakers, sponsors: sponsors})
+		}, console.error);
 });
 
+app.get('/speakers', function(req, res){
+	res.render('speakers');
+})
+
+app.get('/sponsors', function(req, res){
+	res.render('sponsors');
+})
+
+
 app.get('/', function(req, res){
-	res.render('index')
+	fs_readFile('sponsors.json', 'utf8')
+		.then(function(sponsorData){
+			var sponsors = JSON.parse(sponsorData);
+			res.render('index', {sponsors: sponsors});		
+		}, console.error)
+	
 });
 
 var port = process.env.PORT;
