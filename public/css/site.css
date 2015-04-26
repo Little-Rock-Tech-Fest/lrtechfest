@@ -27,7 +27,7 @@ p  { line-height: 1.4}
 .navbar-brand img {position: relative; height: 40px; top: -8px;}
 .navbar .fa  {color: #fff; opacity: .4; margin-right: 10px; position:relative; top: 4px;}
 .navbar-nav .btn-primary {color: #000; background: transparent}
-.navbar-nav>li>a.btn{ border:0px;  font-size:.9em; font-weight: bold;}
+.navbar-nav>li>a.btn{ border:0px;  font-size:.9em; font-weight: bold; text-align: left}
 .navbar-nav>li>a.btn:hover{ background: #fe4918; color: #fff; }
 
 #landing{

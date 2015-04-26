@@ -4,3 +4,5 @@ obj
 *.user
 *.suo
 *.db
+*.sublime-project
+*.sublime-workspace
