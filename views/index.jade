@@ -32,7 +32,7 @@ block content
 						.row.logo-row
 							each sponsor in sponsors
 								a(href="#{sponsor.Website}")
-									.logo-container
+									.item-container
 										.level
 											i(class="fa fa-trophy #{sponsor.Level}")
 											span #{sponsor.Level} Sponsor
@@ -40,12 +40,27 @@ block content
 											.logo-img
 											img(src="#{sponsor.Logo}")
 							a(href="/sponsors")
-								.logo-container
+								.item-container
 									.level
 										i.fa.fa-trophy.silver
 										span Sponsor Us!
 									.logo-frame
 										.logo-img
 										img(src="/public/img/sponsors/default.png")
+	#team
+		.section
+			.section-header
+				h2 The Team
+				h4 Meet the team behind Little Rock Techfest. Feel free to chat us up with questions, concerns and ideas.
+				h4 Want to help plan the premeier developer conference in Arkansas? Drop us a line and we'll put you to work!
+			.section-content
+				.container-fluid
+					.row
+						each member in team
+							.item-container
+								img(src="#{member.imgUrl}")
+								h4 #{member.name}
+								h4
+									a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
 
 	
