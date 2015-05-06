@@ -19,9 +19,11 @@ p  { line-height: 1.4}
 
 .alert-warning {background-color: #fe4918; color: black; }
 
-.section{}
 .section-header{background-color: #7db660; color: black; padding: 20px;}
 .section-content{ background-color: white; color: black; padding: 20px;}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 .navbar { color: #000; background: transparent; font-size:.9em; font-weight: bold; margin-bottom:0px;}
 .navbar-brand img {position: relative; height: 40px; top: -8px;}
