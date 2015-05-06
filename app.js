@@ -21,7 +21,6 @@ app.get("/programs/:year", function (req, res) {
 	});
 });
 
-
 app.get("/2014", function (req, res) {
 
 	var speakers;
@@ -39,26 +38,31 @@ app.get("/2014", function (req, res) {
 
 app.get('/speakers', function(req, res){
 	res.render('speakers');
-})
+});
 
 app.get('/sponsors', function(req, res){
 	res.render('sponsors');
-})
-
+});
 
 app.get('/', function(req, res){
 	fs_readFile('sponsors.json', 'utf8')
 		.then(function(sponsorData){
-			var sponsors = JSON.parse(sponsorData);
-			var team = [
-				{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
-				{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
-				{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
-				{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
-				{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
-			]
-			res.render('index', {sponsors: sponsors, team: team});		
-		}, console.error)
+			try{
+				var sponsors = JSON.parse(sponsorData);
+				var team = [
+					{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
+					{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
+					{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
+					{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
+					{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
+				];
+				res.render('index', {sponsors: sponsors, team: team});
+			}
+			catch(e){
+				console.log(e);
+				res.render('500');
+			}	
+		}, console.error);
 	
 });
 
@@ -66,4 +70,5 @@ var port = process.env.PORT;
 if (!port) {
 	port = 9990;
 }
+console.log("starting app on port " + port);
 app.listen(port);
