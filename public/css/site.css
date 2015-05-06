@@ -5,13 +5,111 @@ blue: #4918fe;
 light orange #fead97
 */
 
-body {  font-family: 'Roboto', sans-serif; color: white; background: black;}
+body {  font-family: 'Roboto', sans-serif; color: white; background: url("../img/dark_dotted.png") repeat;}
 
 h1 { font-size: 4em; font-weight: bold}
 h2 { font-size: 3em; font-weight: bold}
 h3 { font-size: 2em}
 h4 { font-size: 1.5em}
 p  { line-height: 1.4}
+
+
+/* http://www.responsivegridsystem.com/calculator/  */
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWELVE  */
+.span_12_of_12 {
+	width: 100%;
+}
+
+.span_11_of_12 {
+  	width: 91.53%;
+}
+.span_10_of_12 {
+  	width: 83.06%;
+}
+
+.span_9_of_12 {
+  	width: 74.6%;
+}
+
+.span_8_of_12 {
+  	width: 66.13%;
+}
+
+.span_7_of_12 {
+  	width: 57.66%;
+}
+
+.span_6_of_12 {
+  	width: 49.2%;
+}
+
+.span_5_of_12 {
+  	width: 40.73%;
+}
+
+.span_4_of_12 {
+  	width: 32.26%;
+}
+
+.span_3_of_12 {
+  	width: 23.8%;
+}
+
+.span_2_of_12 {
+  	width: 15.33%;
+}
+
+.span_1_of_12 {
+  	width: 6.866%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+    
+    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+	width: 100%; 
+	}
+}
+
+
+.maincontent, .navbar {
+	clear: both;
+	width: 80%; /* 1000px / 1250px */
+	max-width: 92.3em; /* 1200px / 13 */
+	margin: 0 auto;
+}
+
+.maincontent {
+	position: relative;
+	background: white;
+}
+ 
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+	.maincontent.navbar {
+	  width: 93.75%;
+	}
+}
 
 .header { padding: 20px; }
 .header h1 { display: inline-block; margin-left: 30px;}
@@ -25,11 +123,11 @@ p  { line-height: 1.4}
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.navbar { color: #000; background: transparent; font-size:.9em; font-weight: bold; margin-bottom:0px;}
+.navbar { color: #000; background: black; font-weight: bold; margin-bottom:0px; border:none;border-radius:0;}
 .navbar-brand img {position: relative; height: 40px; top: -8px;}
 .navbar .fa  {color: #fff; opacity: .4; margin-right: 10px; position:relative; top: 4px;}
 .navbar-nav .btn-primary {color: #000; background: transparent}
-.navbar-nav>li>a.btn{ border:0px;  font-size:.9em; font-weight: bold; text-align: left}
+.navbar-nav>li>a.btn{ border:0px;   font-weight: bold; text-align: left}
 .navbar-nav>li>a.btn:hover{ background: #fe4918; color: #fff; }
 
 #landing{
