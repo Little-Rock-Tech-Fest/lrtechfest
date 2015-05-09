@@ -89,7 +89,11 @@ block content
 							.item-container
 								img(src="#{member.imgUrl}")
 								h4 #{member.name}
+								- if (member.twitter){
 								h4
 									a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
+								-} else {
+									&nbsp;	
+								-}
 
 	
