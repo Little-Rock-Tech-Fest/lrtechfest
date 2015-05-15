@@ -90,6 +90,9 @@ block content
 								img(src="#{member.imgUrl}")
 								h4 #{member.name}
 								h4
-									a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
+									if member.twitter 
+										a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
+									else 
+										&nbsp;
 
 	

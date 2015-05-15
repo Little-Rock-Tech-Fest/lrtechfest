@@ -13,7 +13,7 @@ html
 		link(href="/public/css/site.css", rel="stylesheet")
 	body
 		.navbar.navbar-inverse
-			.container-fluid
+			.container
 				.navbar-header
 					button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-techfest")
 						span(class="sr-only") Toggle
@@ -53,11 +53,11 @@ html
 						li
 							a(class="social" href="https://twitter.com/LRTechFest")
 								i.fa.fa-twitter.fa-2x
-		.maincontent
+		.maincontent.container
 			block content
 
 		#footer
-			.container-fluid.text-center
+			.container.text-center
 				a(href="http://www.everleap.com/go/go.aspx?i=21199")
 					span Hosted by Everleap
 
