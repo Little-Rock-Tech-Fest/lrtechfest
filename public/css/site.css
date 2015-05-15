@@ -56,10 +56,10 @@ p  { line-height: 1.4}
 .item-container {padding: 20px; border:1px solid #d8d8d8; margin-left:10px; margin-right: 10px; margin-top: 20px; display:inline-block}
 
 #sponsors-content a {color:inherit; text-decoration:none}
-#sponsors-content .logo-row {margin-top: 10px; }
-#sponsors-content .logo-frame { overflow:hidden; height: 250px; width: 250px; text-align:center}
+#sponsors-content .logo-row {margin-top: 10px; text-align: center; }
+#sponsors-content .logo-frame { overflow:hidden; height: 200px; width: 200px; text-align:center}
 #sponsors-content .logo-img { display:inline-block; height:100%; vertical-align:middle}
-#sponsors-content  img {width: 250px;  max-height:250px; vertical-align:middle}
+#sponsors-content  img {width: 200px;  max-height:200px; vertical-align:middle}
 #sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; height: 250px; width:250px; background-color:lightgray; padding:10px; background-clip: padding-box;}
 #sponsors-content .level{ margin-bottom: 20px; font-weight: 500; text-align:center}
 #sponsors-content .level span{ position:relative; top: -3px; font-size: 1.2em}
