@@ -46,6 +46,22 @@ block content
 									.logo-frame
 										.logo-img
 										img(src="/public/img/sponsors/default.png")
+							a(href="/sponsors")
+								.item-container
+									.level
+										i.fa.fa-trophy.silver
+										span Sponsor Us!
+									.logo-frame
+										.logo-img
+										img(src="/public/img/sponsors/default.png")
+							a(href="/sponsors")
+								.item-container
+									.level
+										i.fa.fa-trophy.silver
+										span Sponsor Us!
+									.logo-frame
+										.logo-img
+										img(src="/public/img/sponsors/default.png")
 	#media
 		.section
 			.section-header
@@ -83,17 +99,17 @@ block content
 				h4 Meet the team behind Little Rock Tech Fest. Feel free to chat us up with questions, concerns and ideas.
 				h4 Want to help plan the premeier developer conference in Arkansas? Drop us a line and we'll put you to work!
 			.section-content
-				.container-fluid
-					.row
+				.container
 						each member in team
 							.item-container
 								img(src="#{member.imgUrl}")
 								h4 #{member.name}
 								- if (member.twitter){
 								h4
-									a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
-								-} else {
-									&nbsp;	
+									if member.twitter 
+										a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
+									else 
+										&nbsp;
 								-}
 
 	

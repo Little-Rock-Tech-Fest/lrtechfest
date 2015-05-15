@@ -58,6 +58,9 @@ app.get('/', function(req, res){
 					{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'themattshull'},
 					{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
 					{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
+					{name: 'Kimberly Harris', imgUrl: '/public/img/team/kimberly.jpg'},
+					{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'TheMattShull'},
+					{name: 'Michael Collins', imgUrl: '/public/img/team/michael.jpg'},
 				];
 				res.render('index', {sponsors: sponsors, team: team});
 			}

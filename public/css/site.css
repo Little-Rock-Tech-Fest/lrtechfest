@@ -5,7 +5,7 @@ blue: #4918fe;
 light orange #fead97
 */
 
-body {  font-family: 'Roboto', sans-serif; color: white; background: black;}
+body {  font-family: 'Roboto', sans-serif; color: white; background: url("../img/dark_dotted.png") repeat;}
 
 h1 { font-size: 4em; font-weight: bold}
 h2 { font-size: 3em; font-weight: bold}
@@ -25,11 +25,11 @@ p  { line-height: 1.4}
 .embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
-.navbar { color: #000; background: transparent; font-size:.9em; font-weight: bold; margin-bottom:0px;}
+.navbar { color: #000; background: black; font-weight: bold; margin-bottom:0px; border:none;border-radius:0;}
 .navbar-brand img {position: relative; height: 40px; top: -8px;}
 .navbar .fa  {color: #fff; opacity: .4; margin-right: 10px; position:relative; top: 4px;}
 .navbar-nav .btn-primary {color: #000; background: transparent}
-.navbar-nav>li>a.btn{ border:0px;  font-size:.9em; font-weight: bold; text-align: left}
+.navbar-nav>li>a.btn{ border:0px;   font-weight: bold; text-align: left}
 .navbar-nav>li>a.btn:hover{ background: #fe4918; color: #fff; }
 
 #landing{
@@ -56,10 +56,10 @@ p  { line-height: 1.4}
 .item-container {padding: 20px; border:1px solid #d8d8d8; margin-left:10px; margin-right: 10px; margin-top: 20px; display:inline-block}
 
 #sponsors-content a {color:inherit; text-decoration:none}
-#sponsors-content .logo-row {margin-top: 10px; }
-#sponsors-content .logo-frame { overflow:hidden; height: 250px; width: 250px; text-align:center}
+#sponsors-content .logo-row {margin-top: 10px; text-align: center; }
+#sponsors-content .logo-frame { overflow:hidden; height: 200px; width: 200px; text-align:center}
 #sponsors-content .logo-img { display:inline-block; height:100%; vertical-align:middle}
-#sponsors-content  img {width: 250px;  max-height:250px; vertical-align:middle}
+#sponsors-content  img {width: 200px;  max-height:200px; vertical-align:middle}
 #sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; height: 250px; width:250px; background-color:lightgray; padding:10px; background-clip: padding-box;}
 #sponsors-content .level{ margin-bottom: 20px; font-weight: 500; text-align:center}
 #sponsors-content .level span{ position:relative; top: -3px; font-size: 1.2em}
@@ -69,7 +69,7 @@ p  { line-height: 1.4}
 #sponsors-content .fa.Silver {color:#C0C0C0; }
 #sponsors-content .fa.Bronze {color:#CD7F32; }
 
-#team img {width:250px;}
+#team img {width:200px;}
 
 
 /* Extra Small */
