@@ -52,6 +52,7 @@ p  { line-height: 1.4}
 #time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 
 #announcement {margin-top: 20px; font-size: 1.5em; font-weight:bold;}
+#mce-EMAIL {margin-right: 10px}
 
 .item-container {padding: 20px; border:1px solid #d8d8d8; margin-left:10px; margin-right: 10px; margin-top: 20px; display:inline-block}
 
@@ -70,7 +71,6 @@ p  { line-height: 1.4}
 #sponsors-content .fa.Bronze {color:#CD7F32; }
 
 #team img {width:200px;}
-
 
 /* Extra Small */
 @media(max-width:767px){
