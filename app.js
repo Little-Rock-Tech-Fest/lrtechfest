@@ -50,6 +50,7 @@ app.get('/', function(req, res){
 			try{
 				var sponsors = JSON.parse(sponsorData);
 				var team = [
+					{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
 					{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
 					{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
 					{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
