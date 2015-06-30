@@ -50,7 +50,6 @@ app.get('/', function(req, res){
 			try{
 				var sponsors = JSON.parse(sponsorData);
 				var team = [
-					{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
 					{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
 					{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
 					{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
@@ -58,6 +57,7 @@ app.get('/', function(req, res){
 					{name: 'Kimberly Harris', imgUrl: '/public/img/team/kimberly.png'},
 					{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'themattshull'},
 					{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
+					{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'}
 				];
 				res.render('index', {sponsors: sponsors, team: team});
 			}
