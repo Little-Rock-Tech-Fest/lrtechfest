@@ -1,5 +1,17 @@
 [
 	{
+		"Name": "Laravel",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/laravel.png",
+		"Website": "http://laravel.com/"
+	},
+	{
+		"Name": "Pluralsight",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/pluralsight.png",
+		"Website": "http://www.pluralsight.com/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
