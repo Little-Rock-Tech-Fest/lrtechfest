@@ -1,5 +1,11 @@
 [
 	{
+		"Name": "Datapath",
+		"Level": "Gold",
+		"Logo": "/public/img/sponsors/datapath.png",
+		"Website": "http://www.dpath.com/"
+	},
+	{
 		"Name": "Laravel",
 		"Level": "Silver",
 		"Logo": "/public/img/sponsors/laravel.png",
@@ -12,9 +18,21 @@
 		"Website": "http://www.pluralsight.com/"
 	},
 	{
+		"Name": "Mainstream Technologies",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/mainstream.jpg",
+		"Website": "http://www.mainstream-tech.com/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
 		"Website": "http://www.acxiom.com"
+	},
+	{
+		"Name": "Balsamiq",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/balsamiq.png",
+		"Website": "https://balsamiq.com/"
 	}
 ]
