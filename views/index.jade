@@ -15,12 +15,12 @@ block content
 			#landing-content.text-center
 				h1 Little Rock<br> Tech Fest
 				h3 One-day <strong>technology</strong> conference featuring popular developer topics from industry leaders
-				
+
 			#announcement
 				.row
 					.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.alert.alert-warning
 						p.text-center Tech Fest 2015 has a date! Mark your calendars for October 16th!
-						
+
 						form.text-center(action="//lrtechfest.us10.list-manage.com/subscribe/post?u=7f81e7471c2c58788b0939cda&amp;id=d5be521b7c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate)
 							.form-group.form-inline
 								input(type="email" value="" name="EMAIL" class="form-control required" id="mce-EMAIL" placeholder="email address" required)
@@ -83,12 +83,13 @@ block content
 							a.right.carousel-control(href='#carousel-2014-pics', role='button', data-slide='next')
 								span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
 							span.sr-only Next
+		
 	#team
 		.section
 			.section-header
 				h2 The Team
 				h4 Meet the team behind Little Rock Tech Fest. Feel free to chat us up with questions, concerns and ideas.
-				h4 Want to help plan the premeier developer conference in Arkansas? Drop us a line and we'll put you to work!
+				h4 Want to help plan the premier developer conference in Arkansas? Drop us a line and we'll put you to work!
 			.section-content
 				.container
 						each member in team
@@ -96,7 +97,7 @@ block content
 								img(src="#{member.imgUrl}")
 								h4 #{member.name}
 								h4
-									if member.twitter 
+									if member.twitter
 										a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
 									else
 										span &nbsp;
