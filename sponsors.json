@@ -24,6 +24,12 @@
 		"Website": "http://www.mainstream-tech.com/"
 	},
 	{
+		"Name": "Elyxor",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/elyxor.png",
+		"Website": "http://www.elyxor.com/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
