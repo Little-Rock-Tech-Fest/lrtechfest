@@ -1,0 +1,99 @@
+[
+	{
+		"Id" : 1,
+		"FirstName": "Val",
+		"LastName": "Polouchkine",
+		"Bio": "<p>Val Polouchkine is a recovering C# developer, currently working for Twitter as a Developer Advocate for their mobile platform, Fabric. Before this, he was a Customer Success Engineer at Xamarin, where he helped dozens of companies with their first foray into mobile. He aims to spread good information about developing 5★ mobile apps.</p>",
+		"Website": "",
+		"Twitter": "heyval",
+		"Photo": "/public/img/speakers/polouchkine-val.png",
+    "Company": "Twitter",
+		"Presentations":[
+			{
+				"Id" : 1,
+				"Track":"Mobile",
+				"Topic": "Phone Numbers as Identity",
+				"Description": "<p>Digits is an SDK offered via Fabric, Twitter’s modular mobile platform, that provides an authentication mechanism based on users' phone numbers. Available in 216 countries and on three platforms (iOS, Android, Web), Digits allows developers to easily penetrate developing markets and increase their apps' conversion rates. Developers are also able to build their own social graphs using the users’ contact lists. Twitter relied on SMS from the get-go and we are happy to offer our infrastructure to all developers, for free.</p>"
+			},
+      {
+        "Id" : 2,
+        "Track":"Mobile",
+        "Topic": "Developing Mobile Apps using Fabric",
+        "Description": "<p>Fabric is a modular mobile platform from Twitter that provides SDKs that address some of the most common iOS and Android development challenges: stability, analytics, distribution, revenue, and identity. It combines the services of Twitter, Crashlytics, MoPub, and Digits to help you build the best possible apps. Fabric was built with ease of use in mind; installation takes just minutes, and most features only require a few lines of code – so you spend less time managing SDKs and more time building the best experience for your users. Oh, and it’s free.</p>"
+      }
+		]
+	},
+	{
+		"Id" : 2,
+		"FirstName": "Stewart",
+		"LastName": "Whaley",
+		"Bio": "<p>Stewart Whaley is a Team Leader for the Systems Development Group at Arkansas Children’s Hospital, the 6th largest pediatric facility in America. A licensed attorney and Microsoft Certified Professional, he serves as Chief Privacy Officer of Phyzit, Inc., a healthcare startup providing Transitional Care Management, patient engagement, and telemedicine as SaaS. Stewart is active in the national legal aid and medical-legal partnership communities as a volunteer, consultant and software developer. Additionally, he has delivered technical and technology-based Continuing Legal Education (CLE) sessions for Bar Associations and technology conferences in multiple states. </p>",
+		"Website": "http://phyzit.com",
+		"Twitter": "stewartwhaley",
+		"Photo": "/public/img/speakers/whaley-stewart.png",
+		"Company": "Phyzit",
+		"Presentations":[
+			{
+				"Id" : 1,
+				"Track":"Cloud",
+				"Topic": "Good karma and “profit” for non-profits with Twiilio.org: Improving healthcare and legal services for children and families at-risk.",
+				"Description": "<p>Join me for a review of Twilio-powered apps improving efficiency, resource utilization and outcomes in health care and legal aid around the country. Along the way, we will discuss challenges and opportunities for developers to join healthcare and legal aid professionals focused on improving services, reducing cost, earning profits, providing for the greater good, or “all of the above.” I’ll show you how we materialized Twilio.org’s “. . . [belief that] nonprofits should have access to communications technologies that help make a real impact.” By the way, did I mention they also saved seven figures along the way?</p>"
+			}
+		]
+	},
+	{
+		"Id" : 3,
+		"FirstName": "Duncan",
+		"LastName": "Jimbo",
+		"Bio": "<p>Born and raised in Kenya, Duncan Jimbo is currently a front-end developer based in Saint Louis, Missouri. Curious and creatively motivated, he finds great satisfaction in using new technology to make the web a more delightful place to work and play. In addition to being a programmer and problem-solver, he also loves the teaching and learning opportunities that come from collaboration. Outside of work, Duncan enjoys taking road trips and sharing his latest brew — the finest Kenyan tea this side of the Mississippi.</p>",
+		"Website": "http://simplydano.com/",
+		"Twitter": "duncanjimbo",
+		"Photo": "/public/img/speakers/jimbo-duncan.jpg",
+		"Company": "Simply Dano",
+		"Presentations":[
+			{
+				"Id" : 1,
+				"Track":"Web",
+				"Topic": "Signs of the Times: What Road Signs Taught Me About Web Design",
+				"Description": "<p>It’s amazing what the physical world can teach us about the digital landscape. Good (and lasting) design is all around us, even in things we take for granted. The classic and ubiquitous design of road signs, for example. This talk draws on the lessons learned during the creation of the road sign system in the 1950s and how those decades-old lessons can be applied to web design in 2015.</p>"
+			}
+		]
+	},
+	{
+		"Id" : 4,
+		"FirstName": "Paul",
+		"LastName": "Gower",
+		"Bio": "<p>Paul has over 14 years of experience solving enterprise business challenges through thorough analysis, deep consultation and the latest software development practices. In 2013 Paul founded his company, Lunamark, where he leverages his years of experience to help companies optimize their business practices.</p>",
+		"Website": "http://lunamark.com/",
+		"Twitter": "paulmgower",
+		"Photo": "/public/img/speakers/gower-paul.jpg",
+		"Company": "Lunamark",
+		"Presentations":[
+		]
+	},
+	{
+		"Id" : 5,
+		"FirstName": "Jeremy",
+		"LastName": "Abbot",
+		"Bio": "<p>I'm a developer at Shreveport development shop, Praeses, where I work as a project architect, developer, and recruiter. I work hard to deliver clean, extensible, and maintanble solutions to customer's business problems. I'm passionate about software as a profession and craft, and work to cultivate that mindset in my team members through constant training.</p>",
+		"Website": "http://jeremyabbott.github.io/",
+		"Twitter": "mrjabbott",
+		"Photo": "/public/img/speakers/abbot-jeremy.jpg",
+		"Company": "Praeses",
+		"Presentations":[
+		]
+	}
+	,
+	{
+		"Id" : 6,
+		"FirstName": "Kelly",
+		"LastName": "Andrews",
+		"Bio": "<p>Kelly J. Andrews, Principal Developer Evangelist at Syncano, and contributor to two books on Journey Builder, started coding at age 8 when he built a blackjack game in BASIC – and he’s never stopped.</p><p>While he’s mostly been front-end focused for the last 10 years, his real passion is helping developers succeed by making applications as quick, efficient and robust as possible.</p><p>In his free time, he has sung in numerous barbershop quartets and loves karaoke, so don’t be too surprised if you see him singing later.</p>",
+		"Website": "http://kellyjandrews.com",
+		"Twitter": "kellyjandrews",
+		"Photo": "/public/img/speakers/andrews-kelly.png",
+		"Company": "Syncano",
+		"Presentations":[
+		]
+	}
+]

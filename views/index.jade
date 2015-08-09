@@ -53,6 +53,28 @@ block content
 									.logo-frame
 										.logo-img
 										img(src="/public/img/sponsors/default.png")
+
+	#speakers
+		.section
+			.section-header
+				h2 Speakers
+				h4 We are thrilled to welcome our speakers
+			.section-content
+				.container
+					each speaker in speakers
+						.item-container
+							img(src="#{speaker.Photo}")
+							h3 #{speaker.FirstName} #{speaker.LastName}
+							h4
+								span.fa.fa-building
+								span #{speaker.Company}
+							h4
+								if speaker.Twitter
+										span.fa.fa-twitter
+										a(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
+								else
+									span &nbsp;
+
 	#media
 		.section
 			.section-header
@@ -83,7 +105,8 @@ block content
 							a.right.carousel-control(href='#carousel-2014-pics', role='button', data-slide='next')
 								span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
 							span.sr-only Next
-		
+
+
 	#team
 		.section
 			.section-header

@@ -13,6 +13,19 @@ app.set('views', __dirname+"/views");
 app.set('view engine', 'jade');
 app.use(express.static(__dirname, 'public'));
 
+var team = [
+	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
+	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
+	{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
+	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
+	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
+	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
+	{name: 'Kimberly Harris', imgUrl: '/public/img/team/kimberly.png'},
+	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81'},
+	//{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'themattshull'},
+];
+
+
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
 		if (err) {
@@ -45,29 +58,20 @@ app.get('/sponsors', function(req, res){
 });
 
 app.get('/', function(req, res){
+	var sponsors;
 	fs_readFile('sponsors.json', 'utf8')
 		.then(function(sponsorData){
-			try{
-				var sponsors = JSON.parse(sponsorData);
-				var team = [
-					{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
-					{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
-					{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
-					{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
-					{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
-					{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
-					{name: 'Kimberly Harris', imgUrl: '/public/img/team/kimberly.png'},
-					{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81'},
-					//{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'themattshull'},
-				];
-				res.render('index', {sponsors: sponsors, team: team});
-			}
-			catch(e){
-				console.log(e);
-				res.render('500');
-			}	
-		}, console.error);
-	
+			sponsors = JSON.parse(sponsorData);
+			return fs_readFile('speakers.json', 'utf8');
+		})
+		.then(function(speakerData){
+			var speakers = JSON.parse(speakerData);
+			res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
+		})
+		.catch(function(e){
+			console.log(e)
+			res.render('500')
+		})
 });
 
 var port = process.env.PORT;

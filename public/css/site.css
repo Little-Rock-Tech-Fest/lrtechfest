@@ -22,7 +22,7 @@ p  { line-height: 1.4}
 .section-header{background-color: #7db660; color: black; padding: 20px;}
 .section-content{ background-color: white; color: black; padding: 20px;}
 
-.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 .navbar { color: #000; background: black; font-weight: bold; margin-bottom:0px; border:none;border-radius:0;}
@@ -34,8 +34,8 @@ p  { line-height: 1.4}
 
 #landing{
 	background: url('../img/lrskyline-small.jpg') center center no-repeat;
-	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
-	background-size: cover; background-attachment: fixed; 
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+	background-size: cover; background-attachment: fixed;
 	overflow:hidden; margin-bottom: 0px;
 	color:#fff;
 	padding-top: 50px;
@@ -70,6 +70,9 @@ p  { line-height: 1.4}
 #sponsors-content .fa.Silver {color:#C0C0C0; }
 #sponsors-content .fa.Bronze {color:#CD7F32; }
 
+#speakers .item-container h4 span.fa {margin-left: 10px; margin-right: 10px}
+#speakers img {width: 200px;}
+
 #team img {width:200px;}
 
 /* Extra Small */
@@ -91,7 +94,7 @@ p  { line-height: 1.4}
 	#sponsors-content  img {width: 125px;  max-height:125px;}
 	#sponsors-content .level{ margin-bottom: 16px; margin-left:-9px; margin-right:-9px;}
 	#sponsors-content .level span{  top: -1px}
-	#sponsors-content .fa {margin-top: 1px; margin-left: 5px; margin-right: 5px; }	
+	#sponsors-content .fa {margin-top: 1px; margin-left: 5px; margin-right: 5px; }
 	#carousel-2014-pics {margin-top: 20px; }
 	#team img {width:150px;}
 }
@@ -103,7 +106,7 @@ p  { line-height: 1.4}
 	}
 
 	.header h1{  margin-left: 15px;}
-	.header img {position: relative; top: -15px; width: 200px;}	
+	.header img {position: relative; top: -15px; width: 200px;}
 
 	.item-container {padding: 15px; margin-left:10px; margin-right: 0px}
 	#sponsors-content .logo-frame { height: 200px; width: 200px; }
