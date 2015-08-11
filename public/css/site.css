@@ -70,8 +70,11 @@ p  { line-height: 1.4}
 #sponsors-content .fa.Silver {color:#C0C0C0; }
 #sponsors-content .fa.Bronze {color:#CD7F32; }
 
-#speakers .item-container h4 span.fa {margin-left: 10px; margin-right: 10px}
+#speakers .item-container h5 span.fa {margin-left: 10px; margin-right: 10px}
 #speakers img {width: 200px;}
+#speakers .name {font-weight: bold}
+#speakers h5 {font-size: 1.3em}
+#speakers .submit img {border:2px dashed black}
 
 #team img {width:200px;}
 
@@ -97,6 +100,7 @@ p  { line-height: 1.4}
 	#sponsors-content .fa {margin-top: 1px; margin-left: 5px; margin-right: 5px; }
 	#carousel-2014-pics {margin-top: 20px; }
 	#team img {width:150px;}
+	#speakers img {width: 150px;}
 }
 
 /* Small */
@@ -116,6 +120,7 @@ p  { line-height: 1.4}
 	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; }
 	#carousel-2014-pics {margin-top: 20px; }
 	#team img {width:200px;}
+	#speakers img {width: 200px;}
 }
 
 /* Medium */
