@@ -30,6 +30,12 @@
 		"Website": "http://www.elyxor.com/"
 	},
 	{
+		"Name": "Praeses",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/praeses.png",
+		"Website": "http://www.praeses.com/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
