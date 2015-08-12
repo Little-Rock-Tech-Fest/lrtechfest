@@ -46,5 +46,11 @@
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/balsamiq.png",
 		"Website": "https://balsamiq.com/"
+	},
+	{
+		"Name": "Perks",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/perks.png",
+		"Website": "http://perks.com/"
 	}
 ]
