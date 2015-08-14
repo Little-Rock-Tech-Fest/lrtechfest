@@ -5,6 +5,12 @@
 		"Logo": "/public/img/sponsors/datapath.png",
 		"Website": "http://www.dpath.com/"
 	},
+		{
+		"Name": "Syncano",
+		"Level": "Gold",
+		"Logo": "/public/img/sponsors/syncano.png",
+		"Website": "http://www.syncano.com/"
+	},
 	{
 		"Name": "Laravel",
 		"Level": "Silver",
