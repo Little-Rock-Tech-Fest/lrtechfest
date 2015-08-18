@@ -111,7 +111,18 @@
 		"Website": "http://joinspartan.com",
 		"Twitter": "tyrale",
 		"Photo": "/public/img/speakers/bloomfield-tyrale.jpg",
-		"Company": "Spartan Systems",
+		"Company": "Spartan",
+		"Presentations": []
+	},	
+	{
+		"Id": 9,
+		"FirstName": "Ryan",
+		"LastName": "Tablada",
+		"Bio": "<p>Ryan started in the fire of the startup world working on projects in many different fields. He has made his way as a contributor in the Laravel, Node, and Ember communities. Now Ryan works on building the future developers for our community as a Front End Instructor from the Iron Yard.</p>",
+		"Website": "http://ryantablada.com",
+		"Twitter": "ryantablada",
+		"Photo": "/public/img/speakers/tablada-ryan.png",
+		"Company": "The Iron Yard",
 		"Presentations": []
 	}
 ]
