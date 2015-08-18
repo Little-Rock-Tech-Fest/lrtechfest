@@ -30,7 +30,11 @@ p  { line-height: 1.4}
 .navbar .fa  {color: #fff; opacity: .4; margin-right: 10px; position:relative; top: 4px;}
 .navbar-nav .btn-primary {color: #000; background: transparent}
 .navbar-nav>li>a.btn{ border:0px;   font-weight: bold; text-align: left}
-.navbar-nav>li>a.btn:hover{ background: #fe4918; color: #fff; }
+.navbar-nav>li>a.btn-primary:hover{ background: #fe4918; color: #fff; }
+.navbar-nav>li>a.btn-secondary {background: #fe4918; color: white}
+.navbar-nav>li>a.btn-secondary .fa {opacity: 1}
+.navbar-nav>li>a.btn-secondary:hover{ background: #7db660; color: #fff; }
+
 
 #landing{
 	background: url('../img/lrskyline-small.jpg') center center no-repeat;
