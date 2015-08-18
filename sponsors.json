@@ -42,6 +42,18 @@
 		"Website": "http://www.praeses.com/"
 	},
 	{
+		"Name": "Iron Yard",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/ironyard.png",
+		"Website": "http://www.theironyard.com/?utm_source=LRTechFest&utm_medium=Sponsorship&utm_campaign=Little%20Rock"
+	},
+	{
+		"Name": "Arkansas Venture Center",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/venture-center.png",
+		"Website": "https://www.venturecenter.co/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
