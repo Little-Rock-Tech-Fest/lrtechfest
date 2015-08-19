@@ -124,5 +124,38 @@
 		"Photo": "/public/img/speakers/tablada-ryan.png",
 		"Company": "The Iron Yard",
 		"Presentations": []
+	},	
+	{
+		"Id": 10,
+		"FirstName": "Ben",
+		"LastName": "Ilegbodu",
+		"Bio": "<p>Ben is currently a Senior Full-Stack Software Engineer at Eventbrite, focusing primarily on front-end web development. He received his B.S. and M.S. from Stanford University in Computer Science with a concentration in Human-Computer Interaction. Fresh out of college, he helped build out Zazzle’s front-end for nearly 9 years. Ultimately, he became the UI Architect responsible for building and maintaining Zazzle’s UI framework. He also contributed heavily to the open-source Uize JavaScript framework. Now at Eventbrite, Ben works on the Listings team charged with improving the main event details page used by every event that leverages the power of the Eventbrite ticketing platform. On the side, Ben loves playing around with new web development technologies and sharing his experiences with them.</p>",
+		"Website": "http://www.benmvp.com/",
+		"Twitter": "benmvp",
+		"Photo": "/public/img/speakers/ilegbodu-ben.jpg",
+		"Company": "Eventbrite",
+		"Presentations": []
+	},	
+	{
+		"Id": 11,
+		"FirstName": "John",
+		"LastName": "Downey",
+		"Bio": "<p>John Downey is the Security Lead at Braintree. Braintree helps businesses accept credit card payments online with great development tools and first class support. There he has worked on their highly available infrastructure and integrations into the banking system. In his free time he contributes to open source projects and mentors high school students in the FIRST Robotics Competition.</p>",
+		"Website": "",
+		"Twitter": "jtdowney",
+		"Photo": "/public/img/speakers/downey-john.jpg",
+		"Company": "Braintree",
+		"Presentations": []
+	},
+	{
+		"Id": 12,
+		"FirstName": "Steve",
+		"LastName": "Lowe",
+		"Bio": "<p>I write science fiction. And software. Object Mechanic at ThoughtWorks in San Francisco, CA. Author, inventor, entrepreneur, musician, and lover of puns.</p>",
+		"Website": "http://object-mechanics.com",
+		"Twitter": "stevenalowe",
+		"Photo": "/public/img/speakers/lowe-steve.jpg",
+		"Company": "Thoughtworks",
+		"Presentations": []
 	}
 ]
