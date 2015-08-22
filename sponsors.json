@@ -70,5 +70,11 @@
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/perks.png",
 		"Website": "http://perks.com/"
+	},
+	{
+		"Name": "Local Magazine",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/local-magazine.png",
+		"Website": "http://www.localmag411.com/"
 	}
 ]
