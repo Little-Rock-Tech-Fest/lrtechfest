@@ -54,6 +54,12 @@
 		"Website": "https://www.venturecenter.co/"
 	},
 	{
+		"Name": "Dassault Falcon Jet",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/dassault-falcon-jet.png",
+		"Website": "http://www.dassaultfalcon.com/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
@@ -76,5 +82,11 @@
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/local-magazine.png",
 		"Website": "http://www.localmag411.com/"
+	},
+	{
+		"Name": "Inuvo",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/inuvo.png",
+		"Website": "http://www.inuvo.com/"
 	}
 ]
