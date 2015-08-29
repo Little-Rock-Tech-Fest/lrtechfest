@@ -57,6 +57,18 @@ app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
 
+app.get('/speakerdetails', function(req, res){
+	fs_readFile('speakers.json', 'utf8')
+		.then(function(speakerData){
+			var speakers = JSON.parse(speakerData);
+			res.render('speakerdetails', {speakers:speakers});
+		})
+		.catch(function(e){
+			console.log(e)
+			res.render('500')
+		})
+});
+
 app.get('/', function(req, res){
 	var sponsors;
 	fs_readFile('sponsors.json', 'utf8')

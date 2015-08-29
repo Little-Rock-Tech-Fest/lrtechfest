@@ -1,0 +1,37 @@
+extends layout
+
+block content
+	.section
+		.section-header
+			h2 2015 Speakers
+
+	#speakerdetail.container-fluid.section-content
+
+		each speaker in speakers
+			.row(id="#{speaker.FirstName}-#{speaker.LastName}")
+				.col-sm-3.col-md-2.photo
+					img(src="#{speaker.Photo}")
+				.col-sm-8.col-md-9
+					div.name #{speaker.FirstName} #{speaker.LastName}
+					.section-content.speaker-contact
+						if(speaker.Company)
+							div.fa.fa-building
+								span.speaker-contact-item
+									span #{speaker.Company}
+						if(speaker.Twitter)
+							div.fa.fa-twitter
+								a(href="http://www.twitter.com/#{speaker.Twitter}" class="speaker-contact-item")
+									span #{speaker.Twitter}
+						if(speaker.Website)
+							div.fa.fa-globe
+								a(href="#{speaker.Website}" class="speaker-contact-item")
+									span #{speaker.Website}
+					div.section-title Meet #{speaker.FirstName}
+					.section-content
+						span !{speaker.Bio}
+					for talk in speaker.Presentations
+						div.section-title #{talk.Topic}
+						.section-content 
+							span !{talk.Description}
+			.row
+				hr

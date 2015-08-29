@@ -52,8 +52,10 @@ block content
 				.container
 					each speaker in speakers
 						.item-container
-							img(src="#{speaker.Photo}")
-							h4.name #{speaker.FirstName} #{speaker.LastName}
+							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
+								img(src="#{speaker.Photo}")
+							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
+								h4.name #{speaker.FirstName} #{speaker.LastName}
 							h5
 								span.fa.fa-building
 								span #{speaker.Company}
