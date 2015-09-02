@@ -57,8 +57,11 @@ block content
 							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
 								h4.name #{speaker.FirstName} #{speaker.LastName}
 							h5
-								span.fa.fa-building
-								span #{speaker.Company}
+								if speaker.Company
+										span.fa.fa-building
+										span #{speaker.Company}
+								else
+									span &nbsp;
 							h5
 								if speaker.Twitter
 										span.fa.fa-twitter

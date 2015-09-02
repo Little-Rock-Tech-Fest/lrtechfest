@@ -7,7 +7,8 @@
     "Bio": "Stewart Whaley is a Team Leader for the Systems  Development Group at Arkansas Children's Hospital, the 6th largest pediatric facility in America.  A licensed attorney and Microsoft Certified Professional, he serves as  Chief Privacy Officer of Phyzit, Inc., a healthcare startup providing Transitional Care Management, patient  engagement, and telemedicine as SaaS.  Stewart is active in the national legal aid and medical-legal partnership communities as a volunteer, consultant and software developer.  Additionally, he has delivered technical and technology-based Continuing Legal Education (CLE) sessions for Bar Associations and technology conferences in multiple states. http://www.twilio.com/doers/stewart-whaley",
     "Website": "http://phyzit.com",
     "Twitter": "stewartwhaley",
-    "Photo": "/public/img/speakers/whaley-stewart.png",
+    "Photo": "/public/img/speakers/whaley-stewart.jpg",
+    "Company": "Phyzit",
     "LinkedIn": "https://www.linkedin.com/in/stewartwhaley",
     "Presentations": [
       {
@@ -26,6 +27,7 @@
     "Website": "http://simplydano.com",
     "Twitter": "duncanjimbo",
     "Photo": "/public/img/speakers/jimbo-duncan.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -44,6 +46,7 @@
     "Website": "http://jeremyabbott.github.io/",
     "Twitter": "mrjabbott",
     "Photo": "/public/img/speakers/abbott-jeremy.jpg",
+    "Company": "Praeses",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -61,7 +64,8 @@
     "Bio": "Val Polouchkine is a recovering C# developer, currently working for Twitter as a Developer Advocate for their mobile platform, Fabric. Before this, he was a Customer Success Engineer at Xamarin, where he helped dozens of companies with their first foray into mobile. He aims to spread good information about developing 5? mobile apps.",
     "Website": null,
     "Twitter": "heyval",
-    "Photo": "/public/img/speakers/polouchkine-val.png",
+    "Photo": "/public/img/speakers/polouchkine-val.jpg",
+    "Company": "Twitter",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -80,6 +84,7 @@
     "Website": "http://lunamark.com",
     "Twitter": "paulmgower",
     "Photo": "/public/img/speakers/gower-paul.jpg",
+    "Company": "Lunamark",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -98,6 +103,7 @@
     "Website": null,
     "Twitter": "jonfontanez",
     "Photo": "/public/img/speakers/fontanez-jonathan.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -116,6 +122,7 @@
     "Website": "http://www.wlj.com",
     "Twitter": "MeredithLowry",
     "Photo": "/public/img/speakers/lowry-meredith.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -134,6 +141,7 @@
     "Website": "http://UserGroup.tv",
     "Twitter": "shawnweisfeld",
     "Photo": "/public/img/speakers/weisfeld-shawn.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -152,6 +160,7 @@
     "Website": "http://joinspartan.com",
     "Twitter": "tyrale",
     "Photo": "/public/img/speakers/bloomfield-tyrale.jpg",
+    "Company": "Spartan",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -170,6 +179,7 @@
     "Website": null,
     "Twitter": null,
     "Photo": "/public/img/speakers/missing.png",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -187,7 +197,8 @@
     "Bio": "Kelly J. Andrews,  Principal Developer Evangelist at Syncano, and contributor to two books on Journey Builder, started coding at age 8 when he built a blackjack game in BASIC â€“ and he's never stopped.  While he's mostly been front-end focused for the last 10 years, his real passion is helping developers succeed by making applications as quick, efficient and robust as possible.  \r\n\r\nIn his free time, he has sung in numerous barbershop quartets and loves karaoke, so donâ€™t be too surprised if you see him singing later. \"",
     "Website": "http://kellyjandrews.com",
     "Twitter": "kellyjandrews",
-    "Photo": "/public/img/speakers/andrews-kelly.png",
+    "Photo": "/public/img/speakers/andrews-kelly.jpg",
+    "Company": "Syncano",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -206,6 +217,7 @@
     "Website": "http://www.benmvp.com",
     "Twitter": "benmvp",
     "Photo": "/public/img/speakers/ilegbodu-ben.jpg",
+    "Company": "Eventbrite",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -224,6 +236,7 @@
     "Website": "http://object-mechanics.com",
     "Twitter": "stevenalowe",
     "Photo": "/public/img/speakers/lowe-steven.jpg",
+    "Company": "Object Mechanics",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -242,6 +255,7 @@
     "Website": null,
     "Twitter": "jtdowney",
     "Photo": "/public/img/speakers/downey-john.jpg",
+    "Company": "Braintree",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -259,7 +273,8 @@
     "Bio": "Ryan started in the fire of the startup world working on projects in many different fields. He has made his way as a contributor in the Laravel, Node, and Ember communities. Now Ryan works on building the future developers for our community as a Front End Instructor from the Iron yard.",
     "Website": "http://ryantablada.com",
     "Twitter": "RyanTablada",
-    "Photo": "/public/img/speakers/tablada-ryan.png",
+    "Photo": "/public/img/speakers/tablada-ryan.jpg",
+    "Company": "The Iron Yard",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -278,6 +293,7 @@
     "Website": "http://www.thestroudgroup.com",
     "Twitter": "9alese",
     "Photo": "/public/img/speakers/stroud-alese.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -296,6 +312,7 @@
     "Website": "http://radicaldave.com",
     "Twitter": "DavidWalker",
     "Photo": "/public/img/speakers/walker-david.jpg",
+    "Company": "TechAspect",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -314,6 +331,7 @@
     "Website": "http://www.CodeBrainMedia.com",
     "Twitter": "sarahpressler",
     "Photo": "/public/img/speakers/pressler-sarah.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -332,6 +350,7 @@
     "Website": null,
     "Twitter": "JessicaMauerhan",
     "Photo": "/public/img/speakers/mauerhan-jessica.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -350,6 +369,7 @@
     "Website": "http://brentconey.com",
     "Twitter": "brentconey",
     "Photo": "/public/img/speakers/coney-brent.jpg",
+    "Company": "Inuvo",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -368,6 +388,7 @@
     "Website": "http://www.ed4u.com",
     "Twitter": null,
     "Photo": "/public/img/speakers/apple-gordon.jpg",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
