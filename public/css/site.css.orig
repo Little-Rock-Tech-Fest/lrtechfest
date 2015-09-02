@@ -4,6 +4,86 @@ green: #7db660;
 blue: #4918fe;
 light orange #fead97
 */
+
+<<<<<<< Updated upstream
+body {  font-family: 'Roboto', sans-serif; color: white; background: url("../img/dark_dotted.png") repeat;}
+
+h1 { font-size: 4em; font-weight: bold}
+h2 { font-size: 3em; font-weight: bold}
+h3 { font-size: 2em}
+h4 { font-size: 1.5em}
+p  { line-height: 1.4}
+
+.header { padding: 20px; }
+.header h1 { display: inline-block; margin-left: 30px;}
+.header img {position: relative; top: -20px;}
+
+.alert-warning {background-color: #fe4918; color: black; }
+
+.section-header{background-color: #7db660; color: black; padding: 20px;}
+.section-content{ background-color: white; color: black; padding: 20px;}
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.navbar { color: #000; background: black; font-weight: bold; margin-bottom:0px; border:none;border-radius:0;}
+.navbar-brand img {position: relative; height: 65px; top: -16px;}
+.navbar .fa  {color: #fff; opacity: .4; margin-right: 10px; position:relative; top: 4px;}
+.navbar-nav .btn-primary {color: #000; background: transparent}
+.navbar-nav>li>a.btn{ border:0px;   font-weight: bold; text-align: left}
+.navbar-nav>li>a.btn-primary:hover{ background: #fe4918; color: #fff; }
+.navbar-nav>li>a.btn-secondary {background: #fe4918; color: white}
+.navbar-nav>li>a.btn-secondary .fa {opacity: 1}
+.navbar-nav>li>a.btn-secondary:hover{ background: #7db660; color: #fff; }
+
+
+#landing{
+	background: url('../img/lrskyline-small.jpg') center center no-repeat;
+	-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover;
+	background-size: cover; background-attachment: fixed;
+	overflow:hidden; margin-bottom: 0px;
+	color:#fff;
+	padding-top: 50px;
+	padding-bottom: 50px
+}
+
+#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 7.5em; text-transform: uppercase; margin-bottom: .5em; }
+#landing h2 { font-family: 'Ubuntu', sans-serif; font-size: 5em; text-transform: uppercase; }
+
+#time-place {text-align: center;}
+#time-place .time-place-inner { font-size: 1.5em; font-weight:300; display: inline-block; position: relative; top: -12px; margin-left: 10px; margin-right: 10px}
+#time-place .fa {margin: 0px 10px 0px 0px; font-size: 1.5em; top: -3px;}
+#time-place .sep { width: 1.3em; display: inline-block; }
+#time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
+
+#announcement {margin-top: 20px; font-size: 1.5em; font-weight:bold;}
+#mce-EMAIL {margin-right: 10px}
+
+.item-container {padding: 20px; border:1px solid #d8d8d8; margin-left:10px; margin-right: 10px; margin-top: 20px; display:inline-block}
+
+#sponsors-content a {color:inherit; text-decoration:none}
+#sponsors-content .logo-row {margin-top: 10px; text-align: center; }
+#sponsors-content .logo-frame { overflow:hidden; height: 200px; width: 200px; text-align:center}
+#sponsors-content .logo-img { display:inline-block; height:100%; vertical-align:middle}
+#sponsors-content  img {width: 200px;  max-height:200px; vertical-align:middle}
+#sponsors-content .your-logo-here{border: 3px dashed black; text-align: center; height: 250px; width:250px; background-color:lightgray; padding:10px; background-clip: padding-box;}
+#sponsors-content .level{ margin-bottom: 20px; font-weight: 500; text-align:center}
+#sponsors-content .level span{ position:relative; top: -3px; font-size: 1.2em}
+#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; font-size: 1.5em;}
+#sponsors-content .fa.Platinum {color:#E5E4E2; }
+#sponsors-content .fa.Gold {color:#FFDF00; }
+#sponsors-content .fa.Silver {color:#C0C0C0; }
+#sponsors-content .fa.Bronze {color:#CD7F32; }
+
+#speakers .item-container h5 span.fa {margin-left: 10px; margin-right: 10px}
+#speakers img {width: 200px;}
+#speakers .name {font-weight: bold}
+#speakers a {text-decoration: none; color: inherit}
+#speakers h5 {font-size: 1.3em}
+#speakers .submit img {border:2px dashed black}
+
+#team img {width:200px;}
+=======
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -157,6 +237,51 @@ nav {
     padding-bottom: 50px
 }
 
+r #landing h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 7.5em;
+    text-transform: uppercase;
+    margin-bottom: .5em;
+}
+
+#landing h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+#time-place {
+    text-align: center;
+}
+
+#time-place .time-place-inner {
+    font-size: 1.5em;
+    font-weight: 300;
+    display: inline-block;
+    position: relative;
+    top: -12px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+#time-place .fa {
+    margin: 0px 10px 0px 0px;
+    font-size: 1.5em;
+    top: -3px;
+}
+
+#time-place .sep {
+    width: 1.3em;
+    display: inline-block;
+}
+
+#time-place hr {
+    width: 11%;
+    border: 0;
+    border-top: 1px solid #FFF;
+    display: inline-block;
+}
+
 #announcement {
     margin-top: 20px;
     font-size: 1.5em;
@@ -174,14 +299,6 @@ nav {
     margin-right: 10px;
     margin-top: 20px;
     display: inline-block
-}
-
-.speaker-card .company:after {
-    content: " | ";
-}
-
-.speaker-card .company:last-child:after {
-    content: "";
 }
 
 .sponsors-content a {
@@ -282,6 +399,8 @@ nav {
 #team img {
     width: 200px;
 }
+
+>>>>>>> Stashed changes
 
 #speakerdetail .photo {margin-bottom: 30px; margin-right:15px }
 #speakerdetail .photo img {max-width: 150px; border-radius:50px; box-shadow: -10px 10px 50px #888888;}

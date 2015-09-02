@@ -1,0 +1,30 @@
+#media
+    .section
+        .section-header
+            h2 2014 Highlights
+            h3 Little Rock Tech Fest 2014 was our best year ever! <a href="/2014"> View </a> our sponsors and speakers.
+        .section-content
+            .row
+                .col-md-6
+                    .embed-container
+                        iframe(src='http://player.vimeo.com/video/108535414' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
+                .col-md-6
+                    #carousel-2014-pics.carousel.slide(data-ride='carousel')
+                        ol.carousel-indicators
+                            li.active(data-target='#carousel-2014-pics', data-slide-to='0')
+                            - for (var i = 1; i < 16; ++i) {
+                            li(data-target='#carousel-2014-pics', data-slide-to='#{i}')
+                            - }
+                        .carousel-inner(role='listbox')
+                            .item.active
+                                img(src='/public/img/pics/lrtechfest-1.jpg', alt='Little Rock Techfest 2014 picture')
+                            - for (var i = 2; i < 17; i++) {
+                            .item
+                                img(src='/public/img/pics/lrtechfest-#{i}.jpg', alt='...')
+                            -}
+                        a.left.carousel-control(href='#carousel-2014-pics', role='button', data-slide='prev')
+                            span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+                            span.sr-only Previous
+                        a.right.carousel-control(href='#carousel-2014-pics', role='button', data-slide='next')
+                            span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+                        span.sr-only Next

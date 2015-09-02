@@ -13,6 +13,53 @@ html
 		link(href="/public/css/site.css", rel="stylesheet")
 		script(src="/public/js/google-analytics.js")
 	body
+<<<<<<< Updated upstream
+		.navbar.navbar-inverse
+			.container
+				.navbar-header
+					button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-techfest")
+						span(class="sr-only") Toggle
+						span(class="icon-bar")
+						span(class="icon-bar")
+					a(class="navbar-brand" href="/")
+						img(id='navbar-logo' src="/public/img/lrtf-logo-small-white.png" )
+				#navbar-techfest.navbar-collapse.collapse
+					ul.nav.navbar-nav
+						li
+							a(class="btn btn-primary" href="/speakerdetails")
+								i.fa.fa-microphone.fa-2x
+								span Speakers
+						li
+							a(class="btn btn-primary" href="/sponsors")
+								i.fa.fa-trophy.fa-2x
+								span Sponsor Us
+						li.dropdown
+							a(href="#" class="dropdown-toggle btn" data-toggle="dropdown")
+								i.fa.fa-download.fa-2x
+								span Programs
+								span.caret
+							ul.dropdown-menu
+								li
+									a(href="/2014")
+										span 2014 (Previous Year)
+								li
+									a(href="/programs/2013")
+										span 2013 (Previous Year)
+						li
+							a(class="btn btn-secondary" href="https://lrtf2015.eventbrite.com")
+								i.fa.fa-ticket.fa-2x
+								span Register Now						
+					ul.nav.navbar-nav.navbar-right
+						li
+							a(class="social" href="mailto:info@lrtechfest.com?Subject=TechFest")
+								i.fa.fa-envelope.fa-2x
+						li
+							a(class="social" href="https://www.facebook.com/LittleRockTechFest")
+								i.fa.fa-facebook.fa-2x
+						li
+							a(class="social" href="https://twitter.com/LRTechFest")
+								i.fa.fa-twitter.fa-2x
+=======
 		nav.blue-grey.darken-2
 			.nav-wrapper
 				a.brand-logo(href="/")
@@ -31,6 +78,8 @@ html
 				span.date.light-green-text.text-lighten-2 Oct 16
 				span.venue Little Rock, AR
 
+
+>>>>>>> Stashed changes
 		.maincontent.container
 			block content
 
