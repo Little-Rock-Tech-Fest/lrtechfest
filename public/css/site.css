@@ -47,7 +47,6 @@ p  { line-height: 1.4}
 }
 
 #landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 7.5em; text-transform: uppercase; margin-bottom: .5em; }
-#landing h2 { font-family: 'Ubuntu', sans-serif; font-size: 5em; text-transform: uppercase; }
 
 #time-place {text-align: center;}
 #time-place .time-place-inner { font-size: 1.5em; font-weight:300; display: inline-block; position: relative; top: -12px; margin-left: 10px; margin-right: 10px}
@@ -55,7 +54,10 @@ p  { line-height: 1.4}
 #time-place .sep { width: 1.3em; display: inline-block; }
 #time-place hr { width: 11%; border: 0; border-top: 1px solid #FFF; display: inline-block; }
 
-#announcement {margin-top: 20px; font-size: 1.5em; font-weight:bold;}
+#landing .announcemet {font-weight: 800; color:#fe4918; font-size: 3em; margin-bottom:30px}
+#landing .announcemet a {color:#fe4918; text-decoration: none}
+#landing .announcemet a:hover {color:#fe4918;  }
+
 #mce-EMAIL {margin-right: 10px}
 
 .item-container {padding: 20px; border:1px solid #d8d8d8; margin-left:10px; margin-right: 10px; margin-top: 20px; display:inline-block}
