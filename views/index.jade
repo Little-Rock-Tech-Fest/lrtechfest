@@ -12,25 +12,25 @@ block content
 				h3.light-green-text.text-lighten-2 Sponsors
 				h4 We are currently seeking sponsors for 2015. To see your logo here, please <a class="light-green-text text-lighten-2" href="/sponsors">contact</a> us!
 			.section-content.sponsors-content
-					.container-fluid
-						.row.logo-row
-							each sponsor in sponsors
-								a(href="#{sponsor.Website}")
-									.item-container
-										.level
-											i(class="fa fa-trophy #{sponsor.Level}")
-											span #{sponsor.Level} Sponsor
-										.logo-frame
-											.logo-img
-											img(src="#{sponsor.Logo}")
-							a(href="/sponsors")
-								.item-container
+				.row.logo-row
+					each sponsor in sponsors
+						a(href="#{sponsor.Website}")
+							.col.m4.l3
+								.card.sponsor
 									.level
-										i.fa.fa-trophy.silver
-										span Sponsor Us!
-									.logo-frame
-										.logo-img
-										img(src="/public/img/sponsors/default.png")
+										i(class="fa fa-trophy #{sponsor.Level}")
+										span #{sponsor.Level} Sponsor
+									.logo-frame.valign-wrapper
+										img.valign(src="#{sponsor.Logo}")
+					a(href="/sponsors")
+						.col.m4.l3
+							.card.sponsor
+								.level
+									i.fa.fa-trophy.silver
+									span Sponsor Us!
+								.logo-frame.valign-wrapper
+									img.valign(src="/public/img/sponsors/default.png")
+
 	.speakers.section
 		.section-header.blue-grey.darken-2
 			h3.light-green-text.text-lighten-2 Speakers
@@ -38,8 +38,8 @@ block content
 		.section-content
 			.row
 				each speaker in speakers
-					.col.m4
-						.card.speaker-card
+					.col.m6.l4
+						.card.speaker-card.medium
 							.card-image.waves-effect.waves-block.waves-light
 								img.activator(src="#{speaker.Photo}")
 							.card-content
@@ -56,5 +56,4 @@ block content
 								span.card-title.grey-text.text-darken-4
 									| #{speaker.FirstName} #{speaker.LastName}
 									i.material-icons.right close
-								p
-									| Here is some more information about this product that is only revealed once clicked on.
+								p= speaker.Bio

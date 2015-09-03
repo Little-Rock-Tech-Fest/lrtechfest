@@ -45,7 +45,7 @@ app.get("/2014", function (req, res) {
 		}, console.error)
 		.then(function(sponsorData){
 			var sponsors = JSON.parse(sponsorData);
-			res.render('2014', {speakers: speakers, sponsors: sponsors})
+			res.render('2014', {speakers: speakers, sponsors: sponsors});
 		}, console.error);
 });
 
@@ -64,9 +64,9 @@ app.get('/speakerdetails', function(req, res){
 			res.render('speakerdetails', {speakers:speakers});
 		})
 		.catch(function(e){
-			console.log(e)
-			res.render('500')
-		})
+			console.log(e);
+			res.render('500');
+		});
 });
 
 app.get('/', function(req, res){
@@ -81,9 +81,9 @@ app.get('/', function(req, res){
 			res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
 		})
 		.catch(function(e){
-			console.log(e)
-			res.render('500')
-		})
+			console.log(e);
+			res.render('500');
+		});
 });
 
 var port = process.env.PORT;
