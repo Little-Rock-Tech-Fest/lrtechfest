@@ -72,7 +72,7 @@
         "Id": 11,
         "Track": "Mobile",
         "Topic": "Developing Mobile Apps using Fabric",
-        "Description": "Fabric is a modular mobile platform from Twitter that provides SDKs that address some of the most common iOS and Android development challenges: stability, analytics, distribution, revenue, and identity. It combines the services of Twitter, Crashlytics, MoPub, and Digits to help you build the best possible apps. Fabric was built with ease of use in mind; installation takes just minutes, and most features only require a few lines of code â€“ so you spend less time managing SDKs and more time building the best experience for your users. Oh, and it's free."
+        "Description": "Fabric is a modular mobile platform from Twitter that provides SDKs that address some of the most common iOS and Android development challenges: stability, analytics, distribution, revenue, and identity. It combines the services of Twitter, Crashlytics, MoPub, and Digits to help you build the best possible apps. Fabric was built with ease of use in mind; installation takes just minutes, and most features only require a few lines of code - so you spend less time managing SDKs and more time building the best experience for your users. Oh, and it's free."
       }
     ]
   },
@@ -103,7 +103,7 @@
     "Website": null,
     "Twitter": "jonfontanez",
     "Photo": "/public/img/speakers/fontanez-jonathan.jpg",
-    "Company": null,
+    "Company": "VCE",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -194,7 +194,7 @@
     "Id": 83,
     "FirstName": "Kelly",
     "LastName": "Andrews",
-    "Bio": "Kelly J. Andrews,  Principal Developer Evangelist at Syncano, and contributor to two books on Journey Builder, started coding at age 8 when he built a blackjack game in BASIC â€“ and he's never stopped.  While he's mostly been front-end focused for the last 10 years, his real passion is helping developers succeed by making applications as quick, efficient and robust as possible.  \r\n\r\nIn his free time, he has sung in numerous barbershop quartets and loves karaoke, so donâ€™t be too surprised if you see him singing later. \"",
+    "Bio": "<p>Kelly J. Andrews,  Principal Developer Evangelist at Syncano, and contributor to two books on Journey Builder, started coding at age 8 when he built a blackjack game in BASIC - and he's never stopped.  While he's mostly been front-end focused for the last 10 years, his real passion is helping developers succeed by making applications as quick, efficient and robust as possible.  </p><p>In his free time, he has sung in numerous barbershop quartets and loves karaoke, so don't be too surprised if you see him singing later.</p>",
     "Website": "http://kellyjandrews.com",
     "Twitter": "kellyjandrews",
     "Photo": "/public/img/speakers/andrews-kelly.jpg",
@@ -224,7 +224,7 @@
         "Id": 25,
         "Track": "Web",
         "Topic": "Sugar & Spice and everything nice about ES6",
-        "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar â€” making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you donâ€™t have to be a JS ninja to leave confident to begin using ES6 right now. Letâ€™s walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and donâ€™t worry if you didnâ€™t understand any of those terms â€” you will after the session."
+        "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar - making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you don't have to be a JS ninja to leave confident to begin using ES6 right now. Let's walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and don't worry if you didn't understand any of those terms - you will after the session."
       }
     ]
   },
@@ -262,7 +262,7 @@
         "Id": 31,
         "Track": "Other",
         "Topic": "Cryptography Pitfalls",
-        "Description": "As developers and system admins, we often do a poor job of implementing cryptography and other security measures in our systems. Often the primitives used are out of date and overlook very subtle flaws. These mistakes lead to systems that are hopelessly insecure despite our perception that weâ€™ve build an impenetrable fortress. Fortunately there are a few tools and techniques at our disposal that can ease some of the pain. In this talk weâ€™ll explore some of the most common pitfalls developers encounter with cryptography and restore some of our sanity."
+        "Description": "As developers and system admins, we often do a poor job of implementing cryptography and other security measures in our systems. Often the primitives used are out of date and overlook very subtle flaws. These mistakes lead to systems that are hopelessly insecure despite our perception that we've build an impenetrable fortress. Fortunately there are a few tools and techniques at our disposal that can ease some of the pain. In this talk we'll explore some of the most common pitfalls developers encounter with cryptography and restore some of our sanity."
       }
     ]
   },
@@ -289,11 +289,11 @@
     "Id": 89,
     "FirstName": "Alese",
     "LastName": "Stroud",
-    "Bio": "Alese Johnston Stroud has served as a Senior Systems Consultant and Project Manager at the Stroud Consulting Group for the past 18 years. Alese has proven expertise in conversion of financial systems, installation of upgrades, software development and testing, process design, and client / technical staff liaison and she is a Certified MOUS Master.\r\n\r\nSome of her clients include: Signature Bank, Black Diamond Information Technology, Citizenâ€™s Bank, EGA Records Management, Citibank, American Express and Chase Manhattan Bank.\r\n\r\nPrior to her role at Stroud Consulting Group, Alese had a successful career at Systematics (Alltel / Fidelity) serving in a variety of roles. Aleseâ€™s responsibilities including coding, support and project leadership experience with these Systematics applications.\r\n\r\nIn addition to her professional career, Alese has dedicated a great deal of time to the Central Arkansas community including: member of the Arkansas academy of Computing; Leadership Greater Little Rock Alumni Association Board of Directors; Advisory Board for the Arkansas Venture Center; Board of Directors at the Rotary Club 99; Founding member of the Women Startup Founders and as a coach and volunteer in Startup weekend, Gone in 60 and other student related events.\r\n\r\nHer past service activities include Board of Directors for the Arkansas Renewable Energy Association; Foundation Board of Directors for the Centers for Youth and Families; Graduate of the Leadership Greater Little Rock Class 21; Board of Directors at the Wildwood Park for the Arts; Programs Committee Volunteer for the ACANSA Arts Festival Foundation; Stakeholder in the Heartland Alliance for Regional Transmission and Board of Directors for the Allen School.",
+    "Bio": "<p>Alese Johnston Stroud has served as a Senior Systems Consultant and Project Manager at the Stroud Consulting Group for the past 18 years. Alese has proven expertise in conversion of financial systems, installation of upgrades, software development and testing, process design, and client / technical staff liaison and she is a Certified MOUS Master.</p></p>Some of her clients include: Signature Bank, Black Diamond Information Technology, Citizen's Bank, EGA Records Management, Citibank, American Express and Chase Manhattan Bank.</p><p>Prior to her role at Stroud Consulting Group, Alese had a successful career at Systematics (Alltel / Fidelity) serving in a variety of roles. Alese's responsibilities including coding, support and project leadership experience with these Systematics applications.</p><p>In addition to her professional career, Alese has dedicated a great deal of time to the Central Arkansas community including: member of the Arkansas academy of Computing; Leadership Greater Little Rock Alumni Association Board of Directors; Advisory Board for the Arkansas Venture Center; Board of Directors at the Rotary Club 99; Founding member of the Women Startup Founders and as a coach and volunteer in Startup weekend, Gone in 60 and other student related events.</p><p>Her past service activities include Board of Directors for the Arkansas Renewable Energy Association; Foundation Board of Directors for the Centers for Youth and Families; Graduate of the Leadership Greater Little Rock Class 21; Board of Directors at the Wildwood Park for the Arts; Programs Committee Volunteer for the ACANSA Arts Festival Foundation; Stakeholder in the Heartland Alliance for Regional Transmission and Board of Directors for the Allen School.</p>",
     "Website": "http://www.thestroudgroup.com",
     "Twitter": "9alese",
     "Photo": "/public/img/speakers/stroud-alese.jpg",
-    "Company": null,
+    "Company": "Stroud Consulting",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -308,7 +308,7 @@
     "Id": 90,
     "FirstName": "David",
     "LastName": "Walker",
-    "Bio": "David Walker is a Sitecore MVP and Sitecore Practice Director for TechAspect. He has over 20 years' experience in application development with over 75% as a consultant. He has been a MCP since 2003, MCAD and MCSD since 2005. He was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009, before he joined Microsoft as a Senior Application Development Manager where he mentored numerous Fortune 100 companies on full Application Lifecycle Management and Software Development best practices.\r\n\r\nPrior to joining Microsoft, he was formerly a board member for INETA (Vice President, Speakers Bureau), President of the Tulsa Developers .NET users group, founder and President of the Tulsa SQL Server Group and Tulsa Java Developers Group, and Vice President of the Tulsa SharePoint Interest Group. He is the founder and chairman of the region's largest and highly successful technical training event, http://TulsaTechFest.com where he just hosted its 10th successful year of this event on August 7, 2015. He has also mentored several other community leaders in running their own technical events. He is the founder and current President of the Houston Sitecore User Group.\r\n\r\nSince writing his first SharePoint assembly in 2004, he has been focused on Enterprise/Web Content Management Systems. He has worked with numerous CMS systems (proprietary, commercial and open source). After his first Sitecore solution in 2007, it has been his preferred CMS platform. He has utilized Sitecore with various types of customers and projects, from private corporate intranets to large-scale, high-traffic, high-volume, ecommerce, multilingual sites. He has worked with clients such as: ESPN, LPGA, USA Triathlon, The Outdoor Channel, Lexis Nexus, 1105 Media, Cox Communications and IBM Global Services.\r\n\r\nHe has delivered over 85 presentations to the community on a wide range of developer topics at a wide range of events from small community events to large events like: Microsoft TechEd, VSLive! Austin and VSLive! Dallas. He is currently focused on Azure topics, such as: Azure ML, DocumentDb, Azure Search, API Management, Data Factory, the Azure Data/Machine Learning Marketplace and of course anything Sitecore.",
+    "Bio": "<p>David Walker is a Sitecore MVP and Sitecore Practice Director for TechAspect. He has over 20 years' experience in application development with over 75% as a consultant. He has been a MCP since 2003, MCAD and MCSD since 2005. He was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009, before he joined Microsoft as a Senior Application Development Manager where he mentored numerous Fortune 100 companies on full Application Lifecycle Management and Software Development best practices.</p><p>Prior to joining Microsoft, he was formerly a board member for INETA (Vice President, Speakers Bureau), President of the Tulsa Developers .NET users group, founder and President of the Tulsa SQL Server Group and Tulsa Java Developers Group, and Vice President of the Tulsa SharePoint Interest Group. He is the founder and chairman of the region's largest and highly successful technical training event, http://TulsaTechFest.com where he just hosted its 10th successful year of this event on August 7, 2015. He has also mentored several other community leaders in running their own technical events. He is the founder and current President of the Houston Sitecore User Group.</p><p>Since writing his first SharePoint assembly in 2004, he has been focused on Enterprise/Web Content Management Systems. He has worked with numerous CMS systems (proprietary, commercial and open source). After his first Sitecore solution in 2007, it has been his preferred CMS platform. He has utilized Sitecore with various types of customers and projects, from private corporate intranets to large-scale, high-traffic, high-volume, ecommerce, multilingual sites. He has worked with clients such as: ESPN, LPGA, USA Triathlon, The Outdoor Channel, Lexis Nexus, 1105 Media, Cox Communications and IBM Global Services.</p><p>He has delivered over 85 presentations to the community on a wide range of developer topics at a wide range of events from small community events to large events like: Microsoft TechEd, VSLive! Austin and VSLive! Dallas. He is currently focused on Azure topics, such as: Azure ML, DocumentDb, Azure Search, API Management, Data Factory, the Azure Data/Machine Learning Marketplace and of course anything Sitecore.</p>",
     "Website": "http://radicaldave.com",
     "Twitter": "DavidWalker",
     "Photo": "/public/img/speakers/walker-david.jpg",
@@ -319,7 +319,7 @@
         "Id": 34,
         "Track": "Collaboration and Content Management",
         "Topic": "Sitecore CMS to CXM in 50 minutes",
-        "Description": "<p>In this session you will learn the what makes Sitecore the first choice for public facing enterprise .NET CMS/CXM projects. Using something other than Sitecore? Come see what your missing out on! Then, we will conclude with what makes Sitecore a true platform and many of the extension points. Iâ€™ll show you how to integrate numerous third party APIâ€™s for various reasons, including Personalized content.<br></p>"
+        "Description": "<p>In this session you will learn the what makes Sitecore the first choice for public facing enterprise .NET CMS/CXM projects. Using something other than Sitecore? Come see what your missing out on! Then, we will conclude with what makes Sitecore a true platform and many of the extension points. I'll show you how to integrate numerous third party API's for various reasons, including Personalized content.<br></p>"
       }
     ]
   },
@@ -331,7 +331,7 @@
     "Website": "http://www.CodeBrainMedia.com",
     "Twitter": "sarahpressler",
     "Photo": "/public/img/speakers/pressler-sarah.jpg",
-    "Company": null,
+    "Company": "Code Brain Media",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -350,14 +350,14 @@
     "Website": null,
     "Twitter": "JessicaMauerhan",
     "Photo": "/public/img/speakers/mauerhan-jessica.jpg",
-    "Company": null,
+    "Company": "",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 36,
         "Track": "Web",
         "Topic": "Rebuilding our Foundation: How We Used Symfony To Rewrite Our Application",
-        "Description": "This talk is about how our company rewroke our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  Iâ€™ll also cover what we would do differently now that weâ€™ve done it once."
+        "Description": "This talk is about how our company rewrote our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  I'll also cover what we would do differently now that we've done it once."
       }
     ]
   },
@@ -376,7 +376,7 @@
         "Id": 41,
         "Track": "Web",
         "Topic": "Modern UIs with Knockoutjs and Stateful CSS",
-        "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. Weâ€™ll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide â€œstatefulâ€ classes for our interface."
+        "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. We'll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide \"stateful\" classes for our interface."
       }
     ]
   },
@@ -384,11 +384,11 @@
     "Id": 96,
     "FirstName": "Gordon",
     "LastName": "Apple",
-    "Bio": "Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many â€œfirstsâ€ and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.\r\n\r\nDr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttleâ€™s primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Appleâ€™s work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4UÂ®â€˜s system possible.",
+    "Bio": "<p>Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many \"firsts\" and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.</p><p>Dr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttle's primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Apple's work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4U®‘s system possible.</p>",
     "Website": "http://www.ed4u.com",
     "Twitter": null,
     "Photo": "/public/img/speakers/apple-gordon.jpg",
-    "Company": null,
+    "Company": "Ed4U",
     "LinkedIn": null,
     "Presentations": [
       {
