@@ -18,6 +18,31 @@ block content
 			#landing-content.text-center
 				h1 Little Rock<br> Tech Fest
 				h3 One-day <strong>technology</strong> conference featuring popular developer topics from industry leaders
+	#speakers
+		.section
+			.section-header
+				h2 Speakers
+				h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
+			.section-content
+				.container
+					each speaker in speakers
+						.item-container
+							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
+								img(src="#{speaker.Photo}")
+							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
+								h4.name #{speaker.FirstName} #{speaker.LastName}
+							h5
+								if speaker.Company
+										span.fa.fa-building
+										span #{speaker.Company}
+								else
+									span &nbsp;
+							h5
+								if speaker.Twitter
+										span.fa.fa-twitter
+										a(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
+								else
+									span &nbsp;
 	#sponsors
 		.section
 			.section-header
@@ -45,31 +70,6 @@ block content
 										.logo-img
 										img(src="/public/img/sponsors/default.png")
 
-	#speakers
-		.section
-			.section-header
-				h2 Speakers
-				h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
-			.section-content
-				.container
-					each speaker in speakers
-						.item-container
-							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
-								img(src="#{speaker.Photo}")
-							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
-								h4.name #{speaker.FirstName} #{speaker.LastName}
-							h5
-								if speaker.Company
-										span.fa.fa-building
-										span #{speaker.Company}
-								else
-									span &nbsp;
-							h5
-								if speaker.Twitter
-										span.fa.fa-twitter
-										a(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
-								else
-									span &nbsp;
 						
 
 	#media
