@@ -414,7 +414,26 @@
         "Id": 47,
         "Track": "Web",
         "Topic": "Modern UIs with Knockoutjs and Stateful CSS",
-        "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. Weâ€™ll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide â€œstatefulâ€ classes for our interface."
+        "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. We'll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide \"stateful\" classes for our interface."
+      }
+    ]
+  },
+  {
+    "Id": 104,
+    "FirstName": "Victoria",
+    "LastName": "Ridge",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/apple-gordon.jpg",
+    "Company": "Ed4U",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 48,
+        "Track": "Tech Entrepreneurship",
+        "Topic": "Development Techniques used in iQPresenter for MacOS and Related iOS Apps",
+        "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.<br><br>We will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more."
       }
     ]
   }
