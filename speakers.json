@@ -436,5 +436,62 @@
         "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.<br><br>We will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more."
       }
     ]
+  },
+  {
+    "Id": 105,
+    "FirstName": "Sarah",
+    "LastName": "Daigle",
+    "Bio": "Sarah Daigleâ€™s twitter bio is concise and to-the-point: â€œCanadian- American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy, and teaching is a high calling.â€\r\n\r\nSince late 2014, sheâ€™s been growing a technology group as the Chief Technology Ambassador of Currant Technology Group @curranttech while unable to turn away from her desire to be continually â€œGeeking 4 Goodâ€.\r\n\r\nHer specialties online & technical education; technical architecture for the small and/or non-profit business; social marketing strategies and making friends everywhere she goes. She is a strong advocate for exposing women & children alike to coding for fun and career development.\r\n\r\nSarah is very active in Ozark STEM Foundation, which serves the NWA region by connecting and funding STEM activities for our residents from Pre-K to Bachelor degrees. Additionally, Sarah serves on the NWA Advisory council for the Womenâ€™s Foundation of Arkansas.\r\n\r\nSarah earned her B.A. degree at Bishopâ€™s University (Lennoxville, Quebec, Canada) and her Masters in IT Education at Dalhousie University (Halifax, Nova Scotia, Canada).",
+    "Website": null,
+    "Twitter": "sarahannedaigle",
+    "Photo": "/public/img/speakers/daigle-sarah.jpg",
+    "Company": "Currant Technology",
+    "LinkedIn": "sarahdaigle",
+    "Presentations": [
+      {
+        "Id": 49,
+        "Track": "Tech Entrepreneurship",
+        "Topic": "Social Entrepreneurship in Action",
+        "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+      }
+    ]
+  },
+  {
+    "Id": 106,
+    "FirstName": "Nicholas",
+    "LastName": "Norfolk",
+    "Bio": "Nicholas Norfolk is an information technology professional-turned social media practitioner.  He excels at event social media, digital storytelling, and engaging with the digital community.  Nicholas is active in the thriving startup community in Arkansas.  You will find him generating buzz and moving the conversation forward about social media, entrepreneurship, and technology.  ",
+    "Website": null,
+    "Twitter": "absolut_zer0",
+    "Photo": "/public/img/speakers/norfolk-nicholas.jpg",
+    "Company": "CDotsMedia",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 50,
+        "Track": "Tech Entrepreneurship",
+        "Topic": "Social Entrepreneurship in Action",
+        "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+      }
+    ]
+  },
+  {
+    "Id": 109,
+    "FirstName": "Angie",
+    "LastName": "Albright",
+    "Bio": "Angie Albright is the Director of Development and Outreach for Arkansas Support Network. She also does content marketing consulting, nonprofit tech consulting, and adjunct teaching at a number of universities. Angie is a tech geek and nonprofit guru who believes in the power of technology to advance the social good and create community. She brings efficiencies to nonprofits in order to maximize their impact in their communities. Angie is also part owner of a small tech start up company with a big goal to transform the food and hospitality industry. ",
+    "Website": null,
+    "Twitter": "AngieAlbright",
+    "Photo": "/public/img/speakers/albright-angie.jpg",
+    "Company": "Arkansas Support Network",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 51,
+        "Track": "Tech Entrepreneurship",
+        "Topic": "Social Entrepreneurship in Action",
+        "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+      }
+    ]
   }
 ]
