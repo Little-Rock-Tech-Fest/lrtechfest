@@ -6,6 +6,33 @@ block content
 		h3 Focusing on growing technology and software development in Arkansas
 		h4.venue Statehouse Convention Center
 
+	.speakers.section
+		.section-header.blue-grey.darken-2
+			h3.light-green-text.text-lighten-2 Speakers
+			h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
+		.section-content
+			.row
+				each speaker in speakers
+					.col.m4.l3
+						.card.speaker-card.medium
+							.card-image.waves-effect.waves-block.waves-light
+								img.activator(src="#{speaker.Photo}")
+							.card-content
+								span.card-title.activator.grey-text.text-darken-4
+									| #{speaker.FirstName} #{speaker.LastName}
+									i.material-icons.right more_vert
+								p
+									div
+										if speaker.Company
+											span.company #{speaker.Company}
+										if speaker.Twitter
+											a.twitter(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
+							.card-reveal
+								span.card-title.grey-text.text-darken-4
+									| #{speaker.FirstName} #{speaker.LastName}
+									i.material-icons.right close
+								p= speaker.Bio
+
 	.sponsors
 		.section
 			.section-header.blue-grey.darken-2
@@ -30,30 +57,3 @@ block content
 									span Sponsor Us!
 								.logo-frame.valign-wrapper
 									img.valign(src="/public/img/sponsors/default.png")
-
-	.speakers.section
-		.section-header.blue-grey.darken-2
-			h3.light-green-text.text-lighten-2 Speakers
-			h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
-		.section-content
-			.row
-				each speaker in speakers
-					.col.m6.l4
-						.card.speaker-card.medium
-							.card-image.waves-effect.waves-block.waves-light
-								img.activator(src="#{speaker.Photo}")
-							.card-content
-								span.card-title.activator.grey-text.text-darken-4
-									| #{speaker.FirstName} #{speaker.LastName}
-									i.material-icons.right more_vert
-								p
-									div
-										if speaker.Company
-											span.company #{speaker.Company}
-										if speaker.Twitter
-											a.twitter(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
-							.card-reveal
-								span.card-title.grey-text.text-darken-4
-									| #{speaker.FirstName} #{speaker.LastName}
-									i.material-icons.right close
-								p= speaker.Bio
