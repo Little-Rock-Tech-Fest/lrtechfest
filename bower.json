@@ -1,0 +1,14 @@
+{
+  "name": "lrtechfest",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kneumei/lrtechfest",
+  "authors": ["Kyle Neumeier"],
+  "license": "BSD-2-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

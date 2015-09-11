@@ -1,123 +1,59 @@
 extends layout
 
 block content
-	#landing
-		.container-fluid
-			.announcemet.text-center
-				a(href="https://lrtf2015.eventbrite.com") 
-					span Registration is now open!
-			#time-place
-				hr
-				.time-place-inner
-					span.fa.fa-calendar-o
-					span Friday, October 16, 2015
-					.sep
-					span.h3.fa.fa-map-marker
-					span Statehouse Convention Center
-				hr
-			#landing-content.text-center
-				h1 Little Rock<br> Tech Fest
-				h3 One-day <strong>technology</strong> conference featuring popular developer topics from industry leaders
-	#speakers
+	header.landing
+		h1 Little Rock Tech Fest
+		h3 Focusing on growing technology and software development in Arkansas
+		h4.venue Statehouse Convention Center
+
+	.speakers.section
+		.section-header.blue-grey.darken-2
+			h3.light-green-text.text-lighten-2 Speakers
+			h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
+		.section-content
+			.row
+				each speaker in speakers
+					.col.m4.l3
+						.card.speaker-card.medium
+							.card-image.waves-effect.waves-block.waves-light
+								img.activator(src="#{speaker.Photo}")
+							.card-content
+								span.card-title.activator.grey-text.text-darken-4
+									| #{speaker.FirstName} #{speaker.LastName}
+									i.material-icons.right more_vert
+								p
+									div
+										if speaker.Company
+											span.company #{speaker.Company}
+										if speaker.Twitter
+											a.twitter(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
+							.card-reveal
+								span.card-title.grey-text.text-darken-4
+									| #{speaker.FirstName} #{speaker.LastName}
+									i.material-icons.right close
+								p= speaker.Bio
+
+	.sponsors
 		.section
-			.section-header
-				h2 Speakers
-				h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
-			.section-content
-				.container
-					each speaker in speakers
-						.item-container
-							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
-								img(src="#{speaker.Photo}")
-							a(href="/speakerdetails##{speaker.FirstName}-#{speaker.LastName}")
-								h4.name #{speaker.FirstName} #{speaker.LastName}
-							h5
-								if speaker.Company
-										span.fa.fa-building
-										span #{speaker.Company}
-								else
-									span &nbsp;
-							h5
-								if speaker.Twitter
-										span.fa.fa-twitter
-										a(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
-								else
-									span &nbsp;
-	#sponsors
-		.section
-			.section-header
-				h2 Sponsors
-				h3 We are currently seeking sponsors for 2015. To see your logo here, please <a href="/sponsors">contact</a> us!
-			.section-content
-				#sponsors-content
-					.container-fluid
-						.row.logo-row
-							each sponsor in sponsors
-								a(href="#{sponsor.Website}")
-									.item-container
-										.level
-											i(class="fa fa-trophy #{sponsor.Level}")
-											span #{sponsor.Level} Sponsor
-										.logo-frame
-											.logo-img
-											img(src="#{sponsor.Logo}")
-							a(href="/sponsors")
-								.item-container
+			.section-header.blue-grey.darken-2
+				h3.light-green-text.text-lighten-2 Sponsors
+				h4 We are currently seeking sponsors for 2015. To see your logo here, please <a class="light-green-text text-lighten-2" href="/sponsors">contact</a> us!
+			.section-content.sponsors-content
+				.row.logo-row
+					each sponsor in sponsors
+						a(href="#{sponsor.Website}")
+							.col.m4.l3
+								.card.sponsor
 									.level
-										i.fa.fa-trophy.silver
-										span Sponsor Us!
-									.logo-frame
-										.logo-img
-										img(src="/public/img/sponsors/default.png")
-
-						
-
-	#media
-		.section
-			.section-header
-				h2 2014 Highlights
-				h3 Little Rock Tech Fest 2014 was our best year ever! <a href="/2014"> View </a> our sponsors and speakers.
-			.section-content
-				.row
-					.col-md-6
-						.embed-container
-							iframe(src='http://player.vimeo.com/video/108535414' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen)
-					.col-md-6
-						#carousel-2014-pics.carousel.slide(data-ride='carousel')
-							ol.carousel-indicators
-								li.active(data-target='#carousel-2014-pics', data-slide-to='0')
-								- for (var i = 1; i < 16; ++i) {
-								li(data-target='#carousel-2014-pics', data-slide-to='#{i}')
-								- }
-							.carousel-inner(role='listbox')
-								.item.active
-									img(src='/public/img/pics/lrtechfest-1.jpg', alt='Little Rock Techfest 2014 picture')
-								- for (var i = 2; i < 17; i++) {
-								.item
-									img(src='/public/img/pics/lrtechfest-#{i}.jpg', alt='...')
-								-}
-							a.left.carousel-control(href='#carousel-2014-pics', role='button', data-slide='prev')
-								span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
-								span.sr-only Previous
-							a.right.carousel-control(href='#carousel-2014-pics', role='button', data-slide='next')
-								span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
-							span.sr-only Next
-
-
-	#team
-		.section
-			.section-header
-				h2 The Team
-				h4 Meet the team behind Little Rock Tech Fest. Feel free to chat us up with questions, concerns and ideas.
-				h4 Want to help plan the premier developer conference in Arkansas? Drop us a line and we'll put you to work!
-			.section-content
-				.container
-						each member in team
-							.item-container
-								img(src="#{member.imgUrl}")
-								h4 #{member.name}
-								h4
-									if member.twitter
-										a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
-									else
-										span &nbsp;
+										i(class="fa fa-trophy #{sponsor.Level}")
+										span #{sponsor.Level} Sponsor
+									.logo-frame.valign-wrapper
+										img.valign(src="#{sponsor.Logo}")
+					a(href="/sponsors")
+						.col.m4.l3
+							.card.sponsor
+								.level
+									i.fa.fa-trophy.silver
+									span Sponsor Us!
+								.logo-frame.valign-wrapper
+									img.valign(src="/public/img/sponsors/default.png")
