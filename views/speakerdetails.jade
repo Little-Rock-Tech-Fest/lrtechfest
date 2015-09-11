@@ -7,31 +7,30 @@ block content
 
 	#speakerdetail.container-fluid.section-content
 
-		each speaker in speakers
-			.row(id="#{speaker.FirstName}-#{speaker.LastName}")
-				.col-sm-3.col-md-2.photo
-					img(src="#{speaker.Photo}")
-				.col-sm-8.col-md-9
-					div.name #{speaker.FirstName} #{speaker.LastName}
-					.section-content.speaker-contact
-						if(speaker.Company)
-							div.fa.fa-building
-								span.speaker-contact-item
-									span #{speaker.Company}
-						if(speaker.Twitter)
-							div.fa.fa-twitter
-								a(href="http://www.twitter.com/#{speaker.Twitter}" class="speaker-contact-item")
-									span #{speaker.Twitter}
-						if(speaker.Website)
-							div.fa.fa-globe
-								a(href="#{speaker.Website}" class="speaker-contact-item")
-									span #{speaker.Website}
-					div.section-title Meet #{speaker.FirstName}
-					.section-content
-						span !{speaker.Bio}
-					for talk in speaker.Presentations
-						div.section-title #{talk.Topic}
-						.section-content 
-							span !{talk.Description}
-			.row
-				hr
+		ul.collection.collapsible.popout
+			each speaker in speakers
+				li(id="#{speaker.FirstName}-#{speaker.LastName}")
+					.collapsible-header.collection-item.avatar
+						img.circle(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}")
+						span.title #{speaker.FirstName} #{speaker.LastName} - #{speaker.Presentations[0].Topic}
+						.speaker-detail-links
+							if(speaker.Company)
+								div.fa.fa-building
+									span.speaker-contact-item
+										span #{speaker.Company}
+							if(speaker.Twitter)
+								div.fa.fa-twitter
+									a(href="http://www.twitter.com/#{speaker.Twitter}" class="speaker-contact-item")
+										span #{speaker.Twitter}
+							if(speaker.Website)
+								div.fa.fa-globe
+									a(href="#{speaker.Website}" class="speaker-contact-item")
+										span #{speaker.Website}
+						.secondary-content: i.fa.fa-chevron-left
+					.collapsible-body
+						p
+							strong Speaker Bio:
+							| #{speaker.Bio}
+						p
+							strong Talk Description:
+							| #{speaker.Presentations[0].Description}

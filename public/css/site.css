@@ -502,3 +502,33 @@ p  { line-height: 1.4}
         width: 85%;
     }
 }
+
+.speaker-detail-links {
+    position: absolute;
+    bottom: 20px;
+}
+
+.collection-item.avatar .secondary-content {
+    color: #455a64;
+    transition: transform .35s;
+}
+
+.collection-item.avatar.active .secondary-content {
+    transform: rotate(-90deg);
+    color: white;
+}
+
+.collection .collection-item.avatar {
+    min-height: 120px;
+    padding: 20px 60px 20px 140px;
+}
+
+.collection .collection-item.avatar .circle {
+    width: 100px;
+    height: 100px;
+    top: 10px;
+}
+
+.collection .collection-item.active {
+    background-color: #455a64;
+}
