@@ -6,3 +6,4 @@ obj
 *.db
 *.sublime-project
 *.sublime-workspace
+.vscode

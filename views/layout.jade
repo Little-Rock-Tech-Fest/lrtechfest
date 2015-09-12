@@ -17,7 +17,19 @@ html
 			.nav-wrapper
 				a.brand-logo(href="/")
 					img(id='navbar-logo' src="/public/img/lrtf-logo-small-white.png" )
+				a(href="#" data-activates="mobile-demo" class="button-collapse")
+					i.material-icons menu
 				ul.right.hide-on-med-and-down
+					li
+						a(href="/speakerdetails")
+							span Speakers
+					li
+						a(href="/sponsors")
+							span Sponsor Us
+					li
+						a(href="https://lrtf2015.eventbrite.com")
+							span Tickets
+				ul#mobile-demo.side-nav
 					li
 						a(href="/speakerdetails")
 							span Speakers

@@ -11,4 +11,5 @@
 
 	$(window).resize(landingInit);
 	$(document).ready(landingInit);
+	$(".button-collapse").sideNav();
 })(jQuery);
