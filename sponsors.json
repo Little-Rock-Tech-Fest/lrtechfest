@@ -60,6 +60,12 @@
 		"Website": "http://www.dassaultfalcon.com/"
 	},
 	{
+		"Name": "Arkansas Innovation Hub",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/innovation_hub.png",
+		"Website": "http://www.arhub.org/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
