@@ -456,6 +456,14 @@ p  { line-height: 1.4}
     #speakerdetail .truncate{
         display: inherit;
     }
+    
+    #speakerdetail .collection .collection-item.avatar{
+        padding: 30px 20px;
+    } 
+    #speakerdetail .collection .collection-item.avatar .circle{
+        position: inherit;
+        padding-bottom: 20px
+    }
 }
 
 

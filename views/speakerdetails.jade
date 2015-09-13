@@ -12,7 +12,7 @@ block content
 				li(id="#{speaker.FirstName}-#{speaker.LastName}")
 					.collapsible-header.collection-item.avatar
 						img.circle(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}")
-						span.title #{speaker.FirstName} #{speaker.LastName} 
+						p.title #{speaker.FirstName} #{speaker.LastName} 
 						p 
 							|#{speaker.Presentations[0].Topic}
 							.speaker-detail-links
