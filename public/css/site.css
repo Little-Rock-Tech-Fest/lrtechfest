@@ -383,9 +383,9 @@ p  { line-height: 1.4}
 
 /* Extra Small */
 
-@media(max-width:767px) {
+@media(max-width:600px) {
     body {
-        font-size: 11px;
+        /*font-size: 11px;*/
         /* 1.5x default size */
     }
     .header h1 {
@@ -447,12 +447,21 @@ p  { line-height: 1.4}
     #speakers img {
         width: 150px;
     }
+    #speakerdetail>ul>li{
+        box-sizing: initial;
+    }
+    #speakerdetail .collapsible-header{
+        height: 100%
+    }
+    #speakerdetail .truncate{
+        display: inherit;
+    }
 }
 
 
 /* Small */
 
-@media(min-width:768px) and (max-width:991px) {
+@media(min-width:601px) and (max-width:991px) {
     body {
         font-size: 14px;
         /* 1.5x default size */
@@ -495,6 +504,12 @@ p  { line-height: 1.4}
     #speakers img {
         width: 200px;
     }
+    #speakerdetail>ul>li{
+        box-sizing: initial;
+    }
+    #speakerdetail .collapsible-header{
+        height: 100%
+    }
 }
 
 @media only screen and (min-width: 993px) {
@@ -504,8 +519,7 @@ p  { line-height: 1.4}
 }
 
 .speaker-detail-links {
-    position: absolute;
-    bottom: 20px;
+    margin-top: 10px;
 }
 
 .collection-item.avatar .secondary-content {
