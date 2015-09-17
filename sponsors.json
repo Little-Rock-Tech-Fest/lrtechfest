@@ -11,6 +11,12 @@
 		"Logo": "/public/img/sponsors/syncano.png",
 		"Website": "http://www.syncano.com/"
 	},
+		{
+		"Name": "ABC Financial",
+		"Level": "Gold",
+		"Logo": "/public/img/sponsors/abc-financial.png",
+		"Website": "http://www.abcfinancial.com/"
+	},
 	{
 		"Name": "Laravel",
 		"Level": "Silver",
