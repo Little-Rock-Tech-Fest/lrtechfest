@@ -66,6 +66,18 @@
 		"Website": "http://www.arhub.org/"
 	},
 	{
+		"Name": "CDots Media",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/cdots.png",
+		"Website": "http://cdotsmedia.com/"
+	},
+	{
+		"Name": "Clearpointe",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/clearpointe.png",
+		"Website": "http://www.clearpointe.com/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
@@ -94,5 +106,11 @@
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/inuvo.png",
 		"Website": "http://www.inuvo.com/"
+	},
+	{
+		"Name": "JBHung",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/jbhunt.png",
+		"Website": "http://www.jbhunt.com/"
 	}
 ]
