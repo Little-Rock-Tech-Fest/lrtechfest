@@ -124,5 +124,11 @@
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/jbhunt.png",
 		"Website": "http://www.jbhunt.com/"
+	},
+	{
+		"Name": "INA",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/ina.png",
+		"Website": "http://ina.arkansas.gov/"
 	}
 ]
