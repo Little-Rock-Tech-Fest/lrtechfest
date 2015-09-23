@@ -4,7 +4,7 @@
     "Id": 67,
     "FirstName": "Stewart",
     "LastName": "Whaley",
-    "Bio": "Stewart Whaley is a Team Leader for the Systems  Development Group at Arkansas Children's Hospital, the 6th largest pediatric facility in America.  A licensed attorney and Microsoft Certified Professional, he serves as  Chief Privacy Officer of Phyzit, Inc., a healthcare startup providing Transitional Care Management, patient  engagement, and telemedicine as SaaS.  Stewart is active in the national legal aid and medical-legal partnership communities as a volunteer, consultant and software developer.  Additionally, he has delivered technical and technology-based Continuing Legal Education (CLE) sessions for Bar Associations and technology conferences in multiple states. http://www.twilio.com/doers/stewart-whaley",
+    "Bio": "Stewart Whaley is a Certified Information Privacy Professional, attorney and software developer with experience in the media,\r\nhealthcare and legal sectors. He is an honors graduate of the William H. Bowen School of Law, a Microsoft Certified Professional\r\nand active as a speaker, developer and consultant.",
     "Website": "http://phyzit.com",
     "Twitter": "stewartwhaley",
     "Photo": "/public/img/speakers/whaley-stewart.jpg",
@@ -61,7 +61,7 @@
     "Id": 74,
     "FirstName": "Val",
     "LastName": "Polouchkine",
-    "Bio": "Val Polouchkine is a recovering C# developer, currently working for Twitter as a Developer Advocate for their mobile platform, Fabric. Before this, he was a Customer Success Engineer at Xamarin, where he helped dozens of companies with their first foray into mobile. He aims to spread good information about developing 5★ mobile apps.",
+    "Bio": "Val Polouchkine is a recovering C# developer, currently working for Twitter as a Developer Advocate for their mobile platform, Fabric. Before this, he was a Customer Success Engineer at Xamarin, where he helped dozens of companies with their first foray into mobile. He aims to spread good information about developing 5â˜… mobile apps.",
     "Website": null,
     "Twitter": "heyval",
     "Photo": "/public/img/speakers/polouchkine-val.jpg",
@@ -90,8 +90,8 @@
       {
         "Id": 17,
         "Track": "Web",
-        "Topic": "Taming the Wild West of Front-end Web Development",
-        "Description": "Front-end development is rapidly changing with the approval of ECMAScript 2015 (ES6) earlier this year and work already starting on ECMAScript 2016 (ES7).  The TC39 committee intentionally renamed ES6 and ES7 to ECMAScript 2015 and ECMAScript 2016 because they plan to have annual releases.  We will discuss tips and tricks on how to future proof your front-end code by using transpilers, polyfills, and/or shims.  These will help mitigate the volatility of your JavaScript code for current and future front-end web development.  Taking these techniques back to your development team and/or manager will increase the life of the front-end code you are writing today which in turn improves the return on investment of your company's front-end code."
+        "Topic": "Write Code For The Future You",
+        "Description": "Many believe the days of staying at a job long enough to retire is gone.  A typical worker in the United States switches jobs ever 4-5 years and in the tech industry it is even shorter.  Due to this there is an even greater need now to improve the quality of the code you write and / or maintain in your job as a software developer.  In this session, we will discuss what it means to improve the quality of the code and how you can work towards improving it every day.  Also we will go over a few practical tips you can start using today to improve the quality of your code."
       }
     ]
   },
@@ -172,25 +172,6 @@
     ]
   },
   {
-    "Id": 82,
-    "FirstName": "Greg",
-    "LastName": "Lindstrom",
-    "Bio": "Greg manages the Little Rock IT Department for Centene Corporation, where they process claims for the health care industry.  He started his career programming with punch cards and still enjoys learning and applying new technologies to solve problems.  When he is not programming, you will find Greg playing tuba in the Little Rock Wind Symphony or working with the local (and not so local) amateur radio community (his call-sign is K5GSL).",
-    "Website": null,
-    "Twitter": null,
-    "Photo": "/public/img/speakers/missing.png",
-    "Company": "",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 23,
-        "Track": "Database",
-        "Topic": "No SQL with MongoDB",
-        "Description": "MongoDB is a document-oriented database.  There are no columns, tables or even schemas and yet it is extremely powerful and works well with many languages.  This talk will introduce you to mongodb and show plenty of examples of how you an survive without SQL!"
-      }
-    ]
-  },
-  {
     "Id": 83,
     "FirstName": "Kelly",
     "LastName": "Andrews",
@@ -224,7 +205,7 @@
         "Id": 25,
         "Track": "Web",
         "Topic": "Sugar & Spice and everything nice about ES6",
-        "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar - making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you don't have to be a JS ninja to leave confident to begin using ES6 right now. Let's walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and don't worry if you didn't understand any of those terms - you will after the session."
+        "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar - making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you don't have to be a JS ninja to leave confident to begin using ES6 right now. Let's walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and don't worry if you didnâ€™t understand any of those terms - you will after the session."
       }
     ]
   },
@@ -357,7 +338,26 @@
         "Id": 36,
         "Track": "Web",
         "Topic": "Rebuilding our Foundation: How We Used Symfony To Rewrite Our Application",
-        "Description": "This talk is about how our company rewroke our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  I'll also cover what we would do differently now that we've done it once."
+        "Description": "This talk is about how our company rewroke our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  Iâ€™ll also cover what we would do differently now that weâ€™ve done it once."
+      }
+    ]
+  },
+  {
+    "Id": 93,
+    "FirstName": "Chander",
+    "LastName": "Dhall",
+    "Bio": "Chander Dhall is a Microsoft MVP, TechEd Speaker, ASP.NET Insider, Web API Advisor, IT/Dev Connections content chair, professional software architect/lead developer, trainer, INETA speaker, open-source contributor, and community leader and organizer with years of experience in enterprise Software Development. Chander started coding when he was 6 and created his first successful software product at the age of 14. He is the President and CEO of Chander Dhall, Inc. and previously of Ria Consulting, LLC. He has proven track record of making clients successful and saving millions of dollars to them. He is the Development track content chair for IT/Dev Connections and he works in a goal-oriented, technologically driven, fast paced AGILE (SCRUM) environment. He is the founder of Dallas day of dot net, MVPMIX.com and jsSaturday. He has a Masterâ€™s Degree in computer science with specialization in algorithms, principles and patterns and is focused on building high performing modular software. Chander leads the HTML5/Node.js group in Los Angeles and the .NET user group at UTDallas. Chander recently got recognized as â€˜One of the top organizers by Eventbrite.â€™ Chander has been a featured speaker in numerous conferences and code camps all over the world.",
+    "Website": "http://www.chanderdhall.com/",
+    "Twitter": null,
+    "Photo": "/public/img/speakers/dhall-chander.jpg",
+    "Company": "",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 40,
+        "Track": "Web",
+        "Topic": "Rest and Web API Best Practices",
+        "Description": "In this talk of International acclaim, Microsoft MVP, ASP.NET Insider and Web API advisor Chander Dhall, discusses what to do and what NOT to do when it comes to REST best practices. At the same time he also highlights the new features in Web API. The talk is a good mixture of code and concepts. You will not only learn the new features and best practices of REST and Web API but also some secret techniques not that widely used yet. The talk plans to cover all level of attendees from beginner to advanced."
       }
     ]
   },
@@ -384,7 +384,7 @@
     "Id": 96,
     "FirstName": "Gordon",
     "LastName": "Apple",
-    "Bio": "Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many \"firsts\" and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.\r\n\r\nDr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttle's primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Apple's work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4U®'s system possible.",
+    "Bio": "Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many \"firsts\" and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.\r\n\r\nDr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttleâ€™s primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Appleâ€™s work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4UÂ®â€˜s system possible.",
     "Website": "http://www.ed4u.com",
     "Twitter": null,
     "Photo": "/public/img/speakers/apple-gordon.jpg",
@@ -395,7 +395,7 @@
         "Id": 43,
         "Track": "Tech Entrepreneurship",
         "Topic": "Development Techniques used in iQPresenter for MacOS and Related iOS Apps",
-        "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.<br><br>We will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more."
+        "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.\r\n\r\nWe will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more."
       }
     ]
   },
@@ -441,7 +441,7 @@
     "Id": 105,
     "FirstName": "Sarah",
     "LastName": "Daigle",
-    "Bio": "Sarah Daigle's twitter bio is concise and to-the-point: â€œCanadian- American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy, and teaching is a high calling.â€\r\n\r\nSince late 2014, she's been growing a technology group as the Chief Technology Ambassador of Currant Technology Group @curranttech while unable to turn away from her desire to be continually â€œGeeking 4 Goodâ€.\r\n\r\nHer specialties online & technical education; technical architecture for the small and/or non-profit business; social marketing strategies and making friends everywhere she goes. She is a strong advocate for exposing women & children alike to coding for fun and career development.\r\n\r\nSarah is very active in Ozark STEM Foundation, which serves the NWA region by connecting and funding STEM activities for our residents from Pre-K to Bachelor degrees. Additionally, Sarah serves on the NWA Advisory council for the Women's Foundation of Arkansas.\r\n\r\nSarah earned her B.A. degree at Bishop's University (Lennoxville, Quebec, Canada) and her Masters in IT Education at Dalhousie University (Halifax, Nova Scotia, Canada).",
+    "Bio": "Sarah Daigleâ€™s twitter bio is concise and to-the-point: \"Canadian- American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy, and teaching is a high calling.\"\r\n\r\nSince late 2014, sheâ€™s been growing a technology group as the Chief Technology Ambassador of Currant Technology Group @curranttech while unable to turn away from her desire to be continually \"Geeking 4 Good\".\r\n\r\nHer specialties online & technical education; technical architecture for the small and/or non-profit business; social marketing strategies and making friends everywhere she goes. She is a strong advocate for exposing women & children alike to coding for fun and career development.\r\n\r\nSarah is very active in Ozark STEM Foundation, which serves the NWA region by connecting and funding STEM activities for our residents from Pre-K to Bachelor degrees. Additionally, Sarah serves on the NWA Advisory council for the Womenâ€™s Foundation of Arkansas.\r\n\r\nSarah earned her B.A. degree at Bishopâ€™s University (Lennoxville, Quebec, Canada) and her Masters in IT Education at Dalhousie University (Halifax, Nova Scotia, Canada).",
     "Website": null,
     "Twitter": "sarahannedaigle",
     "Photo": "/public/img/speakers/daigle-sarah.jpg",
@@ -491,6 +491,44 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+      }
+    ]
+  },
+  {
+    "Id": 110,
+    "FirstName": "Scott",
+    "LastName": "Ford",
+    "Bio": "Scott Ford is the Founder and Chief Code Whisperer at Corgibytes, a software consultancy whose mission is to maintain and improve the world's existing codebases. Scott specializes and thrives on breathing new life into existing projects. Scott is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott's love of software restoration and remodeling began in college where he and his team were responsible for retrofiting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing code base needed to be improved.",
+    "Website": "http://corgibytes.com/",
+    "Twitter": "mscottford",
+    "Photo": "/public/img/speakers/ford-scott.jpg",
+    "Company": "Corgibytes",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 52,
+        "Track": "IT Professional",
+        "Topic": "Old Code, New Tricks",
+        "Description": "Negativity surrounds the concept of existing code. This negativity is baked into the language we use. We work on 'legacy projects', 'dirt field projects', 'rescue projects', 'antiquated projects', 'ancient projects'. I'd like to use the construction metaphor to look at these projects in a different light. I've been inspired by the TV program, 'This Old House'. I think the care and attention that's given existing structures while making them do more for their inhabitants is a great model for how we can treat our software projects. This talk isn't language specific; it's themes and guidance will apply to anyone who's worked on a project that someone else left behind or anyone who is likely to do so in the future."
+      }
+    ]
+  },
+  {
+    "Id": 111,
+    "FirstName": "Pete",
+    "LastName": "Buletza",
+    "Bio": "Pete Buletza is a Founder and Managing Partner of Elyxor, where he spends most of his time implementing DevOps solutions, helping companies delivery software faster and with higher quality. \r\nPete got his start working on TurboTax and WebTurboTax at Intuit in San Diego; he later returned to Boston to enter the world of startups and has spent the last 15 years architecting, building, and managing the teams that provide the technology which make entrepreneursâ€˜ visions a reality. He spent several years as the System Architect of high volume, scalable systems, most notably at Celarix and Espanol.com. His focus over the past 8 years has been solving end-to-end business problems and delivering value quickly through modern technology patterns.\r\nPete holds a BA in Computer Science from Harvard University.",
+    "Website": "http://www.elyxor.com/",
+    "Twitter": "buletza",
+    "Photo": "/public/img/speakers/buletza-pete.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 53,
+        "Track": "Other",
+        "Topic": "A Discussion on DevOps",
+        "Description": "Ever heard of DevOps, but aren't sure what it is or why it's incredibly important? Come find out what it means to continuously deliver software, to operate at velocity, and how this will fundamentally transform businesses. We'll discuss the concepts behind DevOps, how it relates to both startups and enterprises, and talk about why it's more than good for just Dev and Infra."
       }
     ]
   }
