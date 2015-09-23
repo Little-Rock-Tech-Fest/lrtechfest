@@ -84,6 +84,12 @@
 		"Website": "http://www.clearpointe.com/"
 	},
 	{
+		"Name": "Hark",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/hark.png",
+		"Website": "http://www.hark.tv/"
+	},
+	{
 		"Name": "Acxiom",
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/acxiom_250.png",
