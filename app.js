@@ -69,6 +69,10 @@ app.get('/speakerdetails', function(req, res){
 		});
 });
 
+app.get('/about', function(req, res){
+	res.render('about', {team: team})
+})
+
 app.get('/', function(req, res){
 	var sponsors;
 	fs_readFile('sponsors.json', 'utf8')

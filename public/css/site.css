@@ -278,10 +278,6 @@ nav {
     border: 2px dashed black
 }
 
-#team img {
-    width: 200px;
-}
-
 body {  font-family: 'Roboto', sans-serif; color: white;}
 
 h1 { font-size: 4em; font-weight: bold}
@@ -360,8 +356,6 @@ p  { line-height: 1.4}
 #speakers h5 {font-size: 1.3em}
 #speakers .submit img {border:2px dashed black}
 
-#team img {width:200px;}
-
 #speakerdetail .photo {margin-bottom: 30px; margin-right:15px }
 #speakerdetail .photo img {max-width: 150px; border-radius:50px; box-shadow: -10px 10px 50px #888888;}
 #speakerdetail .name {font-size: 2em; font-weight: 600; line-height: 1; margin-bottom:10px}
@@ -380,6 +374,9 @@ p  { line-height: 1.4}
 	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
+
+#team .card.medium{height: inherit}
+#team .card.medium .card-image{height: inherit}
 
 /* Extra Small */
 
@@ -440,9 +437,6 @@ p  { line-height: 1.4}
     }
     #carousel-2014-pics {
         margin-top: 20px;
-    }
-    #team img {
-        width: 150px;
     }
     #speakers img {
         width: 150px;
@@ -506,9 +500,6 @@ p  { line-height: 1.4}
     #carousel-2014-pics {
         margin-top: 20px;
     }
-    #team img {
-        width: 200px;
-    }
     #speakers img {
         width: 200px;
     }
@@ -518,6 +509,8 @@ p  { line-height: 1.4}
     #speakerdetail .collapsible-header{
         height: 100%
     }
+    
+    #team .card .card-title{font-size: 18px; line-height: inherit}
 }
 
 @media only screen and (min-width: 993px) {
