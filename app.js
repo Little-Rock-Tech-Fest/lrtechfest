@@ -69,6 +69,9 @@ app.get('/speakerdetails', function(req, res){
 		});
 });
 
+app.get('/about', function(req, res){
+	res.render('about', {team: team})
+})
 app.get('/schedule', function(req, res){
 	fs_readFile('speakers.json', 'utf8')
 		.then(function(speakerData){

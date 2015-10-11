@@ -1,17 +1,21 @@
-#team
-	.section
-		.section-header
-			h2 The Team
-			h4 Meet the team behind Little Rock Tech Fest. Feel free to chat us up with questions, concerns and ideas.
-			h4 Want to help plan the premier developer conference in Arkansas? Drop us a line and we'll put you to work!
-		.section-content
-			.container
+extends layout
+
+block content
+	#team
+		.section
+			.section-header
+				h2 The Team
+				h4 Meet the team behind Little Rock Tech Fest. Feel free to chat us up with questions, concerns and ideas.
+				h4 Want to help plan the premier developer conference in Arkansas? Drop us a line and we'll put you to work!
+			.section-content
+				.row
 					each member in team
-						.item-container
-							img(src="#{member.imgUrl}")
-							h4 #{member.name}
-							h4
-								if member.twitter
-									a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
-								else
-									span &nbsp;
+						.col.m4.l3
+							.card.medium.center-align
+								.card-image
+									img(src="#{member.imgUrl}" )
+								.card-content
+									span.card-title.activator.grey-text.text-darken-4 #{member.name}
+									if member.twitter
+										.card-action
+											a.twitter(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
