@@ -16,6 +16,8 @@
         "Track": "Cloud",
         "Topic": "Good karma and \"profit\" for non-profits with Twiilio.org: Improving healthcare and legal services for children and families at-risk.",
         "Description": "Join me for a review of Twilio-powered apps improving efficiency, resource utilization and outcomes in health care and legal aid around the country.  Along the way, we will discuss challenges and opportunities for developers to join healthcare and legal aid professionals focused on improving services, reducing cost, earning profits, providing for the greater good, or \"all of the above.\" I'll show you how we materialized Twilio.org's \". . . [belief that] nonprofits should have access to communications technologies that help make a real impact.\"  By the way, did I mention they also saved seven figures along the way?"
+        "Room": "4",
+        "Session": "2"
       }
     ]
   },
@@ -35,6 +37,8 @@
         "Track": "Web",
         "Topic": "Signs of the Times: What Road Signs Taught Me About Web Design",
         "Description": "It's amazing what the physical world can teach us about the digital landscape. Good (and lasting) design is all around us, even in things we take for granted. The classic and ubiquitous design of road signs, for example. This talk draws on the lessons learned during the creation of the road sign system in the 1950s and how those decades-old lessons can be applied to web design in 2015."
+        "Room": "4",
+        "Session": "1"
       }
     ]
   },
@@ -54,6 +58,8 @@
         "Track": "Web",
         "Topic": "Currying in a Hurry (Intro to Functional Programming in F#)",
         "Description": "Most of us spend our days coding in object oriented (OO) languages like C#, Java or C++. By looking at other programming paradigms we have an opportunity to reason about problems in different ways, and gain a deeper understanding of what's in our OO toolkit. This talk takes an idiomatic approach to functional programming (FP) using F#. At the end of the talk you'll have a better idea of what FP is, know what \"currying\" is, and have the information you need to get started with F#."
+        "Room": "3",
+        "Session": "3"
       }
     ]
   },
@@ -73,6 +79,8 @@
         "Track": "Mobile",
         "Topic": "Developing Mobile Apps using Fabric",
         "Description": "Fabric is a modular mobile platform from Twitter that provides SDKs that address some of the most common iOS and Android development challenges: stability, analytics, distribution, revenue, and identity. It combines the services of Twitter, Crashlytics, MoPub, and Digits to help you build the best possible apps. Fabric was built with ease of use in mind; installation takes just minutes, and most features only require a few lines of code - so you spend less time managing SDKs and more time building the best experience for your users. Oh, and it's free."
+        "Room": "1",
+        "Session": "2"
       }
     ]
   },
@@ -92,6 +100,8 @@
         "Track": "Web",
         "Topic": "Write Code For The Future You",
         "Description": "Many believe the days of staying at a job long enough to retire is gone.  A typical worker in the United States switches jobs ever 4-5 years and in the tech industry it is even shorter.  Due to this there is an even greater need now to improve the quality of the code you write and / or maintain in your job as a software developer.  In this session, we will discuss what it means to improve the quality of the code and how you can work towards improving it every day.  Also we will go over a few practical tips you can start using today to improve the quality of your code."
+        "Room": "3",
+        "Session": "4"
       }
     ]
   },
@@ -111,6 +121,8 @@
         "Track": "Web",
         "Topic": "Building modular enterprise scale AngularJS applications",
         "Description": "<p>AngularJS enables developers to rapidly build single page applications. However, the framework leaves many decisions to development teams including structuring content, script loading, and module management. When building large scale applications for businesses and enterprises this can quickly become challenging to maintain, test, iterate, and extend.&nbsp;</p><p>The talk will focus on best practices and strategies for structuring large AngularJS applications, maintainable code styling for modular code, and introduce tools and strategies for teams to effectively build, package, deliver, and deploy in an enterprise environment.<br/></p>"
+        "Room": "1",
+        "Session": "3"
       }
     ]
   },
@@ -130,6 +142,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+        "Room": "2",
+        "Session": "3"
       }
     ]
   },
@@ -149,6 +163,8 @@
         "Track": "Cloud",
         "Topic": "Azure - The building blocks of a modern cloud application",
         "Description": "With so many individual services offered on the Azure platform choosing the right ones for your application can be overwhelming. In this talk we will provide an overview of the most popular services, discuss common decision points on when to choose each and discuss common application design patterns to build highly scalable, highly available, cost effective cloud solutions."
+        "Room": "1",
+        "Session": "6"
       }
     ]
   },
@@ -168,6 +184,8 @@
         "Track": "UI/UX",
         "Topic": "UX Triage; What I have learned performing UX Audits around the globe.",
         "Description": "User Experience needs a better user experience. When working alongside talented developers across the globe, it became clear that most UX processes were slow, and required excessive time to produce.  Developers need assets early and often. Product Owners need validation. Designers need scope and direction. Everyone wants to see & feel how it will work from the start. UX Triage bridges all these gaps into a condensed UX toolset. Create See|Do's in minutes, have interactive prototypes, and gather data from users on Day 1."
+        "Room": "3",
+        "Session": "5"
       }
     ]
   },
@@ -187,6 +205,8 @@
         "Track": "Web",
         "Topic": "10 Reasons to Stop Using JavaScript!",
         "Description": "JavaScript? Quite possibly the worst programming language ever created! Don't believe me?  I'll give you 10 reasons why - and just wait until you hear #7 - it blew me away!"
+        "Room": "2",
+        "Session": "1"
       }
     ]
   },
@@ -205,7 +225,9 @@
         "Id": 25,
         "Track": "Web",
         "Topic": "Sugar & Spice and everything nice about ES6",
-        "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar - making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you don't have to be a JS ninja to leave confident to begin using ES6 right now. Let's walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and don't worry if you didnâ€™t understand any of those terms - you will after the session."
+        "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar - making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you don't have to be a JS ninja to leave confident to begin using ES6 right now. Let's walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and don't worry if you didn't understand any of those terms - you will after the session."
+        "Room": "2",
+        "Session": "4"
       }
     ]
   },
@@ -225,6 +247,8 @@
         "Track": "IT Professional",
         "Topic": "Domain-Driven Design, Distilled",
         "Description": "Domain-Driven Design (DDD) is an excellent technique for crafting deep, meaningful object models and using them to implement flexible, scalable, and robust software systems. But most of the DDD literature focuses on the design and implementation patterns, which, while highly useful, are not the main point of contribution of DDD. DDD's primary contribution to the craft is the focus on the \"ubiquitous language\" of the domain - of truly understanding and modeling the domain, using the same terminology that is used by domain experts and business people. This forces the developers to learn and use the domain language when communicating with each other, with business people, and most importantly, when modeling the system and writing code. That is the strategic advantage of DDD, and is a topic often given too little attention in introduction-to-DDD materials. This talk focuses primarily on the Domain, and less on the patterns and practices, to encourage developers to appreciate and use the technique to greater advantage."
+        "Room": "0",
+        "Session": "0"
       }
     ]
   },
@@ -244,6 +268,8 @@
         "Track": "Other",
         "Topic": "Cryptography Pitfalls",
         "Description": "As developers and system admins, we often do a poor job of implementing cryptography and other security measures in our systems. Often the primitives used are out of date and overlook very subtle flaws. These mistakes lead to systems that are hopelessly insecure despite our perception that we've build an impenetrable fortress. Fortunately there are a few tools and techniques at our disposal that can ease some of the pain. In this talk we'll explore some of the most common pitfalls developers encounter with cryptography and restore some of our sanity."
+        "Room": "1",
+        "Session": "1"
       }
     ]
   },
@@ -263,6 +289,8 @@
         "Track": "Web",
         "Topic": "Refactoring Toward Web Components",
         "Description": "As our apps grow, we tend to have more data types on the screen which becomes hard to handle with basic MVC patterns. Our controllers grow, our views become heavy, and even our domain starts to sag under the burden of creating a data rich experience. All of this becomes harder to test, change, and reuse.  In this talk we'll refactor a bloated controller with multiple data types in to a slim, structured, easy to follow code base: with a focus on improviing our end-user experience We'll walk through several steps of breaking down our logic on the server into smaller chunks before refactoring parts of our UI into interactive Javascript driven web components using Ember.js."
+        "Room": "2",
+        "Session": "2"
       }
     ]
   },
@@ -282,6 +310,8 @@
         "Track": "IT Professional",
         "Topic": "Contracting for Techies 101:  10 Tips For Making It On Your Own",
         "Description": "Many programmers daydream about leaving their day job to strike out on their own.  Going independent can be exceptionally rewarding.  It does take a bit of planning and research to do effectively.  Alese Stroud, of The Stroud Group, will present 10 Tips for surviving as an independent technical consultant.  She has led The Stroud Group for 18+ years, weathering the highs and lows of consulting along with rapid change in the tech market place."
+        "Room": "3",
+        "Session": "6"
       }
     ]
   },
@@ -301,6 +331,8 @@
         "Track": "Collaboration and Content Management",
         "Topic": "Sitecore CMS to CXM in 50 minutes",
         "Description": "<p>In this session you will learn the what makes Sitecore the first choice for public facing enterprise .NET CMS/CXM projects. Using something other than Sitecore? Come see what your missing out on! Then, we will conclude with what makes Sitecore a true platform and many of the extension points. I'll show you how to integrate numerous third party API's for various reasons, including Personalized content.</p>"
+        "Room": "3",
+        "Session": "2"
       }
     ]
   },
@@ -320,6 +352,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "This Remote Life: Career Growth in the 21st Century",
         "Description": "For the last 20 years, the IT industry has been moving out of stuffy offices and into our living rooms. Remote workers make up a large portion of the workforce, and a significant percentage of the tech industry. But working at home comes with it's own sets of challenges and pitfalls. We'll discuss tips and tricks for surviving the remote employee life, different careers that support a healthy vibrant remote community, and ways to keep your career moving forward when you're working from coffee shops, coworking spaces, and dining room tables."
+        "Room": "2",
+        "Session": "5"
       }
     ]
   },
@@ -338,7 +372,9 @@
         "Id": 36,
         "Track": "Web",
         "Topic": "Rebuilding our Foundation: How We Used Symfony To Rewrite Our Application",
-        "Description": "This talk is about how our company rewroke our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  Iâ€™ll also cover what we would do differently now that weâ€™ve done it once."
+        "Description": "This talk is about how our company rewroke our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  I'll also cover what we would do differently now that we've done it once."
+        "Room": "4",
+        "Session": "4"
       }
     ]
   },
@@ -346,7 +382,7 @@
     "Id": 93,
     "FirstName": "Chander",
     "LastName": "Dhall",
-    "Bio": "Chander Dhall is a Microsoft MVP, TechEd Speaker, ASP.NET Insider, Web API Advisor, IT/Dev Connections content chair, professional software architect/lead developer, trainer, INETA speaker, open-source contributor, and community leader and organizer with years of experience in enterprise Software Development. Chander started coding when he was 6 and created his first successful software product at the age of 14. He is the President and CEO of Chander Dhall, Inc. and previously of Ria Consulting, LLC. He has proven track record of making clients successful and saving millions of dollars to them. He is the Development track content chair for IT/Dev Connections and he works in a goal-oriented, technologically driven, fast paced AGILE (SCRUM) environment. He is the founder of Dallas day of dot net, MVPMIX.com and jsSaturday. He has a Masterâ€™s Degree in computer science with specialization in algorithms, principles and patterns and is focused on building high performing modular software. Chander leads the HTML5/Node.js group in Los Angeles and the .NET user group at UTDallas. Chander recently got recognized as â€˜One of the top organizers by Eventbrite.â€™ Chander has been a featured speaker in numerous conferences and code camps all over the world.",
+    "Bio": "Chander Dhall is a Microsoft MVP, TechEd Speaker, ASP.NET Insider, Web API Advisor, IT/Dev Connections content chair, professional software architect/lead developer, trainer, INETA speaker, open-source contributor, and community leader and organizer with years of experience in enterprise Software Development. Chander started coding when he was 6 and created his first successful software product at the age of 14. He is the President and CEO of Chander Dhall, Inc. and previously of Ria Consulting, LLC. He has proven track record of making clients successful and saving millions of dollars to them. He is the Development track content chair for IT/Dev Connections and he works in a goal-oriented, technologically driven, fast paced AGILE (SCRUM) environment. He is the founder of Dallas day of dot net, MVPMIX.com and jsSaturday. He has a Master's Degree in computer science with specialization in algorithms, principles and patterns and is focused on building high performing modular software. Chander leads the HTML5/Node.js group in Los Angeles and the .NET user group at UTDallas. Chander recently got recognized as one of the top organizers by Eventbrite. Chander has been a featured speaker in numerous conferences and code camps all over the world.",
     "Website": "http://www.chanderdhall.com/",
     "Twitter": null,
     "Photo": "/public/img/speakers/dhall-chander.jpg",
@@ -358,6 +394,8 @@
         "Track": "Web",
         "Topic": "Rest and Web API Best Practices",
         "Description": "In this talk of International acclaim, Microsoft MVP, ASP.NET Insider and Web API advisor Chander Dhall, discusses what to do and what NOT to do when it comes to REST best practices. At the same time he also highlights the new features in Web API. The talk is a good mixture of code and concepts. You will not only learn the new features and best practices of REST and Web API but also some secret techniques not that widely used yet. The talk plans to cover all level of attendees from beginner to advanced."
+        "Room": "1",
+        "Session": "4"
       }
     ]
   },
@@ -377,6 +415,8 @@
         "Track": "Web",
         "Topic": "Modern UIs with Knockoutjs and Stateful CSS",
         "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. We'll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide \"stateful\" classes for our interface."
+        "Room": "2",
+        "Session": "6"
       }
     ]
   },
@@ -384,7 +424,7 @@
     "Id": 96,
     "FirstName": "Gordon",
     "LastName": "Apple",
-    "Bio": "Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many \"firsts\" and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.\r\n\r\nDr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttleâ€™s primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Appleâ€™s work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4UÂ®â€˜s system possible.",
+    "Bio": "Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many 'firsts' and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.\r\n\r\nDr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttle's primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Apple's work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4U's system possible.",
     "Website": "http://www.ed4u.com",
     "Twitter": null,
     "Photo": "/public/img/speakers/apple-gordon.jpg",
@@ -396,6 +436,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Development Techniques used in iQPresenter for MacOS and Related iOS Apps",
         "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.\r\n\r\nWe will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more."
+        "Room": "",
+        "Session": ""
       }
     ]
   },
@@ -415,6 +457,8 @@
         "Track": "Web",
         "Topic": "Modern UIs with Knockoutjs and Stateful CSS",
         "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. We'll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide \"stateful\" classes for our interface."
+        "Room": "",
+        "Session": ""
       }
     ]
   },
@@ -434,6 +478,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Development Techniques used in iQPresenter for MacOS and Related iOS Apps",
         "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.<br/><br/>We will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more."
+        "Room": "4",
+        "Session": "3"
       }
     ]
   },
@@ -441,7 +487,7 @@
     "Id": 105,
     "FirstName": "Sarah",
     "LastName": "Daigle",
-    "Bio": "Sarah Daigleâ€™s twitter bio is concise and to-the-point: \"Canadian- American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy, and teaching is a high calling.\"\r\n\r\nSince late 2014, sheâ€™s been growing a technology group as the Chief Technology Ambassador of Currant Technology Group @curranttech while unable to turn away from her desire to be continually \"Geeking 4 Good\".\r\n\r\nHer specialties online & technical education; technical architecture for the small and/or non-profit business; social marketing strategies and making friends everywhere she goes. She is a strong advocate for exposing women & children alike to coding for fun and career development.\r\n\r\nSarah is very active in Ozark STEM Foundation, which serves the NWA region by connecting and funding STEM activities for our residents from Pre-K to Bachelor degrees. Additionally, Sarah serves on the NWA Advisory council for the Womenâ€™s Foundation of Arkansas.\r\n\r\nSarah earned her B.A. degree at Bishopâ€™s University (Lennoxville, Quebec, Canada) and her Masters in IT Education at Dalhousie University (Halifax, Nova Scotia, Canada).",
+    "Bio": "Sarah Daigle's twitter bio is concise and to-the-point: \"Canadian- American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy, and teaching is a high calling.\"\r\n\r\nSince late 2014, she's been growing a technology group as the Chief Technology Ambassador of Currant Technology Group @curranttech while unable to turn away from her desire to be continually \"Geeking 4 Good\".\r\n\r\nHer specialties online & technical education; technical architecture for the small and/or non-profit business; social marketing strategies and making friends everywhere she goes. She is a strong advocate for exposing women & children alike to coding for fun and career development.\r\n\r\nSarah is very active in Ozark STEM Foundation, which serves the NWA region by connecting and funding STEM activities for our residents from Pre-K to Bachelor degrees. Additionally, Sarah serves on the NWA Advisory council for the Women's Foundation of Arkansas.\r\n\r\nSarah earned her B.A. degree at Bishop's University (Lennoxville, Quebec, Canada) and her Masters in IT Education at Dalhousie University (Halifax, Nova Scotia, Canada).",
     "Website": null,
     "Twitter": "sarahannedaigle",
     "Photo": "/public/img/speakers/daigle-sarah.jpg",
@@ -453,6 +499,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+        "Room": "",
+        "Session": ""
       }
     ]
   },
@@ -472,6 +520,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+        "Room": "",
+        "Session": ""
       }
     ]
   },
@@ -491,6 +541,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk."
+        "Room": "",
+        "Session": ""
       }
     ]
   },
@@ -510,6 +562,8 @@
         "Track": "IT Professional",
         "Topic": "Old Code, New Tricks",
         "Description": "Negativity surrounds the concept of existing code. This negativity is baked into the language we use. We work on 'legacy projects', 'dirt field projects', 'rescue projects', 'antiquated projects', 'ancient projects'. I'd like to use the construction metaphor to look at these projects in a different light. I've been inspired by the TV program, 'This Old House'. I think the care and attention that's given existing structures while making them do more for their inhabitants is a great model for how we can treat our software projects. This talk isn't language specific; it's themes and guidance will apply to anyone who's worked on a project that someone else left behind or anyone who is likely to do so in the future."
+        "Room": "4",
+        "Session": "5"
       }
     ]
   },
@@ -517,7 +571,7 @@
     "Id": 111,
     "FirstName": "Pete",
     "LastName": "Buletza",
-    "Bio": "Pete Buletza is a Founder and Managing Partner of Elyxor, where he spends most of his time implementing DevOps solutions, helping companies delivery software faster and with higher quality. \r\nPete got his start working on TurboTax and WebTurboTax at Intuit in San Diego; he later returned to Boston to enter the world of startups and has spent the last 15 years architecting, building, and managing the teams that provide the technology which make entrepreneursâ€˜ visions a reality. He spent several years as the System Architect of high volume, scalable systems, most notably at Celarix and Espanol.com. His focus over the past 8 years has been solving end-to-end business problems and delivering value quickly through modern technology patterns.\r\nPete holds a BA in Computer Science from Harvard University.",
+    "Bio": "Pete Buletza is a Founder and Managing Partner of Elyxor, where he spends most of his time implementing DevOps solutions, helping companies delivery software faster and with higher quality. \r\nPete got his start working on TurboTax and WebTurboTax at Intuit in San Diego; he later returned to Boston to enter the world of startups and has spent the last 15 years architecting, building, and managing the teams that provide the technology which make entrepreneurs visions a reality. He spent several years as the System Architect of high volume, scalable systems, most notably at Celarix and Espanol.com. His focus over the past 8 years has been solving end-to-end business problems and delivering value quickly through modern technology patterns.\r\nPete holds a BA in Computer Science from Harvard University.",
     "Website": "http://www.elyxor.com/",
     "Twitter": "buletza",
     "Photo": "/public/img/speakers/buletza-pete.jpg",
@@ -529,6 +583,8 @@
         "Track": "Other",
         "Topic": "A Discussion on DevOps",
         "Description": "Ever heard of DevOps, but aren't sure what it is or why it's incredibly important? Come find out what it means to continuously deliver software, to operate at velocity, and how this will fundamentally transform businesses. We'll discuss the concepts behind DevOps, how it relates to both startups and enterprises, and talk about why it's more than good for just Dev and Infra."
+        "Room": "1",
+        "Session": "5"
       }
     ]
   }
