@@ -1,0 +1,51 @@
+extends layout
+
+block content
+	.section
+		.section-header
+			h2 Conference Schedule
+
+	#speakerdetail.container-fluid.section-content
+
+		table
+			thead
+				tr
+					td 	
+					td Fulton	
+					td Pope	
+					td Izard
+					td Miller
+					tbody
+						tr
+							td 7:00am
+							td Registration 
+						tr
+							td 8:30am
+							td Opening Session
+						each s, i in schedule
+							tr
+								if i == 1
+									td one
+								else if i == 2
+									td two
+								else if i == 3
+									td three
+								else if i == 4
+									td four
+								else if i == 5
+									td five
+								else if i == 6
+									td six
+								each p in s
+									td	#{p.Name} #{p.PresTitle} #{p.Room} #{p.Session}
+								if i == 3
+									tr
+										td 12:00pm
+										td LUNCH
+						tr
+							td 4:30pm
+							td Ending Session (Prizes!)
+
+						tr
+							td 5:30pm
+							td After Party

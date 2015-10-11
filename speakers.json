@@ -247,8 +247,8 @@
         "Track": "IT Professional",
         "Topic": "Domain-Driven Design, Distilled",
         "Description": "Domain-Driven Design (DDD) is an excellent technique for crafting deep, meaningful object models and using them to implement flexible, scalable, and robust software systems. But most of the DDD literature focuses on the design and implementation patterns, which, while highly useful, are not the main point of contribution of DDD. DDD's primary contribution to the craft is the focus on the \"ubiquitous language\" of the domain - of truly understanding and modeling the domain, using the same terminology that is used by domain experts and business people. This forces the developers to learn and use the domain language when communicating with each other, with business people, and most importantly, when modeling the system and writing code. That is the strategic advantage of DDD, and is a topic often given too little attention in introduction-to-DDD materials. This talk focuses primarily on the Domain, and less on the patterns and practices, to encourage developers to appreciate and use the technique to greater advantage.",
-        "Room": "0",
-        "Session": "0"
+        "Room": "3",
+        "Session": "1"
       }
     ]
   },
@@ -436,8 +436,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Development Techniques used in iQPresenter for MacOS and Related iOS Apps",
         "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.\r\n\r\nWe will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more.",
-        "Room": "",
-        "Session": ""
+        "Room": "4",
+        "Session": "3"
       }
     ]
   },
@@ -457,8 +457,8 @@
         "Track": "Web",
         "Topic": "Modern UIs with Knockoutjs and Stateful CSS",
         "Description": "Browsers are more capable than ever at delivering rich, native-like experiences, but the stateless nature of the web makes them rather difficult to build. Binding a data model to the UI using an MVVM (Model, View, ViewModel) javascript framework allows developers to manage complex interfaces with relatively little code. We'll walk you through how we use Knockout (one such MVVM framework) to untangle modern UIs and how we simplify our CSS by using BEM syntax to provide \"stateful\" classes for our interface.",
-        "Room": "",
-        "Session": ""
+        "Room": "2",
+        "Session": "6"
       }
     ]
   },
@@ -499,8 +499,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk.",
-        "Room": "",
-        "Session": ""
+        "Room": "2",
+        "Session": "3"
       }
     ]
   },
@@ -520,8 +520,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk.",
-        "Room": "",
-        "Session": ""
+        "Room": "2",
+        "Session": "3"
       }
     ]
   },
@@ -541,8 +541,8 @@
         "Track": "Tech Entrepreneurship",
         "Topic": "Social Entrepreneurship in Action",
         "Description": "Social entrepreneurship is a hot topic, but what does that mean for you and your company.  The panel will discuss social entrepreneurship in action from a non-profit perspective, an entrepreneur perspective, and a legal perspective with moderator Nicholas Norfolk.",
-        "Room": "",
-        "Session": ""
+        "Room": "2",
+        "Session": "3"
       }
     ]
   },

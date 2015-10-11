@@ -69,6 +69,36 @@ app.get('/speakerdetails', function(req, res){
 		});
 });
 
+app.get('/schedule', function(req, res){
+	fs_readFile('speakers.json', 'utf8')
+		.then(function(speakerData){
+			var speakers = JSON.parse(speakerData);
+
+			var schedule = _(speakers)
+							.map(function(s) {	
+								var pres =  _.first(s.Presentations);
+								return  { "Name" : s.FirstName + " " + s.LastName, "PresTitle": pres.Topic, 
+										   "Room" : pres.Room, "Session" : pres.Session };
+								})
+							.sortBy(function(s){ return s.Session + " " + s.Room})
+							.groupBy(function(s){ return s.Session + "#" + s.Room})
+							.map(function(g) {
+								
+								var names = _.map(g, "Name").join(", ");
+								var p =  _.first(g);
+								return  { "Name" : names, "PresTitle": p.PresTitle, 
+										   "Room" : p.Room, "Session" : p.Session };
+								})
+							.groupBy(function(s){ return s.Session})
+							.value();
+			res.render('schedule', {schedule:schedule});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+});
+
 app.get('/', function(req, res){
 	var sponsors;
 	fs_readFile('sponsors.json', 'utf8')
