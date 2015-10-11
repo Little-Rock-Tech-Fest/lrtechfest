@@ -25,17 +25,17 @@ block content
 						each s, i in schedule
 							tr
 								if i == 1
-									td 9:10
+									td 9:10am
 								else if i == 2
-									td 10:10
+									td 10:10am
 								else if i == 3
-									td 11:10
+									td 11:10am
 								else if i == 4
-									td 1:30
+									td 1:pm
 								else if i == 5
-									td 2:30
+									td 2:30pm
 								else if i == 6
-									td 3:30
+									td 3:30pm
 								each p in s
 									td	#{p.Name} #{p.PresTitle} #{p.Room} #{p.Session}
 								if i == 3
