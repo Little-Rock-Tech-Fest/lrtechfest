@@ -81,7 +81,7 @@ app.get('/schedule', function(req, res){
 							.map(function(s) {	
 								var pres =  _.first(s.Presentations);
 								return  { "Name" : s.FirstName + " " + s.LastName, "PresTitle": pres.Topic, 
-										   "Room" : pres.Room, "Session" : pres.Session };
+										   "Room" : pres.Room, "Session" : pres.Session, "DetailId":s.FirstName+"-"+s.LastName };
 								})
 							.sortBy(function(s){ return s.Session + " " + s.Room})
 							.groupBy(function(s){ return s.Session + "#" + s.Room})
@@ -90,11 +90,47 @@ app.get('/schedule', function(req, res){
 								var names = _.map(g, "Name").join(", ");
 								var p =  _.first(g);
 								return  { "Name" : names, "PresTitle": p.PresTitle, 
-										   "Room" : p.Room, "Session" : p.Session };
+										   "Room" : p.Room, "Session" : p.Session, "DetailId": p.DetailId };
 								})
 							.groupBy(function(s){ return s.Session})
 							.value();
 			res.render('schedule', {schedule:schedule});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+});
+
+app.get('/sessiondetails', function(req, res){
+		fs_readFile('speakers.json', 'utf8')
+		.then(function(speakerData){
+			var speakers = JSON.parse(speakerData);
+			var sessionId = req.query.sid;
+
+			speakers = _(speakers)
+							.filter(function(s){
+								var pres =  _.first(s.Presentations);
+								return pres.Session === sessionId
+							})
+							.value();
+			speakers.forEach(function(speaker) {
+				speaker.Presentations.forEach( function(presentation){
+					if(presentation.Room == 1) presentation.RoomName = "Fulton"
+					if(presentation.Room == 2) presentation.RoomName = "Pope"
+					if(presentation.Room == 3) presentation.RoomName = "Izard"
+					if(presentation.Room == 4) presentation.RoomName = "Miller"
+				})
+			}, this);
+			
+			var sessionStartTime = "";
+			if(sessionId == 1) sessionStartTime="9:10 AM"
+			if(sessionId == 2) sessionStartTime="10:10 AM"
+			if(sessionId == 3) sessionStartTime="11:10 AM"
+			if(sessionId == 4) sessionStartTime="2:30 PM"
+			if(sessionId == 5) sessionStartTime="3:30 PM"
+			
+			res.render('sessiondetails', {speakers:speakers, sessionId: sessionId, sessionStartTime: sessionStartTime});
 		})
 		.catch(function(e){
 			console.log(e);

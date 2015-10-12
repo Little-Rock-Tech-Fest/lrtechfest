@@ -378,6 +378,9 @@ p  { line-height: 1.4}
 #team .card.medium{height: inherit}
 #team .card.medium .card-image{height: inherit}
 
+#schedule .title {font-weight: bold; }
+#schedule .presenter { color: black}
+
 /* Extra Small */
 
 @media(max-width:600px) {

@@ -5,63 +5,93 @@ block content
 		.section-header
 			h2 2015 Conference Schedule
 
-	#speakerdetail.container-fluid.section-content
-
-		table.striped.responsive-table
+	#schedule.container-fluid.section-content
+		table.striped.hide-on-med-and-down
 			thead
 				tr
-					td 	
-					td Fulton	
-					td Pope	
-					td Izard
-					td Miller
-					tbody
-						tr
-							td 7:00am
-							td Registration
+					th
+					th.center-align Fulton	
+					th.center-align Pope	
+					th.center-align Izard
+					th.center-align Miller
+			tbody
+				tr
+					td 7:00am
+					td.center-align(colspan="4").talk-title Registration 
+				tr
+					td 8:30am
+					td.center-align(colspan="4").talk-title Opening Session
+				each s, i in schedule
+					tr
+						if i == 1
+							td 9:10am
+						else if i == 2
+							td 10:10am
+						else if i == 3
+							td 11:10am
+						else if i == 4
+							td 1:pm
+						else if i == 5
+							td 2:30pm
+						else if i == 6
+							td 3:30pm
+						each p in s
 							td
-							td
-							td
-						tr
-							td 8:30am
-							td Opening Session
-							td
-							td
-							td
-						each s, i in schedule
+								a(href="/speakerdetails/##{p.DetailId}")
+									div.title #{p.PresTitle} 
+									div.presenter #{p.Name} 
+						if i == 3
 							tr
-								if i == 1
-									td 9:10am
-								else if i == 2
-									td 10:10am
-								else if i == 3
-									td 11:10am
-								else if i == 4
-									td 1:pm
-								else if i == 5
-									td 2:30pm
-								else if i == 6
-									td 3:30pm
-								each p in s
-									td
-										div.title #{p.Name} 
-										div.topic #{p.PresTitle}
-								if i == 3
-									tr
-										td 12:00pm
-										td Lunch at the Venture Center
-										td
-										td
-										td
-						tr
-							td 4:30pm
-							td Ending Session (Prizes!)
-							td
-							td
-							td
-						tr
-							td 5:30pm
-							td After Party at the Venture Center
-							td
-							td
-							td
+								td 12:00pm
+								td.center-align(colspan="4").talk-title LUNCH
+				tr
+					td 4:30pm
+					td.center-align(colspan="4").talk-title Ending Session (Prizes!)
+
+				tr
+					td 5:30pm
+					td.center-align(colspan="4").talk-title After Party
+
+
+		table.bordered.striped.hide-on-large-only
+			tbody
+				tr
+					td 7:00am
+					td.center-align.talk-title Registration
+				tr
+					td 8:30am
+					td.center-align.talk-title Opening Session
+				tr
+					td 9:10am
+					td.center-align
+						a(href="sessiondetails?sid=1")
+							span.talk-title Session 1
+				tr
+					td 10:10am
+					td.center-align
+						a(href="sessiondetails?session=2")
+							span.talk-title Session 2
+				tr
+					td 11:10am
+					td.center-align
+						a(href="sessiondetails?session=3")
+							span.talk-title Session 3
+				tr
+					td 1:00pm
+					td.center-align.talk-title Lunch
+				tr
+					td 2:30am
+					td.center-align
+						a(href="sessiondetails?session=4")
+							span.talk-title Session 4
+				tr
+					td 3:30am
+					td.center-align
+						a(href="sessiondetails?session=4")
+							span.talk-title Session 5
+				tr
+					td 4:30am
+					td.center-align.talk-title Ending Session (Prizes!)
+				tr
+					td 5:30am
+					td.center-align.talk-title After Party

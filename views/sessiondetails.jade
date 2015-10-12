@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	.section
+		.section-header
+			h2 Session #{sessionId} (#{sessionStartTime})
+
+	#speakerdetail.container-fluid.section-content
+	
+		ul.collection.collapsible.popout
+			each speaker in speakers
+				li
+					h3.center-align #{speaker.Presentations[0].RoomName}
+					hr
+					.collapsible-header.collection-item.avatar
+						div 
+							img.circle(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}")
+							h4 #{speaker.FirstName} #{speaker.LastName} 
+							strong #{speaker.Presentations[0].Topic}
+						
+						.secondary-content: i.fa.fa-chevron-left
+					.collapsible-body
+						p
+							strong  #{speaker.Presentations[0].Description}
