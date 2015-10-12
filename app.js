@@ -77,23 +77,33 @@ app.get('/schedule', function(req, res){
 		.then(function(speakerData){
 			var speakers = JSON.parse(speakerData);
 
-			var schedule = _(speakers)
-							.map(function(s) {	
-								var pres =  _.first(s.Presentations);
-								return  { "Name" : s.FirstName + " " + s.LastName, "PresTitle": pres.Topic, 
-										   "Room" : pres.Room, "Session" : pres.Session, "DetailId":s.FirstName+"-"+s.LastName };
-								})
-							.sortBy(function(s){ return s.Session + " " + s.Room})
-							.groupBy(function(s){ return s.Session + "#" + s.Room})
-							.map(function(g) {
-								
-								var names = _.map(g, "Name").join(", ");
-								var p =  _.first(g);
-								return  { "Name" : names, "PresTitle": p.PresTitle, 
-										   "Room" : p.Room, "Session" : p.Session, "DetailId": p.DetailId };
-								})
-							.groupBy(function(s){ return s.Session})
-							.value();
+			var schedule = _(speakers).sortBy(function(speaker) {
+				return speaker.Presentations[0].Session;
+			}).reduce(function(carry, speaker) {
+				var presentation = speaker.Presentations[0];
+				var session = presentation.Session;
+				var room = presentation.Room;
+				var name = speaker.FirstName + ' ' + speaker.LastName;
+
+				if (!carry[session]) {
+					carry[session] = {};
+				}
+
+				if (carry[session][room]) {
+					carry[session][room].names.push(name);
+				} else {
+					carry[session][room] = {
+						names: [name],
+						PresTitle: presentation.Topic,
+						DetailId: name.replace(' ', '-'),
+					}
+				}
+
+				carry[session][room].Name = carry[session][room].names.join(', ');
+
+				return carry;
+			}, {});
+
 			res.render('schedule', {schedule:schedule});
 		})
 		.catch(function(e){

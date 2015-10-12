@@ -21,25 +21,25 @@ block content
 				tr
 					td 8:30am
 					td.center-align(colspan="4").talk-title Opening Session
-				each s, i in schedule
+				each room, timeSlot in schedule
 					tr
-						if i == 1
+						if timeSlot == 1
 							td 9:10am
-						else if i == 2
+						else if timeSlot == 2
 							td 10:10am
-						else if i == 3
+						else if timeSlot == 3
 							td 11:10am
-						else if i == 4
+						else if timeSlot == 4
 							td 1:pm
-						else if i == 5
+						else if timeSlot == 5
 							td 2:30pm
-						else if i == 6
+						else if timeSlot == 6
 							td 3:30pm
-						each p in s
+						each talk in room
 							td
-								a(href="/speakerdetails/##{p.DetailId}")
-									div.title #{p.PresTitle} 
-									div.presenter #{p.Name} 
+								a(href="/speakerdetails/##{talk.DetailId}")
+									div.title #{talk.PresTitle} 
+									div.presenter #{talk.Name} 
 						if i == 3
 							tr
 								td 12:00pm
@@ -77,18 +77,23 @@ block content
 						a(href="sessiondetails?session=3")
 							span.talk-title Session 3
 				tr
-					td 1:00pm
+					td 12:00pm
 					td.center-align.talk-title Lunch
 				tr
-					td 2:30am
+					td 1:30am
 					td.center-align
 						a(href="sessiondetails?session=4")
 							span.talk-title Session 4
 				tr
+					td 2:30am
+					td.center-align
+						a(href="sessiondetails?session=5")
+							span.talk-title Session 5
+				tr
 					td 3:30am
 					td.center-align
-						a(href="sessiondetails?session=4")
-							span.talk-title Session 5
+						a(href="sessiondetails?session=6")
+							span.talk-title Session 6
 				tr
 					td 4:30am
 					td.center-align.talk-title Ending Session (Prizes!)
