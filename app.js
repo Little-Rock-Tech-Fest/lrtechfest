@@ -106,7 +106,7 @@ app.get('/sessiondetails', function(req, res){
 		fs_readFile('speakers.json', 'utf8')
 		.then(function(speakerData){
 			var speakers = JSON.parse(speakerData);
-			var sessionId = req.query.sid;
+			var sessionId = req.query.session;
 
 			speakers = _(speakers)
 							.filter(function(s){
