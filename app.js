@@ -127,8 +127,9 @@ app.get('/sessiondetails', function(req, res){
 			if(sessionId == 1) sessionStartTime="9:10 AM"
 			if(sessionId == 2) sessionStartTime="10:10 AM"
 			if(sessionId == 3) sessionStartTime="11:10 AM"
-			if(sessionId == 4) sessionStartTime="2:30 PM"
+			if(sessionId == 4) sessionStartTime="1:30 PM"
 			if(sessionId == 5) sessionStartTime="3:30 PM"
+			if(sessionId == 6) sessionStartTime="4:30 PM"
 			
 			res.render('sessiondetails', {speakers:speakers, sessionId: sessionId, sessionStartTime: sessionStartTime});
 		})
