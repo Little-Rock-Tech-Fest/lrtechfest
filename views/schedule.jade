@@ -7,7 +7,7 @@ block content
 
 	#speakerdetail.container-fluid.section-content
 
-		table
+		table.striped.responsive-table
 			thead
 				tr
 					td 	
@@ -18,10 +18,16 @@ block content
 					tbody
 						tr
 							td 7:00am
-							td Registration 
+							td Registration
+							td
+							td
+							td
 						tr
 							td 8:30am
 							td Opening Session
+							td
+							td
+							td
 						each s, i in schedule
 							tr
 								if i == 1
@@ -37,15 +43,25 @@ block content
 								else if i == 6
 									td 3:30pm
 								each p in s
-									td	#{p.Name} #{p.PresTitle} #{p.Room} #{p.Session}
+									td
+										div.title #{p.Name} 
+										div.topic #{p.PresTitle}
 								if i == 3
 									tr
 										td 12:00pm
 										td LUNCH
+										td
+										td
+										td
 						tr
 							td 4:30pm
 							td Ending Session (Prizes!)
-
+							td
+							td
+							td
 						tr
 							td 5:30pm
 							td After Party
+							td
+							td
+							td
