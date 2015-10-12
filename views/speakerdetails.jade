@@ -3,10 +3,11 @@ extends layout
 block content
 	.section
 		.section-header
-			h2 2015 Speakers
+			h2 2015 Speakers 
 
 	#speakerdetail.container-fluid.section-content
-
+		a(href="/schedule" class="speaker-contact-item")
+					span Check out the Conference Schedule
 		ul.collection.collapsible.popout
 			each speaker in speakers
 				li(id="#{speaker.FirstName}-#{speaker.LastName}")
