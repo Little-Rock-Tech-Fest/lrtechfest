@@ -25,6 +25,63 @@ var team = [
 	//{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'themattshull'},
 ];
 
+function getRoomName(roomId) {
+	switch (roomId) {
+		case "1": return "Fulton";
+		case "2": return "Pope";
+		case "3": return "Izard";
+		case "4": return "Miller";
+	}	
+}
+
+function getTimeForSession(sessionId) {
+	switch (sessionId) {
+		case "1": return "9:10 AM";
+		case "2": return "10:10 AM";
+		case "3": return "11:10 AM";
+		case "4": return "1:30 PM";
+		case "5": return "2:30 PM";
+		default: return "3:30 PM";
+	}	
+}
+
+function organizeSpeakersIntoSessions(speakerData) {
+	return _(speakerData).sortBy(function(speaker) {
+			return speaker.Presentations[0].Session;
+		}).reduce(function(carry, speaker) {
+			var presentation = speaker.Presentations[0];
+			var session = presentation.Session;
+			var room = presentation.Room;
+			var name = speaker.FirstName + ' ' + speaker.LastName;
+
+			if (!carry[session]) {
+				carry[session] = {
+					rooms: {},
+				};
+
+				carry[session].time = getTimeForSession(session);
+			}
+			var rooms = carry[session].rooms;
+
+			if (rooms[room]) {
+				rooms[room].names.push(name);
+			} else {
+				rooms[room] = {
+					Photo: speaker.Photo,
+					Description: presentation.Description,
+					RoomName: getRoomName(presentation.Room),
+					names: [name],
+					PresTitle: presentation.Topic,
+					DetailId: name.replace(' ', '-'),
+				}
+			}
+
+			rooms[room].Name = rooms[room].names.join(', ');
+
+			return carry;
+		}, {});
+}
+
 
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
@@ -77,32 +134,7 @@ app.get('/schedule', function(req, res){
 		.then(function(speakerData){
 			var speakers = JSON.parse(speakerData);
 
-			var schedule = _(speakers).sortBy(function(speaker) {
-				return speaker.Presentations[0].Session;
-			}).reduce(function(carry, speaker) {
-				var presentation = speaker.Presentations[0];
-				var session = presentation.Session;
-				var room = presentation.Room;
-				var name = speaker.FirstName + ' ' + speaker.LastName;
-
-				if (!carry[session]) {
-					carry[session] = {};
-				}
-
-				if (carry[session][room]) {
-					carry[session][room].names.push(name);
-				} else {
-					carry[session][room] = {
-						names: [name],
-						PresTitle: presentation.Topic,
-						DetailId: name.replace(' ', '-'),
-					}
-				}
-
-				carry[session][room].Name = carry[session][room].names.join(', ');
-
-				return carry;
-			}, {});
+			var schedule = organizeSpeakersIntoSessions(speakers);
 
 			res.render('schedule', {schedule:schedule});
 		})
@@ -116,31 +148,13 @@ app.get('/sessiondetails', function(req, res){
 		fs_readFile('speakers.json', 'utf8')
 		.then(function(speakerData){
 			var speakers = JSON.parse(speakerData);
+			var schedule = organizeSpeakersIntoSessions(speakers);
 			var sessionId = req.query.session;
-
-			speakers = _(speakers)
-							.filter(function(s){
-								var pres =  _.first(s.Presentations);
-								return pres.Session === sessionId
-							})
-							.value();
-			speakers.forEach(function(speaker) {
-				speaker.Presentations.forEach( function(presentation){
-					if(presentation.Room == 1) presentation.RoomName = "Fulton"
-					if(presentation.Room == 2) presentation.RoomName = "Pope"
-					if(presentation.Room == 3) presentation.RoomName = "Izard"
-					if(presentation.Room == 4) presentation.RoomName = "Miller"
-				})
-			}, this);
+			var talks = schedule[sessionId].rooms;
 			
-			var sessionStartTime = "";
-			if(sessionId == 1) sessionStartTime="9:10 AM"
-			if(sessionId == 2) sessionStartTime="10:10 AM"
-			if(sessionId == 3) sessionStartTime="11:10 AM"
-			if(sessionId == 4) sessionStartTime="2:30 PM"
-			if(sessionId == 5) sessionStartTime="3:30 PM"
+			var sessionStartTime = getTimeForSession(sessionId);
 			
-			res.render('sessiondetails', {speakers:speakers, sessionId: sessionId, sessionStartTime: sessionStartTime});
+			res.render('sessiondetails', {talks: talks, sessionId: sessionId, sessionStartTime: sessionStartTime});
 		})
 		.catch(function(e){
 			console.log(e);

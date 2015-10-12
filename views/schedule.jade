@@ -21,21 +21,10 @@ block content
 				tr
 					td 8:30am
 					td.center-align(colspan="4").talk-title Opening Session
-				each room, timeSlot in schedule
+				each timeSlot in schedule
 					tr
-						if timeSlot == 1
-							td 9:10am
-						else if timeSlot == 2
-							td 10:10am
-						else if timeSlot == 3
-							td 11:10am
-						else if timeSlot == 4
-							td 1:pm
-						else if timeSlot == 5
-							td 2:30pm
-						else if timeSlot == 6
-							td 3:30pm
-						each talk in room
+						td= timeSlot.time
+						each talk in timeSlot.rooms
 							td
 								a(href="/speakerdetails/##{talk.DetailId}")
 									div.title #{talk.PresTitle} 
