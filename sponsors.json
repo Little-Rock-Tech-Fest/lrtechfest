@@ -130,5 +130,11 @@
 		"Level": "Bronze",
 		"Logo": "/public/img/sponsors/ina.png",
 		"Website": "http://ina.arkansas.gov/"
+	},
+	{
+		"Name": "EuronetSoftware",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/euronet.png",
+		"Website": "http://www.euronetsoftware.com/index.php?id=117"
 	}
 ]
