@@ -49,35 +49,36 @@ function organizeSpeakersIntoSessions(speakerData) {
 	return _(speakerData).sortBy(function(speaker) {
 			return speaker.Presentations[0].Session;
 		}).reduce(function(carry, speaker) {
-			var presentation = speaker.Presentations[0];
-			var session = presentation.Session;
-			var room = presentation.Room;
-			var name = speaker.FirstName + ' ' + speaker.LastName;
+			for (i = 0; i < speaker.Presentations.length; i++) { 	
+				var presentation = speaker.Presentations[i];
+				var session = presentation.Session;
+				var room = presentation.Room;
+				var name = speaker.FirstName + ' ' + speaker.LastName;
 
-			if (!carry[session]) {
-				carry[session] = {
-					rooms: {},
-				};
+				if (!carry[session]) {
+					carry[session] = {
+						rooms: {},
+					};
 
-				carry[session].time = getTimeForSession(session);
-			}
-			var rooms = carry[session].rooms;
-
-			if (rooms[room]) {
-				rooms[room].names.push(name);
-			} else {
-				rooms[room] = {
-					Photo: speaker.Photo,
-					Description: presentation.Description,
-					RoomName: getRoomName(presentation.Room),
-					names: [name],
-					PresTitle: presentation.Topic,
-					DetailId: name.replace(' ', '-'),
+					carry[session].time = getTimeForSession(session);
 				}
+				var rooms = carry[session].rooms;
+
+				if (rooms[room]) {
+					rooms[room].names.push(name);
+				} else {
+					rooms[room] = {
+						Photo: speaker.Photo,
+						Description: presentation.Description,
+						RoomName: getRoomName(presentation.Room),
+						names: [name],
+						PresTitle: presentation.Topic,
+						DetailId: name.replace(' ', '-'),
+					}
+				}
+
+				rooms[room].Name = rooms[room].names.join(', ');
 			}
-
-			rooms[room].Name = rooms[room].names.join(', ');
-
 			return carry;
 		}, {});
 }

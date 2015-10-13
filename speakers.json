@@ -1,4 +1,3 @@
-
 [
   {
     "Id": 67,
@@ -331,6 +330,14 @@
         "Track": "Collaboration and Content Management",
         "Topic": "Sitecore CMS to CXM in 50 minutes",
         "Description": "<p>In this session you will learn the what makes Sitecore the first choice for public facing enterprise .NET CMS/CXM projects. Using something other than Sitecore? Come see what your missing out on! Then, we will conclude with what makes Sitecore a true platform and many of the extension points. I'll show you how to integrate numerous third party API's for various reasons, including Personalized content.</p>",
+        "Room": "4",
+        "Session": "6"
+      },
+      {
+        "Id": 200,
+        "Track": "Cloud",
+        "Topic": "Azure vAwesome - See the Platform's Powerful New Features",
+        "Description": "Come see the awesome and powerful new features that are currently available in Preview on Microsoft's Computing Platform - Azure - including Machine Learning, DocumentDb, Search and more!",
         "Room": "3",
         "Session": "2"
       }
@@ -527,13 +534,13 @@
   },
   {
     "Id": 109,
-    "FirstName": "Angie",
-    "LastName": "Albright",
-    "Bio": "Angie Albright is the Director of Development and Outreach for Arkansas Support Network. She also does content marketing consulting, nonprofit tech consulting, and adjunct teaching at a number of universities. Angie is a tech geek and nonprofit guru who believes in the power of technology to advance the social good and create community. She brings efficiencies to nonprofits in order to maximize their impact in their communities. Angie is also part owner of a small tech start up company with a big goal to transform the food and hospitality industry. ",
-    "Website": null,
-    "Twitter": "AngieAlbright",
-    "Photo": "/public/img/speakers/albright-angie.jpg",
-    "Company": "Arkansas Support Network",
+    "FirstName": "Amanda",
+    "LastName": "Potter Cole",
+    "Bio": "Amanda M. Potter Cole is passionate about enjoying a whole life and helping others empower themselves. When not working with clients, she may be found promoting livable urban design, speaking up for equality & education, wandering about with her camera, or experimenting in the kitchen.\nThree years into thinking “I’ll look for a ‘real’ job after this next project is over,” Amanda discovered that she had become a social entrepreneur. Her company, AMP•SEE Ideas, is the organic response to a demand for combined freelance communications and project management services. Her background, artistic flair, interest in technology, and incredible mentors have all played key rolls in Amanda’s wide range of skills that include web design, social marketing, program development, graphic design, and knowing when to bring others to the table.\nAmanda works towards a dream of a world where people have the desire to learn, grow, thrive, and help others do the same.",
+    "Website": "www.ampcideas.com",
+    "Twitter": "ampcideas",
+    "Photo": "/public/img/speakers/amanda-potter-cole.jpg",
+    "Company": "AMP•SEE",
     "LinkedIn": null,
     "Presentations": [
       {
