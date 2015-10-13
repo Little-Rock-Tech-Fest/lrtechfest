@@ -118,7 +118,15 @@ app.get('/sponsors', function(req, res){
 app.get('/speakerdetails', function(req, res){
 	fs_readFile('speakers.json', 'utf8')
 		.then(function(speakerData){
-			var speakers = JSON.parse(speakerData);
+			var speakers = JSON.parse(speakerData).map(function(speaker) {
+				speaker.Presentations.map(function(presentation) {
+					presentation.Room = getRoomName(presentation.Room);
+					presentation.Session = getTimeForSession(presentation.Session);
+					return presentation;
+				});
+
+				return speaker;
+			});
 			res.render('speakerdetails', {speakers:speakers});
 		})
 		.catch(function(e){

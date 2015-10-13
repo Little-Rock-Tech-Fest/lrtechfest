@@ -31,9 +31,16 @@ block content
 											span #{speaker.Website}
 						.secondary-content: i.fa.fa-chevron-left
 					.collapsible-body
-						p
-							strong Speaker Bio:
-							| #{speaker.Bio}
-						p
-							strong Talk Description:
-							| #{speaker.Presentations[0].Description}
+						.row
+							.col.m3
+								h6 Speaker Bio:
+							.col.m9
+								p #{speaker.Bio}
+						each talk in speaker.Presentations
+							.row
+								.col.m3
+									h6 Time: #{talk.Session}
+									h6 Room: #{talk.Room} 
+								.col.m9
+									h6 #{talk.Topic}
+									p #{talk.Description}
