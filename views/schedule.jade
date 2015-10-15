@@ -29,10 +29,10 @@ block content
 								a(href="/speakerdetails/##{talk.DetailId}")
 									div.title #{talk.PresTitle} 
 									div.presenter #{talk.Name} 
-						if i == 3
-							tr
-								td 12:00pm
-								td.center-align(colspan="4").talk-title LUNCH
+					if timeSlot.time == "11:10 AM"
+						tr
+							td 12:00pm
+							td.center-align(colspan="4").talk-title LUNCH
 				tr
 					td 4:30pm
 					td.center-align(colspan="4").talk-title Ending Session (Prizes!)
