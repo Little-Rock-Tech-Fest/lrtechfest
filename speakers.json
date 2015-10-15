@@ -99,7 +99,7 @@
         "Track": "Web",
         "Topic": "Write Code For The Future You",
         "Description": "Many believe the days of staying at a job long enough to retire is gone.  A typical worker in the United States switches jobs ever 4-5 years and in the tech industry it is even shorter.  Due to this there is an even greater need now to improve the quality of the code you write and / or maintain in your job as a software developer.  In this session, we will discuss what it means to improve the quality of the code and how you can work towards improving it every day.  Also we will go over a few practical tips you can start using today to improve the quality of your code.",
-        "Room": "3",
+        "Room": "2",
         "Session": "4"
       }
     ]
@@ -225,7 +225,7 @@
         "Track": "Web",
         "Topic": "Sugar & Spice and everything nice about ES6",
         "Description": "ECMAScript 6 is the new version of JavaScript making its way into the engines of our modern browsers and servers. Some of its features appear to be no more than a little syntax sugar - making development we already do in JavaScript a bit easier. Others add brand new functionality long missing in JavaScript, which allow us to spice up our code without having to include yet another library.  Experience with JavaScript will help you get the most out of this session, but you don't have to be a JS ninja to leave confident to begin using ES6 right now. Let's walk through all the sugar and spice of ES6 and what makes it just so nice. Along the way, you'll learn about arrow functions, modules, rest parameters, and other features. We'll also see strategies for how we can circumvent that pesky issue of cross-browser compatibility. Oh, and don't worry if you didn't understand any of those terms - you will after the session.",
-        "Room": "2",
+        "Room": "1",
         "Session": "4"
       }
     ]
@@ -380,28 +380,28 @@
         "Track": "Web",
         "Topic": "Rebuilding our Foundation: How We Used Symfony To Rewrite Our Application",
         "Description": "This talk is about how our company rewroke our software using Symfony. We took a broken e-commerce and LMS site written in an older style MVC framework and re-wrote a significant portion of it in Symfony and related tools (Doctrine, FOS Bundles, Sonata) over 6 months and created a stable, well-tested application. I'll cover the approach we took to rewriting the admin panel in Symfony, writing an API, introducing Behat and PHPUnit tests for both new and legacy code (still in a separate framework) and setting up Continuous Integration. I'll discuss how we optimized the site as we went, by identifying weak spots in the code and how we addressed them.  I'll also cover what we would do differently now that we've done it once.",
-        "Room": "4",
+        "Room": "3",
         "Session": "4"
       }
     ]
   },
   {
     "Id": 93,
-    "FirstName": "Chander",
-    "LastName": "Dhall",
-    "Bio": "Chander Dhall is a Microsoft MVP, TechEd Speaker, ASP.NET Insider, Web API Advisor, IT/Dev Connections content chair, professional software architect/lead developer, trainer, INETA speaker, open-source contributor, and community leader and organizer with years of experience in enterprise Software Development. Chander started coding when he was 6 and created his first successful software product at the age of 14. He is the President and CEO of Chander Dhall, Inc. and previously of Ria Consulting, LLC. He has proven track record of making clients successful and saving millions of dollars to them. He is the Development track content chair for IT/Dev Connections and he works in a goal-oriented, technologically driven, fast paced AGILE (SCRUM) environment. He is the founder of Dallas day of dot net, MVPMIX.com and jsSaturday. He has a Master's Degree in computer science with specialization in algorithms, principles and patterns and is focused on building high performing modular software. Chander leads the HTML5/Node.js group in Los Angeles and the .NET user group at UTDallas. Chander recently got recognized as one of the top organizers by Eventbrite. Chander has been a featured speaker in numerous conferences and code camps all over the world.",
-    "Website": "http://www.chanderdhall.com/",
-    "Twitter": null,
-    "Photo": "/public/img/speakers/dhall-chander.jpg",
-    "Company": "",
+    "FirstName": "Ryan",
+    "LastName": "Rousseau",
+    "Bio": "Ryan Rousseau is a software architect and developer at Praeses who works on many areas from system and feature design, continuous deployment, and sometimes even implementation. His recent focus has been API development, hypermedia, and knockout.js.",
+    "Website": null,
+    "Twitter": "ryanrousseau",
+    "Photo": "/public/img/speakers/ryan_rousseau.jpg",
+    "Company": "Praeses",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 40,
         "Track": "Web",
-        "Topic": "Rest and Web API Best Practices",
-        "Description": "In this talk of International acclaim, Microsoft MVP, ASP.NET Insider and Web API advisor Chander Dhall, discusses what to do and what NOT to do when it comes to REST best practices. At the same time he also highlights the new features in Web API. The talk is a good mixture of code and concepts. You will not only learn the new features and best practices of REST and Web API but also some secret techniques not that widely used yet. The talk plans to cover all level of attendees from beginner to advanced.",
-        "Room": "1",
+        "Topic": "Write Scripts with C# and scriptcs",
+        "Description": "In this session, we will introduce scriptcs, an open source project that makes it easy to write and execute C# with a simple text editor. We will cover some features unique to scriptcs including modules, script packs, and script libraries. We will also highlight some interesting ways that scriptcs is being used by other projects.",
+        "Room": "4",
         "Session": "4"
       }
     ]
