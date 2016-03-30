@@ -4,281 +4,8 @@ green: #7db660;
 blue: #4918fe;
 light orange #fead97
 */
-body {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    background: #e0e0e0;
-}
 
-h1 {
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: bold
-}
-
-h2 {
-    font-size: 3em;
-    font-weight: bold
-}
-
-h3 {
-    font-size: 2em;
-}
-
-h4 {
-    font-size: 1.5em
-}
-
-p {
-    line-height: 1.4
-}
-
-.header {
-    padding: 20px;
-}
-
-.header h1 {
-    display: inline-block;
-    margin-left: 30px;
-}
-
-.header img {
-    position: relative;
-    top: -20px;
-}
-
-.landing {
-    text-align: center;
-}
-
-.landing h1 {
-    max-width: 70%;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.landing h3 {
-    max-width: 90%;
-
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.landing .venue {
-    text-transform: uppercase;
-}
-
-.section {
-    padding: 0;
-}
-
-.alert-warning {
-    background-color: #fe4918;
-    color: black;
-}
-
-.section-header {
-    padding: 20px;
-}
-
-.section-content {
-    background-color: white;
-    color: black;
-    padding: 20px;
-}
-
-.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-container iframe,
-.embed-container object,
-.embed-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.brand-logo img {
-    max-height: 64px;
-}
-
-nav .brand-logo {
-    padding: 0 20px;
-}
-
-nav {
-    position: relative;
-}
-
-.event-details {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    padding: 0 15px;
-    height: 64px;
-}
-
-.event-details:before {
-	content: "";
-	position: absolute;
-	width: 0;
-	height: 0;
-	border: solid 0 transparent;
-}
-
-.event-details:before {
-	right: 100%;
-	top: 0;
-	border-right: 112px solid #263238;
-	border-bottom: 64px solid transparent;
-}
-
-.event-details .venue {
-	margin-left: 1em;
-}
-
-.landing {
-    background: url('../img/lrskyline-small.jpg') center center no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-    padding-top: 50px;
-    padding-bottom: 50px
-}
-
-#announcement {
-    margin-top: 20px;
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-#mce-EMAIL {
-    margin-right: 10px
-}
-
-.speaker-card .company:after {
-    content: " | ";
-}
-
-.speaker-card .company:last-child:after {
-    content: "";
-}
-
-.logo-frame img {
-    display: block;
-    margin: auto;
-}
-.sponsor {
-    padding: 1rem 0;
-}
-
-.sponsors-content a {
-    color: inherit;
-    text-decoration: none
-}
-
-.sponsors-content .logo-row {
-    margin-top: 10px;
-    text-align: center;
-}
-
-.sponsors-content .logo-frame {
-    overflow: hidden;
-    height: 200px;
-    width: 100%;
-    text-align: center;
-}
-
-.sponsors-content .logo-img {
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.sponsors-content img {
-    width: 275px;
-    max-height: 200px;
-    vertical-align: middle;
-}
-
-.sponsors-content .your-logo-here {
-    border: 3px dashed black;
-    text-align: center;
-    height: 250px;
-    width: 250px;
-    background-color: lightgray;
-    padding: 10px;
-    background-clip: padding-box;
-}
-
-.sponsors-content .level {
-    margin-bottom: 20px;
-    font-weight: 500;
-    text-align: center
-}
-
-.sponsors-content .level span {
-    position: relative;
-    top: -3px;
-    font-size: 1.2em
-}
-
-.sponsors-content .fa {
-    margin-top: 2px;
-    margin-left: 8px;
-    margin-right: 8px;
-    font-size: 1.5em;
-}
-
-.sponsors-content .fa.Platinum {
-    color: #E5E4E2;
-}
-
-.sponsors-content .fa.Gold {
-    color: #FFDF00;
-}
-
-.sponsors-content .fa.Silver {
-    color: #C0C0C0;
-}
-
-.sponsors-content .fa.Bronze {
-    color: #CD7F32;
-}
-
-#speakers .item-container h5 span.fa {
-    margin-left: 10px;
-    margin-right: 10px
-}
-
-#speakers img {
-    width: 200px;
-}
-
-#speakers .name {
-    font-weight: bold
-}
-
-#speakers h5 {
-    font-size: 1.3em
-}
-
-#speakers .submit img {
-    border: 2px dashed black
-}
-
-body {  font-family: 'Roboto', sans-serif; color: white;}
+body {  font-family: 'Roboto', sans-serif; color: white; background: url("../img/dark_dotted.png") repeat;}
 
 h1 { font-size: 4em; font-weight: bold}
 h2 { font-size: 3em; font-weight: bold}
@@ -319,7 +46,7 @@ p  { line-height: 1.4}
 	padding-bottom: 50px
 }
 
-#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 7.5em; text-transform: uppercase; margin-bottom: .5em; }
+#landing h1 { font-family: 'Ubuntu', sans-serif; font-size: 4.5em; text-transform: uppercase; margin-bottom: .5em; }
 
 #time-place {text-align: center;}
 #time-place .time-place-inner { font-size: 1.5em; font-weight:300; display: inline-block; position: relative; top: -12px; margin-left: 10px; margin-right: 10px}
@@ -356,6 +83,8 @@ p  { line-height: 1.4}
 #speakers h5 {font-size: 1.3em}
 #speakers .submit img {border:2px dashed black}
 
+#team img {width:200px;}
+
 #speakerdetail .photo {margin-bottom: 30px; margin-right:15px }
 #speakerdetail .photo img {max-width: 150px; border-radius:50px; box-shadow: -10px 10px 50px #888888;}
 #speakerdetail .name {font-size: 2em; font-weight: 600; line-height: 1; margin-bottom:10px}
@@ -375,178 +104,63 @@ p  { line-height: 1.4}
 	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
 }
 
-#team .card.medium{height: inherit}
-#team .card.medium .card-image{height: inherit}
-
-#schedule .title {font-weight: bold; }
-#schedule .presenter { color: black}
-
 /* Extra Small */
+@media(max-width:767px){
+	body {
+    	font-size: 11px; /* 1.5x default size */
+	}
 
-@media(max-width:600px) {
-    body {
-        /*font-size: 11px;*/
-        /* 1.5x default size */
-    }
-    .header h1 {
-        margin-left: 15px;
-    }
-    .header img {
-        position: relative;
-        top: -15px;
-        width: 150px;
-    }
-    .navbar-brand img {
-        height: 50px;
-        top: -15px;
-    }
-    #time-place {
-        text-align: inherit;
-    }
-    #time-place .time-place-inner {
-        display: table;
-        margin: 0 auto;
-        position: inherit;
-    }
-    #time-place hr {
-        width: 70%;
-        display: block;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    #time-place .sep {
-        margin-top: 5px;
-        display: block;
-    }
-    .sponsors-content .logo-frame {
-        height: 125px;
-    }
-    .sponsors-content img {
-        width: 125px;
-        max-height: 125px;
-    }
-    .sponsors-content .level {
-        margin-bottom: 16px;
-        margin-left: -9px;
-        margin-right: -9px;
-    }
-    .sponsors-content .level span {
-        top: -1px
-    }
-    .sponsors-content .fa {
-        margin-top: 1px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    #carousel-2014-pics {
-        margin-top: 20px;
-    }
-    #speakers img {
-        width: 150px;
-    }
-    #speakerdetail>ul>li{
-        box-sizing: initial;
-    }
-    #speakerdetail .collapsible-header{
-        height: 100%
-    }
-    #speakerdetail .truncate{
-        display: inherit;
-    }
-    
-    #speakerdetail .collection .collection-item.avatar{
-        padding: 30px 20px;
-    } 
-    #speakerdetail .collection .collection-item.avatar .circle{
-        position: inherit;
-        padding-bottom: 20px
-    }
+	.header h1{  margin-left: 15px;}
+	.header img {position: relative; top: -15px; width: 150px;}
+	
+	.navbar-brand img { height: 50px; top: -15px;}
+
+	#time-place {text-align: inherit;}
+	#time-place .time-place-inner {display:table; margin: 0 auto; position:inherit;}
+	#time-place hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; }
+	#time-place .sep { margin-top:5px; display: block; }
+
+	.item-container {padding: 9px; margin-left:8px; margin-right: 0px}
+	#sponsors-content .logo-frame { height: 125px; width: 125px; }
+	#sponsors-content  img {width: 125px;  max-height:125px;}
+	#sponsors-content .level{ margin-bottom: 16px; margin-left:-9px; margin-right:-9px;}
+	#sponsors-content .level span{  top: -1px}
+	#sponsors-content .fa {margin-top: 1px; margin-left: 5px; margin-right: 5px; }
+	#carousel-2014-pics {margin-top: 20px; }
+	#team img {width:150px;}
+	#speakers img {width: 150px;}
 }
-
 
 /* Small */
+@media(min-width:768px) and (max-width:991px){
+	body {
+    	font-size: 14px; /* 1.5x default size */
+	}
 
-@media(min-width:601px) and (max-width:991px) {
-    body {
-        font-size: 14px;
-        /* 1.5x default size */
-    }
-    .header h1 {
-        margin-left: 15px;
-    }
-    .header img {
-        position: relative;
-        top: -15px;
-        width: 200px;
-    }
-    .sponsors-content .logo-frame {
-        height: 200px;
-        width: 200px;
-    }
-    .sponsors-content img {
-        width: 200px;
-        max-height: 200px;
-    }
-    .sponsors-content .level {
-        margin-bottom: 20px;
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-    .sponsors-content .level span {
-        top: -3px
-    }
-    .sponsors-content .fa {
-        margin-top: 2px;
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-    #carousel-2014-pics {
-        margin-top: 20px;
-    }
-    #speakers img {
-        width: 200px;
-    }
-    #speakerdetail>ul>li{
-        box-sizing: initial;
-    }
-    #speakerdetail .collapsible-header{
-        height: 100%
-    }
-    
-    #team .card .card-title{font-size: 18px; line-height: inherit}
+	.header h1{  margin-left: 15px;}
+	.header img {position: relative; top: -15px; width: 200px;}
+
+	.item-container {padding: 15px; margin-left:10px; margin-right: 0px}
+	#sponsors-content .logo-frame { height: 200px; width: 200px; }
+	#sponsors-content  img {width: 200px;  max-height:200px;}
+	#sponsors-content .level{ margin-bottom: 20px; margin-left:-15px; margin-right:-15px;}
+	#sponsors-content .level span{  top: -3px}
+	#sponsors-content .fa {margin-top: 2px; margin-left: 8px; margin-right: 8px; }
+	#carousel-2014-pics {margin-top: 20px; }
+	#team img {width:200px;}
+	#speakers img {width: 200px;}
 }
 
-@media only screen and (min-width: 993px) {
-    .container {
-        width: 85%;
-    }
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+	body {
+    	font-size: 16px; /* 1.5x default size */
+	}
 }
 
-.speaker-detail-links {
-    margin-top: 10px;
-}
-
-.collection-item.avatar .secondary-content {
-    color: #455a64;
-    transition: transform .35s;
-}
-
-.collection-item.avatar.active .secondary-content {
-    transform: rotate(-90deg);
-    color: white;
-}
-
-.collection .collection-item.avatar {
-    min-height: 120px;
-    padding: 20px 60px 20px 140px;
-}
-
-.collection .collection-item.avatar .circle {
-    width: 100px;
-    height: 100px;
-    top: 10px;
-}
-
-.collection .collection-item.active {
-    background-color: #455a64;
+/* Large */
+@media(min-width:1200px){
+	body {
+    	font-size: 16px; /* 1.5x default size */
+	}
 }

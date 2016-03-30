@@ -2,7 +2,7 @@ doctype html
 html
 	head
 		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
-		title Little Rock Tech Fest 2014
+		title Little Rock Tech Fest #{year}
 		link(href="http://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
 		link(href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
 		link(href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css", rel="stylesheet")
@@ -13,12 +13,11 @@ html
 
 		.header
 			img(src="/public/archive/2014/img/logo_lrtf-white.png")
-			h1 2014
+			h1 #{year}
 
 		.section
 			.section-header
 				h2 Sponsors
-				h3 Little Rock Tech Fest was a great succes, thanks in no small part to our wonderful sponsors
 
 			.section-content
 				#sponsors-content
@@ -36,7 +35,6 @@ html
 		.section
 			.section-header
 				h2 Speakers
-				h3 In 2014, we had an awsome lineup of speakers
 
 			.section-content
 				each speaker in speakers

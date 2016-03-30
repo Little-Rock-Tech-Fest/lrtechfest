@@ -1,62 +1,22 @@
 extends layout
 
 block content
-	header.landing
-		h1 Little Rock Tech Fest
-		h3 Focusing on growing technology and software development in Arkansas
-		h4.venue Statehouse Convention Center
-
-	.speakers.section
-		.section-header.blue-grey.darken-2
-			h3.light-green-text.text-lighten-2 Speakers
-			h4 We are thrilled to welcome a talented lineup of speakers to LRTF 2015
-			h4
-				a(href="/schedule" class="speaker-contact-item")
-					span Check out the Conference Schedule
-		.section-content
-			.row
-				each speaker in speakers
-					.col.m4.l3
-						.card.speaker-card.medium
-							.card-image.waves-effect.waves-block.waves-light
-								img.activator(src="#{speaker.Photo}")
-							.card-content
-								span.card-title.activator.grey-text.text-darken-4
-									| #{speaker.FirstName} #{speaker.LastName}
-									i.material-icons.right more_vert
-								p
-									div
-										if speaker.Company
-											span.company #{speaker.Company}
-										if speaker.Twitter
-											a.twitter(href="http://twitter.com/#{speaker.Twitter}") @#{speaker.Twitter}
-							.card-reveal
-								span.card-title.grey-text.text-darken-4
-									| #{speaker.FirstName} #{speaker.LastName}
-									i.material-icons.right close
-								p= speaker.Bio
-
-	.sponsors
+	#landing
+		.container-fluid
+			#time-place
+				hr
+				.time-place-inner
+					span.fa.fa-calendar-o
+					span October 22-23 2016
+					.sep
+					span.h3.fa.fa-map-marker
+					span Statehouse Convention Center
+				hr
+			#landing-content.text-center
+				h1 Little Rock<br> Tech Fest
+				h3 The premier <b>two-day</b> developer event in Arkansas
+		
+	#sponsors
 		.section
-			.section-header.blue-grey.darken-2
-				h3.light-green-text.text-lighten-2 Sponsors
-				h4 We are currently seeking sponsors for 2015. To see your logo here, please <a class="light-green-text text-lighten-2" href="/sponsors">contact</a> us!
-			.section-content.sponsors-content
-				.row.logo-row
-					each sponsor in sponsors
-						a(href="#{sponsor.Website}")
-							.col.m4.l3
-								.card.sponsor
-									.level
-										i(class="fa fa-trophy #{sponsor.Level}")
-										span #{sponsor.Level} Sponsor
-									.logo-frame.valign-wrapper
-										img.valign(src="#{sponsor.Logo}")
-					a(href="/sponsors")
-						.col.m4.l3
-							.card.sponsor
-								.level
-									i.fa.fa-trophy.silver
-									span Sponsor Us!
-								.logo-frame.valign-wrapper
-									img.valign(src="/public/img/sponsors/default.png")
+			.section-header
+				h3 We are currently seeking sponsors for 2015. To see your logo here, please <a href="/sponsors">contact</a> us!

@@ -1,0 +1,140 @@
+[
+	{
+		"Name": "Datapath",
+		"Level": "Gold",
+		"Logo": "/public/img/sponsors/datapath.png",
+		"Website": "http://www.dpath.com/"
+	},
+		{
+		"Name": "Syncano",
+		"Level": "Gold",
+		"Logo": "/public/img/sponsors/syncano.png",
+		"Website": "http://www.syncano.com/"
+	},
+		{
+		"Name": "ABC Financial",
+		"Level": "Gold",
+		"Logo": "/public/img/sponsors/abc-financial.png",
+		"Website": "http://www.abcfinancial.com/"
+	},
+	{
+		"Name": "Laravel",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/laravel.png",
+		"Website": "http://laravel.com/"
+	},
+	{
+		"Name": "Pluralsight",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/pluralsight.png",
+		"Website": "http://www.pluralsight.com/"
+	},
+	{
+		"Name": "Mainstream Technologies",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/mainstream.jpg",
+		"Website": "http://www.mainstream-tech.com/"
+	},
+	{
+		"Name": "Elyxor",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/elyxor.png",
+		"Website": "http://www.elyxor.com/"
+	},
+	{
+		"Name": "Praeses",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/praeses.png",
+		"Website": "http://www.praeses.com/"
+	},
+	{
+		"Name": "Iron Yard",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/ironyard.png",
+		"Website": "http://www.theironyard.com/?utm_source=LRTechFest&utm_medium=Sponsorship&utm_campaign=Little%20Rock"
+	},
+	{
+		"Name": "Arkansas Venture Center",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/venture-center.png",
+		"Website": "https://www.venturecenter.co/"
+	},
+	{
+		"Name": "Dassault Falcon Jet",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/dassault-falcon-jet.png",
+		"Website": "http://www.dassaultfalcon.com/"
+	},
+	{
+		"Name": "Arkansas Innovation Hub",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/innovation_hub.png",
+		"Website": "http://www.arhub.org/"
+	},
+	{
+		"Name": "CDots Media",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/cdots.png",
+		"Website": "http://cdotsmedia.com/"
+	},
+	{
+		"Name": "Clearpointe",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/clearpointe.png",
+		"Website": "http://www.clearpointe.com/"
+	},
+	{
+		"Name": "Hark",
+		"Level": "Silver",
+		"Logo": "/public/img/sponsors/hark.png",
+		"Website": "http://www.hark.tv/"
+	},
+	{
+		"Name": "Acxiom",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/acxiom_250.png",
+		"Website": "http://www.acxiom.com"
+	},
+	{
+		"Name": "Balsamiq",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/balsamiq.png",
+		"Website": "https://balsamiq.com/"
+	},
+	{
+		"Name": "Perks",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/perks.png",
+		"Website": "http://perks.com/"
+	},
+	{
+		"Name": "Local Magazine",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/local-magazine.png",
+		"Website": "http://www.localmag411.com/"
+	},
+	{
+		"Name": "Inuvo",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/inuvo.png",
+		"Website": "http://www.inuvo.com/"
+	},
+	{
+		"Name": "JBHung",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/jbhunt.png",
+		"Website": "http://www.jbhunt.com/"
+	},
+	{
+		"Name": "INA",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/ina.png",
+		"Website": "http://ina.arkansas.gov/"
+	},
+	{
+		"Name": "EuronetSoftware",
+		"Level": "Bronze",
+		"Logo": "/public/img/sponsors/euronet.png",
+		"Website": "http://www.euronetsoftware.com/index.php?id=117"
+	}
+]

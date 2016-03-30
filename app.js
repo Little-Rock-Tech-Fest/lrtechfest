@@ -16,7 +16,7 @@ app.use(express.static(__dirname, 'public'));
 var team = [
 	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
 	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
-	{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
+	//{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
 	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
 	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
 	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
@@ -92,20 +92,21 @@ app.get("/programs/:year", function (req, res) {
 	});
 });
 
-app.get("/2014", function (req, res) {
+app.get("/pastyear/:year", function (req, res) {
 
 	var speakers;
-
-	fs_readFile('archive/2014/2014-speakers.json', 'utf8')
+	var year = req.param("year");
+	fs_readFile('archive/'+year+'/speakers.json', 'utf8')
 		.then(function(speakerData){
 			speakers = JSON.parse(speakerData);
-			return fs_readFile('archive/2014/2014-sponsors.json', 'utf8');
+			return fs_readFile('archive/'+year+'/sponsors.json', 'utf8');
 		}, console.error)
 		.then(function(sponsorData){
 			var sponsors = JSON.parse(sponsorData);
-			res.render('2014', {speakers: speakers, sponsors: sponsors});
+			res.render('pastyear', {speakers: speakers, sponsors: sponsors, year: year});
 		}, console.error);
 });
+
 
 app.get('/speakers', function(req, res){
 	res.render('speakers');
