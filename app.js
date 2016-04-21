@@ -16,13 +16,10 @@ app.use(express.static(__dirname, 'public'));
 var team = [
 	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
 	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
-	//{name: 'James Climer', imgUrl: '/public/img/team/james.png', twitter: 'jaclimer'},
 	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
 	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
 	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
-	//{name: 'Kimberly Harris', imgUrl: '/public/img/team/kimberly.png'},
 	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81'},
-	//{name: 'Matt Shull', imgUrl: '/public/img/team/matt.png', twitter: 'themattshull'},
 ];
 
 function getRoomName(roomId) {
