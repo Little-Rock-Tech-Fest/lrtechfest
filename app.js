@@ -46,10 +46,6 @@ app.get("/pastyear/:year", function (req, res) {
 });
 
 
-app.get('/callforspeakers', function(req, res){
-	res.render('callforspeakers');
-});
-
 app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
