@@ -18,6 +18,7 @@ p  { line-height: 1.4}
 .header img {position: relative; top: -20px;}
 
 .alert-warning {background-color: #fe4918; color: black; }
+.alert-warning a {color: #4918fe}
 
 .section-header{background-color: #7db660; color: black; padding: 20px;}
 .section-content{ background-color: white; color: black; padding: 20px;}

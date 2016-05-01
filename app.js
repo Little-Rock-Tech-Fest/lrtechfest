@@ -22,65 +22,6 @@ var team = [
 	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81'},
 ];
 
-function getRoomName(roomId) {
-	switch (roomId) {
-		case "1": return "Fulton";
-		case "2": return "Pope";
-		case "3": return "Izard";
-		case "4": return "Miller";
-	}	
-}
-
-function getTimeForSession(sessionId) {
-	switch (sessionId) {
-		case "1": return "9:10 AM";
-		case "2": return "10:10 AM";
-		case "3": return "11:10 AM";
-		case "4": return "1:30 PM";
-		case "5": return "2:30 PM";
-		default: return "3:30 PM";
-	}	
-}
-
-function organizeSpeakersIntoSessions(speakerData) {
-	return _(speakerData).sortBy(function(speaker) {
-			return speaker.Presentations[0].Session;
-		}).reduce(function(carry, speaker) {
-			for (i = 0; i < speaker.Presentations.length; i++) { 	
-				var presentation = speaker.Presentations[i];
-				var session = presentation.Session;
-				var room = presentation.Room;
-				var name = speaker.FirstName + ' ' + speaker.LastName;
-
-				if (!carry[session]) {
-					carry[session] = {
-						rooms: {},
-					};
-
-					carry[session].time = getTimeForSession(session);
-				}
-				var rooms = carry[session].rooms;
-
-				if (rooms[room]) {
-					rooms[room].names.push(name);
-				} else {
-					rooms[room] = {
-						Photo: speaker.Photo,
-						Description: presentation.Description,
-						RoomName: getRoomName(presentation.Room),
-						names: [name],
-						PresTitle: presentation.Topic,
-						DetailId: name.replace(' ', '-'),
-					}
-				}
-
-				rooms[room].Name = rooms[room].names.join(', ');
-			}
-			return carry;
-		}, {});
-}
-
-
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
 		if (err) {
@@ -105,69 +46,17 @@ app.get("/pastyear/:year", function (req, res) {
 });
 
 
-app.get('/speakers', function(req, res){
-	res.render('speakers');
+app.get('/callforspeakers', function(req, res){
+	res.render('callforspeakers');
 });
 
 app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
 
-app.get('/speakerdetails', function(req, res){
-	fs_readFile('speakers.json', 'utf8')
-		.then(function(speakerData){
-			var speakers = JSON.parse(speakerData).map(function(speaker) {
-				speaker.Presentations.map(function(presentation) {
-					presentation.Room = getRoomName(presentation.Room);
-					presentation.Session = getTimeForSession(presentation.Session);
-					return presentation;
-				});
-
-				return speaker;
-			});
-			res.render('speakerdetails', {speakers:speakers});
-		})
-		.catch(function(e){
-			console.log(e);
-			res.render('500');
-		});
-});
-
 app.get('/about', function(req, res){
 	res.render('about', {team: team})
 })
-app.get('/schedule', function(req, res){
-	fs_readFile('speakers.json', 'utf8')
-		.then(function(speakerData){
-			var speakers = JSON.parse(speakerData);
-
-			var schedule = organizeSpeakersIntoSessions(speakers);
-
-			res.render('schedule', {schedule:schedule});
-		})
-		.catch(function(e){
-			console.log(e);
-			res.render('500');
-		});
-});
-
-app.get('/sessiondetails', function(req, res){
-		fs_readFile('speakers.json', 'utf8')
-		.then(function(speakerData){
-			var speakers = JSON.parse(speakerData);
-			var schedule = organizeSpeakersIntoSessions(speakers);
-			var sessionId = req.query.session;
-			var talks = schedule[sessionId].rooms;
-			
-			var sessionStartTime = getTimeForSession(sessionId);
-			
-			res.render('sessiondetails', {talks: talks, sessionId: sessionId, sessionStartTime: sessionStartTime});
-		})
-		.catch(function(e){
-			console.log(e);
-			res.render('500');
-		});
-});
 
 app.get('/', function(req, res){
 	var sponsors;
