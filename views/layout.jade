@@ -1,7 +1,7 @@
 doctype html
 html
 	head
-		meta(name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+		meta(charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
 		title Little Rock Tech Fest 2016
 		link(href="http://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
 		link(href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
@@ -9,60 +9,90 @@ html
 		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel="stylesheet")
 		link(link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css")
 		block stylesheets
-		link(href="/public/css/site.css", rel="stylesheet")
+		link(href="/public/css/animations.css", rel="stylesheet")
+		link(href="/public/css/style-green-color.css", rel="stylesheet")
 		script(src="/public/js/google-analytics.js")
 	body
-		.navbar.navbar-inverse
-			.container
-				.navbar-header
-					button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-techfest")
-						span(class="sr-only") Toggle
-						span(class="icon-bar")
-						span(class="icon-bar")
-					a(class="navbar-brand" href="/")
-						img(id='navbar-logo' src="/public/img/lrtf-logo-small-white.png" )
-				#navbar-techfest.navbar-collapse.collapse
-					ul.nav.navbar-nav
-						li
-							a(class="btn btn-primary btn-sm" href="https://www.papercall.io/lrtf")
-								i.fa.fa-bullhorn.fa-2x
-								span Call for Speakers
-						li
-							a(class="btn btn-primary btn-sm" href="/about")
-								i.fa.fa-rocket.fa-2x
-								span About LRTF
-						li.dropdown
-							a(href="#" class="dropdown-toggle btn" data-toggle="dropdown")
-								i.fa.fa-download.fa-2x
-								span Past Events
-								span.caret
-							ul.dropdown-menu
-								li
-									a(href="pastyear/2015")
-										span 2015 
-								li
-									a(href="pastyear/2014")
-										span 2014 
-								li
-									a(href="/programs/2013")
-										span 2013 
-					ul.nav.navbar-nav.navbar-right
-						li
-							a(class="social" href="mailto:info@lrtechfest.com?Subject=TechFest")
-								i.fa.fa-envelope.fa-2x
-						li
-							a(class="social" href="https://www.facebook.com/LittleRockTechFest")
-								i.fa.fa-facebook.fa-2x
-						li
-							a(class="social" href="https://twitter.com/LRTechFest")
-								i.fa.fa-twitter.fa-2x
+		//- .preloader-mask
+		//- 	.preloader
+		#hero.hero-section.bg1.window-height.light-text
+			.video-bg
+				video(autoplay loop)
+					source(src="/public/video/main.mp4" type="video/mp4")
+					source(src="/public/video/main.webm" type="video/webm")
+			ul.socials-nav
+				li.socials-nav-item
+					a(href="https://twitter.com/LRTechFest")
+						span.fa.fa-twitter
+				li.socials-nav-item
+					a(href="https://www.facebook.com/LittleRockTechFest")
+						span.fa.fa-facebook
+				li.socials-nav-item
+					a(href="mailto:info@lrtechfest.com?Subject=TechFest")
+						span.fa.fa-envelope
+			.heading-block.centered-block.align-center
+				.container
+					h5.heading-alt(style="margin-bottom: 8px;")
+						span.fa.fa-calendar-o.base-clr-txt
+						October 20-21, 2016
+						span.fa.fa-map-marker.base-clr-txt 
+						Little Rock, AR
+					h1.extra-heading Little Rock Tech Fest
+					h6.thin.base-font The premier two-day developer event in Arkansas
+					.btns-container
+						a(class="btn btn-primary btn-md" href="https://www.papercall.io/lrtf") Call for Speakers
+
+		//- .navbar.navbar-inverse
+		//- 	.container
+		//- 		.navbar-header
+		//- 			button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-techfest")
+		//- 				span(class="sr-only") Toggle
+		//- 				span(class="icon-bar")
+		//- 				span(class="icon-bar")
+		//- 			a(class="navbar-brand" href="/")
+		//- 				img(id='navbar-logo' src="/public/img/lrtf-logo-small-white.png" )
+		//- 		#navbar-techfest.navbar-collapse.collapse
+		//- 			ul.nav.navbar-nav
+		//- 				li
+		//- 					a(class="btn btn-primary btn-sm" href="https://www.papercall.io/lrtf")
+		//- 						i.fa.fa-bullhorn.fa-2x
+		//- 						span Call for Speakers
+		//- 				li
+		//- 					a(class="btn btn-primary btn-sm" href="/about")
+		//- 						i.fa.fa-rocket.fa-2x
+		//- 						span About LRTF
+		//- 				li.dropdown
+		//- 					a(href="#" class="dropdown-toggle btn" data-toggle="dropdown")
+		//- 						i.fa.fa-download.fa-2x
+		//- 						span Past Events
+		//- 						span.caret
+		//- 					ul.dropdown-menu
+		//- 						li
+		//- 							a(href="pastyear/2015")
+		//- 								span 2015 
+		//- 						li
+		//- 							a(href="pastyear/2014")
+		//- 								span 2014 
+		//- 						li
+		//- 							a(href="/programs/2013")
+		//- 								span 2013 
+		//- 			ul.nav.navbar-nav.navbar-right
+		//- 				li
+		//- 					a(class="social" href="mailto:info@lrtechfest.com?Subject=TechFest")
+		//- 						i.fa.fa-envelope.fa-2x
+		//- 				li
+		//- 					a(class="social" href="https://www.facebook.com/LittleRockTechFest")
+		//- 						i.fa.fa-facebook.fa-2x
+		//- 				li
+		//- 					a(class="social" href="https://twitter.com/LRTechFest")
+		//- 						i.fa.fa-twitter.fa-2x
 		.maincontent
 			block content
 
-		#footer
-			.text-center
-				a(href="http://www.everleap.com/go/go.aspx?i=21199")
-					span Hosted by Everleap
+		//- #footer
+		//- 	.text-center
+		//- 		a(href="http://www.everleap.com/go/go.aspx?i=21199")
+		//- 			span Hosted by Everleap
 
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
