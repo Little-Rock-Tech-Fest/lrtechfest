@@ -1,51 +1,51 @@
 extends layout
 
 block content
-	#landing
-		.container-fluid
-			#time-place
-				hr
-				.time-place-inner
-					span.fa.fa-calendar-o
-					span October 20-21 2016
-					.sep
-					span.h3.fa.fa-map-marker
-					span Statehouse Convention Center
-				hr
-			#landing-content.text-center
-				h1 Little Rock<br> Tech Fest
-				h3 The premier <b>two-day</b> developer event in Arkansas
-			
-			#announcement
-				.row
-					.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.alert.alert-warning
-						p.text-center LRTF 2016 Call for Speakers is now open.
-						p.text-center <a href="https://www.papercall.io/lrtf">Submit</a> your talk!
-		
-	#sponsors
-		.section
-			.section-header
-				h2 Sponsors
-				h3 We are currently seeking sponsors for 2016. To see your logo here, please <a href="/sponsors">contact</a> us!
-			.section-content
-				#sponsors-content
-					.container-fluid
-						.row.logo-row
-							each sponsor in sponsors
-								a(href="#{sponsor.Website}")
-									.item-container
-										.level
-											i(class="fa fa-trophy #{sponsor.Level}")
-											span #{sponsor.Level} Sponsor
-										.logo-frame
-											.logo-img
-											img(src="#{sponsor.Logo}")
-							a(href="/sponsors")
-								.item-container
-									.level
-										i.fa.fa-trophy.silver
-										span Sponsor Us!
-									.logo-frame
-										.logo-img
-										img(src="/public/img/sponsors/default.png")
-						
+	//- #landing
+	//- 	.container-fluid
+	//- 		#time-place
+	//- 			hr
+	//- 			.time-place-inner
+	//- 				span.fa.fa-calendar-o
+	//- 				span October 20-21 2016
+	//- 				.sep
+	//- 				span.h3.fa.fa-map-marker
+	//- 				span Statehouse Convention Center
+	//- 			hr
+	//- 		#landing-content.text-center
+	//- 			h1 Little Rock<br> Tech Fest
+	//- 			h3 The premier <b>two-day</b> developer event in Arkansas
+	//- 		
+	//- 		#announcement
+	//- 			.row
+	//- 				.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.alert.alert-warning
+	//- 					p.text-center LRTF 2016 Call for Speakers is now open.
+	//- 					p.text-center <a href="https://www.papercall.io/lrtf">Submit</a> your talk!
+	//- 	
+	//- #sponsors
+	//- 	.section
+	//- 		.section-header
+	//- 			h2 Sponsors
+	//- 			h3 We are currently seeking sponsors for 2016. To see your logo here, please <a href="/sponsors">contact</a> us!
+	//- 		.section-content
+	//- 			#sponsors-content
+	//- 				.container-fluid
+	//- 					.row.logo-row
+	//- 						each sponsor in sponsors
+	//- 							a(href="#{sponsor.Website}")
+	//- 								.item-container
+	//- 									.level
+	//- 										i(class="fa fa-trophy #{sponsor.Level}")
+	//- 										span #{sponsor.Level} Sponsor
+	//- 									.logo-frame
+	//- 										.logo-img
+	//- 										img(src="#{sponsor.Logo}")
+	//- 						a(href="/sponsors")
+	//- 							.item-container
+	//- 								.level
+	//- 									i.fa.fa-trophy.silver
+	//- 									span Sponsor Us!
+	//- 								.logo-frame
+	//- 									.logo-img
+	//- 									img(src="/public/img/sponsors/default.png")
+	//- 					

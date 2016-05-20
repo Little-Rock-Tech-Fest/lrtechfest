@@ -2298,7 +2298,7 @@ input[type=password].error,
 .header .buy-btn:active,
 .header .buy-btn.hovered,
 .header .buy-btn.pressed {
-  border-color: #39c8b7;
+  border-color: #63a145;
 }
 .base-clr-bg,
 .base-clr-ovl:before,
@@ -2333,7 +2333,7 @@ input[type=password].error,
 .navbar-toggle .icon-bar,
 .thumb-wrapper .overlay:before,
 .header .buy-btn {
-  background-color: #39c8b7;
+  background-color: #63a145;
 }
 .base-clr-txt,
 .highlight,
@@ -2404,15 +2404,15 @@ input[type="submit"] + .loading,
 .header.header-color .navigation-header .buy-btn.pressed,
 input.header.header-color .navigation-header .buy-btn,
 .header .buy-btn {
-  color: #39c8b7;
+  color: #63a145;
 }
 ::selection {
   color: #fff;
-  background-color: rgba(57, 200, 183, 0.85);
+  background-color: rgba(99, 161, 69, 0.85);
 }
 ::-moz-selection {
   color: #fff;
-  background-color: rgba(57, 200, 183, 0.85);
+  background-color: rgba(99, 161, 69, 0.85);
 }
 .bg-low-poly,
 div.bg-low-poly,
@@ -4196,7 +4196,7 @@ button.btn.btn-block {
   .schedule .tab-content .nav.nav-schedule > li.active > a:focus,
   .tabs-vertical .nav.nav-tabs > li.active > a:focus {
     background-color: inherit;
-    color: #39c8b7;
+    color: #63a145;
     border: none;
     opacity: 1;
   }
@@ -5594,9 +5594,9 @@ button[type="submit"] .loading {
   opacity: 1;
 }
 .gallery-thumb-link:active:after {
-  -webkit-box-shadow: 0 0 30px 4px #39c8b7;
-  -moz-box-shadow: 0 0 30px 4px #39c8b7;
-  box-shadow: 0 0 30px 4px #39c8b7;
+  -webkit-box-shadow: 0 0 30px 4px #63a145;
+  -moz-box-shadow: 0 0 30px 4px #63a145;
+  box-shadow: 0 0 30px 4px #63a145;
 }
 .gallery-thumb-link:before {
   -webkit-transition: opacity 0.25s ease-out;
@@ -5614,9 +5614,9 @@ button[type="submit"] .loading {
   z-index: 1;
 }
 .gallery-thumb-link:after {
-  -webkit-box-shadow: 0 0 0 0 rgba(57, 200, 183, 0.5);
-  -moz-box-shadow: 0 0 0 0 rgba(57, 200, 183, 0.5);
-  box-shadow: 0 0 0 0 rgba(57, 200, 183, 0.5);
+  -webkit-box-shadow: 0 0 0 0 rgba(99, 161, 69, 0.5);
+  -moz-box-shadow: 0 0 0 0 rgba(99, 161, 69, 0.5);
+  box-shadow: 0 0 0 0 rgba(99, 161, 69, 0.5);
   -webkit-transition: -webkit-box-shadow 0.2s ease-out, opacity 0.25s ease-out, -webkit-transform 0.25s ease-out;
   -moz-transition: -moz-box-shadow 0.2s ease-out, opacity 0.25s ease-out, -moz-transform 0.25s ease-out;
   -o-transition: box-shadow 0.2s ease-out, opacity 0.25s ease-out, -o-transform 0.25s ease-out;
@@ -6530,7 +6530,7 @@ button[type="submit"] .loading {
   .header.header-color .navbar-collapse .buy-btn:active,
   .header.header-color .navbar-collapse .buy-btn.hovered,
   .header.header-color .navbar-collapse .buy-btn.pressed {
-    color: #39c8b7;
+    color: #63a145;
     background-color: #fff;
   }
 }
