@@ -5,3 +5,30 @@
 }
 .sponsor.inline img {max-width: 150px;}
 .sponsor.small img {max-width: 100px;}
+
+a.logo {
+  height:80px;
+}
+
+
+/* Extra Small */
+@media(max-width:767px){
+  a.logo {
+    height:50px;margin-top: 0;
+  }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+
+}
+
+/* Large */
+@media(min-width:1200px){
+
+}

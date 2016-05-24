@@ -138,24 +138,32 @@ html
 						.speaker.masonry-item
 							.speaker-top
 								.photo-wrapper
-									img(src="#{member.imgUrl}")
+									img.img-responsive(src="#{member.imgUrl}")
 								.speaker-title
 									h3.name #{member.name}
-									p.text-alt #{member.title} @ #{member.company}
+									p.text-alt <small> #{member.title} @ #{member.company} </small>
 								ul.speaker-socials
 									if member.twitter 
 										li
 											a(href="http://twitter.com/#{member.twitter}") <span class="fa fa-twitter"></span>
+									else 
+										li &nbsp;
+											
+				//- <div class="speaker masonry-item">
+				//- 	<div class="speaker-top">
+				//- 		<div class="photo-wrapper rounded"><img src="../assets/img/speakers/speaker1.jpg" alt="John Doe" class="img-responsive"></div>
+				//- 		<div class="speaker-title">
+				//- 			<h3 class="name">Andrea Warraety</h3>
+				//- 			<p class="text-alt"><small>Designer @ Instagram</small></p>
+				//- 		</div>
+				//- 		<ul class="speaker-socials">
+				//- 			<li><a href="#"><span class="fa fa-facebook"></span></a></li>
+				//- 			<li><a href="#"><span class="fa fa-twitter"></span></a></li>
+				//- 		</ul>
+				//- 	</div>
+				//- 	<p class="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
+				//- </div>
 
-						//- .item-container
-						//- 	img(src="#{member.imgUrl}")
-						//- 	h4 #{member.name}
-						//- 	h4
-						//- 		if member.twitter 
-						//- 			a(href="http://twitter.com/#{member.twitter}") @#{member.twitter}
-						//- 		else
-						//- 			span &nbsp;
-						//- 
 				
 
 		section.footer
@@ -188,5 +196,6 @@ html
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
 		block scripts
+		script(type="text/javascript" src="/public/js/masonry.pkgd.min.js")
 		script(src="/public/js/theme.js")
 		script(src="/public/js/site.js")
