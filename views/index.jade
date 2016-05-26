@@ -1,51 +1,184 @@
-extends layout
+doctype html
+html
+	head
+		meta(charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
+		title Little Rock Tech Fest 2016
+		//- link(href="http://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
+		//- link(href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
+		link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css", rel="stylesheet")
+		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel="stylesheet")
+		link(link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css")
+		block stylesheets
+		link(href="/public/css/animations.css", rel="stylesheet")
+		link(href="/public/css/style.css", rel="stylesheet")
+		link(href="/public/css/style-green-color.css", rel="stylesheet")
+		link(href="/public/css/custom.css", rel="stylesheet")
+		script(src="/public/js/google-analytics.js")
+	body
+		.preloader-mask
+			.preloader
+		section#hero.hero-section.bg1.window-height.light-text
+			.video-bg
+				video#home-video(autoplay loop)
+					source(src="/public/video/main.mp4" type="video/mp4")
+					source(src="/public/video/main.webm" type="video/webm")
+			ul.socials-nav
+				li.socials-nav-item
+					a(href="https://twitter.com/LRTechFest" target="new")
+						span.fa.fa-twitter
+				li.socials-nav-item
+					a(href="https://www.facebook.com/LittleRockTechFest" target="new")
+						span.fa.fa-facebook
+				li.socials-nav-item
+					a(href="mailto:info@lrtechfest.com?Subject=TechFest")
+						span.fa.fa-envelope
+			.heading-block.centered-block.align-center
+				.container
+					h5.heading-alt(style="margin-bottom: 8px;")
+						span.fa.fa-calendar-o.base-clr-txt 
+						span October 20-21, 2016
+						span.fa.fa-map-marker.base-clr-txt 
+						span Little Rock, AR
+					h1.extra-heading Little Rock Tech Fest
+					h6.thin.base-font Two days of learning, networking, and fun for web and software developers
+					.btns-container
+						a(class="btn btn-primary btn-md" href="https://www.papercall.io/lrtf") Call for Speakers
+		header.header.header-black
+			.header-wrapper
+				.container
+					.col-sm-2.col-xs-12.navigation-header
+						a.logo(href="#")
+							img(src="/public/img/lrtf-logo-small.png" style="height:80px;margin-top: -24px;")
+						button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation")
+							span(class="icon-bar")
+							span(class="icon-bar")
+							span(class="icon-bar")
+					.col-sm-10.col-xs-12.navigation-container
+						#navigation.navbar-collapse.collapse
+							ul.navigation-list.pull-left.light-text
+								li.navigation-item
+									a(class="navigation-link" href="https://www.papercall.io/lrtf") Call for Speakers
+								li.navigation-item
+									a(class="navigation-link" href="#sponsors") Sponsors
+								//- li.navigation-item
+								//- 	a(class="navigation-link" href="#speakers") Schedule
+							a(class="pull-right buy-btn" href="#") Buy Tickets	
 
-block content
-	//- #landing
-	//- 	.container-fluid
-	//- 		#time-place
-	//- 			hr
-	//- 			.time-place-inner
-	//- 				span.fa.fa-calendar-o
-	//- 				span October 20-21 2016
-	//- 				.sep
-	//- 				span.h3.fa.fa-map-marker
-	//- 				span Statehouse Convention Center
-	//- 			hr
-	//- 		#landing-content.text-center
-	//- 			h1 Little Rock<br> Tech Fest
-	//- 			h3 The premier <b>two-day</b> developer event in Arkansas
-	//- 		
-	//- 		#announcement
-	//- 			.row
-	//- 				.col-xs-10.col-xs-offset-1.col-sm-6.col-sm-offset-3.alert.alert-warning
-	//- 					p.text-center LRTF 2016 Call for Speakers is now open.
-	//- 					p.text-center <a href="https://www.papercall.io/lrtf">Submit</a> your talk!
-	//- 	
-	//- #sponsors
-	//- 	.section
-	//- 		.section-header
-	//- 			h2 Sponsors
-	//- 			h3 We are currently seeking sponsors for 2016. To see your logo here, please <a href="/sponsors">contact</a> us!
-	//- 		.section-content
-	//- 			#sponsors-content
-	//- 				.container-fluid
-	//- 					.row.logo-row
-	//- 						each sponsor in sponsors
-	//- 							a(href="#{sponsor.Website}")
-	//- 								.item-container
-	//- 									.level
-	//- 										i(class="fa fa-trophy #{sponsor.Level}")
-	//- 										span #{sponsor.Level} Sponsor
-	//- 									.logo-frame
-	//- 										.logo-img
-	//- 										img(src="#{sponsor.Logo}")
-	//- 						a(href="/sponsors")
-	//- 							.item-container
-	//- 								.level
-	//- 									i.fa.fa-trophy.silver
-	//- 									span Sponsor Us!
-	//- 								.logo-frame
-	//- 									.logo-img
-	//- 									img(src="/public/img/sponsors/default.png")
-	//- 					
+		section#about.section.align-center
+			.container
+				.icon.section-icon.icon-multimedia-12
+				h3 You want to be at #LRTF 2016
+				p.text-alt There are exciting changes in store! This year we are unveiling a two-day format,<br class="hidden-sm hidden-xs"/> hosted on October 20-21 at the Statehouse Convention Center in Little Rock, Arkansas.
+
+	
+		section#sign_up.section.bg-cover.bg4.light-text.align-center
+			.container
+				h2
+					span.highlight Get Notified
+				small Get news about the event and get notified when registration opens up.
+				.col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2
+					//- <!-- Begin MailChimp Signup Form -->
+					link(href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css")
+					#mc_embed_signup
+					form(action="//lrtechfest.us10.list-manage.com/subscribe/post?u=7f81e7471c2c58788b0939cda&amp;id=a8af54325e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
+						#mc_embed_signup_scroll
+							#mce-responses.clear
+								.response#mce-error-response(style="display:none")
+								.response#mce-success-response(style="display:none")
+							div(style="position: absolute; left: -5000px;" aria-hidden="true")
+								input(type="text" name="b_7f81e7471c2c58788b0939cda_a8af54325e" tabindex="-1" value="")
+							fieldset.col-sm-8.mc-field-group
+								input#mce-EMAIL.required.email.NewsletterEmail(name="EMAIL" type="email" placeholder="email@email.com")
+							fieldset.col-sm-4
+								//- input.btn.btn-sm.btn-outline-clr(type="submit" value="submit")
+								input.btn.btn-sm.btn-outline-clr(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe")
+								
+
+		section#sponsors.section.align-center
+			.container
+				span.icon.section-icon.icon-documents-bookmarks-12
+				h3 Sponsors
+				p We are currently seeking sponsors for 2016. To see your logo here, please <a href="mailto:sponsors@lrtechfest.com?Subject=TechFest">contact us</a>!
+				br
+				br
+				
+				//- h4 Platinum
+				.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Platinum"
+						.sponsor.big
+							a(href="#{sponsor.Website}" target="_blank")
+								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+				
+				.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Gold" || sponsor.Level == "Silver"
+						.sponsor.inline
+							a(href="#{sponsor.Website}" target="_blank")
+								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+							
+				h4 Bronze
+				.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Bronze"
+						.sponsor.inline.small
+							a(href="#{sponsor.Website}" target="_blank")
+								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+
+
+		.maincontent
+			block content
+
+
+		section.section.align-center
+			.container
+				h5 Brought to you with <i class="fa fa-heart"></i> by
+				.speakers.masonry
+					each member in team
+						.speaker.masonry-item
+							.speaker-top
+								.photo-wrapper
+									img.img-responsive(src="#{member.imgUrl}")
+								.speaker-title
+									h3.name #{member.name}
+									p.text-alt <small> #{member.title} @ #{member.company} </small>
+								ul.speaker-socials
+									if member.twitter 
+										li
+											a(href="http://twitter.com/#{member.twitter}") <span class="fa fa-twitter"></span>
+									else 
+										li &nbsp;
+
+		section.footer
+			.footer-base
+				.container
+					.col-md-6
+						ul.footer-nav
+							li.footer-nav-item
+								a(href="mailto:info@lrtechfest.com") Contact
+							//- li.footer-nav-item
+							//- 	a(href="#") Privacy policy
+							//- li.footer-nav-item
+							//- 	a(href="#") Press
+					.col-md-6.align-right
+						ul.socials-nav.align-right
+							li.socials-nav-item
+								a(href="https://twitter.com/LRTechFest" target="new")
+									span.fa.fa-twitter
+							li.socials-nav-item
+								a(href="https://www.facebook.com/LittleRockTechFest" target="new")
+									span.fa.fa-facebook
+							li.socials-nav-item
+								a(href="mailto:info@lrtechfest.com?Subject=TechFest")
+									span.fa.fa-envelope
+						p.text-alt
+							small All Rights Reserved © 2016&nbsp;
+								a(href="http://www.everleap.com/go/go.aspx?i=21199")
+									span Hosted by Everleap
+	
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
+		block scripts
+		script(type="text/javascript" src="/public/js/masonry.pkgd.min.js")
+		script(src="/public/js/theme.js")
+		script(src="/public/js/site.js")

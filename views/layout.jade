@@ -15,34 +15,7 @@ html
 		link(href="/public/css/custom.css", rel="stylesheet")
 		script(src="/public/js/google-analytics.js")
 	body
-		//- .preloader-mask
-		//- 	.preloader
-		section#hero.hero-section.bg1.window-height.light-text
-			.video-bg
-				video#home-video(autoplay loop)
-					source(src="/public/video/main.mp4" type="video/mp4")
-					source(src="/public/video/main.webm" type="video/webm")
-			ul.socials-nav
-				li.socials-nav-item
-					a(href="https://twitter.com/LRTechFest" target="new")
-						span.fa.fa-twitter
-				li.socials-nav-item
-					a(href="https://www.facebook.com/LittleRockTechFest" target="new")
-						span.fa.fa-facebook
-				li.socials-nav-item
-					a(href="mailto:info@lrtechfest.com?Subject=TechFest")
-						span.fa.fa-envelope
-			.heading-block.centered-block.align-center
-				.container
-					h5.heading-alt(style="margin-bottom: 8px;")
-						span.fa.fa-calendar-o.base-clr-txt 
-						span October 20-21, 2016
-						span.fa.fa-map-marker.base-clr-txt 
-						span Little Rock, AR
-					h1.extra-heading Little Rock Tech Fest
-					h6.thin.base-font Two days of learning, networking, and fun for web and software developers
-					.btns-container
-						a(class="btn btn-primary btn-md" href="https://www.papercall.io/lrtf") Call for Speakers
+
 		header.header.header-black
 			.header-wrapper
 				.container
@@ -64,107 +37,10 @@ html
 								//- 	a(class="navigation-link" href="#speakers") Schedule
 							a(class="pull-right buy-btn" href="#") Buy Tickets	
 
-		section#about.section.align-center
-			.container
-				.icon.section-icon.icon-multimedia-12
-				h3 You want to be at #LRTF 2016
-				p.text-alt There are exciting changes in store! This year we are unveiling a two-day format,<br class="hidden-sm hidden-xs"/> hosted on October 20-21 at the Statehouse Convention Center in Little Rock, Arkansas.
-
 	
-		section#sign_up.section.bg-cover.bg4.light-text.align-center
-			.container
-				h2
-					span.highlight Get Notified
-				small Get news about the event and get notified when registration opens up.
-				.col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2
-					//- <!-- Begin MailChimp Signup Form -->
-					link(href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css")
-					#mc_embed_signup
-					form(action="//lrtechfest.us10.list-manage.com/subscribe/post?u=7f81e7471c2c58788b0939cda&amp;id=a8af54325e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
-						#mc_embed_signup_scroll
-							#mce-responses.clear
-								.response#mce-error-response(style="display:none")
-								.response#mce-success-response(style="display:none")
-							div(style="position: absolute; left: -5000px;" aria-hidden="true")
-								input(type="text" name="b_7f81e7471c2c58788b0939cda_a8af54325e" tabindex="-1" value="")
-							fieldset.col-sm-8.mc-field-group
-								input#mce-EMAIL.required.email.NewsletterEmail(name="EMAIL" type="email" placeholder="email@email.com")
-							fieldset.col-sm-4
-								//- input.btn.btn-sm.btn-outline-clr(type="submit" value="submit")
-								input.btn.btn-sm.btn-outline-clr(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe")
-								
-
-		section#sponsors.section.align-center
-			.container
-				span.icon.section-icon.icon-documents-bookmarks-12
-				h3 Sponsors
-				p We are currently seeking sponsors for 2016. To see your logo here, please <a href="mailto:sponsors@lrtechfest.com?Subject=TechFest">contact us</a>!
-				br
-				br
-				
-				//- h4 Platinum
-				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Platinum"
-						.sponsor.big
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-				
-				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Gold" || sponsor.Level == "Silver"
-						.sponsor.inline
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-							
-				h4 Bronze
-				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Bronze"
-						.sponsor.inline.small
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-
-
 		.maincontent
 			block content
 
-
-		section.section.align-center
-			.container
-				h5 Brought to you with <i class="fa fa-heart"></i> by
-				.speakers.masonry
-					each member in team
-						.speaker.masonry-item
-							.speaker-top
-								.photo-wrapper
-									img.img-responsive(src="#{member.imgUrl}")
-								.speaker-title
-									h3.name #{member.name}
-									p.text-alt <small> #{member.title} @ #{member.company} </small>
-								ul.speaker-socials
-									if member.twitter 
-										li
-											a(href="http://twitter.com/#{member.twitter}") <span class="fa fa-twitter"></span>
-									else 
-										li &nbsp;
-											
-				//- <div class="speaker masonry-item">
-				//- 	<div class="speaker-top">
-				//- 		<div class="photo-wrapper rounded"><img src="../assets/img/speakers/speaker1.jpg" alt="John Doe" class="img-responsive"></div>
-				//- 		<div class="speaker-title">
-				//- 			<h3 class="name">Andrea Warraety</h3>
-				//- 			<p class="text-alt"><small>Designer @ Instagram</small></p>
-				//- 		</div>
-				//- 		<ul class="speaker-socials">
-				//- 			<li><a href="#"><span class="fa fa-facebook"></span></a></li>
-				//- 			<li><a href="#"><span class="fa fa-twitter"></span></a></li>
-				//- 		</ul>
-				//- 	</div>
-				//- 	<p class="about">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
-				//- </div>
-
-				
 
 		section.footer
 			.footer-base
