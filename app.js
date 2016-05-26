@@ -14,7 +14,7 @@ app.set('view engine', 'jade');
 app.use(express.static(__dirname, 'public'));
 
 var team = [
-	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock', title: 'Lead Developer', company: 'DataPath'},
+	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock', title: 'Developer', company: 'DataPath'},
 	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims', title: 'Owner/Developer', company: 'Idestini Dev Studio'},
 	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower', title: 'Owner/Developer', company: 'Lunamark'},
 	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei', title: 'Software Developer', company: 'CareEvolution'},
