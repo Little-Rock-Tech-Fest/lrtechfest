@@ -31,8 +31,11 @@ html
 							ul.navigation-list.pull-left.light-text
 								li.navigation-item
 									a(class="navigation-link" href="https://www.papercall.io/lrtf") Call for Speakers
-								li.navigation-item
-									a(class="navigation-link" href="#sponsors") Sponsors
+								li.navigation-item.dropdown
+									a.navigation-link.dropdown-toggle(href="/#sponsors") Sponsors
+									ul.dropdown-menu
+										li.navigation-item
+											a(class="navigation-link" href="/sponsors") Become a sponsor
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="#speakers") Schedule
 							//- a(class="pull-right buy-btn" href="#") Buy Tickets	
