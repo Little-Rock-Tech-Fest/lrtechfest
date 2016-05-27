@@ -1,130 +1,126 @@
 extends layout
 
 block content
-	.section.group.spr-head
+	.section.align-center
 		.section-header.col-sm-10.col-sm-offset-1
-			h3 Partner With Us
-			h5 
-				strong We are looking for a few good sponsors
-			//- p For more information or to express interest in sponsorship, please email our team at <a href="mailto:sponsors@lrtechfest.com">sponsors@lrtechfest.com</a>.
-	
-	.section-content
+			h1 Become a sponsor of Little Rock Tech Fest
 
-		section.fullwidth-section
-			div.fullwidth-path
-				div(class="fullwidth-section-bg bg-right" style="background-image: url('placeholder-square.jpg')")
-				div.col-sm-6.align-right.fullwidth-column
-					article
-						h4 What It's All About
-						p Little Rock Tech Fest is a 2 day  annual developer conference featuring popular web, mobile and related developer topics from industry leaders. It's designed to provide both aspiring and established developers from across Arkansas and the surrounding regions a forum to learn and network with peers.
-						a(href="#" class="link-btn btn" style="margin: 30px 0 0") Learn More
+	section.fullwidth-section
+		div.fullwidth-path
+			div(class="fullwidth-section-bg bg-right" style="background-image: url('/public/img/backgrounds/attendees.jpg')")
+			div.col-sm-6.align-right.fullwidth-column
+				article
+					h2 This conference won't be awesome without your help.
+					p
+						small.text-alt Show the Central and Greater Arkansas developer community you love them.
+					p Help us make this Little Rock Tech Fest the best yet. Last year, we had 425 developers attend. With two days of content, we need your help to make sure everyone is comfortable, fed, and entertained. In exchange for your help, we'll show your organization lots of love too. 
+					//- p Last year we had 425 developers attend our event. Let us promote you through our email list, our social media presence, and at the event.
+					a(href="mailto:sponsors@lrtechfest.com" class="link-btn" style="margin: 30px 0 0") Have a question about sponsorship? 
+					
 
-			div.fullwidth-path
-				div(class="fullwidth-section-bg bg-left" style="background-image: url('placeholder-square.jpg')")
-				div.col-sm-6.col-sm-offset-6.align-left.fullwidth-column
-					article
-						h4 Call for Sponsors
-						p Support Little Rock Techfest, the premier developer conference in Arkansas! <a href="#spr-benf">Below</a>, you'll find a list of benefits offered for your level of support.
-						a(href="#" class="link-btn btn" style="margin: 30px 0 0") Become A Sponsor
-
-		div.col-sm-10.col-sm-offset-1
-			h4#spr-benf Sponsorship Levels
-			table.table
-				thead
-					tr
-						td 
-						td Bronze <br> $500
-						td Silver <br> $1500 
-						td Gold <br> $3000
-						td Platinum <br> $6000
-				tbody
-					tr
-						td Logo on website
-						td ✔
-						td ✔
-						td ✔
-						td ✔
-					tr
-						td Job postings on our website
-						td ✔
-						td ✔
-						td ✔
-						td ✔
-					tr 
-						td Logo Size
-						td sm
-						td lg
-						td lg
-						td xl
-					tr
-						td Atendee Passes
-						td -
-						td 2
-						td 4
-						td 8
-					tr 
-						td Booth Worker Passes
-						td -
-						td 2
-						td 3
-						td 4
-					tr
-						td Logo on emails
-						td 
-						td ✔
-						td ✔
-						td ✔
-					tr
-						td Logo on shirt
-						td 
-						td ✔
-						td ✔
-						td ✔
-					tr
-						td Vendor Table*
-						td 
-						td ✔
-						td ✔
-						td ✔
-					tr
-						td Collateral in attendee bags
-						td
-						td ✔
-						td ✔
-						td ✔
-					tr
-						td Room sponsors**
-						td
-						td
-						td ✔
-						td ✔
-					tr
-						td Logo on attendee bags
-						td
-						td
-						td
-						td ✔
-					tr
-						td Logo on conference badge
-						td
-						td
-						td
-						td ✔
-					tr
-						td Banner ad space on emails
-						td
-						td
-						td
-						td ✔
-					tr
-						td Micro event sponsership. Choice of: breakfast, lunch, after party***
-						td
-						td
-						td
-						td ✔
-	
-			p *Vendor table space is first­come, limited to 10 vendors. Must indicate desire for table at time of donation. We cannot guarantee space later if you do not reserve at time of donation. Tables are not available with Bronze sponsorship. Additional booth worker passes $50 each.
-			p **Do up a conference room with your company’s brand. Limited availability. 3 rooms. First come, first serve.
-			p ***Only one sponsor per meal.
-
-		hr
+	section
+		.row.align-center.btns-block
+			a(href="#" class="btn btn-lg") Become a Sponsor
+		.row
+			div.col-md-8.col-md-offset-2
+				h4#spr-benf Sponsorship Levels
+				table.table
+					thead
+						tr
+							td 
+							td Bronze <br> $500
+							td Silver <br> $1500 
+							td Gold <br> $3000
+							td Platinum <br> $6000
+					tbody
+						tr
+							td Logo on website
+							td ✔
+							td ✔
+							td ✔
+							td ✔
+						tr
+							td Job postings on our website
+							td ✔
+							td ✔
+							td ✔
+							td ✔
+						tr 
+							td Logo Size
+							td sm
+							td lg
+							td lg
+							td xl
+						tr
+							td Atendee Passes
+							td -
+							td 2
+							td 4
+							td 8
+						tr 
+							td Booth Worker Passes
+							td -
+							td 2
+							td 3
+							td 4
+						tr
+							td Logo on emails
+							td 
+							td ✔
+							td ✔
+							td ✔
+						tr
+							td Logo on shirt
+							td 
+							td ✔
+							td ✔
+							td ✔
+						tr
+							td Vendor Table*
+							td 
+							td ✔
+							td ✔
+							td ✔
+						tr
+							td Collateral in attendee bags
+							td
+							td ✔
+							td ✔
+							td ✔
+						tr
+							td Room sponsors**
+							td
+							td
+							td ✔
+							td ✔
+						tr
+							td Logo on attendee bags
+							td
+							td
+							td
+							td ✔
+						tr
+							td Logo on conference badge
+							td
+							td
+							td
+							td ✔
+						tr
+							td Banner ad space on emails
+							td
+							td
+							td
+							td ✔
+						tr
+							td Micro event sponsership. Choice of: breakfast, lunch, after party***
+							td
+							td
+							td
+							td ✔
+		.row
+			div.col-md-8.col-md-offset-2
+				p *Vendor table space is first­come, limited to 10 vendors. Must indicate desire for table at time of donation. We cannot guarantee space later if you do not reserve at time of donation. Tables are not available with Bronze sponsorship. Additional booth worker passes $50 each.
+				p **Do up a conference room with your company’s brand. Limited availability. 3 rooms. First come, first serve.
+				p ***Only one sponsor per meal.
+		.row.align-center.btns-block
+			a(href="#" class="btn btn-lg" style="margin-top:40px") Become a Sponsor

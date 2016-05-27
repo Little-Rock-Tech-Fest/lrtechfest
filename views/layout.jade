@@ -20,7 +20,7 @@ html
 			.header-wrapper
 				.container
 					.col-sm-2.col-xs-12.navigation-header
-						a.logo(href="#")
+						a.logo(href="/")
 							img(src="/public/img/lrtf-logo-small.png" style="height:80px;margin-top: -24px;")
 						button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation")
 							span(class="icon-bar")
@@ -35,11 +35,11 @@ html
 									a(class="navigation-link" href="#sponsors") Sponsors
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="#speakers") Schedule
-							a(class="pull-right buy-btn" href="#") Buy Tickets	
+							//- a(class="pull-right buy-btn" href="#") Buy Tickets	
 
 	
-		.maincontent
-			block content
+
+		block content
 
 
 		section.footer
