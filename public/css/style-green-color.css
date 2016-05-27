@@ -5899,6 +5899,12 @@ button[type="submit"] .loading {
 .sponsor.inline {
   vertical-align: middle;
 }
+.sp-content-text {
+  text-align: center;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
 @media (max-width: 1199px) {
   .sponsor:not(.inline):not(.big) {
     margin: 8px;
