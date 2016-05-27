@@ -5899,6 +5899,9 @@ button[type="submit"] .loading {
 .sponsor.inline {
   vertical-align: middle;
 }
+.section {
+  padding: auto;
+}
 .sp-content-text {
   text-align: center;
   -webkit-transform-style: preserve-3d;
