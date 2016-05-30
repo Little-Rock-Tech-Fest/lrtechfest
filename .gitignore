@@ -11,3 +11,15 @@ obj
 public/css/animations.css
 public/css/style-green-color.css
 public/css/style.css
+
+# OS generated files #
+######################
+*/.DS_Store
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db

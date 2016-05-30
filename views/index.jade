@@ -151,6 +151,18 @@ html
 											a(href="http://twitter.com/#{member.twitter}") <span class="fa fa-twitter"></span>
 									else 
 										li &nbsp;
+										
+									if member.linkedin
+										li
+											a(href="http://linkedin.com/in/#{member.linkedin}") <span class="fa fa-linkedin"></span>
+									else
+										li &nbsp;
+										
+									if member.github
+										li
+											a(href="http://github.com/#{member.github}") <span class="fa fa-github"></span>
+									else
+										li &nbsp;
 
 		section.footer
 			.footer-base
@@ -176,8 +188,6 @@ html
 									span.fa.fa-envelope
 						p.text-alt
 							small All Rights Reserved © 2016&nbsp;
-								a(href="http://www.everleap.com/go/go.aspx?i=21199")
-									span Hosted by Everleap
 	
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
