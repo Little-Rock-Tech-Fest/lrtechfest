@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/kneumei/lrtechfest.git"
   },
+  "scripts":{
+    "post install": "gulp"
+  },
   "author": "Kyle Neumeier",
   "license": "BSD-2-Clause",
   "dependencies": {
