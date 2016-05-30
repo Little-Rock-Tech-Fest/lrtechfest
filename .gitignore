@@ -7,3 +7,7 @@ obj
 *.sublime-project
 *.sublime-workspace
 .vscode
+
+public/css/animations.css
+public/css/style-green-color.css
+public/css/style.css
