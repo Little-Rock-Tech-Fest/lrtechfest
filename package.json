@@ -7,6 +7,12 @@
     "type": "git",
     "url": "https://github.com/kneumei/lrtechfest.git"
   },
+  "scripts":{
+    "postinstall": "gulp"
+  },
+  "engines" : { 
+    "node" : ">=0.12"
+  }, 
   "author": "Kyle Neumeier",
   "license": "BSD-2-Clause",
   "dependencies": {
@@ -14,6 +20,13 @@
     "jade": "~1.9.2",
     "lodash": "~3.3.1",
     "q": "~1.2.0",
-    "slugs": "~0.1.2"
+    "slugs": "~0.1.2",
+    "gulp": "~3.9.1",
+    "gulp-less": "~3.1.0",
+    "gulp-minify-css": "~1.2.0",
+    "gulp-install": "~0.6.0"
+  },
+  "devDependencies": {
+
   }
 }

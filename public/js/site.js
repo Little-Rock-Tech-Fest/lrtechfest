@@ -7,8 +7,13 @@
 		landing.css({
 			//height: landingHeight + "px"
 		});
+
 	};
 
 	$(window).resize(landingInit);
 	$(document).ready(landingInit);
+
+
+  $("#home-video").playbackRate = 0.5;
+
 })(jQuery);

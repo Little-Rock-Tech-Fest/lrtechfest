@@ -14,12 +14,12 @@ app.set('view engine', 'jade');
 app.use(express.static(__dirname, 'public'));
 
 var team = [
-	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock'},
-	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims'},
-	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower'},
-	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei'},
-	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png'},
-	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81'},
+	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock', title: 'Developer', company: 'DataPath'},
+	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims', title: 'Owner/Developer', company: 'Idestini Dev Studio'},
+	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower', title: 'Owner/Developer', company: 'Lunamark'},
+	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei', title: 'Software Developer', company: 'CareEvolution'},
+	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png', title: 'Developer', company: 'Arkansas Children\'s Hospital'},
+	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'},
 ];
 
 app.get("/programs/:year", function (req, res) {
