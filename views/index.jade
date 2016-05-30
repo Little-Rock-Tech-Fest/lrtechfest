@@ -24,10 +24,10 @@ html
 					source(src="/public/video/main.webm" type="video/webm")
 			ul.socials-nav
 				li.socials-nav-item
-					a(href="https://twitter.com/LRTechFest" target="new")
+					a(href="https://twitter.com/LRTechFest" target="_blank")
 						span.fa.fa-twitter
 				li.socials-nav-item
-					a(href="https://www.facebook.com/LittleRockTechFest" target="new")
+					a(href="https://www.facebook.com/LittleRockTechFest" target="_blank")
 						span.fa.fa-facebook
 				li.socials-nav-item
 					a(href="mailto:info@lrtechfest.com?Subject=TechFest")
@@ -148,19 +148,22 @@ html
 								ul.speaker-socials
 									if member.twitter 
 										li
-											a(href="http://twitter.com/#{member.twitter}") <span class="fa fa-twitter"></span>
+											a(href="http://twitter.com/#{member.twitter}" target="_blank")
+												span.fa.fa-twitter
 									else 
 										li &nbsp;
 										
 									if member.linkedin
 										li
-											a(href="http://linkedin.com/in/#{member.linkedin}") <span class="fa fa-linkedin"></span>
+											a(href="http://linkedin.com/in/#{member.linkedin}" target="_blank") 
+												span.fa.fa-linkedin
 									else
 										li &nbsp;
 										
 									if member.github
 										li
-											a(href="http://github.com/#{member.github}") <span class="fa fa-github"></span>
+											a(href="http://github.com/#{member.github}" target="_blank")
+												span.fa.fa-github
 									else
 										li &nbsp;
 
@@ -178,10 +181,10 @@ html
 					.col-md-6.align-right
 						ul.socials-nav.align-right
 							li.socials-nav-item
-								a(href="https://twitter.com/LRTechFest" target="new")
+								a(href="https://twitter.com/LRTechFest" target="_blank")
 									span.fa.fa-twitter
 							li.socials-nav-item
-								a(href="https://www.facebook.com/LittleRockTechFest" target="new")
+								a(href="https://www.facebook.com/LittleRockTechFest" target="_blank")
 									span.fa.fa-facebook
 							li.socials-nav-item
 								a(href="mailto:info@lrtechfest.com?Subject=TechFest")
