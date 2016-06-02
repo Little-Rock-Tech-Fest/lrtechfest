@@ -7,4 +7,6 @@ http://www.lrtechfest.com
 
 To run:
  - npm install
+ - run gulp
  - node app.js
+ - localhost:9990

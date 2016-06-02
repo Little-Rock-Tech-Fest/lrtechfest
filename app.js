@@ -46,6 +46,22 @@ app.get("/pastyear/:year", function (req, res) {
 		}, console.error);
 });
 
+app.get('/jobs', function(req, res){
+	res.render('jobs');
+});
+
+// app.get('/jobs.json', function(req, res){
+// 	var jobs;
+// 	fs_readFile('jobs.json', 'utf8')
+// 		.then(function(jobData){
+// 			sponsors = JSON.parse(jobData);
+// 			res.render('jobs', {jobs: jobs});
+// 		})
+// 		.catch(function(e){
+// 			console.log(e);
+// 			res.render('500');
+// 		});
+// });
 
 app.get('/sponsors', function(req, res){
 	res.render('sponsors');
