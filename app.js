@@ -50,6 +50,10 @@ app.get('/jobs', function(req, res){
 	res.render('jobs');
 });
 
+app.get('/jobDesc', function(req, res){
+	res.render('jobDesc');
+});
+
 // app.get('/jobs.json', function(req, res){
 // 	var jobs;
 // 	fs_readFile('jobs.json', 'utf8')

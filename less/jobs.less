@@ -1,21 +1,84 @@
+//CSS that applies to both the jobs and jobsDesc views
+
+.icon-list, .icon-list li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.icon-list li {
+  margin: 1em;
+  margin-left: 3em;
+}
+
+.li-location li:before, .li-type li:before {
+  font-family: 'FontAwesome';
+  float: left;
+  margin-left: -1.5em;
+  color: #6FAE41;
+}
+
+.li-location li:before {
+  content: '\f041'; /* fa-map-marker */
+}
+
+.li-type li:before {
+  content: '\f017'; /* fa-clock-o */
+}
+
+.logo {
+	text-align: center;
+	padding: 0;
+}
+
+//CSS that only applies to jobs view
+
 .job-anchor {
 	text-decoration: none;
 }
 
 .job-table {
-	background-color: #6FAE41;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.job-row {
+	background-color: rgba(111, 175, 65, 0.4);
+	height: 1px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.job-row:first-child {
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.job-row:nth-child(even) {
+	background-color: rgba(111, 175, 65, 0.3);
 	height: 1px;
 }
 
-.job-table:hover {
-	background-color: grey;
+.job-row:hover {
+	background-color: rgba(111, 175, 65, 0.5);
 }
 
 .job-wrap {
 	height: 100%;
-	color: black;
+	width: 100%
+	padding: 0;
+}
+
+.job-wrap div {
+	width: 100%;
+	padding: 0;
+}
+
+.job-content {
+	padding: 0;
+	margin: 0;
 }
 
 .job-wrap:hover {
 	text-decoration: none;
 }
+
+//CSS that only applies to the jobsDesc views
