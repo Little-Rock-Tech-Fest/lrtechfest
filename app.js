@@ -50,10 +50,6 @@ app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
 
-app.get('/jobDesc', function(req, res){
-	res.render('jobDesc');
-});
-
 app.get('/about', function(req, res){
 	res.render('about', {team: team})
 });
@@ -81,6 +77,19 @@ app.get('/jobs', function(req, res){
 		.then(function(jobData){
 			jobs = JSON.parse(jobData);
 			res.render('jobs', {jobs: jobs});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+});
+
+app.get('/jobDesc', function(req, res){
+	var jobs;
+	fs_readFile('jobs.json', 'utf8')
+		.then(function(jobsData){
+			jobs = JSON.parse(jobsData);
+			res.render('jobDesc', {jobs: jobs});
 		})
 		.catch(function(e){
 			console.log(e);
