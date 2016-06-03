@@ -12,7 +12,7 @@ block content
 				div.col-sm-10.col-sm-offset-1.jobDesc-wrap
 					div.col-sm-12
 						div.col-sm-4
-							img.col-sm-2(style="height: 100%" src="/logo.png", alt="Logo")
+							img.col-sm-2.logo(src="/logo.png", alt="Logo")
 							a(href="#{job.website}" target="_blank")
 								h5.col-sm-10 #{job.compName}
 							hr
@@ -24,6 +24,9 @@ block content
 									li #{job.location}
 								ul.icon-list.li-date
 									li Posted: #{job.datePosted}
+							hr
+							.row.align-center.btns-block
+								a(href="#{job.appLink}" target="_blank" class="btn btn-md") Apply Now
 						div.col-sm-8
 							h5 #{job.title}
 							hr
@@ -32,8 +35,10 @@ block content
 							p #{job.fullDesc[1].paraTwo}
 							p #{job.fullDesc[2].paraThree}
 							p #{job.fullDesc[3].paraFour}
+
+
+	hr
 							
-				.row.align-center.btns-block
-					a(href="#{job.appLink}" target="_blank" class="btn btn-lg" style="margin-top:40px") Apply Now
+				
 			
 				

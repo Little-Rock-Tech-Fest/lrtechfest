@@ -1,5 +1,13 @@
 //CSS that applies to both the jobs and jobsDesc views
 
+.logo {
+	text-align: center;
+}
+
+.logo img{
+	max-height: 85px;
+	width: auto;
+}
 
 //CSS that only applies to jobs view
 
@@ -31,18 +39,19 @@
 	color: black;
 }
 
-.logo {
-	text-align: center;
-}
-
-.logo img{
-	max-height: 85px;
-	width: auto;
-}
-
 .content-top, .content-bottom {
 	margin: 5px 0 0 0;
 	padding: 0;
+}
+
+@media (max-width: 600px) {
+	.job-wrap {
+		max-height: 500px;
+	}
+	.job-content span{
+		width: 100%;	
+	}
+
 }
 
 //CSS that only applies to the jobsDesc views
@@ -75,14 +84,4 @@
 
 .li-date li:before {
   content: '\f133'; /* fa-calendar-o */
-}
-
-@media (max-width: 600px) {
-	.job-wrap {
-		max-height: 500px;
-	}
-	.job-content span{
-		width: 100%;	
-	}
-
 }

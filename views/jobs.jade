@@ -1,11 +1,11 @@
 extends layout
 
 block content
-	section.section.align-center(style="padding: 50px 0")
+	section.align-center(style="padding: 50px 0")
 		div.container
 			h5.heading-alt Jobs
 				hr
-
+	//- a.pull-right.btn.btn-lg(href="#") List your job
 	section#jobs
 		each job in jobs
 			div.col-xs-12.col-sm-12.col-md-8.col-md-offset-2.job-wrap
