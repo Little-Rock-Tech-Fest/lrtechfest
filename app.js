@@ -20,7 +20,7 @@ var team = [
 	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei', linkedin: 'kyle-neumeier-1270728', github: 'kneumei', title: 'Software Developer', company: 'CareEvolution'},
 	{name: 'Schell Gower', imgUrl: '/public/img/team/schell.png', twitter: 'schellg', linkedin: 'schell-gower-8771769', title: 'Marketing Consultant', company: 'LunaMarketing'},
 	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png', title: 'Developer', linkedin: 'michael-collins-37553570', github: 'michaeljeffreycollins', company: 'Arkansas Children\'s Hospital'},
-	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'},
+	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'}
 ];
 
 app.get("/programs/:year", function (req, res) {
@@ -46,34 +46,17 @@ app.get("/pastyear/:year", function (req, res) {
 		}, console.error);
 });
 
-app.get('/jobs', function(req, res){
-	res.render('jobs');
+app.get('/sponsors', function(req, res){
+	res.render('sponsors');
 });
 
 app.get('/jobDesc', function(req, res){
 	res.render('jobDesc');
 });
 
-// app.get('/jobs.json', function(req, res){
-// 	var jobs;
-// 	fs_readFile('jobs.json', 'utf8')
-// 		.then(function(jobData){
-// 			sponsors = JSON.parse(jobData);
-// 			res.render('jobs', {jobs: jobs});
-// 		})
-// 		.catch(function(e){
-// 			console.log(e);
-// 			res.render('500');
-// 		});
-// });
-
-app.get('/sponsors', function(req, res){
-	res.render('sponsors');
-});
-
 app.get('/about', function(req, res){
 	res.render('about', {team: team})
-})
+});
 
 app.get('/', function(req, res){
 	var sponsors;
@@ -85,6 +68,19 @@ app.get('/', function(req, res){
 		.then(function(speakerData){
 			var speakers = JSON.parse(speakerData);
 			res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+});
+
+app.get('/jobs', function(req, res){
+	var jobs;
+	fs_readFile('jobs.json', 'utf8')
+		.then(function(jobData){
+			jobs = JSON.parse(jobData);
+			res.render('jobs', {jobs: jobs});
 		})
 		.catch(function(e){
 			console.log(e);

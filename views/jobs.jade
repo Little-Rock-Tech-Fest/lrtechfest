@@ -7,29 +7,17 @@ block content
 	section#jobs.fullwidth-section
 		table.job-table.col-sm-8.col-sm-offset-2
 			tbody
-				tr.job-row
-					td
-						a(href="/jobDesc" class="job-anchor")
-							img.col-sm-2.logo(style="max-height: 86px; width: auto;" src="/logo.png", alt="Logo")
-							div.col-sm-10.job-wrap
-								div.col-sm-12
-									h6.col-sm-9.job-content Looking for a few good Nick Cage fans
-									p.col-sm-3.job-content(style="text-align: right;") Full Time
-								div.col-sm-12
-									p.col-sm-9.job-content Nick Cage Corp
-									ul.col-sm-3.icon-list.li-location.job-content(style="text-align: right;")
-										li Little Rock, AR
-				tr.job-row
-					td
-						a(href="/jobDesc" class="job-anchor")
-							img.col-sm-2.logo(style="max-height: 86px; width: auto;" src="/logo.png", alt="Logo")
-							div.col-sm-10.job-wrap
-								div.col-sm-12
-									h6.col-sm-9.job-content Looking for a few good Nick Cage fans
-									p.col-sm-3.job-content(style="text-align: right;") Full Time
-								div.col-sm-12
-									p.col-sm-9.job-content Nick Cage Corp
-									ul.col-sm-3.icon-list.li-location.job-content(style="text-align: right;")
-										li Little Rock, AR
+				each job in jobs
+					tr.job-row
+						td
+							a(href="/jobDesc" class="job-anchor")
+								img.col-sm-2.logo(style="max-height: 86px; width: auto;" src="#{job.logo}", alt="Logo")
+								div.col-sm-10.job-wrap
+									div.col-sm-12
+										h6.col-sm-9.job-content #{job.shortDesc}
+										p.col-sm-3.job-content(style="text-align: right;") #{job.type}
+									div.col-sm-12
+										p.col-sm-9.job-content #{job.compName}
+										p(style="text-align: right;").col-sm-3.job-content<i class="fa fa-map-marker" aria-hidden="true">	#{job.location}</i>
 				
 	hr

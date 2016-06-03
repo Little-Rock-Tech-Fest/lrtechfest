@@ -1,35 +1,24 @@
 [
 	{
-		"logo": "Syncano",
-		"title": "Gold",
-		"company": "Nick Cage",
-		"Website": "http://niccageaseveryone.blogspot.com/",
-		"location": "Little Rock",
-		"type": "Fulltime"
+		"logo": "/logo.png",
+		"title": "Nick Cage Ego Fluffer",
+		"compName": "Nick Cage Corp",
+		"website": "http://niccageaseveryone.blogspot.com/",
+		"location": "Little Rock, AR",
+		"type": "Full Time",
+		"appLink": "http://niccageaseveryone.blogspot.com/",
+		"shortDesc": "Just doing nick cage things",
+		"fullDesc": "Gastropub umami slow-carb cardigan authentic. Raw denim chicharrones locavore godard, hoodie cray meditation vinyl. Taxidermy 3 wolf moon knausgaard ramps four loko chambray. Artisan poutine tattooed green juice freegan actually. Chartreuse williamsburg retro, street art you probably haven't heard of them hammock small batch fanny pack humblebrag scenester. Master cleanse typewriter messenger bag chia, put a bird on it waistcoat irony normcore craft beer drinking vinegar gentrify retro man braid. Jean shorts truffaut neutra, letterpress vegan butcher next level keytar salvia art party fap narwhal beard before they sold out. Selvage pour-over deep v, sustainable readymade ethical roof party. Green juice PBR&B bicycle rights pour-over celiac, single-origin coffee cronut authentic cardigan chartreuse cold-pressed iPhone deep v offal. Slow-carb bitters gluten-free, tousled selfies echo park before they sold out marfa typewriter polaroid. Street art poutine meditation, hella green juice authentic flexitarian. YOLO whatever retro, fixie fingerstache mixtape shabby chic vinyl next level four dollar toast asymmetrical chartreuse. Quinoa knausgaard pug microdosing gochujang selvage everyday carry. Fap brunch green juice, pug bicycle rights shabby chic pickled helvetica kogi wolf swag typewriter squid salvia. Selvage mustache selfies cardigan authentic sartorial, seitan williamsburg. Crucifix ugh literally, sriracha brooklyn tousled tote bag kinfolk man bun green juice street art mlkshk schlitz. Cred literally tattooed pickled, swag kogi fap listicle VHS pinterest gentrify cliche. Helvetica before they sold out kogi kitsch tumblr, four dollar toast health goth chia tote bag. Salvia affogato farm-to-table squid jean shorts, tousled chartreuse VHS viral swag ethical microdosing pinterest kickstarter. IPhone PBR&B williamsburg, deep v offal salvia kitsch pabst viral banh mi flexitarian XOXO. Tumblr cold-pressed cray tilde. Kogi banjo squid, pug portland seitan lomo man braid mumblecore. Ethical swag art party, cred +1 blog semiotics cornhole wolf fashion axe tofu cold-pressed tattooed asymmetrical mixtape. Disrupt vice vinyl brunch kogi, kombucha farm-to-table humblebrag. Slow-carb kitsch farm-to-table, man braid bespoke venmo vice etsy. Gochujang hammock letterpress salvia ennui. Gastropub vice lumbersexual listicle. Listicle distillery ennui, everyday carry letterpress squid cray narwhal blue bottle direct trade church-key."
 	},
 	{
-		"logo": "Syncano",
-		"title": "Gold",
-		"company": "Nick Cage",
-		"Website": "http://niccageaseveryone.blogspot.com/",
-		"location": "Little Rock",
-		"type": "Fulltime"
-	},
-	{
-		"logo": "Syncano",
-		"title": "Gold",
-		"company": "Nick Cage",
-		"Website": "http://niccageaseveryone.blogspot.com/",
-		"location": "Little Rock",
-		"type": "Fulltime"
-	},
-	{
-		"logo": "Syncano",
-		"title": "Gold",
-		"company": "Nick Cage",
-		"Website": "http://niccageaseveryone.blogspot.com/",
-		"location": "Little Rock",
-		"type": "Fulltime"
+		"logo": "/logo.png",
+		"title": "Adventure Side Kick",
+		"compName": "Finn & Jake LLC",
+		"website": "http://adventuretime.wikia.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki",
+		"location": "Candy Kingdom, Ooo",
+		"type": "Part Time",
+		"appLink": "http://adventuretime.wikia.com/wiki/Adventure_Time_with_Finn_and_Jake_Wiki",
+		"shortDesc": "Just being an awesome side kick!",
+		"fullDesc": "Gastropub umami slow-carb cardigan authentic. Raw denim chicharrones locavore godard, hoodie cray meditation vinyl. Taxidermy 3 wolf moon knausgaard ramps four loko chambray. Artisan poutine tattooed green juice freegan actually. Chartreuse williamsburg retro, street art you probably haven't heard of them hammock small batch fanny pack humblebrag scenester. Master cleanse typewriter messenger bag chia, put a bird on it waistcoat irony normcore craft beer drinking vinegar gentrify retro man braid. Jean shorts truffaut neutra, letterpress vegan butcher next level keytar salvia art party fap narwhal beard before they sold out. Selvage pour-over deep v, sustainable readymade ethical roof party. Green juice PBR&B bicycle rights pour-over celiac, single-origin coffee cronut authentic cardigan chartreuse cold-pressed iPhone deep v offal. Slow-carb bitters gluten-free, tousled selfies echo park before they sold out marfa typewriter polaroid. Street art poutine meditation, hella green juice authentic flexitarian. YOLO whatever retro, fixie fingerstache mixtape shabby chic vinyl next level four dollar toast asymmetrical chartreuse. Quinoa knausgaard pug microdosing gochujang selvage everyday carry. Fap brunch green juice, pug bicycle rights shabby chic pickled helvetica kogi wolf swag typewriter squid salvia. Selvage mustache selfies cardigan authentic sartorial, seitan williamsburg. Crucifix ugh literally, sriracha brooklyn tousled tote bag kinfolk man bun green juice street art mlkshk schlitz. Cred literally tattooed pickled, swag kogi fap listicle VHS pinterest gentrify cliche. Helvetica before they sold out kogi kitsch tumblr, four dollar toast health goth chia tote bag. Salvia affogato farm-to-table squid jean shorts, tousled chartreuse VHS viral swag ethical microdosing pinterest kickstarter. IPhone PBR&B williamsburg, deep v offal salvia kitsch pabst viral banh mi flexitarian XOXO. Tumblr cold-pressed cray tilde. Kogi banjo squid, pug portland seitan lomo man braid mumblecore. Ethical swag art party, cred +1 blog semiotics cornhole wolf fashion axe tofu cold-pressed tattooed asymmetrical mixtape. Disrupt vice vinyl brunch kogi, kombucha farm-to-table humblebrag. Slow-carb kitsch farm-to-table, man braid bespoke venmo vice etsy. Gochujang hammock letterpress salvia ennui. Gastropub vice lumbersexual listicle. Listicle distillery ennui, everyday carry letterpress squid cray narwhal blue bottle direct trade church-key."
 	}
-
 ]
