@@ -1,5 +1,52 @@
 //CSS that applies to both the jobs and jobsDesc views
 
+
+//CSS that only applies to jobs view
+
+.job-wrap, .job-content, .job-content div, .logo {
+	padding: 0;
+}
+
+.job-anchor {
+	text-decoration: none;
+}
+
+.job-wrap {
+	background-color: rgba(111, 175, 65, 0.4);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 3px;
+	max-height: 85px; 
+}
+
+.job-wrap:nth-child(even) {
+	background-color: rgba(111, 175, 65, 0.3);
+}
+
+.job-wrap:hover {
+	background-color: rgba(111, 175, 65, 0.5);
+}
+
+.job-content {
+	color: black;
+}
+
+.logo {
+	text-align: center;
+}
+
+.logo img{
+	max-height: 85px;
+	width: auto;
+}
+
+.content-top, .content-bottom {
+	margin: 5px 0 0 0;
+	padding: 0;
+}
+
+//CSS that only applies to the jobsDesc views
+
 .icon-list, .icon-list li {
   padding: 0;
   margin: 0;
@@ -11,7 +58,7 @@
   margin-left: 3em;
 }
 
-.li-location li:before, .li-type li:before {
+.li-location li:before, .li-type li:before, .li-date li:before {
   font-family: 'FontAwesome';
   float: left;
   margin-left: -1.5em;
@@ -26,61 +73,16 @@
   content: '\f017'; /* fa-clock-o */
 }
 
-.logo {
-	text-align: center;
-	padding: 0;
+.li-date li:before {
+  content: '\f133'; /* fa-calendar-o */
 }
 
-//CSS that only applies to jobs view
+@media (max-width: 600px) {
+	.job-wrap {
+		max-height: 500px;
+	}
+	.job-content span{
+		width: 100%;	
+	}
 
-.job-anchor {
-	text-decoration: none;
 }
-
-.job-table {
-	margin-top: 25px;
-	margin-bottom: 25px;
-}
-
-.job-row {
-	background-color: rgba(111, 175, 65, 0.4);
-	height: 1px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.job-row:first-child {
-	border-top: 1px solid rgba(0, 0, 0, 0.2);
-}
-
-.job-row:nth-child(even) {
-	background-color: rgba(111, 175, 65, 0.3);
-	height: 1px;
-}
-
-.job-row:hover {
-	background-color: rgba(111, 175, 65, 0.5);
-}
-
-.job-wrap {
-	height: 100%;
-	width: 100%
-	padding: 0;
-	color: black;
-}
-
-.job-wrap div {
-	width: 100%;
-	height: 50%;
-	padding: 0;
-}
-
-.job-content {
-	padding: 0;
-	margin: 0;
-}
-
-.job-wrap:hover {
-	text-decoration: none;
-}
-
-//CSS that only applies to the jobsDesc views

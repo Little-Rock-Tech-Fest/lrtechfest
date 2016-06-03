@@ -1,33 +1,39 @@
 extends layout
 
 block content
-	section.align-center
-		h1 Job Description!
-		hr
+	section.section.align-center(style="padding: 50px 0")
+		div.container
+			h5.heading-alt Job Description
+				hr
 
 	section#jobDesc
 		for job in jobs
-			div.col-sm-10.col-sm-offset-1
-				div.col-sm-12
-					div.col-sm-4
-						img.col-sm-2(style="height: 100%" src="/logo.png", alt="Logo")
-						h5.col-sm-10 #{job.compName}
-						hr
-						span.col-sm-12
-							h6 Details
-							ul.icon-list.li-type  
-								li #{job.type}
-							ul.icon-list.li-location
-								li #{job.location}
-					div.col-sm-8
-						h5 #{job.title}
-						hr
-						br
-						p #{job.fullDesc}
-
-					
-	hr
-	.row.align-center.btns-block
-		a(href="#" class="btn btn-lg" style="margin-top:40px") Apply Now
+			if job.id == 2
+				div.col-sm-10.col-sm-offset-1.jobDesc-wrap
+					div.col-sm-12
+						div.col-sm-4
+							img.col-sm-2(style="height: 100%" src="/logo.png", alt="Logo")
+							a(href="#{job.website}" target="_blank")
+								h5.col-sm-10 #{job.compName}
+							hr
+							span.col-sm-12
+								h6 Details
+								ul.icon-list.li-type  
+									li #{job.type}
+								ul.icon-list.li-location
+									li #{job.location}
+								ul.icon-list.li-date
+									li Posted: #{job.datePosted}
+						div.col-sm-8
+							h5 #{job.title}
+							hr
+							br
+							p #{job.fullDesc[0].paraOne}
+							p #{job.fullDesc[1].paraTwo}
+							p #{job.fullDesc[2].paraThree}
+							p #{job.fullDesc[3].paraFour}
+							
+				.row.align-center.btns-block
+					a(href="#{job.appLink}" target="_blank" class="btn btn-lg" style="margin-top:40px") Apply Now
 			
 				

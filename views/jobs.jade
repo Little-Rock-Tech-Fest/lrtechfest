@@ -1,23 +1,23 @@
 extends layout
 
 block content
-	section.align-center
-		h1 Jobs
+	section.section.align-center(style="padding: 50px 0")
+		div.container
+			h5.heading-alt Jobs
+				hr
 
-	section#jobs.fullwidth-section
-		table.job-table.col-sm-8.col-sm-offset-2
-			tbody
-				each job in jobs
-					tr.job-row
-						td
-							a(href="/jobDesc" class="job-anchor")
-								img.col-sm-2.logo(style="max-height: 86px; width: auto;" src="#{job.logo}", alt="Logo")
-								div.col-sm-10.job-wrap
-									div.col-sm-12
-										h6.col-sm-9.job-content #{job.shortDesc}
-										p.col-sm-3.job-content(style="text-align: right;") #{job.type}
-									div.col-sm-12
-										p.col-sm-9.job-content #{job.compName}
-										p(style="text-align: right;").col-sm-3.job-content<i class="fa fa-map-marker" aria-hidden="true">	#{job.location}</i>
+	section#jobs
+		each job in jobs
+			div.col-xs-12.col-sm-12.col-md-8.col-md-offset-2.job-wrap
+				a(href="/jobDesc" class="job-anchor")
+					div.col-sm-12.job-content
+						span.col-sm-2.col-xs-2.logo
+							img(src="#{job.logo}", alt="Logo")
+						span.col-sm-10.col-xs-10.content-top
+							h6.col-sm-8.col-xs-8 #{job.shortDesc}
+							p.col-sm-4.col-xs-4(style="text-align: right;") #{job.type}
+						span.col-sm-10.col-xs-10.content-bottom
+							p.col-sm-8.col-xs-8 #{job.compName}
+							p(style="text-align: right;").col-sm-4.col-xs-4<i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
 				
 	hr
