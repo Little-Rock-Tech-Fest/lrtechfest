@@ -5,19 +5,26 @@ block content
 		div.container
 			h5.heading-alt Jobs
 				hr
-	//- a.pull-right.btn.btn-lg(href="#") List your job
 	section#jobs
-		each job in jobs
-			div.col-xs-12.col-sm-12.col-md-8.col-md-offset-2.job-wrap
-				a(href="/jobDesc" class="job-anchor")
-					div.col-sm-12.job-content
-						span.col-sm-2.col-xs-2.logo
-							img(src="#{job.logo}", alt="Logo")
-						span.col-sm-10.col-xs-10.content-top
-							h6.col-sm-8.col-xs-8 #{job.shortDesc}
-							p.col-sm-4.col-xs-4(style="text-align: right;") #{job.type}
-						span.col-sm-10.col-xs-10.content-bottom
-							p.col-sm-8.col-xs-8 #{job.compName}
-							p(style="text-align: right;").col-sm-4.col-xs-4<i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
-				
+		div.col-sm-8.list-job
+			each job in jobs
+				div.col-xs-12.col-sm-12.job-wrap
+					a(href="/jobDesc" class="job-anchor")
+						div.col-sm-12.job-content
+							span.col-sm-2.col-xs-2.logo
+								img(src="#{job.logo}", alt="Logo")
+							span.col-sm-10.col-xs-10.content-top
+								h6.col-sm-8.col-xs-8 #{job.shortDesc}
+								p.col-sm-4.col-xs-4(style="text-align: right;") #{job.type}
+							span.col-sm-10.col-xs-10.content-bottom
+								p.col-sm-8.col-xs-8 #{job.compName}
+								p(style="text-align: right;").col-sm-4.col-xs-4<i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
+		div.col-sm-4.post-job
+			a.btn.btn-lg.col-sm-12(href="#") List your job
+			hr
+			div.col-sm-12
+				p - Tote bag dreamcatcher man bun try-hard roof party actually heirloom +1, retro biodiesel iPhone banh mi kogi organic.
+				p - Whatever dreamcatcher keytar, kogi mixtape irony crucifix tacos master cleanse slow-carb +1 viral put a bird on it roof party. Roof party post-ironic bushwick raw denim, chambray bitters sartorial heirloom distillery dreamcatcher chicharrones.
+				p - Umami meggings before they sold out, tumblr listicle gochujang waistcoat kickstarter retro single-origin coffee craft beer.
+			
 	hr
