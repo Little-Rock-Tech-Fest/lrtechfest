@@ -39,19 +39,40 @@
 	color: black;
 }
 
-.content-top, .content-bottom {
-	margin: 5px 0 0 0;
+.content-left, .content-right {
+	margin: 8px 0px 0 0;
 	padding: 0;
+}
+
+.content-right {
+	text-align: right;
+}
+
+.content-right span {
+	padding-right: 5px;
 }
 
 @media (max-width: 600px) {
 	.job-wrap {
 		max-height: 500px;
 	}
-	.job-content span{
-		width: 100%;	
+	.job-content div{
+		width: 100%;
+		text-align: center;
+		padding-top: 5px;	
 	}
 
+}
+
+@media (max-width: 767px) {
+	.post-job {
+		width: 100%;
+		text-align: center;
+		margin-top: 10px;
+	}
+	.post-job div {
+		text-align: left;
+	}
 }
 
 //CSS that only applies to the jobsDesc views
