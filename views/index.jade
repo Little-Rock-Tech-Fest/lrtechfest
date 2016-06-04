@@ -113,14 +113,23 @@ html
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 				
+				h5.heading-alt Gold
 				.sponsors
 				each sponsor in sponsors
-					if sponsor.Level == "Gold" || sponsor.Level == "Silver"
+					if sponsor.Level == "Gold"
+						.sponsor.inline
+							a(href="#{sponsor.Website}" target="_blank")
+								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+								
+				h5.heading-alt Silver
+				.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Silver"
 						.sponsor.inline
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 							
-				h4 Bronze
+				h5.heading-alt Bronze
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Bronze"
