@@ -1,33 +1,32 @@
 extends layout
 
 block content
-	section.align-center(style="padding: 50px 0")
-		div.container
-			h5.heading-alt Jobs
-				hr
-	section#jobs
-		div.col-sm-8.col-xs-12.list-job
-			each job in jobs
-				div.col-xs-12.col-sm-12.job-wrap
-					a(href="/jobDesc" class="job-anchor")
-						div.col-sm-12.job-content
-							div.col-sm-2.col-xs-2.logo
-								img(src="#{job.logo}", alt="Logo")
-							div.col-sm-7.col-xs-7.content-left
-								h6(style="padding: 0; margin: 0") #{job.title}
-								span - #{job.shortDesc}
-								br
-								span - #{job.compName}
-							div.col-sm-3.col-xs-3.content-right
-								span #{job.type}
-								br
-								span<i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
-		div.col-sm-4.col-xs-12.post-job
-			a.btn.btn-lg.col-sm-12(href="#") List your job
-			hr
-			div.col-sm-12
-				p - Tote bag dreamcatcher man bun try-hard roof party actually heirloom +1, retro biodiesel iPhone banh mi kogi organic.
-				p - Whatever dreamcatcher keytar, kogi mixtape irony crucifix tacos master cleanse slow-carb +1 viral put a bird on it roof party. Roof party post-ironic bushwick raw denim, chambray bitters sartorial heirloom distillery dreamcatcher chicharrones.
-				p - Umami meggings before they sold out, tumblr listicle gochujang waistcoat kickstarter retro single-origin coffee craft beer.
-			
-	hr
+	section.section.align-center
+		.section-header.col-sm-10.col-sm-offset-1
+			h1 Job Listings from Our Sponsors
+
+	section#jobs.section
+		.container
+			div.col-md-8.list-job
+				each job in jobs
+					div.col-xs-12.col-sm-12.job-wrap
+						a(href="/jobDesc" class="job-anchor")
+							div.col-sm-12.job-content
+								div.col-sm-2.col-xs-2.logo
+									img(src="#{job.logo}", alt="Logo")
+								div.col-sm-7.col-xs-7.content-left
+									h6(style="padding: 0; margin: 0") #{job.title}
+									span - #{job.shortDesc}
+									br
+									span - #{job.compName}
+								div.col-sm-3.col-xs-3.content-right
+									span #{job.type}
+									br
+									span<i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
+			div.col-md-4.post-job
+				h6 Want your job listed here?
+				a.btn.btn-lg(href="/sponsors") Become a Sponsor
+				//- p - Tote bag dreamcatcher man bun try-hard roof party actually heirloom +1, retro biodiesel iPhone banh mi kogi organic.
+				//- p - Whatever dreamcatcher keytar, kogi mixtape irony crucifix tacos master cleanse slow-carb +1 viral put a bird on it roof party. Roof party post-ironic bushwick raw denim, chambray bitters sartorial heirloom distillery dreamcatcher chicharrones.
+				//- p - Umami meggings before they sold out, tumblr listicle gochujang waistcoat kickstarter retro single-origin coffee craft beer.
+				//- 
