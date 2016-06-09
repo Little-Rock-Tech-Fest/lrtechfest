@@ -7,13 +7,12 @@ block content
 				if job.id == id
 					div.col-sm-4
 						img.col-sm-2.logo(src="/logo.png", alt="Logo")
-						a(href="#{job.website}" target="_blank")
-							h5.col-sm-10 #{job.compName}
+						h5.col-sm-10 #{job.orgName}
 						hr
 						span.col-sm-12
 							h6 Details
 							ul.icon-list.li-type  
-								li #{job.type}
+								li #{job.posType}
 							ul.icon-list.li-location
 								li #{job.location}
 							ul.icon-list.li-date
@@ -22,13 +21,15 @@ block content
 						.row.align-center.btns-block
 							a(href="#{job.appLink}" target="_blank" class="btn btn-block") Apply Now
 					div.col-sm-8.job
-						h5 #{job.title}
+						h5 #{job.posTitle}
 						hr
 						br
-						p #{job.fullDesc[0].paraOne}
-						p #{job.fullDesc[1].paraTwo}
-						p #{job.fullDesc[2].paraThree}
-						p #{job.fullDesc[3].paraFour}
+						p !{job.posDesc}
+						br
+						h5 About: #{job.orgName}
+							hr
+							br
+						p !{job.orgDesc}
 
 
 	hr
