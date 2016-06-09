@@ -1,40 +1,34 @@
 extends layout
 
 block content
-	section.section.align-center(style="padding: 50px 0")
-		div.container
-			h5.heading-alt Job Description
-				hr
-
 	section#jobDesc
-		for job in jobs
-			if job.id == 2
-				div.col-sm-10.col-sm-offset-1.jobDesc-wrap
-					div.col-sm-12
-						div.col-sm-4
-							img.col-sm-2.logo(src="/logo.png", alt="Logo")
-							a(href="#{job.website}" target="_blank")
-								h5.col-sm-10 #{job.compName}
-							hr
-							span.col-sm-12
-								h6 Details
-								ul.icon-list.li-type  
-									li #{job.type}
-								ul.icon-list.li-location
-									li #{job.location}
-								ul.icon-list.li-date
-									li Posted: #{job.datePosted}
-							hr
-							.row.align-center.btns-block
-								a(href="#{job.appLink}" target="_blank" class="btn btn-block") Apply Now
-						div.col-sm-8
-							h5 #{job.title}
-							hr
-							br
-							p #{job.fullDesc[0].paraOne}
-							p #{job.fullDesc[1].paraTwo}
-							p #{job.fullDesc[2].paraThree}
-							p #{job.fullDesc[3].paraFour}
+		.container
+			for job in jobs
+				if job.id == 2
+					div.col-sm-4
+						img.col-sm-2.logo(src="/logo.png", alt="Logo")
+						a(href="#{job.website}" target="_blank")
+							h5.col-sm-10 #{job.compName}
+						hr
+						span.col-sm-12
+							h6 Details
+							ul.icon-list.li-type  
+								li #{job.type}
+							ul.icon-list.li-location
+								li #{job.location}
+							ul.icon-list.li-date
+								li Posted: #{job.datePosted}
+						hr
+						.row.align-center.btns-block
+							a(href="#{job.appLink}" target="_blank" class="btn btn-block") Apply Now
+					div.col-sm-8.job
+						h5 #{job.title}
+						hr
+						br
+						p #{job.fullDesc[0].paraOne}
+						p #{job.fullDesc[1].paraTwo}
+						p #{job.fullDesc[2].paraThree}
+						p #{job.fullDesc[3].paraFour}
 
 
 	hr
