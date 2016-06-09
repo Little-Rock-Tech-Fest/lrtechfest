@@ -10,7 +10,7 @@ block content
 			div.col-md-8.list-job
 				each job in jobs
 					div.col-xs-12.col-sm-12.job-wrap
-						a(href="/jobDesc" class="job-anchor")
+						a(href="/jobs/detail/#{job.id}" class="job-anchor")
 							div.col-sm-12.job-content
 								div.col-sm-2.col-xs-2.logo
 									img(src="#{job.logo}", alt="Logo")

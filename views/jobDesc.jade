@@ -4,7 +4,7 @@ block content
 	section#jobDesc
 		.container
 			for job in jobs
-				if job.id == 2
+				if job.id == id
 					div.col-sm-4
 						img.col-sm-2.logo(src="/logo.png", alt="Logo")
 						a(href="#{job.website}" target="_blank")

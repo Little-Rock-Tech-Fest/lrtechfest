@@ -84,12 +84,13 @@ app.get('/jobs', function(req, res){
 		});
 });
 
-app.get('/jobDesc', function(req, res){
+app.get('/jobs/detail/:id', function(req, res){
 	var jobs;
+	var id = req.param("id");
 	fs_readFile('jobs.json', 'utf8')
 		.then(function(jobsData){
 			jobs = JSON.parse(jobsData);
-			res.render('jobDesc', {jobs: jobs});
+			res.render('jobDesc', {jobs: jobs, id: id});
 		})
 		.catch(function(e){
 			console.log(e);
