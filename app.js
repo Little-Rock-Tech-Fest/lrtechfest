@@ -86,7 +86,7 @@ app.get('/jobs', function(req, res){
 
 app.get('/jobs/detail/:id', function(req, res){
 	var jobs;
-	var id = req.param("id");
+	var id = req.params.id;
 	fs_readFile('jobs.json', 'utf8')
 		.then(function(jobsData){
 			jobs = JSON.parse(jobsData);
