@@ -98,6 +98,19 @@ app.get('/jobs/detail/:id', function(req, res){
 		});
 });
 
+app.get('/speakers', function(req, res){
+	var speakers;
+	fs_readFile('speakers.json', 'utf8')
+		.then(function(speakersData){
+			speakers = JSON.parse(speakersData);
+			res.render('speakers', {speakers: speakers});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+});
+
 var port = process.env.PORT;
 if (!port) {
 	port = 9990;

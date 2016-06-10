@@ -6,7 +6,7 @@ block content
 			for job in jobs
 				if job.id == id
 					div.col-sm-4
-						img.col-sm-2.logo(src="/logo.png", alt="Logo")
+						img.col-sm-2.logo(src="#{job.logo}", alt="Logo")
 						h5.col-sm-10 #{job.orgName}
 						hr
 						span.col-sm-12

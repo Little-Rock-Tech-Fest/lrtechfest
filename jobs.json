@@ -1,7 +1,7 @@
 [
 	{	
 		"id": 1,
-		"logo": "/logo.png",
+		"logo": "/public/img/orgLogos/logo.png",
 		"datePosted": "2016-06-02",
 		"posTitle": "Nick Cage Ego Fluffer",
 		"location": "Little Rock, AR",
@@ -14,7 +14,7 @@
 	},
 	{
 		"id": 2,
-		"logo": "/logo.png",
+		"logo": "/public/img/orgLogos/logo.png",
 		"datePosted": "2016-06-02",
 		"posTitle": "Adventure Side Kick",
 		"location": "Candy Kingdom, Ooo",
