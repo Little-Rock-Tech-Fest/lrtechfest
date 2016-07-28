@@ -1,1 +1,107 @@
-[]
+[
+  {
+    "Id": 1,
+    "FirstName": "Finn",
+    "LastName": "Martens",
+    "Bio": "<p>As revealed in The Visitor by Finn's biological father, Martin, Finn was supposedly born in a banana boat in the middle of the ocean where he nearly fell prey to a host of sea-creatures (and a tiger, by Martin's recollection). However, since Martin seems to be confused when recalling Finn's birth, it is uncertain whether or not his memory is accurate.</p>",
+    "Website": "http://adventuretime.wikia.com/wiki/Finn",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/testImgs/finn.jpg",
+    "Company": "Adventure Time Inc",
+    "LinkedIn": "",
+    "Presentations": [
+      {
+        "Id": 1,
+        "Track": "",
+        "Topic": "",
+        "Description": "",
+        "Room": "",
+        "Session": ""
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "FirstName": "Jake",
+    "LastName": "Martens",
+    "Bio": "<p>Jake was conceived when his father, Joshua, was bit by an extra-dimensional creature during an investigation with his wife Margaret. Jake was later born from the pustule on his father's head from the creature's bite and was taken by Joshua and Margaret to live alongside their natural-born son Jermaine. It is inferred that Jake's Stretchy Powers that he has had since he was a puppy are a result of his biological relationship with the shape-shifting creature although according to him (in the episode The Witch's Garden), he rolled around in a magical mud puddle when he was a puppy then just became a magical dog. Little is known of Jake's past with his family, but for a while he was known to be a successful criminal until he retired to take part in a more respectable life as an adventurer with Finn, later settling down with Lady Rainicorn to become a father.</p>",
+    "Website": "http://adventuretime.wikia.com/wiki/Jake",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/testImgs/jake.png",
+    "Company": "Adventure Time Inc",
+    "LinkedIn": "",
+    "Presentations": [
+      {
+        "Id": 1,
+        "Track": "",
+        "Topic": "",
+        "Description": "",
+        "Room": "",
+        "Session": ""
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "FirstName": "Simon",
+    "LastName": "Petrikov",
+    "Bio": "<p>Ice King (real name Simon Petrikov) is a major character conceived, but no longer acting as, the main antagonist of Adventure Time. His typical crime would be to kidnap a princess and force her to marry him, which Finn and Jake would foil every time. As his name suggests, Ice King is also his title, announcing himself as King of Ice; the ruler of the Ice Kingdom. His magical abilities are contained in, and can be controlled with, his crown, and he is therefore powerless without it. His crown is also the cause of his loss of sanity and transformation into a wizard, though not a very good one, shown when Princess Bubblegum is possessed by the Lich, she says The Ice Wizard is a weak fool. Due to his poor mental health, he is often misunderstood, making him a tragic hero in some cases, such as in Mortal Recoil and I Remember You. Some time before the Mushroom War, he discovered the Enchiridion and bought the crown during his various expeditions around the world. Ice King's gender-swapped character is the Ice Queen, as seen in Fionna and Cake.</p>",
+    "Website": "http://adventuretime.wikia.com/wiki/Ice_King",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/testImgs/Ice_King.png",
+    "Company": "Ice King Co",
+    "LinkedIn": "",
+    "Presentations": [
+      {
+        "Id": 1,
+        "Track": "",
+        "Topic": "",
+        "Description": "",
+        "Room": "",
+        "Session": ""
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "FirstName": "BMO",
+    "LastName": "",
+    "Bio": "<p>BMO (phonetically spelled Beemo) is Finn and Jake's living video game console, portable electrical outlet, music player, roommate, camera, alarm clock, toaster, flashlight, strobe light, skateboarder, friend, soccer player, video editor, video player, tape player and chef. They make their appearance in the title scene of the Theme Song of every episode of Adventure Time, just as Finn and Jake pound their fists together. BMO is characterized as a loyal, trusting, and helpful friend who is protective of Finn and Jake.</p>",
+    "Website": "http://adventuretime.wikia.com/wiki/BMO",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/testImgs/BMO.png",
+    "Company": "Adventure Time Inc",
+    "LinkedIn": "",
+    "Presentations": [
+      {
+        "Id": 1,
+        "Track": "",
+        "Topic": "",
+        "Description": "",
+        "Room": "",
+        "Session": ""
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "FirstName": "Marceline",
+    "LastName": "Abadeer",
+    "Bio": "<p>Marceline Abadeer (full title: Marceline the Vampire Queen) is one of the main characters in Adventure Time and a half-demon/half-human, and vampire who is over 1003 years old. During her first encounter with Finn and Jake, she forces the two out of their tree fort. Despite initially being an adversary to the two, Marceline quickly becomes one of Finn and Jake's closest friends. Her father, Hunson Abadeer, is the demon who rules the Nightosphere.</p>",
+    "Website": "http://adventuretime.wikia.com/wiki/Marceline_Abadeer",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/testImgs/Marceline.png",
+    "Company": "Adventure Time Inc",
+    "LinkedIn": "",
+    "Presentations": [
+      {
+        "Id": 1,
+        "Track": "",
+        "Topic": "",
+        "Description": "",
+        "Room": "",
+        "Session": ""
+      }
+    ]
+  }
+]

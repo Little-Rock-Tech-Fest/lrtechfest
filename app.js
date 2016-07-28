@@ -86,11 +86,24 @@ app.get('/jobs', function(req, res){
 
 app.get('/jobs/detail/:id', function(req, res){
 	var jobs;
-	var id = req.param("id");
+	var id = req.params.id;
 	fs_readFile('jobs.json', 'utf8')
 		.then(function(jobsData){
 			jobs = JSON.parse(jobsData);
 			res.render('jobDesc', {jobs: jobs, id: id});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+});
+
+app.get('/speakers', function(req, res){
+	var speakers;
+	fs_readFile('speakers.json', 'utf8')
+		.then(function(speakersData){
+			speakers = JSON.parse(speakersData);
+			res.render('speakers', {speakers: speakers});
 		})
 		.catch(function(e){
 			console.log(e);
