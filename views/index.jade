@@ -6,7 +6,7 @@ html
 		//- link(href="http://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
 		//- link(href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
 		link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css", rel="stylesheet")
-		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel="stylesheet")
+		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css", rel="stylesheet")
 		link(link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css")
 		block stylesheets
 		link(href="/public/css/animations.css", rel="stylesheet")
@@ -57,8 +57,11 @@ html
 						#navigation.navbar-collapse.collapse
 							ul.navigation-list.pull-left.light-text
 								li.navigation-item
+									a(class="navigation-link" href="#about") About
+								li.navigation-item
 									a(class="navigation-link" href="#tickets") Tickets
-								
+								li.navigation-item
+									a(class="navigation-link" href="#location") Location
 								li.navigation-item.dropdown
 									a.navigation-link.dropdown-toggle(href="#sponsors") Sponsors
 									ul.dropdown-menu
@@ -75,7 +78,16 @@ html
 			.container
 				.icon.section-icon.icon-multimedia-12
 				h3 You want to be at #LRTF 2016
-				p.text-alt There are exciting changes in store! This year we are unveiling a two-day format,<br class="hidden-sm hidden-xs"/> hosted on October 20-21 at the Statehouse Convention Center in Little Rock, Arkansas.
+				p.text-alt This year we are unveiling a two-day format, hosted on October 20-21<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
+
+				.col-sm-6
+					p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers. 
+
+					
+				.col-sm-6
+					p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students. 
+
+					p.align-left This is our fourth year hosting the event. We expect at least 400 attendees. This year, we're hosting in the Statehouse ballrooms. Will you join us? 
 
 	
 		//- section#sign_up.section.bg-cover.bg4.light-text.align-center
@@ -182,6 +194,23 @@ html
 
 							a(href="#" class="btn btn-lg btn-outline-clr") Buy now
 
+		section#location
+			.contacts-wrapper
+				#contacts-map.map(data-settings="/public/data/map-settings.json" style="height:560px;")
+
+				.container.contacts-on-map-container
+					.contacts-on-map
+						h3 Event Location
+						h5 Statehouse Convention Center
+						ul.list
+							li
+								i.fa.fa-map-marker
+								span 101 E Markham St, Little Rock, AR 72201
+							li
+								i.fa.fa-map-o
+								a(href="https://www.google.com/maps/place/Statehouse+Convention+Center/@34.7487084,-92.2728966,17z/data=!4m13!1m7!3m6!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!2sStatehouse+Convention+Center!3b1!8m2!3d34.7487084!4d-92.2707079!3m4!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!8m2!3d34.7487084!4d-92.2707079" target="_blank") Get directions
+			
+
 		section#sponsors.section.align-center
 			.container
 				span.icon.section-icon.icon-documents-bookmarks-12
@@ -230,7 +259,7 @@ html
 				p Enjoy lunch on us both days and an after party the first night. The weather should be perfect for it.
 				br
 				br
-				a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline" target="_blank") Buy Ticket
+				a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline" target="_blank") Buy Tickets
 
 		.maincontent
 			block content
@@ -298,8 +327,11 @@ html
 							small All Rights Reserved © 2016&nbsp;
 	
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+		script(src="//maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBI59PHKJ6RKHij4YneTlmGbjyfrX6nBG8")
+		
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
 		block scripts
 		script(type="text/javascript" src="/public/js/masonry.pkgd.min.js")
+		script(type="text/javascript" src="/public/js/jquery.waypoints.min.js")
 		script(src="/public/js/theme.js")
 		script(src="/public/js/site.js")
