@@ -10,6 +10,9 @@ a.logo {
   height:80px;
 }
 
+.section#tickets {
+	padding-top: 20px;
+}
 
 /* Extra Small */
 @media(max-width:767px){
