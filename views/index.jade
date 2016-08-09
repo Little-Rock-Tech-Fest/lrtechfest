@@ -246,7 +246,7 @@ html
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Gold"
-						.sponsor.inline
+						.sponsor.inline.gold
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 								
@@ -254,7 +254,7 @@ html
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Silver"
-						.sponsor.inline
+						.sponsor.inline.silver
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 							
@@ -262,7 +262,7 @@ html
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Bronze"
-						.sponsor.inline.small
+						.sponsor.inline.small.bronze
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 

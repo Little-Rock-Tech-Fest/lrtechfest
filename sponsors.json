@@ -12,6 +12,12 @@
 	"Website": "http://www.elyxor.com/"
 	},
 	{
+	"Name": "CEG Partners",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+	"Website": "http://cegpartners.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",

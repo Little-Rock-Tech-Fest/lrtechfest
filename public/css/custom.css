@@ -4,7 +4,11 @@
     padding: 25px 12px;
 }
 .sponsor.inline img {max-width: 150px;}
+.sponsor.silver.inline img {max-height: 90px;}
+ 
+
 .sponsor.small img {max-width: 100px;}
+
 
 a.logo {
   height:80px;
