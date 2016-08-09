@@ -23,6 +23,9 @@ var team = [
 	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'}
 ];
 
+var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
+var sponsors = JSON.parse(fs.readFileSync('sponsors.json', 'utf8'));
+
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
 		if (err) {
@@ -55,20 +58,7 @@ app.get('/about', function(req, res){
 });
 
 app.get('/', function(req, res){
-	var sponsors;
-	fs_readFile('sponsors.json', 'utf8')
-		.then(function(sponsorData){
-			sponsors = JSON.parse(sponsorData);
-			return fs_readFile('speakers.json', 'utf8');
-		})
-		.then(function(speakerData){
-			var speakers = JSON.parse(speakerData);
-			res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
-		})
-		.catch(function(e){
-			console.log(e);
-			res.render('500');
-		});
+	res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
 });
 
 app.get('/jobs', function(req, res){
@@ -91,19 +81,6 @@ app.get('/jobs/detail/:id', function(req, res){
 		.then(function(jobsData){
 			jobs = JSON.parse(jobsData);
 			res.render('jobDesc', {jobs: jobs, id: id});
-		})
-		.catch(function(e){
-			console.log(e);
-			res.render('500');
-		});
-});
-
-app.get('/speakers', function(req, res){
-	var speakers;
-	fs_readFile('speakers.json', 'utf8')
-		.then(function(speakersData){
-			speakers = JSON.parse(speakersData);
-			res.render('speakers', {speakers: speakers});
 		})
 		.catch(function(e){
 			console.log(e);
