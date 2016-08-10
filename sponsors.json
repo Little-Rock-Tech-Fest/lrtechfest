@@ -18,6 +18,18 @@
 	"Website": "http://cegpartners.com/"
 	},
 	{
+	"Name": "Euronet Worldwide",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/euronet-software-logo.png",
+	"Website": "http://www.euronetsoftware.com/"
+	},
+	{
+	"Name": "Lindsey Software",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/lindsey-software-logo.png",
+	"Website": "http://lindseysoftware.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
