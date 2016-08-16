@@ -7,13 +7,16 @@
     "Bio": "I am an award winning Designer with a successful record crafting effective solutions from concept all the way to completion. My greatest gratification is connecting with clients, evaluating their needs, and then executing a solution that makes them truly excited for the future. \r\n\r\nI have over thirteen years of professional design experience including: graphic design, advertising, UI/UX, development, and creative direction for Agency 100 to Inc 500 companies. Currently I am a Designer and Front-End Developer at Mainstream Technologies.",
     "Website": "http://www.jerdesign.net",
     "Twitter": "jerwjones",
-    "Photo": null,
+    "Photo": "/public/img/speakers/jones-jeremy.jpg",
     "Company": "Mainstream Technologies",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 1,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Why You Don't Need a Unicorn",
         "Description": "Knowing and being the \"expert\" on everything from rolling the server, to back-end development, and pixel perfecting the UI is unsustainable at best. The technologies and processes that we rely on to build and deploy software is changing at a quicker rate for any one individual to truly be an expert for long. This presentation reviews the sources of conflict and how to embrace compromise between the front-end designers and back-end developers on a software team. "
       }
@@ -26,13 +29,16 @@
     "Bio": "John has been a professional developer since 1999. He has focused primarily on web technologies and has experience with everything from PHP to C# to AngularJS to SignalR. Clean code and professionalism are particularly important to him, as well as mentoring and teaching others what he has learned along the way.",
     "Website": "http://www.1north.com",
     "Twitter": "MatsuBonsai",
-    "Photo": null,
+    "Photo": "/public/img/speakers/callaway-john.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 2,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "TDD: A Pragmatic Approach",
         "Description": "Unit Testing can be mysterious endeavor with a high bar for entry. It doesn't have to be that complicated. Many examples on the Internet show you how to write a Unit Test, but not how to test an entire application. We'll discuss the fundamentals of TDD, how to approach an entire application, how to separate logical layers, and how to test the boundaries."
       }
@@ -45,13 +51,16 @@
     "Bio": "Marcus Finley is an â€œadvisor, UX architect, and implementer.â€ He graduated from Florida State University where he majored in Mechanical Engineering and Public Administration. Marcus is a certified Scrum Master with expert knowledge of a number programming languages, user experience design and web/mobile application development. Marcus has managed over $2 million dollars of contracted technology development and strategy projects for 45 clients with an average size of $100,000 dollars. In his professional roles he has provided technology strategies and user experiences to achieve clientâ€™s goals. He has help developed UX practices, lead a number of UX workshops with clients and guided companies with emerging needs of validating applications. He co-founded a Meetup called Color of Tech to bring together a diverse group of technology professionals to network and thrive.\r\n\r\nRakia is the Innovation Director if FIN. Digital. Her work includes consulting on the use of software systems to achieve corporate mission, information technology planning and the strategic use of technology. She specializes in mastering technology and web systems to increase development among organizations. Her strength is in planning for specific technology projects that involve complex information systems. With over 10 years experience in the information technology industry, she has become an industry expert on organizational issues associated with program creation and growth. She is active in the technology-for-enhancement movement and is frequently invited to speak at conferences across the country, primarily focusing on business strategy, development and technology.",
     "Website": "http://www.fin-digital.com",
     "Twitter": "findigital",
-    "Photo": null,
+    "Photo": "/public/img/speakers/-marcus and rakia finley.jpg",
     "Company": "FIN. Digital",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 3,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Did I do that? Prototyping an IoT UX for Customers",
         "Description": "As the popularity of wearables and connected devices continue to explode, more opportunities are becoming available for companies to blow customers away with new interactive experiences. Wired kiosks, light & motion sensors, AI and aware spaces, expose customers to delightfully surprising user connected devices, business interactions can leave lasting impressions and measurable ROI if done right. This discussion will highlight how UX designers can work with businesses to replicate low-fidelity and iterative designs that leave consumers thinking \"did I do that?\"."
       }
@@ -64,13 +73,16 @@
     "Bio": "Mark Bates is the founder and chief architect of the Boston, MA based consulting company, Meta42 Labs. Mark spends his days focusing on new application development and consulting for his clients. At night he writes books, raises kids, and occasionally he forms a band and \"tries to make it\". \r\n\r\nMark is the author of three books, \"Distributed Programming with Ruby\" (2009), \"Programming in CoffeeScript\" (2012), and \"Conquering the Command Line\" (2014). \r\n\r\nMark also ran the weekly Golang screencast site, [www.metacasts.tv](http://www.metacasts.tv) which was acquired by O'Reilly in 2015.",
     "Website": "http://www.markbates.com",
     "Twitter": "markbates",
-    "Photo": null,
+    "Photo": "/public/img/speakers/bates-mark.jpg",
     "Company": "@markbates",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 4,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Butterfly in Reverse: From SOA to Monolith",
         "Description": "Service Oriented Architecture, Single Page Web Apps, JSON APIs, all of the big buzz words. I love all of them. I spend my days building these types of systems for my clients. That's why when I started working on my side project startup with a friend we chose Go, Angular, and SOA. We were going to build this application \"the right way\".\r\n\r\nSo why, if you go to the site now, is it a single Rails monolith with full page refreshes and almost no JavaScript? That's an excellent question, and the subject of this talk.\r\n\r\nDuring this talk we'll look at how I started building my application \"correctly\" and ended up with the classic monolith architecture you hear people warning against. We'll talk about why Go, SOA, and Angular were all the wrong choices for this app, and why the monolith was the right answer.\r\n\r\nAlong the way you might learn something or two about making the correct architectual choices for your organization, at the very least you'll hear some funny stories about my pain and a few choice animated GIFs as well."
       }
@@ -83,13 +95,16 @@
     "Bio": "Paul started his career as a software developer in 2001 developing client/server enterprise solutions.  He is a great problem solver who enjoys using thorough analysis, deep consultation and the latest software development practices to help clients solve problems.  In 2014 Paul started his company, [Lunamark](http://lunamark.com), where he leverages his years of experience to help companies improve their software development teamâ€™s efficiency using techniques such as clean coding practices, code reviews, and pair programming. ",
     "Website": "http://lunamark.com",
     "Twitter": "paulmgower",
-    "Photo": null,
+    "Photo": "/public/img/speakers/gower-paul.jpg",
     "Company": "Lunamark",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 5,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Code Review: How and When",
         "Description": "You want to improve your software skills. Thatâ€™s a given. You may be a mentor or a manager who needs to improve the knowledge sharing among your software developers across different projects. Code Reviews can do just that while improving code quality in your projects. Code Review not only builds developer team spirit but also offers new ways to improve a software solution. Youâ€™ll walk away from this session with in-depth understanding of Code Review to strengthen your team."
       }
@@ -102,13 +117,16 @@
     "Bio": "Paul Hacker has over 15 years of application architecture, design, development, and management expertise in Microsoft technologies. Paul has a depth of experience in ALM, Process Improvement, and Team Foundation Server.  Having distinguished himself as a leader in the IT industry he has been awarded the distinction of Microsoft MVP in the ALM category every year since 2006.Over the years Paul has proven his expertise in Application Lifecycle Management and has demonstrated his professionalism and commitment to the continuous process of managing the life of an application through governance, development and maintenance.",
     "Website": "http://paulhacker.net",
     "Twitter": "pjhacker",
-    "Photo": null,
+    "Photo": "/public/img/speakers/hacker-paul.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 6,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Getting Started with Team Foundation Server 2015 Build",
         "Description": "TFS 2015 introduces a completely new system. Wondering what this is about and why (again) belongs to something new to you? Join us to explore the next generation of TFS build system and learn more about the background, the technical implementation and the benefits (eg, Cross-Platform builds). "
       }
@@ -121,13 +139,16 @@
     "Bio": "My name is Chris and I am a designer & front-end web developer from the Metro Detroit area. I am currently an associate software developer at DTE Energy.\r\n\r\nMy passion for the Web and the technologies that accompany it are ever growing. I love to look at code and great design and figure out how it all works. The common goal I try to achieve is to create, develop, and improve Websites making them not only visually appealing, but also great in function and usability. Teaching, learning, and problem solving are also characteristics I enjoy taking on, especially when it involves the Web. I am motivated to produce excellent results and expand my knowledge for my passion along the way.\r\n\r\nI also have a strong passion for usability, accessibility, and performance within the Web space.",
     "Website": "http://chrisdemars.com",
     "Twitter": "saltnburnem",
-    "Photo": null,
+    "Photo": "/public/img/speakers/demars-chris.jpg",
     "Company": "DTE Energy",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 7,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Gulping ALL the Things.",
         "Description": "Lost in the forest of front-end build systems out there? Check out Gulp! Gulp makes it super easy to minify, concatenate, and optimize your assets in an easy piping build stream. There are only a few commands to learn, so writing complex tasks (like you would in another system) isn't a thing in Gulp. In this talk, I will walk through what Gulp is and create a working gulpfile that can be used across endless front end projects that minifies, concatenates, and optimizes assets, as well as live reloads the browser using browser-sync."
       }
@@ -140,13 +161,16 @@
     "Bio": "A developer since the beginning of time, Don is currently a Director of Developer Experience at Red Hat, with a focus on Microsoft .NET on Linux. His mission is to bring .NET developers into the Linux and open source communities. Prior to Red Hat, Don was a Developer Advocate at Rackspace. He still enjoys cooking and still hates the designated hitter rule.",
     "Website": "http://redhatloves.net",
     "Twitter": "DonSchenck",
-    "Photo": null,
+    "Photo": "/public/img/speakers/schenck-don.jpg",
     "Company": "Red Hat",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 8,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "I Can Run C# In Docker?",
         "Description": "Yes. Yes, you can. You can run your C# programs, including web sites, RESTful services, and anything else you can dream up, in a Docker container.\r\n\r\n\r\nStarting with the very basics, this session will introduce you to microservices and Docker, and then demonstrate how to build a Docker image that will run a web site written in C# in a Docker container that is running Red Hat Enterprise Linux (RHEL).\r\n\r\nIt's a brave new world, where Microsoft hearts Linux and Red Hat loves .NET. Come out and take advantage of the union; learn some Docker, see RHEL running .NET, and leave with resources to help you along, including a zero-cost Developer's copy of RHEL."
       }
@@ -159,13 +183,16 @@
     "Bio": "# Who am I?\r\n\r\nFull stack developer with a need for speed! Building web applications is my passion and focusing on user experience is my goal. I have had the opportunity to work in multiple industries ranging from health care, converged infrastructure, and big data analytics. I enjoy keeping up with the latest web technologies and frameworks and building a variety of apps. I enjoy the evolution of the web and understanding how to continually improve my code as a result.\r\n\r\nWhen I'm not developing I enjoy running, reading, and spending time with my wife and twin boys. \r\n\r\n##  Favorite Podcasts\r\n- JavaScript jabber\r\n- 5 minutes of Javascript\r\n\r\n##  Favorite Sport\r\n- Hockey (go canes!)",
     "Website": "https://www.linkedin.com/in/jonathan-fontanez-27715428",
     "Twitter": "jonfontanez",
-    "Photo": null,
+    "Photo": "/public/img/speakers/fontanez-jonathan.jpg",
     "Company": "Pendo",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 9,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Building performant web applications",
         "Description": "# Overview\r\n\r\nBuilding performant web applications can be challenging! Cloud services enable web applications to scale globally and frameworks like React and AngularJS2 make it easier to build maintainable large scale web applications. However, one concern never changes; building applications that quickly provide responses to user interactions and understanding when they don't. This talk dives into some of the tools provided by browser vendors, how you can optimize your code, and understanding what is happening under the hood. This talk is relevant for web developers building applications large and small regardless of your framework choices. "
       }
@@ -178,13 +205,16 @@
     "Bio": "David Yarde is the co-founder of Sevenality, a Branding firm that specializes in design, and user experience with the aim of building better communities by helping build better brands. When David isnâ€™t working on Sevenality or volunteering, heâ€™s busy being Batman and spending time with his family and occasionally sharing tweets via @dsmy.",
     "Website": "http://davidyarde.com",
     "Twitter": "dsmy",
-    "Photo": null,
+    "Photo": "/public/img/speakers/yarde-david.jpg",
     "Company": "Sevenality",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 10,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "The Art of Working with Non-Developers",
         "Description": "No matter the platform, useful programming requirements get lost in translation from client meetings, to project managers and finally as a to-do ticket. Sucking all the joy out of the development process and reducing things down to daily sprints, with the hopes of launching on time. \r\n\r\nThere has to be a better way!\r\n\r\nTogether weâ€™ll take a look at effective ways of getting everyone on the same page, minimizing scope creep and having less stress when it comes time for product launch as well as how this helps to create a stronger foundation for business growth. "
       }
@@ -197,13 +227,16 @@
     "Bio": "Joel is an English major turned developer working as a software engineer and content author at Code School. Passionate about learning, he spends the majority of his time thinking about refactoring and design patterns.\r\n\r\nWhen not writing Ruby, he can be found mountain biking on the trails in Chattanooga, TN.\r\n\r\n",
     "Website": "http://codeprivy.com",
     "Twitter": "joeltayl",
-    "Photo": null,
+    "Photo": "/public/img/speakers/taylor-joel.jpg",
     "Company": "Code School",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 11,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "The Benefits of Streaking with Bugs and Giants",
         "Description": "\"Learn by doingâ€  â€” itâ€™s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. â€¦ but sometimes, things still feel stagnant.\r\n\r\nThis talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits weâ€™ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.\r\n\r\nSometimes, giants are nothing but windmills."
       }
@@ -216,13 +249,16 @@
     "Bio": "Matthew Edgar is technical marketing and web analytics consultant at [Elementive](http://www.elementive.com). Since 2001, Matthew has helped hundreds of companies grow through a process of analyzing, optimizing, and improving their websites, search presence, and online marketing. Using a strong analytical and technical framework, Matthew helps clients understand all aspects of their website and online marketing to better connect with customers and grow their business. You can connect with Matthew on Twitter @MatthewEdgarCO.  ",
     "Website": "http://www.matthewedgar.net",
     "Twitter": "MatthewEdgarCO",
-    "Photo": null,
+    "Photo": "/public/img/speakers/edgar-matthew.jpg",
     "Company": "Elementive (elementive.com)",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 12,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Using Data To Inform Development",
         "Description": "Data about the people using our websites and applications is all around us and, more and more, we're being asked to utilize that data when developing websites and applications. What is the right way to utilize all the data we have to understand priorities and needs when designing and developing applications and websites? Where are the best (and easiest) ways to access the data you need and how much data does a developer really need anyway?  More importantly, how do you communicate all those numbers to your boss, clients, funders, and other stakeholders in a way that makes sense and clearly shows the value of your work? \r\n\r\nIn this presentation, Matthew Edgar from Elementive will discuss specific, actionable steps you can use to make the wide variety of data you have available about your users a key part of your design and development work. Matthew will also share advice on how best to communicate and utilize those measurements and results. Attendees will leave with clear ideas on how to start utilizing and analyzing data. As well, attendees will have examples of how to collect that data. Attendees will also have a framework that they can apply to visualize and discuss the information gathered from the data with their teams."
       }
@@ -235,13 +271,16 @@
     "Bio": "Developer, husband, and DIY farmer.  I am a web developer at DaySpring Cards as well as a freelancer on the side in Northwest, AR. I manage an ecommerce store, write apps, and do cool stuff and things.",
     "Website": "",
     "Twitter": "tatemz",
-    "Photo": null,
+    "Photo": "/public/img/speakers/-a. tate barber.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 13,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Toolaholics Anonymous",
         "Description": "Do you use NodeJs, Composer, or Docker? Have you ever had your awesome code that you wrote on some new dev stack crap out on you the day before a project deadline? If so, you might be a toolaholic, like me.\r\n\r\nToolaholics are some of the coolest and smartest people out there, yet we lack the basics of productivity. We overcomplicate things and we spend way too much time trying to make our code as flexible as possible (when we should be making it as functional as possible).\r\n\r\nThis is a safe place to hear my mistakes and how I got over the hump of \"over tooling\" and how you can code better, stay more focused, and crank out some awesome work!"
       }
@@ -254,13 +293,16 @@
     "Bio": "A MicroISV owner for 11 years, Microsoft MVP for 8 years, and former Board member for INETA, Randy Walker has dedicated his life efforts towards fostering the software development community.",
     "Website": "",
     "Twitter": "_RandyWalker",
-    "Photo": null,
+    "Photo": "/public/img/speakers/walker-randy.jpg",
     "Company": "Harvest Data Corp",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 14,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "SQL Server Scripting",
         "Description": "Loading from text files using BCP, parsing rows with cursors, temp tables, and crazy sub-queries!"
       }
@@ -273,13 +315,16 @@
     "Bio": "Sergio is an application developer who is passionate about learning and sharing knowledge. When he is not typing code at Code School, you may find him speaking at different events about topics he's learned recently.",
     "Website": "http://sergiocruz.me",
     "Twitter": "hashtagserg",
-    "Photo": null,
+    "Photo": "/public/img/speakers/cruz-sergio.jpg",
     "Company": "Code School",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 15,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Staying Sane (dot) JS",
         "Description": "Developing apps with JavaScript is fun and scary in this day and age. It feels like every application we write will outlive the libraries used to write the app in... and that's not a fun feeling. Sometimes we get the impression that anything written in JavaScript today is so volatile because smart people will come up with smarter ways of solving problems, that will render solutions we write outdated about two minutes after writing it.\r\n\r\nThis issue was especially brought to life when I started working at Code School. How is it possible to prepare teaching materials that might be outdated by the time they get released? Turns out there is a way and I am here to prove to you that the JavaScript language and ecosystem is still a safe bet. Although there are parts of the ecosystem changing all the time, there are techniques we can use to prepare for those changes without having to rewrite whole apps over and over again.\r\n\r\nBeginner & more advanced developers alike will draw value from this talk, as it will teach both of these groups how to collaborate in a productive manner when architecting and writing apps while getting ready for the unknown future."
       }
@@ -292,13 +337,16 @@
     "Bio": "â€‹Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the \"Tech Talk For Non-Techies\" blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. Kim is working on her passion project JrDevMentoring.com and has been consulting with various bootcamps since speaking at ScotlandJS 2016. \r\n",
     "Website": "http://www.techtalkfornontechies.com/",
     "Twitter": "KimCrayton1",
-    "Photo": null,
+    "Photo": "/public/img/speakers/crayton-kim.jpg",
     "Company": "Kim Crayton LLC",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 16,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "â€‹ Overcoming the Challenges of Mentoring",
         "Description": "â€‹There is an ongoing mantra within the developer community: that there are far more jobs available then programmers to fill them. Which should be an indication as to the wonderful potential for both business and those learning to code. Yet what often follows such statements are not words of joy but rather a list of frustrations related to the difficulty in finding and retaining enough skilled developers to fill these positions. \r\nThe challenge is not in the number of newbies entering the field but the number who leave because they are not able to bridge the divide between bootcamps, online tutorials, books, videos, etc. to an employable developer who is able to contribute to the team. \r\nKim has years of experience working with learners of various ages in helping them develop the skills they needed to be successful at whatever their chosen goal. She understands that for businesses to be successful, they must develop more effective and efficient ways of recruiting and retaining developers in order to meet organizational benchmarks. \r\nThe developer community is a overwhelmingly generous one and a well designed mentoring or apprenticeship program could be one answer that business leaders and newbies are looking for.\r\n\r\n- The business costs associated with corporate hiring managers inability to recruit and retain skilled workers to fill current and future entry-level positions are increasing (Queen, 2014). \r\n- 89 percent of organizational leaders stated that they are having difficulties filling open positions, which is causing them to either turn down orders, miss key deliverable deadlines or hire individuals from outside of the United States (Aho, 2015). \r\n\r\nAho, K. (2015). The robotics industry: creating jobs, closing the skills gap. Techniques, (7), 22. Retrieved from https://www.acteonline.org/techniques/#.VpMcQq6rR0s\r\n\r\nQueen, J. (2014). Hire power: to close the skills gap, states are teaming up with industries that need, but can't find, qualified workers. State Legislatures, (8), 16. Retrieved from http://www.ncsl.org/bookstore/state-legislatures-magazine.aspx"
       }
@@ -311,13 +359,16 @@
     "Bio": "Matt Shull is Director of Aristotle Labs, which is a small team dedicated to creating innovative products using emerging technologies.  Because of his work in web performance, he was named one of the Top 60 Web Performance Experts to Watch by KeyCDN.  In his spare time he will tinker with the Internet of Things, hang out with his family, and occasionally, enjoy a demolition derby.  Catch him on twitter as @themattshull or check out other blog posts, videos, and information at mattshull.com.",
     "Website": "http://www.mattshull.com",
     "Twitter": "themattshull",
-    "Photo": null,
+    "Photo": "/public/img/speakers/shull-matt.jpg",
     "Company": "Aristotle Labs",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 17,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "The Physical Web",
         "Description": "We've heard of the Internet of Things or the Physical Web, but how can we begin using it practically?  This talk explores how to use the web to create interactive content for users in the physical world through beacons.  By showing examples of how this technology has been used by amusement parks, businesses, and events, Matt will discuss how web developers are building the future of digital engagement for individuals and businesses.  You'll not only learn what the Physical Web is and how to use it but also participate in interactive displays with a few rewarding surprises.  The web is awesome, and the Physical Web is making it easier for users to get the content they want, when they want it."
       }
@@ -330,13 +381,16 @@
     "Bio": "Greg Jordan is the Founder & CEO of Graph Story, the leading graph database-as-a-service provider.  Greg is also the author of Practical Neo4j and has over 15 years of programming experience in various languages with a focus on data driven projects. Greg is avid speaker and writer on the topic of graph databases and has been working with graph databases since 2011. Greg holds two Master's Degrees and is a Ph.D. candidate at the University of Memphis.",
     "Website": "https://www.graphstory.com",
     "Twitter": "gmjordan",
-    "Photo": null,
+    "Photo": "/public/img/speakers/jordan-greg.jpg",
     "Company": "Graph Story",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 18,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Getting Started with Neo4j & .NET",
         "Description": "This workshop will focus on building a C#/.Net application using the Neo4j graph database as the database, including examples for social network application, geo / location matching and an ecommerce recommendation engine. It will include a mixture of theory, hands-on coding, and take home examples with a sample graph data.\r\n\r\nAttendees will learn:\r\n\r\n- An understanding of graph databases & use cases\r\n- Introduction to data modeling with Graph databases\r\n- Setting up a Neo4j instance and importing data\r\n- Understanding real-world examples with C#/.Net and Neo4j\r\n- Deploying your application to production\r\n\r\naudience: intermediate level developers with some background .NET/C#"
       }
@@ -349,13 +403,16 @@
     "Bio": "Nick Volgas was born in Memphis, TN and moved to Little Rock, AR in 2011 to work for INA.  He started as software developer, then senior developer (when he worked on this project), and has recently moved into a team lead position.  He is passionate about using AWS and other cloud solutions instead of self-hosting a monolithic architecture.  Nick is an avid mountain biker, homebrewer, and spends his little remaining free time with his wife and dog.\r\n\r\nOver the past 8 years, Joseph has been fortunate to climb the ranks from small web shops to a Senior Developer for Fortune 100 clients. Regardless of the scope of the project or client size, Joseph understands the importance of clean code and solid architecture for long-term growth. Raised in Northeast Arkansas but now calling Little Rock home, you can find him with his wife, 6-year old son and 2 year old daughter.",
     "Website": "",
     "Twitter": "",
-    "Photo": null,
+    "Photo": "/public/img/speakers/-nick volgas and joseph yancey.jpg",
     "Company": "Information Network of Arkansas",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 19,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "Building a Highly Scalable Web Environment on AWS",
         "Description": "We moved a high-traffic application into AWS from a monolithic, self-hosted infrastructure back in 2014/2015.  We will talk about the trials, tribulations, and great successes of that endeavor.  We will provide an overview of our infrastructure setup, discuss the scalability and redundancy advantages that we've realized by using AWS, and then highlight some of the reason we think you should put your services in the cloud too."
       }
@@ -368,15 +425,238 @@
     "Bio": "I write code for Cisco, co-organize the OrlandoJS Meetup, married, father of two princesses, love Hardcore music and stage dives, passionate drummer and occasionally skateboarder.",
     "Website": "",
     "Twitter": "bfgenaro",
-    "Photo": null,
+    "Photo": "/public/img/speakers/genaro-bruno.jpg",
     "Company": "Cisco",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 20,
         "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
         "Topic": "The future of React with Universal web applications",
         "Description": "Everything started when Brendan Eich wrote a language to run Scheme on the Netscape Navigator. Then, Ryan Dahl got the Google's V8 JavaScript runtime and developers would write JavaScript on the server side. \r\n\r\nNowadays people write JavaScript everywhere (web servers, to fly drones, tablets, mobile phones, refrigerators etc). Isomorphic JavaScript is used to describe JavaScript code that â€œcan be executed on the client and the serverâ€.\r\n\r\nReact has a powerful ability to render also on the server side. This is huge for perfomance and SEO. Also, sharing the same code between client and server makes maintenance much easier."
+      }
+    ]
+  },
+  {
+    "Id": 21,
+    "FirstName": "Tim",
+    "LastName": "Roberts",
+    "Bio": "A web nerd that grew up hearing the tales of Assembly and chose the easy route of HTML and JS. After over a decade of hacking together SO questions and other people's source code to make websites and applications that work, I have landed as the JavaScript Evangelist at KnoxWeb, the oldest web development firm in Knoxville, TN. I currently am helping bridge the gap between designers and developers, trying to talk code with one and colors with the other and bring both into the world of Functional programming.\r\n\r\nI am a huge React nerd, Redux admirer, and a lover of ES6 (never 2015...). I like to give back to the community in gist form over repo form, blogs over talks, and questions over answers. \r\n\r\ngithub.com/beardedtim\r\ngist.github.com/beardedtim",
+    "Website": "http://github.com/beardedtim",
+    "Twitter": "circa",
+    "Photo": "/public/img/speakers/roberts-tim.jpg",
+    "Company": "KnoxWeb",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 21,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Dr Iterate or: How I Learned to Stop Worrying and Love Higher-Order Functions",
+        "Description": "_**The journey of a thousand miles begins with one step**_\r\n\r\nFunctional programming seems to be the coming paradigm for building software and for good reason. Stateless functions produce less bugs and help build modular, reusable code. But making the switch from OOP to functional can be a daunting task. Monads? Functors? Category Theory? What do any of these words mean and how can you actively apply them to the code-base you are currently working on or the project your team is starting?\r\n\r\nThe easiest way to get your feet wet into functional programming in JavaScript is the use of higher-order functions (reduce, filter, map, etc). From the basics of what the syntax is and how it is different than forEach to the power of stateless, composable functions, learning how and why to use higher-order functions will speed up the transition from OOP to functional. Learn how to use and chain together higher-order functions, building uber-microservices, refactoring along the way."
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "FirstName": "Bryan",
+    "LastName": "Soltis",
+    "Bio": "Bryan Soltis is the Technical Evangelist at Kentico and an avid .NET developer. With over 16 years of web development experience, Bryan has completed projects for Microsoft, IMG, HP, and other Fortune 500 companies. A former Azure VTSP, Bryan has developed numerous applications with Microsoftâ€™s cloud and Kentico, including custom software development, integrated solutions, and globally-available enterprise applications. As a Technical Evangelist, Bryan enjoys working with the development community and educating developers on best practices, new technologies, and utilizing the .NET, cloud, and Kentico to their fullest potentials. And he really likes beer.",
+    "Website": "http://devnet.kentico.com/users/439927/bryan-soltis",
+    "Twitter": "bryan_soltis",
+    "Photo": "/public/img/speakers/soltis-bryan.jpg",
+    "Company": "Kentico",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 22,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Long walks on the beach with Azure Search ",
+        "Description": "Azure Search is a powerful, REST-based service companies can leverage within their applications to provide dynamic, scalable search solutions. In this session, Kentico Technical Evangelist and Azure enthusiast Bryan Soltis will introduce you to this powerful service, show you some of its cool capabilities, and see if thereâ€™s a love connection for you. From Creating Indexes to Custom Search functions, youâ€™ll see how Azure Search can quickly boost the functionality of any site and provide a unique and captivating experience for your users."
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "FirstName": "Gian",
+    "LastName": "Wild",
+    "Bio": "Gian Wild is the CEO of AccessibilityOz. She has worked in accessibility industry since 1998. Her major achievements include: the very first Australian accessible web site; the accessibility compliance of the Melbourne 2006 and Gold Coast 2018 Commonwealth Games; her six yearsâ€™ active membership in the W3C Web Content Accessibility Guidelines Working Group; and her speech on the importance of web accessibility at the United Nations Conference of State Parties in June last year. Gian has spoken at conferences in Australia, US, Canada, South America and Europe.\r\n",
+    "Website": "http://www.accessibilityoz.com",
+    "Twitter": "accessibilityoz",
+    "Photo": "/public/img/speakers/wild-gian.jpg",
+    "Company": "AccessibilityOz",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 23,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Mobile and accessibility",
+        "Description": "Mobile accessibility is different to desktop accessibility; there are a whole lot more devices, screen sizes, operating systems and browsers. What this means for accessibility is that things can often go very very wrong and unfortunately it is not a case of just following WCAG2. Gian Wild looks at some major mobile accessibility failures, and some plain old usability failures as well; and talks about what should be done instead.\r\nSome of the issues Gian talks about is the use of PDFs, and their problems on mobile devices: from the longer download time to display issues. She also talks about issues with keyboard accessibility â€“ whether this is to do with access to the onscreen keyboard or accessibility of an external keyboard device. She talks about text sizing issues, and the inability to change text size in some systems. Gian talks about the use of colour in mobile sites and how important colour contrast is important on smaller screen devices. She talks about the effects on the user of broken or unclear functionality, and how the user responds to different or inconsistent functionality on the desktop versus mobile device. Other issues include source order, size of touch targets, spacing between elements and use of images."
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "FirstName": "Jeffrey",
+    "LastName": "Hicks",
+    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.\"",
+    "Website": "http://jrhicks.github.io",
+    "Twitter": "jrhicks",
+    "Photo": "/public/img/speakers/hicks-jeffrey.jpg",
+    "Company": "",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 24,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "From Zero to Production Docker in 10 minutes ",
+        "Description": "# From Zero to Production Docker in 10 minutes\r\n\r\nLive demonstration of creating a Docker cluster, launching a continuous delivery platform on the cluster, and starting a new web application on the platform that will build, test, stage and launch to production on code commits â€“ all in 10 minutes using free open source technology that will run on public cloud or private infrastructure. \r\n \r\nWhy Containers Have Captivated Our Imagination\r\n\r\n * Lightweight alternative to VMs \r\n * The Dockerfile\r\n\r\nContainers Change A Lot\r\n\r\n * Containers Change Configuration Management  \r\n\r\n   - Without Containers \r\n   - With Containers \r\n\r\n * Containers Change Orchestration \r\n\r\n   - Without Containers \r\n   - With Containers\r\n\r\n * Containers Change Continuous Delivery \r\n\r\n   - Without Containers \r\n   - With Containers \r\n\r\nInstalling on AWS Infrastructure (4 Minutes) \r\n\r\n * Installation \r\n * Access Management \r\n * Auto Scaling \r\n * Cluster Maintenance \r\n\r\nStart Showing!  (Live Demonstration)\r\n\r\n * Installing Cluster Google Cloud Platform\r\n * Hierarchy based Access Management \r\n * Cluster Creation & Management \r\n * Installing CI/CD into cluster with Google Cloud Shell \r\n * Create app, test, review in staging, approve, launch into cluster \r\n\r\nWrap Up\r\n\r\n* Disclaimer\r\n* Any Advice?\r\n* Any Questions?"
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "FirstName": "Christopher",
+    "LastName": "Steven",
+    "Bio": "Christopher Steven has spent the last 15 years developing Line of Business Software for the health care industry in the Central Arkansas Region and the last 2 years developing ground breaking software for Dassault Falcon Jet . He has a passion for technology, mentoring aspiring developers to embrace software engineering and to always look towards the future. Christopher is a Microsoft Certified Professional Developer, an Alumni of Pulaski Technical College and the University of Arkansas. He is currently the President of the Little Rock .Net User Group.",
+    "Website": "http://lrdnug.org/",
+    "Twitter": "Chrissteven81",
+    "Photo": "/public/img/speakers/steven-christopher.jpg",
+    "Company": "Little Rock .Net User Group",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 25,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Hololens: Demonstration and Workshop",
+        "Description": "We begin our journey into the next evolution in computing by performing a demonstration. We will then take a dive into how to get started and some tips and tricks you will need to know along the journey."
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "FirstName": "Josh",
+    "LastName": "Cypher",
+    "Bio": "Josh Cypher is the lead QA Engineer at Emma, Inc. Before Emma, he spent five years as a product manager, learning to code in an effort to better understand his developers. When he took the leap into automated testing, he never looked back. \r\n\r\nJosh is an avid cyclist and often commutes to work on his Bianchi road bike. In his off hours, he enjoys spending time with his wife, Rachel, and his dog, Alistair. He is a board game enthusiast, beer aficionado and an excellent campfire cook.\r\n",
+    "Website": "",
+    "Twitter": "joshuacypher",
+    "Photo": "/public/img/speakers/cypher-josh.jpg",
+    "Company": "Emma, Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 26,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Jumpstarting Selenium Testing in Your Organization with Javascript, WebdriverIO & Cucumber",
+        "Description": "With modern software development moving at a rapid pace, automation engineers may find it difficult to keep up with frequent changes. But if parts of the testing process are incorporated into everyone's workflow, this creates the potential for automated testing to mirror software delivery.\r\n\r\nMy goal is to make software testing more accessible to entire product and engineering teams by providing familiar tools that allow individuals to easily contribute to the automation process.\r\n\r\nFor this talk, I will explore how we can meet developers halfway by using the javascript-based testing framework WebdriverIO, demonstrate how product managers can create living documentation and test cases using Cucumber, and talk about sharing page objects and testing libraries across multiple services using NPM. "
+      }
+    ]
+  },
+  {
+    "Id": 27,
+    "FirstName": "Russell",
+    "LastName": "Anderson",
+    "Bio": "Russ Anderson is a Front-End Developer and de facto UI/UX designer at [Tandum](http://tandum.com/), and has been writing Javascript for about 5 years. These days he spends most of his time writing Angular 1.x applications, because that's what he gets paid to do. Regardless of the framework he loves building intuitive practical interfaces, and heavily commented pull requests. Also he likes that most recent Car Seat Headrest record.\r\n\r\nRuss lives in Nashville, Tennessee with his wife and two boys.",
+    "Website": "http://vacas5.github.io/",
+    "Twitter": "RealRealRuss",
+    "Photo": "/public/img/speakers/anderson-russell.jpg",
+    "Company": "Tandum",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 27,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "\"This Code Sucks\" and other tales of developer hubris",
+        "Description": "### \"This Code Sucks\" and other tales of developer hubris\r\n\r\nI'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?\r\n\r\nThis is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).\r\n\r\nYou can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "FirstName": "Lorena",
+    "LastName": "Mesa",
+    "Bio": "Political analyst turned coder, Lorena Mesa is a Sprout Social platform software engineer, Director on the Python Software Foundation, PyLadies Chicago co-organizer, and Write/Speak/Code conference organizer. Lorena loves to make meaning out of data, asking big questions and using her code to build models to derive that meaning. Part Star Wars fanatic but mostly a Trekkie, Lorena abides by the motto to \"live long and prosper\".",
+    "Website": "http://www.lorenamesa.com",
+    "Twitter": "loooorenanicole",
+    "Photo": "/public/img/speakers/mesa-lorena.jpg",
+    "Company": "Director, Python Software Foundation & Software Engineer, Sprout Social & Organizer, PyLadies Chicago",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 28,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Functionalish Programming in Python",
+        "Description": "Functional programming is all the rage (yet again), but for those of us who code in object oriented languages functional programming and its perks can be difficult to parse. In this talk we will discuss the basics of functional programming and how it stands in opposition to languages that adhere to a declarative paradigm. Armed with a working definition of what functional programming is (and is not) and why functional programming could and should be used, we'll investigate Python's strange embrace of functional programming. Python is a multi-paradigm language making it an interesting language for us to explore functional programming. We will compare code that embraces functional ideas and code that does not and observe how Python function objects behave, oddly enough, in a way that supports a functionalish mindset. Don't be scared of functionalish programming - we're all learning together!"
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "FirstName": "Matt",
+    "LastName": "Trask",
+    "Bio": "Im a developer who loves coffee, cats, beer and API's. I love using public APIs to build silly projects such as an SMS application to tell my father what time it is every hour. On the hour. Outside of programming, I bike all around the hills and cars of Atlanta, having more close encounters with bumpers then the 3rd kind. Im a huge Disney fan, and attempted to ride all 46 (now 47) rides in one operating day. We didn't finish but its a great story!",
+    "Website": "http://matthewtrask.net",
+    "Twitter": "matthewtrask",
+    "Photo": "/public/img/speakers/trask-matt.jpg",
+    "Company": "Tandum",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 29,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Testing Code from Unit to Deployment",
+        "Description": "Testing is one of those things we all love to hate. It takes longer, it adds stress to your work and makes you think, rethink and then throw an idea away. But what if testing was made easy? Better yet, what if we had a test suite that you could use to your benefit and know that when you deploy code, you aren't deploying bad code. With testing tools like PHPUnit and Behat coupled with CI services like Travis or Jenkins, you can know that code to be deployed has been vetted and checked properly.\r\n\r\nI spent months learning how to set up proper CI pipelines from Sebastian Bergmann, creator of PHPUnit. With his guidance, our CI pipeline was the thing dreams are made of. We moved code effortlessly through our Git from dev to QA to UAT to prod with ease and confidence. "
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "FirstName": "Ryan",
+    "LastName": "Tablada",
+    "Bio": "Ryan started in the fire of the startup world working on projects in many different fields.\r\nHe has made his way as a contributor in the Laravel, Node, and Ember communities.\r\nNow Ryan works on building the future developers for our community as a Front End Instructor from the Iron yard.",
+    "Website": "http://ryantablada.com",
+    "Twitter": "ryantablada",
+    "Photo": "/public/img/speakers/tablada-ryan.jpg",
+    "Company": "The Iron Yard",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 30,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Productive & Maintainable JS Apps with Ember.js",
+        "Description": "In this workshop, we start with a fresh Ember CLI application (with a few popular addons installed and styles written).\r\nSince managing data via forms and **CRUD** resources is pivotal to modern applications, we begin by creating a full **URL-driven** interface to manage data stored in a JSON API.\r\n\r\nOnce we have our first resource working, we shift our focus to a much more difficult problem: working with a **has-many** relationship.\r\nWe'll see how Ember and Ember Data make this challenge easy and fun!\r\n\r\nTo wrap up the workshop, we go beyond forms:\r\nTo show the flexibility Ember and the Ember community, we install an addon that will help add live updating **charts** to our application.\r\nFinally, we end with a bang and see how Ember's tools and ecosystem help maintain apps across **large and distributed teams**."
       }
     ]
   }
