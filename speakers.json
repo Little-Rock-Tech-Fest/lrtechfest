@@ -1,4 +1,3 @@
-
 [
   {
     "Id": 1,
@@ -48,7 +47,7 @@
     "Id": 3,
     "FirstName": "Marcus and Rakia Finley",
     "LastName": null,
-    "Bio": "Marcus Finley is an â€œadvisor, UX architect, and implementer.â€ He graduated from Florida State University where he majored in Mechanical Engineering and Public Administration. Marcus is a certified Scrum Master with expert knowledge of a number programming languages, user experience design and web/mobile application development. Marcus has managed over $2 million dollars of contracted technology development and strategy projects for 45 clients with an average size of $100,000 dollars. In his professional roles he has provided technology strategies and user experiences to achieve clientâ€™s goals. He has help developed UX practices, lead a number of UX workshops with clients and guided companies with emerging needs of validating applications. He co-founded a Meetup called Color of Tech to bring together a diverse group of technology professionals to network and thrive.\r\n\r\nRakia is the Innovation Director if FIN. Digital. Her work includes consulting on the use of software systems to achieve corporate mission, information technology planning and the strategic use of technology. She specializes in mastering technology and web systems to increase development among organizations. Her strength is in planning for specific technology projects that involve complex information systems. With over 10 years experience in the information technology industry, she has become an industry expert on organizational issues associated with program creation and growth. She is active in the technology-for-enhancement movement and is frequently invited to speak at conferences across the country, primarily focusing on business strategy, development and technology.",
+    "Bio": "Marcus Finley is an â€œadvisor, UX architect, and implementer.â€ He graduated from Florida State University where he majored in Mechanical Engineering and Public Administration. Marcus is a certified Scrum Master with expert knowledge of a number programming languages, user experience design and web/mobile application development. Marcus has managed over $2 million dollars of contracted technology development and strategy projects for 45 clients with an average size of $100,000 dollars. In his professional roles he has provided technology strategies and user experiences to achieve clientâ€™s goals. He has help developed UX practices, lead a number of UX workshops with clients and guided companies with emerging needs of validating applications. He co-founded a Meetup called Color of Tech to bring together a diverse group of technology professionals to network and thrive.\\r\\n\\r\\nRakia is the Innovation Director if FIN. Digital. Her work includes consulting on the use of software systems to achieve corporate mission, information technology planning and the strategic use of technology. She specializes in mastering technology and web systems to increase development among organizations. Her strength is in planning for specific technology projects that involve complex information systems. With over 10 years experience in the information technology industry, she has become an industry expert on organizational issues associated with program creation and growth. She is active in the technology-for-enhancement movement and is frequently invited to speak at conferences across the country, primarily focusing on business strategy, development and technology.",
     "Website": "http://www.fin-digital.com",
     "Twitter": "findigital",
     "Photo": "/public/img/speakers/-marcus and rakia finley.jpg",
@@ -238,7 +237,7 @@
         "Room": null,
         "SessionNumber": null,
         "Topic": "The Benefits of Streaking with Bugs and Giants",
-        "Description": "\"Learn by doingâ€  â€” itâ€™s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. â€¦ but sometimes, things still feel stagnant.\r\n\r\nThis talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits weâ€™ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.\r\n\r\nSometimes, giants are nothing but windmills."
+        "Description": "\\\"Learn by doingâ€  â€” itâ€™s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. â€¦ but sometimes, things still feel stagnant.\\r\\n\\r\\nThis talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits weâ€™ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.\\r\\n\\r\\nSometimes, giants are nothing but windmills."
       }
     ]
   },
@@ -436,7 +435,7 @@
         "Room": null,
         "SessionNumber": null,
         "Topic": "The future of React with Universal web applications",
-        "Description": "Everything started when Brendan Eich wrote a language to run Scheme on the Netscape Navigator. Then, Ryan Dahl got the Google's V8 JavaScript runtime and developers would write JavaScript on the server side. \r\n\r\nNowadays people write JavaScript everywhere (web servers, to fly drones, tablets, mobile phones, refrigerators etc). Isomorphic JavaScript is used to describe JavaScript code that â€œcan be executed on the client and the serverâ€.\r\n\r\nReact has a powerful ability to render also on the server side. This is huge for perfomance and SEO. Also, sharing the same code between client and server makes maintenance much easier."
+        "Description": "Everything started when Brendan Eich wrote a language to run Scheme on the Netscape Navigator. Then, Ryan Dahl got the Google's V8 JavaScript runtime and developers would write JavaScript on the server side. \\r\\n\\r\\nNowadays people write JavaScript everywhere (web servers, to fly drones, tablets, mobile phones, refrigerators etc). Isomorphic JavaScript is used to describe JavaScript code that â€œcan be executed on the client and the serverâ€.\\r\\n\\r\\nReact has a powerful ability to render also on the server side. This is huge for perfomance and SEO. Also, sharing the same code between client and server makes maintenance much easier."
       }
     ]
   },
@@ -510,7 +509,7 @@
     "Id": 24,
     "FirstName": "Jeffrey",
     "LastName": "Hicks",
-    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.\"",
+    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.",
     "Website": "http://jrhicks.github.io",
     "Twitter": "jrhicks",
     "Photo": "/public/img/speakers/hicks-jeffrey.jpg",
@@ -589,7 +588,7 @@
         "Day": null,
         "Room": null,
         "SessionNumber": null,
-        "Topic": "\"This Code Sucks\" and other tales of developer hubris",
+        "Topic": "This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris\r\n\r\nI'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?\r\n\r\nThis is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).\r\n\r\nYou can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
       }
     ]
