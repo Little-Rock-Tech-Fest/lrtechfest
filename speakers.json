@@ -16,7 +16,7 @@
         "Day": null,
         "Room": null,
         "SessionNumber": null,
-        "Topic": "Why You Don't Need a Unicorn",
+        "Topic": "Unicorns & Dinosaurs",
         "Description": "Knowing and being the \"expert\" on everything from rolling the server, to back-end development, and pixel perfecting the UI is unsustainable at best. The technologies and processes that we rely on to build and deploy software is changing at a quicker rate for any one individual to truly be an expert for long. This presentation reviews the sources of conflict and how to embrace compromise between the front-end designers and back-end developers on a software team. "
       }
     ]
@@ -441,12 +441,12 @@
   },
   {
     "Id": 21,
-    "FirstName": "Tim",
+    "FirstName": "Timi",
     "LastName": "Roberts",
     "Bio": "A web nerd that grew up hearing the tales of Assembly and chose the easy route of HTML and JS. After over a decade of hacking together SO questions and other people's source code to make websites and applications that work, I have landed as the JavaScript Evangelist at KnoxWeb, the oldest web development firm in Knoxville, TN. I currently am helping bridge the gap between designers and developers, trying to talk code with one and colors with the other and bring both into the world of Functional programming.\r\n\r\nI am a huge React nerd, Redux admirer, and a lover of ES6 (never 2015...). I like to give back to the community in gist form over repo form, blogs over talks, and questions over answers. \r\n\r\ngithub.com/beardedtim\r\ngist.github.com/beardedtim",
     "Website": "http://github.com/beardedtim",
     "Twitter": "circa",
-    "Photo": "/public/img/speakers/roberts-tim.jpg",
+    "Photo": "/public/img/speakers/roberts-timi.jpg",
     "Company": "KnoxWeb",
     "LinkedIn": null,
     "Presentations": [
