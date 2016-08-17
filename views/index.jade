@@ -134,17 +134,18 @@ html
 				span.icon.section-icon.icon-faces-users-04
 				h3 Speakers
 				p.text-alt Meet our 
-					span.highlight ninjas!
+					span.highlight speakers!
 				br
 				br
 				each speaker in speakers
-					.col-sm-3
+					.col-sm-4
 						.speaker
-							.photo-wrapper.rounded
-								img(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}" class="img-responsive")
-							h3.name #{speaker.FirstName} #{speaker.LastName}
-							p.text-alt
-								small #{speaker.Company}
+							a(href="/topics##{speaker.slug}")
+								.photo-wrapper.rounded
+									img(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}" class="img-responsive" )
+								h3.name #{speaker.FirstName} #{speaker.LastName}
+								p.text-alt
+									small #{speaker.Company}
 							ul.speaker-socials
 								if speaker.Twitter
 									li
@@ -277,7 +278,7 @@ html
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Gold"
-						.sponsor.inline
+						.sponsor.inline.gold
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 								
@@ -285,7 +286,7 @@ html
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Silver"
-						.sponsor.inline
+						.sponsor.inline.silver
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 							
@@ -293,7 +294,7 @@ html
 				.sponsors
 				each sponsor in sponsors
 					if sponsor.Level == "Bronze"
-						.sponsor.inline.small
+						.sponsor.inline.small.bronze
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 

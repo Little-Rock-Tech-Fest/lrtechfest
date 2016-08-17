@@ -3,8 +3,14 @@
 #sign_up form {
     padding: 25px 12px;
 }
-.sponsor.inline img {max-width: 150px;}
-.sponsor.small img {max-width: 100px;}
+.sponsor.inline img {max-width: 250px;}
+.sponsor.silver.inline img {max-height: 90px; max-width: 225px;}
+ 
+
+.sponsor.small img {max-width: 120px;}
+
+.speaker img {width: 200px}
+
 
 a.logo {
   height:80px;

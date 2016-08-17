@@ -1,0 +1,23 @@
+extends layout
+
+block content
+	section.section.align-center
+		.section-header.col-sm-10.col-sm-offset-1
+			h1 LRTF 2016 Session Lineup
+
+	section.fullwidth-section
+		.fullwidth-path
+		br
+		each speaker in speakers
+			div(id='#{speaker.slug}' class='col-sm-3')
+				.speaker
+					.photo-wrapper.rounded
+						img(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}" class="img-responsive" )
+					h3.name #{speaker.FirstName} #{speaker.LastName}
+			div.col-sm-6
+				each presentation in speaker.Presentations
+					h4 #{presentation.Topic}
+					p !{presentation.Description}
+				h6 About #{speaker.FirstName}
+				p !{speaker.Bio}
+			hr

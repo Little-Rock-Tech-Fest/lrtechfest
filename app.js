@@ -3,6 +3,7 @@ var _ = require('lodash')._;
 var fs = require('fs');
 var Q = require('q');
 var app = express();
+var slugs = require('slugs')
 
 //create a promise-compatible readfile method
 var fs_readFile = Q.denodeify(fs.readFile);
@@ -25,6 +26,15 @@ var team = [
 
 var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
 var sponsors = JSON.parse(fs.readFileSync('sponsors.json', 'utf8'));
+
+speakers.forEach(function(speaker){
+	speaker.slug = slugs(speaker.FirstName+'-'+speaker.LastName);
+	var stats = fs.stat(__dirname+speaker.Photo, function(err, stats){
+		if(err){
+			speaker.Photo = "/public/img/speakers/missing.png";
+		}
+	})
+});
 
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
@@ -53,8 +63,8 @@ app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
 
-app.get('/about', function(req, res){
-	res.render('about', {team: team})
+app.get('/topics', function(req, res){
+	res.render('topics', {speakers: speakers});
 });
 
 app.get('/', function(req, res){
