@@ -40,5 +40,17 @@
 	"Level": "Gold",
 	"Logo": "/public/img/sponsors/abc-financial.png",
 	"Website": "http://abcfinancial.com/"
+	},
+	{
+	"Name": "TEKsystems",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/teksystems.png",
+	"Website": "https://www.teksystems.com/"
+	},
+	{
+	"Name": "Laravel",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/laravel.png",
+	"Website": "http://laravel.com/"
 	}
 ]
