@@ -5,7 +5,7 @@
 }
 .sponsor.inline img {max-width: 250px;}
 .sponsor.silver.inline img {max-height: 90px; max-width: 225px;}
- 
+
 
 .sponsor.small img {max-width: 120px;}
 
@@ -19,6 +19,11 @@ a.logo {
 .section#tickets {
 	padding-top: 20px;
 }
+.make-column { float: none; display: inline-block; margin: 0 0 -0.125em; vertical-align: top;}
+
+
+
+
 
 /* Extra Small */
 @media(max-width:767px){
@@ -29,15 +34,15 @@ a.logo {
 
 /* Small */
 @media(min-width:768px) and (max-width:991px){
-
+.make-sm-column { float: none; display: inline-block; margin: 0 -0.125em; }
 }
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px){
-
+.make-md-column { float: none; display: inline-block; margin: 0 -0.125em; }
 }
 
 /* Large */
 @media(min-width:1200px){
-
+.make-lg-column { float: none; display: inline-block; margin: 0 -0.125em; }
 }

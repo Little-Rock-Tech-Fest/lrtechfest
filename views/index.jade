@@ -21,14 +21,14 @@ html
 			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
 			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
 			document,'script','https://connect.facebook.net/en_US/fbevents.js');
-			
+
 			fbq('init', '132849980489175');
 			fbq('track', "PageView");
 		noscript.
 			<img height="1" width="1" style="display:none"
 			src="https://www.facebook.com/tr?id=132849980489175&ev=PageView&noscript=1"
 			/>
-		<!-- End Facebook Pixel Code -->	
+		<!-- End Facebook Pixel Code -->
 	body
 		.preloader-mask
 			.preloader
@@ -50,9 +50,9 @@ html
 			.heading-block.centered-block.align-center
 				.container
 					h5.heading-alt(style="margin-bottom: 8px;")
-						span.fa.fa-calendar-o.base-clr-txt 
+						span.fa.fa-calendar-o.base-clr-txt
 						span October 20-21, 2016
-						span.fa.fa-map-marker.base-clr-txt 
+						span.fa.fa-map-marker.base-clr-txt
 						span Little Rock, AR
 					h1.extra-heading Little Rock Tech Fest
 					h6.thin.base-font Two days of learning, networking, and fun for web and software developers
@@ -84,12 +84,12 @@ html
 									ul.dropdown-menu
 										li.navigation-item
 											a(class="navigation-link" href="/sponsors") Become a sponsor
-								
+
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="/jobs") Jobs
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="#speakers") Schedule
-							a(class="pull-right buy-btn" href="https://www.papercall.io/lrtf") Call for Speakers	
+							a(class="pull-right buy-btn" href="https://www.papercall.io/lrtf") Call for Speakers
 
 		section#about.section.align-center
 			.container
@@ -98,15 +98,15 @@ html
 				p.text-alt This year we are unveiling a two-day format, hosted on October 20-21<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
 
 				.col-sm-6
-					p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers. 
+					p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
 
-					
+
 				.col-sm-6
-					p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students. 
+					p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
 
-					p.align-left This is our fourth year hosting the event. We expect at least 400 attendees. This year, we're hosting in the Statehouse ballrooms. Will you join us? 
+					p.align-left This is our fourth year hosting the event. We expect at least 400 attendees. This year, we're hosting in the Statehouse ballrooms. Will you join us?
 
-	
+
 		//- section#sign_up.section.bg-cover.bg4.light-text.align-center
 		//- 	.container
 		//- 		h2
@@ -128,22 +128,25 @@ html
 		//- 					fieldset.col-sm-4
 		//- 						//- input.btn.btn-sm.btn-outline-clr(type="submit" value="submit")
 		//- 						input.btn.btn-sm.btn-outline-clr(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe")
-								
+
 		section#speakers.section.align-center
 			.container
 				span.icon.section-icon.icon-faces-users-04
 				h3 Speakers
-				p.text-alt Meet our 
+				p.text-alt Meet our
 					span.highlight speakers!
 				br
 				br
 				each speaker in speakers
-					.col-sm-4
+					.col-sm-4.make-column
 						.speaker
 							a(href="/topics##{speaker.slug}")
 								.photo-wrapper.rounded
 									img(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}" class="img-responsive" )
 								h3.name #{speaker.FirstName} #{speaker.LastName}
+								each pre in speaker.Presentations
+									p.text-alt
+										small #{pre.Topic}
 								p.text-alt
 									small #{speaker.Company}
 							ul.speaker-socials
@@ -164,7 +167,7 @@ html
 			div.container
 				span.icon.section-icon.icon-shopping-04
 				h3 Tickets
-				p.text-alt Early bird rate expires  
+				p.text-alt Early bird rate expires
 					span.highlight 9/15!
 				br
 				br
@@ -177,20 +180,20 @@ html
 							div.package-detail
 								ul
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Lunch both days
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span T-shirt
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Swag
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Must have valid .edu email.
 									li
 										&nbsp;
-	
+
 							a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline-clr") Buy now
 					div.col-sm-4
 						div.package-column.special-column
@@ -201,18 +204,18 @@ html
 							div.package-detail
 								ul
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Lunch both days
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span T-shirt
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Swag
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span $25 off through 9/15!
-									li 
+									li
 										&nbsp;
 							a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg") Buy now
 
@@ -224,19 +227,19 @@ html
 							div.package-detail
 								ul
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Special recognition &amp; gift
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Lunch both days
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span T-shirt
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Swag
 									li
-										span.fa.fa-check.check-icon 
+										span.fa.fa-check.check-icon
 										span Only 15 available
 
 							a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline-clr") Buy now
@@ -256,7 +259,7 @@ html
 							li
 								i.fa.fa-map-o
 								a(href="https://www.google.com/maps/place/Statehouse+Convention+Center/@34.7487084,-92.2728966,17z/data=!4m13!1m7!3m6!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!2sStatehouse+Convention+Center!3b1!8m2!3d34.7487084!4d-92.2707079!3m4!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!8m2!3d34.7487084!4d-92.2707079" target="_blank") Get directions
-			
+
 
 		section#sponsors.section.align-center
 			.container
@@ -265,7 +268,7 @@ html
 				p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
 				br
 				br
-				
+
 				//- h4 Platinum
 				.sponsors
 				each sponsor in sponsors
@@ -273,7 +276,7 @@ html
 						.sponsor.big
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-				
+
 				h5.heading-alt Gold
 				.sponsors
 				each sponsor in sponsors
@@ -281,7 +284,7 @@ html
 						.sponsor.inline.gold
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-								
+
 				h5.heading-alt Silver
 				.sponsors
 				each sponsor in sponsors
@@ -289,7 +292,7 @@ html
 						.sponsor.inline.silver
 							a(href="#{sponsor.Website}" target="_blank")
 								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-							
+
 				h5.heading-alt Bronze
 				.sponsors
 				each sponsor in sponsors
@@ -302,7 +305,7 @@ html
 			.container
 				h2
 					span.highlight Attend Little Rock Tech Fest
-				p Get two days of content focused toward web, mobile, and software development. 
+				p Get two days of content focused toward web, mobile, and software development.
 				p Enjoy lunch on us both days and an after party the first night. The weather should be perfect for it.
 				br
 				br
@@ -325,20 +328,20 @@ html
 									h3.name #{member.name}
 									p.text-alt <small> #{member.title} @ #{member.company} </small>
 								ul.speaker-socials
-									if member.twitter 
+									if member.twitter
 										li
 											a(href="http://twitter.com/#{member.twitter}" target="_blank")
 												span.fa.fa-twitter
-									else 
+									else
 										li &nbsp;
-										
+
 									if member.linkedin
 										li
-											a(href="http://linkedin.com/in/#{member.linkedin}" target="_blank") 
+											a(href="http://linkedin.com/in/#{member.linkedin}" target="_blank")
 												span.fa.fa-linkedin
 									else
 										li &nbsp;
-										
+
 									if member.github
 										li
 											a(href="http://github.com/#{member.github}" target="_blank")
@@ -372,10 +375,10 @@ html
 									span.fa.fa-envelope
 						p.text-alt
 							small All Rights Reserved © 2016&nbsp;
-	
+
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
 		script(src="//maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBI59PHKJ6RKHij4YneTlmGbjyfrX6nBG8")
-		
+
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
 		block scripts
 		script(type="text/javascript" src="/public/js/masonry.pkgd.min.js")
