@@ -21,10 +21,10 @@ a.logo {
 }
 .make-column { float: none; display: inline-block; margin: 0 0 -0.125em; vertical-align: top;}
 
-
-
-
-
+#jobDesc ul{
+  list-style: circle;
+  margin-left: 22px;
+}
 /* Extra Small */
 @media(max-width:767px){
   a.logo {
