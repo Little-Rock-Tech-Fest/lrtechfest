@@ -6,6 +6,12 @@
 	"Website": "http://www.mainstream-tech.com/"
 	},
 	{
+	"Name": "ABC Financial",
+	"Level": "Gold",
+	"Logo": "/public/img/sponsors/abc-financial.png",
+	"Website": "http://abcfinancial.com/"
+	},
+	{
 	"Name": "Elyxor",
 	"Level": "Silver",
 	"Logo": "/public/img/sponsors/elyxor.png",
@@ -30,16 +36,16 @@
 	"Website": "http://lindseysoftware.com/"
 	},
 	{
+	"Name": "Dassault Falcon Jet",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/dassault-falcon-jet.gif",
+	"Website": "http://www.dassaultfalcon.com/en/Pages/Home.aspx"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
 	"Website": "https://balsamiq.com/"
-	},
-	{
-	"Name": "ABC Financial",
-	"Level": "Gold",
-	"Logo": "/public/img/sponsors/abc-financial.png",
-	"Website": "http://abcfinancial.com/"
 	},
 	{
 	"Name": "TEKsystems",
