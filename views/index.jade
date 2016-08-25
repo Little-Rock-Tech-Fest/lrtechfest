@@ -266,40 +266,38 @@ html
 				span.icon.section-icon.icon-documents-bookmarks-12
 				h3 Sponsors
 				p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
-				br
-				br
 
 				//- h4 Platinum
 				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Platinum"
-						.sponsor.big
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+					each sponsor in sponsors
+						if sponsor.Level == "Platinum"
+							.sponsor.big
+								a(href="#{sponsor.Website}" target="_blank")
+									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 
-				h5.heading-alt Gold
-				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Gold"
-						.sponsor.inline.gold
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+					h5.heading-alt Gold
+					.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Gold"
+							.sponsor.inline.gold
+								a(href="#{sponsor.Website}" target="_blank")
+									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 
-				h5.heading-alt Silver
-				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Silver"
-						.sponsor.inline.silver
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+					h5.heading-alt Silver
+					.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Silver"
+							.sponsor.inline.silver
+								a(href="#{sponsor.Website}" target="_blank")
+									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 
-				h5.heading-alt Bronze
-				.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Bronze"
-						.sponsor.inline.small.bronze
-							a(href="#{sponsor.Website}" target="_blank")
-								img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+					h5.heading-alt Bronze
+					.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Bronze"
+							.sponsor.inline.small.bronze
+								a(href="#{sponsor.Website}" target="_blank")
+									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 
 		section#register.section.bg-cover.bg4.light-text.align-center
 			.container

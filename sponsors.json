@@ -42,6 +42,12 @@
 	"Website": "http://www.dassaultfalcon.com/en/Pages/Home.aspx"
 	},
 	{
+	"Name": "DataPath",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/datapath.png",
+	"Website": "http://www.dpath.com"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
