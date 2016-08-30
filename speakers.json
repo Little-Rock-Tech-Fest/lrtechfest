@@ -291,7 +291,7 @@
     "FirstName": "Randy",
     "LastName": "Walker",
     "Bio": "A MicroISV owner for 11 years, Microsoft MVP for 8 years, and former Board member for INETA, Randy Walker has dedicated his life efforts towards fostering the software development community.",
-    "Website": "",
+    "Website": null,
     "Twitter": "_RandyWalker",
     "Photo": "/public/img/speakers/walker-randy.jpg",
     "Company": "Harvest Data Corp",
@@ -514,7 +514,7 @@
     "Website": "http://jrhicks.github.io",
     "Twitter": "jrhicks",
     "Photo": "/public/img/speakers/hicks-jeffrey.jpg",
-    "Company": "",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -524,7 +524,7 @@
         "Room": null,
         "SessionNumber": null,
         "Topic": "From Zero to Production Docker in 10 minutes ",
-        "Description": "# From Zero to Production Docker in 10 minutes<br/><br/>Live demonstration of creating a Docker cluster, launching a continuous delivery platform on the cluster, and starting a new web application on the platform that will build, test, stage and launch to production on code commits – all in 10 minutes using free open source technology that will run on public cloud or private infrastructure. <br/> <br/>Why Containers Have Captivated Our Imagination<br/><br/> * Lightweight alternative to VMs <br/> * The Dockerfile<br/><br/>Containers Change A Lot<br/><br/> * Containers Change Configuration Management  <br/><br/>   - Without Containers <br/>   - With Containers <br/><br/> * Containers Change Orchestration <br/><br/>   - Without Containers <br/>   - With Containers<br/><br/> * Containers Change Continuous Delivery <br/><br/>   - Without Containers <br/>   - With Containers <br/><br/>Installing on AWS Infrastructure (4 Minutes) <br/><br/> * Installation <br/> * Access Management <br/> * Auto Scaling <br/> * Cluster Maintenance <br/><br/>Start Showing!  (Live Demonstration)<br/><br/> * Installing Cluster Google Cloud Platform<br/> * Hierarchy based Access Management <br/> * Cluster Creation & Management <br/> * Installing CI/CD into cluster with Google Cloud Shell <br/> * Create app, test, review in staging, approve, launch into cluster <br/><br/>Wrap Up<br/><br/>* Disclaimer<br/>* Any Advice?<br/>* Any Questions?"
+        "Description": "It is important to see Docker as a logical, inevitable, and long-awaited next step in a decades-long struggle for adequate packaging. This struggle has been equally and independently shared by each successful language and its ecosystem. We briefly reminisce on Ruby’s, PHP's, and .NET’s history of packaging and reflect on how each type of innovation has enabled new simplifications and abilities to deliver and make reliable our applications.<br/><br/>Each innovation in packaging has spawned new complimentary tools. Similarly, docker and containers have spawned a dizzying assortment of complimentary tools; but luckily we are starting to see a clear winner. Meet Kubernetes and learn about its latest features. Be amazed by a 10-minute live demonstration of going from zero to production docker."
       }
     ]
   },
@@ -679,6 +679,50 @@
         "SessionNumber": null,
         "Topic": "Did I do that? Prototyping an IoT UX for Customers",
         "Description": "As the popularity of wearables and connected devices continue to explode, more opportunities are becoming available for companies to blow customers away with new interactive experiences. Wired kiosks, light & motion sensors, AI and aware spaces, expose customers to delightfully surprising user connected devices, business interactions can leave lasting impressions and measurable ROI if done right. This discussion will highlight how UX designers can work with businesses to replicate low-fidelity and iterative designs that leave consumers thinking \"did I do that?\"."
+      }
+    ]
+  },
+  {
+    "Id": 33,
+    "FirstName": "David",
+    "LastName": "Walker",
+    "Bio": "David Walker is a Sitecore 2015 Technology MVP and Associate Director - Digital Services for VirtusaPolaris.com. He has over twenty years of experience in application development and lifecycle management with over eighty percent of that as a consultant. He has been an MCP since 2003, MCAD and MCSD since 2005 and was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009. He has been hooked on Sitecore, since achieving his 5.1 certifications in 2007.<br/><br/>David Walker is a Sitecore 2015 Technology MVP and Associate Director - Digital Services for Virtusa.com. He has over twenty years of experience in application development and lifecycle management with over eighty percent of that as a consultant. He has been an MCP since 2003, MCAD and MCSD since 2005 and was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009, before he joined Microsoft as a Senior Application Development Manager where he mentored numerous Fortune 100 companies on full Application Lifecycle Management and Software Development best practices.<br/><br/>He has delivered over ninety presentations, including events like: Microsoft TechEd, VSLive! Dallas, VSLive! Austin and numerous User Groups, CodeCamp's, TechFests and other community conferences.<br/>  <br/>He was formerly a board member for INETA (Vice President, Speakers Bureau), President of the Tulsa Developers .NET users group, founder and President of the Tulsa SQL Server Group and Tulsa Java Developers Group, and Vice President of the Tulsa SharePoint Interest Group. He has been the Chairman of the region's largest and highly successful technical training event, just finishing its tenth consecutive successful year, TulsaTechFest.com. He is the founder and current President of the Houston Sitecore User Group.<br/><br/>Since writing his first SharePoint assembly in 2004, he has been focused on Enterprise/Web Content Management Systems. He has been sold on Sitecore, since gaining his 5.1 certifications in 2007. He has worked with numerous CMS systems (proprietary, commercial and open source). He has worked on very high traffic eCommerce sites, including one with a daily sales volume record of over six million dollars and over one and half million microsites.",
+    "Website": "http://radicaldave.com",
+    "Twitter": "davidwalker",
+    "Photo": "/public/img/speakers/walker-david.jpg",
+    "Company": "VirtusaPolaris",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 34,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Integration Intoxication",
+        "Description": "Learn how to maximize your integration efforts between existing applications (Sitecore or any other application) and any other third-party API's and systems. Start with just a few basic samples all the way to deep integration with third-party API, in fact an intoxicating amount, many of which you've likely never heard of. Leverage and future-proof these in your Sitecore solutions, while keeping up with the future wave of ASP.NET Core and other technology shifts.<br/><br/>Customers want to maximize the investment (money they spend) on customization and integration. Write the right code, the right way, to provide the most reusability across all of the Sitecore Experience Platforms integration points.<br/><br/>Learn about numerous third-party API's - over 40+.<br/>Learn how to minimize the impact of API changes and Sitecore upgrades.<br/>Learn how to embed, integrate and compile code from within content.<br/>Learn how to recognize when and how they should abstract their code into reusable components.<br/>Introduction to ASP.NET Core 1 (formerly ASP.NET 5)<br/><br/>Customized code can be harder to maintain. Save money and increase reusability. Just step back and think about it before you code.<br/><br/>Numerous Third Party API Integration Techniques With AND Without Sitecore<br/><br/>Best Practices / Lessons Learned while building Advanced/Reusable Third Party API Integration Technologies<br/><br/>Maxmized code reusability across - Sitecore 7.2, 7.5, 8, WinForms, ASP.NET and ASP.NET Core 1."
+      }
+    ]
+  },
+  {
+    "Id": 34,
+    "FirstName": "Erin",
+    "LastName": "Page",
+    "Bio": "Erin is a US Army Veteran, mom to two brilliant teenage boys, and Web Application Developer at [Reax](https://www.reax.io/). She helps organize [Nash.rb](https://www.meetup.com/nashrb/), [Nodevember](http://nodevember.org/), and [BarCamp Nashville](http://www.barcampnashville.org/bcn/). Erin is a go-go-go kind of person: go getter, go-to, go team!! When she is not mentoring or hacking, she can be found transporting teenagers around Nashville.",
+    "Website": "http://erinpagemd.com",
+    "Twitter": "erinmpage",
+    "Photo": null,
+    "Company": "Reax",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 35,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "From Muggle to Software Engineer ",
+        "Description": "Bootcamp attendance is on the rise as more and more people are considering a career in software development. How does one go about actually learning how to program? How do you break into the market and convince someone to hire you??<br/><br/>In this talk, I will share my path from self learning to bootcamp to actual paid software engineer, and leave attendees with some advice on next steps on their own journey."
       }
     ]
   }
