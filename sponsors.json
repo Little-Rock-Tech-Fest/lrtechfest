@@ -70,5 +70,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/laravel.png",
 	"Website": "http://laravel.com/"
+	},
+	{
+	"Name": "Arkansas.gov",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/ina.png",
+	"Website": "http://ina.arkansas.gov/"
 	}
 ]
