@@ -63,6 +63,10 @@ app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
 
+app.get('/resources', function(req, res){
+	res.render('resources');
+});
+
 app.get('/topics', function(req, res){
 	res.render('topics', {speakers: speakers});
 });
