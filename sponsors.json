@@ -2,7 +2,7 @@
 	{
 	"Name": "First Orion",
 	"Level": "Platinum",
-	"Logo": "/public/img/sponsors/fisrtorion-logo.jpg",
+	"Logo": "/public/img/sponsors/fo-logo.png",
 	"Website": "http://firstorion.com/"
 	},
 	{
@@ -16,6 +16,12 @@
 	"Level": "Gold",
 	"Logo": "/public/img/sponsors/abc-financial.png",
 	"Website": "http://abcfinancial.com/"
+	},
+	{
+	"Name": "Praeses",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/praeses.png",
+	"Website": "http://praeses.com/"
 	},
 	{
 	"Name": "Elyxor",
