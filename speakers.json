@@ -1,4 +1,3 @@
-
 [
   {
     "Id": 1,
@@ -238,7 +237,7 @@
         "Room": null,
         "SessionNumber": null,
         "Topic": "The Benefits of Streaking with Bugs and Giants",
-        "Description": "\"Learn by doing”  — it’s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. … but sometimes, things still feel stagnant.<br/><br/>This talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits we’ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.<br/><br/>Sometimes, giants are nothing but windmills."
+        "Description": "Learn by doing”  — it’s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. … but sometimes, things still feel stagnant.<br/><br/>This talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits we’ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.<br/><br/>Sometimes, giants are nothing but windmills."
       }
     ]
   },
@@ -510,7 +509,7 @@
     "Id": 24,
     "FirstName": "Jeffrey",
     "LastName": "Hicks",
-    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.\"",
+    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.",
     "Website": "http://jrhicks.github.io",
     "Twitter": "jrhicks",
     "Photo": "/public/img/speakers/hicks-jeffrey.jpg",
@@ -589,7 +588,7 @@
         "Day": null,
         "Room": null,
         "SessionNumber": null,
-        "Topic": "\"This Code Sucks\" and other tales of developer hubris",
+        "Topic": "This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris<br/><br/>I'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?<br/><br/>This is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).<br/><br/>You can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
       }
     ]
@@ -708,10 +707,10 @@
     "Id": 34,
     "FirstName": "Erin",
     "LastName": "Page",
-    "Bio": "Erin is a US Army Veteran, mom to two brilliant teenage boys, and Web Application Developer at [Reax](https://www.reax.io/). She helps organize [Nash.rb](https://www.meetup.com/nashrb/), [Nodevember](http://nodevember.org/), and [BarCamp Nashville](http://www.barcampnashville.org/bcn/). Erin is a go-go-go kind of person: go getter, go-to, go team!! When she is not mentoring or hacking, she can be found transporting teenagers around Nashville.",
+    "Bio": "Erin is a US Army Veteran, mom to two brilliant teenage boys, and Web Application Developer at [Reax](https://www.reax.io/). She helps organize [Nash.rb](https://www.meetup.com/nashrb/) and [BarCamp Nashville](http://www.barcampnashville.org/bcn/). Erin is a go-go-go kind of person: go getter, go-to, go team!! When she is not mentoring or hacking, she can be found transporting teenagers around Nashville.",
     "Website": "http://erinpagemd.com",
     "Twitter": "erinmpage",
-    "Photo": null,
+    "Photo": "/public/img/speakers/page-erin.jpg",
     "Company": "Reax",
     "LinkedIn": null,
     "Presentations": [
