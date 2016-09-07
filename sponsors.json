@@ -1,5 +1,11 @@
 [
 	{
+	"Name": "First Orion",
+	"Level": "Platinum",
+	"Logo": "/public/img/sponsors/fo-logo.png",
+	"Website": "http://firstorion.com/"
+	},
+	{
 	"Name": "Mainstream",
 	"Level": "Gold",
 	"Logo": "/public/img/sponsors/mainstream-logo.jpg",
@@ -46,6 +52,12 @@
 	"Level": "Silver",
 	"Logo": "/public/img/sponsors/datapath.png",
 	"Website": "http://www.dpath.com"
+	},
+	{
+	"Name": "Praeses",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/praeses.png",
+	"Website": "http://praeses.com/"
 	},
 	{
 	"Name": "Balsamiq",

@@ -20,6 +20,9 @@
 a.logo {
   height:80px;
 }
+.sponsor.platinum.inline img {
+  max-width: 350px
+}
 
 .section#tickets {
 	padding-top: 20px;
