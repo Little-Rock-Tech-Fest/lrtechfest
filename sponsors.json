@@ -18,12 +18,6 @@
 	"Website": "http://abcfinancial.com/"
 	},
 	{
-	"Name": "Praeses",
-	"Level": "Silver",
-	"Logo": "/public/img/sponsors/praeses.png",
-	"Website": "http://praeses.com/"
-	},
-	{
 	"Name": "Elyxor",
 	"Level": "Silver",
 	"Logo": "/public/img/sponsors/elyxor.png",
@@ -58,6 +52,12 @@
 	"Level": "Silver",
 	"Logo": "/public/img/sponsors/datapath.png",
 	"Website": "http://www.dpath.com"
+	},
+	{
+	"Name": "Praeses",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/praeses.png",
+	"Website": "http://praeses.com/"
 	},
 	{
 	"Name": "Balsamiq",
