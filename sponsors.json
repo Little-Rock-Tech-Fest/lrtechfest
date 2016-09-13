@@ -60,6 +60,12 @@
 	"Website": "http://praeses.com/"
 	},
 	{
+	"Name": "Aristotle Labs",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/aristotle-labs.png",
+	"Website": "http://www.aristotlelabs.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
