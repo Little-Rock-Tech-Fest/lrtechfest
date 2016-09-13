@@ -13,9 +13,9 @@
       {
         "Id": 1,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 1,
         "Topic": "Unicorns & Dinosaurs",
         "Description": "Knowing and being the \"expert\" on everything from rolling the server, to back-end development, and pixel perfecting the UI is unsustainable at best. The technologies and processes that we rely on to build and deploy software is changing at a quicker rate for any one individual to truly be an expert for long. This presentation reviews the sources of conflict and how to embrace compromise between the front-end designers and back-end developers on a software team. "
       }
@@ -35,9 +35,9 @@
       {
         "Id": 2,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "TDD: A Pragmatic Approach",
         "Description": "Unit Testing can be mysterious endeavor with a high bar for entry. It doesn't have to be that complicated. Many examples on the Internet show you how to write a Unit Test, but not how to test an entire application. We'll discuss the fundamentals of TDD, how to approach an entire application, how to separate logical layers, and how to test the boundaries."
       }
@@ -57,9 +57,9 @@
       {
         "Id": 3,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 4,
         "Topic": "Did I do that? Prototyping an IoT UX for Customers",
         "Description": "As the popularity of wearables and connected devices continue to explode, more opportunities are becoming available for companies to blow customers away with new interactive experiences. Wired kiosks, light & motion sensors, AI and aware spaces, expose customers to delightfully surprising user connected devices, business interactions can leave lasting impressions and measurable ROI if done right. This discussion will highlight how UX designers can work with businesses to replicate low-fidelity and iterative designs that leave consumers thinking \"did I do that?\"."
       }
@@ -79,9 +79,9 @@
       {
         "Id": 4,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 3,
         "Topic": "Butterfly in Reverse: From SOA to Monolith",
         "Description": "Service Oriented Architecture, Single Page Web Apps, JSON APIs, all of the big buzz words. I love all of them. I spend my days building these types of systems for my clients. That's why when I started working on my side project startup with a friend we chose Go, Angular, and SOA. We were going to build this application \"the right way\".<br/><br/>So why, if you go to the site now, is it a single Rails monolith with full page refreshes and almost no JavaScript? That's an excellent question, and the subject of this talk.<br/><br/>During this talk we'll look at how I started building my application \"correctly\" and ended up with the classic monolith architecture you hear people warning against. We'll talk about why Go, SOA, and Angular were all the wrong choices for this app, and why the monolith was the right answer.<br/><br/>Along the way you might learn something or two about making the correct architectual choices for your organization, at the very least you'll hear some funny stories about my pain and a few choice animated GIFs as well."
       }
@@ -101,9 +101,9 @@
       {
         "Id": 5,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 3,
         "Topic": "Code Review: How and When",
         "Description": "You want to improve your software skills. That’s a given. You may be a mentor or a manager who needs to improve the knowledge sharing among your software developers across different projects. Code Reviews can do just that while improving code quality in your projects. Code Review not only builds developer team spirit but also offers new ways to improve a software solution. You’ll walk away from this session with in-depth understanding of Code Review to strengthen your team."
       }
@@ -117,15 +117,15 @@
     "Website": "http://paulhacker.net",
     "Twitter": "pjhacker",
     "Photo": "/public/img/speakers/hacker-paul.jpg",
-    "Company": "",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 6,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 1,
         "Topic": "Getting Started with Team Foundation Server 2015 Build",
         "Description": "TFS 2015 introduces a completely new system. Wondering what this is about and why (again) belongs to something new to you? Join us to explore the next generation of TFS build system and learn more about the background, the technical implementation and the benefits (eg, Cross-Platform builds). "
       }
@@ -145,9 +145,9 @@
       {
         "Id": 7,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 3,
         "Topic": "Gulping ALL the Things.",
         "Description": "Lost in the forest of front-end build systems out there? Check out Gulp! Gulp makes it super easy to minify, concatenate, and optimize your assets in an easy piping build stream. There are only a few commands to learn, so writing complex tasks (like you would in another system) isn't a thing in Gulp. In this talk, I will walk through what Gulp is and create a working gulpfile that can be used across endless front end projects that minifies, concatenates, and optimizes assets, as well as live reloads the browser using browser-sync."
       }
@@ -167,9 +167,9 @@
       {
         "Id": 8,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 3,
         "Topic": "I Can Run C# In Docker?",
         "Description": "Yes. Yes, you can. You can run your C# programs, including web sites, RESTful services, and anything else you can dream up, in a Docker container.<br/><br/><br/>Starting with the very basics, this session will introduce you to microservices and Docker, and then demonstrate how to build a Docker image that will run a web site written in C# in a Docker container that is running Red Hat Enterprise Linux (RHEL).<br/><br/>It's a brave new world, where Microsoft hearts Linux and Red Hat loves .NET. Come out and take advantage of the union; learn some Docker, see RHEL running .NET, and leave with resources to help you along, including a zero-cost Developer's copy of RHEL."
       }
@@ -189,9 +189,9 @@
       {
         "Id": 9,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 2,
         "Topic": "Building performant web applications",
         "Description": "# Overview<br/><br/>Building performant web applications can be challenging! Cloud services enable web applications to scale globally and frameworks like React and AngularJS2 make it easier to build maintainable large scale web applications. However, one concern never changes; building applications that quickly provide responses to user interactions and understanding when they don't. This talk dives into some of the tools provided by browser vendors, how you can optimize your code, and understanding what is happening under the hood. This talk is relevant for web developers building applications large and small regardless of your framework choices. "
       }
@@ -211,9 +211,9 @@
       {
         "Id": 10,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 2,
         "Topic": "The Art of Working with Non-Developers",
         "Description": "No matter the platform, useful programming requirements get lost in translation from client meetings, to project managers and finally as a to-do ticket. Sucking all the joy out of the development process and reducing things down to daily sprints, with the hopes of launching on time. <br/><br/>There has to be a better way!<br/><br/>Together we’ll take a look at effective ways of getting everyone on the same page, minimizing scope creep and having less stress when it comes time for product launch as well as how this helps to create a stronger foundation for business growth. "
       }
@@ -233,9 +233,9 @@
       {
         "Id": 11,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 4,
         "Topic": "The Benefits of Streaking with Bugs and Giants",
         "Description": "Learn by doing”  — it’s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. … but sometimes, things still feel stagnant.<br/><br/>This talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits we’ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.<br/><br/>Sometimes, giants are nothing but windmills."
       }
@@ -255,9 +255,9 @@
       {
         "Id": 12,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 6,
         "Topic": "Using Data To Inform Development",
         "Description": "Data about the people using our websites and applications is all around us and, more and more, we're being asked to utilize that data when developing websites and applications. What is the right way to utilize all the data we have to understand priorities and needs when designing and developing applications and websites? Where are the best (and easiest) ways to access the data you need and how much data does a developer really need anyway?  More importantly, how do you communicate all those numbers to your boss, clients, funders, and other stakeholders in a way that makes sense and clearly shows the value of your work? <br/><br/>In this presentation, Matthew Edgar from Elementive will discuss specific, actionable steps you can use to make the wide variety of data you have available about your users a key part of your design and development work. Matthew will also share advice on how best to communicate and utilize those measurements and results. Attendees will leave with clear ideas on how to start utilizing and analyzing data. As well, attendees will have examples of how to collect that data. Attendees will also have a framework that they can apply to visualize and discuss the information gathered from the data with their teams."
       }
@@ -277,9 +277,9 @@
       {
         "Id": 13,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 5,
         "Topic": "Toolaholics Anonymous",
         "Description": "Do you use NodeJs, Composer, or Docker? Have you ever had your awesome code that you wrote on some new dev stack crap out on you the day before a project deadline? If so, you might be a toolaholic, like me.<br/><br/>Toolaholics are some of the coolest and smartest people out there, yet we lack the basics of productivity. We overcomplicate things and we spend way too much time trying to make our code as flexible as possible (when we should be making it as functional as possible).<br/><br/>This is a safe place to hear my mistakes and how I got over the hump of \"over tooling\" and how you can code better, stay more focused, and crank out some awesome work!"
       }
@@ -299,9 +299,9 @@
       {
         "Id": 14,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 5,
         "Topic": "SQL Server Scripting",
         "Description": "Loading from text files using BCP, parsing rows with cursors, temp tables, and crazy sub-queries!"
       }
@@ -321,9 +321,9 @@
       {
         "Id": 15,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 5,
         "Topic": "Staying Sane (dot) JS",
         "Description": "Developing apps with JavaScript is fun and scary in this day and age. It feels like every application we write will outlive the libraries used to write the app in... and that's not a fun feeling. Sometimes we get the impression that anything written in JavaScript today is so volatile because smart people will come up with smarter ways of solving problems, that will render solutions we write outdated about two minutes after writing it.<br/><br/>This issue was especially brought to life when I started working at Code School. How is it possible to prepare teaching materials that might be outdated by the time they get released? Turns out there is a way and I am here to prove to you that the JavaScript language and ecosystem is still a safe bet. Although there are parts of the ecosystem changing all the time, there are techniques we can use to prepare for those changes without having to rewrite whole apps over and over again.<br/><br/>Beginner & more advanced developers alike will draw value from this talk, as it will teach both of these groups how to collaborate in a productive manner when architecting and writing apps while getting ready for the unknown future."
       }
@@ -343,9 +343,9 @@
       {
         "Id": 16,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 6,
         "Topic": "​ Overcoming the Challenges of Mentoring",
         "Description": "​There is an ongoing mantra within the developer community: that there are far more jobs available then programmers to fill them. Which should be an indication as to the wonderful potential for both business and those learning to code. Yet what often follows such statements are not words of joy but rather a list of frustrations related to the difficulty in finding and retaining enough skilled developers to fill these positions. <br/>The challenge is not in the number of newbies entering the field but the number who leave because they are not able to bridge the divide between bootcamps, online tutorials, books, videos, etc. to an employable developer who is able to contribute to the team. <br/>Kim has years of experience working with learners of various ages in helping them develop the skills they needed to be successful at whatever their chosen goal. She understands that for businesses to be successful, they must develop more effective and efficient ways of recruiting and retaining developers in order to meet organizational benchmarks. <br/>The developer community is a overwhelmingly generous one and a well designed mentoring or apprenticeship program could be one answer that business leaders and newbies are looking for.<br/><br/>- The business costs associated with corporate hiring managers inability to recruit and retain skilled workers to fill current and future entry-level positions are increasing (Queen, 2014). <br/>- 89 percent of organizational leaders stated that they are having difficulties filling open positions, which is causing them to either turn down orders, miss key deliverable deadlines or hire individuals from outside of the United States (Aho, 2015). <br/><br/>Aho, K. (2015). The robotics industry: creating jobs, closing the skills gap. Techniques, (7), 22. Retrieved from https://www.acteonline.org/techniques/#.VpMcQq6rR0s<br/><br/>Queen, J. (2014). Hire power: to close the skills gap, states are teaming up with industries that need, but can't find, qualified workers. State Legislatures, (8), 16. Retrieved from http://www.ncsl.org/bookstore/state-legislatures-magazine.aspx"
       }
@@ -365,9 +365,9 @@
       {
         "Id": 17,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 6,
         "Topic": "The Physical Web",
         "Description": "We've heard of the Internet of Things or the Physical Web, but how can we begin using it practically?  This talk explores how to use the web to create interactive content for users in the physical world through beacons.  By showing examples of how this technology has been used by amusement parks, businesses, and events, Matt will discuss how web developers are building the future of digital engagement for individuals and businesses.  You'll not only learn what the Physical Web is and how to use it but also participate in interactive displays with a few rewarding surprises.  The web is awesome, and the Physical Web is making it easier for users to get the content they want, when they want it."
       }
@@ -387,9 +387,9 @@
       {
         "Id": 18,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 2,
         "Topic": "Getting Started with Neo4j & .NET",
         "Description": "This workshop will focus on building a C#/.Net application using the Neo4j graph database as the database, including examples for social network application, geo / location matching and an ecommerce recommendation engine. It will include a mixture of theory, hands-on coding, and take home examples with a sample graph data.<br/><br/>Attendees will learn:<br/><br/>- An understanding of graph databases & use cases<br/>- Introduction to data modeling with Graph databases<br/>- Setting up a Neo4j instance and importing data<br/>- Understanding real-world examples with C#/.Net and Neo4j<br/>- Deploying your application to production<br/><br/>audience: intermediate level developers with some background .NET/C#"
       }
@@ -409,9 +409,9 @@
       {
         "Id": 19,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "Building a Highly Scalable Web Environment on AWS",
         "Description": "We moved a high-traffic application into AWS from a monolithic, self-hosted infrastructure back in 2014/2015.  We will talk about the trials, tribulations, and great successes of that endeavor.  We will provide an overview of our infrastructure setup, discuss the scalability and redundancy advantages that we've realized by using AWS, and then highlight some of the reason we think you should put your services in the cloud too."
       }
@@ -431,9 +431,9 @@
       {
         "Id": 20,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 1,
         "Topic": "The future of React with Universal web applications",
         "Description": "Everything started when Brendan Eich wrote a language to run Scheme on the Netscape Navigator. Then, Ryan Dahl got the Google's V8 JavaScript runtime and developers would write JavaScript on the server side. <br/><br/>Nowadays people write JavaScript everywhere (web servers, to fly drones, tablets, mobile phones, refrigerators etc). Isomorphic JavaScript is used to describe JavaScript code that “can be executed on the client and the server”.<br/><br/>React has a powerful ability to render also on the server side. This is huge for perfomance and SEO. Also, sharing the same code between client and server makes maintenance much easier."
       }
@@ -453,9 +453,9 @@
       {
         "Id": 21,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
         "Topic": "Dr Iterate or: How I Learned to Stop Worrying and Love Higher-Order Functions",
         "Description": "_**The journey of a thousand miles begins with one step**_<br/><br/>Functional programming seems to be the coming paradigm for building software and for good reason. Stateless functions produce less bugs and help build modular, reusable code. But making the switch from OOP to functional can be a daunting task. Monads? Functors? Category Theory? What do any of these words mean and how can you actively apply them to the code-base you are currently working on or the project your team is starting?<br/><br/>The easiest way to get your feet wet into functional programming in JavaScript is the use of higher-order functions (reduce, filter, map, etc). From the basics of what the syntax is and how it is different than forEach to the power of stateless, composable functions, learning how and why to use higher-order functions will speed up the transition from OOP to functional. Learn how to use and chain together higher-order functions, building uber-microservices, refactoring along the way."
       }
@@ -475,9 +475,9 @@
       {
         "Id": 22,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 2,
         "Topic": "Long walks on the beach with Azure Search ",
         "Description": "Azure Search is a powerful, REST-based service companies can leverage within their applications to provide dynamic, scalable search solutions. In this session, Kentico Technical Evangelist and Azure enthusiast Bryan Soltis will introduce you to this powerful service, show you some of its cool capabilities, and see if there’s a love connection for you. From Creating Indexes to Custom Search functions, you’ll see how Azure Search can quickly boost the functionality of any site and provide a unique and captivating experience for your users."
       }
@@ -497,9 +497,9 @@
       {
         "Id": 23,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 2,
         "Topic": "Mobile and accessibility",
         "Description": "Mobile accessibility is different to desktop accessibility; there are a whole lot more devices, screen sizes, operating systems and browsers. What this means for accessibility is that things can often go very very wrong and unfortunately it is not a case of just following WCAG2. Gian Wild looks at some major mobile accessibility failures, and some plain old usability failures as well; and talks about what should be done instead.<br/>Some of the issues Gian talks about is the use of PDFs, and their problems on mobile devices: from the longer download time to display issues. She also talks about issues with keyboard accessibility – whether this is to do with access to the onscreen keyboard or accessibility of an external keyboard device. She talks about text sizing issues, and the inability to change text size in some systems. Gian talks about the use of colour in mobile sites and how important colour contrast is important on smaller screen devices. She talks about the effects on the user of broken or unclear functionality, and how the user responds to different or inconsistent functionality on the desktop versus mobile device. Other issues include source order, size of touch targets, spacing between elements and use of images."
       }
@@ -519,9 +519,9 @@
       {
         "Id": 24,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 1,
         "Topic": "From Zero to Production Docker in 10 minutes ",
         "Description": "It is important to see Docker as a logical, inevitable, and long-awaited next step in a decades-long struggle for adequate packaging. This struggle has been equally and independently shared by each successful language and its ecosystem. We briefly reminisce on Ruby’s, PHP's, and .NET’s history of packaging and reflect on how each type of innovation has enabled new simplifications and abilities to deliver and make reliable our applications.<br/><br/>Each innovation in packaging has spawned new complimentary tools. Similarly, docker and containers have spawned a dizzying assortment of complimentary tools; but luckily we are starting to see a clear winner. Meet Kubernetes and learn about its latest features. Be amazed by a 10-minute live demonstration of going from zero to production docker."
       }
@@ -541,9 +541,9 @@
       {
         "Id": 25,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "Hololens: Demonstration and Workshop",
         "Description": "We begin our journey into the next evolution in computing by performing a demonstration. We will then take a dive into how to get started and some tips and tricks you will need to know along the journey."
       }
@@ -563,9 +563,9 @@
       {
         "Id": 26,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 3,
         "Topic": "Jumpstarting Selenium Testing in Your Organization with Javascript, WebdriverIO & Cucumber",
         "Description": "With modern software development moving at a rapid pace, automation engineers may find it difficult to keep up with frequent changes. But if parts of the testing process are incorporated into everyone's workflow, this creates the potential for automated testing to mirror software delivery.<br/><br/>My goal is to make software testing more accessible to entire product and engineering teams by providing familiar tools that allow individuals to easily contribute to the automation process.<br/><br/>For this talk, I will explore how we can meet developers halfway by using the javascript-based testing framework WebdriverIO, demonstrate how product managers can create living documentation and test cases using Cucumber, and talk about sharing page objects and testing libraries across multiple services using NPM. "
       }
@@ -585,9 +585,9 @@
       {
         "Id": 27,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris<br/><br/>I'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?<br/><br/>This is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).<br/><br/>You can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
       }
@@ -607,9 +607,9 @@
       {
         "Id": 29,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 4,
         "Topic": "Testing Code from Unit to Deployment",
         "Description": "Testing is one of those things we all love to hate. It takes longer, it adds stress to your work and makes you think, rethink and then throw an idea away. But what if testing was made easy? Better yet, what if we had a test suite that you could use to your benefit and know that when you deploy code, you aren't deploying bad code. With testing tools like PHPUnit and Behat coupled with CI services like Travis or Jenkins, you can know that code to be deployed has been vetted and checked properly.<br/><br/>I spent months learning how to set up proper CI pipelines from Sebastian Bergmann, creator of PHPUnit. With his guidance, our CI pipeline was the thing dreams are made of. We moved code effortlessly through our Git from dev to QA to UAT to prod with ease and confidence. "
       }
@@ -629,9 +629,9 @@
       {
         "Id": 30,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 5,
         "Topic": "Productive & Maintainable JS Apps with Ember.js",
         "Description": "In this workshop, we start with a fresh Ember CLI application (with a few popular addons installed and styles written).<br/>Since managing data via forms and **CRUD** resources is pivotal to modern applications, we begin by creating a full **URL-driven** interface to manage data stored in a JSON API.<br/><br/>Once we have our first resource working, we shift our focus to a much more difficult problem: working with a **has-many** relationship.<br/>We'll see how Ember and Ember Data make this challenge easy and fun!<br/><br/>To wrap up the workshop, we go beyond forms:<br/>To show the flexibility Ember and the Ember community, we install an addon that will help add live updating **charts** to our application.<br/>Finally, we end with a bang and see how Ember's tools and ecosystem help maintain apps across **large and distributed teams**."
       }
@@ -651,9 +651,9 @@
       {
         "Id": 32,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "Building a Highly Scalable Web Environment on AWS",
         "Description": "We moved a high-traffic application into AWS from a monolithic, self-hosted infrastructure back in 2014/2015.  We will talk about the trials, tribulations, and great successes of that endeavor.  We will provide an overview of our infrastructure setup, discuss the scalability and redundancy advantages that we've realized by using AWS, and then highlight some of the reason we think you should put your services in the cloud too."
       }
@@ -673,9 +673,9 @@
       {
         "Id": 33,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 4,
         "Topic": "Did I do that? Prototyping an IoT UX for Customers",
         "Description": "As the popularity of wearables and connected devices continue to explode, more opportunities are becoming available for companies to blow customers away with new interactive experiences. Wired kiosks, light & motion sensors, AI and aware spaces, expose customers to delightfully surprising user connected devices, business interactions can leave lasting impressions and measurable ROI if done right. This discussion will highlight how UX designers can work with businesses to replicate low-fidelity and iterative designs that leave consumers thinking \"did I do that?\"."
       }
@@ -695,9 +695,9 @@
       {
         "Id": 34,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 6,
         "Topic": "Integration Intoxication",
         "Description": "Learn how to maximize your integration efforts between existing applications (Sitecore or any other application) and any other third-party API's and systems. Start with just a few basic samples all the way to deep integration with third-party API, in fact an intoxicating amount, many of which you've likely never heard of. Leverage and future-proof these in your Sitecore solutions, while keeping up with the future wave of ASP.NET Core and other technology shifts.<br/><br/>Customers want to maximize the investment (money they spend) on customization and integration. Write the right code, the right way, to provide the most reusability across all of the Sitecore Experience Platforms integration points.<br/><br/>Learn about numerous third-party API's - over 40+.<br/>Learn how to minimize the impact of API changes and Sitecore upgrades.<br/>Learn how to embed, integrate and compile code from within content.<br/>Learn how to recognize when and how they should abstract their code into reusable components.<br/>Introduction to ASP.NET Core 1 (formerly ASP.NET 5)<br/><br/>Customized code can be harder to maintain. Save money and increase reusability. Just step back and think about it before you code.<br/><br/>Numerous Third Party API Integration Techniques With AND Without Sitecore<br/><br/>Best Practices / Lessons Learned while building Advanced/Reusable Third Party API Integration Technologies<br/><br/>Maxmized code reusability across - Sitecore 7.2, 7.5, 8, WinForms, ASP.NET and ASP.NET Core 1."
       }
@@ -717,11 +717,121 @@
       {
         "Id": 35,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 6,
         "Topic": "From Muggle to Software Engineer ",
         "Description": "Bootcamp attendance is on the rise as more and more people are considering a career in software development. How does one go about actually learning how to program? How do you break into the market and convince someone to hire you??<br/><br/>In this talk, I will share my path from self learning to bootcamp to actual paid software engineer, and leave attendees with some advice on next steps on their own journey."
+      }
+    ]
+  },
+  {
+    "Id": 35,
+    "FirstName": "Nancy",
+    "LastName": "Gaines",
+    "Bio": "As an international speaker, bestselling author, and productivity expert, Nancy Gaines assists and mentors C-level and small business owners to massively grow their companies. She is the Founder and CEO of Gain Advantages, Inc. Using her products and systems, individuals and corporations gain a competitive advantage with proven productivity accelerators.<br/><br/>Nancy spent almost two decades consulting to IBM’s Fortune 500 clients including AIG Insurance, Shell Oil, Lenovo, Office Max, Clorox, and even IBM itself. She provides knowledge that assists others to be even more successful - fast. Nancy is frequently quoted online, in magazines, and in books as a business expert. Listen to her podcast, The Nancy Gaines Show, downloaded in over 50 countries on iTunes and read her books which are available on Amazon.",
+    "Website": "http://www.nancygaines.com/",
+    "Twitter": "NancyLGaines",
+    "Photo": "/public/img/speakers/gaines-nancy.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 37,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 6,
+        "Topic": "From Mess to Success … How Simple Organization Leads to Mastery - 3 Secrets to Win at Organizing for Higher Performance",
+        "Description": "Do you feel busy but not productive? Could being a bit more organized make you a lot more successful? It costs almost nothing to get organized, but the paybacks are exponential. Master the same techniques top performer use and increase your success. Simply get organized to transform into super high productivity with lasting results. In this session you will learn how organized people: -\tEarn more and are more successful in life -\tAccomplish more by being laser focused on the right things -\tSave time, money, and have more free time to do things they enjoy -\tFeel more relaxed and experience less stress You know your time is valuable, so get organized so you can savor every moment and focus on what really matters to you – family, fun, friends, and more."
+      }
+    ]
+  },
+  {
+    "Id": 36,
+    "FirstName": "Addam",
+    "LastName": "Hardy",
+    "Bio": "Addam Hardy is a Senior Software Engineer and Senior Consultant at Lofty Labs in Fayetteville, AR. He's also an 8 year Army Veteran with over 10 years experience in software engineering working for various types of companies ranging from the National Security Agency, the Department of Defense, as well as several startups founded in Northwest Arkansas. ",
+    "Website": "http://addamhardy.com",
+    "Twitter": null,
+    "Photo": "/public/img/speakers/hardy-addam.jpg",
+    "Company": "Lofty Labs",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 38,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 5,
+        "Topic": "Introduction to MLlib on Apache Spark",
+        "Description": "Apache Spark is an emerging cluster computing platform that allows data processing programs to run up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk. Spark also has a built in machine learning library, MLlib, that implements many common supervised and unsupervised machine learning algorithms. In this talk we will discuss how Spark has improved cluster computing and data processing along with an overview of the MLlib algorithms available. After getting familiar with the basics, we will explore how you can create a product recommendation engine for eCommerce utilizing Collaborative Filtering and the Alternating Least Squares algorithm. "
+      }
+    ]
+  },
+  {
+    "Id": 1035,
+    "FirstName": "Clayton",
+    "LastName": "Hall",
+    "Bio": "My name is Clayton Hall, father of five, pastor, and sometimes adventurer. I have been developing solutions using Microsoft technologies for 19 years.",
+    "Website": null,
+    "Twitter": "_the_coder",
+    "Photo": "/public/img/speakers/hall-clayton.jpg",
+    "Company": "DataPath",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1036,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 3,
+        "Topic": "Ready For Redis?",
+        "Description": "Technologies like Intel's Optane and the 3D Xpoint could revolutionize how and where computers access data.<br/>The idea of creating and modifying objects that can exist forever without ever explicitly saving their state can be a little mind blowing. After watching some demonstrations of Azure Service Fabric stateful services and Reliable Collections, I was intrigued with the idea and sought to see what could be done with existing technology. In this talk, We'll explore how Redis can be used to change the way applications think about interact with data.<br/>"
+      }
+    ]
+  },
+  {
+    "Id": 1036,
+    "FirstName": "Jeremy",
+    "LastName": "Abbott",
+    "Bio": "I'm a software architect at Shreveport development shop Praeses, where I work as a project architect, developer, and recruiter. I work hard to deliver clean, extensible, and maintainable solutions to customers' business problems. I'm passionate about software as a profession and craft and work to cultivate that mindset in my team members through constant training.<br/><br/>When I'm not writing code I'm advocating for LGBT equality.",
+    "Website": "http://jeremyabbott.github.io/",
+    "Twitter": "mrjabbott",
+    "Photo": "/public/img/speakers/abbott-jeremy.jpg",
+    "Company": "Praeses",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1037,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 4,
+        "Topic": "Writing Functional Web Apps in F# w/ Suave",
+        "Description": "F# is a multi-paradigm language for the .NET Framework that emphasizes functional programming and immutable data structures. In this talk we'll explore how to use the language features of F# along with the Suave Web Server and Application framework to write a fast, easy to understand web application. Experience with F# is helpful for this talk, but we will also discuss the different language idioms as they are used."
+      }
+    ]
+  },
+  {
+    "Id": 1037,
+    "FirstName": "Sean",
+    "LastName": "Hill",
+    "Bio": "Sean is currently herding junior software developers in Nashville, Tennessee as the founder of Reax, and as the organizer of the Software Beginners Meetup in Nashville.  He also organizes the Nashville Ruby User Group, Nash.rb, and volunteers at conferences around Nashville, like Nodevember.  He is extremely passionate about paying it forward through mentorship and teaching and is a partner employer of Nashville Software School.<br/><br/>In his free time... wait... he has no free time.",
+    "Website": "https://www.reax.io",
+    "Twitter": "solusean",
+    "Photo": "/public/img/speakers/hill-sean.jpg",
+    "Company": "Reax",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1038,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Intro to Phoenix",
+        "Description": "The real time web is upon us.  With the physical web, the Internet of Things, increasing social engagement,  and real time analytics, web frameworks that offer real time capabilities are essential to the future of the web.  <br/><br/>In this talk, we will discuss the Phoenix Web Framework and how to build real time applications. We will cover the basics of how to get started, from installing Elixir and Phoenix, to covering the different components of the framework, and leveraging WebSockets and GenServers to create real time applications, leveraging the awesomeness that the Erlang VM has to offer and the developer friendliness that comes with Elixir.  "
       }
     ]
   }
