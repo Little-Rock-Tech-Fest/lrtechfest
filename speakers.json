@@ -1,4 +1,3 @@
-
 [
   {
     "Id": 1,
@@ -238,7 +237,7 @@
         "Room": "2",
         "SessionNumber": 4,
         "Topic": "The Benefits of Streaking with Bugs and Giants",
-        "Description": "\"Learn by doing”  — it’s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. … but sometimes, things still feel stagnant.<br/><br/>This talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits we’ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.<br/><br/>Sometimes, giants are nothing but windmills."
+        "Description": "Learn by doing”  — it’s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. … but sometimes, things still feel stagnant.<br/><br/>This talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits we’ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.<br/><br/>Sometimes, giants are nothing but windmills."
       }
     ]
   },
@@ -510,7 +509,7 @@
     "Id": 24,
     "FirstName": "Jeffrey",
     "LastName": "Hicks",
-    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.\"",
+    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.",
     "Website": "http://jrhicks.github.io",
     "Twitter": "jrhicks",
     "Photo": "/public/img/speakers/hicks-jeffrey.jpg",
@@ -589,7 +588,7 @@
         "Day": 2,
         "Room": "1",
         "SessionNumber": 4,
-        "Topic": "\"This Code Sucks\" and other tales of developer hubris",
+        "Topic": "This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris<br/><br/>I'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?<br/><br/>This is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).<br/><br/>You can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
       }
     ]
@@ -767,6 +766,72 @@
         "SessionNumber": 5,
         "Topic": "Introduction to MLlib on Apache Spark",
         "Description": "Apache Spark is an emerging cluster computing platform that allows data processing programs to run up to 100x faster than Hadoop MapReduce in memory, or 10x faster on disk. Spark also has a built in machine learning library, MLlib, that implements many common supervised and unsupervised machine learning algorithms. In this talk we will discuss how Spark has improved cluster computing and data processing along with an overview of the MLlib algorithms available. After getting familiar with the basics, we will explore how you can create a product recommendation engine for eCommerce utilizing Collaborative Filtering and the Alternating Least Squares algorithm. "
+      }
+    ]
+  },
+  {
+    "Id": 1035,
+    "FirstName": "Clayton",
+    "LastName": "Hall",
+    "Bio": "My name is Clayton Hall, father of five, pastor, and sometimes adventurer. I have been developing solutions using Microsoft technologies for 19 years.",
+    "Website": null,
+    "Twitter": "_the_coder",
+    "Photo": "/public/img/speakers/hall-clayton.jpg",
+    "Company": "DataPath",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1036,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 3,
+        "Topic": "Ready For Redis?",
+        "Description": "Technologies like Intel's Optane and the 3D Xpoint could revolutionize how and where computers access data.<br/>The idea of creating and modifying objects that can exist forever without ever explicitly saving their state can be a little mind blowing. After watching some demonstrations of Azure Service Fabric stateful services and Reliable Collections, I was intrigued with the idea and sought to see what could be done with existing technology. In this talk, We'll explore how Redis can be used to change the way applications think about interact with data.<br/>"
+      }
+    ]
+  },
+  {
+    "Id": 1036,
+    "FirstName": "Jeremy",
+    "LastName": "Abbott",
+    "Bio": "I'm a software architect at Shreveport development shop Praeses, where I work as a project architect, developer, and recruiter. I work hard to deliver clean, extensible, and maintainable solutions to customers' business problems. I'm passionate about software as a profession and craft and work to cultivate that mindset in my team members through constant training.<br/><br/>When I'm not writing code I'm advocating for LGBT equality.",
+    "Website": "http://jeremyabbott.github.io/",
+    "Twitter": "mrjabbott",
+    "Photo": null,
+    "Company": "Praeses",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1037,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 4,
+        "Topic": "Writing Functional Web Apps in F# w/ Suave",
+        "Description": "F# is a multi-paradigm language for the .NET Framework that emphasizes functional programming and immutable data structures. In this talk we'll explore how to use the language features of F# along with the Suave Web Server and Application framework to write a fast, easy to understand web application. Experience with F# is helpful for this talk, but we will also discuss the different language idioms as they are used."
+      }
+    ]
+  },
+  {
+    "Id": 1037,
+    "FirstName": "Sean",
+    "LastName": "Hill",
+    "Bio": "Sean is currently herding junior software developers in Nashville, Tennessee as the founder of Reax, and as the organizer of the Software Beginners Meetup in Nashville.  He also organizes the Nashville Ruby User Group, Nash.rb, and volunteers at conferences around Nashville, like Nodevember.  He is extremely passionate about paying it forward through mentorship and teaching and is a partner employer of Nashville Software School.<br/><br/>In his free time... wait... he has no free time.",
+    "Website": "https://www.reax.io",
+    "Twitter": "solusean",
+    "Photo": "/public/img/speakers/hill-sean.jpg",
+    "Company": "Reax",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1038,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Intro to Phoenix",
+        "Description": "The real time web is upon us.  With the physical web, the Internet of Things, increasing social engagement,  and real time analytics, web frameworks that offer real time capabilities are essential to the future of the web.  <br/><br/>In this talk, we will discuss the Phoenix Web Framework and how to build real time applications. We will cover the basics of how to get started, from installing Elixir and Phoenix, to covering the different components of the framework, and leveraging WebSockets and GenServers to create real time applications, leveraging the awesomeness that the Erlang VM has to offer and the developer friendliness that comes with Elixir.  "
       }
     ]
   }
