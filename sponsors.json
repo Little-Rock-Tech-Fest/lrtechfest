@@ -18,6 +18,12 @@
 	"Website": "http://abcfinancial.com/"
 	},
 	{
+	"Name": "Inuvo",
+	"Level": "Gold",
+	"Logo": "/public/img/sponsors/inuvo_logo.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
 	"Name": "Elyxor",
 	"Level": "Silver",
 	"Logo": "/public/img/sponsors/elyxor.png",
