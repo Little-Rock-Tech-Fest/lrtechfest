@@ -2,28 +2,26 @@ extends layout
 
 block content
 	section.section
-		.section-header.col-sm-10.col-sm-offset-1
-			h1 Are you <span class="highlight">looking for a job</span>?
-			p Check out these opportunties available at companies that sponsor Little Rock Tech Fest.
-
-	section#jobs.section
 		.container
-			div.col-md-8.list-job
-				each job in jobs
-					div.col-xs-12.col-sm-12.job-wrap
-						a(href="/jobs/detail/#{job.id}" class="job-anchor")
-							div.col-sm-12.job-content
-								div.col-sm-2.col-xs-2.logo
-									img(src="#{job.logo}", alt="Logo",)
-								div.col-sm-7.col-xs-7.content-left
-									h6(style="padding: 0px; margin: 0") #{job.posTitle}
-									br
-									span - #{job.orgName}
-								div.col-sm-3.col-xs-3.content-right
-									span #{job.posType}
-									br
-									span<i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
-			div.col-md-4.post-job
-				h6 Want your job listed here?
-				p All sponsors can post jobs.
-				a.btn.btn-lg(href="https://docs.google.com/forms/d/1wXB2fTub5IvWPdXUYfTHbYm5XXK7X8p7cTEI4jZ6hwA/viewform?c=0&w=1") Post A Job
+			.section-header
+				h1 Are you <span class="highlight">looking for a job</span>?
+				p Check out these opportunties available at companies that sponsor Little Rock Tech Fest.
+
+			#jobs.row
+				div.col-md-8
+					each job in jobs
+						a(href="/jobs/detail/#{job.id}")
+							div.row
+								div.col-xs-4.logo.col-sm-3
+									img(src="#{job.logo}", alt="Logo", style="padding-left:10px; padding-right:10px")
+								div.col-xs-8.col-sm-6
+									h6 #{job.posTitle}
+									p #{job.orgName}
+								div.col-xs-8.col-xs-offset-4.col-sm-3.col-sm-offset-0
+									p #{job.posType}
+									p <i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
+						hr
+				div.col-md-4.post-job
+					h6 Want your job listed here?
+					p All sponsors can post jobs.
+					a.btn.btn-lg(href="https://docs.google.com/forms/d/1wXB2fTub5IvWPdXUYfTHbYm5XXK7X8p7cTEI4jZ6hwA/viewform?c=0&w=1") Post A Job
