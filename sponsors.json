@@ -72,6 +72,12 @@
 	"Website": "http://www.aristotlelabs.com/"
 	},
 	{
+	"Name": "Metova",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/metova_logo.png",
+	"Website": "https://metova.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",

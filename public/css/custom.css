@@ -20,6 +20,11 @@
 a.logo {
   height:80px;
 }
+.logo-pad {
+  padding-left: 5px;
+  padding-right: 10px;
+
+}
 .sponsor.platinum.inline img {
   max-width: 350px
 }
@@ -32,6 +37,12 @@ a.logo {
 #jobDesc ul{
   list-style: circle;
   margin-left: 22px;
+}
+#jobs .row:hover{
+  background-color:#C5DFB3;
+}
+#jobs a{
+  color:black;
 }
 .map-res{
     overflow:hidden;
