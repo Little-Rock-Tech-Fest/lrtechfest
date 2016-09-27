@@ -100,5 +100,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/ina.png",
 	"Website": "http://ina.arkansas.gov/"
+	},
+	{
+	"Name": "PolaRoll",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/polaroll-logo.png",
+	"Website": "http://polaroll.com/"
 	}
 ]
