@@ -4,7 +4,7 @@
     "Id": 1,
     "FirstName": "Jeremy",
     "LastName": "Jones",
-    "Bio": "I am an award winning Designer with a successful record crafting effective solutions from concept all the way to completion. My greatest gratification is connecting with clients, evaluating their needs, and then executing a solution that makes them truly excited for the future. <br/><br/>I have over thirteen years of professional design experience including: graphic design, advertising, UI/UX, development, and creative direction for Agency 100 to Inc 500 companies. Currently I am a Designer and Front-End Developer at Mainstream Technologies.",
+    "Bio": "Jeremy is an award-winning designer with a successful record crafting effective solutions from concept all the way to completion. Jeremy has over thirteen years of professional design experience including: graphic design, advertising, UI/UX, development, and creative direction for Agency 100 and Inc. 500 companies. Currently Jeremy is a designer and front-end developer at Mainstream Technologies.",
     "Website": "http://www.jerdesign.net",
     "Twitter": "jerwjones",
     "Photo": "/public/img/speakers/jones-jeremy.jpg",
@@ -777,6 +777,7 @@
     "Bio": "I am a Senior Software Engineer at JCPenney where I focus on build and deployment automation. I have worked on .NET applications for 9 years, but my pet projects have always dealt with automating annoying tasks and making build and deploy pipelines better.<br/><br/>I am a cat person, board-gamer, and podcast addict. I will talk to you about all of these things if you give me a chance. I might even have a game with me to play.",
     "Website": null,
     "Twitter": "ryanrousseau",
+    "Photo": "/public/img/speakers/rousseau-ryan.jpg",
     "Company": "JCPenney",
     "LinkedIn": null,
     "Presentations": [
