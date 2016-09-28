@@ -1,3 +1,4 @@
+
 [
   {
     "Id": 1,
@@ -132,28 +133,6 @@
     ]
   },
   {
-    "Id": 7,
-    "FirstName": "Chris",
-    "LastName": "DeMars",
-    "Bio": "My name is Chris and I am a designer & front-end web developer from the Metro Detroit area. I am currently an associate software developer at DTE Energy.<br/><br/>My passion for the Web and the technologies that accompany it are ever growing. I love to look at code and great design and figure out how it all works. The common goal I try to achieve is to create, develop, and improve Websites making them not only visually appealing, but also great in function and usability. Teaching, learning, and problem solving are also characteristics I enjoy taking on, especially when it involves the Web. I am motivated to produce excellent results and expand my knowledge for my passion along the way.<br/><br/>I also have a strong passion for usability, accessibility, and performance within the Web space.",
-    "Website": "http://chrisdemars.com",
-    "Twitter": "saltnburnem",
-    "Photo": "/public/img/speakers/demars-chris.jpg",
-    "Company": "DTE Energy",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 7,
-        "Track": null,
-        "Day": 1,
-        "Room": "1",
-        "SessionNumber": 3,
-        "Topic": "Gulping ALL the Things.",
-        "Description": "Lost in the forest of front-end build systems out there? Check out Gulp! Gulp makes it super easy to minify, concatenate, and optimize your assets in an easy piping build stream. There are only a few commands to learn, so writing complex tasks (like you would in another system) isn't a thing in Gulp. In this talk, I will walk through what Gulp is and create a working gulpfile that can be used across endless front end projects that minifies, concatenates, and optimizes assets, as well as live reloads the browser using browser-sync."
-      }
-    ]
-  },
-  {
     "Id": 8,
     "FirstName": "Don",
     "LastName": "Schenck",
@@ -216,28 +195,6 @@
         "SessionNumber": 2,
         "Topic": "The Art of Working with Non-Developers",
         "Description": "No matter the platform, useful programming requirements get lost in translation from client meetings, to project managers and finally as a to-do ticket. Sucking all the joy out of the development process and reducing things down to daily sprints, with the hopes of launching on time. <br/><br/>There has to be a better way!<br/><br/>Together we’ll take a look at effective ways of getting everyone on the same page, minimizing scope creep and having less stress when it comes time for product launch as well as how this helps to create a stronger foundation for business growth. "
-      }
-    ]
-  },
-  {
-    "Id": 11,
-    "FirstName": "Joel",
-    "LastName": "Taylor",
-    "Bio": "Joel is an English major turned developer working as a software engineer and content author at Code School. Passionate about learning, he spends the majority of his time thinking about refactoring and design patterns.<br/><br/>When not writing Ruby, he can be found mountain biking on the trails in Chattanooga, TN.<br/><br/>",
-    "Website": "http://codeprivy.com",
-    "Twitter": "joeltayl",
-    "Photo": "/public/img/speakers/taylor-joel.jpg",
-    "Company": "Code School",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 11,
-        "Track": null,
-        "Day": 1,
-        "Room": "2",
-        "SessionNumber": 4,
-        "Topic": "The Benefits of Streaking with Bugs and Giants",
-        "Description": "Learn by doing”  — it’s an effective mentality and generally one of the first pieces of advice new developers receive. While it's good advice, the path to bettering yourself as a developer is often riddled with obstacles. The ambitious may supplement their learning with books, blog posts, online courses, etc. … but sometimes, things still feel stagnant.<br/><br/>This talk focuses on habits that can lead to earned knowledge, which easily translates into our daily work and fosters mentorship opportunities. Some of the habits we’ll talk about include GitHub contribution streaks, code reviews, and practicing transparency.<br/><br/>Sometimes, giants are nothing but windmills."
       }
     ]
   },
@@ -326,28 +283,6 @@
         "SessionNumber": 5,
         "Topic": "Staying Sane (dot) JS",
         "Description": "Developing apps with JavaScript is fun and scary in this day and age. It feels like every application we write will outlive the libraries used to write the app in... and that's not a fun feeling. Sometimes we get the impression that anything written in JavaScript today is so volatile because smart people will come up with smarter ways of solving problems, that will render solutions we write outdated about two minutes after writing it.<br/><br/>This issue was especially brought to life when I started working at Code School. How is it possible to prepare teaching materials that might be outdated by the time they get released? Turns out there is a way and I am here to prove to you that the JavaScript language and ecosystem is still a safe bet. Although there are parts of the ecosystem changing all the time, there are techniques we can use to prepare for those changes without having to rewrite whole apps over and over again.<br/><br/>Beginner & more advanced developers alike will draw value from this talk, as it will teach both of these groups how to collaborate in a productive manner when architecting and writing apps while getting ready for the unknown future."
-      }
-    ]
-  },
-  {
-    "Id": 16,
-    "FirstName": "Kim",
-    "LastName": "Crayton",
-    "Bio": "​Kim has years of experience working with learners of all ages, skill level, and abilities and she would like to offer what she knows about successful mentorship to her new community. Kim is the author of the \"Tech Talk For Non-Techies\" blog and is currently pursuing a Doctors of Business Administration - Technology Entrepreneurship. Kim is working on her passion project JrDevMentoring.com and has been consulting with various bootcamps since speaking at ScotlandJS 2016. <br/>",
-    "Website": "http://www.techtalkfornontechies.com/",
-    "Twitter": "KimCrayton1",
-    "Photo": "/public/img/speakers/crayton-kim.jpg",
-    "Company": "Kim Crayton LLC",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 16,
-        "Track": null,
-        "Day": 1,
-        "Room": "1",
-        "SessionNumber": 6,
-        "Topic": "​ Overcoming the Challenges of Mentoring",
-        "Description": "​There is an ongoing mantra within the developer community: that there are far more jobs available then programmers to fill them. Which should be an indication as to the wonderful potential for both business and those learning to code. Yet what often follows such statements are not words of joy but rather a list of frustrations related to the difficulty in finding and retaining enough skilled developers to fill these positions. <br/>The challenge is not in the number of newbies entering the field but the number who leave because they are not able to bridge the divide between bootcamps, online tutorials, books, videos, etc. to an employable developer who is able to contribute to the team. <br/>Kim has years of experience working with learners of various ages in helping them develop the skills they needed to be successful at whatever their chosen goal. She understands that for businesses to be successful, they must develop more effective and efficient ways of recruiting and retaining developers in order to meet organizational benchmarks. <br/>The developer community is a overwhelmingly generous one and a well designed mentoring or apprenticeship program could be one answer that business leaders and newbies are looking for.<br/><br/>- The business costs associated with corporate hiring managers inability to recruit and retain skilled workers to fill current and future entry-level positions are increasing (Queen, 2014). <br/>- 89 percent of organizational leaders stated that they are having difficulties filling open positions, which is causing them to either turn down orders, miss key deliverable deadlines or hire individuals from outside of the United States (Aho, 2015). <br/><br/>Aho, K. (2015). The robotics industry: creating jobs, closing the skills gap. Techniques, (7), 22. Retrieved from https://www.acteonline.org/techniques/#.VpMcQq6rR0s<br/><br/>Queen, J. (2014). Hire power: to close the skills gap, states are teaming up with industries that need, but can't find, qualified workers. State Legislatures, (8), 16. Retrieved from http://www.ncsl.org/bookstore/state-legislatures-magazine.aspx"
       }
     ]
   },
@@ -509,7 +444,7 @@
     "Id": 24,
     "FirstName": "Jeffrey",
     "LastName": "Hicks",
-    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.",
+    "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.\"",
     "Website": "http://jrhicks.github.io",
     "Twitter": "jrhicks",
     "Photo": "/public/img/speakers/hicks-jeffrey.jpg",
@@ -588,7 +523,7 @@
         "Day": 2,
         "Room": "1",
         "SessionNumber": 4,
-        "Topic": "This Code Sucks\" and other tales of developer hubris",
+        "Topic": "\"This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris<br/><br/>I'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?<br/><br/>This is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).<br/><br/>You can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
       }
     ]
