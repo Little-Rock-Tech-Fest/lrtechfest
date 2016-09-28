@@ -158,7 +158,7 @@
     "Id": 9,
     "FirstName": "Jonathan",
     "LastName": "Fontanez",
-    "Bio": "# Who am I?<br/><br/>Full stack developer with a need for speed! Building web applications is my passion and focusing on user experience is my goal. I have had the opportunity to work in multiple industries ranging from health care, converged infrastructure, and big data analytics. I enjoy keeping up with the latest web technologies and frameworks and building a variety of apps. I enjoy the evolution of the web and understanding how to continually improve my code as a result.<br/><br/>When I'm not developing I enjoy running, reading, and spending time with my wife and twin boys. <br/><br/>##  Favorite Podcasts<br/>- JavaScript jabber<br/>- 5 minutes of Javascript<br/><br/>##  Favorite Sport<br/>- Hockey (go canes!)",
+    "Bio": "I'm a full stack developer with a need for speed! Building web applications is my passion and focusing on user experience is my goal. I have had the opportunity to work in multiple industries ranging from health care, converged infrastructure, and big data analytics. I enjoy keeping up with the latest web technologies and frameworks and building a variety of apps. I enjoy the evolution of the web and understanding how to continually improve my code as a result.<br/><br/>When I'm not developing I enjoy running, reading, and spending time with my wife and twin boys.",
     "Website": "https://www.linkedin.com/in/jonathan-fontanez-27715428",
     "Twitter": "jonfontanez",
     "Photo": "/public/img/speakers/fontanez-jonathan.jpg",
@@ -172,7 +172,7 @@
         "Room": "2",
         "SessionNumber": 2,
         "Topic": "Building performant web applications",
-        "Description": "# Overview<br/><br/>Building performant web applications can be challenging! Cloud services enable web applications to scale globally and frameworks like React and AngularJS2 make it easier to build maintainable large scale web applications. However, one concern never changes; building applications that quickly provide responses to user interactions and understanding when they don't. This talk dives into some of the tools provided by browser vendors, how you can optimize your code, and understanding what is happening under the hood. This talk is relevant for web developers building applications large and small regardless of your framework choices. "
+        "Description": "Building performant web applications can be challenging! Cloud services enable web applications to scale globally and frameworks like React and AngularJS2 make it easier to build maintainable large scale web applications. However, one concern never changes; building applications that quickly provide responses to user interactions and understanding when they don't. This talk dives into some of the tools provided by browser vendors, how you can optimize your code, and understanding what is happening under the hood. This talk is relevant for web developers building applications large and small regardless of your framework choices. "
       }
     ]
   },
@@ -489,7 +489,7 @@
     "FirstName": "Josh",
     "LastName": "Cypher",
     "Bio": "Josh Cypher is the lead QA Engineer at Emma, Inc. Before Emma, he spent five years as a product manager, learning to code in an effort to better understand his developers. When he took the leap into automated testing, he never looked back. <br/><br/>Josh is an avid cyclist and often commutes to work on his Bianchi road bike. In his off hours, he enjoys spending time with his wife, Rachel, and his dog, Alistair. He is a board game enthusiast, beer aficionado and an excellent campfire cook.<br/>",
-    "Website": "",
+    "Website": null,
     "Twitter": "joshuacypher",
     "Photo": "/public/img/speakers/cypher-josh.jpg",
     "Company": "Emma, Inc.",
@@ -767,6 +767,27 @@
         "SessionNumber": 5,
         "Topic": "Intro to Phoenix",
         "Description": "The real time web is upon us.  With the physical web, the Internet of Things, increasing social engagement,  and real time analytics, web frameworks that offer real time capabilities are essential to the future of the web.  <br/><br/>In this talk, we will discuss the Phoenix Web Framework and how to build real time applications. We will cover the basics of how to get started, from installing Elixir and Phoenix, to covering the different components of the framework, and leveraging WebSockets and GenServers to create real time applications, leveraging the awesomeness that the Erlang VM has to offer and the developer friendliness that comes with Elixir.  "
+      }
+    ]
+  },
+  {
+    "Id": 1038,
+    "FirstName": "Ryan",
+    "LastName": "Rousseau",
+    "Bio": "I am a Senior Software Engineer at JCPenney where I focus on build and deployment automation. I have worked on .NET applications for 9 years, but my pet projects have always dealt with automating annoying tasks and making build and deploy pipelines better.<br/><br/>I am a cat person, board-gamer, and podcast addict. I will talk to you about all of these things if you give me a chance. I might even have a game with me to play.",
+    "Website": null,
+    "Twitter": "ryanrousseau",
+    "Company": "JCPenney",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1039,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 6,
+        "Topic": "My Journey to Continuous Delivery",
+        "Description": "From an early point in my career, I've been fascinated with automation. Naturally, this lead me to continuous integration and continuous delivery. In this session, I'll share my journey to continuous delivery sharing tools, tips, successes, and failures along the way."
       }
     ]
   }
