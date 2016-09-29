@@ -265,14 +265,14 @@
 	},
 	{
 		"id": 23,
-		"logo": "/public/img/sponsors/praeses.png",
+		"logo": "/public/img/sponsors/inuvo_logo.png",
 		"datePosted": "2016-23-9",
 		"posTitle": "Developer",
 		"location": "Little Rock, AR",
 		"posType": "Full Time",
 		"posDesc": "<h6>Inuvo is looking for individuals who love building software. We are looking to expand our highly collaborative team with an individual who loves to learn and share ideas. Our team focuses on continuous improvement that extends to both the software we write, and the culture we promote.</h6><h6>Ideal candidates will be self-starting who are comfortable working alone or in small groups. Candidates should take pride in their work and enjoy solving complex problems. Candidates need to be versatile and focused on continuous learning. They should have the ability to prioritize tasks, manage workload, and meet deadlines.</h6><h6>What you will be doing:</h6><ul><li>Developing and maintaining high-quality public facing web properties and internal tools utilizing modern software development methodologies using C#, Entity Framework and SQL Server.</li><li>Perform software analysis, research, development, testing and maintenance activates.</li><li>Provide support for a mission critical application.</li><li>Staying on top of new technologies.</li></ul><h6>Requirements:</h6><ul><li>Bachelors in Computer Science or related field.</li><li>2-5 years of software development experience.</li><li>Solid experience with OOP (We use C# but can be flexible).</li><li>Solid SQL experience.</li><li>Accept ownership of your work and the project.</li><li>Excellent verbal and written communication skills.</li><li>Overall blend of passion for technology, creativity, and attention to detail for software development.</li></ul>",
-		"appLink": "mailto:careers@praeses.com",
-		"orgName": "Praeses",
-		"orgDesc": "Praeses’ corporate culture has flourished into an unmatched workplace in Shreveport/Bossier City by acquiring talent that shares in the company’s philosophies. Praeses also emphasizes the career development of its employees and encourages staff to pursue opportunities where they can truly control their destiny with the firm. The company is always looking to add talented individuals to the team.<ul><li>A great place to work.</li><li>Competitive salaries.</li><li>Medical/dental/vision (90% paid for employees, partial for dependents).</li><li>Vacation, sick time and paid holidays.</li><li>We support personal growth. We offer and encourage further learning and certifications and tuition reimbursement.</li><li>Yearly reviews to encourage career advancement.</li><li>We have remote-work options contingent on project assignments.</li></ul>"
+		"appLink": "http://www.inuvo.com/",
+		"orgName": "Inuvo",
+		"orgDesc": "Inuvo is an advertising technology and digital publishing business. We serve billions of income-generating ads monthly across a network of websites and apps reaching desktop, tablet, and mobile devices. Our native technology allows access to a vast inventory of text, display, and video ads that are curated to highly relevant web content and individual searches on both third-party and Inuvo-owned websites.",
 	}
 ]
