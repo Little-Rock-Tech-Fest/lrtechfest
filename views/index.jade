@@ -1,3 +1,27 @@
+
+mixin sessions (presentationList, parentId)
+	each presentation in presentationList
+		.panel.schedule-item
+			.lecture-icon-wrapper
+				if presentation.IconClass
+					span(class=presentation.IconClass)
+				else
+					a(href="/topics##{presentation.SpeakerSlug}")
+						img.img-responsive(src='#{presentation.Photo}', alt='')
+			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
+				strong.time.highlight
+					span.icon.icon-office-24
+					| #{presentation.Time}
+				h6.title
+				| !{presentation.Topic}
+				i.icon.icon-arrows-06
+			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
+				article
+					p.description
+						| #{presentation.Description}
+					a(href="/topics##{presentation.SpeakerSlug}")
+						strong.highlight.speaker-name #{presentation.SpeakerName}
+
 doctype html
 html
 	head
@@ -82,6 +106,8 @@ html
 								li.navigation-item
 									a(class="navigation-link" href="#about") About
 								li.navigation-item
+									a(class="navigation-link" href="#schedule") Schedule
+								li.navigation-item
 									a(class="navigation-link" href="#speakers") Speakers
 								li.navigation-item
 									a(class="navigation-link" href="#tickets") Tickets
@@ -114,28 +140,68 @@ html
 
 					p.align-left This is our fourth year hosting the event. We expect at least 400 attendees. This year, we're hosting in the Statehouse ballrooms. Will you join us?
 
-
-		//- section#sign_up.section.bg-cover.bg4.light-text.align-center
-		//- 	.container
-		//- 		h2
-		//- 			span.highlight Get Notified
-		//- 		small Get news about the event and get notified when registration opens up.
-		//- 		.col-md-6.col-md-offset-3.col-sm-8.col-sm-offset-2
-		//- 			//- <!-- Begin MailChimp Signup Form -->
-		//- 			link(href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css")
-		//- 			#mc_embed_signup
-		//- 			form(action="//lrtechfest.us10.list-manage.com/subscribe/post?u=7f81e7471c2c58788b0939cda&amp;id=a8af54325e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate)
-		//- 				#mc_embed_signup_scroll
-		//- 					#mce-responses.clear
-		//- 						.response#mce-error-response(style="display:none")
-		//- 						.response#mce-success-response(style="display:none")
-		//- 					div(style="position: absolute; left: -5000px;" aria-hidden="true")
-		//- 						input(type="text" name="b_7f81e7471c2c58788b0939cda_a8af54325e" tabindex="-1" value="")
-		//- 					fieldset.col-sm-8.mc-field-group
-		//- 						input#mce-EMAIL.required.email.NewsletterEmail(name="EMAIL" type="email" placeholder="email@email.com")
-		//- 					fieldset.col-sm-4
-		//- 						//- input.btn.btn-sm.btn-outline-clr(type="submit" value="submit")
-		//- 						input.btn.btn-sm.btn-outline-clr(type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe")
+		section#schedule.section.align-center
+			.container
+				span.icon.section-icon.icon-office-21
+				h3 Schedule
+				br
+				br
+				.col-md-10.col-md-offset-1
+					.row.schedule
+						.nav-wrapper
+							span.nav-current
+								h5.highlight Day 1
+								p.text-alt 10/20/2016
+							ul.nav.nav-schedule
+								li.active
+									a(href='#schedule_day1', data-toggle='tab')
+										h5.highlight Day 1
+										p.text-alt 10/20/2016
+								li
+									a(href='#schedule_day2', data-toggle='tab')
+										h5.highlight Day 2
+										p.text-alt 10/21/2016
+						.tab-content
+							#schedule_day1.tab-pane.fade.active.in
+								.nav-wrapper
+									span.nav-current Room 1
+									ul.nav.nav-schedule
+										li.active
+											a(href='#schedule_day1_room1', data-toggle='tab') Room 1
+										li
+											a(href='#schedule_day1_room2', data-toggle='tab') Room 2
+										li
+											a(href='#schedule_day1_room3', data-toggle='tab') Room 3
+								.tab-content.tab-content-schedule
+									#schedule_day1_room1.tab-pane.fade.active.in
+										#schedule_day1_room1_timeline.panel-group
+											+sessions(presenationsDay1Room1, "#schedule_day1_room1_timeline")
+									#schedule_day1_room2.tab-pane.fade.in
+										#schedule_day1_room2_timeline.panel-group
+											+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
+									#schedule_day1_room3.tab-pane.fade.in
+										#schedule_day1_room3_timeline.panel-group
+											+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
+							#schedule_day2.tab-pane.fade.in
+								.nav-wrapper
+									span.nav-current Room 1
+									ul.nav.nav-schedule
+										li.active
+											a(href='#schedule_day2_room1', data-toggle='tab') Room 1
+										li
+											a(href='#schedule_day2_room2', data-toggle='tab') Room 2
+										li
+											a(href='#schedule_day2_room3', data-toggle='tab') Room 3
+								.tab-content.tab-content-schedule
+									#schedule_day2_room1.tab-pane.fade.active.in
+										#schedule_day2_room1_timeline.panel-group
+											+sessions(presenationsDay2Room1, "#schedule_day2_room1_timeline")
+									#schedule_day2_room2.tab-pane.fade.in
+										#schedule_day2_room2_timeline.panel-group
+											+sessions(presenationsDay2Room2, "#schedule_day2_room2_timeline")
+									#schedule_day2_room3.tab-pane.fade.in
+										#schedule_day2_room3_timeline.panel-group
+											+sessions(presenationsDay2Room3, "#schedule_day2_room3_timeline")
 
 		section#speakers.section.align-center
 			.container

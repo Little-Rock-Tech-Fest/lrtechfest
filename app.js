@@ -26,15 +26,75 @@ var team = [
 
 var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
 var sponsors = JSON.parse(fs.readFileSync('sponsors.json', 'utf8'));
+var times = {'1-1': '9:00 AM', '1-2': '10:00 AM', '1-3': '11:00 AM', '1-4':"1:30 PM", '1-5':"2:30 PM", '1-6':"3:30 PM",
+			 '2-1': '8:30 AM', '2-2': '9:30 AM', '2-3': '10:30 AM', '2-4':"1:00 PM", '2-5':"2:00 PM", '2-6':"3:00 PM" }
+var presentations = [];
 
 speakers.forEach(function(speaker){
 	speaker.slug = slugs(speaker.FirstName+'-'+speaker.LastName);
 	var stats = fs.stat(__dirname+speaker.Photo, function(err, stats){
 		if(err){
 			speaker.Photo = "/public/img/speakers/missing.png";
+			presentation.Photo = speaker.Photo
 		}
-	})
+	});
+	speaker.Presentations.forEach(function(presentation){
+		presentation.SpeakerId = speaker.Id
+		presentation.SpeakerName = speaker.FirstName + " " + speaker.LastName
+		presentation.Photo = speaker.Photo
+		var timeId = presentation.Day.toString()+"-"+presentation.SessionNumber;
+		presentation.Time = times[timeId];
+		presentation.ElementId = "schedule_day"+presentation.Day+"_room"+presentation.Room+"_time"+presentation.SessionNumber;
+		presentation.SpeakerSlug = speaker.slug
+		presentations.push(presentation);
+	});
 });
+
+presentations = _.uniq(presentations, 'Topic');
+
+[1,2].forEach(function(day){
+	["1","2","3"].forEach(function(room){
+		presentations.push({
+			Day: day,
+			Room: room,
+			Topic:"Lunch",
+			Description:"Lunch",
+			SessionNumber:3.5,
+			ElementId:"schedule_day1_room1_timeLunch",
+			Time: day === 1? "12:00 PM" : "11:30 AM",
+			IconClass : "fa fa-cutlery",
+		});
+	});
+});
+
+presentations.push({
+	Day: 1,
+	Room: "1",
+	Topic:"Opening Remarks",
+	Description:"Opening Remarks",
+	SessionNumber:0,
+	ElementId:"schedule_day1_room1_timeopening",
+	Time: "8:30",
+	IconClass : "fa fa-microphone",
+});
+
+presentations.push({
+	Day: 2,
+	Room: "1",
+	Topic:"Closing Remarks and Prize Giveaway",
+	Description:"Closing Remarks and Prize Giveaway",
+	SessionNumber:7,
+	ElementId:"schedule_day2_room1_timeclosing",
+	Time: "4:00",
+	IconClass : "fa fa-gift",
+});
+
+var presenationsDay1Room1 = _(presentations).filter({'Day': 1, 'Room': "1"}).sortBy("SessionNumber").value();
+var presenationsDay1Room2 = _(presentations).filter({'Day': 1, 'Room': "2"}).sortBy("SessionNumber").value();
+var presenationsDay1Room3 = _(presentations).filter({'Day': 1, 'Room': "3"}).sortBy("SessionNumber").value();
+var presenationsDay2Room1 = _(presentations).filter({'Day': 2, 'Room': "1"}).sortBy("SessionNumber").value();
+var presenationsDay2Room2 = _(presentations).filter({'Day': 2, 'Room': "2"}).sortBy("SessionNumber").value();
+var presenationsDay2Room3 = _(presentations).filter({'Day': 2, 'Room': "3"}).sortBy("SessionNumber").value();
 
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
@@ -72,7 +132,16 @@ app.get('/topics', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
+	res.render('index', {
+			sponsors: sponsors, 
+			team: team, 
+			speakers:speakers,
+			presenationsDay1Room1: presenationsDay1Room1,
+			presenationsDay1Room2: presenationsDay1Room2,
+			presenationsDay1Room3: presenationsDay1Room3,
+			presenationsDay2Room1: presenationsDay2Room1,
+			presenationsDay2Room2: presenationsDay2Room2,
+			presenationsDay2Room3: presenationsDay2Room3});
 });
 
 app.get('/jobs', function(req, res){
