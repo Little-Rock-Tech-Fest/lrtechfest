@@ -44,7 +44,7 @@ speakers.forEach(function(speaker){
 		presentation.Photo = speaker.Photo
 		var timeId = presentation.Day.toString()+"-"+presentation.SessionNumber;
 		presentation.Time = times[timeId];
-		presentation.ElementId = "schedule_day"+presentation.Day+"_room"+presentation.Room+"_time"+presentation.SessionNumber;
+		presentation.ElementId = "schedule_day"+presentation.Day+"_room"+_.kebabCase(presentation.Room,' ','_')+"_time"+presentation.SessionNumber;
 		presentation.SpeakerSlug = speaker.slug
 		presentations.push(presentation);
 	});
