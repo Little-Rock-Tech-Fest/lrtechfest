@@ -53,10 +53,10 @@ speakers.forEach(function(speaker){
 presentations = _.uniq(presentations, 'Topic');
 
 [1,2].forEach(function(day){
-	["1","2","3"].forEach(function(room){
+	["1"].forEach(function(room){
 		presentations.push({
 			Day: day,
-			Room: room,
+			Room: day === 1 ? "River Market Pavilion" : "TBA",
 			Topic:"Lunch",
 			Description:"Lunch",
 			SessionNumber:3.5,
@@ -69,7 +69,7 @@ presentations = _.uniq(presentations, 'Topic');
 
 presentations.push({
 	Day: 1,
-	Room: "1",
+	Room: "Ballroom A",
 	Topic:"Opening Remarks",
 	Description:"Opening Remarks",
 	SessionNumber:0,
@@ -80,7 +80,7 @@ presentations.push({
 
 presentations.push({
 	Day: 2,
-	Room: "1",
+	Room: "Ballroom A",
 	Topic:"Closing Remarks and Prize Giveaway",
 	Description:"Closing Remarks and Prize Giveaway",
 	SessionNumber:7,
@@ -88,6 +88,10 @@ presentations.push({
 	Time: "4:00",
 	IconClass : "fa fa-gift",
 });
+
+
+var presenationsDay1 = _(presentations).filter({'Day': 1}).sortByAll("SessionNumber", "Room").value();
+var presenationsDay2 = _(presentations).filter({'Day': 2}).sortByAll("SessionNumber", "Room").value();
 
 var presenationsDay1Room1 = _(presentations).filter({'Day': 1, 'Room': "1"}).sortBy("SessionNumber").value();
 var presenationsDay1Room2 = _(presentations).filter({'Day': 1, 'Room': "2"}).sortBy("SessionNumber").value();
@@ -133,9 +137,11 @@ app.get('/topics', function(req, res){
 
 app.get('/', function(req, res){
 	res.render('index', {
-			sponsors: sponsors, 
-			team: team, 
+			sponsors: sponsors,
+			team: team,
 			speakers:speakers,
+			presenationsDay1: presenationsDay1,
+			presenationsDay2: presenationsDay2,
 			presenationsDay1Room1: presenationsDay1Room1,
 			presenationsDay1Room2: presenationsDay1Room2,
 			presenationsDay1Room3: presenationsDay1Room3,

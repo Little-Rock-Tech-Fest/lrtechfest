@@ -11,10 +11,9 @@ mixin sessions (presentationList, parentId)
 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
 				strong.time.highlight
 					span.icon.icon-office-24
-					| #{presentation.Time}
-				h6.title
-				| !{presentation.Topic}
-				i.icon.icon-arrows-06
+					| #{presentation.Time} -- <i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}
+				h6.title !{presentation.Topic}
+					i.icon.icon-arrows-06
 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
 				article
 					p.description
@@ -163,45 +162,55 @@ html
 										p.text-alt 10/21/2016
 						.tab-content
 							#schedule_day1.tab-pane.fade.active.in
-								.nav-wrapper
-									span.nav-current Room 1
-									ul.nav.nav-schedule
-										li.active
-											a(href='#schedule_day1_room1', data-toggle='tab') Room 1
-										li
-											a(href='#schedule_day1_room2', data-toggle='tab') Room 2
-										li
-											a(href='#schedule_day1_room3', data-toggle='tab') Room 3
+								//- .nav-wrapper
+								//- 	span.nav-current Room 1
+								//- 	ul.nav.nav-schedule
+								//- 		li.active
+								//- 			a(href='#schedule_day1_room1', data-toggle='tab') Room 1
+								//- 		li
+								//- 			a(href='#schedule_day1_room2', data-toggle='tab') Room 2
+								//- 		li
+								//- 			a(href='#schedule_day1_room3', data-toggle='tab') Room 3
+								//- .tab-content.tab-content-schedule
+								//- 	#schedule_day1_room1.tab-pane.fade.active.in
+								//- 		#schedule_day1_room1_timeline.panel-group
+								//- 			+sessions(presenationsDay1Room1, "#schedule_day1_room1_timeline")
+								//- 	#schedule_day1_room2.tab-pane.fade.in
+								//- 		#schedule_day1_room2_timeline.panel-group
+								//- 			+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
+								//- 	#schedule_day1_room3.tab-pane.fade.in
+								//- 		#schedule_day1_room3_timeline.panel-group
+								//- 			+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
 								.tab-content.tab-content-schedule
 									#schedule_day1_room1.tab-pane.fade.active.in
 										#schedule_day1_room1_timeline.panel-group
-											+sessions(presenationsDay1Room1, "#schedule_day1_room1_timeline")
-									#schedule_day1_room2.tab-pane.fade.in
-										#schedule_day1_room2_timeline.panel-group
-											+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
-									#schedule_day1_room3.tab-pane.fade.in
-										#schedule_day1_room3_timeline.panel-group
-											+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
+											+sessions(presenationsDay1, "#schedule_day1_room1_timeline")
+									//- #schedule_day1_room2.tab-pane.fade.in
+									//- 	#schedule_day1_room2_timeline.panel-group
+									//- 		+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
+									//- #schedule_day1_room3.tab-pane.fade.in
+									//- 	#schedule_day1_room3_timeline.panel-group
+									//- 		+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
 							#schedule_day2.tab-pane.fade.in
-								.nav-wrapper
-									span.nav-current Room 1
-									ul.nav.nav-schedule
-										li.active
-											a(href='#schedule_day2_room1', data-toggle='tab') Room 1
-										li
-											a(href='#schedule_day2_room2', data-toggle='tab') Room 2
-										li
-											a(href='#schedule_day2_room3', data-toggle='tab') Room 3
+								//- .nav-wrapper
+								//- 	span.nav-current Room 1
+								//- 	ul.nav.nav-schedule
+								//- 		li.active
+								//- 			a(href='#schedule_day2_room1', data-toggle='tab') Room 1
+								//- 		li
+								//- 			a(href='#schedule_day2_room2', data-toggle='tab') Room 2
+								//- 		li
+								//- 			a(href='#schedule_day2_room3', data-toggle='tab') Room 3
 								.tab-content.tab-content-schedule
 									#schedule_day2_room1.tab-pane.fade.active.in
 										#schedule_day2_room1_timeline.panel-group
-											+sessions(presenationsDay2Room1, "#schedule_day2_room1_timeline")
-									#schedule_day2_room2.tab-pane.fade.in
-										#schedule_day2_room2_timeline.panel-group
-											+sessions(presenationsDay2Room2, "#schedule_day2_room2_timeline")
-									#schedule_day2_room3.tab-pane.fade.in
-										#schedule_day2_room3_timeline.panel-group
-											+sessions(presenationsDay2Room3, "#schedule_day2_room3_timeline")
+											+sessions(presenationsDay2, "#schedule_day2_room1_timeline")
+									//- #schedule_day2_room2.tab-pane.fade.in
+									//- 	#schedule_day2_room2_timeline.panel-group
+									//- 		+sessions(presenationsDay2Room2, "#schedule_day2_room2_timeline")
+									//- #schedule_day2_room3.tab-pane.fade.in
+									//- 	#schedule_day2_room3_timeline.panel-group
+									//- 		+sessions(presenationsDay2Room3, "#schedule_day2_room3_timeline")
 
 		section#speakers.section.align-center
 			.container
