@@ -17,7 +17,7 @@ mixin sessions (presentationList, parentId)
 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
 				article
 					p.description
-						| #{presentation.Description}
+						| !{presentation.Description}
 					a(href="/topics##{presentation.SpeakerSlug}")
 						strong.highlight.speaker-name #{presentation.SpeakerName}
 
