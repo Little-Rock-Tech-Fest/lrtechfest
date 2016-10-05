@@ -106,5 +106,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/polaroll-logo.png",
 	"Website": "http://polaroll.com/"
+	},
+	{
+	"Name": "The Venture Center",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/venture_center_logo.gif",
+	"Website": "http://www.venturecenter.co/"
 	}
 ]
