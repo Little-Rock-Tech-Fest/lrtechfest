@@ -791,5 +791,49 @@
         "Description": "From an early point in my career, I've been fascinated with automation. Naturally, this lead me to continuous integration and continuous delivery. In this session, I'll share my journey to continuous delivery sharing tools, tips, successes, and failures along the way."
       }
     ]
+  },
+  {
+    "Id": 1041,
+    "FirstName": "Andy",
+    "LastName": "Cowles",
+    "Bio": " Andy Cowles is a Founder and Managing Partner of Elyxor. Prior to founding Elyxor, Andy was a founder of CoBu Technology, a Boston-based software consulting company, in 2008. CoBu's expertise included delivering mobile and desktop applications, server architecture and design, performance engineering, and agile process implementation. Andy started his career in military R&D for the Mitre Corporation before joining the supply-chain startup Celarix in 1999 as a principle software engineer and tech lead. After Celarix, Andy led development at several early-stage startups in the mobile space, including Quantia and Opus3Media. He has extensive experience in cross-platform mobile development as both a hands-on contributor and team leader and possesses a keen understanding of development and delivery of production-ready software. Andy earned a BS in Computer Science from Tufts University and an MS in Computer Science from the University of Massachusetts Lowell.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/cowles-andy.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1043,
+        "Track": null,
+        "Day": 1,
+        "Room": "Ballroom B",
+        "SessionNumber": 4,
+        "Topic": "DevOps Panel",
+        "Description": ""
+      }
+    ]
+  },
+  {
+    "Id": 1042,
+    "FirstName": "Ed",
+    "LastName": "Nystrom",
+    "Bio": " Ed Nystrom is the Director of the DevOps Practice at Elyxor.  Ed has been in the DevOps/Release Engineering/Software Configuration Management space for over 20 years as an individual contributor, tech lead, manager, and project manager.  He specializes in the analysis, planning, and execution of end-to-end SDLC and Test Automation uplifts and implementations.  Ed earned a BS in Computer Science from Loyola Marymount University.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/nystrom-ed.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1046,
+        "Track": null,
+        "Day": 1,
+        "Room": "Ballroom B",
+        "SessionNumber": 4,
+        "Topic": "DevOps Panel",
+        "Description": ""
+      }
+    ]
   }
 ]
