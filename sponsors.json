@@ -112,5 +112,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/venture_center_logo.gif",
 	"Website": "http://www.venturecenter.co/"
+	},
+	{
+	"Name": "Pluralsight",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/pluralsight.png",
+	"Website": "http://www.pluralsight.com/"
 	}
 ]
