@@ -510,11 +510,11 @@
     "Id": 27,
     "FirstName": "Russell",
     "LastName": "Anderson",
-    "Bio": "Russ Anderson is a Front-End Developer and de facto UI/UX designer at [Tandum](http://tandum.com/), and has been writing Javascript for about 5 years. These days he spends most of his time writing Angular 1.x applications, because that's what he gets paid to do. Regardless of the framework he loves building intuitive practical interfaces, and heavily commented pull requests. Also he likes that most recent Car Seat Headrest record.<br/><br/>Russ lives in Nashville, Tennessee with his wife and two boys.",
+    "Bio": "Russ Anderson is a Front-End Developer and de facto UI/UX designer at SimplyAgree, and has been writing Javascript for about 5 years. These days he spends most of his time writing Angular 1.x applications, because that's what he gets paid to do. Regardless of the framework he loves building intuitive practical interfaces, and heavily commented pull requests. Also he likes that most recent Car Seat Headrest record.<br/><br/>Russ lives in Nashville, Tennessee with his wife and two boys.",
     "Website": "http://vacas5.github.io/",
     "Twitter": "RealRealRuss",
     "Photo": "/public/img/speakers/anderson-russell.jpg",
-    "Company": "Tandum",
+    "Company": "SimplyAgree",
     "LinkedIn": null,
     "Presentations": [
       {
