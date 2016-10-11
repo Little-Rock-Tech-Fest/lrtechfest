@@ -118,5 +118,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/pluralsight.png",
 	"Website": "http://www.pluralsight.com/"
+	},
+	{
+	"Name": "BluStream Media",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/blustream-media.jpg",
+	"Website": "http://www.blustreammedia.com/s"
 	}
 ]
