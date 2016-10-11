@@ -35,7 +35,7 @@ speakers.forEach(function(speaker){
 	var stats = fs.stat(__dirname+speaker.Photo, function(err, stats){
 		if(err){
 			speaker.Photo = "/public/img/speakers/missing.png";
-			presentation.Photo = speaker.Photo
+			presentations.Photo = speaker.Photo
 		}
 	});
 	speaker.Presentations.forEach(function(presentation){
