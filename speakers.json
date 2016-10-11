@@ -510,7 +510,7 @@
     "Id": 27,
     "FirstName": "Russell",
     "LastName": "Anderson",
-    "Bio": "Russ Anderson is a Front-End Developer and de facto UI/UX designer at SimplyAgree, and has been writing Javascript for about 5 years. These days he spends most of his time writing Angular 1.x applications, because that's what he gets paid to do. Regardless of the framework he loves building intuitive practical interfaces, and heavily commented pull requests. Also he likes that most recent Car Seat Headrest record.<br/><br/>Russ lives in Nashville, Tennessee with his wife and two boys.",
+    "Bio": "Russ Anderson is a Front-End Developer and de facto UI/UX designer at SimplyAgree, and has been writing Javascript for about 5 years. These days he spends most of his time writing Angular 1.x applications because that's what he gets paid to do. Regardless of the framework he loves building intuitive practical interfaces, and heavily commented pull requests. Also he likes that most recent Car Seat Headrest record.<br/><br/>Russ lives in Nashville, Tennessee with his wife and two boys.",
     "Website": "http://vacas5.github.io/",
     "Twitter": "RealRealRuss",
     "Photo": "/public/img/speakers/anderson-russell.jpg",
@@ -525,28 +525,6 @@
         "SessionNumber": 4,
         "Topic": "\"This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris<br/><br/>I'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?<br/><br/>This is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).<br/><br/>You can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
-      }
-    ]
-  },
-  {
-    "Id": 29,
-    "FirstName": "Matt",
-    "LastName": "Trask",
-    "Bio": "Im a developer who loves coffee, cats, beer and API's. I love using public APIs to build silly projects such as an SMS application to tell my father what time it is every hour. On the hour. Outside of programming, I bike all around the hills and cars of Atlanta, having more close encounters with bumpers then the 3rd kind. Im a huge Disney fan, and attempted to ride all 46 (now 47) rides in one operating day. We didn't finish but its a great story!",
-    "Website": "http://matthewtrask.net",
-    "Twitter": "matthewtrask",
-    "Photo": "/public/img/speakers/trask-matt.jpg",
-    "Company": "Tandum",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 29,
-        "Track": null,
-        "Day": 2,
-        "Room": "Ballroom C",
-        "SessionNumber": 4,
-        "Topic": "Testing Code from Unit to Deployment",
-        "Description": "Testing is one of those things we all love to hate. It takes longer, it adds stress to your work and makes you think, rethink and then throw an idea away. But what if testing was made easy? Better yet, what if we had a test suite that you could use to your benefit and know that when you deploy code, you aren't deploying bad code. With testing tools like PHPUnit and Behat coupled with CI services like Travis or Jenkins, you can know that code to be deployed has been vetted and checked properly.<br/><br/>I spent months learning how to set up proper CI pipelines from Sebastian Bergmann, creator of PHPUnit. With his guidance, our CI pipeline was the thing dreams are made of. We moved code effortlessly through our Git from dev to QA to UAT to prod with ease and confidence. "
       }
     ]
   },
