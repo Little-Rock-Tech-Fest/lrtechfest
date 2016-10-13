@@ -788,7 +788,7 @@
         "Room": "Ballroom B",
         "SessionNumber": 4,
         "Topic": "DevOps Panel",
-        "Description": ""
+        "Description": "DevOps is a topic being discussed in many software engineering organizations, but the scope of DevOps is not consistent across these organizations.  The members of this panel will share their views regarding the different teams in your company that need to participate in DevOps and the importance of looking at your entire SDLC.  In 'The Complete Picture' of DevOps, this set of panelists discuss how software developers, software developers in Test (SDET), and IT operations all play a role in evolving your DevOps process. When done correctly, the entire velocity of your organization will increase, and your business will realize greater innovation speed, reduced risk, improved capacity, and increased uptime.  The panel will share approaches and real-life examples that discuss DevOps related to new development efforts and uplifting the legacy development processes."
       }
     ]
   },
@@ -810,7 +810,29 @@
         "Room": "Ballroom B",
         "SessionNumber": 4,
         "Topic": "DevOps Panel",
-        "Description": ""
+        "Description": "DevOps is a topic being discussed in many software engineering organizations, but the scope of DevOps is not consistent across these organizations.  The members of this panel will share their views regarding the different teams in your company that need to participate in DevOps and the importance of looking at your entire SDLC.  In 'The Complete Picture' of DevOps, this set of panelists discuss how software developers, software developers in Test (SDET), and IT operations all play a role in evolving your DevOps process. When done correctly, the entire velocity of your organization will increase, and your business will realize greater innovation speed, reduced risk, improved capacity, and increased uptime.  The panel will share approaches and real-life examples that discuss DevOps related to new development efforts and uplifting the legacy development processes."
+      }
+    ]
+  },
+  {
+    "Id": 1045,
+    "FirstName": "Pete",
+    "LastName": "Buletza",
+    "Bio": "Pete Buletza is a Founder and Managing Partner of Elyxor. Previously he co-founded Cobu Technology, a Boston-based software consulting firm specializing in mobile solutions. CoBu's primary work involved mobile and desktop application development, server architecture and design, performance engineering, and agile process implementation. Mr. Buletza got his start working on TurboTax and WebTurboTax at Intuit; he later returned to Boston and joined the startup scene, spending the subsequent 10 years architecting systems, building software, and managing the teams that provide the technology to make entrepreneurs‘ visions a reality. Mr. Buletza spent several years as the System Architect of high-volume, scalable systems, most notably at Celarix and Espanol.com. His focus over the past 7 years has been providing SDLC consulting and DevOps implementations to accelerate innovation and minimize risk for Elyxor's customers. Mr. Buletza holds a BA in Computer Science from Harvard University.",
+    "Website": null,
+    "Twitter": "buletza",
+    "Photo": "/public/img/speakers/buletza-pete.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1049,
+        "Track": null,
+        "Day": 1,
+        "Room": "Ballroom B",
+        "SessionNumber": 4,
+        "Topic": "DevOps Panel",
+        "Description": "DevOps is a topic being discussed in many software engineering organizations, but the scope of DevOps is not consistent across these organizations.  The members of this panel will share their views regarding the different teams in your company that need to participate in DevOps and the importance of looking at your entire SDLC.  In 'The Complete Picture' of DevOps, this set of panelists discuss how software developers, software developers in Test (SDET), and IT operations all play a role in evolving your DevOps process. When done correctly, the entire velocity of your organization will increase, and your business will realize greater innovation speed, reduced risk, improved capacity, and increased uptime.  The panel will share approaches and real-life examples that discuss DevOps related to new development efforts and uplifting the legacy development processes."
       }
     ]
   }
