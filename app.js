@@ -3,7 +3,8 @@ var _ = require('lodash')._;
 var fs = require('fs');
 var Q = require('q');
 var app = express();
-var slugs = require('slugs')
+var slugs = require('slugs');
+var MobileDetect = require('mobile-detect');
 
 //create a promise-compatible readfile method
 var fs_readFile = Q.denodeify(fs.readFile);
@@ -101,13 +102,12 @@ var presenationsDay2Room2 = _(presentations).filter({'Day': 2, 'Room': "2"}).sor
 var presenationsDay2Room3 = _(presentations).filter({'Day': 2, 'Room': "3"}).sortBy("SessionNumber").value();
 
 app.get("/app", function (req, res) {
-	var iOSBrowser = false;
-	var androidBrowser = false;
+    var mobileDetect = new MobileDetect(req.headers['user-agent']);
 
-	if (iOSBrowser) {
+	if (mobileDetect.os() === 'iOS') {
 		res.redirect('https://itunes.apple.com/us/app/beaconsage/id1028104284?mt=8');
 	} 
-	else if (androidBrowser) {
+	else if (mobileDetect.os() === 'AndroidOS') {
 		res.redirect('https://play.google.com/store/apps/details?id=beaconsage.net.aristotle&hl=en');
 	}
 	else {
