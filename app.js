@@ -100,6 +100,21 @@ var presenationsDay2Room1 = _(presentations).filter({'Day': 2, 'Room': "1"}).sor
 var presenationsDay2Room2 = _(presentations).filter({'Day': 2, 'Room': "2"}).sortBy("SessionNumber").value();
 var presenationsDay2Room3 = _(presentations).filter({'Day': 2, 'Room': "3"}).sortBy("SessionNumber").value();
 
+app.get("/app", function (req, res) {
+	var iOSBrowser = false;
+	var androidBrowser = false;
+
+	if (iOSBrowser) {
+		res.redirect('https://itunes.apple.com/us/app/beaconsage/id1028104284?mt=8');
+	} 
+	else if (androidBrowser) {
+		res.redirect('https://play.google.com/store/apps/details?id=beaconsage.net.aristotle&hl=en');
+	}
+	else {
+		res.render('app');
+	}
+});
+
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
 		if (err) {
