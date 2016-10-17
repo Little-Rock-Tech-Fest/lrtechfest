@@ -11,7 +11,7 @@ mixin sessions (presentationList, parentId)
 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
 				strong.time.highlight
 					span.icon.icon-office-24
-					| #{presentation.Time} -- <i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}
+					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
 				h6.title !{presentation.Topic}
 					i.icon.icon-arrows-06
 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
@@ -144,7 +144,15 @@ html
 				span.icon.section-icon.icon-office-21
 				h3 Schedule
 				br
-				br
+				.col-md-10.col-md-offset-1
+					.row.schedule
+						.row
+							.col-md-5.col-md-offset-1
+								h4 Early Check-in Mixer <span class="highlight">at First Orion</span>
+								p.text-alt Wednesday, October 19, 2016 5 - 8 PM
+							.col-md-5
+								p Check-in early and enjoy beer, wine, and snacks on us by joining us at First Orion's Headquarters, located in the Museum Center building. First Orion is located on the second floor. The address is 500 President Clinton Ave #215, Little Rock, AR 72201.
+
 				.col-md-10.col-md-offset-1
 					.row.schedule
 						.nav-wrapper
@@ -154,12 +162,12 @@ html
 							ul.nav.nav-schedule
 								li.active
 									a(href='#schedule_day1', data-toggle='tab')
-										h5.highlight Day 1
-										p.text-alt 10/20/2016
+										h5.highlight Thursday 
+										p.text-alt October 20, 2016
 								li
 									a(href='#schedule_day2', data-toggle='tab')
-										h5.highlight Day 2
-										p.text-alt 10/21/2016
+										h5.highlight Friday
+										p.text-alt October 21, 2016
 						.tab-content
 							#schedule_day1.tab-pane.fade.active.in
 								//- .nav-wrapper

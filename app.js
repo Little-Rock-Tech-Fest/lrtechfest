@@ -57,11 +57,11 @@ presentations = _.uniq(presentations, 'Topic');
 	["1"].forEach(function(room){
 		presentations.push({
 			Day: day,
-			Room: day === 1 ? "River Market Pavilion" : "TBA",
+			Room: day === 1 ? "River Market Pavilion" : "Ballroom C Hallway",
 			Topic:"Lunch",
-			Description:"Lunch",
+			Description:day === 1 ? "Join us for a yummy buffet lunch of Three Fold Noodles and Dumplings just down the street in the River Market." : "Lunch will be served at the Convention Center, in the hallway. Feel free to find a cozy spot to eat and enjoy the weather in the H.U. Lee International Gate and Garden.",
 			SessionNumber:3.5,
-			ElementId:"schedule_day1_room1_timeLunch",
+			ElementId:day === 1 ? "schedule_day1_room1_timeLunch":"schedule_day2_room1_timeLunch",
 			Time: day === 1? "12:00 PM" : "11:30 AM",
 			IconClass : "fa fa-cutlery",
 		});
@@ -75,8 +75,19 @@ presentations.push({
 	Description:"Opening Remarks",
 	SessionNumber:0,
 	ElementId:"schedule_day1_room1_timeopening",
-	Time: "8:30",
+	Time: "8:30 AM",
 	IconClass : "fa fa-microphone",
+});
+
+presentations.push({
+	Day: 1,
+	Room: "Rock Town Distillery",
+	Topic:"Attendee Party",
+	Description:"Join us at Rock Town Distillery for food, music, and fun. Shuttles are available to and from the Convention Center, starting at 5:30 PM.",
+	SessionNumber:100,
+	ElementId:"schedule_day1_room1_timeclosing",
+	Time: "6:00 PM",
+	IconClass : "fa fa-smile-o",
 });
 
 presentations.push({
@@ -86,7 +97,7 @@ presentations.push({
 	Description:"Closing Remarks and Prize Giveaway",
 	SessionNumber:7,
 	ElementId:"schedule_day2_room1_timeclosing",
-	Time: "4:00",
+	Time: "4:00 PM",
 	IconClass : "fa fa-gift",
 });
 
@@ -106,7 +117,7 @@ app.get("/app", function (req, res) {
 
 	if (mobileDetect.os() === 'iOS') {
 		res.redirect('https://itunes.apple.com/us/app/beaconsage/id1028104284?mt=8');
-	} 
+	}
 	else if (mobileDetect.os() === 'AndroidOS') {
 		res.redirect('https://play.google.com/store/apps/details?id=beaconsage.net.aristotle&hl=en');
 	}
