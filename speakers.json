@@ -151,6 +151,15 @@
         "SessionNumber": 3,
         "Topic": "I Can Run C# In Docker?",
         "Description": "Yes. Yes, you can. You can run your C# programs, including web sites, RESTful services, and anything else you can dream up, in a Docker container.<br/><br/><br/>Starting with the very basics, this session will introduce you to microservices and Docker, and then demonstrate how to build a Docker image that will run a web site written in C# in a Docker container that is running Red Hat Enterprise Linux (RHEL).<br/><br/>It's a brave new world, where Microsoft hearts Linux and Red Hat loves .NET. Come out and take advantage of the union; learn some Docker, see RHEL running .NET, and leave with resources to help you along, including a zero-cost Developer's copy of RHEL."
+      },
+      {
+        "Id": 1052,
+        "Track": null,
+        "Day": 1,
+        "Room": "Ballroom C",
+        "SessionNumber": 5,
+        "Topic": ".NET on Linux: Zero to Hero In Minutes",
+        "Description": ".NET Core 1.0 is the new .NET.<br/><br/>ASPNET Core 1.0 is the new ASP.NET.<br/><br/>.NET on Linux is the new hotness.<br/><br/>In this fast-paced session you’ll learn how to install .NET on Linux and create your first program. You’ll learn about: the different parts of .NET Core 1.0; package managers and NuGet; the new command line interface (CoreCLI); and a great editor that is not Visual Studio. By the end of this presentation, you will know how to create a C# program that runs on Linux. No smoke, no mirrors, no tricks; it just works.<br/><br/>You’ll also learn why this is important to you and your organization.<br/><br/>Finally, you’ll leave with all the tools needed to start right away, including a Developer’s Copy of Red Hat Enterprise Linux (RHEL) that you can start using on your PC or Mac today."
       }
     ]
   },
@@ -279,10 +288,19 @@
         "Id": 15,
         "Track": null,
         "Day": 1,
-        "Room": "Ballroom C",
-        "SessionNumber": 5,
+        "Room": "Ballroom A",
+        "SessionNumber": 3,
         "Topic": "Staying Sane (dot) JS",
         "Description": "Developing apps with JavaScript is fun and scary in this day and age. It feels like every application we write will outlive the libraries used to write the app in... and that's not a fun feeling. Sometimes we get the impression that anything written in JavaScript today is so volatile because smart people will come up with smarter ways of solving problems, that will render solutions we write outdated about two minutes after writing it.<br/><br/>This issue was especially brought to life when I started working at Code School. How is it possible to prepare teaching materials that might be outdated by the time they get released? Turns out there is a way and I am here to prove to you that the JavaScript language and ecosystem is still a safe bet. Although there are parts of the ecosystem changing all the time, there are techniques we can use to prepare for those changes without having to rewrite whole apps over and over again.<br/><br/>Beginner & more advanced developers alike will draw value from this talk, as it will teach both of these groups how to collaborate in a productive manner when architecting and writing apps while getting ready for the unknown future."
+      },
+      {
+        "Id": 1053,
+        "Track": null,
+        "Day": 2,
+        "Room": "Ballroom C",
+        "SessionNumber": 4,
+        "Topic": "Upgrading an Angular 1 app to Angular 2",
+        "Description": "The time has come to upgrade your Angular 1.x app to Angular 2. The problem is that you used Babel, Browserify, and maybe even Gulp to bundle your app. How do you even start upgrading it all to Angular 2 & TypeScript? I’ll walk you through the upgrade process with a sample app and some live coding."
       }
     ]
   },
