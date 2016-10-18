@@ -45,28 +45,6 @@
     ]
   },
   {
-    "Id": 3,
-    "FirstName": "Marcus",
-    "LastName": "Finley",
-    "Bio": "Marcus Finley is an “advisor, UX architect, and implementer.” He graduated from Florida State University where he majored in Mechanical Engineering and Public Administration. Marcus is a certified Scrum Master with expert knowledge of a number programming languages, user experience design and web/mobile application development. Marcus has managed over $2 million dollars of contracted technology development and strategy projects for 45 clients with an average size of $100,000 dollars. In his professional roles he has provided technology strategies and user experiences to achieve client’s goals. He has help developed UX practices, lead a number of UX workshops with clients and guided companies with emerging needs of validating applications. He co-founded a Meetup called Color of Tech to bring together a diverse group of technology professionals to network and thrive.",
-    "Website": "http://www.fin-digital.com",
-    "Twitter": "findigital",
-    "Photo": "/public/img/speakers/finley-marcus.jpg",
-    "Company": "FIN. Digital",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 3,
-        "Track": null,
-        "Day": 1,
-        "Room": "Ballroom C",
-        "SessionNumber": 4,
-        "Topic": "Did I do that? Prototyping an IoT UX for Customers",
-        "Description": "As the popularity of wearables and connected devices continue to explode, more opportunities are becoming available for companies to blow customers away with new interactive experiences. Wired kiosks, light & motion sensors, AI and aware spaces, expose customers to delightfully surprising user connected devices, business interactions can leave lasting impressions and measurable ROI if done right. This discussion will highlight how UX designers can work with businesses to replicate low-fidelity and iterative designs that leave consumers thinking \"did I do that?\"."
-      }
-    ]
-  },
-  {
     "Id": 4,
     "FirstName": "Mark",
     "LastName": "Bates",
@@ -591,28 +569,6 @@
     ]
   },
   {
-    "Id": 32,
-    "FirstName": "Rakia",
-    "LastName": "Finley",
-    "Bio": "Rakia is the Innovation Director if FIN. Digital. Her work includes consulting on the use of software systems to achieve corporate mission, information technology planning and the strategic use of technology. She specializes in mastering technology and web systems to increase development among organizations. Her strength is in planning for specific technology projects that involve complex information systems. With over 10 years experience in the information technology industry, she has become an industry expert on organizational issues associated with program creation and growth. She is active in the technology-for-enhancement movement and is frequently invited to speak at conferences across the country, primarily focusing on business strategy, development and technology.",
-    "Website": "http://www.fin-digital.com",
-    "Twitter": "findigital",
-    "Photo": "/public/img/speakers/finley-rakia.jpg",
-    "Company": "FIN. Digital",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 33,
-        "Track": null,
-        "Day": 1,
-        "Room": "Ballroom C",
-        "SessionNumber": 4,
-        "Topic": "Did I do that? Prototyping an IoT UX for Customers",
-        "Description": "As the popularity of wearables and connected devices continue to explode, more opportunities are becoming available for companies to blow customers away with new interactive experiences. Wired kiosks, light & motion sensors, AI and aware spaces, expose customers to delightfully surprising user connected devices, business interactions can leave lasting impressions and measurable ROI if done right. This discussion will highlight how UX designers can work with businesses to replicate low-fidelity and iterative designs that leave consumers thinking \"did I do that?\"."
-      }
-    ]
-  },
-  {
     "Id": 33,
     "FirstName": "David",
     "LastName": "Walker",
@@ -811,28 +767,6 @@
     ]
   },
   {
-    "Id": 1042,
-    "FirstName": "Ed",
-    "LastName": "Nystrom",
-    "Bio": " Ed Nystrom is the Director of the DevOps Practice at Elyxor.  Ed has been in the DevOps/Release Engineering/Software Configuration Management space for over 20 years as an individual contributor, tech lead, manager, and project manager.  He specializes in the analysis, planning, and execution of end-to-end SDLC and Test Automation uplifts and implementations.  Ed earned a BS in Computer Science from Loyola Marymount University.",
-    "Website": null,
-    "Twitter": null,
-    "Photo": "/public/img/speakers/nystrom-ed.jpg",
-    "Company": "Elyxor",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 1046,
-        "Track": null,
-        "Day": 1,
-        "Room": "Ballroom B",
-        "SessionNumber": 4,
-        "Topic": "DevOps Panel",
-        "Description": "DevOps is a topic being discussed in many software engineering organizations, but the scope of DevOps is not consistent across these organizations.  The members of this panel will share their views regarding the different teams in your company that need to participate in DevOps and the importance of looking at your entire SDLC.  In 'The Complete Picture' of DevOps, this set of panelists discuss how software developers, software developers in Test (SDET), and IT operations all play a role in evolving your DevOps process. When done correctly, the entire velocity of your organization will increase, and your business will realize greater innovation speed, reduced risk, improved capacity, and increased uptime.  The panel will share approaches and real-life examples that discuss DevOps related to new development efforts and uplifting the legacy development processes."
-      }
-    ]
-  },
-  {
     "Id": 1045,
     "FirstName": "Pete",
     "LastName": "Buletza",
@@ -845,6 +779,28 @@
     "Presentations": [
       {
         "Id": 1049,
+        "Track": null,
+        "Day": 1,
+        "Room": "Ballroom B",
+        "SessionNumber": 4,
+        "Topic": "DevOps Panel",
+        "Description": "DevOps is a topic being discussed in many software engineering organizations, but the scope of DevOps is not consistent across these organizations.  The members of this panel will share their views regarding the different teams in your company that need to participate in DevOps and the importance of looking at your entire SDLC.  In 'The Complete Picture' of DevOps, this set of panelists discuss how software developers, software developers in Test (SDET), and IT operations all play a role in evolving your DevOps process. When done correctly, the entire velocity of your organization will increase, and your business will realize greater innovation speed, reduced risk, improved capacity, and increased uptime.  The panel will share approaches and real-life examples that discuss DevOps related to new development efforts and uplifting the legacy development processes."
+      }
+    ]
+  },
+  {
+    "Id": 1048,
+    "FirstName": "Scott",
+    "LastName": "Jones",
+    "Bio": "Scott Jones is a Principal Architect at Acxiom Corporation.  He specializes in API designs, ultra-low latency system designs and full stack designs to solve business needs.  He has three patents pending for the leading edge Ad Tech Platform technology.  His innovative design started with the platform concept, implementation and ultimately the execution of a system that processed 3 billion transactions a day, against a terabyte of data, with transactions averaging 2 mls per transaction.  Mr. Jones also serves as one of Acxiom’s Privacy Engineers, with expert skills applying nuanced next-gen data governance concepts at the engineering layer. Previously he worked for Alltel Information Services the predecessor to FIS.  Mr. Jones serves as a mentor at The Venture Center and as an advisor to one of the 2016 VC FinTech Accelerator companies, Monotto.  Mr. Jones holds a BS in Computer Science from Arkansas Tech University.<br/>",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/jones-scott.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 1055,
         "Track": null,
         "Day": 1,
         "Room": "Ballroom B",
