@@ -274,5 +274,41 @@
 		"appLink": "http://www.inuvo.com/",
 		"orgName": "Inuvo",
 		"orgDesc": "Inuvo is an advertising technology and digital publishing business. We serve billions of income-generating ads monthly across a network of websites and apps reaching desktop, tablet, and mobile devices. Our native technology allows access to a vast inventory of text, display, and video ads that are curated to highly relevant web content and individual searches on both third-party and Inuvo-owned websites."
+	},
+	{
+		"id": 24,
+		"logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+		"datePosted": "2016-17-10",
+		"posTitle": "Sr. Network Engineer",
+		"location": "Rogers, AR",
+		"posType": "Full Time",
+		"posDesc": "<h6>About Our Client</h6>Our Client is known as Arkansas’ fastest growing managed services IT company over the past three years. They are based out of Arkansas with offices in central and northwest Arkansas. Our Client supports 200+ small to large-sized clients across healthcare, financial services, telecommunications, retail, manufacturing, and transportation. Each of their clients enjoy peace of mind that comes with trusting their technology to the experts that make up our Client’s team. Our Client provides passionate, brilliant and dedicated engineers as well as providing a culture driven by core values of commitment to our clients’ success. They provide unquestionable integrity and a true team approach in how they work both internally and with their clients. Our Client is also committed to Arkansas!<br><br><h6>Job Description</h6> Primary responsibilities include performing project-based installation and troubleshooting of data/security networks Working with the engineering team to successfully implement secure network solutions Provide network engineering consulting services, including: assessment and implementation of data and secure networking environments Assist clients through planning and implementation of secure networks Develop comprehensive design documentation and effectively manage the implementation process from design to customer acceptance Act as a liaison to vendors and service providers to select the products or services that best meet company goals and requirements. Responsible for designing solution architecture that strategically aligns with goals and objectives of the company.<br><br><h6>Job Requirements</h6>Bachelors Degree Required, preferably in the areas of Computer Science or Management Information Systems Senior level knowledge and experience with design, implementation and support of the following- Routing and Switching, Firewalls/VPNs 5+ years of networking experience, including configuring, analyzing & troubleshooting networks Advanced server support skills and understanding of Windows  in a complex network Security software such as Anti-virus, Anti-SPAM, Anti-Spyware, and other security related technologies CCNP level engineer at a minimum (or to obtain CCNP within first year of employment) Develop and maintain relationships with clients that further enhance The Client’s positive reputation through exceptional customer service. Assist account management in providing effective solutions for our clients. Ability to map client needs to technical solutions in order to support key business initiatives. Maintain a professional presence at all times. Key contributor in sales presentations, project management kickoff meetings, and service post mortems, as needed. Perform communication summary documentation to team members and key stakeholders. Responsible for managing Proof of Concept activities.<br><br><h6>Licenses & Registration:</h6><ul><li>Valid driver's license</li><li>Proof of automobile insurance</li><li>Reliable and suitable transportation that can be used as required to perform duties, such as a car, SUV, pickup, or minivan.</li><li>Motorcycles are not acceptable.</li></ul>",
+		"appLink": "http://cegpartners.com/careers/?cjobid=EW6953609411&rpid=47999",
+		"orgName": "CEG Partners",
+		"orgDesc": "Recruiting and Business Consulting"
+	},
+	{
+		"id": 25,
+		"logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+		"datePosted": "2016-17-10",
+		"posTitle": "IT Operator",
+		"location": "Rockville, MD",
+		"posType": "Full Time",
+		"posDesc": "Responsible for the software integration, computers setup and configuration for analytical R&D laboratory equipment.<h6>Main activities:</h6><ul><li>Computerized analytical systems and software inventory</li><li>New software integration by following the IT processes</li><li>Collect integration information from suppliers</li><li>Analysis of the proposed solutions and organization of user acceptance tests</li><li>Software installation assistance for standard IT processes</li><li>User assistance and support</li><li>Software failure analysis</li><li>Instrument communication failure analysis</li><li>Escalation of technical incidents to upper levels if needed</li><li>Incident monitoring</li><li>Backup configuration and monitoring for analytical systems</li><li>Access requests management</li><li>License management</li><li>Validation support</li></ul><h6>Qualifications:</h6><ul><li>Bachelor level in computer science REQUIRED</li><li>First experience in a pharmaceutical environment</li><li>Familiar with the IT concepts of OS, Client/server, network, storage, security, application delivery management systems, virtualization, ITIL methodology, Acronis is an asset</li><li>Knowledge on Windows XP, Windows 7, Windows 10 and Apple operating systems</li><li>Team spirit, client solution driven, autonomy and maturity, a great sense of responsibility</li></ul>",
+		"appLink": "http://cegpartners.com/careers/?cjobid=EW810327715&rpid=58341",
+		"orgName": "CEG Partners",
+		"orgDesc": "Recruiting and Business Consulting"
+	},
+	{
+		"id": 26,
+		"logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+		"datePosted": "2016-17-10",
+		"posTitle": "Programmer Analyst",
+		"location": "Stuttgart, AR",
+		"posType": "Full Time",
+		"posDesc": "<h6>Job Description</h6><ul><li>Develops reports and queries using SQL based development tools.</li><li>Resolves long-running reports, performance bottlenecks, data inaccuracies, in-efficient workflows and data inconsistencies in applications and reports.</li><li>Develops expertise with ERP data, indexes, keys, views & relationships in an ERP database (1000+ tables).</li><li>Gathers and defines requirements for application development projects and acts as a partner with advanced programmers to devise, develop and deliver application & report solutions.</li><li>Interacts daily with end-users, business leaders, and I.T. staff to analyze and assess complexities of applications & reports and evaluate how they can be enhanced.</li></ul><h6>Required Skills</h6><ul><li>Bachelor degree.</li><li>2-4 years (minimum) as a programmer developing applications and reports.</li><h6>Desired Skills</h6><ul><li>Master degree.</li><li>5-10 years as a Programmer or Programmer Analyst or Project Manager</li><li>Experience analyzing, gathering and defining requirements and designing, developing and delivering complete lifecycle solutions (from cradle to grave).</li><li>Experience architecting complex applications & reports from Oracle database structures (100 to 1000 tables)</li><li>Comprehensive technical expert in any of the following: Infor Adage ERP, Crystal Reports, Oracle Apex, Hyperion Interactive Reports, or Oracle Forms & Reports 11 g.</li><li>Interest in agriculture and a desire to live in a rural environment.</li><h6>Team</h6>There are 30 employees in the I.T. Department (nine Developers and three Programmer Analysts).<h6>Corporate Benefits</h6>Salaried position with standard corporate benefits including 401K, Health, Dental, Life, AD&D Insurance.",
+		"appLink": "http://cegpartners.com/careers/?cjobid=EW3716217&rpid=41752",
+		"orgName": "CEG Partners",
+		"orgDesc": "Recruiting and Business Consulting"
 	}
 ]
