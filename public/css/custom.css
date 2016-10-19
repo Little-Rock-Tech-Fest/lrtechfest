@@ -57,6 +57,17 @@ a.logo {
     width:100%;
     position:absolute;
 }
+
+.Ballroom.A {
+  color: #FF0000;
+}
+.Ballroom.B {
+  color: #0000FF;
+}
+.Ballroom.C {
+  color: #009900;
+}
+
 /* Extra Small */
 @media(max-width:767px){
   a.logo {

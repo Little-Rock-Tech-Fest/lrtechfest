@@ -3,7 +3,8 @@ var _ = require('lodash')._;
 var fs = require('fs');
 var Q = require('q');
 var app = express();
-var slugs = require('slugs')
+var slugs = require('slugs');
+var MobileDetect = require('mobile-detect');
 
 //create a promise-compatible readfile method
 var fs_readFile = Q.denodeify(fs.readFile);
@@ -26,14 +27,103 @@ var team = [
 
 var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
 var sponsors = JSON.parse(fs.readFileSync('sponsors.json', 'utf8'));
+var times = {'1-1': '9:00 AM', '1-2': '10:00 AM', '1-3': '11:00 AM', '1-4':"1:30 PM", '1-5':"2:30 PM", '1-6':"3:30 PM",
+			 '2-1': '8:30 AM', '2-2': '9:30 AM', '2-3': '10:30 AM', '2-4':"1:00 PM", '2-5':"2:00 PM", '2-6':"3:00 PM" }
+var presentations = [];
 
 speakers.forEach(function(speaker){
 	speaker.slug = slugs(speaker.FirstName+'-'+speaker.LastName);
 	var stats = fs.stat(__dirname+speaker.Photo, function(err, stats){
 		if(err){
 			speaker.Photo = "/public/img/speakers/missing.png";
+			presentations.Photo = speaker.Photo
 		}
-	})
+	});
+	speaker.Presentations.forEach(function(presentation){
+		presentation.SpeakerId = speaker.Id
+		presentation.SpeakerName = speaker.FirstName + " " + speaker.LastName
+		presentation.Photo = speaker.Photo
+		var timeId = presentation.Day.toString()+"-"+presentation.SessionNumber;
+		presentation.Time = times[timeId];
+		presentation.ElementId = "schedule_day"+presentation.Day+"_room"+_.kebabCase(presentation.Room,' ','_')+"_time"+presentation.SessionNumber;
+		presentation.SpeakerSlug = speaker.slug
+		presentations.push(presentation);
+	});
+});
+
+presentations = _.uniq(presentations, 'Topic');
+
+[1,2].forEach(function(day){
+	["1"].forEach(function(room){
+		presentations.push({
+			Day: day,
+			Room: day === 1 ? "River Market Pavilion" : "Ballroom C Hallway",
+			Topic:"Lunch",
+			Description:day === 1 ? "Join us for a yummy buffet lunch of Three Fold Noodles and Dumplings just down the street in the River Market." : "Lunch will be served at the Convention Center, in the hallway. Feel free to find a cozy spot to eat and enjoy the weather in the H.U. Lee International Gate and Garden.",
+			SessionNumber:3.5,
+			ElementId:day === 1 ? "schedule_day1_room1_timeLunch":"schedule_day2_room1_timeLunch",
+			Time: day === 1? "12:00 PM" : "11:30 AM",
+			IconClass : "fa fa-cutlery",
+		});
+	});
+});
+
+presentations.push({
+	Day: 1,
+	Room: "Ballroom A",
+	Topic:"Opening Remarks",
+	Description:"Opening Remarks",
+	SessionNumber:0,
+	ElementId:"schedule_day1_room1_timeopening",
+	Time: "8:30 AM",
+	IconClass : "fa fa-microphone",
+});
+
+presentations.push({
+	Day: 1,
+	Room: "Rock Town Distillery",
+	Topic:"Attendee Party",
+	Description:"Join us at Rock Town Distillery for food, music, and fun. Shuttles are available to and from the Convention Center, starting at 5:30 PM.",
+	SessionNumber:100,
+	ElementId:"schedule_day1_room1_timeclosing",
+	Time: "6:00 PM",
+	IconClass : "fa fa-smile-o",
+});
+
+presentations.push({
+	Day: 2,
+	Room: "Ballroom A",
+	Topic:"Closing Remarks and Prize Giveaway",
+	Description:"Closing Remarks and Prize Giveaway",
+	SessionNumber:7,
+	ElementId:"schedule_day2_room1_timeclosing",
+	Time: "4:00 PM",
+	IconClass : "fa fa-gift",
+});
+
+
+var presenationsDay1 = _(presentations).filter({'Day': 1}).sortByAll("SessionNumber", "Room").value();
+var presenationsDay2 = _(presentations).filter({'Day': 2}).sortByAll("SessionNumber", "Room").value();
+
+var presenationsDay1Room1 = _(presentations).filter({'Day': 1, 'Room': "1"}).sortBy("SessionNumber").value();
+var presenationsDay1Room2 = _(presentations).filter({'Day': 1, 'Room': "2"}).sortBy("SessionNumber").value();
+var presenationsDay1Room3 = _(presentations).filter({'Day': 1, 'Room': "3"}).sortBy("SessionNumber").value();
+var presenationsDay2Room1 = _(presentations).filter({'Day': 2, 'Room': "1"}).sortBy("SessionNumber").value();
+var presenationsDay2Room2 = _(presentations).filter({'Day': 2, 'Room': "2"}).sortBy("SessionNumber").value();
+var presenationsDay2Room3 = _(presentations).filter({'Day': 2, 'Room': "3"}).sortBy("SessionNumber").value();
+
+app.get("/app", function (req, res) {
+    var mobileDetect = new MobileDetect(req.headers['user-agent']);
+
+	if (mobileDetect.os() === 'iOS') {
+		res.redirect('https://itunes.apple.com/us/app/beaconsage/id1028104284?mt=8');
+	}
+	else if (mobileDetect.os() === 'AndroidOS') {
+		res.redirect('https://play.google.com/store/apps/details?id=beaconsage.net.aristotle&hl=en');
+	}
+	else {
+		res.render('app');
+	}
 });
 
 app.get("/programs/:year", function (req, res) {
@@ -72,7 +162,18 @@ app.get('/topics', function(req, res){
 });
 
 app.get('/', function(req, res){
-	res.render('index', {sponsors: sponsors, team: team, speakers:speakers});
+	res.render('index', {
+			sponsors: sponsors,
+			team: team,
+			speakers:speakers,
+			presenationsDay1: presenationsDay1,
+			presenationsDay2: presenationsDay2,
+			presenationsDay1Room1: presenationsDay1Room1,
+			presenationsDay1Room2: presenationsDay1Room2,
+			presenationsDay1Room3: presenationsDay1Room3,
+			presenationsDay2Room1: presenationsDay2Room1,
+			presenationsDay2Room2: presenationsDay2Room2,
+			presenationsDay2Room3: presenationsDay2Room3});
 });
 
 app.get('/jobs', function(req, res){
