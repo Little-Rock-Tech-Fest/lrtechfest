@@ -419,7 +419,7 @@
         "Room": "Ballroom A",
         "SessionNumber": 5,
         "Topic": "Why Azure Functions Should Be Your New Best Friend",
-        "Description": "Azure Functions are pretty awesome. They can automate processes, offload functionality, and simplify your life in a ton ways.  In this session, Kentico Technical Evangelist Bryan Soltis will show you to leverage this cloud-based functionality to offload your dirty work, alleviate headaches, and provide you a Luigi to your Mario when you need it."
+        "Description": "Azure Functions are pretty awesome. They can automate processes, offload functionality, and simplify your life in a ton of ways.  In this session, Kentico Technical Evangelist Bryan Soltis will show you how to leverage this cloud-based functionality to offload your dirty work, alleviate headaches, and provide you a Luigi to your Mario when you need it."
       }
     ]
   },
