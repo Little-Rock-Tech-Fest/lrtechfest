@@ -61,13 +61,10 @@ html
 		meta(property="og:site_name", content="Little Rock Tech Fest")
 		meta(property="og:type", content="website")
 	body
-		.preloader-mask
-			.preloader
-		section#hero.hero-section.bg1.window-height.light-text
-			.video-bg
-				video#home-video(autoplay loop)
-					source(src="/public/video/main.mp4" type="video/mp4")
-					source(src="/public/video/main.webm" type="video/webm")
+		//- .preloader-mask
+		//- 	.preloader
+		section#hero.hero-section.bg1.light-text
+			
 			ul.socials-nav
 				li.socials-nav-item
 					a(href="https://twitter.com/LRTechFest" target="_blank")
@@ -82,13 +79,15 @@ html
 				.container
 					h5.heading-alt(style="margin-bottom: 8px;")
 						span.fa.fa-calendar-o.base-clr-txt
-						span October 20-21, 2016
+						span October 5 - 6, 2017
 						span.fa.fa-map-marker.base-clr-txt
 						span Little Rock, AR
 					h1.extra-heading Little Rock Tech Fest
 					h6.thin.base-font Two days of learning, networking, and fun for web and software developers
 					.btns-container
-						a(class="btn btn-primary btn-md" href="#tickets") Learn about tickets
+						div(class="btn btn-primary btn-md" ) Tickets Available June 1st
+						a(class="btn btn-info btn-md" href="https://www.youtube.com/playlist?list=PLdxmYKMmdZB3mpMtLAyueLAD4WDgCFHRs") Watch LRTF 2016 Videos!
+						
 		header.header.header-black
 			.header-wrapper
 				.container
@@ -105,231 +104,25 @@ html
 								li.navigation-item
 									a(class="navigation-link" href="#about") About
 								li.navigation-item
-									a(class="navigation-link" href="#schedule") Schedule
-								li.navigation-item
-									a(class="navigation-link" href="#speakers") Speakers
-								li.navigation-item
-									a(class="navigation-link" href="#tickets") Tickets
-								li.navigation-item
 									a(class="navigation-link" href="#location") Location
-								li.navigation-item.dropdown
-									a.navigation-link.dropdown-toggle(href="#sponsors") Sponsors
-									ul.dropdown-menu
-										li.navigation-item
-											a(class="navigation-link" href="/sponsors") Become a sponsor
-								li.navigation-item
-									a(class="navigation-link" href="/jobs") Jobs
-									
-								//- li.navigation-item
-								//- 	a(class="navigation-link" href="#speakers") Schedule
-							//- a(class="pull-right buy-btn" href="https://www.papercall.io/lrtf") Call for Speakers
+							//- a(class="pull-right buy-btn" href="https://www.papercall.io/lrtf2017") Call for Speakers
+								form(method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank" action="http://lrdnug.us2.list-manage.com/subscribe/post?u=8067ea5d5e1f796c71c1d3673&amp;id=ecc720713a" novalidate)
+							
 
 		section#about.section.align-center
 			.container
 				.icon.section-icon.icon-multimedia-12
-				h3 You want to be at #LRTF 2016
-				p.text-alt This year we are unveiling a two-day format, hosted on October 20-21<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
+				h3 You want to be at #LRTF 2017
+				p.text-alt This will be a full two days of  format, hosted on October 5th and 6th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
 
 				.col-sm-6
-					p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
+					p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
 
 
 				.col-sm-6
 					p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
 
-					p.align-left This is our fourth year hosting the event. We expect at least 400 attendees. This year, we're hosting in the Statehouse ballrooms. Will you join us?
-
-		section#schedule.section.align-center
-			.container
-				span.icon.section-icon.icon-office-21
-				h3 Schedule
-				br
-				.col-md-10.col-md-offset-1
-					.row.schedule
-						.row
-							.col-md-5.col-md-offset-1
-								h4 Early Check-in Mixer <span class="highlight">at First Orion</span>
-								p.text-alt Wednesday, October 19, 2016 5 - 8 PM
-							.col-md-5
-								p Check-in early and enjoy beer, wine, and snacks on us by joining us at First Orion's Headquarters, located in the Museum Center building. First Orion is located on the second floor. The address is 500 President Clinton Ave #215, Little Rock, AR 72201.
-
-				.col-md-10.col-md-offset-1
-					.row.schedule
-						.nav-wrapper
-							//- span.nav-current
-							//- 	h5.highlight Day 1
-							//- 	p.text-alt 10/20/2016
-							ul.nav.nav-schedule
-								li.active
-									a(href='#schedule_day1', data-toggle='tab')
-										h5.highlight Thursday 
-										p.text-alt October 20, 2016
-								li
-									a(href='#schedule_day2', data-toggle='tab')
-										h5.highlight Friday
-										p.text-alt October 21, 2016
-						.tab-content
-							#schedule_day1.tab-pane.fade.active.in
-								//- .nav-wrapper
-								//- 	span.nav-current Room 1
-								//- 	ul.nav.nav-schedule
-								//- 		li.active
-								//- 			a(href='#schedule_day1_room1', data-toggle='tab') Room 1
-								//- 		li
-								//- 			a(href='#schedule_day1_room2', data-toggle='tab') Room 2
-								//- 		li
-								//- 			a(href='#schedule_day1_room3', data-toggle='tab') Room 3
-								//- .tab-content.tab-content-schedule
-								//- 	#schedule_day1_room1.tab-pane.fade.active.in
-								//- 		#schedule_day1_room1_timeline.panel-group
-								//- 			+sessions(presenationsDay1Room1, "#schedule_day1_room1_timeline")
-								//- 	#schedule_day1_room2.tab-pane.fade.in
-								//- 		#schedule_day1_room2_timeline.panel-group
-								//- 			+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
-								//- 	#schedule_day1_room3.tab-pane.fade.in
-								//- 		#schedule_day1_room3_timeline.panel-group
-								//- 			+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
-								.tab-content.tab-content-schedule
-									#schedule_day1_room1.tab-pane.fade.active.in
-										#schedule_day1_room1_timeline.panel-group
-											+sessions(presenationsDay1, "#schedule_day1_room1_timeline")
-									//- #schedule_day1_room2.tab-pane.fade.in
-									//- 	#schedule_day1_room2_timeline.panel-group
-									//- 		+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
-									//- #schedule_day1_room3.tab-pane.fade.in
-									//- 	#schedule_day1_room3_timeline.panel-group
-									//- 		+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
-							#schedule_day2.tab-pane.fade.in
-								//- .nav-wrapper
-								//- 	span.nav-current Room 1
-								//- 	ul.nav.nav-schedule
-								//- 		li.active
-								//- 			a(href='#schedule_day2_room1', data-toggle='tab') Room 1
-								//- 		li
-								//- 			a(href='#schedule_day2_room2', data-toggle='tab') Room 2
-								//- 		li
-								//- 			a(href='#schedule_day2_room3', data-toggle='tab') Room 3
-								.tab-content.tab-content-schedule
-									#schedule_day2_room1.tab-pane.fade.active.in
-										#schedule_day2_room1_timeline.panel-group
-											+sessions(presenationsDay2, "#schedule_day2_room1_timeline")
-									//- #schedule_day2_room2.tab-pane.fade.in
-									//- 	#schedule_day2_room2_timeline.panel-group
-									//- 		+sessions(presenationsDay2Room2, "#schedule_day2_room2_timeline")
-									//- #schedule_day2_room3.tab-pane.fade.in
-									//- 	#schedule_day2_room3_timeline.panel-group
-									//- 		+sessions(presenationsDay2Room3, "#schedule_day2_room3_timeline")
-
-		section#speakers.section.align-center
-			.container
-				span.icon.section-icon.icon-faces-users-04
-				h3 Speakers
-				p.text-alt Meet our 2016 
-					span.highlight speakers!
-				br
-				br
-				each speaker in speakers
-					.col-sm-4.col-xs-6.make-column
-						.speaker
-							a(href="/topics##{speaker.slug}")
-								.photo-wrapper.rounded
-									img(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}" class="img-responsive" )
-								h3.name #{speaker.FirstName} #{speaker.LastName}
-								each pre in speaker.Presentations
-									p.text-alt
-										small #{pre.Topic}
-								p.text-alt
-									small #{speaker.Company}
-							ul.speaker-socials
-								if speaker.Twitter
-									li
-										a(href="https://twitter.com/#{speaker.Twitter}")
-											.fa.fa-twitter
-								if speaker.LinkedIn
-									li
-										a(href="#{speaker.LinkedIn}")
-											.fa.fa-linkedin
-								if speaker.Website
-									li
-										a(href="#{speaker.Website}")
-											.fa.fa-globe
-
-		section#tickets.section.align-center
-			div.container
-				span.icon.section-icon.icon-shopping-04
-				h3 Tickets
-				br
-				br
-				div.row
-					div.col-sm-4
-						div.package-column
-							h6.package-title Student Rate
-							div.package-price
-								span.currency $ 50.00
-							div.package-detail
-								ul
-									li
-										span.fa.fa-check.check-icon
-										span Lunch both days
-									li
-										span.fa.fa-check.check-icon
-										span T-shirt
-									li
-										span.fa.fa-check.check-icon
-										span Swag
-									li
-										span.fa.fa-check.check-icon
-										span Must have valid .edu email.
-									li
-										| &nbsp;
-
-							a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline-clr") Buy now
-					div.col-sm-4
-						div.package-column.special-column
-							h6.package-title Conference Ticket
-							div.package-price
-								span.currency $ 100.00
-							div.package-detail
-								ul
-									li
-										span.fa.fa-check.check-icon 
-										span Lunch both days
-									li
-										span.fa.fa-check.check-icon
-										span T-shirt
-									li
-										span.fa.fa-check.check-icon
-										span Swag
-									li
-										| &nbsp;
-									li
-										| &nbsp;
-							a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg") Buy now
-
-					div.col-sm-4
-						div.package-column
-							h6.package-title Community Supporter
-							div.package-price
-								span.currency $ 300.00
-							div.package-detail
-								ul
-									li
-										span.fa.fa-check.check-icon
-										span Special recognition &amp; gift
-									li
-										span.fa.fa-check.check-icon
-										span Lunch both days
-									li
-										span.fa.fa-check.check-icon
-										span T-shirt
-									li
-										span.fa.fa-check.check-icon
-										span Swag
-									li
-										span.fa.fa-check.check-icon
-										span Only 15 available
-
-							a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline-clr") Buy now
+					p.align-left This is our fifth year hosting the event.  Will you join us?
 
 		section#location
 			.contacts-wrapper
@@ -347,92 +140,7 @@ html
 								i.fa.fa-map-o
 								a(href="https://www.google.com/maps/place/Statehouse+Convention+Center/@34.7487084,-92.2728966,17z/data=!4m13!1m7!3m6!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!2sStatehouse+Convention+Center!3b1!8m2!3d34.7487084!4d-92.2707079!3m4!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!8m2!3d34.7487084!4d-92.2707079" target="_blank") Get directions
 
-
-		section#sponsors.section.align-center
-			.container
-				span.icon.section-icon.icon-documents-bookmarks-12
-				h3 Sponsors
-				p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
-
-					h5.heading-alt Platinum
-					.sponsors
-					each sponsor in sponsors
-						if sponsor.Level == "Platinum"
-							.sponsor.inline.platinum
-								a(href="#{sponsor.Website}" target="_blank")
-									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-
-					h5.heading-alt Gold
-					.sponsors
-					each sponsor in sponsors
-						if sponsor.Level == "Gold"
-							.sponsor.inline.gold
-								a(href="#{sponsor.Website}" target="_blank")
-									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-
-					h5.heading-alt Silver
-					.sponsors
-					each sponsor in sponsors
-						if sponsor.Level == "Silver"
-							.sponsor.inline.silver
-								a(href="#{sponsor.Website}" target="_blank")
-									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-
-					h5.heading-alt Bronze
-					.sponsors
-					each sponsor in sponsors
-						if sponsor.Level == "Bronze"
-							.sponsor.inline.small.bronze
-								a(href="#{sponsor.Website}" target="_blank")
-									img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
-
-		section#register.section.bg-cover.bg4.light-text.align-center
-			.container
-				h2
-					span.highlight Attend Little Rock Tech Fest
-				p Get two days of content focused toward web, mobile, and software development.
-				p Enjoy lunch on us both days and an after party the first night. The weather should be perfect for it.
-				br
-				br
-				a(href="https://lrtf2016.eventbrite.com" class="btn btn-lg btn-outline" target="_blank") Buy Tickets
-
-		.maincontent
-			block content
-
-
-		section.section.align-center
-			.container
-				h5 LRTF brought to you with <i class="fa fa-heart"></i> by
-				.speakers.masonry
-					each member in team
-						.speaker.masonry-item
-							.speaker-top
-								.photo-wrapper
-									img.img-responsive(src="#{member.imgUrl}")
-								.speaker-title
-									h3.name #{member.name}
-									p.text-alt <small> #{member.title} @ #{member.company} </small>
-								ul.speaker-socials
-									if member.twitter
-										li
-											a(href="http://twitter.com/#{member.twitter}" target="_blank")
-												span.fa.fa-twitter
-									else
-										li &nbsp;
-
-									if member.linkedin
-										li
-											a(href="http://linkedin.com/in/#{member.linkedin}" target="_blank")
-												span.fa.fa-linkedin
-									else
-										li &nbsp;
-
-									if member.github
-										li
-											a(href="http://github.com/#{member.github}" target="_blank")
-												span.fa.fa-github
-									else
-										li &nbsp;
+	
 
 		section.footer
 			.footer-base
@@ -459,7 +167,7 @@ html
 								a(href="mailto:info@lrtechfest.com?Subject=TechFest")
 									span.fa.fa-envelope
 						p.text-alt
-							small All Rights Reserved © 2016&nbsp;
+							small All Rights Reserved © 2017&nbsp;
 
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
 		script(src="//maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBI59PHKJ6RKHij4YneTlmGbjyfrX6nBG8")
