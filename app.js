@@ -153,10 +153,10 @@ app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
 app.get('/sponsors/yes-for-2017', function(req, res){
-	res.render('sponsors/yes-for-2017');
+	res.render('sponsors-yes-for-2017');
 });
 app.get('/sponsors/no-thanks-2017', function(req, res){
-	res.render('sponsors/no-thanks-2017');
+	res.render('sponsors-no-thanks-2017');
 });
 
 
