@@ -411,6 +411,15 @@
         "SessionNumber": 2,
         "Topic": "Long walks on the beach with Azure Search ",
         "Description": "Azure Search is a powerful, REST-based service companies can leverage within their applications to provide dynamic, scalable search solutions. In this session, Kentico Technical Evangelist and Azure enthusiast Bryan Soltis will introduce you to this powerful service, show you some of its cool capabilities, and see if there’s a love connection for you. From Creating Indexes to Custom Search functions, you’ll see how Azure Search can quickly boost the functionality of any site and provide a unique and captivating experience for your users."
+      },
+      {
+        "Id": 1056,
+        "Track": null,
+        "Day": 2,
+        "Room": "Ballroom A",
+        "SessionNumber": 5,
+        "Topic": "Why Azure Functions Should Be Your New Best Friend",
+        "Description": "Azure Functions are pretty awesome. They can automate processes, offload functionality, and simplify your life in a ton of ways.  In this session, Kentico Technical Evangelist Bryan Soltis will show you how to leverage this cloud-based functionality to offload your dirty work, alleviate headaches, and provide you a Luigi to your Mario when you need it."
       }
     ]
   },
@@ -521,28 +530,6 @@
         "SessionNumber": 4,
         "Topic": "\"This Code Sucks\" and other tales of developer hubris",
         "Description": "### \"This Code Sucks\" and other tales of developer hubris<br/><br/>I'll admit it, I'm guilty of the \"not invented here\" fallacy. I have my pattern and habits and I'm comfortable sticking to them. There are certain frameworks I want to work in, and others I don't. I also want to stay on the cutting edge, and not get left behind. And in the Javascript world, if you're asking me to maintain this old legacy application, then, well, you've got to be kidding. How about I just rewrite it using \"x\"?<br/><br/>This is a cautionary tale of one developer whose self-importance has led him down a very dark path of refactoring, and the pain he found therein. No, really, this talk is a call to reconsider huge sweeping rewrites in favor of smaller, more manageable refactoring. It also will discuss how to go about decisions to refactor, tools that might help make it easier, and potential pitfalls (namely, regressions).<br/><br/>You can improve your codebase, improve your skills, and still meet deadlines. Let's talk about how."
-      }
-    ]
-  },
-  {
-    "Id": 30,
-    "FirstName": "Ryan",
-    "LastName": "Tablada",
-    "Bio": "Ryan started in the fire of the startup world working on projects in many different fields.<br/>He has made his way as a contributor in the Laravel, Node, and Ember communities.<br/>Now Ryan works on building the future developers for our community as a Front End Instructor from the Iron yard.",
-    "Website": "http://ryantablada.com",
-    "Twitter": "ryantablada",
-    "Photo": "/public/img/speakers/tablada-ryan.jpg",
-    "Company": "The Iron Yard",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 30,
-        "Track": null,
-        "Day": 2,
-        "Room": "Ballroom A",
-        "SessionNumber": 5,
-        "Topic": "Productive & Maintainable JS Apps with Ember.js",
-        "Description": "In this workshop, we start with a fresh Ember CLI application (with a few popular addons installed and styles written).<br/>Since managing data via forms and **CRUD** resources is pivotal to modern applications, we begin by creating a full **URL-driven** interface to manage data stored in a JSON API.<br/><br/>Once we have our first resource working, we shift our focus to a much more difficult problem: working with a **has-many** relationship.<br/>We'll see how Ember and Ember Data make this challenge easy and fun!<br/><br/>To wrap up the workshop, we go beyond forms:<br/>To show the flexibility Ember and the Ember community, we install an addon that will help add live updating **charts** to our application.<br/>Finally, we end with a bang and see how Ember's tools and ecosystem help maintain apps across **large and distributed teams**."
       }
     ]
   },
@@ -796,7 +783,7 @@
     "Website": null,
     "Twitter": null,
     "Photo": "/public/img/speakers/jones-scott.jpg",
-    "Company": "Elyxor",
+    "Company": "Acxiom",
     "LinkedIn": null,
     "Presentations": [
       {
