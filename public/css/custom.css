@@ -39,6 +39,12 @@ a.logo {
 #jobs a{
   color:black;
 }
+
+.disabled {
+       pointer-events: none;
+       cursor: default;
+       opacity: 0.6;
+   }
 .map-res{
     overflow:hidden;
     padding-bottom:56.25%;

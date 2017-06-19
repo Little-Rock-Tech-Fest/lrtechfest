@@ -15,6 +15,22 @@ app.set('views', __dirname+"/views");
 app.set('view engine', 'jade');
 app.use(express.static(__dirname, 'public'));
 
+var gallery = [
+	{alt:'', modal:'1', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img1.jpg', full_imgUrl:'/public/img/gallery/full/full_img1.jpg'},
+	{alt:'', modal:'2', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img2.jpg', full_imgUrl:'/public/img/gallery/full/full_img2.jpg'},
+	{alt:'', modal:'3', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img3.jpg', full_imgUrl:'/public/img/gallery/full/full_img3.jpg'},
+	{alt:'', modal:'4', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img4.jpg', full_imgUrl:'/public/img/gallery/full/full_img4.jpg'},
+	{alt:'', modal:'5', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img5.jpg', full_imgUrl:'/public/img/gallery/full/full_img5.jpg'},
+	{alt:'', modal:'6', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img6.jpg', full_imgUrl:'/public/img/gallery/full/full_img6.jpg'},
+	{alt:'', modal:'7', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img7.jpg', full_imgUrl:'/public/img/gallery/full/full_img7.jpg'},
+	{alt:'', modal:'8', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img8.jpg', full_imgUrl:'/public/img/gallery/full/full_img8.jpg'},
+	{alt:'', modal:'9', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img9.jpg', full_imgUrl:'/public/img/gallery/full/full_img9.jpg'},
+	{alt:'', modal:'10', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img10.jpg', full_imgUrl:'/public/img/gallery/full/full_img10.jpg'},
+	{alt:'', modal:'11', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img11.jpg', full_imgUrl:'/public/img/gallery/full/full_img11.jpg'},
+	{alt:'', modal:'12', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img12.jpg', full_imgUrl:'/public/img/gallery/full/full_img12.jpg'}
+
+];
+
 var team = [
 	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock', linkedin: 'dpollock68', github: 'dpollock', title: 'Developer', company: 'DataPath'},
 	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims', linkedin: 'abbysims', github: 'asims', title: 'Owner/Developer', company: 'Idestini Dev Studio'},
@@ -173,6 +189,7 @@ app.get('/', function(req, res){
 			sponsors: sponsors,
 			team: team,
 			speakers:speakers,
+			gallery:gallery,
 			presenationsDay1: presenationsDay1,
 			presenationsDay2: presenationsDay2,
 			presenationsDay1Room1: presenationsDay1Room1,
