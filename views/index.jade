@@ -118,8 +118,11 @@ html
 									a(class="navigation-link" href="#tickets") Tickets
 								li.navigation-item
 									a(class="navigation-link" href="#location") Location
-								li.navigation-item
-									a(class="navigation-link" href="/sponsors") Become a sponsor
+								li.navigation-item.dropdown
+									a.navigation-link.dropdown-toggle(href="/#sponsors") Sponsors
+									ul.dropdown-menu
+										li.navigation-item
+											a(class="navigation-link" href="/sponsors") Become a sponsor
 							.pull-right.buy-btn
 								a(class="navigation-link" href="https://www.papercall.io/lrtf2017") Call for Speakers
 		section#about.section.align-center
@@ -212,6 +215,44 @@ html
 										| &nbsp;
 
 								a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg btn-outline-clr" target="_blank") Buy now
+
+		section#sponsors.section.align-center
+					.container
+						span.icon.section-icon.icon-documents-bookmarks-12
+						h3 Sponsors
+						p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
+
+							//h5.heading-alt Platinum
+							.sponsors
+							each sponsor in sponsors
+								if sponsor.Level == "Platinum"
+									.sponsor.inline.platinum
+										a(href="#{sponsor.Website}" target="_blank")
+											img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+
+							h5.heading-alt Gold
+							.sponsors
+							each sponsor in sponsors
+								if sponsor.Level == "Gold"
+									.sponsor.inline.gold
+										a(href="#{sponsor.Website}" target="_blank")
+											img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+
+							h5.heading-alt Silver
+							.sponsors
+							each sponsor in sponsors
+								if sponsor.Level == "Silver"
+									.sponsor.inline.silver
+										a(href="#{sponsor.Website}" target="_blank")
+											img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
+
+							h5.heading-alt Bronze
+							.sponsors
+							each sponsor in sponsors
+								if sponsor.Level == "Bronze"
+									.sponsor.inline.small.bronze
+										a(href="#{sponsor.Website}" target="_blank")
+											img(src="#{sponsor.Logo}" alt="#{sponsor.Name}")
 
 		section#location
 			.contacts-wrapper
