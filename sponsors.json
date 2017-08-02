@@ -1,5 +1,11 @@
 [
 	{
+	"Name": "First Orion",
+	"Level": "Platinum",
+	"Logo": "/public/img/sponsors/fo-logo.png",
+	"Website": "http://firstorion.com"
+	},
+	{
 	"Name": "ABC Financial",
 	"Level": "Gold",
 	"Logo": "/public/img/sponsors/abc-financial.png",
@@ -8,7 +14,7 @@
 	{
 	"Name": "Mainstream Technologies",
 	"Level": "Gold",
-	"Logo": "/public/img/sponsors/mti-vertical-primary.jpg",
+	"Logo": "/public/img/sponsors/mainstream-logo.jpg",
 	"Website": "http://www.mainstream-tech.com/"
 	},
 	{
@@ -24,6 +30,12 @@
 	"Website": "https://jbhunt.com/"
 	},
 	{
+	"Name": "Euronet Worldwide",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/euronet-software-logo.png",
+	"Website": "http://www.euronetsoftware.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
@@ -34,5 +46,12 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/sketch.png",
 	"Website": "https://sketchapp.com/"
+},
+	{
+	"Name": "Sticker Mule",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/stickermule.png",
+	"Website": "https://www.stickermule.com/"
 	}
+
 ]
