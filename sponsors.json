@@ -36,6 +36,12 @@
 	"Website": "http://www.euronetsoftware.com/"
 	},
 	{
+	"Name": "Few",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/few.png",
+	"Website": "https://few.io/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
