@@ -1,153 +1,333 @@
-[ { "Id": 592, "FirstName": "Lisa", "LastName": "Huang", "Bio": "Lisa Huang is a co-founder of FlightGold, a Fullstack engineer based in San Francisco Bay area. Lisa has a background in digital marketing, building mobile-optimized web apps and a keen Rubyist. She is a self-taught developer and started her coding journey with FreeCodeCamp projects. 
 
-In her off time, you can find Lisa exploring the West coast and hacking on Arduino.
-", "Website": "http://lambdalisa.com/", "Twitter": "lisaychuang", "Photo": "/public/img/speakers/huang-lisa.jpg", "Company": "FlightGold, inc", "LinkedIn": null, "Presentations": [ { "Id": 5, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Instant Mobile Web: An Accelerated Mobile Pages primer", "Description": "In Oct 2016, mobile and tablet internet usage exceeded desktop for the first time worldwide! With **over 50% of your users on their phones**, is your web app optimised for them?
-
-[Accelerated Mobile Pages (AMP)](https://www.ampproject.org/) is an open-source initiative, a Javascript library for building **lightening speed mobile web apps**. As of May 2017, there are over 2billion AMP pages and growing! The Washington Post, eBay, Airbnb - these are just some companies who are using AMP in their web products
-
-We will look under the hood and learn about how **AMP optimizes mobile web performance** with resource allocation, invisible ink, sandbox iFrames and more. Attendees will learn about what makes AMP pages lightning fast on mobile, and get up and running with a **code demo.**
-
-Attendees will learn first hand about: 
-
-1. How AMP addresses mobile user pains 
-2. How to build a valid AMP page with navigation, embedded media, and user interactivity. 
-3. Future AMP integration with progressive web apps (PWA)
-
-This talk is suitable for beginner and intermediate developers with experience in Javascript. [Click here for Presentation slides](bit.ly/AMPCorgi)" } ] }, { "Id": 593, "FirstName": "Jon", "LastName": "Peck", "Bio": "A full-stack developer with two decades of industry experience, Jon Peck now focuses on bringing scalable, discoverable, and secure machine-learning microservices to developers across a wide variety of platforms via [Algorithmia](Algorithmia.com).", "Website": "https://github.com/peckjon", "Twitter": "peckjon", "Photo": "/public/img/speakers/peck-jon.jpg", "Company": "Algorithmia", "LinkedIn": null, "Presentations": [ { "Id": 7, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "All the Moving Parts: Bringing Machine Learning to your Application", "Description": "\"What is Machine Learning? Who uses it, and why should I care? How can I integrate it into my application?\"
-
-There are questions any modern developer finds themselves asking at some point. The field of Machine Learning and AI is complex, and many of the available resources are mathematically complex and require a lot of prior knowledge, making it difficult for the everyday developer to know where to begin.
-
-This talk will demystify some of the basic concepts around ML, explaining what it is and how it can be used. Attendees will learn about some of the typical use cases (such as Natural Language Processing and Image Recognition), and see code snippets from some of the most common frameworks and tools (such as Scikit-Learn, Weka and Tensorflow).
-
-Following this, we'll walk through some ways that Machine Learning can be integrated into any website, script, or mobile app. There are a lot of options out there, from fully self-hosted servers to cloud-based autoscaling services. Developers will leave with the ability to create (train) a basic ML model, hook it into their own application, and make it available for use by anyone in the world." } ] }, { "Id": 594, "FirstName": "Don", "LastName": "Schenck", "Bio": "A developer who has seen it all, Don is a Microsoft MVP and currently a Director of Developer Experience at Red Hat, with a focus on Microsoft .NET on Linux. His mission is to connect .NET developers with the Linux and open source communities. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He still enjoys cooking and studying human behavior, and still hates the designated hitter rule.
- 
-Don's overarching belief is this: \"A program is not a communication between a developer and a machine; it's a communication between a developer and the next developer.\"", "Website": "http://redhatloves.net", "Twitter": "DonSchenck", "Photo": "/public/img/speakers/schenck-don.jpg", "Company": "Red Hat", "LinkedIn": null, "Presentations": [ { "Id": 28, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Creating Bots with the Microsoft Bot Framework", "Description": "Every wonder how a bot works? How it carries on a conversation, or helps you book a hotel room?
- 
-The Microsoft Bot Framework is not just about Skype. You can build bots for Skype, Facebook, Slack, SMS and much more. You can leverage your existing C# skills and create interactive bots that can assist users.
- 
-In this session you will see a bot created in real time, as well as learn about the considerations for building a useful and successful bot.
-" } ] }, { "Id": 595, "FirstName": "Bryan", "LastName": "Soltis", "Bio": "Bryan Soltis is the Technical Evangelist at Kentico and an avid .NET developer. With over 18 years of web development experience, Bryan has completed projects for Microsoft, IMG, HP, and other Fortune 500 companies. A former Azure VTSP, Bryan has developed numerous applications with Microsoft’s cloud and Kentico, including custom software development, integrated solutions, and globally-available enterprise applications. As a Technical Evangelist, Bryan enjoys working with the development community and educating developers on best practices, new technologies, and utilizing the .NET, cloud, and Kentico to their fullest potentials. And he really likes beer.", "Website": "http://soltisweb.com", "Twitter": "bryan_soltis", "Photo": "/public/img/speakers/soltis-bryan.jpg", "Company": "Kentico", "LinkedIn": null, "Presentations": [ { "Id": 35, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Building Your Evil(?) Empire with Azure Functions", "Description": "By now, you've probably heard about how awesome Azure Functions really are. From offloading functionality to automating processing, they allow you to harness the cloud to your bidding, whether it’s the dirty work of processing your data or informing your henchmen about your next plot to take over the world. Whether your preference is C#, JS, Python, or a slew of other languages, you can program just about anything with Azure Functions and execute it with triggers, timers, or HTTP requests. In this session, Kentico Technical Evangelist and Azure super-fan Bryan Soltis will show you add Azure Functions to your arsenal and build amazing cloud solutions." } ] }, { "Id": 596, "FirstName": "Ryan", "LastName": "Lockard", "Bio": "Ryan Lockard has over 17 years experience in software delivery. Ryan has worked in various industries including Intellectual Property, Advertising, Science, Publishing, Manufacturing, ERP, Clinical Decision Support and Learning and most recently joined Contino - a global leader in DevOps and Cloud enablement. Ryan is an agility leader and a manager of multiple agile teams that support a Health Care LMS and clinical content system. He has facilitated multiple agile transformations and serves as a coach and mentor to various teams and emerging agile professionals. Ryan is also a current member of the Harrisburg University corporate faculty, the Agile Uprising, and an independent lean development trainer. Based in Philadelphia, Ryan is an avid reader, host of the Agile Uprising podcast (which has reached over 70K listeners in over 100 countries) loving father of three and incrementally becoming a great husband.
-", "Website": "http://www.contino.io", "Twitter": "AgilePHL", "Photo": "/public/img/speakers/lockard-ryan.jpg", "Company": "Contino", "LinkedIn": null, "Presentations": [ { "Id": 20, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Secrets from the Agile Manifesto Authors on Flow", "Description": "I have been lucky enough to personally interview 14 of the agile manifesto authors, a project that has totally shifted my perspective on agility and working with teams. This project was the vision of my team – the Agile Uprising – and was conducted over 6 months and chronicled via a globally distributed podcast. During this time period, our podcast went from 0 listeners to an average of 8,000 per month.
-
-The initial inception of the project was to tell the story behind the manifesto and it’s authors. The trigger was some work we were doing with Ken Schwaber and it was cancelled due to his failing health. We realized there was a huge moment in software history that had not been told, and these men were not getting any younger. We intended to interview each to understand what they were doing before, during and shortly after the Manifesto event in 2001. As the interviews started adding up, we heard a story of what Agile was meant to be, versus what it has become.
-
-We learned that there were essentially 3 themes in all 14 interviews:
-1.\tFocus on technical practices
-2.\tBuild strong, empowered, teams
-3.\tEstablish mindfulness in delivery organizations
-
-These 3 simple bullets are generally missed in most agile adoptions and transformations. Perhaps parts or some aspects are met, but on-whole, they are lacking. We focus too much on agile as a topic of didactic learning, and not a mindset. And what you see really emerge as a thing of beauty, is the residual benefits where these themes intersect. When Mindfulness and Technical Practices overlap you form strong process and integrated DevOps. Where Strong Teams and Technical Practices overlap you find rapid delivery of high quality working software. And where you find the convergence of all three elements, you find true value delivery flow.
-
-This talk hones in on the re-centering of agile intent. It is agnostic of certification and scaling conversations, and builds a solid argument for the movements in Alistair Cockburn’s “Heart of Agile”, Joshua Kerievsky’s “Modern Agile” and Bob Martin’s “Clean Coder” movements.
-
-As the talk wraps, I provide hope for the future of agile. A direction for attendees to move and an attempt to challenge the larger agile anti-patterns that are very prevalent in practice today.
-" } ] }, { "Id": 597, "FirstName": "Sean", "LastName": "Sparkman", "Bio": "I have been writing software for over two decades. I am a father of two and husband. For six years, I have been a Team Lead and Senior Developer for Infinity Interactive, Inc. I have run a user group here in Dallas that focuses on Xamarin called DFW Mobile.NET for 4 years. In April 2015, I was awarded the Xamarin MVP Award for contributing the development community. I have a strong passion for software development of all kind and love problem-solving.", "Website": "https://about.me/seansparkman", "Twitter": "seansparkman", "Photo": "/public/img/speakers/sparkman-sean.jpg", "Company": "Infinity Interactive, Inc.", "LinkedIn": null, "Presentations": [ { "Id": 11, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Build Your Mobile App with Notifications", "Description": "Learn how to add notifications, remote and local, to your application. Whether it’s an iOS, Android, or Windows, it’s easy to add notifications. We will take a look at using AWS Notification Service, Azure Notification Hub, and even doing your own Push Notifications with PushSharp.
-
-Push notifications are a mainstay for making a polished and well-rounded application. It's important on how you handle your notifications and display them. The wrong sound or not navigating to the item can make for a poor user experience." } ] }, { "Id": 600, "FirstName": "Jason", "LastName": "Craft", "Bio": "Jason is the Software Development Manager for APS Payroll. In short, he's a web developer with 9+ years experience of delivering high-quality products to amazing customers across the country. He dabbles in NodeJS, Scala, and React, but currently uses PHP and the Sencha ExtJS framework for his professional endeavors. He leads an unparalleled software development team in crafting software that consistently beats out competing products from Fortune 500 companies. ", "Website": "https://www.linkedin.com/in/jason-craft-707465116/", "Twitter": "VigRoco", "Photo": "/public/img/speakers/craft-jason.jpg", "Company": "APS Payroll", "LinkedIn": null, "Presentations": [ { "Id": 16, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Technical Debt: The Silent Killer", "Description": "Technical Debt: The Silent Killer
-=========================
-
-Overview
--------------
-Technical debt is no different from any other debt or liability a company holds. If left alone for enough time, it will slow down development to a crawl and halt the company's innovation in its tracks. Therefore, it must be paid off over time to prevent a technological apocalypse. 
-
-This talk will showcase a few different strategies to pay off technical debt. Each strategy takes a balanced approach that does not encourage rewriting applications plagued by technical debt. Rewriting may be the most effective way of reducing technical debt, but it is impractical for most software companies. Features still need to be delivered while paying off technical debt. No matter the development process used by your company, you can incorporate these strategies into your workflow.
-
-Reasons for Accumulation
---------------------------------------
-Technical debt accumulates due to various factors beyond control of a company's developers. These problems must be addressed in the strategy for combating it. Developers must communicate the importance of implementing solutions to these problems to other departments at the company. Other departments may not understand why paying off technical debt is so important, but they can understand the consequences if the debt accumulates for too long.
-
-Problems leading to technical debt accumulation:
-
-+ Lack of development resources
-+ Not enough executive buy-in 
-+ Features taking precedence over platform stability
-+ Ignoring metrics that point to legacy code problems
-* The \"Just one more thing, first\" attitude
-
-Development Strategies
------------------------------------
-Complex problems often require complex solutions. Developing a sound strategy for paying off the company's technical debt should be at the forefront of every developer's mind. Every viable strategy will require time to implement and will not instantly solve the technical debt problem. These strategies must be incorporated into the development process and adhered to so that the technical debt may be paid over time. For most software companies, this will be a long road, but persistence and vigilance always pay the best dividends. 
-
-Outcome
--------------
-This talk will equip every attendee with strategies to tackle their company's technical debt issues and improve their development processes. " } ] }, { "Id": 603, "FirstName": "Jon", "LastName": "Robinson", "Bio": "Jon has helped build and lead a wide variety of teams across all aspects of QA over the past 11 years, and recently launched The QA Consultancy, which specializes in helping organizations improve their overall Quality. Having worked with organizations like HomeAdvisor, ScrippsNetworks, and Victoria’s Secret in the past, Jon has battle-tested his sometimes unique approach to QA in some incredibly demanding environments. He recently worked with Denver Public Schools and their CareerConnect program providing mentoring and internships to high school students, and was a pilot employer sponsor for their CareerResidency apprenticeship program at HomeAdvisor.", "Website": "https://theqaconsultancy.com", "Twitter": "jumpmancol", "Photo": "/public/img/speakers/robinson-jon.jpg", "Company": "The QA Consultancy", "LinkedIn": null, "Presentations": [ { "Id": 19, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Automation 101", "Description": "Automation is often misunderstood, and means a lot of different things to a lot of different people. I want to help change that. By drawing on my years of experience building and managing automation teams within a variety of environment, I will walk you through the things you should or shouldn't do. I'll help you understand what things need to be considered, and what things you should simply pass on. I'm not going to teach you how to automate, but I AM gonna to teach you how to succeed at it." } ] }, { "Id": 604, "FirstName": "PJ", "LastName": "Hagerty", "Bio": "Developer, writer, speaker, musician, and Developer Advocate at Logz.io, PJ is known to travel the world speaking about programming and the way people think and interact. He is also known for wearing hats.", "Website": "http://iampj.xyz", "Twitter": "aspleenic", "Photo": "/public/img/speakers/hagerty-pj.jpg", "Company": "Logz.io", "LinkedIn": null, "Presentations": [ { "Id": 21, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "From Turing to Big Data: A Look at Computing and Analytics", "Description": "A look at where computing and analytics began and where it is headed.
-The basis of all DevOps and development starts with our measurements. We need to understand what role analytics and metrics plays in modern computing. To find out, we look at where analytics began in the advent of computer science and where we stand today, with an eye toward the future." } ] }, { "Id": 605, "FirstName": "Greg", "LastName": "Jordan", "Bio": "Greg Jordan is the Founder & CEO of Graph Story, the leading graph database-as-a-service provider. Greg is also the author of Practical Neo4j and has over 15 years of programming experience in various languages with a focus on data driven projects. Greg is avid speaker and writer on the topic of graph databases and has been working with graph databases since 2011. Greg holds two Master's Degrees and is a Ph.D. candidate at the University of Memphis.", "Website": "https://www.graphstory.com", "Twitter": "gmjordan", "Photo": "/public/img/speakers/jordan-greg.jpg", "Company": "Graph Story", "LinkedIn": null, "Presentations": [ { "Id": 23, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Up & Running with Graph Databases", "Description": "A summary of what attendees will learn:
-
-- An understanding of graph databases 
-- Introduction to data modeling with Graph databases 
-- Setting up a graph database
-- Connecting to the graph and CRUD operations
-- Building a graph enabled application" } ] }, { "Id": 610, "FirstName": "Chris", "LastName": "Lorenzo", "Bio": "Chris has worked at Comcast for 10 years -- currently as a Senior Principal Engineer. He enjoys building/motivating teams and ramping up new projects using the latest patterns and web primitives. Besides coding in Javascript, He loves spending time with his family and helping out in the community. Chris is also heavily involved with local colleges and schools to mentor the next generation.
-", "Website": "https://www.linkedin.com/in/chris-lorenzo-3323667", "Twitter": "chiefcll", "Photo": "/public/img/speakers/lorenzo-chris.jpg", "Company": "Comcast", "LinkedIn": null, "Presentations": [ { "Id": 34, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Web Components: A simpler and faster React", "Description": "You’ll learn why components simplify building large applications and how to carry that through your full stack. You’ll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Web Components with Google Polymer. Find out how Comcast simplified its server architecture and development process - making it faster to add new features and easier to maintain. You’ll walk away from this talk feeling motivated and empowered to simplify your architecture.
-" } ] }, { "Id": 612, "FirstName": "Deanna", "LastName": "Vickers", "Bio": "I'm Deanna, an Entrepreneur and Product Owner from Nashville, Tennessee. What I enjoy most is working with others in the tech community to increase harmony among my peers. I am on boards and organizing teams for several tech events/organizations in Nashville including Music City Code, Nodevember and WomenGetIT. I also created an app idea called Doo Drop which is a mobile app geared to get people outside, be active and spend quality time with their dogs. I'm learning to code so I can work on Doo Drop and a few other app concepts of mine. 
-
-I had a fear of public speaking so I started learning to sing and play guitar as a fun way to overcome my fear. ", "Website": "http://doodrop.io/", "Twitter": "Deanna2000", "Photo": "/public/img/speakers/vickers-deanna.jpg", "Company": "Doo Drop", "LinkedIn": null, "Presentations": [ { "Id": 37, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "A Remote Possibility", "Description": "#Making Remote Work, Work
-
-
-1. You've just started a remote job and want to know how to do it well. 
-
-2. You're intrigued by the idea of working remote but feel intimidated by managing your time at home. 
-
-3. You've been doing it a long time and just need some motivation to get out of your pajamas occasionally. 
-
-If any of these describe you, this session is going to help you make the most of working at home. You'll learn how to reap the rewards of having autonomy in your day while also bringing a lot of value to your job. 
-
-Get answers to some often asked questions about remote work:
-
-- Where can I find a remote job? 
-- How do I keep from being bored? 
-- How can I make sure I'll wake up and get to work in the morning? 
-- What do I do about house distractions (pets, kids, lawn or cleaning services)? 
-- What do I do when my internet goes down? 
-
-Lastly, once you are working remotely, it's helpful to have some methods for battling the loneliness of working on your own day to day. You'll walk away armed with many ideas to help keep your day your own without being \"on your own.\"" } ] }, { "Id": 613, "FirstName": "Erik", "LastName": "Ostermueller", "Bio": "Erik Ostermueller has spent the last 10 years or so years tuning high throughput Java financial systems in North and South America, Europe and Asia. In 2011, he wrote a paper for an international performance conference titled “How to Help Developers (Finally) Find Their Own Performance Defects” that won “Best Paper” and the “Mullen Award” for best speaker [1]. The proceeds of this award financed an 8-city speaking tour in the US, Canada, UK, and Italy. 
-
-Founder of heapSpank.org and wuqiSpank.org and a contributor to JMeter-Plugins and other open source projects.
-
-[1] https://www.cmg.org/about-cmg/awards-scholarships/
-", "Website": "http://ostermueller.blogspot.com/", "Twitter": "EOstermueller", "Photo": "/public/img/speakers/ostermueller-erik.jpg", "Company": "Fidelity Information Services", "LinkedIn": null, "Presentations": [ { "Id": 38, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Java Performance in 30 Minutes", "Description": "The clock is ticking! With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production? What observability tools would you use? What subsystems would you investigate?
-
-This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. 
-
-You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine. 
-
-As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers. 
-
-This presentation is your guided tour to how much is really possible in 30 minutes.
-
-#Learn the P.A.t.h. Checklist
-
-## Persistence -- the 'P' in P.A.t.h.
-Learn the 3 most common SQL performance anti-patterns and how to detect them.
-
-## Alien Systems -- the 'A' in P.A.t.h.
-
-Alien systems are those your Java JVM communicates with over a network.
-Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.
-Also learn how to avoid a huge security vulnerability with a very common network optimization.
-
-## threads -- the 't' in P.A.t.h.
-
-Learn how to use jstack to take thread dumps that point to slow executing code. No need a the Java profiler in production.
-
-## heap -- the 'h' in P.A.t.h.
-
-Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks." } ] }, { "Id": 626, "FirstName": "Lisa", "LastName": "Anderson", "Bio": "Lisa Anderson is Microsoft’s US Central Region Community Program Manager – responsible for the Microsoft Most Valuable Professionals Program (MVP) and Regional Directors Program in the Central United States (all of the states in between the coasts). In her previous role at Microsoft, Lisa worked in the Microsoft Services group as a Technical Account Manager responsible for managing Premier Services account portfolios for several enterprise customers in the legal and commercial real estate industries. In her four years at Microsoft, Lisa has also been a community leader for Microsoft’s MACH program (Microsoft Academy of College Hires) and assists in recruitment and interviewing efforts for university hires all over the USA.
-
-Lisa attended the University of Wisconsin-Madison (Go Badgers!) and earned a BA in psychology. She aims to combine her background and passion for psychology to help people in the tech industry do their best work and lead their most fulfilling and balanced lives. She can be found at technical conferences speaking about how positive leadership strategies can help leaders and community members become more successful and productive.
-
-Outside of work, Lisa enjoys traveling (she has visited 13 countries outside the US so far and always planning her next trip!). When not on the move, she enjoys a nice brandy Old Fashioned and Wisconsin Fish Fry back at her parents’ home in Wausau, WI. Her other interests include cooking, hiking, skiing, and petting cats.", "Website": "http://www.heyitslisa.com", "Twitter": "LisaAnderson312", "Photo": "/public/img/speakers/anderson-lisa.jpg", "Company": "Microsoft", "LinkedIn": null, "Presentations": [ { "Id": 58, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Have Your Best Season Yet: Becoming a (Microsoft) MVP", "Description": "Learn how following your passion and deepening your technical area of focus can help you create a wide-sweeping impact and how you can be awarded as an MVP! The MVP community is comprised of over 4,000 MVPs worldwide, and offers you a rich and diverse network of talented tech experts who can help you learn new skills and advance your career. As an MVP, you also gain insider access to Microsoft product development teams, and a plethora of other benefits. Come join the discussion and learn how to reap the rewards of your best season yet!
-
-I delivered this talk at CodeMash in Sandusky, Ohio, and had a panel of 7 MVPs speak for part of the session to educate attendees on how they can be awarded in the future. Many of the attendees noted on Twitter that this was their favorite session of CodeMash. Attendees have appreciated the transparency and awareness I bring to the MVP nomination process through this talk. It is also a great way for attendees to meet Microsoft MVPs and make connections with other community leaders since much of the talk is driven by questions from the audience. This talk is ideally suited to community leaders and those active in the community (speakers, bloggers, etc), but is also suitable for attendees who are new to the community and looking to build connections to widen their impact. 
-
-I keep things fun by bringing candy or a small giveaway to encourage participation and to keep people bright eyed in the event that the talk is scheduled after lunch. " } ] }, { "Id": 628, "FirstName": "Bill", "LastName": "DeVoe", "Bio": "Bill DeVoe has been in IT for almost 25 years and has spent almost 20 years of that as an agile practitioner, trainer, and coach. He has coached and trained local teams, distributed teams, managers, and executives in lean, agile, Scrum, Kanban, and scaled agile topics. He has led transformations at everything from the team level to the enterprise level. Bill has spoken at many conferences over the past 5 years on a variety of topics, including agile transformations with HR and Finance, working with distributed teams, and transforming a team to Scrumban.
-Bill is the Principal Agile Evangelist for Velocity Partners, a near-shore development company specializing in distributed agile development. He is a Certified Scrum Professional, a SAFe Program Consultant, and licensed Management 3.0 Facilitator.", "Website": "http://www.velocitypartners.net", "Twitter": "wdevoe", "Photo": "/public/img/speakers/devoe-bill.jpg", "Company": "Velocity Partners", "LinkedIn": null, "Presentations": [ { "Id": 61, "Track": null, "Day": null, "Room": null, "SessionNumber": null, "Topic": "Lean-Agile Learning Through Games", "Description": "Most agile practitioners first learn agile by reading a book, attending a class, or attending local meetings. But learning lean and agile concepts works best when we're able to put some concrete examples and practice behind the concept. By adding a set of games and exercises that teach and reinforce lean and agile concepts to our toolboxes, change agents can provide some practical basis for conversations both inside and outside their organization. Being able to talk beyond anecdote and theory and actually demonstrate why something works the way we think it does is a powerful statement. 
-
-The games in this session will cover a variety of lean and agile concepts, including:
-- Preferring small batch sizes and maximizing customer value
-- Identifying bottlenecks and the differences between local and system-wide optimizations
-- Encouraging experimentation and risk-taking
-- Demonstrating the need for good communication
-- Backlog prioritization and delivering on commitments 
-
-Following the workshop, attendees will have access to all of the workshop games and be able to run these exercises and games with their teams, managers, and executives." } ] } ]
+[
+  {
+    "Id": 592,
+    "FirstName": "Lisa",
+    "LastName": "Huang",
+    "Bio": "Lisa Huang is a co-founder of FlightGold, a Fullstack engineer based in San Francisco Bay area. Lisa has a background in digital marketing, building mobile-optimized web apps and a keen Rubyist. She is a self-taught developer and started her coding journey with FreeCodeCamp projects. <br/><br/>In her off time, you can find Lisa exploring the West coast and hacking on Arduino.<br/>",
+    "Website": "http://lambdalisa.com/",
+    "Twitter": "lisaychuang",
+    "Photo": "/public/img/speakers/huang-lisa.jpg",
+    "Company": "FlightGold, inc",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 5,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Instant Mobile Web: An Accelerated Mobile Pages primer",
+        "Description": "In Oct 2016, mobile and tablet internet usage exceeded desktop for the first time worldwide! With **over 50% of your users on their phones**, is your web app optimised for them?<br/><br/>[Accelerated Mobile Pages (AMP)](https://www.ampproject.org/) is an open-source initiative, a Javascript library for building **lightening speed mobile web apps**. As of May 2017, there are over 2billion AMP pages and growing! The Washington Post, eBay, Airbnb - these are just some companies who are using AMP in their web products<br/><br/>We will look under the hood and learn about how **AMP optimizes mobile web performance** with resource allocation, invisible ink, sandbox iFrames and more. Attendees will learn about what makes AMP pages lightning fast on mobile, and get up and running with a **code demo.**<br/><br/>Attendees will learn first hand about: <br/><br/>1. How AMP addresses mobile user pains <br/>2. How to build a valid AMP page with navigation, embedded media, and user interactivity. <br/>3. Future AMP integration with progressive web apps (PWA)<br/><br/>This talk is suitable for beginner and intermediate developers with experience in Javascript. [Click here for Presentation slides](bit.ly/AMPCorgi)"
+      }
+    ]
+  },
+  {
+    "Id": 593,
+    "FirstName": "Jon",
+    "LastName": "Peck",
+    "Bio": "A full-stack developer with two decades of industry experience, Jon Peck now focuses on bringing scalable, discoverable, and secure machine-learning microservices to developers across a wide variety of platforms via [Algorithmia](Algorithmia.com).",
+    "Website": "https://github.com/peckjon",
+    "Twitter": "peckjon",
+    "Photo": "/public/img/speakers/peck-jon.jpg",
+    "Company": "Algorithmia",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 7,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "All the Moving Parts: Bringing Machine Learning to your Application",
+        "Description": "\u0022What is Machine Learning?  Who uses it, and why should I care?  How can I integrate it into my application?\u0022<br/><br/>There are questions any modern developer finds themselves asking at some point.  The field of Machine Learning and AI is complex, and many of the available resources are mathematically complex and require a lot of prior knowledge, making it difficult for the everyday developer to know where to begin.<br/><br/>This talk will demystify some of the basic concepts around ML, explaining what it is and how it can be used.  Attendees will learn about some of the typical use cases (such as Natural Language Processing and Image Recognition), and see code snippets from some of the most common frameworks and tools (such as Scikit-Learn, Weka and Tensorflow).<br/><br/>Following this, we\u0027ll walk through some ways that Machine Learning can be integrated into any website, script, or mobile app.  There are a lot of options out there, from fully self-hosted servers to cloud-based autoscaling services.  Developers will leave with the ability to create (train) a basic ML model, hook it into their own application, and make it available for use by anyone in the world."
+      }
+    ]
+  },
+  {
+    "Id": 594,
+    "FirstName": "Don",
+    "LastName": "Schenck",
+    "Bio": "A developer who has seen it all, Don is a Microsoft MVP and currently a Director of Developer Experience at Red Hat, with a focus on Microsoft .NET on Linux. His mission is to connect .NET developers with the Linux and open source communities. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He still enjoys cooking and studying human behavior, and still hates the designated hitter rule.<br/> <br/>Don\u0027s overarching belief is this: \u0022A program is not a communication between a developer and a machine; it\u0027s a communication between a developer and the next developer.\u0022",
+    "Website": "http://redhatloves.net",
+    "Twitter": "DonSchenck",
+    "Photo": "/public/img/speakers/schenck-don.jpg",
+    "Company": "Red Hat",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 28,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Creating Bots with the Microsoft Bot Framework",
+        "Description": "Every wonder how a bot works? How it carries on a conversation, or helps you book a hotel room?<br/> <br/>The Microsoft Bot Framework is not just about Skype. You can build bots for Skype, Facebook, Slack, SMS and much more. You can leverage your existing C# skills and create interactive bots that can assist users.<br/> <br/>In this session you will see a bot created in real time, as well as learn about the considerations for building a useful and successful bot.<br/>"
+      }
+    ]
+  },
+  {
+    "Id": 595,
+    "FirstName": "Bryan",
+    "LastName": "Soltis",
+    "Bio": "Bryan Soltis is the Technical Evangelist at Kentico and an avid .NET developer. With over 18 years of web development experience, Bryan has completed projects for Microsoft, IMG, HP, and other Fortune 500 companies. A former Azure VTSP, Bryan has developed numerous applications with Microsoft’s cloud and Kentico, including custom software development, integrated solutions, and globally-available enterprise applications. As a Technical Evangelist, Bryan enjoys working with the development community and educating developers on best practices, new technologies, and utilizing the .NET, cloud, and Kentico to their fullest potentials. And he really likes beer.",
+    "Website": "http://soltisweb.com",
+    "Twitter": "bryan_soltis",
+    "Photo": "/public/img/speakers/soltis-bryan.jpg",
+    "Company": "Kentico",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 35,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Building Your Evil(?) Empire with Azure Functions",
+        "Description": "By now, you\u0027ve probably heard about how awesome Azure Functions really are. From offloading functionality to automating processing, they allow you to harness the cloud to your bidding, whether it’s the dirty work of processing your data or informing your henchmen about your next plot to take over the world. Whether your preference is C#, JS, Python, or a slew of other languages, you can program just about anything with Azure Functions and execute it with triggers, timers, or HTTP requests. In this session, Kentico Technical Evangelist and Azure super-fan Bryan Soltis will show you add Azure Functions to your arsenal and build amazing cloud solutions."
+      }
+    ]
+  },
+  {
+    "Id": 596,
+    "FirstName": "Ryan",
+    "LastName": "Lockard",
+    "Bio": "Ryan Lockard has over 17 years experience in software delivery. Ryan has worked in various industries including Intellectual Property, Advertising, Science, Publishing, Manufacturing, ERP, Clinical Decision Support and Learning and most recently joined Contino - a global leader in DevOps and Cloud enablement. Ryan is an agility leader and a manager of multiple agile teams that support a Health Care LMS and clinical content system. He has facilitated multiple agile transformations and serves as a coach and mentor to various teams and emerging agile professionals. Ryan is also a current member of the Harrisburg University corporate faculty, the Agile Uprising, and an independent lean development trainer. Based in Philadelphia, Ryan is an avid reader, host of the Agile Uprising podcast (which has reached over 70K listeners in over 100 countries) loving father of three and incrementally becoming a great husband.<br/>",
+    "Website": "http://www.contino.io",
+    "Twitter": "AgilePHL",
+    "Photo": "/public/img/speakers/lockard-ryan.jpg",
+    "Company": "Contino",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 20,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Secrets from the Agile Manifesto Authors on Flow",
+        "Description": "I have been lucky enough to personally interview 14 of the agile manifesto authors, a project that has totally shifted my perspective on agility and working with teams.  This project was the vision of my team – the Agile Uprising – and was conducted over 6 months and chronicled via a globally distributed podcast.  During this time period, our podcast went from 0 listeners to an average of 8,000 per month.<br/><br/>The initial inception of the project was to tell the story behind the manifesto and it’s authors.  The trigger was some work we were doing with Ken Schwaber and it was cancelled due to his failing health.  We realized there was a huge moment in software history that had not been told, and these men were not getting any younger.  We intended to interview each to understand what they were doing before, during and shortly after the Manifesto event in 2001.  As the interviews started adding up, we heard a story of what Agile was meant to be, versus what it has become.<br/><br/>We learned that there were essentially 3 themes in all 14 interviews:<br/>1.\tFocus on technical practices<br/>2.\tBuild strong, empowered, teams<br/>3.\tEstablish mindfulness in delivery organizations<br/><br/>These 3 simple bullets are generally missed in most agile adoptions and transformations.  Perhaps parts or some aspects are met, but on-whole, they are lacking. We focus too much on agile as a topic of didactic learning, and not a mindset.  And what you see really emerge as a thing of beauty, is the residual benefits where these themes intersect.  When Mindfulness and Technical Practices overlap you form strong process and integrated DevOps.  Where Strong Teams and Technical Practices overlap you find rapid delivery of high quality working software.  And where you find the convergence of all three elements, you find true value delivery flow.<br/><br/>This talk hones in on the re-centering of agile intent.  It is agnostic of certification and scaling conversations, and builds a solid argument for the movements in Alistair Cockburn’s “Heart of Agile”, Joshua Kerievsky’s “Modern Agile” and Bob Martin’s “Clean Coder” movements.<br/><br/>As the talk wraps, I provide hope for the future of agile.  A direction for attendees to move and an attempt to challenge the larger agile anti-patterns that are very prevalent in practice today.<br/>"
+      }
+    ]
+  },
+  {
+    "Id": 597,
+    "FirstName": "Sean",
+    "LastName": "Sparkman",
+    "Bio": "I have been writing software for over two decades. I am a father of two and husband. For six years, I have been a Team Lead and Senior Developer for Infinity Interactive, Inc. I have run a user group here in Dallas that focuses on Xamarin called DFW Mobile.NET for 4 years. In April 2015, I was awarded the Xamarin MVP Award for contributing the development community. I have a strong passion for software development of all kind and love problem-solving.",
+    "Website": "https://about.me/seansparkman",
+    "Twitter": "seansparkman",
+    "Photo": "/public/img/speakers/sparkman-sean.jpg",
+    "Company": "Infinity Interactive, Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 11,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Build Your Mobile App with Notifications",
+        "Description": "Learn how to add notifications, remote and local, to your application.  Whether it’s an iOS, Android, or Windows, it’s easy to add notifications.  We will take a look at using AWS Notification Service, Azure Notification Hub, and even doing your own Push Notifications with PushSharp.<br/><br/>Push notifications are a mainstay for making a polished and well-rounded application.  It\u0027s important on how you handle your notifications and display them.  The wrong sound or not navigating to the item can make for a poor user experience."
+      }
+    ]
+  },
+  {
+    "Id": 600,
+    "FirstName": "Jason",
+    "LastName": "Craft",
+    "Bio": "Jason is the Software Development Manager for APS Payroll. In short, he\u0027s a web developer with 9+ years experience of delivering high-quality products to amazing customers across the country. He dabbles in NodeJS, Scala, and React, but currently uses PHP and the Sencha ExtJS framework for his professional endeavors. He leads an unparalleled software development team in crafting software that consistently beats out competing products from Fortune 500 companies. ",
+    "Website": "https://www.linkedin.com/in/jason-craft-707465116/",
+    "Twitter": "VigRoco",
+    "Photo": "/public/img/speakers/craft-jason.jpg",
+    "Company": "APS Payroll",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 16,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Technical Debt: The Silent Killer",
+        "Description": "Technical Debt: The Silent Killer<br/>=========================<br/><br/>Overview<br/>-------------<br/>Technical debt is no different from any other debt or liability a company holds. If left alone for enough time, it will slow down development to a crawl and halt the company\u0027s innovation in its tracks. Therefore, it must be paid off over time to prevent a technological apocalypse. <br/><br/>This talk will showcase a few different strategies to pay off technical debt. Each strategy takes a balanced approach that does not encourage rewriting applications plagued by technical debt. Rewriting may be the most effective way of reducing technical debt, but it is impractical for most software companies. Features still need to be delivered while paying off technical debt. No matter the development process used by your company, you can incorporate these strategies into your workflow.<br/><br/>Reasons for Accumulation<br/>--------------------------------------<br/>Technical debt accumulates due to various factors beyond control of a company\u0027s developers. These problems must be addressed in the strategy for combating it. Developers must communicate the importance of implementing solutions to these problems to other departments at the company. Other departments may not understand why paying off technical debt is so important, but they can understand the consequences if the debt accumulates for too long.<br/><br/>Problems leading to technical debt accumulation:<br/><br/>+ Lack of development resources<br/>+ Not enough executive buy-in <br/>+ Features taking precedence over platform stability<br/>+ Ignoring metrics that point to legacy code problems<br/>*    The \u0022Just one more thing, first\u0022 attitude<br/><br/>Development Strategies<br/>-----------------------------------<br/>Complex problems often require complex solutions. Developing a sound strategy for paying off the company\u0027s technical debt should be at the forefront of every developer\u0027s mind. Every viable strategy will require time to implement and will not instantly solve the technical debt problem. These strategies must be incorporated into the development process and adhered to so that the technical debt may be paid over time. For most software companies, this will be a long road, but persistence and vigilance always pay the best dividends. <br/><br/>Outcome<br/>-------------<br/>This talk will equip every attendee with strategies to tackle their company\u0027s technical debt issues and improve their development processes. "
+      }
+    ]
+  },
+  {
+    "Id": 603,
+    "FirstName": "Jon",
+    "LastName": "Robinson",
+    "Bio": "Jon has helped build and lead a wide variety of teams across all aspects of QA over the past 11 years, and recently launched The QA Consultancy, which specializes in helping organizations improve their overall Quality. Having worked with organizations like HomeAdvisor, ScrippsNetworks, and Victoria’s Secret in the past, Jon has battle-tested his sometimes unique approach to QA in some incredibly demanding environments. He recently worked with Denver Public Schools and their CareerConnect program providing mentoring and internships to high school students, and was a pilot employer sponsor for their CareerResidency apprenticeship program at HomeAdvisor.",
+    "Website": "https://theqaconsultancy.com",
+    "Twitter": "jumpmancol",
+    "Photo": "/public/img/speakers/robinson-jon.jpg",
+    "Company": "The QA Consultancy",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 19,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Automation 101",
+        "Description": "Automation is often misunderstood, and means a lot of different things to a lot of different people. I want to help change that. By drawing on my years of experience building and managing automation teams within a variety of environment, I will walk you through the things you should or shouldn\u0027t do. I\u0027ll help you understand what things need to be considered, and what things you should simply pass on. I\u0027m not going to teach you how to automate, but I AM gonna to teach you how to succeed at it."
+      }
+    ]
+  },
+  {
+    "Id": 604,
+    "FirstName": "PJ",
+    "LastName": "Hagerty",
+    "Bio": "Developer, writer, speaker, musician, and Developer Advocate at Logz.io, PJ is known to travel the world speaking about programming and the way people think and interact.  He is also known for wearing hats.",
+    "Website": "http://iampj.xyz",
+    "Twitter": "aspleenic",
+    "Photo": "/public/img/speakers/hagerty-pj.jpg",
+    "Company": "Logz.io",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 21,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "From Turing to Big Data: A Look at Computing and Analytics",
+        "Description": "A look at where computing and analytics began and where it is headed.<br/>The basis of all DevOps and development starts with our measurements.  We need to understand what role analytics and metrics plays in modern computing.  To find out, we look at where analytics began in the advent of computer science and where we stand today, with an eye toward the future."
+      }
+    ]
+  },
+  {
+    "Id": 605,
+    "FirstName": "Greg",
+    "LastName": "Jordan",
+    "Bio": "Greg Jordan is the Founder \u0026 CEO of Graph Story, the leading graph database-as-a-service provider.  Greg is also the author of Practical Neo4j and has over 15 years of programming experience in various languages with a focus on data driven projects. Greg is avid speaker and writer on the topic of graph databases and has been working with graph databases since 2011. Greg holds two Master\u0027s Degrees and is a Ph.D. candidate at the University of Memphis.",
+    "Website": "https://www.graphstory.com",
+    "Twitter": "gmjordan",
+    "Photo": "/public/img/speakers/jordan-greg.jpg",
+    "Company": "Graph Story",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 23,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Up \u0026 Running with Graph Databases",
+        "Description": "A summary of what attendees will learn:<br/><br/> - An understanding of graph databases <br/> - Introduction to data modeling with Graph databases <br/> - Setting up a graph database<br/> - Connecting to the graph and CRUD operations<br/> - Building a graph enabled application"
+      }
+    ]
+  },
+  {
+    "Id": 610,
+    "FirstName": "Chris",
+    "LastName": "Lorenzo",
+    "Bio": "Chris has worked at Comcast for 10 years -- currently as a Senior Principal Engineer. He enjoys building/motivating teams and ramping up new projects using the latest patterns and web primitives. Besides coding in Javascript, He loves spending time with his family and helping out in the community. Chris is also heavily involved with local colleges and schools to mentor the next generation.<br/>",
+    "Website": "https://www.linkedin.com/in/chris-lorenzo-3323667",
+    "Twitter": "chiefcll",
+    "Photo": "/public/img/speakers/lorenzo-chris.jpg",
+    "Company": "Comcast",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 34,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Web Components: A simpler and faster React",
+        "Description": "You’ll learn why components simplify building large applications and how to carry that through your full stack. You’ll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Web Components with Google Polymer. Find out how Comcast simplified its server architecture and development process - making it faster to add new features and easier to maintain. You’ll walk away from this talk feeling motivated and empowered to simplify your architecture.<br/>"
+      }
+    ]
+  },
+  {
+    "Id": 612,
+    "FirstName": "Deanna",
+    "LastName": "Vickers",
+    "Bio": "I\u0027m Deanna, an Entrepreneur and Product Owner from Nashville, Tennessee. What I enjoy most is working with others in the tech community to increase harmony among my peers. I am on boards and organizing teams for several tech events/organizations in Nashville including Music City Code, Nodevember and WomenGetIT. I also created an app idea called Doo Drop which is a mobile app geared to get people outside, be active and spend quality time with their dogs. I\u0027m learning to code so I can work on Doo Drop and a few other app concepts of mine. <br/><br/>I had a fear of public speaking so I started learning to sing and play guitar as a fun way to overcome my fear. ",
+    "Website": "http://doodrop.io/",
+    "Twitter": "Deanna2000",
+    "Photo": "/public/img/speakers/vickers-deanna.jpg",
+    "Company": "Doo Drop",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 37,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "A Remote Possibility",
+        "Description": "#Making Remote Work, Work<br/><br/><br/>1. You\u0027ve just started a remote job and want to know how to do it well. <br/><br/>2. You\u0027re intrigued by the idea of working remote but feel intimidated by managing your time at home. <br/><br/>3. You\u0027ve been doing it a long time and just need some motivation to get out of your pajamas occasionally. <br/><br/>If any of these describe you, this session is going to help you make the most of working at home. You\u0027ll learn how to reap the rewards of having autonomy in your day while also bringing a lot of value to your job. <br/><br/>Get answers to some often asked questions about remote work:<br/><br/>- Where can I find a remote job? <br/>- How do I keep from being bored? <br/>- How can I make sure I\u0027ll wake up and get to work in the morning? <br/>- What do I do about house distractions (pets, kids, lawn or cleaning services)? <br/>- What do I do when my internet goes down? <br/><br/>Lastly, once you are working remotely, it\u0027s helpful to have some methods for battling the loneliness of working on your own day to day. You\u0027ll walk away armed with many ideas to help keep your day your own without being \u0022on your own.\u0022"
+      }
+    ]
+  },
+  {
+    "Id": 613,
+    "FirstName": "Erik",
+    "LastName": "Ostermueller",
+    "Bio": "Erik Ostermueller has spent the last 10 years or so years tuning high throughput Java financial systems in North and South America, Europe and Asia.  In 2011, he wrote a paper for an international performance conference titled  “How to Help Developers (Finally) Find Their Own Performance Defects” that won “Best Paper” and the “Mullen Award” for best speaker [1].  The proceeds of this award financed an 8-city speaking tour in the US, Canada, UK, and Italy.  <br/> <br/>Founder of heapSpank.org and wuqiSpank.org and a contributor to JMeter-Plugins and other open source projects.<br/> <br/>[1] https://www.cmg.org/about-cmg/awards-scholarships/<br/>",
+    "Website": "http://ostermueller.blogspot.com/",
+    "Twitter": "EOstermueller",
+    "Photo": "/public/img/speakers/ostermueller-erik.jpg",
+    "Company": "Fidelity Information Services",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 38,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Java Performance in 30 Minutes",
+        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the \u0027P\u0027 in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the \u0027A\u0027 in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the \u0027t\u0027 in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the \u0027h\u0027 in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks."
+      }
+    ]
+  },
+  {
+    "Id": 626,
+    "FirstName": "Lisa",
+    "LastName": "Anderson",
+    "Bio": "Lisa Anderson is Microsoft’s US Central Region Community Program Manager – responsible for the Microsoft Most Valuable Professionals Program (MVP) and Regional Directors Program in the Central United States (all of the states in between the coasts). In her previous role at Microsoft, Lisa worked in the Microsoft Services group as a Technical Account Manager responsible for managing Premier Services account portfolios for several enterprise customers in the legal and commercial real estate industries. In her four years at Microsoft, Lisa has also been a community leader for Microsoft’s MACH program (Microsoft Academy of College Hires) and assists in recruitment and interviewing efforts for university hires all over the USA.<br/><br/>Lisa attended the University of Wisconsin-Madison (Go Badgers!) and earned a BA in psychology. She aims to combine her background and passion for psychology to help people in the tech industry do their best work and lead their most fulfilling and balanced lives. She can be found at technical conferences speaking about how positive leadership strategies can help leaders and community members become more successful and productive.<br/><br/>Outside of work, Lisa enjoys traveling (she has visited 13 countries outside the US so far and always planning her next trip!). When not on the move, she enjoys a nice brandy Old Fashioned and Wisconsin Fish Fry back at her parents’ home in Wausau, WI. Her other interests include cooking, hiking, skiing, and petting cats.",
+    "Website": "http://www.heyitslisa.com",
+    "Twitter": "LisaAnderson312",
+    "Photo": "/public/img/speakers/anderson-lisa.jpg",
+    "Company": "Microsoft",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 58,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Have Your Best Season Yet: Becoming a (Microsoft) MVP",
+        "Description": "Learn how following your passion and deepening your technical area of focus can help you create a wide-sweeping impact and how you can be awarded as an MVP! The MVP community is comprised of over 4,000 MVPs worldwide, and offers you a rich and diverse network of talented tech experts who can help you learn new skills and advance your career. As an MVP, you also gain insider access to Microsoft product development teams, and a plethora of other benefits. Come join the discussion and learn how to reap the rewards of your best season yet!<br/><br/>I delivered this talk at CodeMash in Sandusky, Ohio, and had a panel of 7 MVPs speak for part of the session to educate attendees on how they can be awarded in the future. Many of the attendees noted on Twitter that this was their favorite session of CodeMash. Attendees have appreciated the transparency and awareness I bring to the MVP nomination process through this talk. It is also a great way for attendees to meet Microsoft MVPs and make connections with other community leaders since much of the talk is driven by questions from the audience. This talk is ideally suited to community leaders and those active in the community (speakers, bloggers, etc), but is also suitable for attendees who are new to the community and looking to build connections to widen their impact. <br/><br/>I keep things fun by bringing candy or a small giveaway to encourage participation and to keep people bright eyed in the event that the talk is scheduled after lunch. "
+      }
+    ]
+  },
+  {
+    "Id": 628,
+    "FirstName": "Bill",
+    "LastName": "DeVoe",
+    "Bio": "Bill DeVoe has been in IT for almost 25 years and has spent almost 20 years of that as an agile practitioner, trainer, and coach. He has coached and trained local teams, distributed teams, managers, and executives in lean, agile, Scrum, Kanban, and scaled agile topics. He has led transformations at everything from the team level to the enterprise level. Bill has spoken at many conferences over the past 5 years on a variety of topics, including agile transformations with HR and Finance, working with distributed teams, and transforming a team to Scrumban.<br/>Bill is the Principal Agile Evangelist for Velocity Partners, a near-shore development company specializing in distributed agile development. He is a Certified Scrum Professional, a SAFe Program Consultant, and licensed Management 3.0 Facilitator.",
+    "Website": "http://www.velocitypartners.net",
+    "Twitter": "wdevoe",
+    "Photo": "/public/img/speakers/devoe-bill.jpg",
+    "Company": "Velocity Partners",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 61,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Lean-Agile Learning Through Games",
+        "Description": "Most agile practitioners first learn agile by reading a book, attending a class, or attending local meetings. But learning lean and agile concepts works best when we\u0027re able to put some concrete examples and practice behind the concept. By adding a set of games and exercises that teach and reinforce lean and agile concepts to our toolboxes, change agents can provide some practical basis for conversations both inside and outside their organization. Being able to talk beyond anecdote and theory and actually demonstrate why something works the way we think it does is a powerful statement. <br/><br/>The games in this session will cover a variety of lean and agile concepts, including:<br/>- Preferring small batch sizes and maximizing customer value<br/>- Identifying bottlenecks and the differences between local and system-wide optimizations<br/>- Encouraging experimentation and risk-taking<br/>- Demonstrating the need for good communication<br/>- Backlog prioritization and delivering on commitments <br/><br/>Following the workshop, attendees will have access to all of the workshop games and be able to run these exercises and games with their teams, managers, and executives."
+      }
+    ]
+  }
+]
