@@ -55,12 +55,14 @@ speakers.forEach(function(speaker){
 			presentations.Photo = speaker.Photo
 		}
 	});
-	speaker.Presentations.forEach(function(presentation){
+	speaker.Presentations.forEach(function (presentation) {
 		presentation.SpeakerId = speaker.Id
 		presentation.SpeakerName = speaker.FirstName + " " + speaker.LastName
 		presentation.Photo = speaker.Photo
-		var timeId = presentation.Day.toString()+"-"+presentation.SessionNumber;
-		presentation.Time = times[timeId];
+		if (presentation.Day) { 
+			var timeId =  presentation.Day.toString() + "-" + presentation.SessionNumber;
+			presentation.Time = times[timeId];
+		}
 		presentation.ElementId = "schedule_day"+presentation.Day+"_room"+_.kebabCase(presentation.Room,' ','_')+"_time"+presentation.SessionNumber;
 		presentation.SpeakerSlug = speaker.slug
 		presentations.push(presentation);
