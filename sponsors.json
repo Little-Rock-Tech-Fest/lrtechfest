@@ -42,6 +42,12 @@
 	"Website": "https://few.io/"
 	},
 	{
+	"Name": "Lindsey Software",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/lindsey-software-logo.png",
+	"Website": "http://www.lindseysoftware.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
@@ -52,12 +58,17 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/sketch.png",
 	"Website": "https://sketchapp.com/"
-},
+	},
 	{
 	"Name": "Sticker Mule",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/stickermule.png",
 	"Website": "https://www.stickermule.com/"
+	},
+	{
+	"Name": "Bawls Guarana",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/bawlsguarana-logo.jpg",
+	"Website": "http://www.bawls.com/"
 	}
-
 ]
