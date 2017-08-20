@@ -1,3 +1,4 @@
+
 [
   {
     "Id": 592,
@@ -18,28 +19,6 @@
         "SessionNumber": null,
         "Topic": "Instant Mobile Web: An Accelerated Mobile Pages primer",
         "Description": "In Oct 2016, mobile and tablet internet usage exceeded desktop for the first time worldwide! With **over 50% of your users on their phones**, is your web app optimised for them?<br/><br/>[Accelerated Mobile Pages (AMP)](https://www.ampproject.org/) is an open-source initiative, a Javascript library for building **lightening speed mobile web apps**. As of May 2017, there are over 2billion AMP pages and growing! The Washington Post, eBay, Airbnb - these are just some companies who are using AMP in their web products<br/><br/>We will look under the hood and learn about how **AMP optimizes mobile web performance** with resource allocation, invisible ink, sandbox iFrames and more. Attendees will learn about what makes AMP pages lightning fast on mobile, and get up and running with a **code demo.**<br/><br/>Attendees will learn first hand about: <br/><br/>1. How AMP addresses mobile user pains <br/>2. How to build a valid AMP page with navigation, embedded media, and user interactivity. <br/>3. Future AMP integration with progressive web apps (PWA)<br/><br/>This talk is suitable for beginner and intermediate developers with experience in Javascript. [Click here for Presentation slides](bit.ly/AMPCorgi)"
-      }
-    ]
-  },
-  {
-    "Id": 593,
-    "FirstName": "Jon",
-    "LastName": "Peck",
-    "Bio": "A full-stack developer with two decades of industry experience, Jon Peck now focuses on bringing scalable, discoverable, and secure machine-learning microservices to developers across a wide variety of platforms via [Algorithmia](Algorithmia.com).",
-    "Website": "https://github.com/peckjon",
-    "Twitter": "peckjon",
-    "Photo": "/public/img/speakers/peck-jon.jpg",
-    "Company": "Algorithmia",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 7,
-        "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
-        "Topic": "All the Moving Parts: Bringing Machine Learning to your Application",
-        "Description": "\"What is Machine Learning?  Who uses it, and why should I care?  How can I integrate it into my application?\"<br/><br/>There are questions any modern developer finds themselves asking at some point.  The field of Machine Learning and AI is complex, and many of the available resources are mathematically complex and require a lot of prior knowledge, making it difficult for the everyday developer to know where to begin.<br/><br/>This talk will demystify some of the basic concepts around ML, explaining what it is and how it can be used.  Attendees will learn about some of the typical use cases (such as Natural Language Processing and Image Recognition), and see code snippets from some of the most common frameworks and tools (such as Scikit-Learn, Weka and Tensorflow).<br/><br/>Following this, we'll walk through some ways that Machine Learning can be integrated into any website, script, or mobile app.  There are a lot of options out there, from fully self-hosted servers to cloud-based autoscaling services.  Developers will leave with the ability to create (train) a basic ML model, hook it into their own application, and make it available for use by anyone in the world."
       }
     ]
   },
@@ -374,6 +353,37 @@
     ]
   },
   {
+    "Id": 635,
+    "FirstName": "Robert Lentz & Mark Carleo",
+    "LastName": null,
+    "Bio": "Previous to joining Elyxor, Rob was Chief Revenue Officer for Smiley Technologies (STI).  Rob brings a broad knowledge of strategic planning, marketing, and sales, as well as software architecture and R&D expertise to the Elyxor team.  Prior to STI, Rob held executive roles at Acxiom, a 1+ billion dollar global marketing services firm, where he held a number of roles, including VP of Revenue Strategy, VP of International Delivery Services (with 600 associates across 9 countries), and Country Operations Leader for the Dutch and German businesses.  In addition, Rob has held technology and operations leadership roles at Celarix, Dazel, Andersen Consulting (now Accenture), and GE.  Rob also enjoys his role on the University of Arkansas at Little Rock College of Business Advisory Board, including some time as an adjunct faculty.  Rob is bi-lingual, with proficiency in German, and has spent large portions of his career working outside the US. Rob holds an MBA from the MIT Sloan School of Management, an MS in Computer Engineering from Syracuse University and a BS in Computer and Systems Engineering from Rensselaer. Rob is based out of Little Rock and leads the Elyxor office at this location.<br/><br/>Mark Carleo is founder and Managing Partner at Elyxor and has more than 35 years of experience in IT, software development, and project management. As CTO of Retail Convergence, Mark led the development and operations for Ruelala.com, a successful private sale e-commerce retailer. Mark was also co-founder and CTO of Celarix, an application service provider of supply chain management and execution tools acquired by GSX in 2003. Celarix's advanced multi-tenant SOA architecture and high-performance rules engine is used by leading retailers and manufactures to manage global manufacturing orders and shipments. Earlier, he was a partner with CSC Consulting, a large global professional services organization, where he focused on IT operations, order management, and supply-chain applications with retail, consumer products, and industrial companies.",
+    "Website": "http://www.elyxor.com",
+    "Twitter": null,
+    "Photo": "/public/img/speakers/-robert lentz & mark carleo.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 80,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Real Life IoT - Principles for Success",
+        "Description": "Elyxor has worked through some real-life IoT projects to transform business processes in the Industrial IoT (often called M2M) space.  As the industry matures, it is becoming more clear that well designed  business and technology IoT architectures can result in (1) elimination of process waste resulting in saved time and cost, (2) improved data insights to your business, (3) changing experiences for individuals interacting with a business process, and (4) changing how we communicate with customers. <br/><br/>These results sound great, but along this journey and various engagements, we have learned some principles that are needed to make such a project or transformation successful.  The discussion is to share these concepts so that your future projects contemplate these items and take the best first step toward a successful IoT solution construction effort.<br/><br/>In our presentation, we will support this discussion with some real-life stories and experiences to provide context.  In our role of IoT system integrators and business consultants, we have been able to solve problems in various industries and with different tech stacks."
+      },
+      {
+        "Id": 87,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Embedding Test Automation into your DNA",
+        "Description": "The requirements for test automation have changed over the years. No longer is it acceptable for a test automation team to receive code and then begin the often arduous task of developing automated tests. Test automation needs to be embedded within the DNA of an organizations SDLC, enabling faster feature development, higher quality releases, and faster turnaround adapting to your market or customer’s changing requirements. Those organizations that are not yet adopting test automation will find themselves challenged in keep up with the pace or business, regardless of the industry in which you operate. <br/><br/>This talk will share with you some of the fundamental concepts of modern test automation along with practices on when to leverage specific techniques. This talk is fairly test tool agnostic however we will cover some of the popular tools available to organizations today.<br/>"
+      }
+    ]
+  },
+  {
     "Id": 638,
     "FirstName": "Shawn",
     "LastName": "McKinney",
@@ -396,13 +406,57 @@
     ]
   },
   {
+    "Id": 639,
+    "FirstName": "Josh",
+    "LastName": "Cypher",
+    "Bio": "Josh Cypher is a QA Engineer at Emma, Inc. Before Emma, he spent five years as a product manager, learning to code in an effort to better understand his developers. When he took the leap into automated testing, he never looked back and has continued to apply testing principles across the whole delivery process.<br/><br/>Josh is an avid cyclist and often commutes to work on his beloved Bianchi road bike. In his off hours, he enjoys spending time with his wife, Rachel, and his dog, Alistair. He is a board & video game enthusiast, woodworker, and an excellent campfire cook.",
+    "Website": "",
+    "Twitter": "joshuacypher",
+    "Photo": "/public/img/speakers/cypher-josh.jpg",
+    "Company": "Emma, Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 86,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Continuous Testing With React, Storybook, and WebdriverIO",
+        "Description": "Working in a continuous testing environment requires us to think on multiple levels about how we test our code.  <br/><br/>We have our core component library which we can sandbox and experiment with in React Storybook.  We can test our components thoroughly here in *multiple browsers* to check compatibility and function.  <br/><br/>Then we assemble our components in a react app, where we implement another level of unit and functional testing. <br/><br/>Our react app has very specific goals, which we can acceptance test through WebdriverIO (Selenium). All of this can run in the background *and* on a continuous integration server as part of our build process so we can continually iterate on our code without fear of introducing breaking changes.  <br/><br/>This tight feedback loop is key for pursuing continuous deployment and rapid delivery of code and allows us to go further with greater confidence than before.  <br/><br/>In this talk, we will walk through some tooling and explore examples of how you can implement continuous testing in your delivery lifecycle using thing like React, Redux, Storybook, Mocha, Jest, WebdriverIO, Selenium, and GO CI."
+      }
+    ]
+  },
+  {
+    "Id": 640,
+    "FirstName": "Corrie Moore/ Blain Purtle",
+    "LastName": null,
+    "Bio": "This information has been redacted for security purposes. ",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/-corrie moore/ blain purtle.jpg",
+    "Company": "INA",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 88,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "No WAF'ing Matter",
+        "Description": "<p>There are vulnerabilities everywhere.  Additionally, there are malicious people who can and will take advantage of these vulnerabilities.  As developers, it is our responsibility to protect ourselves from these attackers. </p><br/><br/><p>Because it is near impossible to write secure code 100% of the time we must rely on features that will help recognize when our code is being attacked, and help prevent it in the future.  One way we can do this is by implementing a Web Application Firewall (WAF).  A WAF will protect web and cloud applications by providing a set of rules that will cover some of the most common attacks such as cross-site scripting (XSS) and SQL injection.  Both XSS and SQL Injection rank first and third in the Open Web Application Security Project's (OWASP) list of top ten most critical web application security risks.  </p>"
+      }
+    ]
+  },
+  {
     "Id": 641,
     "FirstName": "Ryan",
     "LastName": "Tablada",
     "Bio": "Ryan started in the fire of the startup world working on projects in many different fields and training Junior Developers at The Iron Yard.<br/>He has made his way as a contributor in the Laravel, Node, Adonis, and Ember communities.<br/>Ryan now works at Prototypal working on Embercasts, training, and large interactive web applications for large companies across the US.",
     "Website": "http://ryantablada.com",
     "Twitter": "ryantablada",
-    "Photo": null,
+    "Photo": "/public/img/speakers/tablada-ryan.jpg",
     "Company": "Prototypal",
     "LinkedIn": null,
     "Presentations": [
