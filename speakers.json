@@ -216,7 +216,29 @@
         "Room": null,
         "SessionNumber": null,
         "Topic": "Introduction to Web Components & Polymer",
-        "Description": "With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the <template> tag, Custom Elements, and the Shadow DOM. <br/><br/>This workshop assumes an understanding of HTML, CSS & JavaScript. No prior experience with Web Components, Polymer, or any library or framework (Web Components or otherwise) is required."
+        "Description": "With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the &lt;template&gt; tag, Custom Elements, and the Shadow DOM. <br/><br/>This workshop assumes an understanding of HTML, CSS & JavaScript. No prior experience with Web Components, Polymer, or any library or framework (Web Components or otherwise) is required."
+      }
+    ]
+  },
+  {
+    "Id": 608,
+    "FirstName": "Shawn",
+    "LastName": "Weisfeld",
+    "Bio": "Shawn (http://www.shawnweisfeld.com, shawn@shawnweisfeld.com) is passionate about building awesome applications and websites with .NET technologies and Azure. He is currently a Cloud Solution Architect for Microsoft based in Austin TX and founder of http://UserGroup.tv. Read his full bio at http://about.me/shawnweisfeld",
+    "Website": "http://www.UserGroup.tv",
+    "Twitter": "shawnweisfeld",
+    "Photo": "/public/img/speakers/weisfeld-shawn.jpg",
+    "Company": "Microsoft",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 27,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "CI/CD with VisualStudio.com and Azure",
+        "Description": "In this talk we will take a simple ASP.NET MVC application and check it in to VisualStudio.com Source Control. We will then use the online Build tools to automate builds on check-in. Then using the online release management we will automate deploying it to our Dev, QA and Production environments. All the while ensuring that we keep all of the configuration for each of these environments safe. "
       }
     ]
   },
@@ -282,7 +304,51 @@
         "Room": null,
         "SessionNumber": null,
         "Topic": "Java Performance in 30 Minutes",
-        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations shows one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the \u0027P\u0027 in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the \u0027A\u0027 in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the \u0027t\u0027 in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need for a the Java profiler in production.<br/><br/>## heap -- the \u0027h\u0027 in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, and learn a few tips for diagnosing memory leaks."
+        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations shows one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need for a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, and learn a few tips for diagnosing memory leaks."
+      }
+    ]
+  },
+  {
+    "Id": 614,
+    "FirstName": "Taylor",
+    "LastName": "Otwell",
+    "Bio": "Taylor Otwell is the creator of the Laravel PHP framework, which has become the most popular PHP web framework in the world. Taylor is also the founder of Forge and Envoyer, which provide server provisioning and deployment solutions for PHP.",
+    "Website": "http://laravel.com",
+    "Twitter": "taylorotwell",
+    "Photo": "/public/img/speakers/otwell-taylor.jpg",
+    "Company": "Laravel",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 39,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Building Web Applications With Laravel",
+        "Description": "In this talk, the creator of Laravel we'll take you on a tour through Laravel and how it can be used to build modern, robust, and testable web applications. The talk will cover the entire MVC stack from routing to views, as well as other services provided by Laravel such as the dependency injection container, background job processing, real-time events, and database interaction."
+      }
+    ]
+  },
+  {
+    "Id": 615,
+    "FirstName": "Jennifer",
+    "LastName": "Moes",
+    "Bio": "Jennifer Moes is currently a Solutions Lead Analyst for CSG international.  As an Agile Practitioner and with experience in business strategy, business analysis and product management, she has focused software development teams to engage in the practices of user experience and human centered design to drive and innovate solutions that not only solve problems, but to understand the customers needs and expectations for successful product launch and adoption.<br/><br/>Jennifer additionally does outreach for non profits to assisting them with content strategy for fundraising and marketing campaigns.  Understanding who the customer is you are reaching is not only important for content management, but continual engagement with the content.<br/><br/><br/>",
+    "Website": "https://www.linkedin.com/in/jennifer-moes-3985766",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/moes-jennifer.jpg",
+    "Company": "CSG International",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 40,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "This was not what I asked for?!",
+        "Description": "The best way to resolve a software problem for your customer is through understanding and analysis of the customer's experience of the their journey.  You begin by asking questions like \"how, why, what, when\" of the problem.  Exchanging details allows collaboration and trust to emerge between the end user and your development team.  The next step is storytelling through white boarding with the end user / customer;  this is where ideation begins.  When you can formulate a story around an problem - you identify details, steps, integration points, impacts and analysis to solve the problem.   Your team begins to grasp the customer's journey along with solution options to solve the problem.   <br/><br/>Let me show you how to break down the hardest issues with story telling.  This is a way to make sure your customer can tell the story of the problem you are solving, it forces you to be able to replicate the same story the customer is telling.  It aids in identifying gaps, prototyping and allows the team to think quickly to present options for solutions to the problem you are solving.  It creates a forum, that adapts quickly and allows validation of what you know and what you need to analyze further, through discovery with the end user.  Successful product adoptions do not start with product use, it will come from learning how to collaborate, communicate and ideate quickly with the customer on the solutions you develop with you team.<br/>"
       }
     ]
   },
@@ -331,6 +397,28 @@
     ]
   },
   {
+    "Id": 631,
+    "FirstName": "Hassan",
+    "LastName": "Bazzi",
+    "Bio": "I am a contributor to Preact and Preact CLI. I’m also 23 and have been involved in the scene since I was 12. This would be my first conference talk and something I’ve been wanting to do for a while. Super passionate about web. It took me half-way across the world from third-world Lebanon to San Francisco, and I hopefully want to make accessible, super performant websites the norm so people in places like Lebanon can surf the web with no limits. I will just need my laptop and a projector and it should all be easy from there. :) Really excited.",
+    "Website": "http://hassanbazzi.com",
+    "Twitter": "habazzi",
+    "Photo": "/public/img/speakers/bazzi-hassan.jpg",
+    "Company": "Vidy",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 74,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Building Light-weight PWAs with Speeeeed",
+        "Description": "The world is moving towards PWAs. Everyone wants apps to load faster, perform better, and provide richer content. The task of building PWAs can be a daunting and long, but what if I told you there are tools to make it easy and fun? Together, we'll explore ways of developing the latest in web technologies at a fraction of the time needed. We're talking about production-ready applications, and not just some random prototyping. Open source communities around the world have been tirelessly developing incredible tools and CLIs. These tools are sometimes overlooked by the community and are sometimes simply buried in the deep worlds of Open Source. Worry not, we will learn about these tools so you can take them right back to your daily life and instantly make an impact on your productivity and quality. We'll boot-strap apps in minutes, easily develop them, and serve them to the masses with a touch of a button. Are you ready to go to the next level?"
+      }
+    ]
+  },
+  {
     "Id": 634,
     "FirstName": "Micah",
     "LastName": "Silverman",
@@ -354,12 +442,12 @@
   },
   {
     "Id": 635,
-    "FirstName": "Robert Lentz & Mark Carleo",
-    "LastName": null,
-    "Bio": "Previous to joining Elyxor, Rob was Chief Revenue Officer for Smiley Technologies (STI).  Rob brings a broad knowledge of strategic planning, marketing, and sales, as well as software architecture and R&D expertise to the Elyxor team.  Prior to STI, Rob held executive roles at Acxiom, a 1+ billion dollar global marketing services firm, where he held a number of roles, including VP of Revenue Strategy, VP of International Delivery Services (with 600 associates across 9 countries), and Country Operations Leader for the Dutch and German businesses.  In addition, Rob has held technology and operations leadership roles at Celarix, Dazel, Andersen Consulting (now Accenture), and GE.  Rob also enjoys his role on the University of Arkansas at Little Rock College of Business Advisory Board, including some time as an adjunct faculty.  Rob is bi-lingual, with proficiency in German, and has spent large portions of his career working outside the US. Rob holds an MBA from the MIT Sloan School of Management, an MS in Computer Engineering from Syracuse University and a BS in Computer and Systems Engineering from Rensselaer. Rob is based out of Little Rock and leads the Elyxor office at this location.<br/><br/>Mark Carleo is founder and Managing Partner at Elyxor and has more than 35 years of experience in IT, software development, and project management. As CTO of Retail Convergence, Mark led the development and operations for Ruelala.com, a successful private sale e-commerce retailer. Mark was also co-founder and CTO of Celarix, an application service provider of supply chain management and execution tools acquired by GSX in 2003. Celarix's advanced multi-tenant SOA architecture and high-performance rules engine is used by leading retailers and manufactures to manage global manufacturing orders and shipments. Earlier, he was a partner with CSC Consulting, a large global professional services organization, where he focused on IT operations, order management, and supply-chain applications with retail, consumer products, and industrial companies.",
+    "FirstName": "Robert",
+    "LastName": "Lentz",
+    "Bio": "Previous to joining Elyxor, Rob was Chief Revenue Officer for Smiley Technologies (STI).  Rob brings a broad knowledge of strategic planning, marketing, and sales, as well as software architecture and R&D expertise to the Elyxor team.  Prior to STI, Rob held executive roles at Acxiom, a 1+ billion dollar global marketing services firm, where he held a number of roles, including VP of Revenue Strategy, VP of International Delivery Services (with 600 associates across 9 countries), and Country Operations Leader for the Dutch and German businesses.  In addition, Rob has held technology and operations leadership roles at Celarix, Dazel, Andersen Consulting (now Accenture), and GE.  Rob also enjoys his role on the University of Arkansas at Little Rock College of Business Advisory Board, including some time as an adjunct faculty.  Rob is bi-lingual, with proficiency in German, and has spent large portions of his career working outside the US. Rob holds an MBA from the MIT Sloan School of Management, an MS in Computer Engineering from Syracuse University and a BS in Computer and Systems Engineering from Rensselaer. Rob is based out of Little Rock and leads the Elyxor office at this location.",
     "Website": "http://www.elyxor.com",
     "Twitter": null,
-    "Photo": "/public/img/speakers/-robert lentz & mark carleo.jpg",
+    "Photo": "/public/img/speakers/lentz-robert.jpg",
     "Company": "Elyxor",
     "LinkedIn": null,
     "Presentations": [
@@ -429,12 +517,12 @@
   },
   {
     "Id": 640,
-    "FirstName": "Corrie Moore/ Blain Purtle",
+    "FirstName": "Corrie Moore",
     "LastName": null,
-    "Bio": "This information has been redacted for security purposes. ",
-    "Website": "",
-    "Twitter": "",
-    "Photo": "/public/img/speakers/-corrie moore/ blain purtle.jpg",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/-corrie moore.jpg",
     "Company": "INA",
     "LinkedIn": null,
     "Presentations": [
@@ -468,6 +556,50 @@
         "SessionNumber": null,
         "Topic": "Productive Front End Test Driven Development That ACTUALLY Works",
         "Description": "Often the phrase \"Rapid Application Development\" means writing code that is mostly meant to be thrown away, but does it have to? With Acceptance Testing and the right tooling, you can be confident that your productive and rapid application development workflow will live on and not break for years to come (yes YEARS).<br/><br/><br/>In this talk, we'll look at live coding a CRUD interface for a T-Shirt store fully test driven.We'll be using Ember, Ember CLI, Bulma, and QUnit as a base to confidently make the application.At the end, we will have a tested application with Continuous Integration on TravisCI and auto deployed to Surge.sh."
+      }
+    ]
+  },
+  {
+    "Id": 645,
+    "FirstName": "Blain",
+    "LastName": "Purtle",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/purtle-blain.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 99,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "No WAF'ing Matter",
+        "Description": "<p>There are vulnerabilities everywhere.  Additionally, there are malicious people who can and will take advantage of these vulnerabilities.  As developers, it is our responsibility to protect ourselves from these attackers. </p><br/><br/><p>Because it is near impossible to write secure code 100% of the time we must rely on features that will help recognize when our code is being attacked, and help prevent it in the future.  One way we can do this is by implementing a Web Application Firewall (WAF).  A WAF will protect web and cloud applications by providing a set of rules that will cover some of the most common attacks such as cross-site scripting (XSS) and SQL injection.  Both XSS and SQL Injection rank first and third in the Open Web Application Security Project's (OWASP) list of top ten most critical web application security risks.  </p>"
+      }
+    ]
+  },
+  {
+    "Id": 646,
+    "FirstName": "Mark",
+    "LastName": "Carleo",
+    "Bio": "Mark Carleo is founder and Managing Partner at Elyxor and has more than 35 years of experience in IT, software development, and project management. As CTO of Retail Convergence, Mark led the development and operations for Ruelala.com, a successful private sale e-commerce retailer. Mark was also co-founder and CTO of Celarix, an application service provider of supply chain management and execution tools acquired by GSX in 2003. Celarix's advanced multi-tenant SOA architecture and high-performance rules engine is used by leading retailers and manufactures to manage global manufacturing orders and shipments. Earlier, he was a partner with CSC Consulting, a large global professional services organization, where he focused on IT operations, order management, and supply-chain applications with retail, consumer products, and industrial companies.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/carleo-mark.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 100,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Real Life IoT - Principles for Success",
+        "Description": "Elyxor has worked through some real-life IoT projects to transform business processes in the Industrial IoT (often called M2M) space.  As the industry matures, it is becoming more clear that well designed  business and technology IoT architectures can result in (1) elimination of process waste resulting in saved time and cost, (2) improved data insights to your business, (3) changing experiences for individuals interacting with a business process, and (4) changing how we communicate with customers. <br/><br/>These results sound great, but along this journey and various engagements, we have learned some principles that are needed to make such a project or transformation successful.  The discussion is to share these concepts so that your future projects contemplate these items and take the best first step toward a successful IoT solution construction effort.<br/><br/>In our presentation, we will support this discussion with some real-life stories and experiences to provide context.  In our role of IoT system integrators and business consultants, we have been able to solve problems in various industries and with different tech stacks."
       }
     ]
   }
