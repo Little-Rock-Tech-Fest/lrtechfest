@@ -58,5 +58,17 @@
 		"appLink": "http://www.euronetworldwide.com/corporate/careers.cfm?cjobid=AQ548940127&rpid=26174&webapp=1",
 		"orgName": "Euronet Software Solutions",
 		"orgDesc": "<p>Euronet provides secure electronic financial transaction solutions and has received notable industry accolades for its financial success and business innovations. With three primary business segments and local operations in 55 countries, Euronet employs approximately 5,600 professionals. At Euronet, we understand that behind the success of our Company are our employees. We are proud of our diverse team, which works from 59 different global offices. Euronet serves clients in approximately 165 countries, providing our employees with unparalleled opportunities with which to build their careers and skills. We offer a competitive salary and benefits package, as well as the opportunity for professional — and personal — growth. A career at Euronet offers you access to some of the most exciting and dynamic challenges of your lifetime.</p>"
+	},
+	{
+		"id": 6,
+		"logo": "/public/img/sponsors/inuvo_logo.png",
+		"datePosted": "2017-23-8",
+		"posTitle": "Java Engineer",
+		"location": "Little Rock, AR",
+		"posType": "Full Time",
+		"posDesc": "<h6>Java Software Engineer</h6><p>Inuvo is looking to hire a talented engineer to join a growing software development team. Engineers in this role will play an integral part in the design and development of a native ad delivery platform. Ideal candidates will be creative in design, diligent in problem solving, dedicated to the quality of their work, skilled in one or more required technologies, and overall versatile.</p>​<h6>Primary Responsibilities:</h6><ul><li>Contribute to the design, implementation, and deployment of high performance and highly scalable services and web applications.</li><li>Lead the development effort for our media product components, including the Real Time Bidding (RTB) architecture, the ad serving infrastructure, and all components related to a media campaign life cycle.</li><li>Implement business-critical internal web applications, specifically for campaign management, targeting, and optimization.</li></ul><h6>Qualifications:</h6><ul><li>BS/MS in Computer Science or related technical field.</li><li>10+ years of software development experience, building and shipping Java web based applications.</li><li>Excellent core Java coding skills (Java guru) and solid OOP design skills.</li><li>Good knowledge of database concepts, and experience with related data access technologies (SQL & Stored Procedures, NoSQL based: Cassandra, Redis).</li><li>Comfortable performing many roles: architect, main developer, QA.</li><li>Significant development experience in a Linux environment preferred.</li><li>Experience with large-scale data processing (Hadoop and M/R) a big plus.</li><li>Experience with RTB and the OpenRTB protocol, a big plus.</li><li>Working knowledge of Internet protocols, networks, Python, Perl and/or Shell, Web services, SOAP, REST, a plus.</li><li>Basic experience with the DSP stack (demand/supply chain, campaign management, KPIs) a plus.</li></ul>",
+		"appLink": "http://inuvo.com/careers/",
+		"orgName": "Inuvo",
+		"orgDesc": "<p>Inuvo delivers superior results for advertisers and publishers by connecting the right consumers with the right advertisers at the right time.Our unique technology and partnerships enable a sophisticated mix of search and display ads that are highly viewable, relevant, and calibrated to enhance the user experience.</p>"
 	}
 ]

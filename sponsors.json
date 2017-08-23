@@ -48,6 +48,18 @@
 	"Website": "http://www.lindseysoftware.com/"
 	},
 	{
+	"Name": "ACDI",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/acdi.png",
+	"Website": "http://www.acd-inc.com/"
+	},
+	{
+	"Name": "Inuvo",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/inuvo_logo.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
@@ -70,5 +82,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/bawlsguarana-logo.jpg",
 	"Website": "http://www.bawls.com/"
+	},
+	{
+	"Name": "Information Network of Arkansas",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/ina.png",
+	"Website": "https://ina.arkansas.gov/"
 	}
 ]
