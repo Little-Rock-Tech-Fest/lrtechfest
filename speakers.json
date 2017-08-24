@@ -561,12 +561,12 @@
   },
   {
     "Id": 640,
-    "FirstName": "Corrie Moore",
-    "LastName": null,
+    "FirstName": "Corrie",
+    "LastName": "Moore",
     "Bio": null,
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/-corrie moore.jpg",
+    "Photo": "/public/img/speakers/moore-corrie.jpg",
     "Company": "INA",
     "LinkedIn": null,
     "Presentations": [
