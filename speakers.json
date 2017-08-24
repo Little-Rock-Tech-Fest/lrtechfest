@@ -14,9 +14,9 @@
       {
         "Id": 5,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 6,
         "Topic": "Instant Mobile Web: An Accelerated Mobile Pages primer",
         "Description": "In Oct 2016, mobile and tablet internet usage exceeded desktop for the first time worldwide! With **over 50% of your users on their phones**, is your web app optimised for them?<br/><br/>[Accelerated Mobile Pages (AMP)](https://www.ampproject.org/) is an open-source initiative, a Javascript library for building **lightening speed mobile web apps**. As of May 2017, there are over 2billion AMP pages and growing! The Washington Post, eBay, Airbnb - these are just some companies who are using AMP in their web products<br/><br/>We will look under the hood and learn about how **AMP optimizes mobile web performance** with resource allocation, invisible ink, sandbox iFrames and more. Attendees will learn about what makes AMP pages lightning fast on mobile, and get up and running with a **code demo.**<br/><br/>Attendees will learn first hand about: <br/><br/>1. How AMP addresses mobile user pains <br/>2. How to build a valid AMP page with navigation, embedded media, and user interactivity. <br/>3. Future AMP integration with progressive web apps (PWA)<br/><br/>This talk is suitable for beginner and intermediate developers with experience in Javascript. [Click here for Presentation slides](bit.ly/AMPCorgi)"
       }
@@ -36,9 +36,9 @@
       {
         "Id": 28,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
         "Topic": "Creating Bots with the Microsoft Bot Framework",
         "Description": "Every wonder how a bot works? How it carries on a conversation, or helps you book a hotel room?<br/> <br/>The Microsoft Bot Framework is not just about Skype. You can build bots for Skype, Facebook, Slack, SMS and much more. You can leverage your existing C# skills and create interactive bots that can assist users.<br/> <br/>In this session you will see a bot created in real time, as well as learn about the considerations for building a useful and successful bot.<br/>"
       }
@@ -58,9 +58,9 @@
       {
         "Id": 35,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 5,
         "Topic": "Building Your Evil(?) Empire with Azure Functions",
         "Description": "By now, you've probably heard about how awesome Azure Functions really are. From offloading functionality to automating processing, they allow you to harness the cloud to your bidding, whether it’s the dirty work of processing your data or informing your henchmen about your next plot to take over the world. Whether your preference is C#, JS, Python, or a slew of other languages, you can program just about anything with Azure Functions and execute it with triggers, timers, or HTTP requests. In this session, Kentico Technical Evangelist and Azure super-fan Bryan Soltis will show you add Azure Functions to your arsenal and build amazing cloud solutions."
       }
@@ -80,9 +80,9 @@
       {
         "Id": 20,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 3,
         "Topic": "Secrets from the Agile Manifesto Authors on Flow",
         "Description": "I have been lucky enough to personally interview 14 of the agile manifesto authors, a project that has totally shifted my perspective on agility and working with teams.  This project was the vision of my team – the Agile Uprising – and was conducted over 6 months and chronicled via a globally distributed podcast.  During this time period, our podcast went from 0 listeners to an average of 8,000 per month.<br/><br/>The initial inception of the project was to tell the story behind the manifesto and it’s authors.  The trigger was some work we were doing with Ken Schwaber and it was cancelled due to his failing health.  We realized there was a huge moment in software history that had not been told, and these men were not getting any younger.  We intended to interview each to understand what they were doing before, during and shortly after the Manifesto event in 2001.  As the interviews started adding up, we heard a story of what Agile was meant to be, versus what it has become.<br/><br/>We learned that there were essentially 3 themes in all 14 interviews:<br/>1.\tFocus on technical practices<br/>2.\tBuild strong, empowered, teams<br/>3.\tEstablish mindfulness in delivery organizations<br/><br/>These 3 simple bullets are generally missed in most agile adoptions and transformations.  Perhaps parts or some aspects are met, but on-whole, they are lacking. We focus too much on agile as a topic of didactic learning, and not a mindset.  And what you see really emerge as a thing of beauty, is the residual benefits where these themes intersect.  When Mindfulness and Technical Practices overlap you form strong process and integrated DevOps.  Where Strong Teams and Technical Practices overlap you find rapid delivery of high quality working software.  And where you find the convergence of all three elements, you find true value delivery flow.<br/><br/>This talk hones in on the re-centering of agile intent.  It is agnostic of certification and scaling conversations, and builds a solid argument for the movements in Alistair Cockburn’s “Heart of Agile”, Joshua Kerievsky’s “Modern Agile” and Bob Martin’s “Clean Coder” movements.<br/><br/>As the talk wraps, I provide hope for the future of agile.  A direction for attendees to move and an attempt to challenge the larger agile anti-patterns that are very prevalent in practice today.<br/>"
       }
@@ -102,9 +102,9 @@
       {
         "Id": 11,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 2,
         "Topic": "Build Your Mobile App with Notifications",
         "Description": "Learn how to add notifications, remote and local, to your application.  Whether it’s an iOS, Android, or Windows, it’s easy to add notifications.  We will take a look at using AWS Notification Service, Azure Notification Hub, and even doing your own Push Notifications with PushSharp.<br/><br/>Push notifications are a mainstay for making a polished and well-rounded application.  It's important on how you handle your notifications and display them.  The wrong sound or not navigating to the item can make for a poor user experience."
       }
@@ -124,11 +124,33 @@
       {
         "Id": 16,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 1,
         "Topic": "Technical Debt: The Silent Killer",
         "Description": "Technical Debt: The Silent Killer<br/>=========================<br/><br/>Overview<br/>-------------<br/>Technical debt is no different from any other debt or liability a company holds. If left alone for enough time, it will slow down development to a crawl and halt the company's innovation in its tracks. Therefore, it must be paid off over time to prevent a technological apocalypse. <br/><br/>This talk will showcase a few different strategies to pay off technical debt. Each strategy takes a balanced approach that does not encourage rewriting applications plagued by technical debt. Rewriting may be the most effective way of reducing technical debt, but it is impractical for most software companies. Features still need to be delivered while paying off technical debt. No matter the development process used by your company, you can incorporate these strategies into your workflow.<br/><br/>Reasons for Accumulation<br/>--------------------------------------<br/>Technical debt accumulates due to various factors beyond control of a company's developers. These problems must be addressed in the strategy for combating it. Developers must communicate the importance of implementing solutions to these problems to other departments at the company. Other departments may not understand why paying off technical debt is so important, but they can understand the consequences if the debt accumulates for too long.<br/><br/>Problems leading to technical debt accumulation:<br/><br/>+ Lack of development resources<br/>+ Not enough executive buy-in <br/>+ Features taking precedence over platform stability<br/>+ Ignoring metrics that point to legacy code problems<br/>*    The \"Just one more thing, first\" attitude<br/><br/>Development Strategies<br/>-----------------------------------<br/>Complex problems often require complex solutions. Developing a sound strategy for paying off the company's technical debt should be at the forefront of every developer's mind. Every viable strategy will require time to implement and will not instantly solve the technical debt problem. These strategies must be incorporated into the development process and adhered to so that the technical debt may be paid over time. For most software companies, this will be a long road, but persistence and vigilance always pay the best dividends. <br/><br/>Outcome<br/>-------------<br/>This talk will equip every attendee with strategies to tackle their company's technical debt issues and improve their development processes. "
+      }
+    ]
+  },
+  {
+    "Id": 602,
+    "FirstName": "Jeremy",
+    "LastName": "Jones",
+    "Bio": "Jeremy Jones is currently the Lead Designer and Front End Developer at Mainstream Technologies. Jeremy has over 13 years’ experience that spans both print and digital media. His most recent position was a four-year term as Creative Director for an Inc. 5000 company. His earlier experience in the digital space includes Web Design, User Interface (UI), User Experience (UX) and front-end development.",
+    "Website": "http://www.jerdesign.net",
+    "Twitter": "jerwjones",
+    "Photo": "/public/img/speakers/jones-jeremy.jpg",
+    "Company": "Mainstream Technologies, Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 18,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 5,
+        "Topic": "Lying with Data: Designing Honest Dashboards",
+        "Description": "Unfortunately data can lie, and it’s not even intentional. Everyone from business owners to consumers want insights from the software they use daily. But how can we make sure that the data is being visualized accurately and effectively? Learn how to craft honest and insightful dashboards by avoiding common pitfalls inherent with data visualization. This design centric presentation goes through the entire process of dashboard design including: data visualization, creating a color palette, accessibility, and working with data. "
       }
     ]
   },
@@ -146,9 +168,9 @@
       {
         "Id": 19,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 6,
         "Topic": "Automation 101",
         "Description": "Automation is often misunderstood, and means a lot of different things to a lot of different people. I want to help change that. By drawing on my years of experience building and managing automation teams within a variety of environment, I will walk you through the things you should or shouldn't do. I'll help you understand what things need to be considered, and what things you should simply pass on. I'm not going to teach you how to automate, but I AM gonna to teach you how to succeed at it."
       }
@@ -168,9 +190,9 @@
       {
         "Id": 21,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 4,
         "Topic": "From Turing to Big Data: A Look at Computing and Analytics",
         "Description": "A look at where computing and analytics began and where it is headed.<br/>The basis of all DevOps and development starts with our measurements.  We need to understand what role analytics and metrics plays in modern computing.  To find out, we look at where analytics began in the advent of computer science and where we stand today, with an eye toward the future."
       }
@@ -190,9 +212,9 @@
       {
         "Id": 23,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "Up & Running with Graph Databases",
         "Description": "A summary of what attendees will learn:<br/><br/> - An understanding of graph databases <br/> - Introduction to data modeling with Graph databases <br/> - Setting up a graph database<br/> - Connecting to the graph and CRUD operations<br/> - Building a graph enabled application"
       }
@@ -212,9 +234,9 @@
       {
         "Id": 26,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 5,
         "Topic": "Introduction to Web Components & Polymer",
         "Description": "With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the &lt;template&gt; tag, Custom Elements, and the Shadow DOM. <br/><br/>This workshop assumes an understanding of HTML, CSS & JavaScript. No prior experience with Web Components, Polymer, or any library or framework (Web Components or otherwise) is required."
       }
@@ -234,9 +256,9 @@
       {
         "Id": 27,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 2,
         "Topic": "CI/CD with VisualStudio.com and Azure",
         "Description": "In this talk we will take a simple ASP.NET MVC application and check it in to VisualStudio.com Source Control. We will then use the online Build tools to automate builds on check-in. Then using the online release management we will automate deploying it to our Dev, QA and Production environments. All the while ensuring that we keep all of the configuration for each of these environments safe. "
       }
@@ -256,9 +278,9 @@
       {
         "Id": 34,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 3,
         "Topic": "Web Components: A simpler and faster React",
         "Description": "You’ll learn why components simplify building large applications and how to carry that through your full stack. You’ll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Web Components with Google Polymer. Find out how Comcast simplified its server architecture and development process - making it faster to add new features and easier to maintain. You’ll walk away from this talk feeling motivated and empowered to simplify your architecture.<br/>"
       }
@@ -278,9 +300,9 @@
       {
         "Id": 37,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "A Remote Possibility",
         "Description": "#Making Remote Work, Work<br/><br/><br/>1. You've just started a remote job and want to know how to do it well. <br/><br/>2. You're intrigued by the idea of working remote but feel intimidated by managing your time at home. <br/><br/>3. You've been doing it a long time and just need some motivation to get out of your pajamas occasionally. <br/><br/>If any of these describe you, this session is going to help you make the most of working at home. You'll learn how to reap the rewards of having autonomy in your day while also bringing a lot of value to your job. <br/><br/>Get answers to some often asked questions about remote work:<br/><br/>- Where can I find a remote job? <br/>- How do I keep from being bored? <br/>- How can I make sure I'll wake up and get to work in the morning? <br/>- What do I do about house distractions (pets, kids, lawn or cleaning services)? <br/>- What do I do when my internet goes down? <br/><br/>Lastly, once you are working remotely, it's helpful to have some methods for battling the loneliness of working on your own day to day. You'll walk away armed with many ideas to help keep your day your own without being \"on your own.\""
       }
@@ -300,9 +322,9 @@
       {
         "Id": 38,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 1,
         "Topic": "Java Performance in 30 Minutes",
         "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations shows one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need for a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, and learn a few tips for diagnosing memory leaks."
       }
@@ -322,9 +344,9 @@
       {
         "Id": 39,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 5,
         "Topic": "Building Web Applications With Laravel",
         "Description": "In this talk, the creator of Laravel we'll take you on a tour through Laravel and how it can be used to build modern, robust, and testable web applications. The talk will cover the entire MVC stack from routing to views, as well as other services provided by Laravel such as the dependency injection container, background job processing, real-time events, and database interaction."
       }
@@ -336,7 +358,7 @@
     "LastName": "Moes",
     "Bio": "Jennifer Moes is currently a Solutions Lead Analyst for CSG international.  As an Agile Practitioner and with experience in business strategy, business analysis and product management, she has focused software development teams to engage in the practices of user experience and human centered design to drive and innovate solutions that not only solve problems, but to understand the customers needs and expectations for successful product launch and adoption.<br/><br/>Jennifer additionally does outreach for non profits to assisting them with content strategy for fundraising and marketing campaigns.  Understanding who the customer is you are reaching is not only important for content management, but continual engagement with the content.<br/><br/><br/>",
     "Website": "https://www.linkedin.com/in/jennifer-moes-3985766",
-    "Twitter": "",
+    "Twitter": null,
     "Photo": "/public/img/speakers/moes-jennifer.jpg",
     "Company": "CSG International",
     "LinkedIn": null,
@@ -344,9 +366,9 @@
       {
         "Id": 40,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "This was not what I asked for?!",
         "Description": "The best way to resolve a software problem for your customer is through understanding and analysis of the customer's experience of the their journey.  You begin by asking questions like \"how, why, what, when\" of the problem.  Exchanging details allows collaboration and trust to emerge between the end user and your development team.  The next step is storytelling through white boarding with the end user / customer;  this is where ideation begins.  When you can formulate a story around an problem - you identify details, steps, integration points, impacts and analysis to solve the problem.   Your team begins to grasp the customer's journey along with solution options to solve the problem.   <br/><br/>Let me show you how to break down the hardest issues with story telling.  This is a way to make sure your customer can tell the story of the problem you are solving, it forces you to be able to replicate the same story the customer is telling.  It aids in identifying gaps, prototyping and allows the team to think quickly to present options for solutions to the problem you are solving.  It creates a forum, that adapts quickly and allows validation of what you know and what you need to analyze further, through discovery with the end user.  Successful product adoptions do not start with product use, it will come from learning how to collaborate, communicate and ideate quickly with the customer on the solutions you develop with you team.<br/>"
       }
@@ -366,9 +388,9 @@
       {
         "Id": 58,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "Have Your Best Season Yet: Becoming a (Microsoft) MVP",
         "Description": "Learn how following your passion and deepening your technical area of focus can help you create a wide-sweeping impact and how you can be awarded as an MVP! The MVP community is comprised of over 4,000 MVPs worldwide, and offers you a rich and diverse network of talented tech experts who can help you learn new skills and advance your career. As an MVP, you also gain insider access to Microsoft product development teams, and a plethora of other benefits. Come join the discussion and learn how to reap the rewards of your best season yet!<br/><br/>I delivered this talk at CodeMash in Sandusky, Ohio, and had a panel of 7 MVPs speak for part of the session to educate attendees on how they can be awarded in the future. Many of the attendees noted on Twitter that this was their favorite session of CodeMash. Attendees have appreciated the transparency and awareness I bring to the MVP nomination process through this talk. It is also a great way for attendees to meet Microsoft MVPs and make connections with other community leaders since much of the talk is driven by questions from the audience. This talk is ideally suited to community leaders and those active in the community (speakers, bloggers, etc), but is also suitable for attendees who are new to the community and looking to build connections to widen their impact. <br/><br/>I keep things fun by bringing candy or a small giveaway to encourage participation and to keep people bright eyed in the event that the talk is scheduled after lunch. "
       }
@@ -388,9 +410,9 @@
       {
         "Id": 61,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 4,
         "Topic": "Lean-Agile Learning Through Games",
         "Description": "Most agile practitioners first learn agile by reading a book, attending a class, or attending local meetings. But learning lean and agile concepts works best when we're able to put some concrete examples and practice behind the concept. By adding a set of games and exercises that teach and reinforce lean and agile concepts to our toolboxes, change agents can provide some practical basis for conversations both inside and outside their organization. Being able to talk beyond anecdote and theory and actually demonstrate why something works the way we think it does is a powerful statement. <br/><br/>The games in this session will cover a variety of lean and agile concepts, including:<br/>- Preferring small batch sizes and maximizing customer value<br/>- Identifying bottlenecks and the differences between local and system-wide optimizations<br/>- Encouraging experimentation and risk-taking<br/>- Demonstrating the need for good communication<br/>- Backlog prioritization and delivering on commitments <br/><br/>Following the workshop, attendees will have access to all of the workshop games and be able to run these exercises and games with their teams, managers, and executives."
       }
@@ -410,9 +432,9 @@
       {
         "Id": 74,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 3,
         "Topic": "Building Light-weight PWAs with Speeeeed",
         "Description": "The world is moving towards PWAs. Everyone wants apps to load faster, perform better, and provide richer content. The task of building PWAs can be a daunting and long, but what if I told you there are tools to make it easy and fun? Together, we'll explore ways of developing the latest in web technologies at a fraction of the time needed. We're talking about production-ready applications, and not just some random prototyping. Open source communities around the world have been tirelessly developing incredible tools and CLIs. These tools are sometimes overlooked by the community and are sometimes simply buried in the deep worlds of Open Source. Worry not, we will learn about these tools so you can take them right back to your daily life and instantly make an impact on your productivity and quality. We'll boot-strap apps in minutes, easily develop them, and serve them to the masses with a touch of a button. Are you ready to go to the next level?"
       }
@@ -432,9 +454,9 @@
       {
         "Id": 79,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 3,
         "Topic": "SOLID Principles in Action: from Slack to Twilio",
         "Description": "SOLID principles make software more flexible and maintainable.<br/><br/>In this talk, I touch on each of the principles:<br/><br/>Single responsibility principle<br/>Open/closed principle<br/>Liskov substitution principle<br/>Interface segregation principle<br/>Dependency inversion principle<br/><br/>However, rather than talk about them in the abstract, the talk focuses on a specific code example. The example starts out as a Slack integration that shows a random \"Magic the Gathering\" card in a channel when a certain command is issued. I refactor the code to integrate with Twilio and demonstrate each principle along the way.<br/><br/>The example is written as a Spring Boot application and all source is available on Github."
       }
@@ -454,18 +476,18 @@
       {
         "Id": 80,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 2,
         "Topic": "Real Life IoT - Principles for Success",
         "Description": "Elyxor has worked through some real-life IoT projects to transform business processes in the Industrial IoT (often called M2M) space.  As the industry matures, it is becoming more clear that well designed  business and technology IoT architectures can result in (1) elimination of process waste resulting in saved time and cost, (2) improved data insights to your business, (3) changing experiences for individuals interacting with a business process, and (4) changing how we communicate with customers. <br/><br/>These results sound great, but along this journey and various engagements, we have learned some principles that are needed to make such a project or transformation successful.  The discussion is to share these concepts so that your future projects contemplate these items and take the best first step toward a successful IoT solution construction effort.<br/><br/>In our presentation, we will support this discussion with some real-life stories and experiences to provide context.  In our role of IoT system integrators and business consultants, we have been able to solve problems in various industries and with different tech stacks."
       },
       {
         "Id": 87,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 3,
         "Topic": "Embedding Test Automation into your DNA",
         "Description": "The requirements for test automation have changed over the years. No longer is it acceptable for a test automation team to receive code and then begin the often arduous task of developing automated tests. Test automation needs to be embedded within the DNA of an organizations SDLC, enabling faster feature development, higher quality releases, and faster turnaround adapting to your market or customer’s changing requirements. Those organizations that are not yet adopting test automation will find themselves challenged in keep up with the pace or business, regardless of the industry in which you operate. <br/><br/>This talk will share with you some of the fundamental concepts of modern test automation along with practices on when to leverage specific techniques. This talk is fairly test tool agnostic however we will cover some of the popular tools available to organizations today.<br/>"
       }
@@ -485,9 +507,9 @@
       {
         "Id": 85,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 1,
         "Topic": " The Anatomy of a Secure Web Application Using Java EE, Spring Security and Apache Fortress",
         "Description": "The idea for this talk started several years back, when I first began full-time with Symas. I was working on a project that spanned multiple companies with my friend and colleague, John Field, who's a security architect at EMC, now Pivotal.<br/><br/>At the time, we were working on a process to migrate legacy COBOL apps from running on their native IBM z/Series mainframe platform to run on top of open systems architectures, i.e. Linux.<br/><br/>These were massive programs with millions of lines of code, built over decades. Their conversion processes required mimicking the mainframe's legendary security controls onto Linux platforms, using what was available to us via native and non-native security controls.<br/><br/>This meant dealing with a multitude of security concerns across every tier of the system and into many of its sub-layers as well. Mandatory access controls were enforced on every node in the system.<br/><br/>Linux systems had to be hardened to the nth degree and at the same time, multiple grains of authorization were required within the platform layers. Fortunately, everything we needed to do all this was already readily available and usable, and easily found within the public domain.<br/><br/>Only open, established, and timeworn practices were being targeted. That is, technologies released under permissible licenses, like the Apache software license, and these things were allowed into the final design. Our problem wasn't with how to design the security system, per se, nor how to build it. Strangely, those were the easy parts.<br/><br/>The hard part for us was how do we convey the contents of its complex design to others in a way that is understandable? Because, many of us are not, shall we say, security afflicted, so despite recommending only best practices, their concepts remain arcane, complicated, and generally not known to the masses.<br/><br/>To break through this complexity barrier, John and I borrowed an idea remembered from our youth, and that is those science textbooks that depict the human anatomy. You remember the ones that use translucent pages, each with a particular organ, all overlaying together comprising the comprehensive image of the human body, complete with all of its sub-systems?<br/><br/>We thought this a good way to communicate our complicated security system design to others. We adapted this idea for our end-to-end security design layout. Each image corresponds with an individual security component contained within a typical web app from it's outer to innermost layers.<br/><br/>What's unique about this particular talk is that it started with those initial visual images of a typical web security system architecture.<br/><br/>Next, a test application was created to go along with those anatomy images. The test app mimicked a typical web system, complete with test pages, links, buttons, database tables, et cetera, all of which are under tight security controls of various types.<br/><br/>The goal of the test app was to create a comprehensive tutorial demonstrating all of the pertinent security controls that were contained within the anatomy diagram. Finally, we added instructions to install, deploy, and run the test app and published it all to GitHub.<br/><br/>The project is called The Apache Fortress Demo, and we used it in our live demos and it could also be used by anyone else who wants to try it out at home. During our live demos, we would simultaneously dissect and discuss the web system security functionality, switching between the Power Point slides visually depicting the images and into the concrete demo to show how it all worked in a live system.<br/><br/>Link to test application in github: https://github.com/shawnmckinney/apache-fortress-demo"
       }
@@ -498,7 +520,7 @@
     "FirstName": "Josh",
     "LastName": "Cypher",
     "Bio": "Josh Cypher is a QA Engineer at Emma, Inc. Before Emma, he spent five years as a product manager, learning to code in an effort to better understand his developers. When he took the leap into automated testing, he never looked back and has continued to apply testing principles across the whole delivery process.<br/><br/>Josh is an avid cyclist and often commutes to work on his beloved Bianchi road bike. In his off hours, he enjoys spending time with his wife, Rachel, and his dog, Alistair. He is a board & video game enthusiast, woodworker, and an excellent campfire cook.",
-    "Website": "",
+    "Website": null,
     "Twitter": "joshuacypher",
     "Photo": "/public/img/speakers/cypher-josh.jpg",
     "Company": "Emma, Inc.",
@@ -507,9 +529,9 @@
       {
         "Id": 86,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 3,
         "Topic": "Continuous Testing With React, Storybook, and WebdriverIO",
         "Description": "Working in a continuous testing environment requires us to think on multiple levels about how we test our code.  <br/><br/>We have our core component library which we can sandbox and experiment with in React Storybook.  We can test our components thoroughly here in *multiple browsers* to check compatibility and function.  <br/><br/>Then we assemble our components in a react app, where we implement another level of unit and functional testing. <br/><br/>Our react app has very specific goals, which we can acceptance test through WebdriverIO (Selenium). All of this can run in the background *and* on a continuous integration server as part of our build process so we can continually iterate on our code without fear of introducing breaking changes.  <br/><br/>This tight feedback loop is key for pursuing continuous deployment and rapid delivery of code and allows us to go further with greater confidence than before.  <br/><br/>In this talk, we will walk through some tooling and explore examples of how you can implement continuous testing in your delivery lifecycle using thing like React, Redux, Storybook, Mocha, Jest, WebdriverIO, Selenium, and GO CI."
       }
@@ -529,9 +551,9 @@
       {
         "Id": 88,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 2,
         "Topic": "No WAF'ing Matter",
         "Description": "<p>There are vulnerabilities everywhere.  Additionally, there are malicious people who can and will take advantage of these vulnerabilities.  As developers, it is our responsibility to protect ourselves from these attackers. </p><br/><br/><p>Because it is near impossible to write secure code 100% of the time we must rely on features that will help recognize when our code is being attacked, and help prevent it in the future.  One way we can do this is by implementing a Web Application Firewall (WAF).  A WAF will protect web and cloud applications by providing a set of rules that will cover some of the most common attacks such as cross-site scripting (XSS) and SQL injection.  Both XSS and SQL Injection rank first and third in the Open Web Application Security Project's (OWASP) list of top ten most critical web application security risks.  </p>"
       }
@@ -551,9 +573,9 @@
       {
         "Id": 89,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 4,
         "Topic": "Productive Front End Test Driven Development That ACTUALLY Works",
         "Description": "Often the phrase \"Rapid Application Development\" means writing code that is mostly meant to be thrown away, but does it have to? With Acceptance Testing and the right tooling, you can be confident that your productive and rapid application development workflow will live on and not break for years to come (yes YEARS).<br/><br/><br/>In this talk, we'll look at live coding a CRUD interface for a T-Shirt store fully test driven.We'll be using Ember, Ember CLI, Bulma, and QUnit as a base to confidently make the application.At the end, we will have a tested application with Continuous Integration on TravisCI and auto deployed to Surge.sh."
       }
@@ -573,9 +595,9 @@
       {
         "Id": 99,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 2,
         "Topic": "No WAF'ing Matter",
         "Description": "<p>There are vulnerabilities everywhere.  Additionally, there are malicious people who can and will take advantage of these vulnerabilities.  As developers, it is our responsibility to protect ourselves from these attackers. </p><br/><br/><p>Because it is near impossible to write secure code 100% of the time we must rely on features that will help recognize when our code is being attacked, and help prevent it in the future.  One way we can do this is by implementing a Web Application Firewall (WAF).  A WAF will protect web and cloud applications by providing a set of rules that will cover some of the most common attacks such as cross-site scripting (XSS) and SQL injection.  Both XSS and SQL Injection rank first and third in the Open Web Application Security Project's (OWASP) list of top ten most critical web application security risks.  </p>"
       }
@@ -595,9 +617,9 @@
       {
         "Id": 100,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 2,
         "Topic": "Real Life IoT - Principles for Success",
         "Description": "Elyxor has worked through some real-life IoT projects to transform business processes in the Industrial IoT (often called M2M) space.  As the industry matures, it is becoming more clear that well designed  business and technology IoT architectures can result in (1) elimination of process waste resulting in saved time and cost, (2) improved data insights to your business, (3) changing experiences for individuals interacting with a business process, and (4) changing how we communicate with customers. <br/><br/>These results sound great, but along this journey and various engagements, we have learned some principles that are needed to make such a project or transformation successful.  The discussion is to share these concepts so that your future projects contemplate these items and take the best first step toward a successful IoT solution construction effort.<br/><br/>In our presentation, we will support this discussion with some real-life stories and experiences to provide context.  In our role of IoT system integrators and business consultants, we have been able to solve problems in various industries and with different tech stacks."
       }
