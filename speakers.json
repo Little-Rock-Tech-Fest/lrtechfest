@@ -494,6 +494,28 @@
     ]
   },
   {
+    "Id": 636,
+    "FirstName": "Kevin",
+    "LastName": "Chenal",
+    "Bio": "Kevin Chenal is a Data Engineer at Dassault Falcon Jet. Graduated in Embedded Systems, he started as a mobile developer (Android and IOS) before focusing on the data field. For the last 3 years, his primary mission was to ensure accuracy of the information for the business through multiple channels (Reporting, ETL, Machine Learning, Master Data Management).",
+    "Website": "",
+    "Twitter": "Ecurienumerique",
+    "Photo": "/public/img/speakers/chenal-kevin.jpg",
+    "Company": "Dassault falcon jet",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 81,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Machine Learning : a business case of text classification",
+        "Description": "This talk provides an overview of a supervised classification problem applied to talk classification in a business context. It will go over the reasons on why we have chosen a machine learning approach and the different steps we have followed to solve this problem (establishment of a training set, feature engineering, algorithms, etc.). <br/><br/>"
+      }
+    ]
+  },
+  {
     "Id": 638,
     "FirstName": "Shawn",
     "LastName": "McKinney",
