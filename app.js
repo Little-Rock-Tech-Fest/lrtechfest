@@ -34,11 +34,12 @@ var gallery = [
 var team = [
 	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock', linkedin: 'dpollock68', github: 'dpollock', title: 'Developer', company: 'DataPath'},
 	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims', linkedin: 'abbysims', github: 'asims', title: 'Owner/Developer', company: 'Idestini Dev Studio'},
-	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower', linkedin: 'pmgower', github: 'pmgower', title: 'Owner/Developer', company: 'Lunamark'},
+	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower', linkedin: 'pmgower', github: 'pmgower', title: 'CTO, Kanban Coach', company: 'Aristotle, Inc.'},
 	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei', linkedin: 'kyle-neumeier-1270728', github: 'kneumei', title: 'Software Developer', company: 'CareEvolution'},
 	{name: 'Schell Gower', imgUrl: '/public/img/team/schell.png', twitter: 'schellg', linkedin: 'schell-gower-8771769', title: 'Marketing Consultant', company: 'LunaMarketing'},
 	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png', title: 'Developer', linkedin: 'michael-collins-37553570', github: 'michaeljeffreycollins', company: 'Arkansas Children\'s Hospital'},
-	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'}
+	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'},
+	{name: 'Kate Wills', imgUrl: '/public/img/team/kate.jpg', twitter: 'KateWills501', linkedin: 'katewills501', github: 'KateWills501', title: 'Software Developer', company: 'Ingen Software'}
 ];
 
 var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
@@ -59,7 +60,7 @@ speakers.forEach(function(speaker){
 		presentation.SpeakerId = speaker.Id
 		presentation.SpeakerName = speaker.FirstName + " " + speaker.LastName
 		presentation.Photo = speaker.Photo
-		if (presentation.Day) { 
+		if (presentation.Day) {
 			var timeId =  presentation.Day.toString() + "-" + presentation.SessionNumber;
 			presentation.Time = times[timeId];
 		}

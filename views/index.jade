@@ -326,7 +326,39 @@ html
 									br
 									img.full-width-img(src="#{image.full_imgUrl}" alt="#{image.alt}")
 
+		section.section.align-center
+			.container
+				h5 LRTF brought to you with <i class="fa fa-heart"></i> by
+				.speakers.masonry
+					each member in team
+						.speaker.masonry-item
+							.speaker-top
+								.photo-wrapper
+									img.img-responsive(src="#{member.imgUrl}")
+								.speaker-title
+									h3.name #{member.name}
+									p.text-alt <small> #{member.title} @ #{member.company} </small>
+								ul.speaker-socials
+									if member.twitter
+										li
+											a(href="http://twitter.com/#{member.twitter}" target="_blank")
+												span.fa.fa-twitter
+									else
+										li &nbsp;
 
+									if member.linkedin
+										li
+											a(href="http://linkedin.com/in/#{member.linkedin}" target="_blank")
+												span.fa.fa-linkedin
+									else
+										li &nbsp;
+
+									if member.github
+										li
+											a(href="http://github.com/#{member.github}" target="_blank")
+												span.fa.fa-github
+									else
+										li &nbsp;
 
 		section.footer
 			.footer-base
