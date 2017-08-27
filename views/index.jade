@@ -207,7 +207,7 @@ html
 									li
 										| &nbsp;
 
-							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg btn-outline-clr" target="_blank") Buy now
+							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Student' });" target="_blank") Buy now
 					div.col-sm-4
 						div.package-column.special-column#earlybird
 							span.sale-label.uppercase Hot!
@@ -229,7 +229,7 @@ html
 										| &nbsp;
 									li
 										| &nbsp;
-							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg" target="_blank") Buy now
+							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg" onclick="fbq('track', 'Lead', { type: 'EarlyBird' });" target="_blank") Buy now
 
 					div.col-sm-4
 						div.package-column.disabled
@@ -252,7 +252,7 @@ html
 									li
 										| &nbsp;
 
-								a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg btn-outline-clr" target="_blank") Buy now
+								a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
 
 		section#sponsors.section.align-center
 					.container
@@ -326,7 +326,39 @@ html
 									br
 									img.full-width-img(src="#{image.full_imgUrl}" alt="#{image.alt}")
 
+		section.section.align-center
+			.container
+				h5 LRTF brought to you with <i class="fa fa-heart"></i> by
+				.speakers.masonry
+					each member in team
+						.speaker.masonry-item
+							.speaker-top
+								.photo-wrapper
+									img.img-responsive(src="#{member.imgUrl}")
+								.speaker-title
+									h3.name #{member.name}
+									p.text-alt <small> #{member.title} @ #{member.company} </small>
+								ul.speaker-socials
+									if member.twitter
+										li
+											a(href="http://twitter.com/#{member.twitter}" target="_blank")
+												span.fa.fa-twitter
+									else
+										li &nbsp;
 
+									if member.linkedin
+										li
+											a(href="http://linkedin.com/in/#{member.linkedin}" target="_blank")
+												span.fa.fa-linkedin
+									else
+										li &nbsp;
+
+									if member.github
+										li
+											a(href="http://github.com/#{member.github}" target="_blank")
+												span.fa.fa-github
+									else
+										li &nbsp;
 
 		section.footer
 			.footer-base
