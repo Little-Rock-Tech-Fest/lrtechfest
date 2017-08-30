@@ -503,15 +503,6 @@
         "SessionNumber": 2,
         "Topic": "Real Life IoT - Principles for Success",
         "Description": "Elyxor has worked through some real-life IoT projects to transform business processes in the Industrial IoT (often called M2M) space.  As the industry matures, it is becoming more clear that well designed  business and technology IoT architectures can result in (1) elimination of process waste resulting in saved time and cost, (2) improved data insights to your business, (3) changing experiences for individuals interacting with a business process, and (4) changing how we communicate with customers. <br/><br/>These results sound great, but along this journey and various engagements, we have learned some principles that are needed to make such a project or transformation successful.  The discussion is to share these concepts so that your future projects contemplate these items and take the best first step toward a successful IoT solution construction effort.<br/><br/>In our presentation, we will support this discussion with some real-life stories and experiences to provide context.  In our role of IoT system integrators and business consultants, we have been able to solve problems in various industries and with different tech stacks."
-      },
-      {
-        "Id": 87,
-        "Track": null,
-        "Day": 2,
-        "Room": "3",
-        "SessionNumber": 3,
-        "Topic": "Embedding Test Automation into your DNA",
-        "Description": "The requirements for test automation have changed over the years. No longer is it acceptable for a test automation team to receive code and then begin the often arduous task of developing automated tests. Test automation needs to be embedded within the DNA of an organizations SDLC, enabling faster feature development, higher quality releases, and faster turnaround adapting to your market or customer’s changing requirements. Those organizations that are not yet adopting test automation will find themselves challenged in keep up with the pace or business, regardless of the industry in which you operate. <br/><br/>This talk will share with you some of the fundamental concepts of modern test automation along with practices on when to leverage specific techniques. This talk is fairly test tool agnostic however we will cover some of the popular tools available to organizations today.<br/>"
       }
     ]
   },
@@ -626,6 +617,50 @@
     ]
   },
   {
+    "Id": 643,
+    "FirstName": "Dan",
+    "LastName": "Petit",
+    "Bio": "Dan Petit has been deep in the development world for most of his working life, serving as a developer, consultant, architect, and technical leader for a wide-variety of companies in the aerospace, telecommunications, insurance, hospitality, logistics, and service industries. Dan is the director of development operations at ServiceMaster, the leading provider of essential residential and commercial services. Dan and his team have been responsible for ServiceMaster’s DevOps practice and transformation, reducing cycle time of application changes from weeks to hours across dozens of agile development teams. He authored the book Real Visual Basic and numerous technical articles. Reach Dan at dan@danpetit.com.",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/petit-dan.jpg",
+    "Company": "ServiceMaster",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 92,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 1,
+        "Topic": "Pipeline as Code: A Model for Scaling CI/CD",
+        "Description": "Many companies begin their journey into DevOps by using open-source tools to stand up simple but effective continuous integration (CI) and continuous delivery (CD) pipelines for one or two small, leading-edge teams—as a proof-of-concept. These early successes are often followed by an overwhelming demand for more—more teams, more functionality, more traceability, and faster turnaround. DevOps teams may soon find that their initial effort, as effective as it was, does not scale consistently or quickly. After all it was only a proof of concept. This inability to scale slows the momentum created by the early successes. Dan Petit shares his experience with this exact situation, describing how creating a reusable pipeline-as-code script library allows development teams to manage their own pipelines in a self-service approach while simultaneously preserving quality and auditability. He describes the characteristics of the pipeline-as-code model, including its major components and control mechanisms. Finally, Dan explores techniques for capturing, visualizing, and learning from available telemetry, to help drive best-practices and ensure pipelines have consistent quality across all teams."
+      }
+    ]
+  },
+  {
+    "Id": 644,
+    "FirstName": "Kylie",
+    "LastName": "Schleicher",
+    "Bio": "Kylie Schleicher is a managing director, technology at VML, a full-service global marketing agency, where she is responsible for the strategies and standards used to verify applications and digital experiences. With 18 years in the discipline, Kylie is dedicated to relentlessly improving the quality assurance practice. She works directly with clients to evolve their approach to quality to streamline validation and improve delivery confidence. <br/> <br/>Kylie is a graduate from Baker University and a Certified Manager of Software Quality (CMSQ). Outside of work, she enjoys weekend renovation projects, reading, spending time with her family, and live music.   ",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/schleicher-kylie.jpg",
+    "Company": "VML",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 93,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 6,
+        "Topic": "Thrill of the Hunt: Return to Exploratory Testing",
+        "Description": "Some of the most interesting stories come from the career paths of software testers. What did you do before you started testing? Everyone has a before. Everyone has a moment they can point to when they realized quality assurance was something they might enjoy, and that it was an actual job. Then, came test automation. <br/><br/>Automation divided the discipline into distinct groups: pro-manual, pro-automation, and bored.<br/><br/>Uncover how exploratory testing can re-ignite a discipline and pave the way for more to enter testing as a career path. <br/>"
+      }
+    ]
+  },
+  {
     "Id": 645,
     "FirstName": "Blain",
     "LastName": "Purtle",
@@ -688,6 +723,28 @@
         "SessionNumber": 6,
         "Topic": "A brutal journey: Lessons learned while traveling the world as a CEO/CTO.",
         "Description": null
+      }
+    ]
+  },
+  {
+    "Id": 652,
+    "FirstName": "Aaron",
+    "LastName": "Cook",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/cook-aaron.jpg",
+    "Company": "Exlyor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 87,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 3,
+        "Topic": "Embedding Test Automation into your DNA",
+        "Description": "The requirements for test automation have changed over the years. No longer is it acceptable for a test automation team to receive code and then begin the often arduous task of developing automated tests. Test automation needs to be embedded within the DNA of an organizations SDLC, enabling faster feature development, higher quality releases, and faster turnaround adapting to your market or customer’s changing requirements. Those organizations that are not yet adopting test automation will find themselves challenged in keep up with the pace or business, regardless of the industry in which you operate. <br/><br/>This talk will share with you some of the fundamental concepts of modern test automation along with practices on when to leverage specific techniques. This talk is fairly test tool agnostic however we will cover some of the popular tools available to organizations today.<br/>"
       }
     ]
   }
