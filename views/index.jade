@@ -85,7 +85,7 @@ html
 					h1.extra-heading Little Rock Tech Fest
 					h6.thin.base-font Two days of learning, networking, and fun for web and software developers
 					.btns-container
-						a(class="btn btn-primary btn-md" href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082") Register Now for Early Bird Savings
+						a(class="btn btn-primary btn-md" href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082") Register Now
 					//- span.
 					//- 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
@@ -127,8 +127,8 @@ html
 											a(class="navigation-link" href="/sponsors") Become a sponsor
 									li.navigation-item
 										a(class="navigation-link" href="/jobs") Jobs
-							.pull-right.buy-btn
-								a(class="navigation-link" href="https://www.papercall.io/lrtf2017") Call for Speakers
+							//- .pull-right.buy-btn
+								//- a(class="navigation-link" href="https://www.papercall.io/lrtf2017") Call for Speakers
 		section#about.section.align-center
 			.container
 				.icon.section-icon.icon-multimedia-12
@@ -148,7 +148,7 @@ html
 			.container
 				span.icon.section-icon.icon-faces-users-04
 				h3 Speakers
-				p.text-alt Meet our 2017 
+				p.text-alt Meet our 2017
 					span.highlight speakers!
 				br
 				br
@@ -185,7 +185,7 @@ html
 				br
 				br
 				div.row
-					div.col-sm-4
+					div.col-sm-4.col-sm-offset-2
 						div.package-column
 							h6.package-title Student Ticket
 							div.package-price
@@ -208,31 +208,32 @@ html
 										| &nbsp;
 
 							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Student' });" target="_blank") Buy now
-					div.col-sm-4
-						div.package-column.special-column#earlybird
-							span.sale-label.uppercase Hot!
-							h6.package-title Early Bird
-							div.package-price
-								span.currency $75
-							div.package-detail
-								ul
-									li
-										span.fa.fa-check.check-icon
-										span Lunch both days
-									li
-										span.fa.fa-check.check-icon
-										span T-shirt
-									li
-										span.fa.fa-check.check-icon
-										span Swag
-									li
-										| &nbsp;
-									li
-										| &nbsp;
-							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg" onclick="fbq('track', 'Lead', { type: 'EarlyBird' });" target="_blank") Buy now
+
+					//- div.col-sm-4
+					//- 	div.package-column.special-column#earlybird
+					//- 		span.sale-label.uppercase Hot!
+					//- 		h6.package-title Early Bird
+					//- 		div.package-price
+					//- 			span.currency $75
+					//- 		div.package-detail
+					//- 			ul
+					//- 				li
+					//- 					span.fa.fa-check.check-icon
+					//- 					span Lunch both days
+					//- 				li
+					//- 					span.fa.fa-check.check-icon
+					//- 					span T-shirt
+					//- 				li
+					//- 					span.fa.fa-check.check-icon
+					//- 					span Swag
+					//- 				li
+					//- 					| &nbsp;
+					//- 				li
+					//- 					| &nbsp;
+					//- 		a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2017-tickets-35122747082" class="btn btn-lg" onclick="fbq('track', 'Lead', { type: 'EarlyBird' });" target="_blank") Buy now
 
 					div.col-sm-4
-						div.package-column.disabled
+						div.package-column
 							h6.package-title Standard Ticket
 							div.package-price
 								span.currency $100
@@ -397,15 +398,15 @@ html
 		script(type="text/javascript" src="/public/js/jquery.waypoints.min.js")
 		script(src="/public/js/theme.js")
 		script(src="/public/js/site.js")
-		
+
 		script.
 			<!-- Drip -->
 			var _dcq = _dcq || [];
-			var _dcs = _dcs || {}; 
+			var _dcs = _dcs || {};
 			_dcs.account = '3825101';
 			(function() {
 				var dc = document.createElement('script');
-				dc.type = 'text/javascript'; dc.async = true; 
+				dc.type = 'text/javascript'; dc.async = true;
 				dc.src = '//tag.getdrip.com/3825101.js';
 				var s = document.getElementsByTagName('script')[0];
 				s.parentNode.insertBefore(dc, s);
