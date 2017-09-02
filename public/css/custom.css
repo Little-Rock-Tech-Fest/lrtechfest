@@ -24,7 +24,7 @@ a.logo {
   max-width: 350px
 }
 
-.section#tickets {
+.section#tickets, .section#speakers, .section#sponsors {
 	padding-top: 20px;
 }
 .make-column { float: none; display: inline-block; margin: 0 0 -0.125em; vertical-align: top;}
