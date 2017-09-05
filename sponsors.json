@@ -60,6 +60,24 @@
 	"Website": "http://www.inuvo.com/"
 	},
 	{
+	"Name": "Dassault Falcon Jet Corp",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/dassault-falcon-jet.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
+	"Name": "DataPath",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/datapath.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
+	"Name": "O'Reilly",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/oreilly.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
