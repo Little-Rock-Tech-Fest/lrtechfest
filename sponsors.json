@@ -106,5 +106,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/ina.png",
 	"Website": "https://ina.arkansas.gov/"
+},
+	{
+	"Name": "Idestini Dev Studio",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/idestini.png",
+	"Website": "http://idestini.com/"
 	}
 ]
