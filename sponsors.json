@@ -78,6 +78,12 @@
 	"Website": "https://www.oreilly.com/"
 	},
 	{
+	"Name": "Amitech",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/amitech.png",
+	"Website": "http://www.amitechsolutions.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
