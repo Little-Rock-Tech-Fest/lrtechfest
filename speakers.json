@@ -67,28 +67,6 @@
     ]
   },
   {
-    "Id": 596,
-    "FirstName": "Ryan",
-    "LastName": "Lockard",
-    "Bio": "Ryan Lockard has over 17 years experience in software delivery. Ryan has worked in various industries including Intellectual Property, Advertising, Science, Publishing, Manufacturing, ERP, Clinical Decision Support and Learning and most recently joined Contino - a global leader in DevOps and Cloud enablement. Ryan is an agility leader and a manager of multiple agile teams that support a Health Care LMS and clinical content system. He has facilitated multiple agile transformations and serves as a coach and mentor to various teams and emerging agile professionals. Ryan is also a current member of the Harrisburg University corporate faculty, the Agile Uprising, and an independent lean development trainer. Based in Philadelphia, Ryan is an avid reader, host of the Agile Uprising podcast (which has reached over 70K listeners in over 100 countries) loving father of three and incrementally becoming a great husband.<br/>",
-    "Website": "http://www.contino.io",
-    "Twitter": "AgilePHL",
-    "Photo": "/public/img/speakers/lockard-ryan.jpg",
-    "Company": "Contino",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 20,
-        "Track": null,
-        "Day": 1,
-        "Room": "3",
-        "SessionNumber": 3,
-        "Topic": "Secrets from the Agile Manifesto Authors on Flow",
-        "Description": "I have been lucky enough to personally interview 14 of the agile manifesto authors, a project that has totally shifted my perspective on agility and working with teams.  This project was the vision of my team – the Agile Uprising – and was conducted over 6 months and chronicled via a globally distributed podcast.  During this time period, our podcast went from 0 listeners to an average of 8,000 per month.<br/><br/>The initial inception of the project was to tell the story behind the manifesto and it’s authors.  The trigger was some work we were doing with Ken Schwaber and it was cancelled due to his failing health.  We realized there was a huge moment in software history that had not been told, and these men were not getting any younger.  We intended to interview each to understand what they were doing before, during and shortly after the Manifesto event in 2001.  As the interviews started adding up, we heard a story of what Agile was meant to be, versus what it has become.<br/><br/>We learned that there were essentially 3 themes in all 14 interviews:<br/>1.\tFocus on technical practices<br/>2.\tBuild strong, empowered, teams<br/>3.\tEstablish mindfulness in delivery organizations<br/><br/>These 3 simple bullets are generally missed in most agile adoptions and transformations.  Perhaps parts or some aspects are met, but on-whole, they are lacking. We focus too much on agile as a topic of didactic learning, and not a mindset.  And what you see really emerge as a thing of beauty, is the residual benefits where these themes intersect.  When Mindfulness and Technical Practices overlap you form strong process and integrated DevOps.  Where Strong Teams and Technical Practices overlap you find rapid delivery of high quality working software.  And where you find the convergence of all three elements, you find true value delivery flow.<br/><br/>This talk hones in on the re-centering of agile intent.  It is agnostic of certification and scaling conversations, and builds a solid argument for the movements in Alistair Cockburn’s “Heart of Agile”, Joshua Kerievsky’s “Modern Agile” and Bob Martin’s “Clean Coder” movements.<br/><br/>As the talk wraps, I provide hope for the future of agile.  A direction for attendees to move and an attempt to challenge the larger agile anti-patterns that are very prevalent in practice today.<br/>"
-      }
-    ]
-  },
-  {
     "Id": 597,
     "FirstName": "Sean",
     "LastName": "Sparkman",
@@ -367,8 +345,8 @@
         "Id": 40,
         "Track": null,
         "Day": 1,
-        "Room": "1",
-        "SessionNumber": 4,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "This was not what I asked for?!",
         "Description": "The best way to resolve a software problem for your customer is through understanding and analysis of the customer's experience of the their journey.  You begin by asking questions like \"how, why, what, when\" of the problem.  Exchanging details allows collaboration and trust to emerge between the end user and your development team.  The next step is storytelling through white boarding with the end user / customer;  this is where ideation begins.  When you can formulate a story around an problem - you identify details, steps, integration points, impacts and analysis to solve the problem.   Your team begins to grasp the customer's journey along with solution options to solve the problem.   <br/><br/>Let me show you how to break down the hardest issues with story telling.  This is a way to make sure your customer can tell the story of the problem you are solving, it forces you to be able to replicate the same story the customer is telling.  It aids in identifying gaps, prototyping and allows the team to think quickly to present options for solutions to the problem you are solving.  It creates a forum, that adapts quickly and allows validation of what you know and what you need to analyze further, through discovery with the end user.  Successful product adoptions do not start with product use, it will come from learning how to collaborate, communicate and ideate quickly with the customer on the solutions you develop with you team.<br/>"
       }
@@ -388,9 +366,9 @@
       {
         "Id": 95,
         "Track": null,
-        "Day": 1,
+        "Day": 2,
         "Room": "3",
-        "SessionNumber": 2,
+        "SessionNumber": 1,
         "Topic": "Build a Big Data .Net MVC App in 30 mins",
         "Description": "Learn how to create an ASP.Net MVC application that communicates with government based Big Data, or Open Data as it is commonly referred to. In 30 mins we will create a .Net solution that will utilize open source libraries to connect to publicly available API endpoints. With the returned datasets we will generate a quick user interface that includes how to filter, query, map, and aggregate the data. Attendees can expect to leave this session with the knowledge on how to unlock the untapped potential that many government entities provide today."
       }
@@ -411,8 +389,8 @@
         "Id": 58,
         "Track": null,
         "Day": 1,
-        "Room": "2",
-        "SessionNumber": 1,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "Have Your Best Season Yet: Becoming a (Microsoft) MVP",
         "Description": "Learn how following your passion and deepening your technical area of focus can help you create a wide-sweeping impact and how you can be awarded as an MVP! The MVP community is comprised of over 4,000 MVPs worldwide, and offers you a rich and diverse network of talented tech experts who can help you learn new skills and advance your career. As an MVP, you also gain insider access to Microsoft product development teams, and a plethora of other benefits. Come join the discussion and learn how to reap the rewards of your best season yet!<br/><br/>I delivered this talk at CodeMash in Sandusky, Ohio, and had a panel of 7 MVPs speak for part of the session to educate attendees on how they can be awarded in the future. Many of the attendees noted on Twitter that this was their favorite session of CodeMash. Attendees have appreciated the transparency and awareness I bring to the MVP nomination process through this talk. It is also a great way for attendees to meet Microsoft MVPs and make connections with other community leaders since much of the talk is driven by questions from the audience. This talk is ideally suited to community leaders and those active in the community (speakers, bloggers, etc), but is also suitable for attendees who are new to the community and looking to build connections to widen their impact. <br/><br/>I keep things fun by bringing candy or a small giveaway to encourage participation and to keep people bright eyed in the event that the talk is scheduled after lunch. "
       }
@@ -643,8 +621,8 @@
     "FirstName": "Kylie",
     "LastName": "Schleicher",
     "Bio": "Kylie Schleicher is a managing director, technology at VML, a full-service global marketing agency, where she is responsible for the strategies and standards used to verify applications and digital experiences. With 18 years in the discipline, Kylie is dedicated to relentlessly improving the quality assurance practice. She works directly with clients to evolve their approach to quality to streamline validation and improve delivery confidence. <br/> <br/>Kylie is a graduate from Baker University and a Certified Manager of Software Quality (CMSQ). Outside of work, she enjoys weekend renovation projects, reading, spending time with her family, and live music.   ",
-    "Website": "",
-    "Twitter": "",
+    "Website": null,
+    "Twitter": null,
     "Photo": "/public/img/speakers/schleicher-kylie.jpg",
     "Company": "VML",
     "LinkedIn": null,
@@ -652,7 +630,7 @@
       {
         "Id": 93,
         "Track": null,
-        "Day": 2,
+        "Day": 1,
         "Room": "3",
         "SessionNumber": 6,
         "Topic": "Thrill of the Hunt: Return to Exploratory Testing",
