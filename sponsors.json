@@ -60,6 +60,30 @@
 	"Website": "http://www.inuvo.com/"
 	},
 	{
+	"Name": "Dassault Falcon Jet Corp",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/dassault-falcon-jet.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
+	"Name": "DataPath",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/datapath.png",
+	"Website": "http://www.inuvo.com/"
+	},
+	{
+	"Name": "O'Reilly",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/oreilly.png",
+	"Website": "https://www.oreilly.com/"
+	},
+	{
+	"Name": "Amitech",
+	"Level": "Silver",
+	"Logo": "/public/img/sponsors/amitech.png",
+	"Website": "http://www.amitechsolutions.com/"
+	},
+	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/balsamiq.png",
@@ -88,5 +112,11 @@
 	"Level": "Bronze",
 	"Logo": "/public/img/sponsors/ina.png",
 	"Website": "https://ina.arkansas.gov/"
+},
+	{
+	"Name": "Idestini Dev Studio",
+	"Level": "Bronze",
+	"Logo": "/public/img/sponsors/idestini.png",
+	"Website": "http://idestini.com/"
 	}
 ]

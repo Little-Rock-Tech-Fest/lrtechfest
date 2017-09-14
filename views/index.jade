@@ -1,4 +1,3 @@
-
 mixin sessions (presentationList, parentId)
 	each presentation in presentationList
 		.panel.schedule-item
@@ -7,19 +6,41 @@ mixin sessions (presentationList, parentId)
 					span(class=presentation.IconClass)
 				else
 					a(href="/topics##{presentation.SpeakerSlug}")
-						img.img-responsive(src='#{presentation.Photo}', alt='')
+						//- img.img-responsive(src='#{presentation.Photo}', alt='')
 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
 				strong.time.highlight
 					span.icon.icon-office-24
-					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
-				h6.title !{presentation.Topic}
+					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> TBD</span>
+				//- h6.title !{presentation.Topic}
+				h6.title Coming Soon
 					i.icon.icon-arrows-06
 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
 				article
 					p.description
-						| !{presentation.Description}
-					a(href="/topics##{presentation.SpeakerSlug}")
-						strong.highlight.speaker-name #{presentation.SpeakerName}
+						//- | !{presentation.Description}
+					//- a(href="/topics##{presentation.SpeakerSlug}")
+					//- 	strong.highlight.speaker-name #{presentation.SpeakerName}
+//- mixin sessions (presentationList, parentId)
+//- 	each presentation in presentationList
+//- 		.panel.schedule-item
+//- 			.lecture-icon-wrapper
+//- 				if presentation.IconClass
+//- 					span(class=presentation.IconClass)
+//- 				else
+//- 					a(href="/topics##{presentation.SpeakerSlug}")
+//- 						img.img-responsive(src='#{presentation.Photo}', alt='')
+//- 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
+//- 				strong.time.highlight
+//- 					span.icon.icon-office-24
+//- 					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
+//- 				h6.title !{presentation.Topic}
+//- 					i.icon.icon-arrows-06
+//- 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
+//- 				article
+//- 					p.description
+//- 						| !{presentation.Description}
+//- 					a(href="/topics##{presentation.SpeakerSlug}")
+//- 						strong.highlight.speaker-name #{presentation.SpeakerName}
 
 doctype html
 html
@@ -115,6 +136,8 @@ html
 								li.navigation-item
 									a(class="navigation-link" href="#about") About
 								li.navigation-item
+									a(class="navigation-link" href="#schedule") Schedule
+								li.navigation-item
 									a(class="navigation-link" href="#speakers") Speakers
 								li.navigation-item
 									a(class="navigation-link" href="#tickets") Tickets
@@ -129,6 +152,8 @@ html
 										a(class="navigation-link" href="/jobs") Jobs
 							//- .pull-right.buy-btn
 								//- a(class="navigation-link" href="https://www.papercall.io/lrtf2017") Call for Speakers
+
+
 		section#about.section.align-center
 			.container
 				.icon.section-icon.icon-multimedia-12
@@ -144,6 +169,86 @@ html
 
 					p.align-left This is our fifth year hosting the event.  Will you join us?
 
+		section#schedule.section.align-center
+								.container
+									span.icon.section-icon.icon-office-21
+									h3 Schedule
+									br
+									.col-md-10.col-md-offset-1
+										.row.schedule
+											.row
+												.col-md-5.col-md-offset-1
+													h4 Early Check-in Mixer <span class="highlight">at First Orion</span>
+													p.text-alt Wednesday, October 4, 2017 5:30 - 7:30 PM
+												.col-md-5
+													p Check-in early and enjoy beer, wine, and snacks on us by joining us at First Orion's Headquarters, located in the Museum Center building. First Orion is located on the second floor. The address is 500 President Clinton Ave #215, Little Rock, AR 72201.
+					
+									.col-md-10.col-md-offset-1
+										.row.schedule
+											.nav-wrapper
+												//- span.nav-current
+												//- 	h5.highlight Day 1
+												//- 	p.text-alt 10/20/2016
+												ul.nav.nav-schedule
+													li.active
+														a(href='#schedule_day1', data-toggle='tab')
+															h5.highlight Thursday 
+															p.text-alt October 5, 2017
+													li
+														a(href='#schedule_day2', data-toggle='tab')
+															h5.highlight Friday
+															p.text-alt October 6, 2017
+											.tab-content
+												#schedule_day1.tab-pane.fade.active.in
+													//- .nav-wrapper
+													//- 	span.nav-current Room 1
+													//- 	ul.nav.nav-schedule
+													//- 		li.active
+													//- 			a(href='#schedule_day1_room1', data-toggle='tab') Room 1
+													//- 		li
+													//- 			a(href='#schedule_day1_room2', data-toggle='tab') Room 2
+													//- 		li
+													//- 			a(href='#schedule_day1_room3', data-toggle='tab') Room 3
+													//- .tab-content.tab-content-schedule
+													//- 	#schedule_day1_room1.tab-pane.fade.active.in
+													//- 		#schedule_day1_room1_timeline.panel-group
+													//- 			+sessions(presenationsDay1Room1, "#schedule_day1_room1_timeline")
+													//- 	#schedule_day1_room2.tab-pane.fade.in
+													//- 		#schedule_day1_room2_timeline.panel-group
+													//- 			+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
+													//- 	#schedule_day1_room3.tab-pane.fade.in
+													//- 		#schedule_day1_room3_timeline.panel-group
+													//- 			+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
+													.tab-content.tab-content-schedule
+														#schedule_day1_room1.tab-pane.fade.active.in
+															#schedule_day1_room1_timeline.panel-group
+																+sessions(presenationsDay1, "#schedule_day1_room1_timeline")
+														//- #schedule_day1_room2.tab-pane.fade.in
+														//- 	#schedule_day1_room2_timeline.panel-group
+														//- 		+sessions(presenationsDay1Room2, "#schedule_day1_room2_timeline")
+														//- #schedule_day1_room3.tab-pane.fade.in
+														//- 	#schedule_day1_room3_timeline.panel-group
+														//- 		+sessions(presenationsDay1Room3, "#schedule_day1_room3_timeline")
+												#schedule_day2.tab-pane.fade.in
+													//- .nav-wrapper
+													//- 	span.nav-current Room 1
+													//- 	ul.nav.nav-schedule
+													//- 		li.active
+													//- 			a(href='#schedule_day2_room1', data-toggle='tab') Room 1
+													//- 		li
+													//- 			a(href='#schedule_day2_room2', data-toggle='tab') Room 2
+													//- 		li
+													//- 			a(href='#schedule_day2_room3', data-toggle='tab') Room 3
+													.tab-content.tab-content-schedule
+														#schedule_day2_room1.tab-pane.fade.active.in
+															#schedule_day2_room1_timeline.panel-group
+																+sessions(presenationsDay2, "#schedule_day2_room1_timeline")
+														//- #schedule_day2_room2.tab-pane.fade.in
+														//- 	#schedule_day2_room2_timeline.panel-group
+														//- 		+sessions(presenationsDay2Room2, "#schedule_day2_room2_timeline")
+														//- #schedule_day2_room3.tab-pane.fade.in
+														//- 	#schedule_day2_room3_timeline.panel-group
+														//- 		+sessions(presenationsDay2Room3, "#schedule_day2_room3_timeline")
 		section#speakers.section.align-center
 			.container
 				span.icon.section-icon.icon-faces-users-04
