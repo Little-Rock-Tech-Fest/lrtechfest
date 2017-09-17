@@ -76,7 +76,7 @@ presentations = _.uniq(presentations, 'Topic');
 	["1"].forEach(function(room){
 		presentations.push({
 			Day: day,
-			Room: day === 1 ? "River Market Pavilion" : "Ballroom C Hallway",
+			Room: day === 1 ? "Ballroom D" : "Ballroom D",
 			Topic:"Lunch",
 			Description:day === 1 ? "Join us for a yummy buffet lunch of Three Fold Noodles and Dumplings just down the street in the River Market." : "Lunch will be served at the Convention Center, in the hallway. Feel free to find a cozy spot to eat and enjoy the weather in the H.U. Lee International Gate and Garden.",
 			SessionNumber:3.5,
@@ -100,7 +100,7 @@ presentations.push({
 
 presentations.push({
 	Day: 1,
-	Room: "Rock Town Distillery",
+	Room: "Rivermarket Pavilion",
 	Topic:"Attendee Party",
 	Description:"Join us at Rock Town Distillery for food, music, and fun. Shuttles are available to and from the Convention Center, starting at 5:30 PM.",
 	SessionNumber:100,

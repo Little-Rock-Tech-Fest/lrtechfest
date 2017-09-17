@@ -1,3 +1,33 @@
+mixin room (roomId)
+	case roomId
+		when "1"
+			span.Ballroom.A
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+				span &nbsp;Ballroom A
+		when "2"
+			span.Ballroom.B
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+				span &nbsp;Ballroom B
+		when "3"
+			span.Ballroom.C
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
+				span &nbsp;Ballroom C
+		default
+			span.roomId
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
+				span &nbsp;#{roomId}
+		
+		
+	//- 	roomName = 'Ballroom C'
+	//- 	if roomId = 1
+	//- 		roomName = 'Ballroom A'
+	//- 	else if roomId = 2
+	//- 		roomName = 'Ballroom B'
+	//- 	//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
+	//- span.roomName
+	//- 	i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+	//- 		roomName
+
 mixin sessions (presentationList, parentId)
 	each presentation in presentationList
 		.panel.schedule-item
@@ -6,20 +36,22 @@ mixin sessions (presentationList, parentId)
 					span(class=presentation.IconClass)
 				else
 					a(href="/topics##{presentation.SpeakerSlug}")
-						//- img.img-responsive(src='#{presentation.Photo}', alt='')
+						img.img-responsive(src='#{presentation.Photo}', alt='')
 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
 				strong.time.highlight
 					span.icon.icon-office-24
-					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> TBD</span>
-				//- h6.title !{presentation.Topic}
-				h6.title Coming Soon
+					| #{presentation.Time} -- 
+					+room(presentation.Room)
+					//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
+				h6.title !{presentation.Topic}
 					i.icon.icon-arrows-06
 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
 				article
 					p.description
-						//- | !{presentation.Description}
-					//- a(href="/topics##{presentation.SpeakerSlug}")
-					//- 	strong.highlight.speaker-name #{presentation.SpeakerName}
+						| !{presentation.Description}
+					a(href="/topics##{presentation.SpeakerSlug}")
+						strong.highlight.speaker-name #{presentation.SpeakerName}
+
 //- mixin sessions (presentationList, parentId)
 //- 	each presentation in presentationList
 //- 		.panel.schedule-item
@@ -28,19 +60,20 @@ mixin sessions (presentationList, parentId)
 //- 					span(class=presentation.IconClass)
 //- 				else
 //- 					a(href="/topics##{presentation.SpeakerSlug}")
-//- 						img.img-responsive(src='#{presentation.Photo}', alt='')
+//- 						//- img.img-responsive(src='#{presentation.Photo}', alt='')
 //- 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
 //- 				strong.time.highlight
 //- 					span.icon.icon-office-24
-//- 					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
-//- 				h6.title !{presentation.Topic}
+//- 					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> TBD</span>
+//- 				//- h6.title !{presentation.Topic}
+//- 				h6.title Coming Soon
 //- 					i.icon.icon-arrows-06
 //- 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
 //- 				article
 //- 					p.description
-//- 						| !{presentation.Description}
-//- 					a(href="/topics##{presentation.SpeakerSlug}")
-//- 						strong.highlight.speaker-name #{presentation.SpeakerName}
+						//- 	| !{presentation.Description}
+						//- 	a(href="/topics##{presentation.SpeakerSlug}")
+						//- strong.highlight.speaker-name #{presentation.SpeakerName}
 
 doctype html
 html
