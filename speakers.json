@@ -260,7 +260,7 @@
         "Room": "2",
         "SessionNumber": 3,
         "Topic": "Web Components: A simpler and faster React",
-        "Description": "You’ll learn why components simplify building large applications and how to carry that through your full stack. You’ll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Web Components with Google Polymer. Find out how Comcast simplified its server architecture and development process - making it faster to add new features and easier to maintain. You’ll walk away from this talk feeling motivated and empowered to simplify your architecture.<br/>"
+        "Description": "React pioneered the component based frontend and revolutionized how we think about building a web application. Let’s leverage the patterns we learned from React with the latest web primitives and see if we can #UseThePlatform to build a better web.<br/><br/>We’ll discuss how to simplify your application while we compare React to Web Components with Google Polymer. As mobile becomes the dominant experience, we'll see why now more than ever initialization time & overall performance matters. Lastly, you’ll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Web Components with Google Polymer. You’ll walk away from this talk feeling motivated and empowered to simplify your architecture."
       }
     ]
   },
@@ -489,7 +489,7 @@
     "FirstName": "Kevin",
     "LastName": "Chenal",
     "Bio": "Kevin Chenal is a Data Engineer at Dassault Falcon Jet. Graduated in Embedded Systems, he started as a mobile developer (Android and IOS) before focusing on the data field. For the last 3 years, his primary mission was to ensure accuracy of the information for the business through multiple channels (Reporting, ETL, Machine Learning, Master Data Management).",
-    "Website": "",
+    "Website": null,
     "Twitter": "Ecurienumerique",
     "Photo": "/public/img/speakers/chenal-kevin.jpg",
     "Company": "Dassault falcon jet",
@@ -599,8 +599,8 @@
     "FirstName": "Dan",
     "LastName": "Petit",
     "Bio": "Dan Petit has been deep in the development world for most of his working life, serving as a developer, consultant, architect, and technical leader for a wide-variety of companies in the aerospace, telecommunications, insurance, hospitality, logistics, and service industries. Dan is the director of development operations at ServiceMaster, the leading provider of essential residential and commercial services. Dan and his team have been responsible for ServiceMaster’s DevOps practice and transformation, reducing cycle time of application changes from weeks to hours across dozens of agile development teams. He authored the book Real Visual Basic and numerous technical articles. Reach Dan at dan@danpetit.com.",
-    "Website": "",
-    "Twitter": "",
+    "Website": null,
+    "Twitter": null,
     "Photo": "/public/img/speakers/petit-dan.jpg",
     "Company": "ServiceMaster",
     "LinkedIn": null,
