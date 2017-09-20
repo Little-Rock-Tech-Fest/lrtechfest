@@ -331,28 +331,6 @@
     ]
   },
   {
-    "Id": 615,
-    "FirstName": "Jennifer",
-    "LastName": "Moes",
-    "Bio": "Jennifer Moes is currently a Solutions Lead Analyst for CSG international.  As an Agile Practitioner and with experience in business strategy, business analysis and product management, she has focused software development teams to engage in the practices of user experience and human centered design to drive and innovate solutions that not only solve problems, but to understand the customers needs and expectations for successful product launch and adoption.<br/><br/>Jennifer additionally does outreach for non profits to assisting them with content strategy for fundraising and marketing campaigns.  Understanding who the customer is you are reaching is not only important for content management, but continual engagement with the content.<br/><br/><br/>",
-    "Website": "https://www.linkedin.com/in/jennifer-moes-3985766",
-    "Twitter": null,
-    "Photo": "/public/img/speakers/moes-jennifer.jpg",
-    "Company": "CSG International",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 40,
-        "Track": null,
-        "Day": 1,
-        "Room": "2",
-        "SessionNumber": 1,
-        "Topic": "This was not what I asked for?!",
-        "Description": "The best way to resolve a software problem for your customer is through understanding and analysis of the customer's experience of the their journey.  You begin by asking questions like \"how, why, what, when\" of the problem.  Exchanging details allows collaboration and trust to emerge between the end user and your development team.  The next step is storytelling through white boarding with the end user / customer;  this is where ideation begins.  When you can formulate a story around an problem - you identify details, steps, integration points, impacts and analysis to solve the problem.   Your team begins to grasp the customer's journey along with solution options to solve the problem.   <br/><br/>Let me show you how to break down the hardest issues with story telling.  This is a way to make sure your customer can tell the story of the problem you are solving, it forces you to be able to replicate the same story the customer is telling.  It aids in identifying gaps, prototyping and allows the team to think quickly to present options for solutions to the problem you are solving.  It creates a forum, that adapts quickly and allows validation of what you know and what you need to analyze further, through discovery with the end user.  Successful product adoptions do not start with product use, it will come from learning how to collaborate, communicate and ideate quickly with the customer on the solutions you develop with you team.<br/>"
-      }
-    ]
-  },
-  {
     "Id": 621,
     "FirstName": "Brian",
     "LastName": "McKeiver",
