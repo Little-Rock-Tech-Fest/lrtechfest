@@ -705,6 +705,28 @@
     ]
   },
   {
+    "Id": 651,
+    "FirstName": "To Be Determined",
+    "LastName": "",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/tbd-tbd.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 114,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "C.S. Education and Preparing Students",
+        "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
+      }
+    ]
+  },
+  {
     "Id": 652,
     "FirstName": "Aaron",
     "LastName": "Cook",
