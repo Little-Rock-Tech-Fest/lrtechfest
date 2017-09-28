@@ -688,7 +688,7 @@
     "LastName": "Volgas",
     "Bio": "My name is Nick Volgas and I'm a software developer turned sys-admin wannabe.  I started using AWS for both work and personal projects in 2015 and have spent a large amount of my time automating and tooling myself out of having to work in any way possible.  I've gotten both an AWS Solutions Architect Associate certification as well as an AWS DevOps Professional certification.  I'm currently the Director of IT Operation at the Information Network of Arkansas and this is my second year presenting at LR Tech Fest.<br/><br/>I am originally from Memphis, TN and moved to Little Rock, AR in 2011 after graduating from Rhodes College.  In my free time I enjoy home brewing beer, mountain biking, off-roading, traveling, spending time with my wife, and trying to eat at every restaurant in town.",
     "Website": "https://github.com/volnix",
-    "Twitter": "",
+    "Twitter": null,
     "Photo": "/public/img/speakers/volgas-nick.jpg",
     "Company": "Information Network of Arkansas",
     "LinkedIn": null,
@@ -705,32 +705,10 @@
     ]
   },
   {
-    "Id": 651,
-    "FirstName": "To Be Determined",
-    "LastName": "To Be Determined",
-    "Bio": null,
-    "Website": null,
-    "Twitter": null,
-    "Photo": "/public/img/speakers/tbd-tbd.jpg",
-    "Company": null,
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 114,
-        "Track": null,
-        "Day": 2,
-        "Room": "1",
-        "SessionNumber": 2,
-        "Topic": "C.S. Education and Preparing Students",
-        "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
-      }
-    ]
-  },
-  {
     "Id": 652,
     "FirstName": "Aaron",
     "LastName": "Cook",
-    "Bio": null,
+    "Bio": "Aaron is a Director in the QA and Test Automation Practice for Elyxor. He has led teams of QA engineers and analysts at organizations ranging from startups to large, multinational insurance companies. Aaron has extensive experience in the design, development, implementation, and maintenance of QA projects supporting manual, automated, and performance testing processes. He also features extensive experience in the full life cycle of enterprise-level test automation frameworks, leveraging the latest versions of industry-standard automation suites. In addition, Aaron is experienced in the design, development, and implementation of modern automated software development lifecycles (SDLC) leveraging Continuous Integration, Continuous Deployment, and Continuous Testing approaches and processes (CI / CD / CT).<br/> <br/>Additionally, Aaron won the prestigious Presidents Award for his technical contributions on behalf of a large insurance company in the Northeast. He has spoken and presented technical classes on quality, test automation frameworks, and overall test management best practices at Segue (Borland) user conferences, Software Test and Performance Conferences (STPCon East and West), Software Test Analysis and Review (STAREAST). He has been published in the Software Test and Performance Magazine December 2008 and March 2009 with the cover article.",
     "Website": null,
     "Twitter": null,
     "Photo": "/public/img/speakers/cook-aaron.jpg",
@@ -745,6 +723,94 @@
         "SessionNumber": 3,
         "Topic": "Embedding Test Automation into your DNA",
         "Description": "The requirements for test automation have changed over the years. No longer is it acceptable for a test automation team to receive code and then begin the often arduous task of developing automated tests. Test automation needs to be embedded within the DNA of an organizations SDLC, enabling faster feature development, higher quality releases, and faster turnaround adapting to your market or customer’s changing requirements. Those organizations that are not yet adopting test automation will find themselves challenged in keep up with the pace or business, regardless of the industry in which you operate. <br/><br/>This talk will share with you some of the fundamental concepts of modern test automation along with practices on when to leverage specific techniques. This talk is fairly test tool agnostic however we will cover some of the popular tools available to organizations today.<br/>"
+      }
+    ]
+  },
+  {
+    "Id": 653,
+    "FirstName": "Cindy",
+    "LastName": "Ashcraft",
+    "Bio": "Cindy Ashcraft joined Euronet in 1998 subsequent to the company's acquisition of ARKSYS.  Appointed Managing Director of the Company's Payments Software segment in 2004, Cindy is responsible for the management, operations and strategic planning for the Software segment, headquartered in Little Rock, and servicing over 120 global financial institutions in addition to the Euronet EFT business segments.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/ashcraft-cindy.jpg",
+    "Company": "Euronet",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 114,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "C.S. Education and Preparing Students",
+        "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
+      }
+    ]
+  },
+  {
+    "Id": 654,
+    "FirstName": "Brenda",
+    "LastName": "Qualls",
+    "Bio": "Brenda Qualls is a National Board Certified teacher who has been teaching computer science for 12 years. She is the 2016-2017 Bryant High School Teacher of the Year.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/qualls-brenda.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 121,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "C.S. Education and Preparing Students",
+        "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
+      }
+    ]
+  },
+  {
+    "Id": 655,
+    "FirstName": "Louis",
+    "LastName": "Frederick",
+    "Bio": "Louis Frederick is a software developer with over 20 years of experience in programming and database design. He is currently an instructor at Arkansas Coding Academy.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/frederick-louis.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 122,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "C.S. Education and Preparing Students",
+        "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
+      }
+    ]
+  },
+  {
+    "Id": 656,
+    "FirstName": "Allison",
+    "LastName": "Nicholas",
+    "Bio": "Allison Nicholas serves as Director of Recruiting for PrivacyStar, a First Orion company.  She was recently transitioned to the role of Board Chair of the Arkansas STEM Coalition.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/nicholas-allison.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 123,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "C.S. Education and Preparing Students",
+        "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
       }
     ]
   }
