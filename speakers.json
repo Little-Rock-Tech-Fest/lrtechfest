@@ -813,5 +813,27 @@
         "Description": "Join our panel discussion as we explore the current state of Computer Science education and how we can prepare students for the working world. <br/><br/>Some of the questions to be discussed:<br/>1.     How do you feel regarding the introduction of computer science in the education system?  Has this peaked an interested in tech fields?<br/>2.     From an employer perspective, are you satisfied with computer science education programs today?<br/>3.     Are you satisfied with the level of Educator training available? What could be different?<br/>4.     What is your current experience/opinion regarding the number of female and minorities enrolled in computer science classes? <br/>5.     Are there things we can do to encourage more enrollment for under represented groups?"
       }
     ]
+  },
+  {
+    "Id": 657,
+    "FirstName": "Dennis",
+    "LastName": "Hills",
+    "Bio": "Dennis Hills is a Mobile Developer Advocate for Amazon Web Services (AWS) and a University of Washington graduate in Computing Software & Systems. <br/>He has nearly two decades of web service experience ranging from client support and networking to software development across various platforms and languages. <br/>He has published more than a half dozen mobile apps and is a regular AWS blogger to the dev community. He is passionate about mobile, automation, AI, and serverless cloud computing. ",
+    "Website": "https://aws.amazon.com/mobile/",
+    "Twitter": "dmennis",
+    "Photo": "/public/img/speakers/hills-dennis.jpg",
+    "Company": "Amazon Web Services (AWS)",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 124,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 1,
+        "Topic": "Building Mobile Apps, APIs, and Chatbots on AWS",
+        "Description": "This workshop dives into creating a fully functional native mobile demo application, a simple real-world chatbot (voice & text), and then integrate the chatbot into a mobile app. During our interactive workshop, we’ll cover the latest serverless implementations in the cloud, and how to create a secure, scalable API backend for mobile developers. Walk away with a fully functional demo mobile chatbot and the know-how to integrate a chatbot into your existing app. As a bonus...we can export our mobile chatbot into an Amazon Alexa Skill!!<br/><br/>Platforms: iOS, Android<br/>Languages: Swift or Android<br/>Services: AWS Mobile Hub, AWS Lambda, Amazon Lex, Twilio, Amazon Alexa (lightly)"
+      }
+    ]
   }
 ]
