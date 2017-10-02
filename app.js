@@ -111,7 +111,7 @@ presentations.push({
 
 presentations.push({
 	Day: 2,
-	Room: "Ballroom A",
+	Room: "Ballroom D",
 	Topic:"Closing Remarks and Prize Giveaway",
 	Description:"Closing Remarks and Prize Giveaway",
 	SessionNumber:7,
