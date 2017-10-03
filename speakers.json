@@ -822,5 +822,27 @@
         "Description": "This workshop dives into creating a fully functional native mobile demo application, a simple real-world chatbot (voice & text), and then integrate the chatbot into a mobile app. During our interactive workshop, we’ll cover the latest serverless implementations in the cloud, and how to create a secure, scalable API backend for mobile developers. Walk away with a fully functional demo mobile chatbot and the know-how to integrate a chatbot into your existing app. As a bonus...we can export our mobile chatbot into an Amazon Alexa Skill!!<br/><br/>Platforms: iOS, Android<br/>Languages: Swift or Android<br/>Services: AWS Mobile Hub, AWS Lambda, Amazon Lex, Twilio, Amazon Alexa (lightly)"
       }
     ]
+  },
+  {
+    "Id": 658,
+    "FirstName": "Jay",
+    "LastName": "Callicott",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/public/img/speakers/callicott-jay.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 126,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 3,
+        "Topic": "Drupal 8: The Enterprise Content Hub",
+        "Description": " "
+      }
+    ]
   }
 ]
