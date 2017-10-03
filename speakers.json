@@ -41,6 +41,15 @@
         "SessionNumber": 5,
         "Topic": "Creating Bots with the Microsoft Bot Framework",
         "Description": "Every wonder how a bot works? How it carries on a conversation, or helps you book a hotel room?<br/> <br/>The Microsoft Bot Framework is not just about Skype. You can build bots for Skype, Facebook, Slack, SMS and much more. You can leverage your existing C# skills and create interactive bots that can assist users.<br/> <br/>In this session you will see a bot created in real time, as well as learn about the considerations for building a useful and successful bot.<br/>"
+      },
+      {
+        "Id": 69,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 3,
+        "Topic": ".NET, Linux and Microservices Architecture",
+        "Description": "Microsoft’s move to make .NET open source could not have come at a better time. As the world explores and moves to Microservices Architecture (MSA) and Linux containers, .NET stands poised to not only join the fray, but to excel with high-performance services.<br/><br/>In this fast-paced session, you will see .NET code (C# and F#) be turned into microservices, running in Red Hat’s OpenShift PaaS. Linux, .NET, docker, kubernetes and MSA will all be tied together in this peek into the future. To finish up, we’ll demonstrate two deployment methods: Blue/Green and Canary, and show how uninterrupted deployments are possible."
       }
     ]
   },
