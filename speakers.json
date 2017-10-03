@@ -705,28 +705,6 @@
     ]
   },
   {
-    "Id": 652,
-    "FirstName": "Aaron",
-    "LastName": "Cook",
-    "Bio": "Aaron is a Director in the QA and Test Automation Practice for Elyxor. He has led teams of QA engineers and analysts at organizations ranging from startups to large, multinational insurance companies. Aaron has extensive experience in the design, development, implementation, and maintenance of QA projects supporting manual, automated, and performance testing processes. He also features extensive experience in the full life cycle of enterprise-level test automation frameworks, leveraging the latest versions of industry-standard automation suites. In addition, Aaron is experienced in the design, development, and implementation of modern automated software development lifecycles (SDLC) leveraging Continuous Integration, Continuous Deployment, and Continuous Testing approaches and processes (CI / CD / CT).<br/> <br/>Additionally, Aaron won the prestigious Presidents Award for his technical contributions on behalf of a large insurance company in the Northeast. He has spoken and presented technical classes on quality, test automation frameworks, and overall test management best practices at Segue (Borland) user conferences, Software Test and Performance Conferences (STPCon East and West), Software Test Analysis and Review (STAREAST). He has been published in the Software Test and Performance Magazine December 2008 and March 2009 with the cover article.",
-    "Website": null,
-    "Twitter": null,
-    "Photo": "/public/img/speakers/cook-aaron.jpg",
-    "Company": "Exlyor",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 87,
-        "Track": null,
-        "Day": 1,
-        "Room": "3",
-        "SessionNumber": 3,
-        "Topic": "Embedding Test Automation into your DNA",
-        "Description": "The requirements for test automation have changed over the years. No longer is it acceptable for a test automation team to receive code and then begin the often arduous task of developing automated tests. Test automation needs to be embedded within the DNA of an organizations SDLC, enabling faster feature development, higher quality releases, and faster turnaround adapting to your market or customer’s changing requirements. Those organizations that are not yet adopting test automation will find themselves challenged in keep up with the pace or business, regardless of the industry in which you operate. <br/><br/>This talk will share with you some of the fundamental concepts of modern test automation along with practices on when to leverage specific techniques. This talk is fairly test tool agnostic however we will cover some of the popular tools available to organizations today.<br/>"
-      }
-    ]
-  },
-  {
     "Id": 653,
     "FirstName": "Cindy",
     "LastName": "Ashcraft",
