@@ -78,7 +78,7 @@ presentations = _.uniq(presentations, 'Topic');
 			Day: day,
 			Room: day === 1 ? "Ballroom D" : "Ballroom D",
 			Topic:"Lunch",
-			Description:day === 1 ? "Join us for a yummy buffet lunch of Three Fold Noodles and Dumplings just down the street in the River Market." : "Lunch will be served at the Convention Center, in the hallway. Feel free to find a cozy spot to eat and enjoy the weather in the H.U. Lee International Gate and Garden.",
+			Description:day === 1 ? "Lunch will be catered by Tacos 4 Life and served at the Convention Center, in the hallway. A vegeterian option will be available. Feel free to find a cozy spot to eat and enjoy the weather in the H.U. Lee International Gate and Garden." : "Lunch will be catered by Eat My Catfish and served at the Convention Center, in the hallway. A vegeterian option will be available. Feel free to find a cozy spot to eat and enjoy the weather in the H.U. Lee International Gate and Garden.",
 			SessionNumber:3.5,
 			ElementId:day === 1 ? "schedule_day1_room1_timeLunch":"schedule_day2_room1_timeLunch",
 			Time: day === 1? "12:00 PM" : "11:30 AM",
