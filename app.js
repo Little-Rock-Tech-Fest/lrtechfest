@@ -102,7 +102,7 @@ presentations.push({
 	Day: 1,
 	Room: "Rivermarket Pavilion",
 	Topic:"Attendee Party",
-	Description:"Join us at Rock Town Distillery for food, music, and fun. Shuttles are available to and from the Convention Center, starting at 5:30 PM.",
+	Description:"Join us at River Market Pavilion for food, music, and fun. Shuttles are available to and from the Convention Center, starting at 5:30 PM.",
 	SessionNumber:100,
 	ElementId:"schedule_day1_room1_timeclosing",
 	Time: "6:00 PM",
