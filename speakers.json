@@ -72,6 +72,15 @@
         "SessionNumber": 5,
         "Topic": "Building Your Evil(?) Empire with Azure Functions",
         "Description": "By now, you've probably heard about how awesome Azure Functions really are. From offloading functionality to automating processing, they allow you to harness the cloud to your bidding, whether it’s the dirty work of processing your data or informing your henchmen about your next plot to take over the world. Whether your preference is C#, JS, Python, or a slew of other languages, you can program just about anything with Azure Functions and execute it with triggers, timers, or HTTP requests. In this session, Kentico Technical Evangelist and Azure super-fan Bryan Soltis will show you add Azure Functions to your arsenal and build amazing cloud solutions."
+      },
+      {
+        "Id": 9,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 3,
+        "Topic": "Microservice-Powere­d Applications - It worked for Voltron, it can work for you!",
+        "Description": "Everyone knows that when you assemble a bunch of underdogs together, they become an unstoppable force. Whether it's Voltron battling a Robeast, or a bunch of ants taking on a biker flying biker gang, combining several resources into one is a great way to add strength and capabilities to a team. In this session, Kentico Technical Evangelist Bryan Soltis will show you how to apply these same principles to building web applications using microservices for content hosting and delivery, search, and automation, all hosted in Azure."
       }
     ]
   },
@@ -402,28 +411,6 @@
         "SessionNumber": 4,
         "Topic": "Lean-Agile Learning Through Games",
         "Description": "Most agile practitioners first learn agile by reading a book, attending a class, or attending local meetings. But learning lean and agile concepts works best when we're able to put some concrete examples and practice behind the concept. By adding a set of games and exercises that teach and reinforce lean and agile concepts to our toolboxes, change agents can provide some practical basis for conversations both inside and outside their organization. Being able to talk beyond anecdote and theory and actually demonstrate why something works the way we think it does is a powerful statement. <br/><br/>The games in this session will cover a variety of lean and agile concepts, including:<br/>- Preferring small batch sizes and maximizing customer value<br/>- Identifying bottlenecks and the differences between local and system-wide optimizations<br/>- Encouraging experimentation and risk-taking<br/>- Demonstrating the need for good communication<br/>- Backlog prioritization and delivering on commitments <br/><br/>Following the workshop, attendees will have access to all of the workshop games and be able to run these exercises and games with their teams, managers, and executives."
-      }
-    ]
-  },
-  {
-    "Id": 631,
-    "FirstName": "Hassan",
-    "LastName": "Bazzi",
-    "Bio": "Hassan is a software engineer and designer with a massive passion for performance and easy UX. He started coding at the age of 12, and has since been painting a world where performance and amazing user experiences don't have to collide (and hopefully the paints aren't too expensive :P ). Hassan is also a core contributor on the  Preact team and focuses his work on Preact CLI. His day to day includes building products and engineering startups. He currently leads web engineering on a new video platform called Vidy. Hassan's passion for web development took him half-way across the world from Lebanon to San Francisco where he hopes to advance the web. He hopes that one day emergent markets like Lebanon can enjoy the web at the same level and accessibility of advanced countries. Outside of work, Hassan loves to play soccer, explore remote places in the world, and tries to keep it interesting with novel events and experiences.",
-    "Website": "http://hassanbazzi.com",
-    "Twitter": "habazzi",
-    "Photo": "/public/img/speakers/bazzi-hassan.jpg",
-    "Company": "Vidy",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 74,
-        "Track": null,
-        "Day": 2,
-        "Room": "1",
-        "SessionNumber": 3,
-        "Topic": "Building Light-weight PWAs with Speeeeed",
-        "Description": "The world is moving towards PWAs. Everyone wants apps to load faster, perform better, and provide richer content. The task of building PWAs can be a daunting and long, but what if I told you there are tools to make it easy and fun? Together, we'll explore ways of developing the latest in web technologies at a fraction of the time needed. We're talking about production-ready applications, and not just some random prototyping. Open source communities around the world have been tirelessly developing incredible tools and CLIs. These tools are sometimes overlooked by the community and are sometimes simply buried in the deep worlds of Open Source. Worry not, we will learn about these tools so you can take them right back to your daily life and instantly make an impact on your productivity and quality. We'll boot-strap apps in minutes, easily develop them, and serve them to the masses with a touch of a button. Are you ready to go to the next level?"
       }
     ]
   },
