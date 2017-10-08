@@ -64,7 +64,7 @@ block content
 					h4 #{presentation.Topic}
 					h6 #{presentation.Time}
 					if presentation.SlidesLink
-						a(href="#{presentation.SlidesLink}") Slides Link
+						h6 a(href="#{presentation.SlidesLink}") Slides Link
 					+Day(presentation.Day)
 					+room(presentation.Room)
 					p !{presentation.Description}
