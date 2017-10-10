@@ -63,6 +63,9 @@ block content
 				each presentation in speaker.Presentations
 					h4 #{presentation.Topic}
 					h6 #{presentation.Time}
+					if presentation.SlidesLink
+						h6 
+							a(href="#{presentation.SlidesLink}") Slides Link
 					+Day(presentation.Day)
 					+room(presentation.Room)
 					p !{presentation.Description}
