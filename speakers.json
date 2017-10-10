@@ -154,7 +154,7 @@
         "SessionNumber": 5,
         "Topic": "Lying with Data: Designing Honest Dashboards",
         "Description": "Unfortunately data can lie, and it’s not even intentional. Everyone from business owners to consumers want insights from the software they use daily. But how can we make sure that the data is being visualized accurately and effectively? Learn how to craft honest and insightful dashboards by avoiding common pitfalls inherent with data visualization. This design centric presentation goes through the entire process of dashboard design including: data visualization, creating a color palette, accessibility, and working with data. ",
-        "SlidesLink": null
+        "SlidesLink": "http://jerdesign.net/"
       }
     ]
   },
@@ -177,7 +177,7 @@
         "SessionNumber": 6,
         "Topic": "Automation 101",
         "Description": "Automation is often misunderstood, and means a lot of different things to a lot of different people. I want to help change that. By drawing on my years of experience building and managing automation teams within a variety of environment, I will walk you through the things you should or shouldn't do. I'll help you understand what things need to be considered, and what things you should simply pass on. I'm not going to teach you how to automate, but I AM gonna to teach you how to succeed at it.",
-        "SlidesLink": null
+        "SlidesLink": "https://theqaconsultancy.com/events/lrtf17"
       }
     ]
   },
@@ -246,7 +246,7 @@
         "SessionNumber": 5,
         "Topic": "Introduction to Web Components & Polymer",
         "Description": "With the updates to iOS and Android phones released earlier this year, Web Components are now supported natively. With libraries such as Polymer that are built on top of Web Components, it is now possible to easily create fast Progressive Web Apps (PWAs) without the overhead of a framework. In this workshop, we'll begin with a brief introduction to Web Components and Polymer, and then dive into hands-on experiences with the core aspects of Web Components: the &lt;template&gt; tag, Custom Elements, and the Shadow DOM. <br/><br/>This workshop assumes an understanding of HTML, CSS & JavaScript. No prior experience with Web Components, Polymer, or any library or framework (Web Components or otherwise) is required.",
-        "SlidesLink": null
+        "SlidesLink": "https://www.slideshare.net/JohnRiv/workshop-introduction-to-web-components-polymer/JohnRiv/workshop-introduction-to-web-components-polymer"
       }
     ]
   },
@@ -292,7 +292,7 @@
         "SessionNumber": 3,
         "Topic": "Web Components: A simpler and faster React",
         "Description": "React pioneered the component based frontend and revolutionized how we think about building a web application. Let’s leverage the patterns we learned from React with the latest web primitives and see if we can #UseThePlatform to build a better web.<br/><br/>We’ll discuss how to simplify your application while we compare React to Web Components with Google Polymer. As mobile becomes the dominant experience, we'll see why now more than ever initialization time & overall performance matters. Lastly, you’ll get to hear how Comcast is building its next generation single page apps for millions of customers using the latest browser APIs, Redux and Web Components with Google Polymer. You’ll walk away from this talk feeling motivated and empowered to simplify your architecture.",
-        "SlidesLink": null
+        "SlidesLink": "https://www.slideshare.net/ChrisLorenzo/web-components-a-simpler-and-faster-react"
       }
     ]
   },
@@ -338,7 +338,7 @@
         "SessionNumber": 1,
         "Topic": "Java Performance in 30 Minutes",
         "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations shows one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need for a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, and learn a few tips for diagnosing memory leaks.",
-        "SlidesLink": null
+        "SlidesLink": "https://drive.google.com/file/d/0B4n8UGDohhboY1o1NTdLQXdBMnM/view?usp=sharing"
       }
     ]
   },
@@ -614,7 +614,7 @@
         "SessionNumber": 1,
         "Topic": "Pipeline as Code: A Model for Scaling CI/CD",
         "Description": "Many companies begin their journey into DevOps by using open-source tools to stand up simple but effective continuous integration (CI) and continuous delivery (CD) pipelines for one or two small, leading-edge teams—as a proof-of-concept. These early successes are often followed by an overwhelming demand for more—more teams, more functionality, more traceability, and faster turnaround. DevOps teams may soon find that their initial effort, as effective as it was, does not scale consistently or quickly. After all it was only a proof of concept. This inability to scale slows the momentum created by the early successes. Dan Petit shares his experience with this exact situation, describing how creating a reusable pipeline-as-code script library allows development teams to manage their own pipelines in a self-service approach while simultaneously preserving quality and auditability. He describes the characteristics of the pipeline-as-code model, including its major components and control mechanisms. Finally, Dan explores techniques for capturing, visualizing, and learning from available telemetry, to help drive best-practices and ensure pipelines have consistent quality across all teams.",
-        "SlidesLink": null
+        "SlidesLink": "https://drive.google.com/open?id=0B4n8UGDohhboa2s1VGZGd1FoY1k"
       }
     ]
   },
@@ -729,7 +729,7 @@
         "SessionNumber": 6,
         "Topic": "Being Lazy in the Cloud - Finding Efficiencies in AWS to Make Life Easier",
         "Description": "# Being Lazy in the Cloud - Finding Efficiencies in AWS to Make Life Easier<br/><br/>AWS out of the box tends makes things more difficult than they need to be.  I'll show you some easy ways to simplify your interactions with the AWS cloud that will free up time and make your life easier.  Some of my tips may even save you some money!<br/><br/>## whois<br/><br/>My name is Nick Volgas and I'm a software developer turned sys-admin wannabe.  I started using AWS for both work and personal projects in 2015 and have spent a large amount of my time automating and tooling myself out of having to work in any way possible.  I've gotten both an AWS Solutions Architect Associate certification as well as an AWS DevOps Professional certification.  I'm currently the Director of IT Operation at the Information Network of Arkansas and this is my second year presenting at LR Tech Fest.<br/><br/>## Description<br/><br/>AWS provides a wide array of tools and methodologies for hosting your infrastructure in the cloud.  Out of the box, however, I've found myself wishing things that should be simple would be just that...simple!  I'll walk you through some of the inefficiencies encountered by the normal user and how to overcome those.  I'll show you some examples of AWS-provided time savers as well as some home-grown processes.  I'll provide any code I demo on my github account for use after my talk and will provide links to write-ups on how to perform each task I demo.  Did I mention I will demo each of these LIVE?<br/><br/>## Examples<br/><br/>Here are some examples of things I'll explain that will make your life easier:<br/><br/>- Account switching made easy<br/>- Auto-deletion of old backups<br/>- Consolidate billing across accounts<br/>",
-        "SlidesLink": null
+        "SlidesLink": "https://prezi.com/view/9sudRK7ama8qMccBEVbC/"
       }
     ]
   },
