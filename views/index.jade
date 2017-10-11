@@ -42,8 +42,6 @@ mixin sessions (presentationList, parentId)
 					span.icon.icon-office-24
 					| #{presentation.Time} -- 
 					+room(presentation.Room)
-					| if presentation.SlidesLink 
-						a(href="#{presentation.SlidesLink}") Slides Link
 					//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
 				h6.title !{presentation.Topic}
 					i.icon.icon-arrows-06
