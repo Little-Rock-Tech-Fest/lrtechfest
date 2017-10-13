@@ -131,7 +131,7 @@
         "SessionNumber": 1,
         "Topic": "Technical Debt: The Silent Killer",
         "Description": "Technical Debt: The Silent Killer<br/>=========================<br/><br/>Overview<br/>-------------<br/>Technical debt is no different from any other debt or liability a company holds. If left alone for enough time, it will slow down development to a crawl and halt the company's innovation in its tracks. Therefore, it must be paid off over time to prevent a technological apocalypse. <br/><br/>This talk will showcase a few different strategies to pay off technical debt. Each strategy takes a balanced approach that does not encourage rewriting applications plagued by technical debt. Rewriting may be the most effective way of reducing technical debt, but it is impractical for most software companies. Features still need to be delivered while paying off technical debt. No matter the development process used by your company, you can incorporate these strategies into your workflow.<br/><br/>Reasons for Accumulation<br/>--------------------------------------<br/>Technical debt accumulates due to various factors beyond control of a company's developers. These problems must be addressed in the strategy for combating it. Developers must communicate the importance of implementing solutions to these problems to other departments at the company. Other departments may not understand why paying off technical debt is so important, but they can understand the consequences if the debt accumulates for too long.<br/><br/>Problems leading to technical debt accumulation:<br/><br/>+ Lack of development resources<br/>+ Not enough executive buy-in <br/>+ Features taking precedence over platform stability<br/>+ Ignoring metrics that point to legacy code problems<br/>*    The \"Just one more thing, first\" attitude<br/><br/>Development Strategies<br/>-----------------------------------<br/>Complex problems often require complex solutions. Developing a sound strategy for paying off the company's technical debt should be at the forefront of every developer's mind. Every viable strategy will require time to implement and will not instantly solve the technical debt problem. These strategies must be incorporated into the development process and adhered to so that the technical debt may be paid over time. For most software companies, this will be a long road, but persistence and vigilance always pay the best dividends. <br/><br/>Outcome<br/>-------------<br/>This talk will equip every attendee with strategies to tackle their company's technical debt issues and improve their development processes. ",
-        "SlidesLink": null
+        "SlidesLink": "https://docs.google.com/presentation/d/e/2PACX-1vTrNvLoeQViauwiFCBtzGN1QlKXk3MfETz-bNjvXmrBLYuRh5lv4HNTJkWSAMX8MAdXC_LYMF3JDKTa/pub?start=false&loop=false&delayms=3000#slide=id.p3"
       }
     ]
   },
@@ -223,7 +223,7 @@
         "SessionNumber": 1,
         "Topic": "Up & Running with Graph Databases",
         "Description": "A summary of what attendees will learn:<br/><br/> - An understanding of graph databases <br/> - Introduction to data modeling with Graph databases <br/> - Setting up a graph database<br/> - Connecting to the graph and CRUD operations<br/> - Building a graph enabled application",
-        "SlidesLink": null
+        "SlidesLink": "https://s3.amazonaws.com/graphstory-sample-graph-data/Up+%26+Running+with+Graph+Databases_v2.pdf"
       }
     ]
   },
