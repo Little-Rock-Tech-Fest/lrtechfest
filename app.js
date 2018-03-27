@@ -171,11 +171,11 @@ app.get("/pastyear/:year", function (req, res) {
 app.get('/sponsors', function(req, res){
 	res.render('sponsors');
 });
-app.get('/sponsors/yes-for-2017', function(req, res){
-	res.render('sponsors-yes-for-2017');
+app.get('/sponsors/yes-i-want-to-sponsor-2018', function(req, res){
+	res.render('sponsors-yes-for-2018');
 });
-app.get('/sponsors/no-thanks-2017', function(req, res){
-	res.render('sponsors-no-thanks-2017');
+app.get('/sponsors/remove-me', function(req, res){
+	res.render('sponsors-no-thanks');
 });
 
 
