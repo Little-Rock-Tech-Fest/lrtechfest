@@ -1,12 +1,24 @@
-lrtechfest2014
+[![LRTF Logo](http://www.lrtechfest.com/public/img/lrtf-logo-small.png)](http://www.lrtechfest.com)
+
+Little Rock Tech Fest
 ==============
 
-This is the website for Little Rock Techfest
+This is the website for Little Rock Tech Fest
 
 http://www.lrtechfest.com
 
-To run:
- - npm install
- - run gulp
- - node app.js
- - localhost:9990
+### Prerequisites
+
+[Node.js](https://nodejs.org/en/)
+
+### Installing
+
+```
+git clone https://github.com/Little-Rock-Tech-Fest/lrtechfest.git
+cd lrtechfest/
+npm install
+gulp
+node app.js
+```
+
+http://localhost:9990
