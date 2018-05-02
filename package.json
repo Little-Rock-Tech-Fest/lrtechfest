@@ -11,7 +11,8 @@
     "postinstall": "gulp"
   },
   "engines": {
-    "node": ">=0.12"
+    "node": "8.11.1",
+    "npm": "5.6.0"
   },
   "author": "Kyle Neumeier",
   "license": "BSD-2-Clause",
