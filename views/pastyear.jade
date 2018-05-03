@@ -22,7 +22,7 @@ block content
 									.logo-frame
 										.logo-img
 										img(src="#{sponsor.Logo}")
-											
+
 		.section-header
 			h2 Speakers
 
@@ -36,7 +36,6 @@ block content
 							.name #{speaker.FirstName} #{speaker.LastName}
 							for talk in speaker.Presentations
 								.talk-title #{talk.Topic}
-								.talk-description 
-									!{talk.Description}
+								.talk-description !{talk.Description}
 				hr
 
