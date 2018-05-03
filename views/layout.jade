@@ -1,3 +1,80 @@
+mixin room (roomId)
+	case roomId
+		when "1"
+			span.Ballroom.A
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+				span &nbsp;Ballroom A
+		when "2"
+			span.Ballroom.B
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+				span &nbsp;Ballroom B
+		when "3"
+			span.Ballroom.C
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
+				span &nbsp;Ballroom C
+		default
+			span.roomId
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
+				span &nbsp;#{roomId}
+		
+		
+	//- 	roomName = 'Ballroom C'
+	//- 	if roomId = 1
+	//- 		roomName = 'Ballroom A'
+	//- 	else if roomId = 2
+	//- 		roomName = 'Ballroom B'
+	//- 	//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
+	//- span.roomName
+	//- 	i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+	//- 		roomName
+
+mixin sessions (presentationList, parentId)
+	each presentation in presentationList
+		.panel.schedule-item
+			.lecture-icon-wrapper
+				if presentation.IconClass
+					span(class=presentation.IconClass)
+				else
+					a(href="/topics##{presentation.SpeakerSlug}")
+						img.img-responsive(src='#{presentation.Photo}', alt='')
+			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
+				strong.time.highlight
+					span.icon.icon-office-24
+					| #{presentation.Time} -- 
+					+room(presentation.Room)
+					//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
+				h6.title !{presentation.Topic}
+					i.icon.icon-arrows-06
+			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
+				article
+					p.description
+						| !{presentation.Description}
+					a(href="/topics##{presentation.SpeakerSlug}")
+						strong.highlight.speaker-name #{presentation.SpeakerName}
+
+//- mixin sessions (presentationList, parentId)
+//- 	each presentation in presentationList
+//- 		.panel.schedule-item
+//- 			.lecture-icon-wrapper
+//- 				if presentation.IconClass
+//- 					span(class=presentation.IconClass)
+//- 				else
+//- 					a(href="/topics##{presentation.SpeakerSlug}")
+//- 						//- img.img-responsive(src='#{presentation.Photo}', alt='')
+//- 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
+//- 				strong.time.highlight
+//- 					span.icon.icon-office-24
+//- 					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> TBD</span>
+//- 				//- h6.title !{presentation.Topic}
+//- 				h6.title Coming Soon
+//- 					i.icon.icon-arrows-06
+//- 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
+//- 				article
+//- 					p.description
+						//- 	| !{presentation.Description}
+						//- 	a(href="/topics##{presentation.SpeakerSlug}")
+						//- strong.highlight.speaker-name #{presentation.SpeakerName}
+
 doctype html
 html
 	head
@@ -13,7 +90,7 @@ html
 		link(href="/public/css/animations.css", rel="stylesheet")
 		link(href="/public/css/style.css", rel="stylesheet")
 		link(href="/public/css/style-green-color.css", rel="stylesheet")
-		link(href="/public/css/custom.css?v=0.0.1", rel="stylesheet")
+		link(href="/public/css/custom.css?v=0.0.2", rel="stylesheet")
 		script(src="/public/js/google-analytics.js")
 		script.
 			<!-- Facebook Pixel Code -->
@@ -57,31 +134,42 @@ html
 									a(class="navigation-link" href="/#about") About
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="/#schedule") Schedule
-								li.navigation-item.dropdown
+								//- li.navigation-item.dropdown
 									a.navigation-link.dropdown-toggle(href="/#schedule") Schedule
 									ul.dropdown-menu
 										li.navigation-item
 											a(class="navigation-link" href="/resources") Resources
-								//li.navigation-item
-								//	a(class="navigation-link" href="/#speakers") Speakers
-								//li.navigation-item
-								//	a(class="navigation-link" href="/#tickets") Tickets
+								//- li.navigation-item
+								//-	a(class="navigation-link" href="/#speakers") Speakers
+								//-li.navigation-item
+								//-	a(class="navigation-link" href="/#tickets") Tickets
 								li.navigation-item
 									a(class="navigation-link" href="/#location") Location
-								//li.navigation-item
-								//	a(class="navigation-link" href="/sponsors") Become a sponsor
-								li.navigation-item.dropdown
+								li.navigation-item
+									a(class="navigation-link" href="/sponsors") Become a sponsor
+								//--li.navigation-item.dropdown
 									a.navigation-link.dropdown-toggle(href="/#sponsors") Sponsors
 									ul.dropdown-menu
 										li.navigation-item
 											a(class="navigation-link" href="/sponsors") Become a sponsor
-								//li.navigation-item
-								//	a(class="navigation-link" href="/jobs") Jobs
-
 								li.navigation-item
+									a(class="navigation-link" href="https://www.papercall.io/lrtf2018" target="_blank") Call for Speakers
+								li.navigation-item.dropdown
+									a(class="navigation-link" data-toggle="dropdown") Past Events
+									ul.dropdown-menu
+										li.navigation-item
+											a(class="navigation-link" href="/pastyear/2017") 2017
+										li.navigation-item
+											a(class="navigation-link" href="/pastyear/2016") 2016
+
+
+								//- li.navigation-item
+								//-	a(class="navigation-link" href="/jobs") Jobs
+
+								//- li.navigation-item
 								//- 	a(class="navigation-link" href="#speakers") Schedule
 								//-		a(class="pull-right buy-btn" href="#") Buy Tickets
-								//.pull-right.buy-btn
+								//- .pull-right.buy-btn
 									a(class="navigation-link" href="https://www.papercall.io/lrtf2018") Call for Speakers
 
 
@@ -114,8 +202,6 @@ html
 									span.fa.fa-envelope
 						p.text-alt
 							small All Rights Reserved © 2018&nbsp;
-								a(href="http://www.everleap.com/go/go.aspx?i=21199")
-									span Hosted by Everleap
 
 		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")

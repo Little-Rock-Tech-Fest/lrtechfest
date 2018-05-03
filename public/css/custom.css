@@ -23,6 +23,11 @@ a.logo {
 .sponsor.platinum.inline img {
   max-width: 350px
 }
+
+.section {
+  padding: 50px 20px;
+}
+
 .section.section-hero {
   padding: 20px;
 }
