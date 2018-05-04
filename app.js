@@ -146,7 +146,7 @@ app.get("/app", function (req, res) {
 });
 
 app.get("/programs/:year", function (req, res) {
-	res.download("public/programs/program-" + req.param("year") + ".pdf", function (err) {
+	res.download("public/programs/program-" + req.params.year + ".pdf", function (err) {
 		if (err) {
 			res.send(404);
 		}
@@ -156,7 +156,7 @@ app.get("/programs/:year", function (req, res) {
 app.get("/pastyear/:year", function (req, res) {
 
 	var speakers;
-	var year = req.param("year");
+	var year = req.params.year;
 	fs_readFile('json/'+year+'/speakers.json', 'utf8')
 		.then(function(speakerData){
 			speakers = JSON.parse(speakerData);
