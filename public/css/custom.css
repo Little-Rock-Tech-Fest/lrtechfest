@@ -24,6 +24,10 @@ a.logo {
   max-width: 350px
 }
 
+section#main {
+  min-height: 650px;
+}
+
 .section {
   padding: 50px 0px;
 }

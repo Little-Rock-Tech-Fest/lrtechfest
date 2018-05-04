@@ -153,6 +153,11 @@ app.get("/programs/:year", function (req, res) {
 	});
 });
 
+app.get("/pastyear", function (req, res) {
+	var pastevents = [ {year: 2017}, {year: 2016}, {year: 2015}, {year: 2014} ]
+	res.render('pastyearlist', {pastevents: pastevents});
+});
+
 app.get("/pastyear/:year", function (req, res) {
 
 	var speakers;

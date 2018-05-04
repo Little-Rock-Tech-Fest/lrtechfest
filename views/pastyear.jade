@@ -5,9 +5,10 @@ block stylesheets
 	link(href="/css/pastevents.css", rel="stylesheet")
 
 block content
-	.section
-		.section-header
+	section#main
+		.section.section-hero.align-center
 			h2 Sponsors #{year}
+			hr
 
 		.section-content
 			#sponsors-content
@@ -23,8 +24,9 @@ block content
 										.logo-img
 										img(src="#{sponsor.Logo}")
 
-		.section-header
-			h2 Speakers
+		.section.section-hero.align-center
+			h2 Speakers #{year}
+			hr
 
 		.section-content
 			each speaker in speakers

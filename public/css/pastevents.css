@@ -16,6 +16,7 @@ p  { line-height: 1.4}
 .header{padding: 20px; min-height: 0px!important;}
 .header h1{ display: inline-block; margin-left: 30px;}
 
+section#main {margin-top: 70px;}
 .section-header{background-color: #7db660; color: black; padding: 20px;}
 .section-content{ background-color: white; color: black; padding: 20px;}
 
