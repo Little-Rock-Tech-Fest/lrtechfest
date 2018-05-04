@@ -2,121 +2,121 @@
 	{
 	"Name": "First Orion",
 	"Level": "Platinum",
-	"Logo": "/public/img/sponsors/fo-logo.png",
+	"Logo": "/img/sponsors/fo-logo.png",
 	"Website": "http://firstorion.com"
 	},
 	{
 	"Name": "ABC Financial",
 	"Level": "Gold",
-	"Logo": "/public/img/sponsors/abc-financial.png",
+	"Logo": "/img/sponsors/abc-financial.png",
 	"Website": "http://abcfinancial.com/"
 	},
 	{
 	"Name": "Mainstream Technologies",
 	"Level": "Gold",
-	"Logo": "/public/img/sponsors/mainstream-logo.jpg",
+	"Logo": "/img/sponsors/mainstream-logo.jpg",
 	"Website": "http://www.mainstream-tech.com/"
 	},
 	{
 	"Name": "Kentico",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/kentico.png",
+	"Logo": "/img/sponsors/kentico.png",
 	"Website": "https://kentico.com/"
 	},
 	{
 	"Name": "JB Hunt",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/jbhunt.png",
+	"Logo": "/img/sponsors/jbhunt.png",
 	"Website": "https://jbhunt.com/"
 	},
 	{
 	"Name": "Euronet Worldwide",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/euronet-software-logo.png",
+	"Logo": "/img/sponsors/euronet-software-logo.png",
 	"Website": "http://www.euronetsoftware.com/"
 	},
 	{
 	"Name": "Few",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/few.png",
+	"Logo": "/img/sponsors/few.png",
 	"Website": "https://few.io/"
 	},
 	{
 	"Name": "Lindsey Software",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/lindsey-software-logo.png",
+	"Logo": "/img/sponsors/lindsey-software-logo.png",
 	"Website": "http://www.lindseysoftware.com/"
 	},
 	{
 	"Name": "ACDI",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/acdi.png",
+	"Logo": "/img/sponsors/acdi.png",
 	"Website": "http://www.acd-inc.com/"
 	},
 	{
 	"Name": "Inuvo",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/inuvo_logo.png",
+	"Logo": "/img/sponsors/inuvo_logo.png",
 	"Website": "http://www.inuvo.com/"
 	},
 	{
 	"Name": "Dassault Falcon Jet Corp",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/dassault-falcon-jet.png",
+	"Logo": "/img/sponsors/dassault-falcon-jet.png",
 	"Website": "http://www.dassaultfalcon.com/"
 	},
 	{
 	"Name": "DataPath",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/datapath.png",
+	"Logo": "/img/sponsors/datapath.png",
 	"Website": "http://datapath.com/"
 	},
 	{
 	"Name": "O'Reilly",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/oreilly.png",
+	"Logo": "/img/sponsors/oreilly.png",
 	"Website": "https://www.oreilly.com/"
 	},
 	{
 	"Name": "Amitech",
 	"Level": "Silver",
-	"Logo": "/public/img/sponsors/amitech.png",
+	"Logo": "/img/sponsors/amitech.png",
 	"Website": "http://www.amitechsolutions.com/"
 	},
 	{
 	"Name": "Balsamiq",
 	"Level": "Bronze",
-	"Logo": "/public/img/sponsors/balsamiq.png",
+	"Logo": "/img/sponsors/balsamiq.png",
 	"Website": "https://balsamiq.com/"
 	},
 	{
 	"Name": "Sketch",
 	"Level": "Bronze",
-	"Logo": "/public/img/sponsors/sketch.png",
+	"Logo": "/img/sponsors/sketch.png",
 	"Website": "https://sketchapp.com/"
 	},
 	{
 	"Name": "Sticker Mule",
 	"Level": "Bronze",
-	"Logo": "/public/img/sponsors/stickermule.png",
+	"Logo": "/img/sponsors/stickermule.png",
 	"Website": "https://www.stickermule.com/"
 	},
 	{
 	"Name": "Bawls Guarana",
 	"Level": "Bronze",
-	"Logo": "/public/img/sponsors/bawlsguarana-logo.jpg",
+	"Logo": "/img/sponsors/bawlsguarana-logo.jpg",
 	"Website": "http://www.bawls.com/"
 	},
 	{
 	"Name": "Information Network of Arkansas",
 	"Level": "Bronze",
-	"Logo": "/public/img/sponsors/ina.png",
+	"Logo": "/img/sponsors/ina.png",
 	"Website": "https://ina.arkansas.gov/"
 },
 	{
 	"Name": "Idestini Dev Studio",
 	"Level": "Bronze",
-	"Logo": "/public/img/sponsors/idestini.png",
+	"Logo": "/img/sponsors/idestini.png",
 	"Website": "http://idestini.com/"
 	}
 ]

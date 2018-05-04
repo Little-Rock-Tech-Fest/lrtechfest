@@ -13,33 +13,33 @@ app.locals._ = _;
 
 app.set('views', __dirname+"/views");
 app.set('view engine', 'jade');
-app.use(express.static(__dirname, 'public'));
+app.use(express.static('public'));
 
 var gallery = [
-	{alt:'', modal:'1', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img1.jpg', full_imgUrl:'/public/img/gallery/full/full_img1.jpg'},
-	{alt:'', modal:'2', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img2.jpg', full_imgUrl:'/public/img/gallery/full/full_img2.jpg'},
-	{alt:'', modal:'3', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img3.jpg', full_imgUrl:'/public/img/gallery/full/full_img3.jpg'},
-	{alt:'', modal:'4', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img4.jpg', full_imgUrl:'/public/img/gallery/full/full_img4.jpg'},
-	{alt:'', modal:'5', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img5.jpg', full_imgUrl:'/public/img/gallery/full/full_img5.jpg'},
-	{alt:'', modal:'6', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img6.jpg', full_imgUrl:'/public/img/gallery/full/full_img6.jpg'},
-	{alt:'', modal:'7', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img7.jpg', full_imgUrl:'/public/img/gallery/full/full_img7.jpg'},
-	{alt:'', modal:'8', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img8.jpg', full_imgUrl:'/public/img/gallery/full/full_img8.jpg'},
-	{alt:'', modal:'9', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img9.jpg', full_imgUrl:'/public/img/gallery/full/full_img9.jpg'},
-	{alt:'', modal:'10', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img10.jpg', full_imgUrl:'/public/img/gallery/full/full_img10.jpg'},
-	{alt:'', modal:'11', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img11.jpg', full_imgUrl:'/public/img/gallery/full/full_img11.jpg'},
-	{alt:'', modal:'12', thumb_imgUrl:'/public/img/gallery/thumb/tmb_img12.jpg', full_imgUrl:'/public/img/gallery/full/full_img12.jpg'}
+	{alt:'', modal:'1', thumb_imgUrl:'/img/gallery/thumb/tmb_img1.jpg', full_imgUrl:'/img/gallery/full/full_img1.jpg'},
+	{alt:'', modal:'2', thumb_imgUrl:'/img/gallery/thumb/tmb_img2.jpg', full_imgUrl:'/img/gallery/full/full_img2.jpg'},
+	{alt:'', modal:'3', thumb_imgUrl:'/img/gallery/thumb/tmb_img3.jpg', full_imgUrl:'/img/gallery/full/full_img3.jpg'},
+	{alt:'', modal:'4', thumb_imgUrl:'/img/gallery/thumb/tmb_img4.jpg', full_imgUrl:'/img/gallery/full/full_img4.jpg'},
+	{alt:'', modal:'5', thumb_imgUrl:'/img/gallery/thumb/tmb_img5.jpg', full_imgUrl:'/img/gallery/full/full_img5.jpg'},
+	{alt:'', modal:'6', thumb_imgUrl:'/img/gallery/thumb/tmb_img6.jpg', full_imgUrl:'/img/gallery/full/full_img6.jpg'},
+	{alt:'', modal:'7', thumb_imgUrl:'/img/gallery/thumb/tmb_img7.jpg', full_imgUrl:'/img/gallery/full/full_img7.jpg'},
+	{alt:'', modal:'8', thumb_imgUrl:'/img/gallery/thumb/tmb_img8.jpg', full_imgUrl:'/img/gallery/full/full_img8.jpg'},
+	{alt:'', modal:'9', thumb_imgUrl:'/img/gallery/thumb/tmb_img9.jpg', full_imgUrl:'/img/gallery/full/full_img9.jpg'},
+	{alt:'', modal:'10', thumb_imgUrl:'/img/gallery/thumb/tmb_img10.jpg', full_imgUrl:'/img/gallery/full/full_img10.jpg'},
+	{alt:'', modal:'11', thumb_imgUrl:'/img/gallery/thumb/tmb_img11.jpg', full_imgUrl:'/img/gallery/full/full_img11.jpg'},
+	{alt:'', modal:'12', thumb_imgUrl:'/img/gallery/thumb/tmb_img12.jpg', full_imgUrl:'/img/gallery/full/full_img12.jpg'}
 
 ];
 
 var team = [
-	{name: 'Daniel Pollock', imgUrl: '/public/img/team/daniel.png', twitter: 'dpollock', linkedin: 'dpollock68', github: 'dpollock', title: 'Developer', company: 'DataPath'},
-	{name: 'Abby Sims', imgUrl: '/public/img/team/abby.png', twitter: 'abby_sims', linkedin: 'abbysims', github: 'asims', title: 'Owner/Developer', company: 'Idestini Dev Studio'},
-	{name: 'Paul Gower', imgUrl: '/public/img/team/paul.png', twitter: 'paulmgower', linkedin: 'pmgower', github: 'pmgower', title: 'CTO, Kanban Coach', company: 'Aristotle, Inc.'},
-	{name: 'Kyle Neumeier', imgUrl: '/public/img/team/kyle.png', twitter: 'kneumei', linkedin: 'kyle-neumeier-1270728', github: 'kneumei', title: 'Software Developer', company: 'CareEvolution'},
-	{name: 'Schell Gower', imgUrl: '/public/img/team/schell.png', twitter: 'schellg', linkedin: 'schell-gower-8771769', title: 'Marketing Consultant', company: 'LunaMarketing'},
-	{name: 'Michael Collins', imgUrl: '/public/img/team/michael.png', title: 'Developer', linkedin: 'michael-collins-37553570', github: 'michaeljeffreycollins', company: 'Arkansas Children\'s Hospital'},
-	{name: 'Chris Steven', imgUrl: '/public/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'},
-	{name: 'Kate Wills', imgUrl: '/public/img/team/kate.jpg', twitter: 'KateWills501', linkedin: 'katewills501', github: 'KateWills501', title: 'Software Developer', company: 'Ingen Software'}
+	{name: 'Daniel Pollock', imgUrl: '/img/team/daniel.png', twitter: 'dpollock', linkedin: 'dpollock68', github: 'dpollock', title: 'Developer', company: 'DataPath'},
+	{name: 'Abby Sims', imgUrl: '/img/team/abby.png', twitter: 'abby_sims', linkedin: 'abbysims', github: 'asims', title: 'Owner/Developer', company: 'Idestini Dev Studio'},
+	{name: 'Paul Gower', imgUrl: '/img/team/paul.png', twitter: 'paulmgower', linkedin: 'pmgower', github: 'pmgower', title: 'CTO, Kanban Coach', company: 'Aristotle, Inc.'},
+	{name: 'Kyle Neumeier', imgUrl: '/img/team/kyle.png', twitter: 'kneumei', linkedin: 'kyle-neumeier-1270728', github: 'kneumei', title: 'Software Developer', company: 'CareEvolution'},
+	{name: 'Schell Gower', imgUrl: '/img/team/schell.png', twitter: 'schellg', linkedin: 'schell-gower-8771769', title: 'Marketing Consultant', company: 'LunaMarketing'},
+	{name: 'Michael Collins', imgUrl: '/img/team/michael.png', title: 'Developer', linkedin: 'michael-collins-37553570', github: 'michaeljeffreycollins', company: 'Arkansas Children\'s Hospital'},
+	{name: 'Chris Steven', imgUrl: '/img/team/chris.png', twitter: 'chrissteven81', linkedin: 'chrissteven81', github: 'chrissteven81', title: 'Software Developer', company: 'Dassault Falcon Jet'},
+	{name: 'Kate Wills', imgUrl: '/img/team/kate.jpg', twitter: 'KateWills501', linkedin: 'katewills501', github: 'KateWills501', title: 'Software Developer', company: 'Ingen Software'}
 ];
 
 var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
@@ -52,7 +52,7 @@ speakers.forEach(function(speaker){
 	speaker.slug = slugs(speaker.FirstName+'-'+speaker.LastName);
 	var stats = fs.stat(__dirname+speaker.Photo, function(err, stats){
 		if(err){
-			speaker.Photo = "/public/img/speakers/missing.png";
+			speaker.Photo = "/img/speakers/missing.png";
 			presentations.Photo = speaker.Photo
 		}
 	});
@@ -121,8 +121,8 @@ presentations.push({
 });
 
 
-var presenationsDay1 = _(presentations).filter({'Day': 1}).sortByAll("SessionNumber", "Room").value();
-var presenationsDay2 = _(presentations).filter({'Day': 2}).sortByAll("SessionNumber", "Room").value();
+var presenationsDay1 = _(presentations).filter({'Day': 1}).sortBy("SessionNumber", "Room").value();
+var presenationsDay2 = _(presentations).filter({'Day': 2}).sortBy("SessionNumber", "Room").value();
 
 var presenationsDay1Room1 = _(presentations).filter({'Day': 1, 'Room': "1"}).sortBy("SessionNumber").value();
 var presenationsDay1Room2 = _(presentations).filter({'Day': 1, 'Room': "2"}).sortBy("SessionNumber").value();

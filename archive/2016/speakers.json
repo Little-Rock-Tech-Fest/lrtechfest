@@ -7,7 +7,7 @@
     "Bio": "Jeremy is an award-winning designer with a successful record crafting effective solutions from concept all the way to completion. Jeremy has over thirteen years of professional design experience including: graphic design, advertising, UI/UX, development, and creative direction for Agency 100 and Inc. 500 companies. Currently Jeremy is a designer and front-end developer at Mainstream Technologies.",
     "Website": "http://www.jerdesign.net",
     "Twitter": "jerwjones",
-    "Photo": "/public/img/speakers/2016/jones-jeremy.jpg",
+    "Photo": "/img/speakers/2016/jones-jeremy.jpg",
     "Company": "Mainstream Technologies",
     "LinkedIn": null,
     "Presentations": [
@@ -29,7 +29,7 @@
     "Bio": "John has been a professional developer since 1999. He has focused primarily on web technologies and has experience with everything from PHP to C# to AngularJS to SignalR. Clean code and professionalism are particularly important to him, as well as mentoring and teaching others what he has learned along the way.",
     "Website": "http://www.1north.com",
     "Twitter": "MatsuBonsai",
-    "Photo": "/public/img/speakers/2016/callaway-john.jpg",
+    "Photo": "/img/speakers/2016/callaway-john.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -51,7 +51,7 @@
     "Bio": "Mark Bates is the founder and chief architect of the Boston, MA based consulting company, Meta42 Labs. Mark spends his days focusing on new application development and consulting for his clients. At night he writes books, raises kids, and occasionally he forms a band and \"tries to make it\". <br/><br/>Mark is the author of three books, \"Distributed Programming with Ruby\" (2009), \"Programming in CoffeeScript\" (2012), and \"Conquering the Command Line\" (2014). <br/><br/>Mark also ran the weekly Golang screencast site, [www.metacasts.tv](http://www.metacasts.tv) which was acquired by O'Reilly in 2015.",
     "Website": "http://www.markbates.com",
     "Twitter": "markbates",
-    "Photo": "/public/img/speakers/2016/bates-mark.jpg",
+    "Photo": "/img/speakers/2016/bates-mark.jpg",
     "Company": "@markbates",
     "LinkedIn": null,
     "Presentations": [
@@ -73,7 +73,7 @@
     "Bio": "Paul started his career as a software developer in 2001 developing client/server enterprise solutions.  He is a great problem solver who enjoys using thorough analysis, deep consultation and the latest software development practices to help clients solve problems.  In 2014 Paul started his company, [Lunamark](http://lunamark.com), where he leverages his years of experience to help companies improve their software development team’s efficiency using techniques such as clean coding practices, code reviews, and pair programming. ",
     "Website": "http://lunamark.com",
     "Twitter": "paulmgower",
-    "Photo": "/public/img/speakers/2016/gower-paul.jpg",
+    "Photo": "/img/speakers/2016/gower-paul.jpg",
     "Company": "Lunamark",
     "LinkedIn": null,
     "Presentations": [
@@ -95,7 +95,7 @@
     "Bio": "Paul Hacker has over 15 years of application architecture, design, development, and management expertise in Microsoft technologies. Paul has a depth of experience in ALM, Process Improvement, and Team Foundation Server.  Having distinguished himself as a leader in the IT industry he has been awarded the distinction of Microsoft MVP in the ALM category every year since 2006.Over the years Paul has proven his expertise in Application Lifecycle Management and has demonstrated his professionalism and commitment to the continuous process of managing the life of an application through governance, development and maintenance.",
     "Website": "http://paulhacker.net",
     "Twitter": "pjhacker",
-    "Photo": "/public/img/speakers/2016/hacker-paul.jpg",
+    "Photo": "/img/speakers/2016/hacker-paul.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -117,7 +117,7 @@
     "Bio": "A developer since the beginning of time, Don is currently a Director of Developer Experience at Red Hat, with a focus on Microsoft .NET on Linux. His mission is to bring .NET developers into the Linux and open source communities. Prior to Red Hat, Don was a Developer Advocate at Rackspace. He still enjoys cooking and still hates the designated hitter rule.",
     "Website": "http://redhatloves.net",
     "Twitter": "DonSchenck",
-    "Photo": "/public/img/speakers/2016/schenck-don.jpg",
+    "Photo": "/img/speakers/2016/schenck-don.jpg",
     "Company": "Red Hat",
     "LinkedIn": null,
     "Presentations": [
@@ -148,7 +148,7 @@
     "Bio": "I'm a full stack developer with a need for speed! Building web applications is my passion and focusing on user experience is my goal. I have had the opportunity to work in multiple industries ranging from health care, converged infrastructure, and big data analytics. I enjoy keeping up with the latest web technologies and frameworks and building a variety of apps. I enjoy the evolution of the web and understanding how to continually improve my code as a result.<br/><br/>When I'm not developing I enjoy running, reading, and spending time with my wife and twin boys.",
     "Website": "https://www.linkedin.com/in/jonathan-fontanez-27715428",
     "Twitter": "jonfontanez",
-    "Photo": "/public/img/speakers/2016/fontanez-jonathan.jpg",
+    "Photo": "/img/speakers/2016/fontanez-jonathan.jpg",
     "Company": "Pendo",
     "LinkedIn": null,
     "Presentations": [
@@ -170,7 +170,7 @@
     "Bio": "David Yarde is the co-founder of Sevenality, a Branding firm that specializes in design, and user experience with the aim of building better communities by helping build better brands. When David isn’t working on Sevenality or volunteering, he’s busy being Batman and spending time with his family and occasionally sharing tweets via @dsmy.",
     "Website": "http://davidyarde.com",
     "Twitter": "dsmy",
-    "Photo": "/public/img/speakers/2016/yarde-david.jpg",
+    "Photo": "/img/speakers/2016/yarde-david.jpg",
     "Company": "Sevenality",
     "LinkedIn": null,
     "Presentations": [
@@ -192,7 +192,7 @@
     "Bio": "Matthew Edgar is technical marketing and web analytics consultant at [Elementive](http://www.elementive.com). Since 2001, Matthew has helped hundreds of companies grow through a process of analyzing, optimizing, and improving their websites, search presence, and online marketing. Using a strong analytical and technical framework, Matthew helps clients understand all aspects of their website and online marketing to better connect with customers and grow their business. You can connect with Matthew on Twitter @MatthewEdgarCO.  ",
     "Website": "http://www.matthewedgar.net",
     "Twitter": "MatthewEdgarCO",
-    "Photo": "/public/img/speakers/2016/edgar-matthew.jpg",
+    "Photo": "/img/speakers/2016/edgar-matthew.jpg",
     "Company": "Elementive (elementive.com)",
     "LinkedIn": null,
     "Presentations": [
@@ -214,7 +214,7 @@
     "Bio": "Developer, husband, and DIY farmer.  I am a web developer at DaySpring Cards as well as a freelancer on the side in Northwest, AR. I manage an ecommerce store, write apps, and do cool stuff and things.",
     "Website": null,
     "Twitter": "tatemz",
-    "Photo": "/public/img/speakers/2016/barber-tate.jpg",
+    "Photo": "/img/speakers/2016/barber-tate.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -236,7 +236,7 @@
     "Bio": "A MicroISV owner for 11 years, Microsoft MVP for 8 years, and former Board member for INETA, Randy Walker has dedicated his life efforts towards fostering the software development community.",
     "Website": null,
     "Twitter": "_RandyWalker",
-    "Photo": "/public/img/speakers/2016/walker-randy.jpg",
+    "Photo": "/img/speakers/2016/walker-randy.jpg",
     "Company": "Harvest Data Corp",
     "LinkedIn": null,
     "Presentations": [
@@ -258,7 +258,7 @@
     "Bio": "Sergio is an application developer who is passionate about learning and sharing knowledge. When he is not typing code at Code School, you may find him speaking at different events about topics he's learned recently.",
     "Website": "http://sergiocruz.me",
     "Twitter": "hashtagserg",
-    "Photo": "/public/img/speakers/2016/cruz-sergio.jpg",
+    "Photo": "/img/speakers/2016/cruz-sergio.jpg",
     "Company": "Code School",
     "LinkedIn": null,
     "Presentations": [
@@ -289,7 +289,7 @@
     "Bio": "Matt Shull is Director of Aristotle Labs, which is a small team dedicated to creating innovative products using emerging technologies.  Because of his work in web performance, he was named one of the Top 60 Web Performance Experts to Watch by KeyCDN.  In his spare time he will tinker with the Internet of Things, hang out with his family, and occasionally, enjoy a demolition derby.  Catch him on twitter as @themattshull or check out other blog posts, videos, and information at mattshull.com.",
     "Website": "http://www.mattshull.com",
     "Twitter": "themattshull",
-    "Photo": "/public/img/speakers/2016/shull-matt.jpg",
+    "Photo": "/img/speakers/2016/shull-matt.jpg",
     "Company": "Aristotle Labs",
     "LinkedIn": null,
     "Presentations": [
@@ -311,7 +311,7 @@
     "Bio": "Greg Jordan is the Founder & CEO of Graph Story, the leading graph database-as-a-service provider.  Greg is also the author of Practical Neo4j and has over 15 years of programming experience in various languages with a focus on data driven projects. Greg is avid speaker and writer on the topic of graph databases and has been working with graph databases since 2011. Greg holds two Master's Degrees and is a Ph.D. candidate at the University of Memphis.",
     "Website": "https://www.graphstory.com",
     "Twitter": "gmjordan",
-    "Photo": "/public/img/speakers/2016/jordan-greg.jpg",
+    "Photo": "/img/speakers/2016/jordan-greg.jpg",
     "Company": "Graph Story",
     "LinkedIn": null,
     "Presentations": [
@@ -333,7 +333,7 @@
     "Bio": "Over the past 8 years, Joseph has been fortunate to climb the ranks from small web shops to a Senior Developer for Fortune 100 clients. Regardless of the scope of the project or client size, Joseph understands the importance of clean code and solid architecture for long-term growth. Raised in Northeast Arkansas but now calling Little Rock home, you can find him with his wife, 6-year old son and 2-year-old daughter.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2016/yancey-joseph.jpg",
+    "Photo": "/img/speakers/2016/yancey-joseph.jpg",
     "Company": "Information Network of Arkansas",
     "LinkedIn": null,
     "Presentations": [
@@ -355,7 +355,7 @@
     "Bio": "I write code for Cisco, co-organize the OrlandoJS Meetup, married, father of two princesses, love Hardcore music and stage dives, passionate drummer and occasionally skateboarder.",
     "Website": "",
     "Twitter": "bfgenaro",
-    "Photo": "/public/img/speakers/2016/genaro-bruno.jpg",
+    "Photo": "/img/speakers/2016/genaro-bruno.jpg",
     "Company": "Cisco",
     "LinkedIn": null,
     "Presentations": [
@@ -377,7 +377,7 @@
     "Bio": "A web nerd that grew up hearing the tales of Assembly and chose the easy route of HTML and JS. After over a decade of hacking together SO questions and other people's source code to make websites and applications that work, I have landed as the JavaScript Evangelist at KnoxWeb, the oldest web development firm in Knoxville, TN. I currently am helping bridge the gap between designers and developers, trying to talk code with one and colors with the other and bring both into the world of Functional programming.<br/><br/>I am a huge React nerd, Redux admirer, and a lover of ES6 (never 2015...). I like to give back to the community in gist form over repo form, blogs over talks, and questions over answers. <br/><br/>github.com/beardedtim<br/>gist.github.com/beardedtim",
     "Website": "http://github.com/beardedtim",
     "Twitter": "circa",
-    "Photo": "/public/img/speakers/2016/roberts-timi.jpg",
+    "Photo": "/img/speakers/2016/roberts-timi.jpg",
     "Company": "KnoxWeb",
     "LinkedIn": null,
     "Presentations": [
@@ -399,7 +399,7 @@
     "Bio": "Bryan Soltis is the Technical Evangelist at Kentico and an avid .NET developer. With over 16 years of web development experience, Bryan has completed projects for Microsoft, IMG, HP, and other Fortune 500 companies. A former Azure VTSP, Bryan has developed numerous applications with Microsoft’s cloud and Kentico, including custom software development, integrated solutions, and globally-available enterprise applications. As a Technical Evangelist, Bryan enjoys working with the development community and educating developers on best practices, new technologies, and utilizing the .NET, cloud, and Kentico to their fullest potentials. And he really likes beer.",
     "Website": "http://devnet.kentico.com/users/439927/bryan-soltis",
     "Twitter": "bryan_soltis",
-    "Photo": "/public/img/speakers/2016/soltis-bryan.jpg",
+    "Photo": "/img/speakers/2016/soltis-bryan.jpg",
     "Company": "Kentico",
     "LinkedIn": null,
     "Presentations": [
@@ -430,7 +430,7 @@
     "Bio": "Gian Wild is the CEO of AccessibilityOz. She has worked in accessibility industry since 1998. Her major achievements include: the very first Australian accessible web site; the accessibility compliance of the Melbourne 2006 and Gold Coast 2018 Commonwealth Games; her six years’ active membership in the W3C Web Content Accessibility Guidelines Working Group; and her speech on the importance of web accessibility at the United Nations Conference of State Parties in June last year. Gian has spoken at conferences in Australia, US, Canada, South America and Europe.<br/>",
     "Website": "http://www.accessibilityoz.com",
     "Twitter": "accessibilityoz",
-    "Photo": "/public/img/speakers/2016/wild-gian.jpg",
+    "Photo": "/img/speakers/2016/wild-gian.jpg",
     "Company": "AccessibilityOz",
     "LinkedIn": null,
     "Presentations": [
@@ -452,7 +452,7 @@
     "Bio": "Hi, I'm Jeff. I develop for emergency responders where new app releases are measured in hours (not weeks).  I'm an early adopter from the trenches trying to cut through the hype to extract usable, pragmatic nuggets. I'm an experienced presenter who knows developers are interested in clearly presented, clearly researched, and easily demonstrated findings; and I've never had a topic more magnetizing than this presentation on \"Going from Zero to Production Docker in 10 minutes.\"",
     "Website": "http://jrhicks.github.io",
     "Twitter": "jrhicks",
-    "Photo": "/public/img/speakers/2016/hicks-jeffrey.jpg",
+    "Photo": "/img/speakers/2016/hicks-jeffrey.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -474,7 +474,7 @@
     "Bio": "Christopher Steven has spent the last 15 years developing Line of Business Software for the health care industry in the Central Arkansas Region and the last 2 years developing ground breaking software for Dassault Falcon Jet . He has a passion for technology, mentoring aspiring developers to embrace software engineering and to always look towards the future. Christopher is a Microsoft Certified Professional Developer, an Alumni of Pulaski Technical College and the University of Arkansas. He is currently the President of the Little Rock .Net User Group.",
     "Website": "http://lrdnug.org/",
     "Twitter": "Chrissteven81",
-    "Photo": "/public/img/speakers/2016/steven-christopher.jpg",
+    "Photo": "/img/speakers/2016/steven-christopher.jpg",
     "Company": "Dassault Falcon Jet",
     "LinkedIn": null,
     "Presentations": [
@@ -496,7 +496,7 @@
     "Bio": "Josh Cypher is the lead QA Engineer at Emma, Inc. Before Emma, he spent five years as a product manager, learning to code in an effort to better understand his developers. When he took the leap into automated testing, he never looked back. <br/><br/>Josh is an avid cyclist and often commutes to work on his Bianchi road bike. In his off hours, he enjoys spending time with his wife, Rachel, and his dog, Alistair. He is a board game enthusiast, beer aficionado and an excellent campfire cook.<br/>",
     "Website": null,
     "Twitter": "joshuacypher",
-    "Photo": "/public/img/speakers/2016/cypher-josh.jpg",
+    "Photo": "/img/speakers/2016/cypher-josh.jpg",
     "Company": "Emma, Inc.",
     "LinkedIn": null,
     "Presentations": [
@@ -518,7 +518,7 @@
     "Bio": "Russ Anderson is a Front-End Developer and de facto UI/UX designer at SimplyAgree, and has been writing Javascript for about 5 years. These days he spends most of his time writing Angular 1.x applications because that's what he gets paid to do. Regardless of the framework he loves building intuitive practical interfaces, and heavily commented pull requests. Also he likes that most recent Car Seat Headrest record.<br/><br/>Russ lives in Nashville, Tennessee with his wife and two boys.",
     "Website": "http://vacas5.github.io/",
     "Twitter": "RealRealRuss",
-    "Photo": "/public/img/speakers/2016/anderson-russell.jpg",
+    "Photo": "/img/speakers/2016/anderson-russell.jpg",
     "Company": "SimplyAgree",
     "LinkedIn": null,
     "Presentations": [
@@ -540,7 +540,7 @@
     "Bio": "Nick Volgas was born in Memphis, TN and moved to Little Rock, AR in 2011 to work for INA.  He started as a software developer, then senior developer (when he worked on this project), and has recently moved into a team lead position.  He is passionate about using AWS and other cloud solutions instead of self-hosting a monolithic architecture.  Nick is an avid mountain biker, homebrewer, and spends his little remaining free time with his wife and dog.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2016/volgas-nick.jpg",
+    "Photo": "/img/speakers/2016/volgas-nick.jpg",
     "Company": "Information Network of Arkansas",
     "LinkedIn": null,
     "Presentations": [
@@ -562,7 +562,7 @@
     "Bio": "David Walker is a Sitecore 2015 Technology MVP and Associate Director - Digital Services for VirtusaPolaris.com. He has over twenty years of experience in application development and lifecycle management with over eighty percent of that as a consultant. He has been an MCP since 2003, MCAD and MCSD since 2005 and was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009. He has been hooked on Sitecore, since achieving his 5.1 certifications in 2007.<br/><br/>David Walker is a Sitecore 2015 Technology MVP and Associate Director - Digital Services for Virtusa.com. He has over twenty years of experience in application development and lifecycle management with over eighty percent of that as a consultant. He has been an MCP since 2003, MCAD and MCSD since 2005 and was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009, before he joined Microsoft as a Senior Application Development Manager where he mentored numerous Fortune 100 companies on full Application Lifecycle Management and Software Development best practices.<br/><br/>He has delivered over ninety presentations, including events like: Microsoft TechEd, VSLive! Dallas, VSLive! Austin and numerous User Groups, CodeCamp's, TechFests and other community conferences.<br/>  <br/>He was formerly a board member for INETA (Vice President, Speakers Bureau), President of the Tulsa Developers .NET users group, founder and President of the Tulsa SQL Server Group and Tulsa Java Developers Group, and Vice President of the Tulsa SharePoint Interest Group. He has been the Chairman of the region's largest and highly successful technical training event, just finishing its tenth consecutive successful year, TulsaTechFest.com. He is the founder and current President of the Houston Sitecore User Group.<br/><br/>Since writing his first SharePoint assembly in 2004, he has been focused on Enterprise/Web Content Management Systems. He has been sold on Sitecore, since gaining his 5.1 certifications in 2007. He has worked with numerous CMS systems (proprietary, commercial and open source). He has worked on very high traffic eCommerce sites, including one with a daily sales volume record of over six million dollars and over one and half million microsites.",
     "Website": "http://radicaldave.com",
     "Twitter": "davidwalker",
-    "Photo": "/public/img/speakers/2016/walker-david.jpg",
+    "Photo": "/img/speakers/2016/walker-david.jpg",
     "Company": "VirtusaPolaris",
     "LinkedIn": null,
     "Presentations": [
@@ -584,7 +584,7 @@
     "Bio": "Erin is a US Army Veteran, mom to two brilliant teenage boys, and Web Application Developer at Reax. She helps organize Nash.rb and BarCamp Nashville. Erin is a go-go-go kind of person: go getter, go-to, go team!! When she is not mentoring or hacking, she can be found transporting teenagers around Nashville.",
     "Website": "http://erinpagemd.com",
     "Twitter": "erinmpage",
-    "Photo": "/public/img/speakers/2016/page-erin.jpg",
+    "Photo": "/img/speakers/2016/page-erin.jpg",
     "Company": "Reax",
     "LinkedIn": null,
     "Presentations": [
@@ -606,7 +606,7 @@
     "Bio": "As an international speaker, bestselling author, and productivity expert, Nancy Gaines assists and mentors C-level and small business owners to massively grow their companies. She is the Founder and CEO of Gain Advantages, Inc. Using her products and systems, individuals and corporations gain a competitive advantage with proven productivity accelerators.<br/><br/>Nancy spent almost two decades consulting to IBM’s Fortune 500 clients including AIG Insurance, Shell Oil, Lenovo, Office Max, Clorox, and even IBM itself. She provides knowledge that assists others to be even more successful - fast. Nancy is frequently quoted online, in magazines, and in books as a business expert. Listen to her podcast, The Nancy Gaines Show, downloaded in over 50 countries on iTunes and read her books which are available on Amazon.",
     "Website": "http://www.nancygaines.com/",
     "Twitter": "NancyLGaines",
-    "Photo": "/public/img/speakers/2016/gaines-nancy.jpg",
+    "Photo": "/img/speakers/2016/gaines-nancy.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -628,7 +628,7 @@
     "Bio": "Addam Hardy is a Senior Software Engineer and Senior Consultant at Lofty Labs in Fayetteville, AR. He's also an 8 year Army Veteran with over 10 years experience in software engineering working for various types of companies ranging from the National Security Agency, the Department of Defense, as well as several startups founded in Northwest Arkansas. ",
     "Website": "http://addamhardy.com",
     "Twitter": null,
-    "Photo": "/public/img/speakers/2016/hardy-addam.jpg",
+    "Photo": "/img/speakers/2016/hardy-addam.jpg",
     "Company": "Lofty Labs",
     "LinkedIn": null,
     "Presentations": [
@@ -650,7 +650,7 @@
     "Bio": "My name is Clayton Hall, father of five, pastor, and sometimes adventurer. I have been developing solutions using Microsoft technologies for 19 years.",
     "Website": null,
     "Twitter": "_the_coder",
-    "Photo": "/public/img/speakers/2016/hall-clayton.jpg",
+    "Photo": "/img/speakers/2016/hall-clayton.jpg",
     "Company": "DataPath",
     "LinkedIn": null,
     "Presentations": [
@@ -672,7 +672,7 @@
     "Bio": "I'm a software architect at Shreveport development shop Praeses, where I work as a project architect, developer, and recruiter. I work hard to deliver clean, extensible, and maintainable solutions to customers' business problems. I'm passionate about software as a profession and craft and work to cultivate that mindset in my team members through constant training.<br/><br/>When I'm not writing code I'm advocating for LGBT equality.",
     "Website": "http://jeremyabbott.github.io/",
     "Twitter": "mrjabbott",
-    "Photo": "/public/img/speakers/2016/abbott-jeremy.jpg",
+    "Photo": "/img/speakers/2016/abbott-jeremy.jpg",
     "Company": "Praeses",
     "LinkedIn": null,
     "Presentations": [
@@ -694,7 +694,7 @@
     "Bio": "Sean is currently herding junior software developers in Nashville, Tennessee as the founder of Reax, and as the organizer of the Software Beginners Meetup in Nashville.  He also organizes the Nashville Ruby User Group, Nash.rb, and volunteers at conferences around Nashville, like Nodevember.  He is extremely passionate about paying it forward through mentorship and teaching and is a partner employer of Nashville Software School.<br/><br/>In his free time... wait... he has no free time.",
     "Website": "https://www.reax.io",
     "Twitter": "solusean",
-    "Photo": "/public/img/speakers/2016/hill-sean.jpg",
+    "Photo": "/img/speakers/2016/hill-sean.jpg",
     "Company": "Reax",
     "LinkedIn": null,
     "Presentations": [
@@ -716,7 +716,7 @@
     "Bio": "I am a Senior Software Engineer at JCPenney where I focus on build and deployment automation. I have worked on .NET applications for 9 years, but my pet projects have always dealt with automating annoying tasks and making build and deploy pipelines better.<br/><br/>I am a cat person, board-gamer, and podcast addict. I will talk to you about all of these things if you give me a chance. I might even have a game with me to play.",
     "Website": null,
     "Twitter": "ryanrousseau",
-    "Photo": "/public/img/speakers/2016/rousseau-ryan.jpg",
+    "Photo": "/img/speakers/2016/rousseau-ryan.jpg",
     "Company": "JCPenney",
     "LinkedIn": null,
     "Presentations": [
@@ -738,7 +738,7 @@
     "Bio": " Andy Cowles is a Founder and Managing Partner of Elyxor. Prior to founding Elyxor, Andy was a founder of CoBu Technology, a Boston-based software consulting company, in 2008. CoBu's expertise included delivering mobile and desktop applications, server architecture and design, performance engineering, and agile process implementation. Andy started his career in military R&D for the Mitre Corporation before joining the supply-chain startup Celarix in 1999 as a principle software engineer and tech lead. After Celarix, Andy led development at several early-stage startups in the mobile space, including Quantia and Opus3Media. He has extensive experience in cross-platform mobile development as both a hands-on contributor and team leader and possesses a keen understanding of development and delivery of production-ready software. Andy earned a BS in Computer Science from Tufts University and an MS in Computer Science from the University of Massachusetts Lowell.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2016/cowles-andy.jpg",
+    "Photo": "/img/speakers/2016/cowles-andy.jpg",
     "Company": "Elyxor",
     "LinkedIn": null,
     "Presentations": [
@@ -760,7 +760,7 @@
     "Bio": "Pete Buletza is a Founder and Managing Partner of Elyxor. Previously he co-founded Cobu Technology, a Boston-based software consulting firm specializing in mobile solutions. CoBu's primary work involved mobile and desktop application development, server architecture and design, performance engineering, and agile process implementation. Mr. Buletza got his start working on TurboTax and WebTurboTax at Intuit; he later returned to Boston and joined the startup scene, spending the subsequent 10 years architecting systems, building software, and managing the teams that provide the technology to make entrepreneurs‘ visions a reality. Mr. Buletza spent several years as the System Architect of high-volume, scalable systems, most notably at Celarix and Espanol.com. His focus over the past 7 years has been providing SDLC consulting and DevOps implementations to accelerate innovation and minimize risk for Elyxor's customers. Mr. Buletza holds a BA in Computer Science from Harvard University.",
     "Website": null,
     "Twitter": "buletza",
-    "Photo": "/public/img/speakers/2016/buletza-pete.jpg",
+    "Photo": "/img/speakers/2016/buletza-pete.jpg",
     "Company": "Elyxor",
     "LinkedIn": null,
     "Presentations": [
@@ -782,7 +782,7 @@
     "Bio": "Scott Jones is a Principal Architect at Acxiom Corporation.  He specializes in API designs, ultra-low latency system designs and full stack designs to solve business needs.  He has three patents pending for the leading edge Ad Tech Platform technology.  His innovative design started with the platform concept, implementation and ultimately the execution of a system that processed 3 billion transactions a day, against a terabyte of data, with transactions averaging 2 mls per transaction.  Mr. Jones also serves as one of Acxiom’s Privacy Engineers, with expert skills applying nuanced next-gen data governance concepts at the engineering layer. Previously he worked for Alltel Information Services the predecessor to FIS.  Mr. Jones serves as a mentor at The Venture Center and as an advisor to one of the 2016 VC FinTech Accelerator companies, Monotto.  Mr. Jones holds a BS in Computer Science from Arkansas Tech University.<br/>",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2016/jones-scott.jpg",
+    "Photo": "/img/speakers/2016/jones-scott.jpg",
     "Company": "Acxiom",
     "LinkedIn": null,
     "Presentations": [

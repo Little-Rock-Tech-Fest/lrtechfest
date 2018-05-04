@@ -7,7 +7,7 @@
     "Bio": "Lisa Huang is a co-founder of FlightGold, a Fullstack engineer based in San Francisco Bay area. Lisa has a background in digital marketing, building mobile-optimized web apps and a keen Rubyist. She is a self-taught developer and started her coding journey with FreeCodeCamp projects. <br/><br/>In her off time, you can find Lisa exploring the West coast and hacking on Arduino.<br/>",
     "Website": "http://lambdalisa.com/",
     "Twitter": "lisaychuang",
-    "Photo": "/public/img/speakers/2017/huang-lisa.jpg",
+    "Photo": "/img/speakers/2017/huang-lisa.jpg",
     "Company": "FlightGold, inc",
     "LinkedIn": null,
     "Presentations": [
@@ -29,7 +29,7 @@
     "Bio": "A developer who has seen it all, Don is a Microsoft MVP and currently a Director of Developer Experience at Red Hat, with a focus on Microsoft .NET on Linux. His mission is to connect .NET developers with the Linux and open source communities. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He still enjoys cooking and studying human behavior, and still hates the designated hitter rule.<br/> <br/>Don's overarching belief is this: \"A program is not a communication between a developer and a machine; it's a communication between a developer and the next developer.\"",
     "Website": "http://redhatloves.net",
     "Twitter": "DonSchenck",
-    "Photo": "/public/img/speakers/2017/schenck-don.jpg",
+    "Photo": "/img/speakers/2017/schenck-don.jpg",
     "Company": "Red Hat",
     "LinkedIn": null,
     "Presentations": [
@@ -51,7 +51,7 @@
     "Bio": "Bryan Soltis is the Technical Evangelist at Kentico and an avid .NET developer. With over 18 years of web development experience, Bryan has completed projects for Microsoft, IMG, HP, and other Fortune 500 companies. A former Azure VTSP, Bryan has developed numerous applications with Microsoft’s cloud and Kentico, including custom software development, integrated solutions, and globally-available enterprise applications. As a Technical Evangelist, Bryan enjoys working with the development community and educating developers on best practices, new technologies, and utilizing the .NET, cloud, and Kentico to their fullest potentials. And he really likes beer.",
     "Website": "http://soltisweb.com",
     "Twitter": "bryan_soltis",
-    "Photo": "/public/img/speakers/2017/soltis-bryan.jpg",
+    "Photo": "/img/speakers/2017/soltis-bryan.jpg",
     "Company": "Kentico",
     "LinkedIn": null,
     "Presentations": [
@@ -73,7 +73,7 @@
     "Bio": "I have been writing software for over two decades. I am a father of two and husband. For six years, I have been a Team Lead and Senior Developer for Infinity Interactive, Inc. I have run a user group here in Dallas that focuses on Xamarin called DFW Mobile.NET for 4 years. In April 2015, I was awarded the Xamarin MVP Award for contributing the development community. I have a strong passion for software development of all kind and love problem-solving.",
     "Website": "https://about.me/seansparkman",
     "Twitter": "seansparkman",
-    "Photo": "/public/img/speakers/2017/sparkman-sean.jpg",
+    "Photo": "/img/speakers/2017/sparkman-sean.jpg",
     "Company": "Infinity Interactive, Inc.",
     "LinkedIn": null,
     "Presentations": [
@@ -95,7 +95,7 @@
     "Bio": "Jason is the Software Development Manager for APS Payroll. In short, he's a web developer with 9+ years experience of delivering high-quality products to amazing customers across the country. He dabbles in NodeJS, Scala, and React, but currently uses PHP and the Sencha ExtJS framework for his professional endeavors. He leads an unparalleled software development team in crafting software that consistently beats out competing products from Fortune 500 companies. ",
     "Website": "https://www.linkedin.com/in/jason-craft-707465116/",
     "Twitter": "VigRoco",
-    "Photo": "/public/img/speakers/2017/craft-jason.jpg",
+    "Photo": "/img/speakers/2017/craft-jason.jpg",
     "Company": "APS Payroll",
     "LinkedIn": null,
     "Presentations": [
@@ -117,7 +117,7 @@
     "Bio": "Jeremy Jones is currently the Lead Designer and Front End Developer at Mainstream Technologies. Jeremy has over 13 years’ experience that spans both print and digital media. His most recent position was a four-year term as Creative Director for an Inc. 5000 company. His earlier experience in the digital space includes Web Design, User Interface (UI), User Experience (UX) and front-end development.",
     "Website": "http://www.jerdesign.net",
     "Twitter": "jerwjones",
-    "Photo": "/public/img/speakers/2017/jones-jeremy.jpg",
+    "Photo": "/img/speakers/2017/jones-jeremy.jpg",
     "Company": "Mainstream Technologies, Inc.",
     "LinkedIn": null,
     "Presentations": [
@@ -139,7 +139,7 @@
     "Bio": "Jon has helped build and lead a wide variety of teams across all aspects of QA over the past 11 years, and recently launched The QA Consultancy, which specializes in helping organizations improve their overall Quality. Having worked with organizations like HomeAdvisor, ScrippsNetworks, and Victoria’s Secret in the past, Jon has battle-tested his sometimes unique approach to QA in some incredibly demanding environments. He recently worked with Denver Public Schools and their CareerConnect program providing mentoring and internships to high school students, and was a pilot employer sponsor for their CareerResidency apprenticeship program at HomeAdvisor.",
     "Website": "https://theqaconsultancy.com",
     "Twitter": "jumpmancol",
-    "Photo": "/public/img/speakers/2017/robinson-jon.jpg",
+    "Photo": "/img/speakers/2017/robinson-jon.jpg",
     "Company": "The QA Consultancy",
     "LinkedIn": null,
     "Presentations": [
@@ -161,7 +161,7 @@
     "Bio": "Developer, writer, speaker, musician, and Developer Advocate at Logz.io, PJ is known to travel the world speaking about programming and the way people think and interact.  He is also known for wearing hats.",
     "Website": "http://iampj.xyz",
     "Twitter": "aspleenic",
-    "Photo": "/public/img/speakers/2017/hagerty-pj.jpg",
+    "Photo": "/img/speakers/2017/hagerty-pj.jpg",
     "Company": "Logz.io",
     "LinkedIn": null,
     "Presentations": [
@@ -183,7 +183,7 @@
     "Bio": "Greg Jordan is the Founder & CEO of Graph Story, the leading graph database-as-a-service provider.  Greg is also the author of Practical Neo4j and has over 15 years of programming experience in various languages with a focus on data driven projects. Greg is avid speaker and writer on the topic of graph databases and has been working with graph databases since 2011. Greg holds two Master's Degrees and is a Ph.D. candidate at the University of Memphis.",
     "Website": "https://www.graphstory.com",
     "Twitter": "gmjordan",
-    "Photo": "/public/img/speakers/2017/jordan-greg.jpg",
+    "Photo": "/img/speakers/2017/jordan-greg.jpg",
     "Company": "Graph Story",
     "LinkedIn": null,
     "Presentations": [
@@ -205,7 +205,7 @@
     "Bio": "John Riviello is a Distinguished Engineer and Lead Frontend Developer at Comcast where he works on the XFINITY customer websites and web applications. He is also the author of the Lynda.com course \"CSS to Sass.\" In his free time, he prefers surfing waves over surfing the internet.",
     "Website": "http://www.johnriviello.com/",
     "Twitter": "JohnRiv",
-    "Photo": "/public/img/speakers/2017/riviello-john.jpg",
+    "Photo": "/img/speakers/2017/riviello-john.jpg",
     "Company": "Comcast",
     "LinkedIn": null,
     "Presentations": [
@@ -227,7 +227,7 @@
     "Bio": "Shawn (http://www.shawnweisfeld.com, shawn@shawnweisfeld.com) is passionate about building awesome applications and websites with .NET technologies and Azure. He is currently a Cloud Solution Architect for Microsoft based in Austin TX and founder of http://UserGroup.tv. Read his full bio at http://about.me/shawnweisfeld",
     "Website": "http://www.UserGroup.tv",
     "Twitter": "shawnweisfeld",
-    "Photo": "/public/img/speakers/2017/weisfeld-shawn.jpg",
+    "Photo": "/img/speakers/2017/weisfeld-shawn.jpg",
     "Company": "Microsoft",
     "LinkedIn": null,
     "Presentations": [
@@ -249,7 +249,7 @@
     "Bio": "Chris has worked at Comcast for 10 years -- currently as a Senior Principal Engineer. He enjoys building/motivating teams and ramping up new projects using the latest patterns and web primitives. Besides coding in Javascript, He loves spending time with his family and helping out in the community. Chris is also heavily involved with local colleges and schools to mentor the next generation.<br/>",
     "Website": "https://www.linkedin.com/in/chris-lorenzo-3323667",
     "Twitter": "chiefcll",
-    "Photo": "/public/img/speakers/2017/lorenzo-chris.jpg",
+    "Photo": "/img/speakers/2017/lorenzo-chris.jpg",
     "Company": "Comcast",
     "LinkedIn": null,
     "Presentations": [
@@ -271,7 +271,7 @@
     "Bio": "I'm Deanna, an Entrepreneur and Product Owner from Nashville, Tennessee. What I enjoy most is working with others in the tech community to increase harmony among my peers. I am on boards and organizing teams for several tech events/organizations in Nashville including Music City Code, Nodevember and WomenGetIT. I also created an app idea called Doo Drop which is a mobile app geared to get people outside, be active and spend quality time with their dogs. I'm learning to code so I can work on Doo Drop and a few other app concepts of mine. <br/><br/>I had a fear of public speaking so I started learning to sing and play guitar as a fun way to overcome my fear. ",
     "Website": "http://doodrop.io/",
     "Twitter": "Deanna2000",
-    "Photo": "/public/img/speakers/2017/vickers-deanna.jpg",
+    "Photo": "/img/speakers/2017/vickers-deanna.jpg",
     "Company": "Doo Drop",
     "LinkedIn": null,
     "Presentations": [
@@ -293,7 +293,7 @@
     "Bio": "Erik Ostermueller has spent the last 10 years or so years tuning high throughput Java financial systems in North and South America, Europe and Asia.  In 2011, he wrote a paper for an international performance conference titled  “How to Help Developers (Finally) Find Their Own Performance Defects” that won “Best Paper” and the “Mullen Award” for best speaker [1].  The proceeds of this award financed an 8-city speaking tour in the US, Canada, UK, and Italy.  <br/> <br/>Founder of heapSpank.org and wuqiSpank.org and a contributor to JMeter-Plugins and other open source projects.<br/> <br/>[1] https://www.cmg.org/about-cmg/awards-scholarships/<br/>",
     "Website": "http://ostermueller.blogspot.com/",
     "Twitter": "EOstermueller",
-    "Photo": "/public/img/speakers/2017/ostermueller-erik.jpg",
+    "Photo": "/img/speakers/2017/ostermueller-erik.jpg",
     "Company": "Fidelity Information Services",
     "LinkedIn": null,
     "Presentations": [
@@ -315,7 +315,7 @@
     "Bio": "Taylor Otwell is the creator of the Laravel PHP framework, which has become the most popular PHP web framework in the world. Taylor is also the founder of Forge and Envoyer, which provide server provisioning and deployment solutions for PHP.",
     "Website": "http://laravel.com",
     "Twitter": "taylorotwell",
-    "Photo": "/public/img/speakers/2017/otwell-taylor.jpg",
+    "Photo": "/img/speakers/2017/otwell-taylor.jpg",
     "Company": "Laravel",
     "LinkedIn": null,
     "Presentations": [
@@ -337,7 +337,7 @@
     "Bio": "Brian McKeiver is Co-Owner & Solutions Architect at BizStream, a software development company in Allendale, MI. He has over 15 years of experience leading his company that employs 25+ developers and technologists. In addition to his expertise in web development, integration, and digital marketing, Brian is active with the tech community via his blog at Mcbeev.com. When Brian isn’t working, he spends time with his wife and 3 daughters and is an avid sports geek.",
     "Website": "http://www.mcbeev.com",
     "Twitter": "mcbeev",
-    "Photo": "/public/img/speakers/2017/mckeiver-brian.jpg",
+    "Photo": "/img/speakers/2017/mckeiver-brian.jpg",
     "Company": "BizStream",
     "LinkedIn": null,
     "Presentations": [
@@ -359,7 +359,7 @@
     "Bio": "Lisa Anderson is Microsoft’s US Central Region Community Program Manager – responsible for the Microsoft Most Valuable Professionals Program (MVP) and Regional Directors Program in the Central United States (all of the states in between the coasts). In her previous role at Microsoft, Lisa worked in the Microsoft Services group as a Technical Account Manager responsible for managing Premier Services account portfolios for several enterprise customers in the legal and commercial real estate industries. In her four years at Microsoft, Lisa has also been a community leader for Microsoft’s MACH program (Microsoft Academy of College Hires) and assists in recruitment and interviewing efforts for university hires all over the USA.<br/><br/>Lisa attended the University of Wisconsin-Madison (Go Badgers!) and earned a BA in psychology. She aims to combine her background and passion for psychology to help people in the tech industry do their best work and lead their most fulfilling and balanced lives. She can be found at technical conferences speaking about how positive leadership strategies can help leaders and community members become more successful and productive.<br/><br/>Outside of work, Lisa enjoys traveling (she has visited 13 countries outside the US so far and always planning her next trip!). When not on the move, she enjoys a nice brandy Old Fashioned and Wisconsin Fish Fry back at her parents’ home in Wausau, WI. Her other interests include cooking, hiking, skiing, and petting cats.",
     "Website": "http://www.heyitslisa.com",
     "Twitter": "LisaAnderson312",
-    "Photo": "/public/img/speakers/2017/anderson-lisa.jpg",
+    "Photo": "/img/speakers/2017/anderson-lisa.jpg",
     "Company": "Microsoft",
     "LinkedIn": null,
     "Presentations": [
@@ -381,7 +381,7 @@
     "Bio": "Bill DeVoe has been in IT for almost 25 years and has spent almost 20 years of that as an agile practitioner, trainer, and coach. He has coached and trained local teams, distributed teams, managers, and executives in lean, agile, Scrum, Kanban, and scaled agile topics. He has led transformations at everything from the team level to the enterprise level. Bill has spoken at many conferences over the past 5 years on a variety of topics, including agile transformations with HR and Finance, working with distributed teams, and transforming a team to Scrumban.<br/>Bill is the Principal Agile Evangelist for Velocity Partners, a near-shore development company specializing in distributed agile development. He is a Certified Scrum Professional, a SAFe Program Consultant, and licensed Management 3.0 Facilitator.",
     "Website": "http://www.velocitypartners.net",
     "Twitter": "wdevoe",
-    "Photo": "/public/img/speakers/2017/devoe-bill.jpg",
+    "Photo": "/img/speakers/2017/devoe-bill.jpg",
     "Company": "Velocity Partners",
     "LinkedIn": null,
     "Presentations": [
@@ -403,7 +403,7 @@
     "Bio": "Hassan is a software engineer and designer with a massive passion for performance and easy UX. He started coding at the age of 12, and has since been painting a world where performance and amazing user experiences don't have to collide (and hopefully the paints aren't too expensive :P ). Hassan is also a core contributor on the  Preact team and focuses his work on Preact CLI. His day to day includes building products and engineering startups. He currently leads web engineering on a new video platform called Vidy. Hassan's passion for web development took him half-way across the world from Lebanon to San Francisco where he hopes to advance the web. He hopes that one day emergent markets like Lebanon can enjoy the web at the same level and accessibility of advanced countries. Outside of work, Hassan loves to play soccer, explore remote places in the world, and tries to keep it interesting with novel events and experiences.",
     "Website": "http://hassanbazzi.com",
     "Twitter": "habazzi",
-    "Photo": "/public/img/speakers/2017/bazzi-hassan.jpg",
+    "Photo": "/img/speakers/2017/bazzi-hassan.jpg",
     "Company": "Vidy",
     "LinkedIn": null,
     "Presentations": [
@@ -425,7 +425,7 @@
     "Bio": "Micah Silverman is API Products Specialist for Okta. With 22 years of Java Experience (yup, that's from the beginning), he's authored numerous articles, co-authored a Java EE book and spoken at many conferences. He's a maker, who's built full size MAME arcade cabinets and repaired [old electronic games](http://afitnerd.com/2011/10/16/weekend-project-fix-dark-tower/). He brings his love of all things Java to a conference near you!",
     "Website": "https://afitnerd.com/",
     "Twitter": "afitnerd",
-    "Photo": "/public/img/speakers/2017/silverman-micah.jpg",
+    "Photo": "/img/speakers/2017/silverman-micah.jpg",
     "Company": "Okta",
     "LinkedIn": null,
     "Presentations": [
@@ -447,7 +447,7 @@
     "Bio": "Previous to joining Elyxor, Rob was Chief Revenue Officer for Smiley Technologies (STI).  Rob brings a broad knowledge of strategic planning, marketing, and sales, as well as software architecture and R&D expertise to the Elyxor team.  Prior to STI, Rob held executive roles at Acxiom, a 1+ billion dollar global marketing services firm, where he held a number of roles, including VP of Revenue Strategy, VP of International Delivery Services (with 600 associates across 9 countries), and Country Operations Leader for the Dutch and German businesses.  In addition, Rob has held technology and operations leadership roles at Celarix, Dazel, Andersen Consulting (now Accenture), and GE.  Rob also enjoys his role on the University of Arkansas at Little Rock College of Business Advisory Board, including some time as an adjunct faculty.  Rob is bi-lingual, with proficiency in German, and has spent large portions of his career working outside the US. Rob holds an MBA from the MIT Sloan School of Management, an MS in Computer Engineering from Syracuse University and a BS in Computer and Systems Engineering from Rensselaer. Rob is based out of Little Rock and leads the Elyxor office at this location.",
     "Website": "http://www.elyxor.com",
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/lentz-robert.jpg",
+    "Photo": "/img/speakers/2017/lentz-robert.jpg",
     "Company": "Elyxor",
     "LinkedIn": null,
     "Presentations": [
@@ -469,7 +469,7 @@
     "Bio": "Kevin Chenal is a Data Engineer at Dassault Falcon Jet. Graduated in Embedded Systems, he started as a mobile developer (Android and IOS) before focusing on the data field. For the last 3 years, his primary mission was to ensure accuracy of the information for the business through multiple channels (Reporting, ETL, Machine Learning, Master Data Management).",
     "Website": null,
     "Twitter": "Ecurienumerique",
-    "Photo": "/public/img/speakers/2017/chenal-kevin.jpg",
+    "Photo": "/img/speakers/2017/chenal-kevin.jpg",
     "Company": "Dassault falcon jet",
     "LinkedIn": null,
     "Presentations": [
@@ -491,7 +491,7 @@
     "Bio": "Software architect at Symas. Apache Directory PMC. Member of the OpenLDAP Engineering Team.",
     "Website": "https://iamfortress.net/",
     "Twitter": "shawnmckinney",
-    "Photo": "/public/img/speakers/2017/mckinney-shawn.jpg",
+    "Photo": "/img/speakers/2017/mckinney-shawn.jpg",
     "Company": "Symas",
     "LinkedIn": null,
     "Presentations": [
@@ -513,7 +513,7 @@
     "Bio": "Josh Cypher is a QA Engineer at Emma, Inc. Before Emma, he spent five years as a product manager, learning to code in an effort to better understand his developers. When he took the leap into automated testing, he never looked back and has continued to apply testing principles across the whole delivery process.<br/><br/>Josh is an avid cyclist and often commutes to work on his beloved Bianchi road bike. In his off hours, he enjoys spending time with his wife, Rachel, and his dog, Alistair. He is a board & video game enthusiast, woodworker, and an excellent campfire cook.",
     "Website": null,
     "Twitter": "joshuacypher",
-    "Photo": "/public/img/speakers/2017/cypher-josh.jpg",
+    "Photo": "/img/speakers/2017/cypher-josh.jpg",
     "Company": "Emma, Inc.",
     "LinkedIn": null,
     "Presentations": [
@@ -535,7 +535,7 @@
     "Bio": null,
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/moore-corrie.jpg",
+    "Photo": "/img/speakers/2017/moore-corrie.jpg",
     "Company": "INA",
     "LinkedIn": null,
     "Presentations": [
@@ -557,7 +557,7 @@
     "Bio": "Ryan started in the fire of the startup world working on projects in many different fields and training Junior Developers at The Iron Yard.<br/>He has made his way as a contributor in the Laravel, Node, Adonis, and Ember communities.<br/>Ryan now works at Prototypal working on Embercasts, training, and large interactive web applications for large companies across the US.",
     "Website": "http://ryantablada.com",
     "Twitter": "ryantablada",
-    "Photo": "/public/img/speakers/2017/tablada-ryan.jpg",
+    "Photo": "/img/speakers/2017/tablada-ryan.jpg",
     "Company": "Prototypal",
     "LinkedIn": null,
     "Presentations": [
@@ -579,7 +579,7 @@
     "Bio": "Dan Petit has been deep in the development world for most of his working life, serving as a developer, consultant, architect, and technical leader for a wide-variety of companies in the aerospace, telecommunications, insurance, hospitality, logistics, and service industries. Dan is the director of development operations at ServiceMaster, the leading provider of essential residential and commercial services. Dan and his team have been responsible for ServiceMaster’s DevOps practice and transformation, reducing cycle time of application changes from weeks to hours across dozens of agile development teams. He authored the book Real Visual Basic and numerous technical articles. Reach Dan at dan@danpetit.com.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/petit-dan.jpg",
+    "Photo": "/img/speakers/2017/petit-dan.jpg",
     "Company": "ServiceMaster",
     "LinkedIn": null,
     "Presentations": [
@@ -601,7 +601,7 @@
     "Bio": "Kylie Schleicher is a managing director, technology at VML, a full-service global marketing agency, where she is responsible for the strategies and standards used to verify applications and digital experiences. With 18 years in the discipline, Kylie is dedicated to relentlessly improving the quality assurance practice. She works directly with clients to evolve their approach to quality to streamline validation and improve delivery confidence. <br/> <br/>Kylie is a graduate from Baker University and a Certified Manager of Software Quality (CMSQ). Outside of work, she enjoys weekend renovation projects, reading, spending time with her family, and live music.   ",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/schleicher-kylie.jpg",
+    "Photo": "/img/speakers/2017/schleicher-kylie.jpg",
     "Company": "VML",
     "LinkedIn": null,
     "Presentations": [
@@ -623,7 +623,7 @@
     "Bio": null,
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/purtle-blain.jpg",
+    "Photo": "/img/speakers/2017/purtle-blain.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -645,7 +645,7 @@
     "Bio": "Mark Carleo is founder and Managing Partner at Elyxor and has more than 35 years of experience in IT, software development, and project management. As CTO of Retail Convergence, Mark led the development and operations for Ruelala.com, a successful private sale e-commerce retailer. Mark was also co-founder and CTO of Celarix, an application service provider of supply chain management and execution tools acquired by GSX in 2003. Celarix's advanced multi-tenant SOA architecture and high-performance rules engine is used by leading retailers and manufactures to manage global manufacturing orders and shipments. Earlier, he was a partner with CSC Consulting, a large global professional services organization, where he focused on IT operations, order management, and supply-chain applications with retail, consumer products, and industrial companies.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/carleo-mark.jpg",
+    "Photo": "/img/speakers/2017/carleo-mark.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -667,7 +667,7 @@
     "Bio": "David is CTO at Few and has been developing websites and applications for 20 years and is responsible for bringing optical kerning to the web. His work has been featured by web giants like Jeffery Zeldman, Eric Meyer, and The Next Web. ",
     "Website": "https://few.io/",
     "Twitter": "_davidhudson",
-    "Photo": "/public/img/speakers/2017/hudson-david.jpg",
+    "Photo": "/img/speakers/2017/hudson-david.jpg",
     "Company": "Few",
     "LinkedIn": null,
     "Presentations": [
@@ -689,7 +689,7 @@
     "Bio": "My name is Nick Volgas and I'm a software developer turned sys-admin wannabe.  I started using AWS for both work and personal projects in 2015 and have spent a large amount of my time automating and tooling myself out of having to work in any way possible.  I've gotten both an AWS Solutions Architect Associate certification as well as an AWS DevOps Professional certification.  I'm currently the Director of IT Operation at the Information Network of Arkansas and this is my second year presenting at LR Tech Fest.<br/><br/>I am originally from Memphis, TN and moved to Little Rock, AR in 2011 after graduating from Rhodes College.  In my free time I enjoy home brewing beer, mountain biking, off-roading, traveling, spending time with my wife, and trying to eat at every restaurant in town.",
     "Website": "https://github.com/volnix",
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/volgas-nick.jpg",
+    "Photo": "/img/speakers/2017/volgas-nick.jpg",
     "Company": "Information Network of Arkansas",
     "LinkedIn": null,
     "Presentations": [
@@ -711,7 +711,7 @@
     "Bio": "Aaron is a Director in the QA and Test Automation Practice for Elyxor. He has led teams of QA engineers and analysts at organizations ranging from startups to large, multinational insurance companies. Aaron has extensive experience in the design, development, implementation, and maintenance of QA projects supporting manual, automated, and performance testing processes. He also features extensive experience in the full life cycle of enterprise-level test automation frameworks, leveraging the latest versions of industry-standard automation suites. In addition, Aaron is experienced in the design, development, and implementation of modern automated software development lifecycles (SDLC) leveraging Continuous Integration, Continuous Deployment, and Continuous Testing approaches and processes (CI / CD / CT).<br/> <br/>Additionally, Aaron won the prestigious Presidents Award for his technical contributions on behalf of a large insurance company in the Northeast. He has spoken and presented technical classes on quality, test automation frameworks, and overall test management best practices at Segue (Borland) user conferences, Software Test and Performance Conferences (STPCon East and West), Software Test Analysis and Review (STAREAST). He has been published in the Software Test and Performance Magazine December 2008 and March 2009 with the cover article.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/missing.png",
+    "Photo": "/img/speakers/2017/missing.png",
     "Company": "Exlyor",
     "LinkedIn": null,
     "Presentations": [
@@ -733,7 +733,7 @@
     "Bio": "Cindy Ashcraft joined Euronet in 1998 subsequent to the company's acquisition of ARKSYS.  Appointed Managing Director of the Company's Payments Software segment in 2004, Cindy is responsible for the management, operations and strategic planning for the Software segment, headquartered in Little Rock, and servicing over 120 global financial institutions in addition to the Euronet EFT business segments.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/missing.png",
+    "Photo": "/img/speakers/2017/missing.png",
     "Company": "Euronet",
     "LinkedIn": null,
     "Presentations": [
@@ -755,7 +755,7 @@
     "Bio": "Brenda Qualls is a National Board Certified teacher who has been teaching computer science for 12 years. She is the 2016-2017 Bryant High School Teacher of the Year.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/missing.png",
+    "Photo": "/img/speakers/2017/missing.png",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -777,7 +777,7 @@
     "Bio": "Louis Frederick is a software developer with over 20 years of experience in programming and database design. He is currently an instructor at Arkansas Coding Academy.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/missing.png",
+    "Photo": "/img/speakers/2017/missing.png",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -799,7 +799,7 @@
     "Bio": "Allison Nicholas serves as Director of Recruiting for PrivacyStar, a First Orion company.  She was recently transitioned to the role of Board Chair of the Arkansas STEM Coalition.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/2017/nicholas-allison.jpg",
+    "Photo": "/img/speakers/2017/nicholas-allison.jpg",
     "Company": null,
     "LinkedIn": null,
     "Presentations": [
@@ -821,7 +821,7 @@
     "Bio": "Dennis Hills is a Mobile Developer Advocate for Amazon Web Services (AWS) and a University of Washington graduate in Computing Software & Systems. <br/>He has nearly two decades of web service experience ranging from client support and networking to software development across various platforms and languages. <br/>He has published more than a half dozen mobile apps and is a regular AWS blogger to the dev community. He is passionate about mobile, automation, AI, and serverless cloud computing. ",
     "Website": "https://aws.amazon.com/mobile/",
     "Twitter": "dmennis",
-    "Photo": "/public/img/speakers/2017/missing.png",
+    "Photo": "/img/speakers/2017/missing.png",
     "Company": "Amazon Web Services (AWS)",
     "LinkedIn": null,
     "Presentations": [

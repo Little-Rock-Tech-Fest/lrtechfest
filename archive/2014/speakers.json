@@ -6,7 +6,7 @@
 		"Bio": "<p>Taylor is one of the top 10 most active Github users in the world, as well as the creator of the Laravel PHP web framework, which is the most popular PHP web framework on Github. A lifetime Arkansan, Taylor is passionate about all things web and is a Software Engineer for UserScape as well as the founder of Forge, a PHP server provisioning and deployment service.</p>",
 		"Website": "http://taylorotwell.com",
 		"Twitter": "taylorotwell",
-		"Photo": "/public/img/speakers/2014/taylor_otwell.jpg",
+		"Photo": "/img/speakers/2014/taylor_otwell.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -23,7 +23,7 @@
 		"Bio": "<p>Mark Anthony McCray is a speaker, financial counselor and entrepreneur - the last label basically means he's always open to new opportunities so see talk to him after the program. His passion is helping people get beyond their spiritual, emotional, financial, and entrepreneurial and LIFE limitations. He is committed to killing IGNORANCE and hopelessness worldwide!</p>  <p> Known as a knowledgeable and inspiring teacher, Mark Anthony has launched several businesses, worked in full-time ministry and served on multiple advisory boards such as the Austin CDC Entrepreneur Development Program, Collegiate Entrepreneurs Organization and the Texas State University: - Management & Marketing Advisory Council. He currently lives and works in Houston but is planning to spend more time out here in God's country so don't hold that against him. <p> He gets great joy from teaching people how to find hope, learn winning methods and then helping them in their life journeys. Mark has assisted thousands of entrepreneurs with their consulting, business and financial planning needs through his seminars, workshops, outreach programs, radio Interviews, published articles, coaching and mastermind groups. For more information about Mark, check out: <a href=\"http://livebigdieempty.blogspot.com/p/about-mark_29.html\">http://livebigdieempty.blogspot.com/p/about-mark_29.html </a></p> <p> Most important, he's always happy to share!</p>",
 		"Website": "http://livebigdieempty.blogspot.com",
 		"Twitter": "LiveBIGDieEmpty",
-		"Photo": "/public/img/speakers/2014/mark_mccray.jpg",
+		"Photo": "/img/speakers/2014/mark_mccray.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -39,7 +39,7 @@
 		"LastName": "Fendley",
 		"Bio": "<p>Seth Fendley has been an Inbound Marketing Specialist and Project Manager at ClearPivot for 3 years. Currently pursuing he is Masters in Communication Studies from Arkansas State University. In pursuing his graduate degree he is actively researching ways for businesses to stay ahead of the social media curve. In his spare time you can find him working as the Assistant Debate Coach for Arkansas State and representing the university as the team captain of their disc golf team.</p>",
 		"Website": "http://www.clearpivot.com",
-		"Photo": "/public/img/speakers/2014/seth_fendley.jpg",
+		"Photo": "/img/speakers/2014/seth_fendley.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -56,7 +56,7 @@
 		"Bio": "<p>Dustin started life as a developer, which influences his design. He draws on keen understanding, experience, seeing, and confidence to design with clean lines and strong user focus. Dustin has worked for many Fortune 500 companies & startups, often employing user research to focus on user experience.</p> <p>Dustin’s many specialties all have “user experience” at their core. They include Interaction Design, User Interface Design, Website Design, Website Development, Conversion Rate Optimization, User Testing and Usability. With a strong user experience background and deep understanding of the production process, Dustin is well equipped to conceive innovative experiences, but also manage the execution of those ideas down to the pixel.</p> <p>Dustin is deeply rooted in the Arkansas Startup Eco-System and is currently a founding partner of a startup (BourbonAndBoots.com). Dustin is a supporter of the Arkansas Venture Center, an organizer in the Little Rock, AR chapter of 1 Million Cups and a past Mentor for The ARK Challenge Northwest Arkansas.</p> <p> While living in Seattle, Dustin worked with Microsoft Mobile, Microsoft Zune and TEAGUE. Dustin has also worked with Arkansas based companies such as Walmart and Acumen Brands (CountryOutfitter.com).</p>",
 		"Website": "http://www.dustinowilliams.com",
 		"Twitter": "dustinowilliams",
-		"Photo": "/public/img/speakers/2014/dustin_williams.jpg",
+		"Photo": "/img/speakers/2014/dustin_williams.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -72,7 +72,7 @@
 		"LastName": "Rousseau",
 		"Bio": "<p>Ryan has been programming for over 10 years in various languages and platforms. He is always trying to find ways to automate and make cumbersome processes easier.</p>",
 		"Website": "",
-		"Photo": "/public/img/speakers/2014/ryan_rousseau.jpg",
+		"Photo": "/img/speakers/2014/ryan_rousseau.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -88,7 +88,7 @@
 		"LastName": "Walker",
 		"Bio": "<p>A MicroISV owner for 8 years, Microsoft MVP for 6 years, and former Board member for INETA, Randy Walker has dedicated his life efforts towards fostering the software development community and discipiling young men for Christ.</p>",
 		"Website": "",
-		"Photo": "/public/img/speakers/2014/randy_walker.jpg",
+		"Photo": "/img/speakers/2014/randy_walker.jpg",
 		"Presentations":[
 				{
 					"Id" : 1,
@@ -110,7 +110,7 @@
 		"LastName": "Gaddie",
 		"Bio": "<p>I am a Digital Mentor. I work with those who believe what I believe, which is: their diversity and radically different perspectives matter, and that they should be seen and heard. I help them spread their message by figuring out what digital tools are easy for them to use and implement. If we work together in my mentoring group, they design the organized and streamlined business and lifestyle they’ve been dreaming about and free up their time and location to create a life they enjoy.</p> <p>You can also see my professional biography here: <a href=\"http://www.mayagaddie.com/professionalbio\">http://www.mayagaddie.com/professionalbio</a>",
 		"Website": "http://www.mayagaddie.com",
-		"Photo": "/public/img/speakers/2014/maya_gaddie.jpg",
+		"Photo": "/img/speakers/2014/maya_gaddie.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -126,7 +126,7 @@
 		"LastName": "Felio",
 		"Bio": "<p>David Felio is a Managing Consultant in the Application Security practice at FishNet Security. During his years in application security, he has conducted scores of application assessments and code reviews. He also delivers application security training classes, threat modeling, architecture reviews, and secure SDLC reviews. David has conducted assessments and training for national and international clients in myriad industries, including retail, healthcare, petroleum, financial services, and government.</p> <p> David has been working in information technology for over 15 years. Prior to joining FishNet Security, David worked for a government contractor, where he led his division’s security efforts. Before realizing he enjoyed breaking applications more than building them, he was a senior developer. David is a PCI QSA and a member of the SANS/GIAC advisory board.</p>",
 		"Website": "",
-		"Photo": "/public/img/speakers/2014/david_felio.jpg",
+		"Photo": "/img/speakers/2014/david_felio.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -144,7 +144,7 @@
 		"Bio": "<p>Software is math. Every class is a theorem. The compiler is the proof. And unit tests check our work.</p> <p>Michael has recorded Pluralsight courses on CQRS, XAML Patterns, and Cryptography, in addition to Provable Code. He maintains the spoon-bending Update Controls and Correspondence open-source libraries. And he helps his clients at Improving Enterprises benefit from the power of software mathematics. You can find out more at qedcode.com.</p>",
 		"Website": "http://qedcode.com",
 		"Twitter":"michaellperry",
-		"Photo": "/public/img/speakers/2014/michael_perry.jpg",
+		"Photo": "/img/speakers/2014/michael_perry.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -166,7 +166,7 @@
 		"LastName": "Townsend",
 		"Bio": "<p>Sean is currently an Android developer with Rockfish Digital. He prefers dark chocolate to milk chocolate and tea over coffee.</p>",
 		"Website": "",
-		"Photo": "/public/img/speakers/2014/sean_townsend.jpg",
+		"Photo": "/img/speakers/2014/sean_townsend.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -183,7 +183,7 @@
 		"Bio": "<p>Shawn is passionate about building awesome applications and websites with .NET technologies. He is currently an Application Development Manager for Microsoft based in Austin TX and founder of <a href=\"http://UserGroup.tv\">UserGroup.tv</a>. Read his full bio at <a href=\"http://about.me/shawnweisfeld\">about.me/shawnweisfeld</a></p>",
 		"Website": "http://www.UserGroup.tv",
 		"Twitter":"shawnweisfeld",
-		"Photo": "/public/img/speakers/2014/shawn_weisfeld.jpg",
+		"Photo": "/img/speakers/2014/shawn_weisfeld.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -200,7 +200,7 @@
 		"Bio": "<p>Bill Hartzer is the Senior SEO Strategist at Globe Runner. Bill is a frequent speaker and expert discussion panel participant at various search engine marketing and internet marketing conferences and events such as the Search Engine Strategies and the PubCon conferences. Bill writes frequently for Search Engine Watch, Search Engine Guide, and is regularly published in many online publications. He maintains a blog on his website, www.BillHartzer.com, and is one of the original founders of the Dallas/Fort Worth Search Engine Marketing Association. He has over 18 years of search engine marketing, SEO, and social media marketing experience.</p>",
 		"Website": "",
 		"Twitter": "bhartzer",
-		"Photo": "/public/img/speakers/2014/bill_hartzer.jpg",
+		"Photo": "/img/speakers/2014/bill_hartzer.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -217,7 +217,7 @@
 		"Bio": "<p>Jake is a nimble-minded innovator with a passion for collaboration and user-centered methodologies. He is heavily involved in the St. Louis digital community, and is a regular guest lecturer at colleges, special interest groups and conferences. Jake has led User Experience initiatives for more than 50 companies from over 20 distinct industries. He is currently leading the User Experience team at Manifest Digital in St. Louis.</p>",
 		"Website": "",
 		"Twitter":"trump29",
-		"Photo": "/public/img/speakers/2014/jake_truemper.jpg",
+		"Photo": "/img/speakers/2014/jake_truemper.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -234,7 +234,7 @@
 		"Bio": "<p>Born and raised in Kenya, Duncan Jimbo is currently a front-end developer based in Saint Louis, Missouri. Curious and creatively motivated, he finds great satisfaction in using new technology to make the web a more delightful place to work and play. In addition to being a programmer and problem-solver, he also loves the teaching and learning opportunities that come from collaboration. Outside of work, Duncan enjoys taking road trips and sharing his latest brew — the finest Kenyan tea this side of the Mississippi.</p>",
 		"Website": "",
 		"Twitter":"duncanjimbo",
-		"Photo": "/public/img/speakers/2014/duncan_jimbo.jpg",
+		"Photo": "/img/speakers/2014/duncan_jimbo.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -250,7 +250,7 @@
 		"LastName": "Robertson",
 		"Bio": "<p>As a software developer using Delphi since 1996, Jon has earned three Delphi certifications and has presented at three Delphi conferences.  He has also contributed to multiple commercial software products, partially through his work at MedEvolve, an ISV developing healthcare software, for the last fourteen years.</p><p>Jon is a DJ at heart and can almost always be found with music playing as his background noise.  He is very excited about exploring new mobile development opportunities using Delphi.</p>",
 		"Website": "",
-		"Photo": "/public/img/speakers/2014/jon_robertson.jpg",
+		"Photo": "/img/speakers/2014/jon_robertson.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -267,7 +267,7 @@
 		"Bio": "<p>Paul Hacker has over 10 years of application architecture, design, development, and management expertise in Microsoft technologies. His strong technical aptitude, excellent communication skills, and dedicated work ethic have enabled him to drive and deliver successful projects and solutions to clients.Paul has a depth of experience in ALM, Process Improvement, and Team Foundation Server. Having distinguished himself as a leader in the IT industry he has been awarded the distinction of Microsoft MVP in the ALM category every year since 2006. Prior to 2006 Paul carried the Microsoft MVP distinction in the C# category consistently from 2002 to 2005.Over the years Paul has proven his expertise in Application Lifecycle Management and has demonstrated his professionalism and commitment to the continuous process of managing the life of an application through governance, development and maintenance.</p>",
 		"Website": "",
 		"Twitter":"pjhacker",
-		"Photo": "/public/img/speakers/2014/paul_hacker.jpg",
+		"Photo": "/img/speakers/2014/paul_hacker.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -290,7 +290,7 @@
 		"Bio": "<p>Angie Albright is the Director of Programs for the Arkansas Nonprofit Alliance. She has many years of experience in online instructional design, and more recently has become a passionate advocate for the use of technology to support nonprofit organizations' needs. She loves to do crazy things like develop technology strategic plans, fool around on the back side of websites, sit on boards of directors for organizations whose missions she's passionate about, and learn new technologies that contribute to the social good. </p>",
 		"Website": "http://www.angiemalloyalbright.com",
 		"Twitter":"AngieAlbright",
-		"Photo": "/public/img/speakers/2014/angie_albright.jpg",
+		"Photo": "/img/speakers/2014/angie_albright.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -307,7 +307,7 @@
 		"Bio": "<p>Meredith is a partner and registered patent attorney with Smith Hurst. She is a native of Northwest Arkansas with substantial experience in all aspects of intellectual property law. Meredith’s practice principally involves various aspects of intellectual property, including patent litigation, trademark litigation, and computer technology. Since 2005, she has assisted a variety of inventors from individual entrepreneurs to large companies in their efforts to obtain patent, trademark and copyright protection and has also worked with such clients to protect those assets and defend against allegations of infringement. A meaningful amount of her practice is devoted to the transfer and licensing of rights of intellectual property, including technology transfer agreements and due diligence, as well as in trademark prosecution and patent prosecution.</p>",
 		"Website": "http://www.smithhurst.com",
 		"Twitter":"MeredithLowry",
-		"Photo": "/public/img/speakers/2014/meredith_lowry.jpg",
+		"Photo": "/img/speakers/2014/meredith_lowry.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -324,7 +324,7 @@
 		"Bio": "<p>A Technology Ambassador. Canadian-American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy.</p><p>Her specialties include startup dreaming, technical training, social strategies and mobile apps. She is a strong advocate for exposing female and male children alike to coding at an early age as a leader of Ozark STEM Foundation. Sarah earned her B.A. degree at Bishop’s University and her Masters in IT Education at Dalhousie University (Canada).</p>",
 		"Website": "http://thetechambassador.com/",
 		"Twitter":"techteachergirl",
-		"Photo": "/public/img/speakers/2014/sarah_scott.jpg",
+		"Photo": "/img/speakers/2014/sarah_scott.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -341,7 +341,7 @@
 		"Bio": "<p>Adam Hill is a Consultant for Improving Enterprises in Addison Texas. He knew he wanted to be a programmer when he was 10 years old and never looked back.</p><p>Adam is involved in many user groups in DFW and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make a game in 72.</p> <p>On the weekends you can find him gaming, making weird food and oh yeah… programming.</p>",
 		"Website": "",
 		"Twitter":"adamhill",
-		"Photo": "/public/img/speakers/2014/adam_hill.jpg",
+		"Photo": "/img/speakers/2014/adam_hill.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -358,7 +358,7 @@
 		"Bio": "<p>Nancy Knighten has worked for the Arkansas Small Business and Technology Development Center at the University of Arkansas at Little Rock for six years in economic development. She provides management and technical advice to current and potential small business owners and assists clients in solving business problems and advancing their companies. Business planning, marketing strategy development, and loan packaging are some of her specialities.</p>",
 		"Website": "http://asbtdc.org",
 		"Twitter":"",
-		"Photo": "/public/img/speakers/2014/nancy_knighten.jpg",
+		"Photo": "/img/speakers/2014/nancy_knighten.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
@@ -375,7 +375,7 @@
 		"Bio": "<p>A user experience junkie, LJ had been on a quest to find the ultimate development platform for years, and in 2009 found iOS development to be the one. LJ has worked in a variety of programming roles, from industrial programmable logic controllers (PLC’s) and robotics to open source development and then on to .NET and iOS development, LJ works full time for Arkansas Children’s Hospital and has created a complete infrastructure for iOS applications. What started out as an experimental in-house phonebook app for the iPhone has expanded into sixteen production iOS apps and counting in the span of less than 3 years. In addition to his primary mission of in-house development, LJ has also developed several apps for others ranging from an app for lawyers to take on pro-bono cases to a soon to be released health-care app. For fun, LJ loves to run and ride his motorcycle in circles around a track.</p>",
 		"Website": "http://irockios.com/",
 		"Twitter":"eljaywilson",
-		"Photo": "/public/img/speakers/2014/lj_wilson.jpg",
+		"Photo": "/img/speakers/2014/lj_wilson.jpg",
 		"Presentations":[
 			{
 				"Id" : 1,
