@@ -13,7 +13,7 @@ h3 { font-size: 2em}
 h4 { font-size: 1.5em}
 p  { line-height: 1.4}
 
-.header{padding: 20px; }
+.header{padding: 20px; min-height: 0px!important;}
 .header h1{ display: inline-block; margin-left: 30px;}
 
 .section-header{background-color: #7db660; color: black; padding: 20px;}

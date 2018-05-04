@@ -1,148 +1,33 @@
-mixin room (roomId)
-	case roomId
-		when "1"
-			span.Ballroom.A
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
-				span &nbsp;Ballroom A
-		when "2"
-			span.Ballroom.B
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
-				span &nbsp;Ballroom B
-		when "3"
-			span.Ballroom.C
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
-				span &nbsp;Ballroom C
-		default
-			span.roomId
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
-				span &nbsp;#{roomId}
-		
-		
-	//- 	roomName = 'Ballroom C'
-	//- 	if roomId = 1
-	//- 		roomName = 'Ballroom A'
-	//- 	else if roomId = 2
-	//- 		roomName = 'Ballroom B'
-	//- 	//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
-	//- span.roomName
-	//- 	i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
-	//- 		roomName
+extends layout
 
-mixin sessions (presentationList, parentId)
-	each presentation in presentationList
-		.panel.schedule-item
-			.lecture-icon-wrapper
-				if presentation.IconClass
-					span(class=presentation.IconClass)
-				else
-					a(href="/topics##{presentation.SpeakerSlug}")
-						img.img-responsive(src='#{presentation.Photo}', alt='')
-			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
-				strong.time.highlight
-					span.icon.icon-office-24
-					| #{presentation.Time} -- 
-					+room(presentation.Room)
-					//- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> #{presentation.Room}</span>
-				h6.title !{presentation.Topic}
-					i.icon.icon-arrows-06
-			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
-				article
-					p.description
-						| !{presentation.Description}
-					a(href="/topics##{presentation.SpeakerSlug}")
-						strong.highlight.speaker-name #{presentation.SpeakerName}
+block hero
+	//- .preloader-mask
+	//- 	.preloader
+	section#hero.hero-section.bg1.light-text
 
-//- mixin sessions (presentationList, parentId)
-//- 	each presentation in presentationList
-//- 		.panel.schedule-item
-//- 			.lecture-icon-wrapper
-//- 				if presentation.IconClass
-//- 					span(class=presentation.IconClass)
-//- 				else
-//- 					a(href="/topics##{presentation.SpeakerSlug}")
-//- 						//- img.img-responsive(src='#{presentation.Photo}', alt='')
-//- 			a.schedule-item-toggle(data-toggle='collapse', data-parent=parentId, href="##{presentation.ElementId}")
-//- 				strong.time.highlight
-//- 					span.icon.icon-office-24
-//- 					| #{presentation.Time} -- <span class="#{presentation.Room}"><i class="fa fa-map-marker" style="color:#babfcc;" aria-hidden="true"></i> TBD</span>
-//- 				//- h6.title !{presentation.Topic}
-//- 				h6.title Coming Soon
-//- 					i.icon.icon-arrows-06
-//- 			div(id=presentation.ElementId, class="panel collapse collapse schedule-item-body")
-//- 				article
-//- 					p.description
-						//- 	| !{presentation.Description}
-						//- 	a(href="/topics##{presentation.SpeakerSlug}")
-						//- strong.highlight.speaker-name #{presentation.SpeakerName}
-
-doctype html
-html
-	head
-		meta(charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0")
-		title Little Rock Tech Fest
-		//- link(href="http://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
-		//- link(href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
-		link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css", rel="stylesheet")
-		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css", rel="stylesheet")
-		link(link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css")
-		block stylesheets
-		link(href="/public/img/favicon.ico" rel="shortcut icon" type="image/x-icon")
-		link(href="/public/css/animations.css", rel="stylesheet")
-		link(href="/public/css/style.css", rel="stylesheet")
-		link(href="/public/css/style-green-color.css", rel="stylesheet")
-		link(href="/public/css/custom.css?v=0.0.2", rel="stylesheet")
-		script(src="/public/js/google-analytics.js")
-		script.
-			<!-- Facebook Pixel Code -->
-			!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-			n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-			n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-			t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-			document,'script','https://connect.facebook.net/en_US/fbevents.js');
-
-			fbq('init', '132849980489175');
-			fbq('track', "PageView");
-		noscript.
-			<img height="1" width="1" style="display:none"
-			src="https://www.facebook.com/tr?id=132849980489175&ev=PageView&noscript=1"
-			/>
-		<!-- End Facebook Pixel Code -->
-
-		<!-- For Facebook sharing -->
-		meta(property="og:title" content="Little Rock Tech Fest")
-		meta(property="og:description" content="Little Rock Tech Fest is an annual developer conference featuring popular web, mobile and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.")
-		meta(property="og:image", content="http://www.lrtechfest.com/public/img/lrtf-logo-fb.png")
-		meta(property="og:url", content="http://www.lrtechfest.com")
-		meta(property="og:site_name", content="Little Rock Tech Fest")
-		meta(property="og:type", content="website")
-	body
-		//- .preloader-mask
-		//- 	.preloader
-		section#hero.hero-section.bg1.light-text
-
-			ul.socials-nav
-				li.socials-nav-item
-					a(href="https://twitter.com/LRTechFest" target="_blank")
-						span.fa.fa-twitter
-				li.socials-nav-item
-					a(href="https://www.facebook.com/LittleRockTechFest" target="_blank")
-						span.fa.fa-facebook
-				li.socials-nav-item
-					a(href="mailto:info@lrtechfest.com?Subject=TechFest")
-						span.fa.fa-envelope
-			.heading-block.centered-block.align-center
-				.container
-					h5.heading-alt(style="margin-bottom: 8px;")
-						span.fa.fa-calendar-o.base-clr-txt
-						span October 4 - 5, 2018
-						span.fa.fa-map-marker.base-clr-txt
-						span Little Rock, AR
-					h1.extra-heading Little Rock Tech Fest
-					h6.thin.base-font Two days of learning, networking, and fun for web and software developers
-					.btns-container
-						div(class="btn btn-primary btn-md" ) Tickets Available June 1st
-						a(class="btn btn-info btn-md" href="http://usergroup.tv/videos/category/group/little-rock-tech-fest") Watch LRTF 2017 Videos!
-						a(class="btn btn-danger btn-md" href="https://www.papercall.io/lrtf2018") Call For Speakers
+		ul.socials-nav
+			li.socials-nav-item
+				a(href="https://twitter.com/LRTechFest" target="_blank")
+					span.fa.fa-twitter
+			li.socials-nav-item
+				a(href="https://www.facebook.com/LittleRockTechFest" target="_blank")
+					span.fa.fa-facebook
+			li.socials-nav-item
+				a(href="mailto:info@lrtechfest.com?Subject=TechFest")
+					span.fa.fa-envelope
+		.heading-block.centered-block.align-center
+			.container
+				h5.heading-alt(style="margin-bottom: 8px;")
+					span.fa.fa-calendar-o.base-clr-txt
+					span October 4 - 5, 2018
+					span.fa.fa-map-marker.base-clr-txt
+					span Little Rock, AR
+				h1.extra-heading Little Rock Tech Fest
+				h6.thin.base-font Two days of learning, networking, and fun for web and software developers
+				.btns-container
+					div(class="btn btn-primary btn-md" ) Tickets Available June 1st
+					a(class="btn btn-info btn-md" href="http://usergroup.tv/videos/category/group/little-rock-tech-fest" target="_blank") Watch LRTF 2017 Videos!
+					a(class="btn btn-danger btn-md" href="https://www.papercall.io/lrtf2018" target="_blank") Call For Speakers
 					//- span.
 					//- 	<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 
@@ -156,119 +41,44 @@ html
 					//- 	</div>
 					//- 	</form>
 					//- 	</div>
-		header.header.header-black
-			.header-wrapper
-				.container
-					.col-sm-2.col-xs-12.navigation-header
-						a.logo(href="/")
-							img(src="/public/img/lrtf-logo-small.png" style="height:80px;margin-top: -24px;")
-						button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation")
-							span(class="icon-bar")
-							span(class="icon-bar")
-							span(class="icon-bar")
-					.col-sm-10.col-xs-12.navigation-container
-						#navigation.navbar-collapse.collapse
-							ul.navigation-list.pull-left.light-text
-								li.navigation-item
-									a(class="navigation-link" href="#about") About
-								li.navigation-item
-									a(class="navigation-link" href="#location") Location
-								li.navigation-item
-									a(class="navigation-link" href="/sponsors") Become a sponsor
-								li.navigation-item
-									a(class="navigation-link" href="https://www.papercall.io/lrtf2018" target="_blank") Call for Speakers
-								li.navigation-item.dropdown
-									a(class="navigation-link" data-toggle="dropdown") Past Events
-									ul.dropdown-menu
-										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2017") 2017
-										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2016") 2016
-										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2015") 2015
-										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2014") 2014
-
-		section#about.section.align-center
-			.container
-				.icon.section-icon.icon-multimedia-12
-				h3 You want to be at #LRTF 2018
-				p.text-alt This will be a full two days of  format, hosted on October 4th and 5th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
-
-				.col-sm-6
-					p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
 
 
-				.col-sm-6
-					p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
+block content
 
-					p.align-left This is our fifth year hosting the event.  Will you join us?
+	section#about.section.align-center
+		.container
+			.icon.section-icon.icon-multimedia-12
+			h3 You want to be at #LRTF 2018
+			p.text-alt This will be a full two days of  format, hosted on October 4th and 5th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
 
-		section#location
-			.contacts-wrapper
-				#contacts-map.map(data-settings="/public/data/map-settings.json" style="height:560px;")
+			.col-sm-6
+				p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
 
-				.container.contacts-on-map-container
-					.contacts-on-map
-						h3 Event Location
-						h5 Statehouse Convention Center
-						ul.list
-							li
-								i.fa.fa-map-marker
-								span 101 E Markham St, Little Rock, AR 72201
-							li
-								i.fa.fa-map-o
-								a(href="https://www.google.com/maps/place/Statehouse+Convention+Center/@34.7487084,-92.2728966,17z/data=!4m13!1m7!3m6!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!2sStatehouse+Convention+Center!3b1!8m2!3d34.7487084!4d-92.2707079!3m4!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!8m2!3d34.7487084!4d-92.2707079" target="_blank") Get directions
 
-	
+			.col-sm-6
+				p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
 
-		section.footer
-			.footer-base
-				.container
-					.col-md-6
-						ul.footer-nav
-							li.footer-nav-item
-								a(href="mailto:info@lrtechfest.com") Contact
-							li.code-of-conduct
-								a(href="http://confcodeofconduct.com/") Code of Conduct
-							//- li.footer-nav-item
-							//- 	a(href="#") Privacy policy
-							//- li.footer-nav-item
-							//- 	a(href="#") Press
-					.col-md-6.align-right
-						ul.socials-nav.align-right
-							li.socials-nav-item
-								a(href="https://twitter.com/LRTechFest" target="_blank")
-									span.fa.fa-twitter
-							li.socials-nav-item
-								a(href="https://www.facebook.com/LittleRockTechFest" target="_blank")
-									span.fa.fa-facebook
-							li.socials-nav-item
-								a(href="mailto:info@lrtechfest.com?Subject=TechFest")
-									span.fa.fa-envelope
-						p.text-alt
-							small All Rights Reserved © 2018&nbsp;
+				p.align-left This is our fifth year hosting the event.  Will you join us?
 
-		script(src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js")
-		script(src="//maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBI59PHKJ6RKHij4YneTlmGbjyfrX6nBG8")
+	section#location
+		.contacts-wrapper
+			#contacts-map.map(data-settings="/public/data/map-settings.json" style="height:560px;")
 
-		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
-		block scripts
-		script(type="text/javascript" src="/public/js/masonry.pkgd.min.js")
-		script(type="text/javascript" src="/public/js/modal-box.js")
-		script(type="text/javascript" src="/public/js/jquery.waypoints.min.js")
-		script(src="/public/js/theme.js")
-		script(src="/public/js/site.js")
+			.container.contacts-on-map-container
+				.contacts-on-map
+					h3 Event Location
+					h5 Statehouse Convention Center
+					ul.list
+						li
+							i.fa.fa-map-marker
+							span 101 E Markham St, Little Rock, AR 72201
+						li
+							i.fa.fa-map-o
+							a(href="https://www.google.com/maps/place/Statehouse+Convention+Center/@34.7487084,-92.2728966,17z/data=!4m13!1m7!3m6!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!2sStatehouse+Convention+Center!3b1!8m2!3d34.7487084!4d-92.2707079!3m4!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!8m2!3d34.7487084!4d-92.2707079" target="_blank") Get directions
 
-		script.
-			<!-- Drip -->
-			var _dcq = _dcq || [];
-			var _dcs = _dcs || {};
-			_dcs.account = '3825101';
-			(function() {
-				var dc = document.createElement('script');
-				dc.type = 'text/javascript'; dc.async = true;
-				dc.src = '//tag.getdrip.com/3825101.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(dc, s);
-			})();
+
+block scripts
+
+	script(src="//maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBI59PHKJ6RKHij4YneTlmGbjyfrX6nBG8")
+	script(type="text/javascript" src="/public/js/modal-box.js")
+	script(type="text/javascript" src="/public/js/jquery.waypoints.min.js")
