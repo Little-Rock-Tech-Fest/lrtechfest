@@ -157,10 +157,10 @@ app.get("/pastyear/:year", function (req, res) {
 
 	var speakers;
 	var year = req.params.year;
-	fs_readFile('json/'+year+'/speakers.json', 'utf8')
+	fs_readFile('archive/'+year+'/speakers.json', 'utf8')
 		.then(function(speakerData){
 			speakers = JSON.parse(speakerData);
-			return fs_readFile('json/'+year+'/sponsors.json', 'utf8');
+			return fs_readFile('archive/'+year+'/sponsors.json', 'utf8');
 		}, console.error)
 		.then(function(sponsorData){
 			var sponsors = JSON.parse(sponsorData);
