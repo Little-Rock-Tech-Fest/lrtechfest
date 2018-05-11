@@ -1,4 +1,5 @@
 (function($) {
+
 	function landingInit() {
 		var landing = $('#landing');
 		var winHeight = $(window).height();
@@ -7,13 +8,11 @@
 		landing.css({
 			//height: landingHeight + "px"
 		});
-
-	};
+	}
 
 	$(window).resize(landingInit);
 	$(document).ready(landingInit);
 
-
-  $("#home-video").playbackRate = 0.5;
+	$("#home-video").playbackRate = 0.5;
 
 })(jQuery);

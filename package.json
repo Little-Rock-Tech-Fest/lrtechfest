@@ -28,5 +28,7 @@
     "q": "~1.5",
     "slugs": "~0.1.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
 }
