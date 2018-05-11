@@ -12,7 +12,7 @@ var fs_readFile = Q.denodeify(fs.readFile);
 app.locals._ = _;
 
 app.set('views', __dirname+"/views");
-app.set('view engine', 'jade');
+app.set('view engine', 'pug');
 app.use(express.static('public'));
 
 var gallery = [
@@ -50,8 +50,9 @@ var presentations = [];
 
 speakers.forEach(function(speaker){
 	speaker.slug = slugs(speaker.FirstName+'-'+speaker.LastName);
-	var stats = fs.stat(__dirname+speaker.Photo, function(err, stats){
+	var stats = fs.stat('public/'+speaker.Photo, function(err, stats){
 		if(err){
+			console.log(err);
 			speaker.Photo = "/img/speakers/missing.png";
 			presentations.Photo = speaker.Photo;
 		}
@@ -148,7 +149,7 @@ app.get("/app", function (req, res) {
 app.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.params.year + ".pdf", function (err) {
 		if (err) {
-			res.send(404);
+			res.sendStatus(404);
 		}
 	});
 });

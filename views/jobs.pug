@@ -10,10 +10,10 @@ block content
 			#jobs.row
 				div.col-md-8
 					each job in jobs
-						a(href="/jobs/detail/#{job.id}")
+						a(href="/jobs/detail/"+job.id)
 							div.row
 								div.col-xs-4.logo.col-sm-3
-									img(src="#{job.logo}", alt="Logo", style="padding-left:10px; padding-right:10px")
+									img(src=job.logo, alt="Logo", style="padding-left:10px; padding-right:10px")
 								div.col-xs-8.col-sm-6
 									h6 #{job.posTitle}
 									p #{job.orgName}

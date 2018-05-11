@@ -15,14 +15,14 @@ block content
 				.container-fluid
 					.row.logo-row
 						each sponsor in sponsors
-							a(href="#{sponsor.Website}")
+							a(href=sponsor.Website target="new")
 								.logo-container
 									.level
-										i(class="fa fa-trophy #{sponsor.Level}")
+										i(class="fa fa-trophy " + sponsor.Level)
 										span #{sponsor.Level} Sponsor
 									.logo-frame
 										.logo-img
-										img(src="#{sponsor.Logo}")
+										img(src=sponsor.Logo)
 
 		.section.section-hero.align-center
 			h2 Speakers #{year}
@@ -33,7 +33,7 @@ block content
 				.container-fluid
 					.row.speaker
 						.col-sm-3.col-md-2.photo
-							img(src="#{speaker.Photo}")
+							img(src=speaker.Photo)
 						.col-sm-8.col-md-9
 							.name #{speaker.FirstName} #{speaker.LastName}
 							for talk in speaker.Presentations

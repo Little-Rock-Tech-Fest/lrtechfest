@@ -6,7 +6,7 @@ block content
 			for job in jobs
 				if job.id == id
 					div.col-sm-4
-						img.col-sm-12.logo(src="#{job.logo}", alt="Logo", style="padding-bottom:20px")
+						img.col-sm-12.logo(src=job.logo, alt="Logo", style="padding-bottom:20px")
 						h5.col-sm-12 #{job.orgName}
 						hr
 						span.col-sm-12
@@ -19,7 +19,7 @@ block content
 								li Posted: #{job.datePosted}
 						hr
 						.row.align-center.btns-block
-							a(href="#{job.appLink}" target="_blank" class="btn btn-block") Apply Now
+							a(href=job.appLink target="_blank" class="btn btn-block") Apply Now
 					div.col-sm-8.job
 						h5 #{job.posTitle}
 						hr

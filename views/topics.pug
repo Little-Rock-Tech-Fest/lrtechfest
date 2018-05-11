@@ -42,7 +42,7 @@ block content
 			div(id='#{speaker.slug}' class='col-sm-3')
 				.speaker
 					.photo-wrapper.rounded
-						img(src="#{speaker.Photo}" alt="#{speaker.FirstName} #{speaker.LastName}" class="img-responsive" )
+						img(src=speaker.Photo alt=speaker.FirstName + ' ' + speaker.LastName class="img-responsive" )
 					h3.name #{speaker.FirstName} #{speaker.LastName}
 					p.text-alt
 						small #{speaker.Company}
