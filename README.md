@@ -9,7 +9,7 @@ http://www.lrtechfest.com
 
 ### Prerequisites
 
-[Node.js](https://nodejs.org/en/)
+[Node.js](https://nodejs.org/en/) LTS Version 8.11.1 (includes [npm](https://www.npmjs.com/) 5.6.0) 
 
 ### Installing
 
