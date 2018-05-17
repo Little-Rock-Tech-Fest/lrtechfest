@@ -236,6 +236,10 @@ app.get('/jobs/detail/:id', function(req, res){
 		});
 });
 
+app.use(function (req, res, next) {
+  res.status(404).render('404');
+});
+
 var port = process.env.PORT;
 if (!port) {
 	port = 9990;

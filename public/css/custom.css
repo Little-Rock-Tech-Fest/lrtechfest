@@ -1,3 +1,7 @@
+section#main {
+  min-height: 600px;
+}
+
 .sponsors {
   max-width: 900px;
   margin: 0 auto;
@@ -58,6 +62,11 @@ section#main {
 }
 #jobs a{
   color:black;
+}
+
+h1.error-code{
+  font-size: 100pt;
+  color: #C5DFB3;
 }
 
 .disabled {
