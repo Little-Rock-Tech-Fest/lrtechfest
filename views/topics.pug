@@ -49,15 +49,15 @@ block content
 					ul.speaker-socials
 						if speaker.Twitter
 							li
-								a(href="https://twitter.com/#{speaker.Twitter}")
+								a(href='https://twitter.com/' + speaker.Twitter)
 									.fa.fa-twitter
 						if speaker.LinkedIn
 							li
-								a(href="#{speaker.LinkedIn}")
+								a(href=speaker.LinkedIn)
 									.fa.fa-linkedin
 						if speaker.Website
 							li
-								a(href="#{speaker.Website}")
+								a(href=speaker.Website)
 									.fa.fa-globe
 			div.col-sm-6
 				each presentation in speaker.Presentations
@@ -65,7 +65,7 @@ block content
 					h6 #{presentation.Time}
 					if presentation.SlidesLink
 						h6 
-							a(href="#{presentation.SlidesLink}") Slides Link
+							a(href=presentation.SlidesLink) Slides Link
 					+Day(presentation.Day)
 					+room(presentation.Room)
 					p !{presentation.Description}
