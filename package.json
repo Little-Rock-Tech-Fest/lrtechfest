@@ -1,7 +1,7 @@
 {
   "name": "lr-techfest",
-  "version": "0.0.0",
-  "description": "Little Rock Techfest",
+  "version": "1.0.0",
+  "description": "Little Rock Tech Fest",
   "main": "app.js",
   "repository": {
     "type": "git",

@@ -1,74 +1,20 @@
 extends layout
 
-mixin room (roomId)
-	case roomId
-		when "1"
-			span.Ballroom.A
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
-				span &nbsp;Ballroom A
-		when "2"
-			span.Ballroom.B
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
-				span &nbsp;Ballroom B
-		when "3"
-			span.Ballroom.C
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
-				span &nbsp;Ballroom C
-		default
-			span.roomId
-				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
-				span &nbsp;#{roomId}
-
-mixin Day (fullDay)
-	case fullDay
-		when 1
-			span.Thursday
-				span(style="padding-right: 10px;") Thursday, Oct. 5
-		when 2
-			span.Friday
-				span(style="padding-right: 10px;") Friday, Oct. 6
-		default
-			span &nbsp;#{fullDay}
-				
 block content
-	section.section.align-center
-		.section-header.col-sm-10.col-sm-offset-1
-			h1 LRTF 2018 Session Lineup
+	section.section.section-hero.align-center
+		.section-header
+			h1 2018 Session Lineup
+	
+	section.fullwidth-section.section-content
+		div.container.fullwidth-path(style="padding: 80px 0")
+			div.col-sm-6.align-center.img-column(style="padding-top: 0px")
+				iframe(src="https://giphy.com/embed/QzY1VsAp0isdq" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen)
+			div.col-sm-6.align-left
+				.article(style="max-width: 480px")
+				h3 We're working on it!
+				//-p
+					small.text-alt OCTOBER 4 - 5, 2018						
+				p The 2018 Little Rock Tech Fest Conference is the 6th year being hosted in Central Arkansas. This year’s conference will be on #[strong Oct 4th] and #[strong 5th] at the Little Rock StateHouse Convention Center.
+				p For the past five years, our audience has primarily consisted of professional software developers who are focused on learning and improving their knowledge in the industry. First round of speaker notifications will be made on August 1st and later entries will be made by Sept. 7th.
 
-	section.fullwidth-section
-		.fullwidth-path
-		br
-		each speaker in speakers
-			div(id='#{speaker.slug}' class='col-sm-3')
-				.speaker
-					.photo-wrapper.rounded
-						img(src=speaker.Photo alt=speaker.FirstName + ' ' + speaker.LastName class="img-responsive" )
-					h3.name #{speaker.FirstName} #{speaker.LastName}
-					p.text-alt
-						small #{speaker.Company}
-					ul.speaker-socials
-						if speaker.Twitter
-							li
-								a(href='https://twitter.com/' + speaker.Twitter)
-									.fa.fa-twitter
-						if speaker.LinkedIn
-							li
-								a(href=speaker.LinkedIn)
-									.fa.fa-linkedin
-						if speaker.Website
-							li
-								a(href=speaker.Website)
-									.fa.fa-globe
-			div.col-sm-6
-				each presentation in speaker.Presentations
-					h4 #{presentation.Topic}
-					h6 #{presentation.Time}
-					if presentation.SlidesLink
-						h6 
-							a(href=presentation.SlidesLink) Slides Link
-					+Day(presentation.Day)
-					+room(presentation.Room)
-					p !{presentation.Description}
-				h6 About #{speaker.FirstName}
-				p !{speaker.Bio}
-			hr
+				a(href="https://www.papercall.io/lrtf2018" class="btn" style="margin: 30px 0 0" target="new") Become A Speaker!
