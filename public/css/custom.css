@@ -45,6 +45,7 @@ section#main {
 
 .fullwidth-section.section-content {
   margin: 0;
+  min-height: 600px;
 }
 
 .fullwidth-section.section-content .fullwidth-column {
@@ -60,10 +61,11 @@ section#main {
 #jobs .row:hover{
   background-color:#C5DFB3;
 }
+/*
 #jobs a{
   color:black;
 }
-
+*/
 h1.error-code{
   font-size: 100pt;
   color: #C5DFB3;

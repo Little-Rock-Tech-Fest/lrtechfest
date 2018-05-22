@@ -1,14 +1,24 @@
 extends layout
 
 block content
-	section.section
-		.container
-			.section-header
-				h1 Are you <span class="highlight">looking for a job</span>?
-				p Check out these opportunties available at companies that sponsor Little Rock Tech Fest.
+	//- section.section
+		//- .container
+			//- .section-header
+				//- h1 Are you <span class="highlight">looking for a job</span>?
+				//- p Check out these opportunties available at companies that sponsor Little Rock Tech Fest.
 
+
+	section.fullwidth-section.section-content
+		div.container.fullwidth-path(style="padding: 80px 0")
 			#jobs.row
 				div.col-md-8
+					h1 
+						| Are you 
+						span.highlight looking for a job
+						| ?
+					h6 We're collecting opportunties available at the companies that sponsor Little Rock Tech Fest.
+					br
+					h6.highlight Check back soon!
 					each job in jobs
 						a(href="/jobs/detail/"+job.id)
 							div.row
@@ -24,4 +34,4 @@ block content
 				div.col-md-4.post-job
 					h6 Want your job listed here?
 					p All sponsors can post jobs.
-					a.btn.btn-lg(href="https://docs.google.com/forms/d/e/1FAIpQLSdTK4MmkW13KfKwurMvTvtbjFFsAs93bB9f8_5ej2mP5l3xSQ/viewform?usp=sf_link") Post A Job
+					a(href="https://docs.google.com/forms/d/e/1FAIpQLSdTK4MmkW13KfKwurMvTvtbjFFsAs93bB9f8_5ej2mP5l3xSQ/viewform?usp=sf_link" class="btn btn-lg") Post A Job!
