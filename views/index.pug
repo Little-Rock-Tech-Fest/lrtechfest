@@ -5,6 +5,12 @@ block hero
 	//- 	.preloader
 	section#hero.hero-section.bg1.light-text
 
+		div.video-bg
+			video(autoplay, loop)
+				source(src="video/promo.mp4", type="video/mp4")
+				source(src="video/promo.ogv", type="video/ogv")
+				source(src="video/promo.webm", type="video/webm")
+
 		ul.socials-nav
 			li.socials-nav-item
 				a(href="https://twitter.com/LRTechFest" target="_blank")

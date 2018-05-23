@@ -2,6 +2,26 @@ section#main {
   min-height: 600px;
 }
 
+.bg1 {
+  background: #11253D;
+}
+
+#about {
+  background: #fff;
+}
+
+.video-bg {
+  opacity: 0.085;
+}
+
+.video-bg video {
+  -moz-transform:scale(1.5);
+  -webkit-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  -ms-transform:scale(1.5);
+  transform:scale(1.5);
+}
+
 .sponsors {
   max-width: 900px;
   margin: 0 auto;
