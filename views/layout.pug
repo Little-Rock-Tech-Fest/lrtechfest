@@ -49,14 +49,14 @@ html(lang="en")
 						a.logo(href="/")
 							img(src="/img/lrtf-logo-small.png" style="height:80px;margin-top: -24px;" alt="LRTF Logo")
 						button.navbar-toggle.collapsed(data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-controls="navigation")
-							span(class="icon-bar")
-							span(class="icon-bar")
-							span(class="icon-bar")
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
 					.col-sm-10.col-xs-12.navigation-container
 						#navigation.navbar-collapse.collapse
 							ul.navigation-list.pull-left.light-text
 								li.navigation-item
-									a(class="navigation-link" href="/#about") About
+									a.navigation-link(href="/#about") About
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="/#schedule") Schedule
 								//- li.navigation-item.dropdown
@@ -69,9 +69,9 @@ html(lang="en")
 								//-li.navigation-item
 								//-	a(class="navigation-link" href="/#tickets") Tickets
 								li.navigation-item
-									a(class="navigation-link" href="/#location") Location
+									a.navigation-link(href="/#location") Location
 								li.navigation-item
-									a(class="navigation-link" href="/sponsors") Become a sponsor
+									a.navigation-link(href="/sponsors") Become a sponsor
 								//-li.navigation-item.dropdown
 									a.navigation-link.dropdown-toggle(href="/#sponsors") Sponsors
 									ul.dropdown-menu
@@ -80,24 +80,25 @@ html(lang="en")
 								//- li.navigation-item
 									//- a(class="navigation-link" href="https://www.papercall.io/lrtf2018" target="_blank") Call for Speakers
 								li.navigation-item
-									a(class="navigation-link" href="/jobs") Jobs
+									a.navigation-link(href="/jobs") Jobs
 								li.navigation-item.dropdown
-									a(class="navigation-link" href="/pastyear") Past Events
+									a.navigation-link(href="/pastyear") Past Events
 									ul.dropdown-menu
 										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2017") 2017
+											a.navigation-link(href="/pastyear/2017") 2017
 										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2016") 2016
+											a.navigation-link(href="/pastyear/2016") 2016
 										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2015") 2015
+											a.navigation-link(href="/pastyear/2015") 2015
 										li.navigation-item
-											a(class="navigation-link" href="/pastyear/2014") 2014
+											a.navigation-link(href="/pastyear/2014") 2014
 
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="#speakers") Schedule
-								//-		a(class="pull-right buy-btn" href="#") Buy Tickets
+								//-		a(class="pull-right buy-btn" href="#") Buy Tickets1
+
 							.pull-right.buy-btn
-								a(class="navigation-link" href="https://www.papercall.io/lrtf2018" target="new") Call for Speakers
+								a.navigation-link(href="https://www.papercall.io/lrtf2018" target="new") Call for Speakers
 
 
 		block content
@@ -110,8 +111,10 @@ html(lang="en")
 						ul.footer-nav
 							li.footer-nav-item
 								a(href="mailto:info@lrtechfest.com") Contact
-							li.code-of-conduct
+							li.footer-nav-item
 								a(href="http://confcodeofconduct.com/" target="new") Code of Conduct
+							li.footer-nav-item
+								a.navigation-link(href='http://usergroup.tv/videos/category/group/little-rock-tech-fest' target="new") Speaker Videos
 							//- li.footer-nav-item
 							//- 	a(href="#") Privacy policy
 							//- li.footer-nav-item
