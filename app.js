@@ -13,6 +13,9 @@ var appRouter = require('./routes/app');
 var jobRouter = require('./routes/jobs');
 var app = express();
 
+app.locals.moment = require('moment');
+app.locals.converter = require('number-to-words');
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 

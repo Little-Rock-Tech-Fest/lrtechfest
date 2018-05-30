@@ -55,7 +55,7 @@ block content
 	section#about.section.align-center
 		.container
 			.icon.section-icon.icon-multimedia-12
-			h3 You want to be at #LRTF 2018
+			h3 You want to be at #LRTF #{moment().format('YYYY')}
 			p.text-alt This will be a full two days of  format, hosted on October 4th and 5th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
 
 			.col-sm-6
@@ -65,7 +65,7 @@ block content
 			.col-sm-6
 				p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
 
-				p.align-left This is our fifth year hosting the event.  Will you join us?
+				p.align-left This is our #[strong #{converter.toWordsOrdinal(moment().diff('10-01-2011', 'years'))}] year hosting the event.  Will you join us?
 
 	section#location
 		.contacts-wrapper
