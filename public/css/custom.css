@@ -65,6 +65,13 @@ a.logo {
   min-height: 650px;
 }
 
+.modal-box.iframe-box .close-btn {
+  background-color: rgba(99, 161, 69, 0.6);
+}
+.modal-box .close-btn:not(:hover) {
+  color: #FFF;
+}
+
 .section {
   padding: 50px 0px;
 }
