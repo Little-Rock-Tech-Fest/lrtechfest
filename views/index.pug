@@ -31,8 +31,9 @@ block hero
 				h1.extra-heading Little Rock Tech Fest
 				h6.thin.base-font Two days of learning, networking, and fun for web and software developers
 				.btns-container
-					div(class="btn btn-primary btn-md" disabled) Tickets Available June 1st
-					a(href="#" class="btn btn-danger btn-md" data-modal-link="0") Video
+					a.btn.btn-primary.btn-md(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884?ref=website" target="new") Buy Tickets
+					a.btn.btn-info.btn-md(href="https://www.papercall.io/lrtf2018" target="new") Call For Speakers
+					a.btn.btn-danger.btn-md(href="#" data-modal-link="0") Video
 					//- a(class="btn btn-info btn-md" href="http://usergroup.tv/videos/category/group/little-rock-tech-fest" target="_blank") Watch LRTF 2017 Videos!
 					//-a(class="btn btn-danger btn-md" href="https://www.papercall.io/lrtf2018" target="_blank") Call For Speakers
 					//- span.
@@ -65,7 +66,7 @@ block content
 			.col-sm-6
 				p.align-left Our purpose is to encourage local professionals to increase their skills and to promote the Little Rock region to both experienced and aspiring developers and students.
 
-				p.align-left This is our #[strong #{converter.toWordsOrdinal(moment().diff('10-01-2011', 'years'))}] year hosting the event.  Will you join us?
+				p.align-left This is our #[strong #{converter.toWordsOrdinal(moment().diff('2011-10-01', 'years'))}] year hosting the event.  Will you join us?
 
 	section#location
 		.contacts-wrapper

@@ -80,14 +80,6 @@ a.logo {
   padding: 150px 0 100px;
 }
 
-.pull-right.buy-btn {
-  margin: 24px 0px 16px;
-}
-
-.pull-right.buy-btn a:hover {
-  color: #FFF!important;
-}
-
 .section.section-hero {
   padding: 20px;
 }
@@ -164,10 +156,7 @@ a.logo {
 
 /* Small */
 @media(min-width:768px) and (max-width:991px){
-  .header .buy-btn:before {
-    display: none;
-    visibility: hidden;
-  }
+
 }
 
 
