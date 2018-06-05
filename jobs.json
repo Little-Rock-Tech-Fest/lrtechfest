@@ -1,3 +1,14 @@
 [
-
+	{
+		"id": 400,
+		"logo": "/img/sponsors/lafferty.png",
+		"datePosted": "2018-06-04",
+		"posTitle": "Software Developer (Laravel)",
+		"location": "North Little Rock, AR",
+		"posType": "Full Time",
+		"posDesc": "<p>We benefit more and more from our custom software packages, and are looking for a Software Developer (Laravel) to help accelerate their positive effects. Our ideal candidate has a solid understanding of full stack web development (e.g. LAMP or MEAN), Laravel, and Git.</p><p><strong>What would you do?</strong></p><ul><li>Build and support a variety of web applications and commerce systems</li><li>Enable the internationalization of product literature and web content</li><li>Extend, implement, and document API endpoints</li><li>Be flexible, work hard, have fun</li></ul><p><strong>What’s in it for you?</strong></p><ul><li>Two weeks paid vacation each year after one full year</li><li>Paid Blue Cross/Blue Shield Health insurance for you and your family</li><li>Available vision, dental, life, etc.</li><li>401(k) available, after one full year; Lafferty will contribute 3%</li><li>Monday to Friday, 8 to 5 office hours</li><li>A chance to make a big difference in a growing company</li></ul>",
+		"appLink": "mailto:curtis@laffertyequipment.com",
+		"orgName": "Lafferty Equipment Manufacturing, Inc.",
+		"orgDesc": "<p>Lafferty Equipment is known internationally as manufacturers of the best equipment for industrial cleaning and sanitization. We have a great team with talented professionals in all kinds of positions who manage our IT, website, development, translations, and so much more. We strongly value working with talented people and using the best tools for the job.</p>"
+	}
 ]

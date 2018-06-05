@@ -15,6 +15,7 @@ var app = express();
 
 app.locals.moment = require('moment');
 app.locals.converter = require('number-to-words');
+app.locals.slugs = require('slugs');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');

@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var slugs = require('slugs');
 
 var fs = require('fs');
 var Q = require('q');
@@ -20,7 +21,7 @@ router.get('/', function (req, res) {
 		});
 });
 
-router.get('/detail/:id', function (req, res) {
+router.get('/:id', function (req, res) {
 	var jobs;
 	var id = req.params.id;
 	fs_readFile('jobs.json', 'utf8')
