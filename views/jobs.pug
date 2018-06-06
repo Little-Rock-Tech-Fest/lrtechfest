@@ -2,11 +2,11 @@ extends layout
 
 block content
 
-	section.fullwidth-section.section-content
-		div.container.fullwidth-path(style="padding: 20px 0")
+	section.section-content
+		.container
 			#jobs.row
-				div.col-lg-8
-					h1 
+				div.col-md-8
+					h2 
 						| Are you 
 						span.highlight looking for a job
 						| ?
@@ -15,16 +15,16 @@ block content
 					each job in jobs
 						a(href="/jobs/"+slugs(job.orgName+job.posTitle))
 							div.row
-								div.col-xs-4.logo.col-sm-3
+								div.col-xs-4.col-sm-4.col-md-4.col-lg-3.logo
 									img(src=job.logo, alt="Logo", style="padding-left:10px; padding-right:10px")
-								div.col-xs-8.col-sm-6
+								div.col-xs-8.col-sm-8.col-md-8.col-lg-6
 									h6 #{job.posTitle}
 									p #{job.orgName}
-								div.col-xs-8.col-xs-offset-4.col-sm-3.col-sm-offset-0
+								div.col-xs-8.col-xs-offset-4.col-sm-8.col-sm-offset-4.col-md-8.col-md-offset-4.col-lg-3.col-lg-offset-0
 									p #{job.posType}
 									p <i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
 						hr
-				div.col-lg-3.col-lg-offset-1.post-job(style="padding: 20px 0")
+				div.col-md-4.post-job
 					h6 Want your job listed here?
 					p All sponsors can post jobs.
-					a(href="https://docs.google.com/forms/d/e/1FAIpQLSdTK4MmkW13KfKwurMvTvtbjFFsAs93bB9f8_5ej2mP5l3xSQ/viewform?usp=sf_link" class="btn btn-lg") Post A Job!
+					a.btn.btn-sm(href="https://docs.google.com/forms/d/e/1FAIpQLSdTK4MmkW13KfKwurMvTvtbjFFsAs93bB9f8_5ej2mP5l3xSQ/viewform?usp=sf_link") Post A Job!

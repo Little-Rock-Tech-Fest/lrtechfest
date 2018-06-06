@@ -1,3 +1,7 @@
+li {
+  text-align: left;
+}
+
 section#main {
   min-height: 600px;
 }
@@ -47,9 +51,32 @@ section#main {
 a.logo {
   height:80px;
 }
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:100px; /* fixed header height*/
+  margin:-100px 0 0; /* negative fixed header height */
+}
+
+a#apply {
+  margin: 0 20px;
+}
+
 .logo-pad {
   padding-left: 5px;
   padding-right: 10px;
+}
+
+.btn {
+  margin: 0;
+}
+.btns-container .btn {
+  margin: 0 7px;
+}
+.article .btn.cta,
+.article .link-btn.cta {
+  margin: 30px 0 0;
 }
 
 .btn-primary[disabled] {
@@ -65,6 +92,10 @@ a.logo {
   min-height: 650px;
 }
 
+.header {
+  margin-bottom:15px;
+}
+
 .modal-box.iframe-box .close-btn {
   background-color: rgba(99, 161, 69, 0.6);
 }
@@ -72,25 +103,31 @@ a.logo {
   color: #FFF;
 }
 
+/*
 .section {
   padding: 50px 0px;
 }
+*/
 
 .heading-block {
   padding: 150px 0 100px;
 }
 
 .section.section-hero {
-  padding: 20px;
+  padding: 10px 0 0;
 }
+
+div.article {
+  padding: 40px 0;
+}
+
 .section#tickets, 
 .section#speakers, 
 .section#sponsors {
 	padding-top: 20px;
 }
 
-.fullwidth-section.section-content {
-  margin: 0;
+.section-content {
   min-height: 600px;
 }
 
@@ -111,6 +148,9 @@ a.logo {
 }
 #jobs .row:hover{
   background-color:#C5DFB3;
+}
+#jobs .post-job {
+    margin-top: 20px;
 }
 
 .error-code{
@@ -152,6 +192,12 @@ a.logo {
   a.logo {
     height:50px;margin-top: 0;
   }
+  #jobs .post-job {
+    margin-top: 0px;
+  }
+  .section-content {
+    margin-top:20px;
+  }
 }
 
 /* Small */
@@ -162,7 +208,9 @@ a.logo {
 
 /* Medium */
 @media(min-width:992px) and (max-width:1199px){
-
+  .article h3 {
+    font-size: 45px;
+  }
 }
 
 /* Large */
