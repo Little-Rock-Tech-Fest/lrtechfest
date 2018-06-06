@@ -103,11 +103,14 @@ a#apply {
   color: #FFF;
 }
 
-/*
-.section {
-  padding: 50px 0px;
+.heading-alt .date {
+  display: inline;
 }
-*/
+
+.heading-alt .loc {
+  margin: 0 0 0 24px;
+  display: inline;
+}
 
 .heading-block {
   padding: 150px 0 100px;
@@ -188,7 +191,7 @@ div.article {
 }
 
 /* Extra Small */
-@media(max-width:767px){
+@media (max-width: 767px){
   a.logo {
     height:50px;margin-top: 0;
   }
@@ -198,11 +201,48 @@ div.article {
   .section-content {
     margin-top:20px;
   }
+  .heading-alt .date {
+    display: block;
+  }
+  .heading-alt .loc {
+    display: block;
+    margin-top: 10px;
+  }
+  h1.extra-heading {
+    padding: 20px 0;
+  }
+  .navigation-link {
+    margin: 0 35px;
+  }
+  .heading-block {
+      padding: 50px 0 25px;
+  }
+  .socials-nav {
+    margin-top: 40px;
+  }
+  .footer-nav > li {
+    padding: 10px 0;
+  }
 }
 
 /* Small */
 @media(min-width:768px) and (max-width:991px){
-
+  .heading-block {
+    padding: 100px 0 20px;
+  }
+  h1.extra-heading {
+    padding: 20px 0;
+  }
+  .heading-alt .date {
+    display: block;
+  }
+  .heading-alt .loc {
+    display: block;
+    margin-top: 10px;
+  }
+  .footer-nav > li {
+    padding: 10px 0;
+  }
 }
 
 
@@ -210,6 +250,16 @@ div.article {
 @media(min-width:992px) and (max-width:1199px){
   .article h3 {
     font-size: 45px;
+  }
+  .heading-block {
+    padding: 120px 0 50px;
+  }
+  .heading-alt .date {
+    display: block;
+  }
+  .heading-alt .loc {
+    display: block;
+    margin-top: 10px;
   }
 }
 

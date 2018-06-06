@@ -1,6 +1,5 @@
 var express = require('express');
 var router = express.Router();
-var slugs = require('slugs');
 
 var fs = require('fs');
 var Q = require('q');
