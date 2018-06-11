@@ -1,0 +1,39 @@
+extends layout
+
+block content
+	section#jobDesc
+		.container
+			for job in jobs
+				if slugs(job.orgName+job.posTitle) == id
+					div.col-sm-5.col-md-4
+						img.col-sm-12.logo(src=job.logo, alt="Logo", style="padding-bottom:20px")
+						h5.col-sm-12 #{job.orgName}
+						hr
+						span.col-sm-12
+							h6 Details
+							ul.icon-list.li-type  
+								li #{job.posType}
+							ul.icon-list.li-location
+								li #{job.location}
+							ul.icon-list.li-date
+								li Posted: #{job.datePosted}
+						hr
+						.row.align-center.btns-block
+							a#apply.btn-btn-block(href=job.appLink target="_blank" class="btn btn-block") Apply Now
+					div.col-sm-7.col-md-8.job
+						h5 #{job.posTitle}
+						hr
+						br
+						p !{job.posDesc}
+						br
+						h5 About: #{job.orgName}
+						hr
+						br
+						p !{job.orgDesc}
+
+
+	hr
+							
+				
+			
+				

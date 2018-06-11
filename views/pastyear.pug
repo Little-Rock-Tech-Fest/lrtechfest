@@ -1,0 +1,43 @@
+extends layout
+
+block stylesheets
+
+	link(href="/css/pastevents.css", rel="stylesheet")
+
+block content
+	section#main
+		.section.section-hero.align-center
+			h2 Sponsors #{year}
+			hr
+
+		.section-content
+			#sponsors-content
+				.container-fluid
+					.row.logo-row
+						each sponsor in sponsors
+							a(href=sponsor.Website target="new")
+								.logo-container
+									.level
+										i(class="fa fa-trophy " + sponsor.Level)
+										span #{sponsor.Level} Sponsor
+									.logo-frame
+										.logo-img
+										img(src=sponsor.Logo)
+
+		.section.section-hero.align-center
+			h2 Speakers #{year}
+			hr
+
+		.section-content
+			each speaker in speakers
+				.container-fluid
+					.row.speaker
+						.col-sm-3.col-md-2.photo
+							img(src=speaker.Photo)
+						.col-sm-8.col-md-9
+							.name #{speaker.FirstName} #{speaker.LastName}
+							for talk in speaker.Presentations
+								.talk-title #{talk.Topic}
+								.talk-description !{talk.Description}
+				hr
+

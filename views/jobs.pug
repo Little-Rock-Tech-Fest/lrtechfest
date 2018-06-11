@@ -1,0 +1,30 @@
+extends layout
+
+block content
+
+	section.section-content
+		.container
+			#jobs.row
+				div.col-md-8
+					h2 
+						| Are you 
+						span.highlight looking for a job
+						| ?
+					p Check out these opportunties available at companies that sponsor Little Rock Tech Fest.
+					hr
+					each job in jobs
+						a(href="/jobs/"+slugs(job.orgName+job.posTitle))
+							div.row
+								div.col-xs-4.col-sm-4.col-md-4.col-lg-3.logo
+									img(src=job.logo, alt="Logo", style="padding-left:10px; padding-right:10px")
+								div.col-xs-8.col-sm-8.col-md-8.col-lg-6
+									h6 #{job.posTitle}
+									p #{job.orgName}
+								div.col-xs-8.col-xs-offset-4.col-sm-8.col-sm-offset-4.col-md-8.col-md-offset-4.col-lg-3.col-lg-offset-0
+									p #{job.posType}
+									p <i class="fa fa-map-marker" aria-hidden="true"></i>  #{job.location}
+						hr
+				div.col-md-4.post-job
+					h6 Want your job listed here?
+					p All sponsors can post jobs.
+					a.btn.btn-sm(href="https://docs.google.com/forms/d/e/1FAIpQLSdTK4MmkW13KfKwurMvTvtbjFFsAs93bB9f8_5ej2mP5l3xSQ/viewform?usp=sf_link") Post A Job!

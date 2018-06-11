@@ -6,7 +6,7 @@
     "Bio": "Stewart Whaley is a Certified Information Privacy Professional, attorney and software developer with experience in the media,\r\nhealthcare and legal sectors. He is an honors graduate of the William H. Bowen School of Law, a Microsoft Certified Professional\r\nand active as a speaker, developer and consultant.",
     "Website": "http://phyzit.com",
     "Twitter": "stewartwhaley",
-    "Photo": "/public/img/speakers/whaley-stewart.jpg",
+    "Photo": "/img/speakers/recovered/whaley-stewart.png",
     "Company": "Phyzit",
     "LinkedIn": "https://www.linkedin.com/in/stewartwhaley",
     "Presentations": [
@@ -27,7 +27,7 @@
     "Bio": "Born and raised in Kenya, Duncan Jimbo is currently a front-end developer based in Saint Louis, Missouri. Curious and creatively motivated, he finds great satisfaction in using new technology to make the web a more delightful place to work and play. In addition to being a programmer and problem-solver, he also loves the teaching and learning opportunities that come from collaboration. Outside of work, Duncan enjoys taking road trips and sharing his latest brew - the finest Kenyan tea this side of the Mississippi.",
     "Website": "http://simplydano.com",
     "Twitter": "duncanjimbo",
-    "Photo": "/public/img/speakers/jimbo-duncan.jpg",
+    "Photo": "/img/speakers/recovered/jimbo-duncan.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -48,7 +48,7 @@
     "Bio": "I'm a developer at Shreveport development shop, Praeses, where I work as a project architect, developer, and recruiter. I work hard to deliver clean, extensible, and maintanble solutions to customer's business problems. I'm passionate about software as a profession and craft, and work to cultivate that mindset in my team members through constant training.",
     "Website": "http://jeremyabbott.github.io/",
     "Twitter": "mrjabbott",
-    "Photo": "/public/img/speakers/abbott-jeremy.jpg",
+    "Photo": "/img/speakers/recovered/abbott-jeremy.jpg",
     "Company": "Praeses",
     "LinkedIn": null,
     "Presentations": [
@@ -69,7 +69,7 @@
     "Bio": "Val Polouchkine is a recovering C# developer, currently working for Twitter as a Developer Advocate for their mobile platform, Fabric. Before this, he was a Customer Success Engineer at Xamarin, where he helped dozens of companies with their first foray into mobile. He aims to spread good information about developing 5â˜… mobile apps.",
     "Website": null,
     "Twitter": "heyval",
-    "Photo": "/public/img/speakers/polouchkine-val.jpg",
+    "Photo": "/img/speakers/recovered/polouchkine-val.png",
     "Company": "Twitter",
     "LinkedIn": null,
     "Presentations": [
@@ -90,7 +90,7 @@
     "Bio": "Paul has over 14 years of experience developing enterprise solutions.  He is a great problem solver who enjoys using thorough analysis, deep consultation and the latest software development practices to help clients solve problems. In 2013 Paul founded his company, Lunamark, where he leverages his years of experience to help companies optimize their business practices and solve business problems.",
     "Website": "http://lunamark.com",
     "Twitter": "paulmgower",
-    "Photo": "/public/img/speakers/gower-paul.jpg",
+    "Photo": "/img/speakers/recovered/gower-paul.jpg",
     "Company": "Lunamark",
     "LinkedIn": null,
     "Presentations": [
@@ -111,7 +111,7 @@
     "Bio": "Senior software engineer at VCE and technical lead for the Vision HTML5 application for multi converged system management. Passionate about web development from an early age as well as all things software. Hobbies include reading about new technology, video games, and spending time with my family.",
     "Website": null,
     "Twitter": "jonfontanez",
-    "Photo": "/public/img/speakers/fontanez-jonathan.jpg",
+    "Photo": "/img/speakers/recovered/fontanez-jonathan.jpg",
     "Company": "VCE",
     "LinkedIn": null,
     "Presentations": [
@@ -132,7 +132,7 @@
     "Bio": "Meredith Lowry is a registered patent attorney at Wright Lindsey & Jennings, LLP.  Her  practice principally involves various aspects of intellectual property, including patent litigation, trademark litigation, and computer technology.  She's also an avid social media user, tech supporter, and likes teaching little kids to code in her spare time.",
     "Website": "http://www.wlj.com",
     "Twitter": "MeredithLowry",
-    "Photo": "/public/img/speakers/lowry-meredith.jpg",
+    "Photo": "/img/speakers/recovered/lowry-meredith.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -153,7 +153,7 @@
     "Bio": "Shawn (http://www.shawnweisfeld.com, shawn@shawnweisfeld.com) is passionate about building awesome applications and websites with .NET technologies and Azure. He is currently a Technical Evangelist for Microsoft based in Austin TX and founder of http://UserGroup.tv. Read his full bio at http://about.me/shawnweisfeld",
     "Website": "http://UserGroup.tv",
     "Twitter": "shawnweisfeld",
-    "Photo": "/public/img/speakers/weisfeld-shawn.jpg",
+    "Photo": "/img/speakers/recovered/weisfeld-shawn.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -174,7 +174,7 @@
     "Bio": "Tyrale was a natural UX'er even in prep school, when he petitioned his school to move the start time back 30min to avoid local traffic. He has honed his skills in many industries with clients that include The National Guard, MGM Mirage, Medhost, Patient Logic, and The Palms. He founded AddSubtract to fulfill the innate need for interaction experimentation. He continues to develop new UX processes and methods with Spartan and tinkers with iOS games to test theories of language agnostic interfaces and simple interactions that produce big results.",
     "Website": "http://joinspartan.com",
     "Twitter": "tyrale",
-    "Photo": "/public/img/speakers/bloomfield-tyrale.jpg",
+    "Photo": "/img/speakers/recovered/bloomfield-tyrale.jpg",
     "Company": "Spartan",
     "LinkedIn": null,
     "Presentations": [
@@ -195,7 +195,7 @@
     "Bio": "Kelly J. Andrews,  Principal Developer Evangelist at Syncano, and contributor to two books on Journey Builder, started coding at age 8 when he built a blackjack game in BASIC - and he's never stopped.  While he's mostly been front-end focused for the last 10 years, his real passion is helping developers succeed by making applications as quick, efficient and robust as possible.  \r\n\r\nIn his free time, he has sung in numerous barbershop quartets and loves karaoke, so don't be too surprised if you see him singing later.",
     "Website": "http://kellyjandrews.com",
     "Twitter": "kellyjandrews",
-    "Photo": "/public/img/speakers/andrews-kelly.jpg",
+    "Photo": "/img/speakers/recovered/andrews-kelly.png",
     "Company": "Syncano",
     "LinkedIn": null,
     "Presentations": [
@@ -216,7 +216,7 @@
     "Bio": "Ben is currently a Senior Full-Stack Software Engineer at Eventbrite, focusing primarily on front-end web development. He received his B.S. and M.S. from Stanford University in Computer Science with a concentration in Human-Computer Interaction. Fresh out of college, he helped build out Zazzle's front-end for nearly 9 years. Ultimately, he became the UI Architect responsible for building and maintaining Zazzle's UI framework. He also contributed heavily to the open-source UIZE JavaScript framework. Now at Eventbrite, Ben works on the Listings team charged with improving the main event details page used by every event that leverages the power of the Eventbrite ticketing platform. On the side, Ben loves playing around with new web development technologies and sharing his experiences with them.",
     "Website": "http://www.benmvp.com",
     "Twitter": "benmvp",
-    "Photo": "/public/img/speakers/ilegbodu-ben.jpg",
+    "Photo": "/img/speakers/recovered/ilegbodu-ben.jpg",
     "Company": "Eventbrite",
     "LinkedIn": null,
     "Presentations": [
@@ -237,7 +237,7 @@
     "Bio": "I write science fiction. And software. Object Mechanic at ThoughtWorks in San Francisco, CA. Author, inventor, entrepreneur, musician, and lover of puns.",
     "Website": "http://object-mechanics.com",
     "Twitter": "stevenalowe",
-    "Photo": "/public/img/speakers/lowe-steven.jpg",
+    "Photo": "/img/speakers/recovered/lowe-steven.jpg",
     "Company": "ThoughWorks",
     "LinkedIn": null,
     "Presentations": [
@@ -258,7 +258,7 @@
     "Bio": "John Downey is the Security Lead at Braintree. Braintree helps businesses accept credit card payments online with great development tools and first class support. There he has worked on their highly available infrastructure and integrations into the banking system. In his free time he contributes to open source projects and mentors high school students in the FIRST Robotics Competition.",
     "Website": null,
     "Twitter": "jtdowney",
-    "Photo": "/public/img/speakers/downey-john.jpg",
+    "Photo": "/img/speakers/recovered/downey-john.jpg",
     "Company": "Braintree",
     "LinkedIn": null,
     "Presentations": [
@@ -279,7 +279,7 @@
     "Bio": "Ryan started in the fire of the startup world working on projects in many different fields. He has made his way as a contributor in the Laravel, Node, and Ember communities. Now Ryan works on building the future developers for our community as a Front End Instructor from the Iron yard.",
     "Website": "http://ryantablada.com",
     "Twitter": "RyanTablada",
-    "Photo": "/public/img/speakers/tablada-ryan.jpg",
+    "Photo": "/img/speakers/recovered/tablada-ryan.jpg",
     "Company": "The Iron Yard",
     "LinkedIn": null,
     "Presentations": [
@@ -300,7 +300,7 @@
     "Bio": "Alese Johnston Stroud has served as a Senior Systems Consultant and Project Manager at the Stroud Consulting Group for the past 18 years. Alese has proven expertise in conversion of financial systems, installation of upgrades, software development and testing, process design, and client / technical staff liaison and she is a Certified MOUS Master.\r\n\r\nSome of her clients include: Signature Bank, Black Diamond Information Technology, Citizen's Bank, EGA Records Management, Citibank, American Express and Chase Manhattan Bank.\r\n\r\nPrior to her role at Stroud Consulting Group, Alese had a successful career at Systematics (Alltel / Fidelity) serving in a variety of roles. Alese's responsibilities including coding, support and project leadership experience with these Systematics applications.\r\n\r\nIn addition to her professional career, Alese has dedicated a great deal of time to the Central Arkansas community including: member of the Arkansas academy of Computing; Leadership Greater Little Rock Alumni Association Board of Directors; Advisory Board for the Arkansas Venture Center; Board of Directors at the Rotary Club 99; Founding member of the Women Startup Founders and as a coach and volunteer in Startup weekend, Gone in 60 and other student related events.\r\n\r\nHer past service activities include Board of Directors for the Arkansas Renewable Energy Association; Foundation Board of Directors for the Centers for Youth and Families; Graduate of the Leadership Greater Little Rock Class 21; Board of Directors at the Wildwood Park for the Arts; Programs Committee Volunteer for the ACANSA Arts Festival Foundation; Stakeholder in the Heartland Alliance for Regional Transmission and Board of Directors for the Allen School.",
     "Website": "http://www.thestroudgroup.com",
     "Twitter": "9alese",
-    "Photo": "/public/img/speakers/stroud-alese.jpg",
+    "Photo": "/img/speakers/recovered/stroud-alese.jpg",
     "Company": "Stroud Consulting",
     "LinkedIn": null,
     "Presentations": [
@@ -321,7 +321,7 @@
     "Bio": "David Walker is a Sitecore MVP and Sitecore Practice Director for TechAspect.com. He has over 20 years' experience in application development with over 75% as a consultant. He has been an MCP since 2003, MCAD and MCSD since 2005 and was a Microsoft MVP - ASP/ASP.NET from July 2007 - July 2009, before he joined Microsoft as a Senior Application Development Manager where he mentored numerous Fortune 100 companies on full Application Lifecycle Management and Software Development best practices. Since writing his first SharePoint assembly in 2004, he has been focused on Enterprise/Web Content Management Systems. He has worked with numerous CMS systems (proprietary, commercial and open source.).\r\n \r\nHe was formerly a board member for INETA (Vice President, Speakers Bureau), President of the Tulsa Developers .NET users group, founder and President of the Tulsa SQL Server Group and Tulsa Java Developers Group, and Vice President of the Tulsa SharePoint Interest Group. He has been the Chairman of the region's largest and highly successful technical training event, just finishing its tenth consecutive successful year, TulsaTechFest.com. He is the founder and current President of the Houston Sitecore User Group.",
     "Website": "http://radicaldave.com",
     "Twitter": "DavidWalker",
-    "Photo": "/public/img/speakers/walker-david.jpg",
+    "Photo": "/img/speakers/recovered/walker-david.jpg",
     "Company": "TechAspect",
     "LinkedIn": null,
     "Presentations": [
@@ -350,7 +350,7 @@
     "Bio": "I have worked at home, in various positions, for the last 15 years. I started off writing marketing copy for websites and have carved out a career for myself as an independent digital project manager. I presently run a small web dev shop with two other women where we carefully consider each client to determine if the project will be an opportunity for growth, a means to pay the bills, or a stumbling block for our careers. I am active in the WordPress community at large but avoid tech silos like the plague.",
     "Website": "http://www.CodeBrainMedia.com",
     "Twitter": "sarahpressler",
-    "Photo": "/public/img/speakers/pressler-sarah.jpg",
+    "Photo": "/img/speakers/recovered/pressler-sarah.jpg",
     "Company": "Code Brain Media",
     "LinkedIn": null,
     "Presentations": [
@@ -371,7 +371,7 @@
     "Bio": "Jessica is a software engineer who has been working with PHP and related technologies for over a decade. She specializes in Code Quality and Automated Testing. She lives in McKinney Texas with her husband, two kids and three dogs, and loves coffee, comedy and podcasts.",
     "Website": null,
     "Twitter": "JessicaMauerhan",
-    "Photo": "/public/img/speakers/mauerhan-jessica.jpg",
+    "Photo": "/img/speakers/recovered/mauerhan-jessica.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -392,7 +392,7 @@
     "Bio": "Ryan Rousseau is a software architect and developer at Praeses who works on many areas from system and feature design, continuous deployment, and sometimes even implementation. His recent focus has been API development, hypermedia, and knockout.js.",
     "Website": null,
     "Twitter": "ryanrousseau",
-    "Photo": "/public/img/speakers/ryan_rousseau.jpg",
+    "Photo": "/img/speakers/recovered/ryan_rousseau.jpg",
     "Company": "Praeses",
     "LinkedIn": null,
     "Presentations": [
@@ -413,7 +413,7 @@
     "Bio": "Brent Coney is a full stack web developer at Inuvo with a passion for all things code. He graduated from the University of Arkansas at Little Rock with a Bachelors in Information Science in 2009. When he is not writing code he can be found enjoying time with family, playing bass guitar or watching Formula One.",
     "Website": "http://brentconey.com",
     "Twitter": "brentconey",
-    "Photo": "/public/img/speakers/coney-brent.jpg",
+    "Photo": "/img/speakers/recovered/coney-brent.jpg",
     "Company": "Inuvo",
     "LinkedIn": null,
     "Presentations": [
@@ -434,7 +434,7 @@
     "Bio": "Dr. Apple has an extensive background in communications and computer technologies, having earned a BSEE from U. of Ark. and PhD in Electrical Engineering from Purdue, the latter on an NSF Research Fellowship. He worked at Bell Telephone Laboratories in Holmdel, NJ and later at TRW in Redondo Beach, CA. He has many 'firsts' and several patents. He designed and built (for NASA) the first transform data compression codec (predecessor to the codecs, which make today's digital TV systems possible), part of the first commercial inter-frame video codec, part of one of the first digital telephone switching systems, worked on the first Digital Signal Processor (for NSA), and did the first two designs ever done for a digital broadcast system for CBS in NY and then ACC in Little Rock.\r\n\r\nDr. Apple wrote the first proposal (for US Dept. of Ed.) for using personal computers for distance learning and has served as a proposal evaluator for US Dept. of Ed. He has done presentations for two US Presidents, one in the oval office, and many US and state legislators. He was a Systems Engineer on and received a NASA award for the Space Shuttle's primary communications system and many other satellite and communications systems. He provided many innovations in the Milstar system. Dr. Apple's work formed the basis of FEAT (Foundation for Educational Advancement Today) headed by the Hon. Wilbur D. Mills. He was instrumental in convincing Dish Network to use digital TV encoding. He has worked for an educational software company and has spent many years developing technologies that make Ed4U's system possible.",
     "Website": "http://www.ed4u.com",
     "Twitter": null,
-    "Photo": "/public/img/speakers/apple-gordon.jpg",
+    "Photo": "/img/speakers/recovered/apple-gordon.jpg",
     "Company": "Ed4U",
     "LinkedIn": null,
     "Presentations": [
@@ -455,7 +455,7 @@
     "Bio": "Jordan Little designs and develops UIs at Inuvo, teaches design at the University of Arkansas Little Rock, and generally has a good time. He firmly believes that anyone can learn to design and advocates the blurring of the line between designer and developer.",
     "Website": null,
     "Twitter": "iamjordanlittle",
-    "Photo": "/public/img/speakers/little-jordan.jpg",
+    "Photo": "/img/speakers/recovered/little-jordan.jpg",
     "Company": "Inuvo",
     "LinkedIn": null,
     "Presentations": [
@@ -476,7 +476,7 @@
     "Bio": "Ms. Ridge received her B.A. Degree from the University of North Texas in Denton, Texas in Marketing/Communication Arts and Business Administration and has a Masters Degree in Business Marketing/Technology.  Ms. Ridge began her career at IBM Corporation at their National Marketing Training Center in Dallas, Texas where she earned the position of Advertising Manager developing marketing campaigns strategies for IBM’s sales organization. Ms. Ridge has extensive experience as a CEO of a technology company and an entrepreneur, and through her lead, her company was successfully awarded licensing agreements with leading Fortune 500 companies.\n\nMs. Ridge has been involved in long-term technology innovation, including ideation, strategic visioning and strategy, building business case and P & L, corporate strategy development, as well as product and packaging innovation. Ms. Ridge has extensive knowledge of new product development, understanding of business finance and product costing methods.  Ms. Ridge was awarded Who’s Who of Missouri and Business Woman of the Year. She is published in American Demographic Magazine.",
     "Website": null,
     "Twitter": null,
-    "Photo": "/public/img/speakers/ridge-victoria.jpg",
+    "Photo": "/img/speakers/recovered/ridge-victoria.jpg",
     "Company": "Ed4U",
     "LinkedIn": null,
     "Presentations": [
@@ -497,7 +497,7 @@
     "Bio": "Sarah Daigle's twitter bio is concise and to-the-point: \"Canadian- American. Educated woman. A mother of boys. Step-mom to teen girls. Someone who thinks code is sexy, and teaching is a high calling.\"\r\n\r\nSince late 2014, she's been growing a technology group as the Chief Technology Ambassador of Currant Technology Group @curranttech while unable to turn away from her desire to be continually \"Geeking 4 Good\".\r\n\r\nHer specialties online & technical education; technical architecture for the small and/or non-profit business; social marketing strategies and making friends everywhere she goes. She is a strong advocate for exposing women & children alike to coding for fun and career development.\r\n\r\nSarah is very active in Ozark STEM Foundation, which serves the NWA region by connecting and funding STEM activities for our residents from Pre-K to Bachelor degrees. Additionally, Sarah serves on the NWA Advisory council for the Women's Foundation of Arkansas.\r\n\r\nSarah earned her B.A. degree at Bishop's University (Lennoxville, Quebec, Canada) and her Masters in IT Education at Dalhousie University (Halifax, Nova Scotia, Canada).",
     "Website": null,
     "Twitter": "sarahannedaigle",
-    "Photo": "/public/img/speakers/daigle-sarah.jpg",
+    "Photo": "/img/speakers/recovered/daigle-sarah.jpg",
     "Company": "Currant Technology",
     "LinkedIn": "sarahdaigle",
     "Presentations": [
@@ -518,7 +518,7 @@
     "Bio": "Nicholas Norfolk is an information technology professional-turned social media practitioner.  He excels at event social media, digital storytelling, and engaging with the digital community.  Nicholas is active in the thriving startup community in Arkansas.  You will find him generating buzz and moving the conversation forward about social media, entrepreneurship, and technology.  ",
     "Website": null,
     "Twitter": "absolut_zer0",
-    "Photo": "/public/img/speakers/norfolk-nicholas.jpg",
+    "Photo": "/img/speakers/recovered/norfolk-nicholas.jpg",
     "Company": "CDotsMedia",
     "LinkedIn": null,
     "Presentations": [
@@ -539,7 +539,7 @@
     "Bio": "Amanda M. Potter Cole is passionate about enjoying a whole life and helping others empower themselves. When not working with clients, she may be found promoting livable urban design, speaking up for equality & education, wandering about with her camera, or experimenting in the kitchen.\nThree years into thinking “I’ll look for a ‘real’ job after this next project is over,” Amanda discovered that she had become a social entrepreneur. Her company, AMP•SEE Ideas, is the organic response to a demand for combined freelance communications and project management services. Her background, artistic flair, interest in technology, and incredible mentors have all played key rolls in Amanda’s wide range of skills that include web design, social marketing, program development, graphic design, and knowing when to bring others to the table.\nAmanda works towards a dream of a world where people have the desire to learn, grow, thrive, and help others do the same.",
     "Website": "http://www.ampcideas.com",
     "Twitter": "ampcideas",
-    "Photo": "/public/img/speakers/amanda-potter-cole.jpg",
+    "Photo": "/img/speakers/recovered/amanda-potter-cole.jpg",
     "Company": "AMP•SEE",
     "LinkedIn": null,
     "Presentations": [
@@ -560,7 +560,7 @@
     "Bio": "Scott Ford is the Founder and Chief Code Whisperer at Corgibytes, a software consultancy whose mission is to maintain and improve the world's existing codebases. Scott specializes and thrives on breathing new life into existing projects. Scott is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott's love of software restoration and remodeling began in college where he and his team were responsible for retrofiting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing code base needed to be improved.",
     "Website": "http://corgibytes.com/",
     "Twitter": "mscottford",
-    "Photo": "/public/img/speakers/ford-scott.jpg",
+    "Photo": "/img/speakers/recovered/ford-scott.jpg",
     "Company": "Corgibytes",
     "LinkedIn": null,
     "Presentations": [
@@ -581,7 +581,7 @@
     "Bio": "Pete Buletza is a Founder and Managing Partner of Elyxor, where he spends most of his time implementing DevOps solutions, helping companies delivery software faster and with higher quality. \r\nPete got his start working on TurboTax and WebTurboTax at Intuit in San Diego; he later returned to Boston to enter the world of startups and has spent the last 15 years architecting, building, and managing the teams that provide the technology which make entrepreneurs visions a reality. He spent several years as the System Architect of high volume, scalable systems, most notably at Celarix and Espanol.com. His focus over the past 8 years has been solving end-to-end business problems and delivering value quickly through modern technology patterns.\r\nPete holds a BA in Computer Science from Harvard University.",
     "Website": "http://www.elyxor.com/",
     "Twitter": "buletza",
-    "Photo": "/public/img/speakers/buletza-pete.jpg",
+    "Photo": "/img/speakers/recovered/buletza-pete.jpg",
     "Company": "Elyxor",
     "LinkedIn": null,
     "Presentations": [

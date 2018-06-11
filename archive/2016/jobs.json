@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"logo": "/public/img/sponsors/euronet-software-logo.png",
+		"logo": "/img/sponsors/euronet-software-logo.png",
 		"datePosted": "2016-23-8",
 		"posTitle": "Senior Programmer Analyst",
 		"location": "Little Rock, AR",
@@ -13,7 +13,7 @@
 	},
 	{
 		"id": 2,
-		"logo": "/public/img/sponsors/euronet-software-logo.png",
+		"logo": "/img/sponsors/euronet-software-logo.png",
 		"datePosted": "2016-23-8",
 		"posTitle": "Programmer Analyst",
 		"location": "Little Rock, AR",
@@ -25,7 +25,7 @@
 	},
 	{
 		"id": 3,
-		"logo": "/public/img/sponsors/dassault-falcon-jet.gif",
+		"logo": "/img/sponsors/dassault-falcon-jet.gif",
 		"datePosted": "2016-31-8",
 		"posTitle": "IT Technical Architect",
 		"location": "Little Rock, AR",
@@ -37,7 +37,7 @@
 	},
 	{
 		"id": 4,
-		"logo": "/public/img/sponsors/dassault-falcon-jet.gif",
+		"logo": "/img/sponsors/dassault-falcon-jet.gif",
 		"datePosted": "2016-31-8",
 		"posTitle": "Senior IT Solution Analyst",
 		"location": "Little Rock, AR",
@@ -49,7 +49,7 @@
 	},
 	{
 		"id": 5,
-		"logo": "/public/img/sponsors/dassault-falcon-jet.gif",
+		"logo": "/img/sponsors/dassault-falcon-jet.gif",
 		"datePosted": "2016-31-8",
 		"posTitle": "Senior PLM Developer",
 		"location": "Little Rock, AR",
@@ -61,7 +61,7 @@
 	},
 	{
 		"id": 6,
-		"logo": "/public/img/sponsors/dassault-falcon-jet.gif",
+		"logo": "/img/sponsors/dassault-falcon-jet.gif",
 		"datePosted": "2016-31-8",
 		"posTitle": "PLM Developer",
 		"location": "Little Rock, AR",
@@ -73,7 +73,7 @@
 	},
 	{
 		"id": 7,
-		"logo": "/public/img/sponsors/dassault-falcon-jet.gif",
+		"logo": "/img/sponsors/dassault-falcon-jet.gif",
 		"datePosted": "2016-31-8",
 		"posTitle": "Senior SAP Developer",
 		"location": "Little Rock, AR",
@@ -85,7 +85,7 @@
 	},
 	{
 		"id": 8,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "ETL Developer",
 		"location": "Little Rock, AR",
@@ -97,7 +97,7 @@
 	},
 	{
 		"id": 9,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "QA Engineer",
 		"location": "Little Rock, AR",
@@ -109,7 +109,7 @@
 	},
 	{
 		"id": 10,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Mobile Software Developer / Android",
 		"location": "Little Rock, AR",
@@ -121,7 +121,7 @@
 	},
 	{
 		"id": 11,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "ETL Developer",
 		"location": "Little Rock, AR",
@@ -133,7 +133,7 @@
 	},
 	{
 		"id": 12,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Systems Security Engineer",
 		"location": "Little Rock, AR",
@@ -145,7 +145,7 @@
 	},
 	{
 		"id": 13,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Software Engineer IV–DSA",
 		"location": "Little Rock, AR",
@@ -157,7 +157,7 @@
 	},
 	{
 		"id": 14,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Mobile Software Developer / IOS",
 		"location": "Little Rock, AR",
@@ -169,7 +169,7 @@
 	},
 	{
 		"id": 15,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Data Verification Internship",
 		"location": "Little Rock, AR",
@@ -181,7 +181,7 @@
 	},
 	{
 		"id": 16,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Data Modeler",
 		"location": "Little Rock, AR",
@@ -193,7 +193,7 @@
 	},
 	{
 		"id": 17,
-		"logo": "/public/img/sponsors/fo-logo.png",
+		"logo": "/img/sponsors/fo-logo.png",
 		"datePosted": "2016-8-9",
 		"posTitle": "Senior IT Project Manager",
 		"location": "Seattle, WA",
@@ -205,7 +205,7 @@
 	},
 	{
 		"id": 18,
-		"logo": "/public/img/sponsors/inuvo_logo.png",
+		"logo": "/img/sponsors/inuvo_logo.png",
 		"datePosted": "2016-15-9",
 		"posTitle": "Senior Developer",
 		"location": "Little Rock, AR",
@@ -217,7 +217,7 @@
 	},
 	{
 		"id": 19,
-		"logo": "/public/img/sponsors/inuvo_logo.png",
+		"logo": "/img/sponsors/inuvo_logo.png",
 		"datePosted": "2016-15-9",
 		"posTitle": "C# Developer",
 		"location": "Little Rock, AR",
@@ -229,7 +229,7 @@
 	},
 	{
 		"id": 20,
-		"logo": "/public/img/sponsors/praeses.png",
+		"logo": "/img/sponsors/praeses.png",
 		"datePosted": "2016-16-9",
 		"posTitle": ".NET Developer",
 		"location": "Shreveport, LA",
@@ -241,7 +241,7 @@
 	},
 	{
 		"id": 21,
-		"logo": "/public/img/sponsors/praeses.png",
+		"logo": "/img/sponsors/praeses.png",
 		"datePosted": "2016-16-9",
 		"posTitle": "Web Developer",
 		"location": "Shreveport, LA",
@@ -253,7 +253,7 @@
 	},
 	{
 		"id": 22,
-		"logo": "/public/img/sponsors/aristotle-labs.png",
+		"logo": "/img/sponsors/aristotle-labs.png",
 		"datePosted": "2016-21-9",
 		"posTitle": "Developer",
 		"location": "Little Rock, LR",
@@ -265,7 +265,7 @@
 	},
 	{
 		"id": 23,
-		"logo": "/public/img/sponsors/inuvo_logo.png",
+		"logo": "/img/sponsors/inuvo_logo.png",
 		"datePosted": "2016-23-9",
 		"posTitle": "Developer",
 		"location": "Little Rock, AR",
@@ -277,7 +277,7 @@
 	},
 	{
 		"id": 24,
-		"logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+		"logo": "/img/sponsors/CEG_logo-blue.jpg",
 		"datePosted": "2016-17-10",
 		"posTitle": "Sr. Network Engineer",
 		"location": "Rogers, AR",
@@ -289,7 +289,7 @@
 	},
 	{
 		"id": 25,
-		"logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+		"logo": "/img/sponsors/CEG_logo-blue.jpg",
 		"datePosted": "2016-17-10",
 		"posTitle": "IT Operator",
 		"location": "Rockville, MD",
@@ -301,7 +301,7 @@
 	},
 	{
 		"id": 26,
-		"logo": "/public/img/sponsors/CEG_logo-blue.jpg",
+		"logo": "/img/sponsors/CEG_logo-blue.jpg",
 		"datePosted": "2016-17-10",
 		"posTitle": "Programmer Analyst",
 		"location": "Stuttgart, AR",

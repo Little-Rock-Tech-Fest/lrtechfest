@@ -1,0 +1,21 @@
+extends layout
+
+block stylesheets
+
+	//-link(href="/css/pastevents.css", rel="stylesheet")
+
+block content
+
+	section#main
+
+		section.section.section-hero.align-center
+			.section-header
+				h2 Past Events
+				hr
+
+		section
+			.row
+				div.col-md-6.col-md-offset-3
+					each year in years
+						a.btn.btn-lg.btn-block(href='/pastyear/'+ year) !{year}
+						br
