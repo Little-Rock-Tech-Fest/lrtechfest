@@ -38,12 +38,6 @@
 	{
 	"Name": "Few",
 	"Level": "Silver",
-<<<<<<< HEAD
-	"Logo": "/public/img/sponsors/few.png",
-	"Website": "https://few.io/"
-	},
-	{
-=======
 	"Logo": "/img/sponsors/few.png",
 	"Website": "https://few.io/"
 	},
@@ -90,7 +84,6 @@
 	"Website": "http://www.amitechsolutions.com/"
 	},
 	{
->>>>>>> master
 	"Name": "Balsamiq",
 	"Level": "Bronze",
 	"Logo": "/img/sponsors/balsamiq.png",

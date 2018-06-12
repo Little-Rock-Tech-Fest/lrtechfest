@@ -249,40 +249,6 @@ nav {
     color: #FFDF00;
 }
 
-<<<<<<< HEAD
-.sponsors-content .fa.Silver {
-    color: #C0C0C0;
-}
-
-.sponsors-content .fa.Bronze {
-    color: #CD7F32;
-}
-
-#speakers .item-container h5 span.fa {
-    margin-left: 10px;
-    margin-right: 10px
-}
-
-#speakers img {
-    width: 200px;
-}
-
-#speakers .name {
-    font-weight: bold
-}
-
-#speakers h5 {
-    font-size: 1.3em
-}
-
-#speakers .submit img {
-    border: 2px dashed black
-}
-
-#team img {
-    width: 200px;
-}
-=======
 body {  font-family: 'Roboto', sans-serif; color: white; background: url("../img/dark_dotted.png") repeat;}
 
 h1 { font-size: 4em; font-weight: bold}
@@ -362,7 +328,6 @@ p  { line-height: 1.4}
 #speakers .submit img {border:2px dashed black}
 
 #team img {width:200px;}
->>>>>>> 09af373f02b66f7c25bde78b2fdbd4707093e05b
 
 #speakerdetail .photo {margin-bottom: 30px; margin-right:15px }
 #speakerdetail .photo img {max-width: 150px; border-radius:50px; box-shadow: -10px 10px 50px #888888;}
