@@ -3,12 +3,30 @@ var router = express.Router();
 
 //topics route
 var fs = require('fs');
+var Q = require('q');
+
+//create a promise-compatible readfile method
+var fs_readFile = Q.denodeify(fs.readFile);
+
 var slugs = require('slugs');
 var _ = require('lodash');
 
 router.get('/', function(req, res){
-	res.render('index', { 
-		title: 'Little Rock Tech Fest' 
+	var sponsors;
+
+	fs_readFile('sponsors.json', 'utf8')
+		.then(function(sponsorData){
+			sponsors = JSON.parse(sponsorData);
+			console.log(sponsors);
+			//res.render('sponsors', {sponsors: sponsorsDataList});
+		})
+		.catch(function(e){
+			console.log(e);
+			res.render('500');
+		});
+
+	res.render('index', {
+		title: 'Little Rock Tech Fest' , sponsors: sponsors
 	});
 });
 
