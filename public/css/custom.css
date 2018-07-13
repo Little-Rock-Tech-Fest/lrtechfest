@@ -33,15 +33,15 @@ section#main {
   margin: 25px 0 0;
 }
 .sponsor.inline img {
-  max-width: 250px;
+  max-width: 275px;
 }
 .sponsor.silver.inline img {
-  max-height: 90px; 
-  max-width: 225px;
+  max-height:110px;
+  max-width: 220px;
 }
 .sponsor.small img {
-  max-width: 165px; 
-  max-height: 80px;
+  max-width: 140px;
+  max-height: 85px;
 }
 
 .speaker img {
@@ -124,8 +124,8 @@ div.article {
   padding: 40px 0;
 }
 
-.section#tickets, 
-.section#speakers, 
+.section#tickets,
+.section#speakers,
 .section#sponsors {
 	padding-top: 20px;
 }
@@ -138,10 +138,10 @@ div.article {
   padding: 50px 73px 85px;
 }
 
-.make-column { 
-  float: none; 
-  display: inline-block; 
-  margin: 0 0 -0.125em; 
+.make-column {
+  float: none;
+  display: inline-block;
+  margin: 0 0 -0.125em;
   vertical-align: top;
 }
 
