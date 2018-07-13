@@ -16,7 +16,7 @@ router.get('/', function(req, res){
 	fs_readFile('sponsors.json', 'utf8')
 		.then(function(sponsorData){
 			sponsors = JSON.parse(sponsorData);
-			console.log(sponsors);
+			//console.log(sponsors);
 			res.render('index', {title: 'Little Rock Tech Fest' , sponsors: sponsors});
 		})
 		.catch(function(e){
