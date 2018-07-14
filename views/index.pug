@@ -81,7 +81,7 @@ block content
 				each sponsor in sponsors
 					if sponsor.Level == "Platinum"
 						.sponsor.inline.platinum
-							a(href="sponsor.Website" target="_blank")
+							a(href=sponsor.Website target="_blank")
 								img(src=sponsor.Logo alt=sponsor.Name)
 
 			h5.heading-alt Gold
@@ -89,7 +89,7 @@ block content
 				each sponsor in sponsors
 					if sponsor.Level == "Gold"
 						.sponsor.inline.gold
-							a(href="sponsor.Website" target="_blank")
+							a(href=sponsor.Website target="_blank")
 								img(src=sponsor.Logo alt=sponsor.Name)
 
 			h5.heading-alt Silver
@@ -97,7 +97,7 @@ block content
 				each sponsor in sponsors
 					if sponsor.Level == "Silver"
 						.sponsor.inline.silver
-							a(href="sponsor.Website" target="_blank")
+							a(href=sponsor.Website target="_blank")
 								img(src=sponsor.Logo alt=sponsor.Name)
 
 			h5.heading-alt Bronze
@@ -105,7 +105,7 @@ block content
 				each sponsor in sponsors
 					if sponsor.Level == "Bronze"
 						.sponsor.inline.small.bronze
-							a(href="sponsor.Website" target="_blank")
+							a(href=sponsor.Website target="_blank")
 								img(src=sponsor.Logo alt=sponsor.Name)
 
 	section#location
