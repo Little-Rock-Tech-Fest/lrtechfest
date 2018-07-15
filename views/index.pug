@@ -108,6 +108,16 @@ block content
 							a(href=sponsor.Website target="_blank")
 								img(src=sponsor.Logo alt=sponsor.Name)
 
+	section#gallery.section.align-center
+		.container
+			span.icon.section-icon.icon-graphic-design-06
+			h3 Gallery
+			p Highlights from our 2017 event.
+			.gallery.masonry
+				each photo in photos
+					span.masonry-item.masonry-brick
+						a.gallery-thumb-link
+							img(src=photo.File alt=photo.Alt)
 	section#location
 		.contacts-wrapper
 			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")
