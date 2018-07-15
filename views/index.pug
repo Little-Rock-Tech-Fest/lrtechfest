@@ -116,8 +116,14 @@ block content
 			.gallery.masonry
 				each photo in photos
 					span.masonry-item.masonry-brick
-						a.gallery-thumb-link
-							img(src=photo.File alt=photo.Alt)
+						a.gallery-thumb-link(data-modal-link=photo.Pos)
+							img(src=photo.Thumb alt=photo.Alt)
+
+						.modal-window(data-modal=photo.Pos)
+							.modal-box.medium.animated(data-animation="zoomIn" data-duration="700")
+								span.close-btn.icon.icon-office-52
+								//-h5.heading-alt photo.Alt
+								img(src=photo.Full alt=photo.Alt)
 	section#location
 		.contacts-wrapper
 			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")

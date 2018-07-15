@@ -1,50 +1,74 @@
 [
 	{
-		"File": "/img/gallery/2017/thumb/Photo296.jpg",
+		"Pos": "gallery-1",
+		"Thumb": "/img/gallery/2017/thumb/Photo296.jpg",
+		"Full": "/img/gallery/2017/full/Photo296.jpg",
 		"Alt": "Attendee Registrations"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo265.jpg",
+		"Pos": "gallery-2",
+		"Thumb": "/img/gallery/2017/thumb/Photo265.jpg",
+		"Full": "/img/gallery/2017/full/Photo265.jpg",
 		"Alt": "Young woman plays video game at a vendor table with onlookers"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo262.jpg",
+		"Pos": "gallery-3",
+		"Thumb": "/img/gallery/2017/thumb/Photo262.jpg",
+		"Full": "/img/gallery/2017/full/Photo262.jpg",
 		"Alt": "Attendees having photo taken"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo80.jpg",
+		"Pos": "gallery-4",
+		"Thumb": "/img/gallery/2017/thumb/Photo80.jpg",
+		"Full": "/img/gallery/2017/full/Photo80.jpg",
 		"Alt": "Attendees visit with vendors"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo36.jpg",
+		"Pos": "gallery-5",
+		"Thumb": "/img/gallery/2017/thumb/Photo36.jpg",
+		"Full": "/img/gallery/2017/full/Photo36.jpg",
 		"Alt": "Speaker explains eslint"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo158.jpg",
+		"Pos": "gallery-6",
+		"Thumb": "/img/gallery/2017/thumb/Photo158.jpg",
+		"Full": "/img/gallery/2017/full/Photo158.jpg",
 		"Alt": "Speaker explains better cloud based mobile apps"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo238.jpg",
+		"Pos": "gallery-7",
+		"Thumb": "/img/gallery/2017/thumb/Photo238.jpg",
+		"Full": "/img/gallery/2017/full/Photo238.jpg",
 		"Alt": "Attendees in a buffet line"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo54.jpg",
-		"Alt": "Close up of the back of an attendee name badge"
-	},
-	{
-		"File": "/img/gallery/2017/thumb/photo150.jpg",
-		"Alt": "Closeup of backpack and event t-shirt with sponsor logos"
-	},
-	{
-		"File": "/img/gallery/2017/thumb/Photo48.jpg",
+		"Pos": "gallery-8",
+		"Thumb": "/img/gallery/2017/thumb/Photo48.jpg",
+		"Full": "/img/gallery/2017/full/Photo48.jpg",
 		"Alt": "Event speaker gives talk"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo79.jpg",
+		"Pos": "gallery-9",
+		"Thumb": "/img/gallery/2017/thumb/photo150.jpg",
+		"Full": "/img/gallery/2017/full/photo150.jpg",
+		"Alt": "Close-up of backpack and event t-shirt with sponsor logos"
+	},
+	{
+		"Pos": "gallery-10",
+		"Thumb": "/img/gallery/2017/thumb/Photo54.jpg",
+		"Full": "/img/gallery/2017/full/Photo54.jpg",
+		"Alt": "Close-up of the back of an attendee name badge"
+	},
+	{
+		"Pos": "gallery-11",
+		"Thumb": "/img/gallery/2017/thumb/Photo79.jpg",
+		"Full": "/img/gallery/2017/full/Photo79.jpg",
 		"Alt": "Man throws paper plane through rings with onlookers"
 	},
 	{
-		"File": "/img/gallery/2017/thumb/Photo209.jpg",
+		"Pos": "gallery-12",
+		"Thumb": "/img/gallery/2017/thumb/Photo209.jpg",
+		"Full": "/img/gallery/2017/full/Photo209.jpg",
 		"Alt": "Event coordinators in group photo"
 	}
 ]
