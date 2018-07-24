@@ -112,7 +112,7 @@ block content
 		.container
 			span.icon.section-icon.icon-graphic-design-06
 			h3 Gallery
-			p Highlights from our 2017 event.
+			p Highlights from our #[a(href="https://twitter.com/search?q=%23LRTF2017" target="new") #LRTF2017] event.
 			.gallery.masonry
 				each photo in photos
 					span.masonry-item.masonry-brick
@@ -124,6 +124,83 @@ block content
 								span.close-btn.icon.icon-office-52
 								//-h5.heading-alt photo.Alt
 								img(src=photo.Full alt=photo.Alt)
+
+	section#tickets.section.align-center
+		.container
+			span.icon.section-icon.icon-shopping-04
+			h3 Tickets
+			br
+			br
+			div.row
+				div.col-sm-4
+					.package-column
+						h6.package-title Student Ticket
+						div.package-price
+							span.currency $75
+						div.package-detail
+							ul
+								li
+									span.fa.fa-check.check-icon
+									span Lunch both days
+								li
+									span.fa.fa-check.check-icon
+									span T-shirt
+								li
+									span.fa.fa-check.check-icon
+									span Swag
+								li
+									span.fa.fa-check.check-icon
+									span Must have valid .edu email.
+								li
+									| &nbsp;
+
+						a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Student' });" target="_blank") Buy now
+				div.col-sm-4
+					div.package-column.special-column#earlybird
+						span.sale-label.uppercase Hot!
+						h6.package-title Early Bird
+						div.package-price
+							span.currency $100
+						div.package-detail
+							ul
+								li
+									span.fa.fa-check.check-icon
+									span Lunch both days
+								li
+									span.fa.fa-check.check-icon
+									span T-shirt
+								li
+									span.fa.fa-check.check-icon
+									span Swag
+								li
+									| &nbsp;
+								li
+									| &nbsp;
+						a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg" onclick="fbq('track', 'Lead', { type: 'EarlyBird' });" target="_blank") Buy now
+
+				div.col-sm-4
+					div.package-column.disabled
+						h6.package-title Standard Ticket
+						div.package-price
+							span.currency $125
+						div.package-detail
+							ul
+								li
+									span.fa.fa-check.check-icon
+									span Lunch both days
+								li
+									span.fa.fa-check.check-icon
+									span T-shirt
+								li
+									span.fa.fa-check.check-icon
+									span Swag
+								li
+									| &nbsp;
+								li
+									| &nbsp;
+
+							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
+
 	section#location
 		.contacts-wrapper
 			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")
