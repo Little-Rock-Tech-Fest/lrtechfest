@@ -12,6 +12,18 @@
 		"Website": "http://www.euronetsoftware.com/"
  	},
  	{
+		"Name": "J.B. Hunt",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/jbhunt.png",
+		"Website": "https://www.jbhunt.com/"
+	},
+	{
+		"Name": "Dassault Falcon Jet Corp",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/dassault-falcon-jet.png",
+		"Website": "https://www.dassaultfalcon.com"
+	},
+	{
 		"Name": "Balsamiq",
  		"Level": "Bronze",
 		"Logo": "/img/sponsors/balsamiq.png",
