@@ -12,17 +12,9 @@ var slugs = require('slugs');
 var _ = require('lodash');
 
 router.get('/', function(req, res){
-	var sponsors;
-	fs_readFile('sponsors.json', 'utf8')
-		.then(function(sponsorData){
-			sponsors = JSON.parse(sponsorData);
-			//console.log(sponsors);
-			res.render('index', {title: 'Little Rock Tech Fest' , sponsors: sponsors});
-		})
-		.catch(function(e){
-			console.log(e);
-			res.render('500');
-		});
+	var sponsors = require('../sponsors.json');
+	var photos = require('../gallery.json')
+	res.render('index', {title: 'Little Rock Tech Fest', sponsors:sponsors, photos:photos});
 });
 
 router.get('/resources', function(req, res){

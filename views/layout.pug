@@ -4,8 +4,8 @@ html(lang="en")
 		meta(charset="utf-8")
 		meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1")
 		title Little Rock Tech Fest
-		link(href="http://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
-		link(href='http://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
+		link(href="https://fonts.googleapis.com/css?family=Roboto:100,300,700", rel='stylesheet', type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css')
 		link(href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css", rel="stylesheet")
 		link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css", rel="stylesheet")
 		link(href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css")
@@ -57,6 +57,13 @@ html(lang="en")
 							ul.navigation-list.pull-left.light-text
 								li.navigation-item
 									a.navigation-link(href="/#about") About
+								li.navigation-item.dropdown
+									a.navigation-link(href="/#sponsors") Sponsors
+									ul.dropdown-menu
+										li.navigation-item
+											a.navigation-link(href="/sponsors") Become a sponsor
+								li.navigation-item
+									a.navigation-link(href="/#gallery") Gallery									
 								//- li.navigation-item
 								//- 	a(class="navigation-link" href="/#schedule") Schedule
 								//- li.navigation-item.dropdown
@@ -66,12 +73,12 @@ html(lang="en")
 											a(class="navigation-link" href="/resources") Resources
 								//- li.navigation-item
 								//-	a(class="navigation-link" href="/#speakers") Speakers
-								//-li.navigation-item
-								//-	a(class="navigation-link" href="/#tickets") Tickets
+								li.navigation-item
+									a(class="navigation-link" href="/#tickets") Tickets
 								li.navigation-item
 									a.navigation-link(href="/#location") Location
-								li.navigation-item
-									a.navigation-link(href="/sponsors") Become a sponsor
+								//-li.navigation-item
+								//-	a.navigation-link(href="/sponsors") Become a sponsor
 								//-li.navigation-item.dropdown
 									a.navigation-link.dropdown-toggle(href="/#sponsors") Sponsors
 									ul.dropdown-menu

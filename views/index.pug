@@ -108,6 +108,23 @@ block content
 							a(href=sponsor.Website target="_blank")
 								img(src=sponsor.Logo alt=sponsor.Name)
 
+	section#gallery.section.align-center
+		.container
+			span.icon.section-icon.icon-graphic-design-06
+			h3 Gallery
+			p Highlights from our #[a(href="https://twitter.com/search?q=%23LRTF2017" target="new") #LRTF2017] event.
+			.gallery.masonry
+				each photo in photos
+					span.masonry-item.masonry-brick
+						a.gallery-thumb-link(data-modal-link=photo.Pos)
+							img(src=photo.Thumb alt=photo.Alt)
+
+						.modal-window(data-modal=photo.Pos)
+							.modal-box.medium.animated(data-animation="zoomIn" data-duration="700")
+								span.close-btn.icon.icon-office-52
+								//-h5.heading-alt photo.Alt
+								img(src=photo.Full alt=photo.Alt)
+
 	section#tickets.section.align-center
 		.container
 			span.icon.section-icon.icon-shopping-04
