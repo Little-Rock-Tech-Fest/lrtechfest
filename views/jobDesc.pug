@@ -14,7 +14,7 @@ block content
 							ul.icon-list.li-type  
 								li #{job.posType}
 							ul.icon-list.li-location
-								li #{job.location}
+								li #{job.located}
 							ul.icon-list.li-date
 								li Posted: #{job.datePosted}
 						hr
@@ -24,13 +24,15 @@ block content
 						h5 #{job.posTitle}
 						hr
 						br
-						p !{job.posDesc}
+						.nl2br
+							p !{job.posDesc}
 						br
-						h5 About: #{job.orgName}
-						hr
-						br
-						p !{job.orgDesc}
-
+						if job.orgDesc
+							h5 About: #{job.orgName}
+							hr
+							br
+							.nl2br
+								p !{job.orgDesc}
 
 	hr
 							

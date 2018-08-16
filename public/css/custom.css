@@ -1,3 +1,8 @@
+.nl2br {
+  white-space: pre;
+  white-space: pre-line;
+}
+
 li {
   text-align: left;
 }
