@@ -1,57 +1,470 @@
-
 [
   {
-    "Id": 592,
-    "FirstName": "Lisa",
-    "LastName": "Huang",
-    "Bio": "Lisa Huang is a co-founder of FlightGold, a Fullstack engineer based in San Francisco Bay area. Lisa has a background in digital marketing, building mobile-optimized web apps and a keen Rubyist. She is a self-taught developer and started her coding journey with FreeCodeCamp projects. <br/><br/>In her off time, you can find Lisa exploring the West coast and hacking on Arduino.<br/>",
-    "Website": "http://lambdalisa.com/",
-    "Twitter": "lisaychuang",
-    "Photo": "img/speakers/huang-lisa.jpg",
-    "Company": "FlightGold, inc",
+    "Id": 4,
+    "FirstName": "Jonathan",
+    "LastName": "Barket",
+    "Bio": "I've been a software developer since Classic ASP was just regular ASP. In 2008, I accepted an invitation to be a Teaching Fellow at the Harvard Extension School because I thought having a Harvard email address would be baller. This ignited a fire in me for teaching, mentoring and being a developer advocate.<br/><br/>My greatest regret is that I will never be as tall as Daniel.",
+    "Website": "http://jonathanbarket.com/",
+    "Twitter": "jbarket",
+    "Photo": "/public/img/speakers/barket-jonathan.jpg",
+    "Company": "NIC",
     "LinkedIn": null,
     "Presentations": [
       {
-        "Id": 5,
+        "Id": 10,
         "Track": null,
-        "Day": 1,
-        "Room": "2",
-        "SessionNumber": 6,
-        "Topic": "Instant Mobile Web: An Accelerated Mobile Pages primer",
-        "Description": "In Oct 2016, mobile and tablet internet usage exceeded desktop for the first time worldwide! With **over 50% of your users on their phones**, is your web app optimised for them?<br/><br/>[Accelerated Mobile Pages (AMP)](https://www.ampproject.org/) is an open-source initiative, a Javascript library for building **lightening speed mobile web apps**. As of May 2017, there are over 2billion AMP pages and growing! The Washington Post, eBay, Airbnb - these are just some companies who are using AMP in their web products<br/><br/>We will look under the hood and learn about how **AMP optimizes mobile web performance** with resource allocation, invisible ink, sandbox iFrames and more. Attendees will learn about what makes AMP pages lightning fast on mobile, and get up and running with a **code demo.**<br/><br/>Attendees will learn first hand about: <br/><br/>1. How AMP addresses mobile user pains <br/>2. How to build a valid AMP page with navigation, embedded media, and user interactivity. <br/>3. Future AMP integration with progressive web apps (PWA)<br/><br/>This talk is suitable for beginner and intermediate developers with experience in Javascript. [Click here for Presentation slides](bit.ly/AMPCorgi)",
-        "SlidesLink": "http://bit.ly/LRTF-AMP"
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Microservices Hurt, But I Like It.",
+        "Description": "You've heard about the benefits of microservices. You've heard how billion dollar unicorn companies with thousands of developers have improved their productivity, become invulnerable to scaling issues and solved the problem of distributed computing with a handful of open source projects.<br/><br/>Join me to watch a 40 minute, slow motion replay of reality punching my team in the gut as we spent three years evolving our microservices stack in the cloud. This is a service provider and language agnostic look at approaching distributed computing if your team is still small enough to fed by two pizzas.",
+        "SlidesLink": null
       }
     ]
   },
   {
-    "Id": 594,
+    "Id": 9,
+    "FirstName": "Bill",
+    "LastName": "Dinger",
+    "Bio": "Bill is a Solutions Architect with VML working on delivering digital solutions to our clients. Over the last 15 years Bill has worked in enterprise IT starting in the trenches on the help desk. After that, Bill spent almost a decade working in infrastructure support focusing in the Microsoft stack. Over the last 5 years Bill has been developing, architecting and leading teams of software developers with VML. During that time Bill has done everything from troubleshoot dial up connections in rural Nebraska to building the digital experiences for some of America's most well known brands.<br/><br/>When not working, Bill will probably be found on his bike exploring gravel roads in his hometown of Lincoln, Nebraska.",
+    "Website": "",
+    "Twitter": "adazlian",
+    "Photo": "/public/img/speakers/dinger-bill.jpg",
+    "Company": "VML",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 57,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Continuous Security: Integrate OWASP tools into your DevOps Pipeline",
+        "Description": "OWASP has a number of flagship projects designed to help us deliver secure applications. The [OWASP Depedency Check](https://www.owasp.org/index.php/OWASP_Dependency_Check) works with Java, .NET, and Javascript dependencies to check for known security vulnerabilities. The [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) is a attack proxy to actively probe your application and the [OWTF (offensive web testing framework)](https://www.owasp.org/index.php/OWASP_OWTF). Finally, we'll go over the [Application Security Verification Series (ASVS)](https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project) as it applies to your DevOps toolchain itself to make sure you know and are securing your pipeline itself.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "FirstName": "PJ",
+    "LastName": "Hagerty",
+    "Bio": "Developer, writer, speaker, musician, and founder of DevRelate.io, PJ is known to travel the world speaking about programming and the way people think and interact.  He is also known for wearing hats.",
+    "Website": "http://devrelate.io",
+    "Twitter": "aspleenic",
+    "Photo": "/public/img/speakers/hagerty-pj.jpg",
+    "Company": "DevRelate.io",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 47,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Pop Songs and Programming for Fun and Profit",
+        "Description": "The idea here is to convey ideas on how to get into development and stay as a developer using the tunes and titles from popular music. It's a fun talk where learning how to be a better person leads to being a better dev.<br/><br/>Through a series of pop songs we’ll look at what it’s like to:<br/><br/>- Start out on your own as a programmer - not sure where to go or to get involved in open source<br/><br/>- Work on a team dedicated to Open Source in the crazy world of SV/SF<br/><br/>- Open Source at a big blue company, and how large corporations view Open Source<br/><br/>- Sharing your knowledge with the next line of new folks looking to get in on OSS<br/><br/>- Going out on your own - giving a conference talk - being the expert and sharing what you know<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 12,
     "FirstName": "Don",
     "LastName": "Schenck",
-    "Bio": "A developer who has seen it all, Don is a Microsoft MVP and currently a Director of Developer Experience at Red Hat, with a focus on Microsoft .NET on Linux. His mission is to connect .NET developers with the Linux and open source communities. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He still enjoys cooking and studying human behavior, and still hates the designated hitter rule.<br/> <br/>Don's overarching belief is this: \"A program is not a communication between a developer and a machine; it's a communication between a developer and the next developer.\"",
+    "Bio": "A developer who has seen it all, Don is a Microsoft MVP, author of “Transitioning to .NET Core on Red Hat Enterprise Linux” by O’Reilly Media, and currently a Director of Developer Experience at Red Hat, with a focus on Microservices and Serverless computing. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He enjoys cooking and studying human behavior, and loathes the designated hitter rule.<br/><br/>Don's overarching belief is this: \"A program is not a communication between a developer and a machine; it's a communication between a developer and the next developer.\"",
     "Website": "http://redhatloves.net",
     "Twitter": "DonSchenck",
-    "Photo": "img/speakers/schenck-don.jpg",
+    "Photo": "/public/img/speakers/schenck-don.jpg",
     "Company": "Red Hat",
     "LinkedIn": null,
     "Presentations": [
       {
-        "Id": 28,
+        "Id": 30,
         "Track": null,
-        "Day": 2,
-        "Room": "3",
-        "SessionNumber": 5,
-        "Topic": "Creating Bots with the Microsoft Bot Framework",
-        "Description": "Every wonder how a bot works? How it carries on a conversation, or helps you book a hotel room?<br/> <br/>The Microsoft Bot Framework is not just about Skype. You can build bots for Skype, Facebook, Slack, SMS and much more. You can leverage your existing C# skills and create interactive bots that can assist users.<br/> <br/>In this session you will see a bot created in real time, as well as learn about the considerations for building a useful and successful bot.<br/>",
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Istio Service Mesh with kubernetes: Microservices 3.0",
+        "Description": "Microservice Architecture means a lot of ‘things’ you have to prepare and account for. Just to rattle off some concepts (buzzwords): Load balancing, routing, circuit breakers, Canary and Blue/Green deployments, pool ejection, tracing, monitoring, chaos engineering, dark launches STAHP. JUST STAHP!<br/><br/>To account for any (or all) of this ‘stuff’, you have historically had to include several libraries in your code and write code to support those libraries. But aren’t *micro* services supposed to be small … micro, even?<br/><br/>Enter Istio and sidecar containers and the Service Mesh. Implement all of the above without changing your code. Move these operational concerns away from developers and into the domain of the operations people. Go home Friday at 5.<br/><br/>This session -- valuable for both developers and those in operations -- will introduce Istio and show some of its capabilities, giving you the information you need to start using the next generation of microservice tools.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "FirstName": "john.callaway@outlook.com",
+    "LastName": null,
+    "Bio": "An author, speaker, and Microsoft MVP, John has been a professional developer since 1999. He has focused primarily on web technologies and has experience with everything from PHP to C# to ReactJS to SignalR. Clean code and professionalism are particularly important to him, as well as mentoring and teaching others what he has learned along the way.",
+    "Website": "http://6figuredev.com/",
+    "Twitter": "matsubonsai",
+    "Photo": "/public/img/speakers/-john.callaway@outlook.com.jpg",
+    "Company": "The 6 Figure Developer Podcast",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 60,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "TDD: A Pragmatic Approach",
+        "Description": "Unit Testing can be mysterious endeavor with a high bar for entry. It doesn't have to be that complicated. Many examples on the Internet show you how to write a Unit Test, but not how to test an entire application. We'll discuss the fundamentals of Test-Driven Development, how to approach an entire application, how to separate logical layers, and how to test the boundaries.<br/><br/>We'll continue to explore more advanced topics using Mocks, Fakes, and Stubs. And we'll wrap it up with a discussion on how to arrange your application and test suite to ease the pain of future enhancements and modifications.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "FirstName": "Clement",
+    "LastName": "Ho",
+    "Bio": "Clement is a frontend engineer at GitLab. He is a maintainer of GitLab's frontend code and a merge request coach for community contributed code. Prior to GitLab, he worked at HP and received a CIO Excellence award. He also had a brief stint as a cofounder of a startup.",
+    "Website": "https://gitlab.com/clemmakesapps",
+    "Twitter": "clemmakesapps",
+    "Photo": "/public/img/speakers/ho-clement.jpg",
+    "Company": "GitLab",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 32,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Refactoring CSS Bloat",
+        "Description": "CSS technical debt is something we all face as our projects scale. Different companies and projects resolve these debt differently. I'd like to share about how GitLab identified our CSS bloat and what actions we have taken and are planning to take to remove our bloat and our plan to create a UI component library that adheres with a design system so that other frontend engineers can easily add new features without worrying about styling.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "FirstName": "Sean",
+    "LastName": "Sparkman",
+    "Bio": "I have been a software developer for 17 years now.  I have worked in various industries from advertising to voice recognition.  I love troubleshooting and problem solving.  As a team lead and senior programmer at Infinity Interactive, Inc., I do primarily C# development for web and mobile.  My passion for mobile development has driven me to found the DFW Mobile .NET User Group, found the Dev Fest Weekend conference and helped me achieve my Xamarin MVP and Microsoft MVP awards.",
+    "Website": "https://about.me/seansparkman",
+    "Twitter": "seansparkman",
+    "Photo": "/public/img/speakers/sparkman-sean.jpg",
+    "Company": "Infinity Interactive, Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 45,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "These are the anDroids you are looking for",
+        "Description": "Want to write your first Android application? Join us to learn how to write an Android application using C# with Xamarin. I will show you how to consume a real API and render the data beautifully inside of Android. Bring your laptop and follow along whether you are using Visual Studio or Visual Studio for Mac. You will walk away with a working running native Android application.<br/>C# is a great language for writing mobile applications. Anything you can do in Java and Kotlin, you can do in C#. You will be able to create native mobile application and use all of the Native API's including calling Java and Kotlin code from your C#.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "FirstName": "Will",
+    "LastName": "Mitchell",
+    "Bio": "I'm Will Mitchell, an engineer, teacher, learner, entrepreneur, and lover of most anything done in the sunshine. I started my life in software development as a hobby, and gradually shifted it into my career. I've worked for a variety of startups in Denver, CO, and currently teach the next generation of developers at the *Turing School of Software and Design*. When I'm not teaching my students, I enjoy traveling, going to live music, and spending time with my family.",
+    "Website": "https://wvmitchell.net",
+    "Twitter": "wvmitchell",
+    "Photo": "/public/img/speakers/mitchell-will.jpg",
+    "Company": "Turing School of Software and Design",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 46,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Front end testing that you won't hate",
+        "Description": "Engineering on the back end has a robust testing ecosystem. Increasingly, it's possilbe to test your front end applications the same way you test the back end. <br/><br/>In days gone by, testing front end JavaScript code was cumbersome and brittle. However, as front end applications have become more robust and complex, it's become ever more important to thoroughly test your applications. <br/><br/>We'll explore common patterns in the React community then show off the power of Jest and Enzyme. You'll see that these tools utilize familiar practices and will be ready to apply them to your applications.<br/><br/>You will get the most out of this talk if you have some prior programming experience, particularly if you enjoy testing. However, if you're new to the field, the material will still be approachable. ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 24,
+    "FirstName": "Eyal",
+    "LastName": "Eizenberg",
+    "Bio": "I've been hitting the JS scene since the evil days of Prototype (that thing that came before jQuery) but I've finally found my true love... React & Redux!<br/><br/>I am a Team Leader at Wix and I love helping people overcome problems with their code & product.",
+    "Website": "https://medium.com/@eyaleizenberg/",
+    "Twitter": "EyalEizenberg",
+    "Photo": "/public/img/speakers/eizenberg-eyal.jpg",
+    "Company": "Wix",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 48,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Your Next Game - Built by React",
+        "Description": "The internet offers an endless amount of simple online games like solitaire, minesweeper and hearts. However, these games are usually done with terrible UI/UX, lame graphics, full of banners and ads, and (dare I say it), built on FLASH.<br/><br/>In this presentation I will talk about how I built a DOOM minesweeper game with React, Redux & Typescript. I will also share my dream to create one open sourced website, which will host many well-created simple games, to serve both as a learning platform for developers and for players to enjoy playing good looking games with a great UI/UX, without a ton of ads, all in one place.<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "FirstName": "Daniel",
+    "LastName": "Costea",
+    "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of technologies like: ASP.NET MVC, WebAPI, HTML, CSS, Javascript, SQL, Clean Code, IoT.",
+    "Website": "https://www.linkedin.com/in/danielcostea/",
+    "Twitter": "dfcostea",
+    "Photo": "/public/img/speakers/costea-daniel.jpg",
+    "Company": "Apex Code",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 49,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Raspberry Pi Invasion: The Second Wave",
+        "Description": "Microsoft new vision “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT.<br/>In this session you will see a real-time (SignalR) ASP.NET Core 2.1 application reading sensors and making ML predictions. The application is running in Docker container on Raspberry Pi 3 powered by Raspbian OS.<br/><br/>.NET Core is here to stay!<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "FirstName": "Jason",
+    "LastName": "Swett",
+    "Bio": "Jason Swett is a developer, trainer, author and former panelist on the Ruby Rogues podcast.<br/><br/>Since putting his first website online in 1996, Jason has worked with organizations like AT&T, Lenovo, VMware, HP, Dow Jones, Deloitte, Kroger and the University of Chicago.<br/><br/>He has taught programming in the United States, The Netherlands, Bulgaria and Nigeria.<br/><br/>Jason is also a co-organizer of the GRWebDev Meetup, the largest programming meetup West Michigan. He lives in Sand Lake, Michigan with his wife and two kids.",
+    "Website": "https://www.codewithjason.com/",
+    "Twitter": "jasonswett",
+    "Photo": "/public/img/speakers/swett-jason.jpg",
+    "Company": "",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 50,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "How My Lack of Testing Skills Lost Me a Job Opportunity - and What I Did About It",
+        "Description": "\"Sorry, we were looking for more of a senior-level developer. Your code needs WAY more tests.\" This was the response I got after sharing a code sample with a prospective employer. I was crushed. I thought I WAS a senior-level developer. But unlike the PHP background I had come from, employers in the Rails world expected, rightly, that candidates should know how to write tests.<br/><br/>It took me a few years but I did end up becoming a competent tester. I got my first full-time Rails job in 2013 at a small startup that made a health-related product. Their codebase had a test suite, which allowed me to see what a real production test suite looked like. Their test suite had some problems. There were a number of \"flapping tests\" that would fail once in a while, seemingly at random. This taught me how to reproduce flapping test failures and how to fix them (or what to do if they can't be fixed). Their test suite also used Cucumber for integration testing, which taught me the pros and cons of Cucumber.<br/><br/>In early 2014 I started working with a client with an \"Airbnb for surfers\" product who had only one developer and a very fragile and messy legacy codebase. This experience helped teach me how to use tests to wrangle legacy code into compliance. Working with this legacy codebase also helped me develop the skill of what Michael Feathers calls \"characterization testing\", or what I sometimes call \"reverse TDD\".<br/><br/>In this talk you'll learn:<br/><br/>- Why it was hard for me to get started learning testing<br/><br/>- How my exposure to various different codebases helped me learn what makes good and bad tests<br/><br/>- What the high-level testing lessons I learned were<br/><br/>- How you can get better at testing faster than I did<br/><br/>- Testing books, tutorials and other resources you can turn to",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "FirstName": "Shawn",
+    "LastName": "Cummins",
+    "Bio": "",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "/public/img/speakers/cummins-shawn.jpg",
+    "Company": "",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 52,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "A Discussion on Approaches to Web Application MultiTenancy Architecture",
+        "Description": "Generally aimed at architects, but there are things to be gained at all skill levels.<br/>This discussion will talk about several approaches to architecting a Multitenant web application.<br/><br/>* Full Tenancy<br/>* Sharded Tenancy<br/>* Multi-Single Tenancy<br/>* Hybrid Tenancy<br/><br/>Included with each is a list of pros and cons that should be considered.<br/><br/>I'll also discuss things like Feature Isolation, Data Isolation, Security Isolation, and many more.<br/><br/>Finally, i part ways with some thoughts that offer guidance for the future.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "FirstName": "Jenn",
+    "LastName": "Creighton",
+    "Bio": "Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats & 1 dog & a handful of succulents. Say hello to her @gurlcode!",
+    "Website": "",
+    "Twitter": "gurlcode",
+    "Photo": "/public/img/speakers/creighton-jenn.jpg",
+    "Company": "ClassPass",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 58,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "What Tamagotchis can teach you about ES6 generators",
+        "Description": "What do Tamagotchis — everyone’s favorite digital pets from the 90s — and ES6 generators — pausible functions for async tasks — have in common? Both are really fun to play with. As a recent side project, I built a web-version of a Tamagotchi. But I struggled with one key element: how to handle a series of animations. What do you do when animations need to know that other animations are complete? What do you do when you’ve queued animations but a user event needs to be handle instead? This talk explores where I went wrong (hint: promises) and what worked (hint: generators). You’ll leave this talk with a solid grasp of how to combine promises, generators, and coroutines for async work — whether it’s for a Tamagotchi or your day-to-day work.<br/>",
         "SlidesLink": null
       },
       {
-        "Id": 69,
+        "Id": 53,
         "Track": null,
-        "Day": 1,
-        "Room": "3",
-        "SessionNumber": 3,
-        "Topic": ".NET, Linux and Microservices Architecture",
-        "Description": "Microsoft’s move to make .NET open source could not have come at a better time. As the world explores and moves to Microservices Architecture (MSA) and Linux containers, .NET stands poised to not only join the fray, but to excel with high-performance services.<br/><br/>In this fast-paced session, you will see .NET code (C# and F#) be turned into microservices, running in Red Hat’s OpenShift PaaS. Linux, .NET, docker, kubernetes and MSA will all be tied together in this peek into the future. To finish up, we’ll demonstrate two deployment methods: Blue/Green and Canary, and show how uninterrupted deployments are possible.",
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "The how's and why's of flexible React components",
+        "Description": "Building React components is simple — until it isn’t. Real world constraints can lead to large components that “do it all”. Or near identical components with one or two changes. So how do we create flexible components without sacrificing readability and scalability? Jenn shares how she re-architected components to handle multiple use cases and increase engineer happiness. She’ll breakdown the technical concerns for each component, the patterns she considered using, what didn’t work and what did. You'll learn more than the \"how\" of component architecture -- you'll learn the \"why\"!<br/><br/>You’ll get the most out of this session if you’ve written React components before. But even if you haven’t, you’ll walk away with practical patterns, tips and tricks for the future.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 30,
+    "FirstName": "Darpan",
+    "LastName": "Kakadia",
+    "Bio": "Darpan is a UI Engineer at Cleartrip in Bangalore, where he leads the PWA team and primarily works on React & GraphQL. He likes reading, traveling, photography, performance optimization, and loves sharing his experiences regularly at meet-ups in Bangalore.",
+    "Website": "https://kakadiadarpan.com",
+    "Twitter": "kakadiadarpan",
+    "Photo": "/public/img/speakers/kakadia-darpan.jpg",
+    "Company": "Cleartrip",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 54,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Styleguide Driven Development",
+        "Description": "What does a typical development cycle look like in your organization? For us, new ideation process used to flow from a product manager’s wireframes to a designer, to an engineer, and then back to the product manager. When feedback came up based on the newly created prototypes, the process would start from the beginning.<br/><br/>A version of this process is fairly natural to many organizations and it works. It can be done in a waterfall or agile way; results get delivered either way. Yet, this kind of process is lengthy and resource intensive, and does not play well for prototyping projects that might be altered seven times over, before a version is shipped to the public.<br/><br/>What if it was possible to simplify this process to just one step? What if anyone in your organization could pick up a set of tools and create a prototype in a matter of hours? A style guide is that tool! A Style guide helps teams iterate with light speed, surfacing new and important requirements way early in the design lifecycle.<br/><br/>Styleguide Driven Development (SDD) is a practice that encourages the separation of UX, Design & Frontend from Backend concerns. This is achieved by developing the UI separately in a styleguide.<br/><br/>SDD isn’t just limited for big teams working on large applications, but the core concepts of developing UI elements separately in a styleguide can still benefit a sole developer working on a single page app.<br/><br/>### Benefits of SDD<br/>* Accurate overview of the UI<br/>* Development playground<br/>* Kickstart for new pages<br/>* Simplified testing<br/>* Component culture<br/>* Communication benefits<br/>* No custom CSS (Because custom CSS is the death of a developer)<br/><br/><br/>This talk is focused on how to improve **Developer Experience**, bridging the gap between a **Designer** and a **Front-end Engineer** and maintaining a living style guide.<br/><br/>### Target audience:<br/>Designers and Front-end Developers<br/><br/>### Audience takeaway:<br/>A better workflow for designers and front-end developers<br/><br/>### Talk outline:<br/>* What’s wrong with the current development cycle?<br/>* What is SDD?<br/>* Why SDD?<br/>* The SDD process<br/>  * Discover<br/>  * Abstract<br/>  * Implement & Document<br/>  * Plug & Play<br/>* How to introduce SDD?",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 31,
+    "FirstName": "Tristan",
+    "LastName": "Sokol",
+    "Bio": "Tristan works on the developer platform at Square. In the rare moments he isn't in front of a computer, he is usually outside wishing he was a hobby farmer. ",
+    "Website": "https://tristansokol.com",
+    "Twitter": "tristansokol",
+    "Photo": "/public/img/speakers/sokol-tristan.jpg",
+    "Company": "Square",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 55,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "The Ins n' Outs of Serverless Functions",
+        "Description": "Serverless functions are a new tool for developers that can let even the smallest of entrepreneurs feel like they are at Google scale. They can be the backbone of a microservice architecture for your application/website or handle a pipeline of complicated back-end processing. I'll give a quick high level conceptual overview of how serverless functions work, then dive into practical examples of common use cases such as webhook handling, front-end content delivery, and scaled asynchronous data processing using tools like Google Cloud Functions & Twilio Functions. We'll also cover all bases with testing tips and development tools.  The audience will walk away with practical examples of ways to incorporate hosted functions into their workflows, as well as a solid understanding of the benefits (extreme cost savings, improved scalability, architecture) and drawbacks (cold start times, complexity). ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 32,
+    "FirstName": "Paul.Zolnierczyk@iinteractive.com",
+    "LastName": null,
+    "Bio": "Hey there, I'm Paul Zolnierczyk and I'm a Team Lead and Sr. Developer at Infinity Interactive Inc. (II for short) . II is a virtual consulting company, we're a passionate crew of technologists spread out all through the U.S. and Canada (some even travel the world and work).  I come from a Java background but made the change to C# 5 years ago and haven't looked back.  I discovered Xamarin a few years ago in 2012 and have been impressed with it ever since.  I always wanted to create mobile applications but learning objective-c was something I tried but just didn't work with me.  Thankfully, Xamarin came along and revolutionized the way we can create mobile applications and allowed me to create iOS and Android apps in the language I love, C#.  I'm a three time Xamarin Certified Developer and I look forward to continue growing with Xamarin every day.",
+    "Website": "https://iinteractive.com/notebook/2016/11/04/mkedotnet-recap.html",
+    "Twitter": "paulish29",
+    "Photo": "/public/img/speakers/-paul.zolnierczyk@iinteractive.com.jpg",
+    "Company": "Infinity Interactive Inc",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 56,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "JSON driven Xamarin.iOS UI's",
+        "Description": "Creating workflows in Xamarin.iOS where your screens can vary between 1..X screens can be tricky to design and implement if using XIBs or Storyboards.  What happens if a particular user only needs to see 3 screens in this workflow while another needs to see 5 screens?  What if the text and elements differ on each screen?  That's where creating dynamic screens using iOS's UIStackView along with a bit of code that's driven by JSON can help with your dynamic workflow.  In this talk, I'll demonstrate a storyboard workflow and show that it is effective but has limitations.  I'll then take the user through converting this storyboard into something that utilizes Xamarin.iOS' UIStackView that is driven by some JSON that can be driven by an API.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 34,
+    "FirstName": "Ado",
+    "LastName": "Kukic",
+    "Bio": "Ado is a full-stack developer, advocate, and technical writer at Auth0. Mixing his passion of programming and education, he creates tutorials, courses, and other educational content focusing on security, authentication, and much more. On the front-end, he prefers Angular, while on the backend he flip-flops between Node.js and Golang.",
+    "Website": "https://auth0.com/blog/",
+    "Twitter": "kukicado",
+    "Photo": "/public/img/speakers/kukic-ado.jpg",
+    "Company": "Auth0",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 61,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "A Token Walks Into a SPA...",
+        "Description": "Seems like all you hear about these days are Single Page Applications. Angular, React, Vue, Ember are transforming the way we think about the frontend. But what about securing these applications? This often tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through best practices and caveats that apply to any single-page application framework.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 35,
+    "FirstName": "Bobby",
+    "LastName": "Johnson",
+    "Bio": "Bobby is a passionate agile engineer with an interest in shipping quality software, building strong collaborative teams and continuous improvement of his skills, team and the product. His experience ranges from building small line of business applications allowing financial professionals to execute quickly to large public facing distributed social content apps. He has a passion for new technologies, open source software and the greater software development community.",
+    "Website": "https://iamnotmyself.com/",
+    "Twitter": "notmyself",
+    "Photo": "/public/img/speakers/johnson-bobby.jpg",
+    "Company": "Auth0",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 62,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "ChatOps with Slack and Webtask.io",
+        "Description": "With the rise in remote workers living the digital nomad life, Slack has become a central hub for team communication and collaboration. Teams have begun pushing critical monitoring information and kicking off processes directly from Slack. Webtask.io makes it easy for you do to this without having to wrestle with standing up and configure a server. In this presentation, Bobby will show you how to listen for specific events and push messages directly into a channel, setup a scheduled task that reports results to a channel and create CLI like commands with access control to fire on demand processes.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 37,
+    "FirstName": "Jan",
+    "LastName": "Jorgensen",
+    "Bio": "Curriculum Manager (Full Stack Web) at Trilogy Education Services & Full Time RVer. Obsessed with teaching, learning, and writing usable APIs. I have too many hobbies.",
+    "Website": "http://www.ramblinjan.com",
+    "Twitter": "ramblinjan",
+    "Photo": "/public/img/speakers/jorgensen-jan.jpg",
+    "Company": "Trilogy Education Services",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 64,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "How to Learn Anything and Teach JavaScript",
+        "Description": "Learning to develop web apps is hard, but clearly it’s possible and even fun. Many of us have read about or heard why it’s hard, and plenty of people are working to make it easier. Yet, unlike playing violin, golfing, or even cooking at an expert level, we do not yet have a well-defined methodology for teaching or learning this in-demand skill.<br/><br/>We’ll talk about the cognitive stages of learning and how they apply to something you already have experience with -- JavaScript -- so you can not only share your expertise effectively with a newcomer, but so you have a clear path to acquire any new skill.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 54,
+    "FirstName": "Adam Michael Wood",
+    "LastName": null,
+    "Bio": "Adam is a technical writer, Python developer, and open source advocate. He is the lead maintainer of the documentation for Open Data Kit, a set of open source data collection tools used by NGOs, government agencies, and academic researchers around the world. Adam blogs about tech writing and Python at hackwrite.com. In addition to his work in tech, Adam is a church musician and composer, and is working on an open source music theory library for Python.",
+    "Website": "http://hackwrite.com",
+    "Twitter": "adammichaelwood",
+    "Photo": "/public/img/speakers/michael-wood-adam.jpg",
+    "Company": "Open Data Kit",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 91,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Docs are an Engineering Product",
+        "Description": "Documentation is the primary user interface for APIs, Python packages, SDKs, and tools of all sorts. And even most GUI-based applications and platforms require documentation of some sort. Yet docs are often after thoughts and second-class citizens.<br/><br/>Documentation is a product – an engineering product. It should be treated like one. This talk will discuss how to apply standard development processes like version control, automated testing, and continuous integration to documentation, and why doing so is important. <br/><br/>A Python-based toolchain currently in use on a large open source documentation project will provide concrete examples.<br/><br/>## Outline<br/><br/> - Briefly explain the docs as code philosophy<br/>    - What <br/>    - Why<br/>    - Advantages / Disadvantages<br/> - Walk through a live docs authoring and deployment toolchain (Open Data Kit)<br/> - Discuss the org/culture needs and tradeoffs required to support this way of docs authoring",
         "SlidesLink": null
       }
     ]
