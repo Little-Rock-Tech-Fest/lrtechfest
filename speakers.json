@@ -6,7 +6,7 @@
     "Bio": "I've been a software developer since Classic ASP was just regular ASP. In 2008, I accepted an invitation to be a Teaching Fellow at the Harvard Extension School because I thought having a Harvard email address would be baller. This ignited a fire in me for teaching, mentoring and being a developer advocate.<br/><br/>My greatest regret is that I will never be as tall as Daniel.",
     "Website": "http://jonathanbarket.com/",
     "Twitter": "jbarket",
-    "Photo": "/public/img/speakers/barket-jonathan.jpg",
+    "Photo": "barket-jonathan.jpg",
     "Company": "NIC",
     "LinkedIn": null,
     "Presentations": [
@@ -29,7 +29,7 @@
     "Bio": "Bill is a Solutions Architect with VML working on delivering digital solutions to our clients. Over the last 15 years Bill has worked in enterprise IT starting in the trenches on the help desk. After that, Bill spent almost a decade working in infrastructure support focusing in the Microsoft stack. Over the last 5 years Bill has been developing, architecting and leading teams of software developers with VML. During that time Bill has done everything from troubleshoot dial up connections in rural Nebraska to building the digital experiences for some of America's most well known brands.<br/><br/>When not working, Bill will probably be found on his bike exploring gravel roads in his hometown of Lincoln, Nebraska.",
     "Website": "",
     "Twitter": "adazlian",
-    "Photo": "/public/img/speakers/dinger-bill.jpg",
+    "Photo": "dinger-bill.jpg",
     "Company": "VML",
     "LinkedIn": null,
     "Presentations": [
@@ -52,7 +52,7 @@
     "Bio": "Developer, writer, speaker, musician, and founder of DevRelate.io, PJ is known to travel the world speaking about programming and the way people think and interact.  He is also known for wearing hats.",
     "Website": "http://devrelate.io",
     "Twitter": "aspleenic",
-    "Photo": "/public/img/speakers/hagerty-pj.jpg",
+    "Photo": "hagerty-pj.jpg",
     "Company": "DevRelate.io",
     "LinkedIn": null,
     "Presentations": [
@@ -75,7 +75,7 @@
     "Bio": "A developer who has seen it all, Don is a Microsoft MVP, author of “Transitioning to .NET Core on Red Hat Enterprise Linux” by O’Reilly Media, and currently a Director of Developer Experience at Red Hat, with a focus on Microservices and Serverless computing. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He enjoys cooking and studying human behavior, and loathes the designated hitter rule.<br/><br/>Don's overarching belief is this: \"A program is not a communication between a developer and a machine; it's a communication between a developer and the next developer.\"",
     "Website": "http://redhatloves.net",
     "Twitter": "DonSchenck",
-    "Photo": "/public/img/speakers/schenck-don.jpg",
+    "Photo": "schenck-don.jpg",
     "Company": "Red Hat",
     "LinkedIn": null,
     "Presentations": [
@@ -93,12 +93,13 @@
   },
   {
     "Id": 13,
-    "FirstName": "john.callaway@outlook.com",
-    "LastName": null,
+    "Email": "john.callaway@outlook.com",
+    "FirstName": "John",
+    "LastName": "Callaway",
     "Bio": "An author, speaker, and Microsoft MVP, John has been a professional developer since 1999. He has focused primarily on web technologies and has experience with everything from PHP to C# to ReactJS to SignalR. Clean code and professionalism are particularly important to him, as well as mentoring and teaching others what he has learned along the way.",
     "Website": "http://6figuredev.com/",
     "Twitter": "matsubonsai",
-    "Photo": "/public/img/speakers/-john.callaway@outlook.com.jpg",
+    "Photo": "callaway-john.jpg",
     "Company": "The 6 Figure Developer Podcast",
     "LinkedIn": null,
     "Presentations": [
@@ -121,7 +122,7 @@
     "Bio": "Clement is a frontend engineer at GitLab. He is a maintainer of GitLab's frontend code and a merge request coach for community contributed code. Prior to GitLab, he worked at HP and received a CIO Excellence award. He also had a brief stint as a cofounder of a startup.",
     "Website": "https://gitlab.com/clemmakesapps",
     "Twitter": "clemmakesapps",
-    "Photo": "/public/img/speakers/ho-clement.jpg",
+    "Photo": "ho-clement.jpg",
     "Company": "GitLab",
     "LinkedIn": null,
     "Presentations": [
@@ -144,7 +145,7 @@
     "Bio": "I have been a software developer for 17 years now.  I have worked in various industries from advertising to voice recognition.  I love troubleshooting and problem solving.  As a team lead and senior programmer at Infinity Interactive, Inc., I do primarily C# development for web and mobile.  My passion for mobile development has driven me to found the DFW Mobile .NET User Group, found the Dev Fest Weekend conference and helped me achieve my Xamarin MVP and Microsoft MVP awards.",
     "Website": "https://about.me/seansparkman",
     "Twitter": "seansparkman",
-    "Photo": "/public/img/speakers/sparkman-sean.jpg",
+    "Photo": "sparkman-sean.jpg",
     "Company": "Infinity Interactive, Inc.",
     "LinkedIn": null,
     "Presentations": [
@@ -167,7 +168,7 @@
     "Bio": "I'm Will Mitchell, an engineer, teacher, learner, entrepreneur, and lover of most anything done in the sunshine. I started my life in software development as a hobby, and gradually shifted it into my career. I've worked for a variety of startups in Denver, CO, and currently teach the next generation of developers at the *Turing School of Software and Design*. When I'm not teaching my students, I enjoy traveling, going to live music, and spending time with my family.",
     "Website": "https://wvmitchell.net",
     "Twitter": "wvmitchell",
-    "Photo": "/public/img/speakers/mitchell-will.jpg",
+    "Photo": "mitchell-will.jpeg",
     "Company": "Turing School of Software and Design",
     "LinkedIn": null,
     "Presentations": [
@@ -190,7 +191,7 @@
     "Bio": "I've been hitting the JS scene since the evil days of Prototype (that thing that came before jQuery) but I've finally found my true love... React & Redux!<br/><br/>I am a Team Leader at Wix and I love helping people overcome problems with their code & product.",
     "Website": "https://medium.com/@eyaleizenberg/",
     "Twitter": "EyalEizenberg",
-    "Photo": "/public/img/speakers/eizenberg-eyal.jpg",
+    "Photo": "eizenberg-eyal.jpg",
     "Company": "Wix",
     "LinkedIn": null,
     "Presentations": [
@@ -213,7 +214,7 @@
     "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of technologies like: ASP.NET MVC, WebAPI, HTML, CSS, Javascript, SQL, Clean Code, IoT.",
     "Website": "https://www.linkedin.com/in/danielcostea/",
     "Twitter": "dfcostea",
-    "Photo": "/public/img/speakers/costea-daniel.jpg",
+    "Photo": "costea-daniel.jpg",
     "Company": "Apex Code",
     "LinkedIn": null,
     "Presentations": [
@@ -236,7 +237,7 @@
     "Bio": "Jason Swett is a developer, trainer, author and former panelist on the Ruby Rogues podcast.<br/><br/>Since putting his first website online in 1996, Jason has worked with organizations like AT&T, Lenovo, VMware, HP, Dow Jones, Deloitte, Kroger and the University of Chicago.<br/><br/>He has taught programming in the United States, The Netherlands, Bulgaria and Nigeria.<br/><br/>Jason is also a co-organizer of the GRWebDev Meetup, the largest programming meetup West Michigan. He lives in Sand Lake, Michigan with his wife and two kids.",
     "Website": "https://www.codewithjason.com/",
     "Twitter": "jasonswett",
-    "Photo": "/public/img/speakers/swett-jason.jpg",
+    "Photo": "swett-jason.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -259,7 +260,7 @@
     "Bio": "",
     "Website": "",
     "Twitter": "",
-    "Photo": "/public/img/speakers/cummins-shawn.jpg",
+    "Photo": "missing.png",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -282,7 +283,7 @@
     "Bio": "Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats & 1 dog & a handful of succulents. Say hello to her @gurlcode!",
     "Website": "",
     "Twitter": "gurlcode",
-    "Photo": "/public/img/speakers/creighton-jenn.jpg",
+    "Photo": "creighton-jenn.jpeg",
     "Company": "ClassPass",
     "LinkedIn": null,
     "Presentations": [
@@ -315,7 +316,7 @@
     "Bio": "Darpan is a UI Engineer at Cleartrip in Bangalore, where he leads the PWA team and primarily works on React & GraphQL. He likes reading, traveling, photography, performance optimization, and loves sharing his experiences regularly at meet-ups in Bangalore.",
     "Website": "https://kakadiadarpan.com",
     "Twitter": "kakadiadarpan",
-    "Photo": "/public/img/speakers/kakadia-darpan.jpg",
+    "Photo": "kakadia-darpan.jpg",
     "Company": "Cleartrip",
     "LinkedIn": null,
     "Presentations": [
@@ -338,7 +339,7 @@
     "Bio": "Tristan works on the developer platform at Square. In the rare moments he isn't in front of a computer, he is usually outside wishing he was a hobby farmer. ",
     "Website": "https://tristansokol.com",
     "Twitter": "tristansokol",
-    "Photo": "/public/img/speakers/sokol-tristan.jpg",
+    "Photo": "sokol-tristan.jpg",
     "Company": "Square",
     "LinkedIn": null,
     "Presentations": [
@@ -356,12 +357,13 @@
   },
   {
     "Id": 32,
-    "FirstName": "Paul.Zolnierczyk@iinteractive.com",
-    "LastName": null,
+    "Email": "Paul.Zolnierczyk@iinteractive.com",
+    "FirstName": "Paul",
+    "LastName": "Zolnierczyk",
     "Bio": "Hey there, I'm Paul Zolnierczyk and I'm a Team Lead and Sr. Developer at Infinity Interactive Inc. (II for short) . II is a virtual consulting company, we're a passionate crew of technologists spread out all through the U.S. and Canada (some even travel the world and work).  I come from a Java background but made the change to C# 5 years ago and haven't looked back.  I discovered Xamarin a few years ago in 2012 and have been impressed with it ever since.  I always wanted to create mobile applications but learning objective-c was something I tried but just didn't work with me.  Thankfully, Xamarin came along and revolutionized the way we can create mobile applications and allowed me to create iOS and Android apps in the language I love, C#.  I'm a three time Xamarin Certified Developer and I look forward to continue growing with Xamarin every day.",
     "Website": "https://iinteractive.com/notebook/2016/11/04/mkedotnet-recap.html",
     "Twitter": "paulish29",
-    "Photo": "/public/img/speakers/-paul.zolnierczyk@iinteractive.com.jpg",
+    "Photo": "zolnierczyk-paul.jpg",
     "Company": "Infinity Interactive Inc",
     "LinkedIn": null,
     "Presentations": [
@@ -384,7 +386,7 @@
     "Bio": "Ado is a full-stack developer, advocate, and technical writer at Auth0. Mixing his passion of programming and education, he creates tutorials, courses, and other educational content focusing on security, authentication, and much more. On the front-end, he prefers Angular, while on the backend he flip-flops between Node.js and Golang.",
     "Website": "https://auth0.com/blog/",
     "Twitter": "kukicado",
-    "Photo": "/public/img/speakers/kukic-ado.jpg",
+    "Photo": "kukic-ado.jpg",
     "Company": "Auth0",
     "LinkedIn": null,
     "Presentations": [
@@ -407,7 +409,7 @@
     "Bio": "Bobby is a passionate agile engineer with an interest in shipping quality software, building strong collaborative teams and continuous improvement of his skills, team and the product. His experience ranges from building small line of business applications allowing financial professionals to execute quickly to large public facing distributed social content apps. He has a passion for new technologies, open source software and the greater software development community.",
     "Website": "https://iamnotmyself.com/",
     "Twitter": "notmyself",
-    "Photo": "/public/img/speakers/johnson-bobby.jpg",
+    "Photo": "johnson-bobby.jpg",
     "Company": "Auth0",
     "LinkedIn": null,
     "Presentations": [
@@ -430,7 +432,7 @@
     "Bio": "Curriculum Manager (Full Stack Web) at Trilogy Education Services & Full Time RVer. Obsessed with teaching, learning, and writing usable APIs. I have too many hobbies.",
     "Website": "http://www.ramblinjan.com",
     "Twitter": "ramblinjan",
-    "Photo": "/public/img/speakers/jorgensen-jan.jpg",
+    "Photo": "jorgensen-jan.jpg",
     "Company": "Trilogy Education Services",
     "LinkedIn": null,
     "Presentations": [
@@ -453,7 +455,7 @@
     "Bio": "Adam is a technical writer, Python developer, and open source advocate. He is the lead maintainer of the documentation for Open Data Kit, a set of open source data collection tools used by NGOs, government agencies, and academic researchers around the world. Adam blogs about tech writing and Python at hackwrite.com. In addition to his work in tech, Adam is a church musician and composer, and is working on an open source music theory library for Python.",
     "Website": "http://hackwrite.com",
     "Twitter": "adammichaelwood",
-    "Photo": "/public/img/speakers/michael-wood-adam.jpg",
+    "Photo": "michael-wood-adam.jpg",
     "Company": "Open Data Kit",
     "LinkedIn": null,
     "Presentations": [
