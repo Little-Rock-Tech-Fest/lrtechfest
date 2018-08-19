@@ -119,6 +119,44 @@ block content
 								//-h5.heading-alt photo.Alt
 								img(src=photo.Full alt=photo.Alt)
 
+	section#sponsors.section.align-center
+		.container
+			span.icon.section-icon.icon-documents-bookmarks-12
+			h3 Sponsors
+			p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
+
+			h5.heading-alt Platinum
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Platinum"
+						.sponsor.inline.platinum
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Gold
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Gold"
+						.sponsor.inline.gold
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Silver
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Silver"
+						.sponsor.inline.silver
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Bronze
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Bronze"
+						.sponsor.inline.small.bronze
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
 	section#tickets.section.align-center
 		.container
 			span.icon.section-icon.icon-shopping-04
@@ -194,44 +232,6 @@ block content
 									| &nbsp;
 
 							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
-
-	section#sponsors.section.align-center
-		.container
-			span.icon.section-icon.icon-documents-bookmarks-12
-			h3 Sponsors
-			p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
-
-			h5.heading-alt Platinum
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Platinum"
-						.sponsor.inline.platinum
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
-
-			h5.heading-alt Gold
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Gold"
-						.sponsor.inline.gold
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
-
-			h5.heading-alt Silver
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Silver"
-						.sponsor.inline.silver
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
-
-			h5.heading-alt Bronze
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Bronze"
-						.sponsor.inline.small.bronze
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
 
 	section#location
 		.contacts-wrapper
