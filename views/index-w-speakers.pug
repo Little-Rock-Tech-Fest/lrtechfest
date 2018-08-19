@@ -121,8 +121,10 @@ block content
 							.col-sm-3
 								.speaker
 									.photo-wrapper.rounded
-										img(src="/img/speakers/2018/" + speaker.Photo)
-									h3.name #{speaker.FirstName} #{speaker.LastName}
+										a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+											img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+									a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+										h3.name #{speaker.FirstName} #{speaker.LastName}
 									p.text-alt
 										small #{speaker.Company}
 									each presentation in speaker.Presentations

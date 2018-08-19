@@ -1,0 +1,47 @@
+extends layout
+
+block content
+	section#speakerDesc
+		.container
+			for speaker in speakers
+				if slugs(speaker.LastName+speaker.FirstName) == id
+					div.col-sm-5.col-md-4
+						.speaker
+							.photo-wrapper.rounded
+								a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+									img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+							h5.name #{speaker.FirstName} #{speaker.LastName}
+							p.text-alt
+								small #{speaker.Company}
+							hr
+							span.col-sm-12
+								ul.speaker-socials
+									if (speaker.Twitter)
+										li
+											a(href='https://twitter.com/' + speaker.Twitter target="new")
+												span.fa.fa-twitter
+									if (speaker.Website)
+										li
+											a(href=speaker.Website target="new")
+												span.fa.fa-globe
+					div.col-sm-7.col-md-8.job
+
+						each presentation in speaker.Presentations
+							h5 #{presentation.Topic}
+							hr
+							br
+							.nl2br
+								p !{presentation.Description}
+						br
+						if speaker.Bio
+							h5 About #{speaker.FirstName} #{speaker.LastName}
+							hr
+							br
+							.nl2br
+								p !{speaker.Bio}
+
+	hr
+							
+				
+			
+				
