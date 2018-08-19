@@ -24,15 +24,16 @@ block content
 										li
 											a(href=speaker.Website target="new")
 												span.fa.fa-globe
-					div.col-sm-7.col-md-8.job
+					div.col-sm-7.col-md-8
 
 						each presentation in speaker.Presentations
-							h5 #{presentation.Topic}
-							hr
+							.presentation
+								h5 #{presentation.Topic}
+								hr
+								br
+								.nl2br
+									p !{presentation.Description}
 							br
-							.nl2br
-								p !{presentation.Description}
-						br
 						if speaker.Bio
 							h5 About #{speaker.FirstName} #{speaker.LastName}
 							hr

@@ -150,6 +150,14 @@ div.article {
   vertical-align: top;
 }
 
+#speakerDesc {
+  padding-top:40px;
+}
+
+#speakerDesc .presentation {
+  margin-bottom:30px;
+}
+
 #jobDesc ul{
   list-style: circle;
   margin-left: 22px;
