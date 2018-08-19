@@ -17,6 +17,7 @@ var presentations = [];
 
 speakers.forEach(function(speaker){
 	speaker.slug = slugs(speaker.FirstName+'-'+speaker.LastName);
+	/*
 	var stats = fs.stat('public/'+speaker.Photo, function(err, stats){
 		if(err){
 			console.log(err);
@@ -24,6 +25,7 @@ speakers.forEach(function(speaker){
 			presentations.Photo = speaker.Photo;
 		}
 	});
+	*/
 	speaker.Presentations.forEach(function (presentation) {
 		presentation.SpeakerId = speaker.Id;
 		presentation.SpeakerName = speaker.FirstName + " " + speaker.LastName;
