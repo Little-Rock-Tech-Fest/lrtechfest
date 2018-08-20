@@ -3,6 +3,11 @@
   white-space: pre-line;
 }
 
+ul.styled.disc {
+  list-style: disc;
+  margin-left: 20px;
+}
+
 li {
   text-align: left;
 }

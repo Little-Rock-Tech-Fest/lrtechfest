@@ -28,6 +28,10 @@ router.get('/resources', function(req, res){
 	res.render('resources');
 });
 
+router.get('/resources-review', function(req, res) {
+	res.render('resources-review');
+})
+
 router.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.params.year + ".pdf", function (err) {
 		if (err) {
