@@ -42,6 +42,12 @@
 		"Website": "https://www.dassaultfalcon.com"
 	},
 	{
+		"Name": "SupplyPike",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/supply-pike.png",
+		"Website": "https://supplypike.com/"
+	},
+	{
 		"Name": "Balsamiq",
  		"Level": "Bronze",
 		"Logo": "/img/sponsors/balsamiq.png",
@@ -58,5 +64,11 @@
 		"Level": "Bronze",
 		"Logo": "/img/sponsors/lafferty.png",
 		"Website": "https://www.laffertyequipment.com/"
+	},
+	{
+		"Name": "Code Magazine",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/CODEMagazine.png",
+		"Website": "https://www.codemag.com/"
 	}
 ]

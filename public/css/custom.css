@@ -49,7 +49,6 @@ section#main {
 }
 
 .sponsors {
-  max-width: 900px;
   margin: 0 auto;
 }
 .sponsors h5 {
@@ -79,8 +78,8 @@ section#main {
   height: 250px;
 }
 .sponsor.bronze:not(.inline):not(.big) {
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175px;
 }
 .speaker img {
   width: 200px
