@@ -93,7 +93,6 @@
   },
   {
     "Id": 13,
-    "Email": "john.callaway@outlook.com",
     "FirstName": "John",
     "LastName": "Callaway",
     "Bio": "An author, speaker, and Microsoft MVP, John has been a professional developer since 1999. He has focused primarily on web technologies and has experience with everything from PHP to C# to ReactJS to SignalR. Clean code and professionalism are particularly important to him, as well as mentoring and teaching others what he has learned along the way.",
@@ -180,29 +179,6 @@
         "SessionNumber": null,
         "Topic": "Front end testing that you won't hate",
         "Description": "Engineering on the back end has a robust testing ecosystem. Increasingly, it's possilbe to test your front end applications the same way you test the back end. <br/><br/>In days gone by, testing front end JavaScript code was cumbersome and brittle. However, as front end applications have become more robust and complex, it's become ever more important to thoroughly test your applications. <br/><br/>We'll explore common patterns in the React community then show off the power of Jest and Enzyme. You'll see that these tools utilize familiar practices and will be ready to apply them to your applications.<br/><br/>You will get the most out of this talk if you have some prior programming experience, particularly if you enjoy testing. However, if you're new to the field, the material will still be approachable. ",
-        "SlidesLink": null
-      }
-    ]
-  },
-  {
-    "Id": 24,
-    "FirstName": "Eyal",
-    "LastName": "Eizenberg",
-    "Bio": "I've been hitting the JS scene since the evil days of Prototype (that thing that came before jQuery) but I've finally found my true love... React & Redux!<br/><br/>I am a Team Leader at Wix and I love helping people overcome problems with their code & product.",
-    "Website": "https://medium.com/@eyaleizenberg/",
-    "Twitter": "EyalEizenberg",
-    "Photo": "eizenberg-eyal.jpg",
-    "Company": "Wix",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 48,
-        "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
-        "Topic": "Your Next Game - Built by React",
-        "Description": "The internet offers an endless amount of simple online games like solitaire, minesweeper and hearts. However, these games are usually done with terrible UI/UX, lame graphics, full of banners and ads, and (dare I say it), built on FLASH.<br/><br/>In this presentation I will talk about how I built a DOOM minesweeper game with React, Redux & Typescript. I will also share my dream to create one open sourced website, which will host many well-created simple games, to serve both as a learning platform for developers and for players to enjoy playing good looking games with a great UI/UX, without a ton of ads, all in one place.<br/>",
         "SlidesLink": null
       }
     ]
@@ -310,29 +286,6 @@
     ]
   },
   {
-    "Id": 30,
-    "FirstName": "Darpan",
-    "LastName": "Kakadia",
-    "Bio": "Darpan is a UI Engineer at Cleartrip in Bangalore, where he leads the PWA team and primarily works on React & GraphQL. He likes reading, traveling, photography, performance optimization, and loves sharing his experiences regularly at meet-ups in Bangalore.",
-    "Website": "https://kakadiadarpan.com",
-    "Twitter": "kakadiadarpan",
-    "Photo": "kakadia-darpan.jpg",
-    "Company": "Cleartrip",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 54,
-        "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
-        "Topic": "Styleguide Driven Development",
-        "Description": "What does a typical development cycle look like in your organization? For us, new ideation process used to flow from a product manager’s wireframes to a designer, to an engineer, and then back to the product manager. When feedback came up based on the newly created prototypes, the process would start from the beginning.<br/><br/>A version of this process is fairly natural to many organizations and it works. It can be done in a waterfall or agile way; results get delivered either way. Yet, this kind of process is lengthy and resource intensive, and does not play well for prototyping projects that might be altered seven times over, before a version is shipped to the public.<br/><br/>What if it was possible to simplify this process to just one step? What if anyone in your organization could pick up a set of tools and create a prototype in a matter of hours? A style guide is that tool! A Style guide helps teams iterate with light speed, surfacing new and important requirements way early in the design lifecycle.<br/><br/>Styleguide Driven Development (SDD) is a practice that encourages the separation of UX, Design & Frontend from Backend concerns. This is achieved by developing the UI separately in a styleguide.<br/><br/>SDD isn’t just limited for big teams working on large applications, but the core concepts of developing UI elements separately in a styleguide can still benefit a sole developer working on a single page app.<br/><br/>### Benefits of SDD<br/>* Accurate overview of the UI<br/>* Development playground<br/>* Kickstart for new pages<br/>* Simplified testing<br/>* Component culture<br/>* Communication benefits<br/>* No custom CSS (Because custom CSS is the death of a developer)<br/><br/><br/>This talk is focused on how to improve **Developer Experience**, bridging the gap between a **Designer** and a **Front-end Engineer** and maintaining a living style guide.<br/><br/>### Target audience:<br/>Designers and Front-end Developers<br/><br/>### Audience takeaway:<br/>A better workflow for designers and front-end developers<br/><br/>### Talk outline:<br/>* What’s wrong with the current development cycle?<br/>* What is SDD?<br/>* Why SDD?<br/>* The SDD process<br/>  * Discover<br/>  * Abstract<br/>  * Implement & Document<br/>  * Plug & Play<br/>* How to introduce SDD?",
-        "SlidesLink": null
-      }
-    ]
-  },
-  {
     "Id": 31,
     "FirstName": "Tristan",
     "LastName": "Sokol",
@@ -357,7 +310,6 @@
   },
   {
     "Id": 32,
-    "Email": "Paul.Zolnierczyk@iinteractive.com",
     "FirstName": "Paul",
     "LastName": "Zolnierczyk",
     "Bio": "Hey there, I'm Paul Zolnierczyk and I'm a Team Lead and Sr. Developer at Infinity Interactive Inc. (II for short) . II is a virtual consulting company, we're a passionate crew of technologists spread out all through the U.S. and Canada (some even travel the world and work).  I come from a Java background but made the change to C# 5 years ago and haven't looked back.  I discovered Xamarin a few years ago in 2012 and have been impressed with it ever since.  I always wanted to create mobile applications but learning objective-c was something I tried but just didn't work with me.  Thankfully, Xamarin came along and revolutionized the way we can create mobile applications and allowed me to create iOS and Android apps in the language I love, C#.  I'm a three time Xamarin Certified Developer and I look forward to continue growing with Xamarin every day.",
