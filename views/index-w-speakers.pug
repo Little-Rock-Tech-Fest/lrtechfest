@@ -59,7 +59,7 @@ block content
 		.container
 			.icon.section-icon.icon-multimedia-12
 			h3 You want to be at #LRTF#{moment().format('YYYY')}
-			p.text-alt This will be a full two days of  format, hosted on October 4th and 5th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
+			p.lead This will be a full two days of  format, hosted on October 4th and 5th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
 
 			.col-sm-6
 				p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
@@ -74,7 +74,7 @@ block content
 		.container
 			span.icon.section-icon.icon-faces-users-04
 			h3 Speakers
-			p We 💚 our speakers
+			p.lead We 💚 our speakers
 
 			each val, i in speakers
 				if (i % 4 == 0)
@@ -102,11 +102,49 @@ block content
 												a(href=speaker.Website target="new")
 													span.fa.fa-globe
 
+	section#sponsors.section.align-center
+		.container
+			span.icon.section-icon.icon-documents-bookmarks-12
+			h3 Sponsors
+			p.lead These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
+
+			h5.heading-alt Platinum
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Platinum"
+						.sponsor.platinum
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Gold
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Gold"
+						.sponsor.gold
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Silver
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Silver"
+						.sponsor.silver
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Bronze
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Bronze"
+						.sponsor.bronze
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
 	section#gallery.section.align-center
 		.container
 			span.icon.section-icon.icon-graphic-design-06
 			h3 Gallery
-			p Highlights from our #[a(href="https://twitter.com/search?q=%23LRTF2017" target="new") #LRTF2017] event.
+			p.lead Highlights from our #[a(href="https://twitter.com/search?q=%23LRTF2017" target="new") #LRTF2017] event.
 			.gallery.masonry
 				each photo in photos
 					span.masonry-item.masonry-brick
@@ -118,44 +156,6 @@ block content
 								span.close-btn.icon.icon-office-52
 								//-h5.heading-alt photo.Alt
 								img(src=photo.Full alt=photo.Alt)
-
-	section#sponsors.section.align-center
-		.container
-			span.icon.section-icon.icon-documents-bookmarks-12
-			h3 Sponsors
-			p These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
-
-			h5.heading-alt Platinum
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Platinum"
-						.sponsor.inline.platinum
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
-
-			h5.heading-alt Gold
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Gold"
-						.sponsor.inline.gold
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
-
-			h5.heading-alt Silver
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Silver"
-						.sponsor.inline.silver
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
-
-			h5.heading-alt Bronze
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Bronze"
-						.sponsor.inline.small.bronze
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
 
 	section#tickets.section.align-center
 		.container

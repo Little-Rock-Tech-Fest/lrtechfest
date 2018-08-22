@@ -2,7 +2,7 @@
 	{
 		"Name": "First Orion",
 		"Level": "Platinum",
-		"Logo": "/img/sponsors/fo-logo.png",
+		"Logo": "/img/sponsors/first-orion.png",
 		"Website": "https://firstorion.com/"
 	},
 	{
@@ -16,6 +16,12 @@
 		"Level": "Gold",
 		"Logo": "/img/sponsors/mainstream-logo.jpg",
 		"Website": "http://www.mainstream-tech.com/"
+	},
+	{
+		"Name": "Apptegy",
+		"Level": "Gold",
+		"Logo": "/img/sponsors/apptegy.png",
+		"Website": "https://www.apptegy.com/"
 	},
 	{
 		"Name": "Euronet Worldwide",
