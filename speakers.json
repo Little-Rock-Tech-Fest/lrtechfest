@@ -187,19 +187,29 @@
     "Id": 25,
     "FirstName": "Daniel",
     "LastName": "Costea",
-    "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of technologies like: ASP.NET MVC, WebAPI, HTML, CSS, Javascript, SQL, Clean Code, IoT.",
+    "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of technologies like: ASP.NET MVC, WebAPI, HTML, CSS, Javascript, SQL, Clean Code, IoT.<br/>He works as:<br/>- trainer at Fortech (a Romanian software services company headquartered in Cluj-Napoca)<br/>- discipline manager and trainer at Informal School of IT Romania<br/>- owner of Apex Code Ltd (a small company delivering training solutions, organizing workshops and bootcamps)",
     "Website": "https://www.linkedin.com/in/danielcostea/",
     "Twitter": "dfcostea",
     "Photo": "costea-daniel.jpg",
-    "Company": "Apex Code",
+    "Company": "Apex Code, Fortech, ISIT",
     "LinkedIn": null,
     "Presentations": [
       {
+        "Id": 114,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "Raspberry Pi Invasion: The Second Wave Part 2",
+        "Description": "Microsoft new vision “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT.  In this session you will see a real-time (SignalR) ASP.NET Core 2.1 application reading sensors and making ML predictions. The application is running in Docker container on Raspberry Pi 3 powered by Raspbian OS.    .NET Core is here to stay!  ",
+        "SlidesLink": null
+      },
+      {
         "Id": 49,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 1,
         "Topic": "Raspberry Pi Invasion: The Second Wave",
         "Description": "Microsoft new vision “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT.<br/>In this session you will see a real-time (SignalR) ASP.NET Core 2.1 application reading sensors and making ML predictions. The application is running in Docker container on Raspberry Pi 3 powered by Raspbian OS.<br/><br/>.NET Core is here to stay!<br/>",
         "SlidesLink": null
@@ -214,15 +224,15 @@
     "Website": "https://www.codewithjason.com/",
     "Twitter": "jasonswett",
     "Photo": "swett-jason.jpg",
-    "Company": "",
+    "Company": "Code with Jason",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 50,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 2,
         "Topic": "How My Lack of Testing Skills Lost Me a Job Opportunity - and What I Did About It",
         "Description": "\"Sorry, we were looking for more of a senior-level developer. Your code needs WAY more tests.\" This was the response I got after sharing a code sample with a prospective employer. I was crushed. I thought I WAS a senior-level developer. But unlike the PHP background I had come from, employers in the Rails world expected, rightly, that candidates should know how to write tests.<br/><br/>It took me a few years but I did end up becoming a competent tester. I got my first full-time Rails job in 2013 at a small startup that made a health-related product. Their codebase had a test suite, which allowed me to see what a real production test suite looked like. Their test suite had some problems. There were a number of \"flapping tests\" that would fail once in a while, seemingly at random. This taught me how to reproduce flapping test failures and how to fix them (or what to do if they can't be fixed). Their test suite also used Cucumber for integration testing, which taught me the pros and cons of Cucumber.<br/><br/>In early 2014 I started working with a client with an \"Airbnb for surfers\" product who had only one developer and a very fragile and messy legacy codebase. This experience helped teach me how to use tests to wrangle legacy code into compliance. Working with this legacy codebase also helped me develop the skill of what Michael Feathers calls \"characterization testing\", or what I sometimes call \"reverse TDD\".<br/><br/>In this talk you'll learn:<br/><br/>- Why it was hard for me to get started learning testing<br/><br/>- How my exposure to various different codebases helped me learn what makes good and bad tests<br/><br/>- What the high-level testing lessons I learned were<br/><br/>- How you can get better at testing faster than I did<br/><br/>- Testing books, tutorials and other resources you can turn to",
         "SlidesLink": null
@@ -419,6 +429,29 @@
         "SessionNumber": null,
         "Topic": "Docs are an Engineering Product",
         "Description": "Documentation is the primary user interface for APIs, Python packages, SDKs, and tools of all sorts. And even most GUI-based applications and platforms require documentation of some sort. Yet docs are often after thoughts and second-class citizens.<br/><br/>Documentation is a product – an engineering product. It should be treated like one. This talk will discuss how to apply standard development processes like version control, automated testing, and continuous integration to documentation, and why doing so is important. <br/><br/>A Python-based toolchain currently in use on a large open source documentation project will provide concrete examples.<br/><br/>## Outline<br/><br/> - Briefly explain the docs as code philosophy<br/>    - What <br/>    - Why<br/>    - Advantages / Disadvantages<br/> - Walk through a live docs authoring and deployment toolchain (Open Data Kit)<br/> - Discuss the org/culture needs and tradeoffs required to support this way of docs authoring",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 70,
+    "FirstName": "Place",
+    "LastName": "Holder",
+    "Bio": "",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "",
+    "Company": "",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 115,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 2,
+        "Topic": "Blockchain Panel",
+        "Description": "PlaceHoder",
         "SlidesLink": null
       }
     ]
