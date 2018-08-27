@@ -174,9 +174,9 @@
       {
         "Id": 46,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 4,
         "Topic": "Front end testing that you won't hate",
         "Description": "Engineering on the back end has a robust testing ecosystem. Increasingly, it's possilbe to test your front end applications the same way you test the back end. <br/><br/>In days gone by, testing front end JavaScript code was cumbersome and brittle. However, as front end applications have become more robust and complex, it's become ever more important to thoroughly test your applications. <br/><br/>We'll explore common patterns in the React community then show off the power of Jest and Enzyme. You'll see that these tools utilize familiar practices and will be ready to apply them to your applications.<br/><br/>You will get the most out of this talk if you have some prior programming experience, particularly if you enjoy testing. However, if you're new to the field, the material will still be approachable. ",
         "SlidesLink": null
@@ -235,6 +235,29 @@
         "SessionNumber": 2,
         "Topic": "How My Lack of Testing Skills Lost Me a Job Opportunity - and What I Did About It",
         "Description": "\"Sorry, we were looking for more of a senior-level developer. Your code needs WAY more tests.\" This was the response I got after sharing a code sample with a prospective employer. I was crushed. I thought I WAS a senior-level developer. But unlike the PHP background I had come from, employers in the Rails world expected, rightly, that candidates should know how to write tests.<br/><br/>It took me a few years but I did end up becoming a competent tester. I got my first full-time Rails job in 2013 at a small startup that made a health-related product. Their codebase had a test suite, which allowed me to see what a real production test suite looked like. Their test suite had some problems. There were a number of \"flapping tests\" that would fail once in a while, seemingly at random. This taught me how to reproduce flapping test failures and how to fix them (or what to do if they can't be fixed). Their test suite also used Cucumber for integration testing, which taught me the pros and cons of Cucumber.<br/><br/>In early 2014 I started working with a client with an \"Airbnb for surfers\" product who had only one developer and a very fragile and messy legacy codebase. This experience helped teach me how to use tests to wrangle legacy code into compliance. Working with this legacy codebase also helped me develop the skill of what Michael Feathers calls \"characterization testing\", or what I sometimes call \"reverse TDD\".<br/><br/>In this talk you'll learn:<br/><br/>- Why it was hard for me to get started learning testing<br/><br/>- How my exposure to various different codebases helped me learn what makes good and bad tests<br/><br/>- What the high-level testing lessons I learned were<br/><br/>- How you can get better at testing faster than I did<br/><br/>- Testing books, tutorials and other resources you can turn to",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 27,
+    "FirstName": "Ron Lyle Dagdag",
+    "LastName": null,
+    "Bio": "During the day, Ron is a Senior Software Engineer at thyssenkrupp Elevator, where  he supports developers with their Windows, Web and 3D application development. On the side, Ron is a Hackster Ambassador and Littlebits Chapter Leader in Dallas where he organizes workshop events. He also creates resources for developers by building creative projects at www.dagdag.net. <br/>Ron is passionate about studying the convergence of Augmented Reality/Virtual Reality, Machine Learning and the Internet of Things.<br/>Ron Dagdag is a community leader all things .NET, C#, web development in Node and Javascript, IoT, HoloLens and Mixed Reality applications. He is a Microsoft MVP for Visual Studio and Development Technologies.<br/>",
+    "Website": "http://ron.dagdag.net/",
+    "Twitter": "rondagdag",
+    "Photo": "dagdag-ron-lyle.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 79,
+        "Track": "Chat Bot",
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 3,
+        "Topic": "Say What ?! Teaching our robot overlords how to understand humans.",
+        "Description": "A bot framework empowers developers to build bots that support different types of interactions with humans. We will explore conversation as a platform and focus on creating skills using the Microsoft Bot Framework. Then we’ll discuss how Cortana Skills Kit can help you easily create intelligent, personalized voice-enabled experiences. We use Language Understanding Intelligent Services (LUIS) to train our robot overlords to understand humans.",
         "SlidesLink": null
       }
     ]
@@ -343,12 +366,12 @@
   },
   {
     "Id": 34,
-    "FirstName": "Ado",
-    "LastName": "Kukic",
-    "Bio": "Ado is a full-stack developer, advocate, and technical writer at Auth0. Mixing his passion of programming and education, he creates tutorials, courses, and other educational content focusing on security, authentication, and much more. On the front-end, he prefers Angular, while on the backend he flip-flops between Node.js and Golang.",
+    "FirstName": "Joel",
+    "LastName": "Lord",
+    "Bio": "",
     "Website": "https://auth0.com/blog/",
-    "Twitter": "kukicado",
-    "Photo": "kukic-ado.jpg",
+    "Twitter": "joel__lord",
+    "Photo": "lord-joel.jpg",
     "Company": "Auth0",
     "LinkedIn": null,
     "Presentations": [
@@ -411,24 +434,47 @@
     ]
   },
   {
-    "Id": 54,
-    "FirstName": "Adam Michael Wood",
-    "LastName": null,
-    "Bio": "Adam is a technical writer, Python developer, and open source advocate. He is the lead maintainer of the documentation for Open Data Kit, a set of open source data collection tools used by NGOs, government agencies, and academic researchers around the world. Adam blogs about tech writing and Python at hackwrite.com. In addition to his work in tech, Adam is a church musician and composer, and is working on an open source music theory library for Python.",
-    "Website": "http://hackwrite.com",
-    "Twitter": "adammichaelwood",
-    "Photo": "michael-wood-adam.jpg",
-    "Company": "Open Data Kit",
+    "Id": 43,
+    "FirstName": "Louisa",
+    "LastName": "Barrett",
+    "Bio": "Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator and graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an ‘equals sign’.",
+    "Website": "http://turing.io/",
+    "Twitter": "weesie_b",
+    "Photo": "barrett-louisa.jpg",
+    "Company": "Turing School of Software and Design",
     "LinkedIn": null,
     "Presentations": [
       {
-        "Id": 91,
+        "Id": 76,
         "Track": null,
         "Day": null,
         "Room": null,
         "SessionNumber": null,
-        "Topic": "Docs are an Engineering Product",
-        "Description": "Documentation is the primary user interface for APIs, Python packages, SDKs, and tools of all sorts. And even most GUI-based applications and platforms require documentation of some sort. Yet docs are often after thoughts and second-class citizens.<br/><br/>Documentation is a product – an engineering product. It should be treated like one. This talk will discuss how to apply standard development processes like version control, automated testing, and continuous integration to documentation, and why doing so is important. <br/><br/>A Python-based toolchain currently in use on a large open source documentation project will provide concrete examples.<br/><br/>## Outline<br/><br/> - Briefly explain the docs as code philosophy<br/>    - What <br/>    - Why<br/>    - Advantages / Disadvantages<br/> - Walk through a live docs authoring and deployment toolchain (Open Data Kit)<br/> - Discuss the org/culture needs and tradeoffs required to support this way of docs authoring",
+        "Topic": "Ruby not Red: Color Theory for the Rest of Us",
+        "Description": "This talk will be broken into 5 sections:<br/><br/>### 1) What is Color Blindness?<br/><br/>Explain common types of color blindness. This is to increase audience understanding and empathy, as well as provide context as to why this is something we need to be conscious of and work to improve our efforts to address it effectively.<br/><br/>### 2) The Color Wheel and Dangerous Color Combos<br/><br/>How to evaluate and avoid tricky color combinations, and how to make better color pairing decisions.<br/><br/>### 3) Typography, Text, and Legibility<br/><br/>How color, contrast, and size can impact a user's ability to read text.<br/><br/>### 4) UX Patterns<br/><br/>Which UI trends lend themselves to accessibility, and strategies for successfully adapting those that do not.<br/><br/>### 5) Links, Buttons, and Forms<br/><br/>Strategies for making these utilitarian elements more usable for everyone.<br/><br/>### Conclusion<br/><br/>Making choices that increase visual accessibility ultimately increase how usable our work -- and the web -- is for everyone.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 68,
+    "FirstName": "Amanda",
+    "LastName": "Perkins",
+    "Bio": "I've been a QA for 6 years now and I try to use my varied job skills to help improve not only software quality but the quality of interactions with my team.  I have a background in customer service and music and feel that these skills help me to think outside the box when it comes to quality.  I am currently pursuing my degree in Cyber Security at Norwich University and feel that the additional skills I’m learning there will help me take QA even further.<br/><br/>I'm a lover of hunting bugs, Doctor Who, books and movies.  I dress up every year for the Renaissance Festival and this year I'll do it again.  I'm married with 2 kids, a cat, and a dog and find new and exciting ways to drive them all nuts!!<br/><br/>LinkedIn : https://www.linkedin.com/in/amanda-perkins-bbaa3020/",
+    "Website": "",
+    "Twitter": "agiese79",
+    "Photo": "perkins-amanda.jpg",
+    "Company": "NIC",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 111,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "ONE OF US, ONE OF US",
+        "Description": "It’s hard to be on a team and not be one of the team.  By making interactions with teammates better, teams start to bond, creating high functioning work relationships that go far in crafting better products. Interactions like a simple conversation about the latest movie or where to go for lunch can go a long way to becoming a more involved with the team.<br/><br/>It's about how to get your dev team to accept QA as one of them.  I’ll give tips and tricks to help inspire QA to work with their teams and foster a relationship that will build quality into everything the team creates.  I'll talk about the Rubber Duck trick.  Talk about finding opportunities to learn more about code, automation, what the team is doing.  And about the interpersonal relationship building that you can do easily.  <br/><br/>We will talk about interpersonal relationship skills and how a simple conversation can be an opening to start getting more involved in the team dynamic.  <br/><br/>Will discuss the concept of Rubber Duck and give suggestions for places to improve skill sets (udemy.com, Lynda, Coursera, Khan Academy)<br/><br/>I want attendees to be able to become inspired to get closer to their teams and create those relationships that make everyone's job fun and create a team that's cohesive and works well together.<br/>",
         "SlidesLink": null
       }
     ]
