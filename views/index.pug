@@ -70,6 +70,39 @@ block content
 
 				p.align-left This is our #[strong #{converter.toWordsOrdinal(moment().diff('2011-10-01', 'years'))}] year hosting the event.  Will you join us?
 
+	section#speakers.section.align-center
+		.container
+			span.icon.section-icon.icon-faces-users-04
+			h3 Speakers
+			p.lead We 💚 our speakers
+
+			each val, i in speakers
+				if (i % 4 == 0)
+					.row
+						each speaker, ii in speakers.slice(i, i+4)
+							if slugs(speaker.FirstName+speaker.LastName) !== 'placeholder'
+								.col-sm-3
+									.speaker
+										.photo-wrapper.rounded
+											a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+												img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+										a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+											h3.name #{speaker.FirstName} #{speaker.LastName}
+										p.text-alt
+											small #{speaker.Company}
+										each presentation in speaker.Presentations
+											p.about
+												strong #{presentation.Topic}
+										ul.speaker-socials
+											if (speaker.Twitter)
+												li
+													a(href='https://twitter.com/' + speaker.Twitter target="new")
+														span.fa.fa-twitter
+											if (speaker.Website)
+												li
+													a(href=speaker.Website target="new")
+														span.fa.fa-globe
+
 	section#sponsors.section.align-center
 		.container
 			span.icon.section-icon.icon-documents-bookmarks-12

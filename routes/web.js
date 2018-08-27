@@ -12,16 +12,14 @@ var slugs = require('slugs');
 var _ = require('lodash');
 
 router.get('/', function(req, res){
+	var speakers = require('../speakers.json');
 	var sponsors = require('../sponsors.json');
 	var photos = require('../gallery.json');
-	res.render('index', {title: 'Little Rock Tech Fest', sponsors:sponsors, photos:photos});
+	res.render('index', {title: 'Little Rock Tech Fest', speakers:speakers, sponsors:sponsors, photos:photos});
 });
 
 router.get('/index-w-speakers', function(req, res) {
-	var sponsors = require('../sponsors.json');
-	var photos = require('../gallery.json');
-	var speakers = require('../speakers.json');
-	res.render('index-w-speakers', {title: 'Little Rock Tech Fest', sponsors:sponsors, photos:photos, speakers:speakers});
+	res.redirect('/');
 })
 
 router.get('/resources', function(req, res){
