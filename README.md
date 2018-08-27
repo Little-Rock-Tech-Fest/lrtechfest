@@ -17,7 +17,6 @@ http://www.lrtechfest.com
 git clone https://github.com/Little-Rock-Tech-Fest/lrtechfest.git
 cd lrtechfest/
 npm install
-gulp
 node app.js
 ```
 
