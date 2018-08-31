@@ -167,7 +167,7 @@
     "Bio": "I'm Will Mitchell, an engineer, teacher, learner, entrepreneur, and lover of most anything done in the sunshine. I started my life in software development as a hobby, and gradually shifted it into my career. I've worked for a variety of startups in Denver, CO, and currently teach the next generation of developers at the *Turing School of Software and Design*. When I'm not teaching my students, I enjoy traveling, going to live music, and spending time with my family.",
     "Website": "https://wvmitchell.net",
     "Twitter": "wvmitchell",
-    "Photo": "mitchell-will.jpeg",
+    "Photo": "mitchell-will.jpg",
     "Company": "Turing School of Software and Design",
     "LinkedIn": null,
     "Presentations": [
@@ -241,18 +241,18 @@
   },
   {
     "Id": 27,
-    "FirstName": "Ron Lyle Dagdag",
-    "LastName": null,
+    "FirstName": "Ron Lyle",
+    "LastName": "Dagdag",
     "Bio": "During the day, Ron is a Senior Software Engineer at thyssenkrupp Elevator, where  he supports developers with their Windows, Web and 3D application development. On the side, Ron is a Hackster Ambassador and Littlebits Chapter Leader in Dallas where he organizes workshop events. He also creates resources for developers by building creative projects at www.dagdag.net. <br/>Ron is passionate about studying the convergence of Augmented Reality/Virtual Reality, Machine Learning and the Internet of Things.<br/>Ron Dagdag is a community leader all things .NET, C#, web development in Node and Javascript, IoT, HoloLens and Mixed Reality applications. He is a Microsoft MVP for Visual Studio and Development Technologies.<br/>",
     "Website": "http://ron.dagdag.net/",
     "Twitter": "rondagdag",
-    "Photo": "missing.png",
-    "Company": null,
+    "Photo": "dagdag-ron-lyle.jpg",
+    "Company": "",
     "LinkedIn": null,
     "Presentations": [
       {
         "Id": 79,
-        "Track": "Chat Bot",
+        "Track": null,
         "Day": 2,
         "Room": "1",
         "SessionNumber": 3,
@@ -269,7 +269,7 @@
     "Bio": "",
     "Website": "",
     "Twitter": "",
-    "Photo": "missing.png",
+    "Photo": "cummins-shawn.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -292,7 +292,7 @@
     "Bio": "Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats & 1 dog & a handful of succulents. Say hello to her @gurlcode!",
     "Website": "",
     "Twitter": "gurlcode",
-    "Photo": "creighton-jenn.jpeg",
+    "Photo": "creighton-jenn.jpg",
     "Company": "ClassPass",
     "LinkedIn": null,
     "Presentations": [
@@ -371,7 +371,7 @@
     "Bio": "",
     "Website": "https://auth0.com/blog/",
     "Twitter": "joel__lord",
-    "Photo": "missing.png",
+    "Photo": "lord-joel.jpg",
     "Company": "Auth0",
     "LinkedIn": null,
     "Presentations": [
@@ -434,13 +434,36 @@
     ]
   },
   {
+    "Id": 40,
+    "FirstName": "Ram",
+    "LastName": "Lakshmanan",
+    "Bio": "Every single day millions & millions of people in North America travel, bank and do commerce using the applications that Ram Lakshmanan has architected. He has developed one of the world’s largest banking application which is used by 1 in 3 USA households. He has designed a B2B travel application which processes 70% of North America’s Leisure travel bookings. Ram is the founder of the highly popular DevOps tools GCeasy.io, fastThread.io, heapHero.io. Ram advices startups, Fortune 500 enterprises, Governmental organizations on their critical technology initiatives. He is a highly sought speaker in major developer conferences all throughout the world.<br/>LinkedIn Profile: https://www.linkedin.com/in/ramlakshman<br/>",
+    "Website": "http://gceasy.io/",
+    "Twitter": "tier1app",
+    "Photo": "lakshmanan-ram.jpg",
+    "Company": "GCeasy.io, FastThread.io, HeapHero.io",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 71,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Micro-metrics to forecast performance Tsunamis",
+        "Description": "Elevator Pitch<br/> In recent times, hyper sensitive micro-metrics measuring technologies are employed to forecast Tsunamis. Similarly, it's hard to forecast production performance problems beforehand. In this session you will learn the micro-metrics to be measured in dev/test environments that can forecast production performance problems with fair level of accuracy.<br/><br/>Abstract<br/><br/>Most enterprises measure macro-metrics (response time, CPU utilization, memory consumption) only. These macro-metrics aren't adequate to forecast lot of production performance problems. Below is the list of micro-metrics that an enterprise can measure to forecast and detect performance problems:<br/><br/>1. GC Latency<br/><br/>In all the modern platforms, garbage collection is automatic. Even though GC is automatic, it's not free. GC pauses entire application. It means all the customer transactions that are in motion will be frozen until GC completes. GC latency is good micro-metrics to measure. GC latency is the amount of timew application is paused to do garbage collection. Increase in GC latency is a lead indicator of memory problems in the application.<br/><br/>2. GC Throughput<br/><br/>Garbage collection throughput is the amount of time your application spends in processing customer transactions vs amount of time it spends in doing garbage collection. One should target for high throughput (i.e. application should spend more time in processing customer transactions and less time in GC). Degradation in GC throughput is a lead indicator of increase in compute resource consumption.<br/><br/>3. Object creation/reclamation/promotion rate<br/><br/>The rate at which objects are created heavily influences CPU utilization. If inefficient data structures or code are used, then more objects will be generated to process the same number of transactions. A high object creation rate translates to frequent reclamation (i.e. Garbage Collection). Frequent GC translates to increased CPU consumption. Increase in Object creation/reclamation rate is a classic indicator of memory/CPU problems that is pervasive in the application.<br/><br/>4. Thread count and states<br/><br/>Application threads can be different states: NEW, RUNNABLE, WAITING, TIME_WAITING, BLOCKED, TERMINATED. If there is an increase in count of particular type of thread states, it should be evaluated. Too many BLOCKED threads can make application unresponsive. Too many RUNNABLE threads can cause CPU spikes.<br/><br/>5. Thread groups and their utilization<br/><br/>Thread group is a collection of threads doing particular type of tasks. Enterprise applications can have multiple thread groups. Each group thread count and states of those threads should be analyzed. Sometimes threads in critical thread groups may be fully consumed, sometimes there could be overallocation, sometimes there could be under allocation. <br/><br/>6. Memory wastage<br/><br/>Application memory is wasted in the form of duplicate objects, suboptimal data types, inefficient data structures, over-allocated but underutilized objects. We want to constantly measure memory wastage between releases. If there is an increase in the amount of memory wastage then application will suffer memory problems, response time degradations and CPU spikes. <br/><br/>How to source these micro-metrics?<br/><br/>GC Latency, GC Throughput, Object creation/reclamation/promotion rate metrics can be sourced from garbage collection logs. Thread Count and states, thread groups and their utilization metrics can be sourced from thread dumps. Memory wastage metrics can be sourced from heap dumps. In this session brief overview will be given on how to capture and analyze GC logs, thread dumps and heap dumps as well.<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 43,
     "FirstName": "Louisa",
     "LastName": "Barrett",
     "Bio": "Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator and graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an ‘equals sign’.",
     "Website": "http://turing.io/",
     "Twitter": "weesie_b",
-    "Photo": "missing.png",
+    "Photo": "barrett-louisa.jpg",
     "Company": "Turing School of Software and Design",
     "LinkedIn": null,
     "Presentations": [
@@ -463,7 +486,7 @@
     "Bio": "I've been a QA for 6 years now and I try to use my varied job skills to help improve not only software quality but the quality of interactions with my team.  I have a background in customer service and music and feel that these skills help me to think outside the box when it comes to quality.  I am currently pursuing my degree in Cyber Security at Norwich University and feel that the additional skills I’m learning there will help me take QA even further.<br/><br/>I'm a lover of hunting bugs, Doctor Who, books and movies.  I dress up every year for the Renaissance Festival and this year I'll do it again.  I'm married with 2 kids, a cat, and a dog and find new and exciting ways to drive them all nuts!!<br/><br/>LinkedIn : https://www.linkedin.com/in/amanda-perkins-bbaa3020/",
     "Website": "",
     "Twitter": "agiese79",
-    "Photo": "missing.png",
+    "Photo": "perkins-amanda.jpg",
     "Company": "NIC",
     "LinkedIn": null,
     "Presentations": [
@@ -480,14 +503,152 @@
     ]
   },
   {
-    "Id": 70,
-    "FirstName": "Place",
-    "LastName": "Holder",
+    "Id": 71,
+    "FirstName": "David",
+    "LastName": "Neal",
+    "Bio": "David is a family man, geek, musician, illustrator, speaker, and software developer living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
+    "Website": "http://reverentgeek.com",
+    "Twitter": "reverentgeek",
+    "Photo": "neal-david.jpg",
+    "Company": "ReverentGeek",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 116,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Node.js Crash Course",
+        "Description": "Node.js is a compelling platform that is quickly spreading from startups to the enterprise. Node.js strategically unites developers of all backgrounds through the common language of JavaScript. Why should you learn Node.js and where do you start? You will come away from this talk with the evidence to support Node.js, and tools you need to be productive. We will walk through a typical workflow of creating and debugging a web application. We'll also look at popular frameworks and modules, and other learning resources to give you the best start.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 75,
+    "FirstName": "Angel",
+    "LastName": "Rivera",
+    "Bio": "Angel started his career as an US Air Force Space Systems Operations specialist in Cape Canaveral AF Station where he realized his passion for technology and software development. He has extensive experience in the private, public and military sectors and his technical experience includes military/space lift operations, technical writing, software development, SRE/DevOPs engineering. He also has a wealth of experience in defense and federal sectors such as contracting, information systems security and management.<br/><br/>You can usual find him speaking at or organizing local tech meetups and hackathons where he enjoys engaging with developers.<br/><br/>Angel’s passions are positive disruption, learning, teaching, mentoring but most of all inspiring all forms of technologists & building awesome tech communities.<br/><br/>Fun Fact:          Angel is hackathon junky<br/>Favorite Hobby:    Smoking all types of food meats, fish, cheeses, deserts<br/>",
+    "Website": "",
+    "Twitter": "punkdata",
+    "Photo": "rivera-angel.jpg",
+    "Company": "CircleCI",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 125,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "CI/CD 101 with CircleCI Workshop",
+        "Description": "Continuous Integration and Continuous Delivery/Deployment (CI/CD) concepts are increasingly adopted by many technology organizations and teams. CI\\CD enables teams to establish processes that increase velocity, collaboration and quality of their codebase. CI/CD enables developer & operations teams to breakdown unnecessary silos and gain a deeper knowledge of their respective arenas.<br/><br/>In this workshop the participants will be introduced to the basic fundamentals of Continuous Integration and Continuous Delivery/Deployment. Participants will learn the core principles of CI/CD and have the opportunity to reinforce what they’ve learned in a hands on workshop featuring the CircleCI platform.  The workshop will demonstrate CI/CD build configuration, code commits, commit builds, code testing and packaging.  The participants will leave with a hands-on experience and understanding of what it takes to CI/CD.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 76,
+    "FirstName": "Adam",
+    "LastName": "Hill",
+    "Bio": "Adam Hill is a local developer and is actively involved in the  tech community. He knew he wanted to be a programmer when he was 10 years old and never looked back. <br/><br/>He loves hacking hardware and programming anything involving pocket sized supercomputers, visualization, computer graphics, or games. Adam speaks at many user groups in the DFW area every year and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make games in 72 hours. <br/><br/>On the weekends you can find him gaming, making / eating weird food and oh yeah... doing that code thing.",
+    "Website": "",
+    "Twitter": "adamhill",
+    "Photo": "hill-adam.jpg",
+    "Company": "Paycor Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 127,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "DEPLOY ALL THE XR!!!",
+        "Description": "we will explore using Unity#d to build an XR app then runs on many different devices. I will teach you how to set up a project to make it easy to test / build / deploy your app.<br/><br/>Come learn about Unity3D & XR for fun and profit! ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 77,
+    "FirstName": "David",
+    "LastName": "Stokes",
+    "Bio": "Dave Stokes is a MySQL Community Manager for Oracle Corporation and started at MySQL as a PHP Developer in the MySQL Certification Group.  He lives in Texas, is the author of MySQL and JSON: A Practical Programming Guide, and makes extensive use of the Open G tuning when playing guitars. ",
+    "Website": "http://elephantdolphin.blogspot.com",
+    "Twitter": "stoker",
+    "Photo": "stokes-david.jpg",
+    "Company": "Oracle",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 129,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "MySQL 8 -- A New Beginning",
+        "Description": "MySQL 8 is a major redesign of the most popular database on the web. it will have a true data dictionary (no more .frm, MYI, or other little files) which means you can have millions of tables within a schema. Windowing Functions and Common Table Expressions are available, multi  plane character support (because you need emojis in your data), user roles,  more JSON functions, and big optimizer improvements. And there will be a better 'out of the box' user experience.  And you will learn what happened to MySQL 6 and MySQL 7.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 79,
+    "FirstName": "Cam",
+    "LastName": "Soper",
+    "Bio": "While in high school, Cam was getting paid for writing code and playing jazz (but not necessarily at the same time!). After flirting with several career paths in college, he decided to stick with what he knew.<br/><br/>Cam's development and IT career began in 1991 when a small town computer consultant took Cam, then 13 years old, as his apprentice. After graduating from Missouri State University in 1999, Cam worked as a trainer, adjunct professor, and freelance developer until he took a full-time developer job in the financial services industry in 2000.<br/><br/>In 2012, Cam achieved his childhood dream of joining Microsoft as a travelling support engineer, where he helped companies and public institutions of all sizes deploy software for .NET and Azure. He is currently part of the Microsoft APEX (Azure Platform Evangelism and Experiences) team, where he writes content about Azure and .NET on docs.microsoft.com, including reference applications and samples. <br/><br/>Cam lives in Kansas City, Missouri, USA with his wife, three sons, two dogs, two cats, three guinea pigs, and two hermit crabs. His hobbies include video games, 3D printing, home automation, and creating music.",
+    "Website": "",
+    "Twitter": "camsoper",
+    "Photo": "soper-cam.jpg",
+    "Company": "Microsoft",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 135,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights",
+        "Description": "You know the feeling. An executive sends that email that your web application's performance is costing sales. All hands on deck! Fix it now! Your future is now hours poring over log files, days guessing where the bottleneck is. You hope for success with each new deployment. There's a different path. Application Insights to the rescue!  Instrument your app with Application Insights to get a deep look into the performance profile of your on-premise or Azure-hosted app. Prevent bottlenecks before you get that \"all hands on deck\" email.\u000b\u000b<br/><br/>You will learn:<br/>- What telemetry Application Insights collects automatically<br/>- How to instrument your ASP.NET Core application with custom events and metrics<br/>- How to view and analyze the telemetry using Azure's powerful tools\u000b",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 89,
+    "FirstName": "Gaines",
+    "LastName": "Kergosien",
+    "Bio": "[Gaines Kergosien](http://linkedin.kergosien.net) is an associate director at [UBS](http://www.ubs.com), director of [Music City Tech](http://www.musiccitytech.com), [Microsoft MVP](http://mvp.microsoft.com/en-us/PublicProfile/5001800), and serves as board member for the [Nashville Technology Council](http://technologycouncil.com) and [Nashville .NET User Group](http://nashdotnet.org). He also [presents at software development conferences](http://speaking.kergosien.net) throughout the United States. With over 15 years in solutions development, his work includes consulting for such companies as Bridgestone, Deloitte, Hospital Corporation of America (HCA), American General (AIG), Lexis Nexis, Gibson Guitars, and Cardinal Healthcare.",
+    "Website": "http://kergosien.net",
+    "Twitter": "gainesk",
+    "Photo": "kergosien-gaines.jpg",
+    "Company": "Music City Tech",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 151,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "From Developer to Data Scientist",
+        "Description": "Due to recent advances in technology, humanity is collecting vast amounts of data at an unprecedented rate, making the skills necessary to mine insights from this data increasingly valuable. So what does it take for a Developer to enter the world of data science?<br/><br/>Join me on a journey into the world of big data and machine learning where we will explore what the work actually looks like, identify which skills are most important, and design a road map for how you too can join this exciting and profitable industry.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 90,
+    "FirstName": "Gary",
+    "LastName": "Dowdy",
     "Bio": "",
     "Website": "",
     "Twitter": "",
-    "Photo": "",
-    "Company": "",
+    "Photo": "dowdy-gary.jpg",
+    "Company": "J.B. Hunt",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -496,8 +657,8 @@
         "Day": 1,
         "Room": "2",
         "SessionNumber": 2,
-        "Topic": "Blockchain Panel",
-        "Description": "PlaceHoder",
+        "Topic": "Panel: Blockchain",
+        "Description": null,
         "SlidesLink": null
       }
     ]
