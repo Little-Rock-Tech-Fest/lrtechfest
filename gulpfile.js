@@ -1,17 +1,14 @@
 var gulp = require('gulp');
-var less = require('gulp-less');
-var path = require('path');
+var sass = require('gulp-sass');
 
-gulp.task('less', function () {
-	return gulp.src([
-		'./less/styles/style.less',
-		'./less/styles/style-green-color.less',
-		'./less/animations.less'
-		]).pipe(less({
-			javascriptEnabled: true,
-			paths: [ path.join(__dirname, 'less') ]
-		}))
-		.pipe(gulp.dest('./public/css/'));
-	});
+gulp.task('sass', function() {
+	return gulp.src('sass/**/*.sass')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('public/css'));
+});
 
-gulp.task('default', ['less']);
+gulp.task('sass:watch', function () {
+	gulp.watch('sass/**/*.sass', ['sass']);
+});
+
+gulp.task('default', ['sass']);
