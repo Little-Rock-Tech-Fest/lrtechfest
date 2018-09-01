@@ -241,12 +241,12 @@
   },
   {
     "Id": 27,
-    "FirstName": "Ron Lyle",
+    "FirstName": "Ron",
     "LastName": "Dagdag",
     "Bio": "During the day, Ron is a Senior Software Engineer at thyssenkrupp Elevator, where  he supports developers with their Windows, Web and 3D application development. On the side, Ron is a Hackster Ambassador and Littlebits Chapter Leader in Dallas where he organizes workshop events. He also creates resources for developers by building creative projects at www.dagdag.net. <br/>Ron is passionate about studying the convergence of Augmented Reality/Virtual Reality, Machine Learning and the Internet of Things.<br/>Ron Dagdag is a community leader all things .NET, C#, web development in Node and Javascript, IoT, HoloLens and Mixed Reality applications. He is a Microsoft MVP for Visual Studio and Development Technologies.<br/>",
     "Website": "http://ron.dagdag.net/",
     "Twitter": "rondagdag",
-    "Photo": "dagdag-ron-lyle.jpg",
+    "Photo": "dagdag-ron.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
@@ -498,29 +498,6 @@
         "SessionNumber": null,
         "Topic": "ONE OF US, ONE OF US",
         "Description": "It’s hard to be on a team and not be one of the team.  By making interactions with teammates better, teams start to bond, creating high functioning work relationships that go far in crafting better products. Interactions like a simple conversation about the latest movie or where to go for lunch can go a long way to becoming a more involved with the team.<br/><br/>It's about how to get your dev team to accept QA as one of them.  I’ll give tips and tricks to help inspire QA to work with their teams and foster a relationship that will build quality into everything the team creates.  I'll talk about the Rubber Duck trick.  Talk about finding opportunities to learn more about code, automation, what the team is doing.  And about the interpersonal relationship building that you can do easily.  <br/><br/>We will talk about interpersonal relationship skills and how a simple conversation can be an opening to start getting more involved in the team dynamic.  <br/><br/>Will discuss the concept of Rubber Duck and give suggestions for places to improve skill sets (udemy.com, Lynda, Coursera, Khan Academy)<br/><br/>I want attendees to be able to become inspired to get closer to their teams and create those relationships that make everyone's job fun and create a team that's cohesive and works well together.<br/>",
-        "SlidesLink": null
-      }
-    ]
-  },
-  {
-    "Id": 71,
-    "FirstName": "David",
-    "LastName": "Neal",
-    "Bio": "David is a family man, geek, musician, illustrator, speaker, and software developer living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
-    "Website": "http://reverentgeek.com",
-    "Twitter": "reverentgeek",
-    "Photo": "neal-david.jpg",
-    "Company": "ReverentGeek",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 116,
-        "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
-        "Topic": "Node.js Crash Course",
-        "Description": "Node.js is a compelling platform that is quickly spreading from startups to the enterprise. Node.js strategically unites developers of all backgrounds through the common language of JavaScript. Why should you learn Node.js and where do you start? You will come away from this talk with the evidence to support Node.js, and tools you need to be productive. We will walk through a typical workflow of creating and debugging a web application. We'll also look at popular frameworks and modules, and other learning resources to give you the best start.",
         "SlidesLink": null
       }
     ]
