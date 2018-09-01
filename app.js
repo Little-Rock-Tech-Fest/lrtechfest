@@ -34,7 +34,7 @@ app.use('/app', appRouter); //mobile app
 app.use('/', webRouter); //general URIs
 
 app.use(function (req, res, next) {
-  res.status(404).render('404');
+	res.status(404).render('404');
 });
 
 var port = process.env.PORT;

@@ -18,7 +18,7 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "express": "~4.16",
-    "gulp": "~3.9.1",
+    "gulp": "^3.9.1",
     "gulp-install": "~1.1",
     "gulp-minify-css": "~1.2.0",
     "lodash": "~4.17",
@@ -30,7 +30,7 @@
     "slugs": "~0.1.2"
   },
   "devDependencies": {
-    "gulp-cache-bust": "^1.4.0",
+    "cache-bust": "0.0.2",
     "gulp-sass": "^4.0.1",
     "jshint": "^2.9.5",
     "pug-lint": "^2.5.0"
