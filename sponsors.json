@@ -48,6 +48,12 @@
 		"Website": "https://supplypike.com/"
 	},
 	{
+		"Name": "MySQL",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/my_sql.png",
+		"Website": "https://www.mysql.com/"
+	},
+	{
 		"Name": "Idestini Dev Studio",
 		"Level": "Silver",
 		"Logo": "/img/sponsors/idestini.png",
