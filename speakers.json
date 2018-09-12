@@ -36,9 +36,9 @@
       {
         "Id": 57,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 5,
         "Topic": "Continuous Security: Integrate OWASP tools into your DevOps Pipeline",
         "Description": "OWASP has a number of flagship projects designed to help us deliver secure applications. The <a href=\"https://www.owasp.org/index.php/OWASP_Dependency_Check\" target=\"_blank\">OWASP Depedency Check</a> works with Java, .NET, and Javascript dependencies to check for known security vulnerabilities. The <a href=\"https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project\" target=\"_blank\">OWASP ZAP</a> is a attack proxy to actively probe your application and the <a href=\"https://www.owasp.org/index.php/OWASP_OWTF\" target=\"_blank\">OWTF (offensive web testing framework)</a>. Finally, we'll go over the <a href=\"https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project\" target=\"_blank\">Application Security Verification Series (ASVS)</a> as it applies to your DevOps toolchain itself to make sure you know and are securing your pipeline itself.",
         "SlidesLink": null
@@ -80,11 +80,21 @@
     "LinkedIn": null,
     "Presentations": [
       {
+        "Id": 26,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 3,
+        "Topic": "Taking Control Of Your Life",
+        "Description": "STOP! … take a deep breath … and start now to take control of your life.<br/> <br/>Face it; as IT professional, we’re often overwhelmed with demands on our time. Family, friends, self and work are enough to keep most people on their heels, but we have to add in constant learning and imposed deadlines. What is a person to do?<br/> <br/>This talk will give you some technologies, practices and the mindset you need to take control of your life. Stop feeling overwhelmed and scattered, as if someone else controlled your time. There’s more to life than deploying web services.<br/> <br/>Don Schenck will deliver this entertaining and possibly life-changing talk in a style that can best be described as a combination of a preacher, Tony Robbins, and a 39-year veteran of software development. You don’t want to miss this.<br/>",
+        "SlidesLink": null
+      },
+      {
         "Id": 30,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 2,
         "Topic": "Istio Service Mesh with kubernetes: Microservices 3.0",
         "Description": "Microservice Architecture means a lot of ‘things’ you have to prepare and account for. Just to rattle off some concepts (buzzwords): Load balancing, routing, circuit breakers, Canary and Blue/Green deployments, pool ejection, tracing, monitoring, chaos engineering, dark launches STAHP. JUST STAHP!<br/><br/>To account for any (or all) of this ‘stuff’, you have historically had to include several libraries in your code and write code to support those libraries. But aren’t *micro* services supposed to be small … micro, even?<br/><br/>Enter Istio and sidecar containers and the Service Mesh. Implement all of the above without changing your code. Move these operational concerns away from developers and into the domain of the operations people. Go home Friday at 5.<br/><br/>This session -- valuable for both developers and those in operations -- will introduce Istio and show some of its capabilities, giving you the information you need to start using the next generation of microservice tools.",
         "SlidesLink": null
@@ -128,9 +138,9 @@
       {
         "Id": 32,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "Refactoring CSS Bloat",
         "Description": "CSS technical debt is something we all face as our projects scale. Different companies and projects resolve these debt differently. I'd like to share about how GitLab identified our CSS bloat and what actions we have taken and are planning to take to remove our bloat and our plan to create a UI component library that adheres with a design system so that other frontend engineers can easily add new features without worrying about styling.",
         "SlidesLink": null
@@ -424,9 +434,9 @@
       {
         "Id": 64,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 5,
         "Topic": "How to Learn Anything and Teach JavaScript",
         "Description": "Learning to develop web apps is hard, but clearly it’s possible and even fun. Many of us have read about or heard why it’s hard, and plenty of people are working to make it easier. Yet, unlike playing violin, golfing, or even cooking at an expert level, we do not yet have a well-defined methodology for teaching or learning this in-demand skill.<br/><br/>We’ll talk about the cognitive stages of learning and how they apply to something you already have experience with -- JavaScript -- so you can not only share your expertise effectively with a newcomer, but so you have a clear path to acquire any new skill.",
         "SlidesLink": null
@@ -475,6 +485,29 @@
         "SessionNumber": null,
         "Topic": "Ruby not Red: Color Theory for the Rest of Us",
         "Description": "This talk will be broken into 5 sections:<br/><br/>### 1) What is Color Blindness?<br/><br/>Explain common types of color blindness. This is to increase audience understanding and empathy, as well as provide context as to why this is something we need to be conscious of and work to improve our efforts to address it effectively.<br/><br/>### 2) The Color Wheel and Dangerous Color Combos<br/><br/>How to evaluate and avoid tricky color combinations, and how to make better color pairing decisions.<br/><br/>### 3) Typography, Text, and Legibility<br/><br/>How color, contrast, and size can impact a user's ability to read text.<br/><br/>### 4) UX Patterns<br/><br/>Which UI trends lend themselves to accessibility, and strategies for successfully adapting those that do not.<br/><br/>### 5) Links, Buttons, and Forms<br/><br/>Strategies for making these utilitarian elements more usable for everyone.<br/><br/>### Conclusion<br/><br/>Making choices that increase visual accessibility ultimately increase how usable our work -- and the web -- is for everyone.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 64,
+    "FirstName": "Zac",
+    "LastName": "Brown",
+    "Bio": "Since writing his first line of code at age 9, Zac has been completely fascinated with computers. 14 years later, at age 23 Zac is working on Python, erlang and node based applications at one of the leading VoIP communications companies today. With experience in multiple areas of product development and delivery, Zac brings his years of learning and growing to multiple venues and events across the globe.",
+    "Website": "http://yupitszac.com/",
+    "Twitter": "YupItsZac",
+    "Photo": "brown-zac.jpg",
+    "Company": "Nextiva",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 107,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Easy CI/CD for your Python app using Bitbucket Pipelines",
+        "Description": "Building your application is the fun part, but delivering your application is equally important. Many engineers lack the additional devops knowledge required to build and maintain a pipeline process using tools like Jenkins, or Bamboo. Bitbucket has saved the day,  we'll explore how. <br/><br/>In this talk, we'll discuss and demonstrate the various options and functionality available to help us easily build, test and deploy our Python applications with just a few lines of yml ",
         "SlidesLink": null
       }
     ]
@@ -585,9 +618,9 @@
       {
         "Id": 135,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 2,
         "Topic": "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights",
         "Description": "You know the feeling. An executive sends that email that your web application's performance is costing sales. All hands on deck! Fix it now! Your future is now hours poring over log files, days guessing where the bottleneck is. You hope for success with each new deployment. There's a different path. Application Insights to the rescue!  Instrument your app with Application Insights to get a deep look into the performance profile of your on-premise or Azure-hosted app. Prevent bottlenecks before you get that \"all hands on deck\" email.\u000b\u000b<br/><br/>You will learn:<br/>- What telemetry Application Insights collects automatically<br/>- How to instrument your ASP.NET Core application with custom events and metrics<br/>- How to view and analyze the telemetry using Azure's powerful tools\u000b",
         "SlidesLink": null
@@ -636,6 +669,29 @@
         "SessionNumber": 2,
         "Topic": "Panel: Blockchain",
         "Description": null,
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 92,
+    "FirstName": "Erik",
+    "LastName": "Ostermueller",
+    "Bio": "Erik Ostermueller is the author of the recently published \"Troubleshooting Java Performance\" [1] from apress.com.<br/><br/>He has spent the last 10 years or so years tuning high throughput Java financial systems in North and South America, Europe and Asia.  In 2011, he wrote a paper for an international performance conference titled  “How to Help Developers (Finally) Find Their Own Performance Defects” that won “Best Paper” and the “Mullen Award” for best speaker [2].  The proceeds of this award financed an 8-city speaking tour in the US, Canada, UK, and Italy.  <br/> <br/>Founder of heapSpank.org and wuqiSpank.org and a contributor to JMeter-Plugins and other open source projects.<br/> <br/>[1] https://www.amazon.com/Troubleshooting-Java-Performance-Detecting-Anti-Patterns/dp/1484229789/ref=sr_1_1?ie=UTF8&qid=1516082703<br/>[2] https://www.cmg.org/about-cmg/awards-scholarships/<br/>",
+    "Website": "http://erikostermueller.com/",
+    "Twitter": "EOstermueller",
+    "Photo": "ostermueller-erik.jpg",
+    "Company": "Fidelity Information Services",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 156,
+        "Track": null,
+        "Day": null,
+        "Room": null,
+        "SessionNumber": null,
+        "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
+        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
         "SlidesLink": null
       }
     ]
