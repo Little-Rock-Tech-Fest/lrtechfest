@@ -57,7 +57,7 @@ section#main {margin-top: 70px;}
 	}
 
 	.header h1{  margin-left: 15px;}
-	.header img {position: relative; top: -15px; width: 150px;}
+	/*.header img {position: relative; top: -15px; width: 150px;}*/
 	
 	#sponsors-content .logo-container {padding: 9px; margin-left:8px; margin-right: 0px}
 	#sponsors-content .logo-frame { height: 125px; width: 125px; }
@@ -74,7 +74,7 @@ section#main {margin-top: 70px;}
 	}
 
 	.header h1{  margin-left: 15px;}
-	.header img {position: relative; top: -15px; width: 200px;}
+	/*.header img {position: relative; top: -15px; width: 200px;}*/
 	
 	#sponsors-content .logo-container {padding: 15px; margin-left:10px; margin-right: 0px}
 	#sponsors-content .logo-frame { height: 200px; width: 200px; }

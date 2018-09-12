@@ -1,6 +1,21 @@
-.nl2br {
-  white-space: pre;
-  white-space: pre-line;
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-size: 16px;
 }
 
 ul.styled.disc {
@@ -8,12 +23,12 @@ ul.styled.disc {
   margin-left: 20px;
 }
 
-li {
-  text-align: left;
-}
-
 section#main {
   min-height: 600px;
+}
+
+#main {
+  min-height: 650px;
 }
 
 .bg1 {
@@ -128,17 +143,10 @@ a#apply {
 .sponsor.platinum.inline img {
   max-width: 350px
 }
-
-#main {
-  min-height: 650px;
+.nl2br {
+  white-space: pre;
+  white-space: pre-line;
 }
-
-/*
-.header {
-  margin-bottom:15px;
-}
-*/
-
 .modal-box.iframe-box .close-btn {
   background-color: rgba(99, 161, 69, 0.6);
 }
@@ -205,6 +213,14 @@ div.article {
 }
 #jobs .post-job {
     margin-top: 20px;
+}
+
+#jobs .post {
+  padding: 8px 0;
+}
+
+#jobs .post .logo {
+  padding: 8px 0;
 }
 
 .error-code{

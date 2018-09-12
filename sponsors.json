@@ -48,6 +48,24 @@
 		"Website": "https://supplypike.com/"
 	},
 	{
+		"Name": "MySQL",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/my_sql.png",
+		"Website": "https://www.mysql.com/"
+	},
+	{
+		"Name": "Idestini Dev Studio",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/idestini.png",
+		"Website": "https://idestini.com/"
+	},
+	{
+		"Name": "DataPath",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/datapath_logo.png",
+		"Website": "https://dpath.com/"
+	},
+	{
 		"Name": "Balsamiq",
  		"Level": "Bronze",
 		"Logo": "/img/sponsors/balsamiq.png",
@@ -70,5 +88,11 @@
 		"Level": "Bronze",
 		"Logo": "/img/sponsors/CODEMagazine.png",
 		"Website": "https://www.codemag.com/"
+	},
+	{
+		"Name": "Team SI",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/teamsi-logo.png",
+		"Website": "https://www.teamsi.com/"
 	}
 ]

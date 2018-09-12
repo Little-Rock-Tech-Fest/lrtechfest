@@ -14,7 +14,7 @@ block content
 					hr
 					each job in jobs
 						a(href="/jobs/"+slugs(job.orgName+job.posTitle))
-							div.row
+							div.row.post
 								div.col-xs-4.col-sm-4.col-md-4.col-lg-3.logo
 									img(src=job.logo, alt="Logo", style="padding-left:10px; padding-right:10px")
 								div.col-xs-8.col-sm-8.col-md-8.col-lg-6
