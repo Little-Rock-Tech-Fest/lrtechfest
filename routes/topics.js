@@ -44,4 +44,8 @@ router.get('/', function (req, res) {
 	res.render('topics', {speakers: speakers});
 });
 
+router.get('/staging', function (req, res) {
+	res.render('topics-staging', {speakers: speakers});
+});
+
 module.exports = router;
