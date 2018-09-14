@@ -99,6 +99,7 @@ section#main {
 .sponsor.bronze:not(.inline):not(.big) {
   width: 175px;
   height: 175px;
+  margin-right: 50px;
 }
 .speaker img {
   width: 200px

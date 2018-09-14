@@ -14,7 +14,7 @@
 	{
 		"Name": "Mainstream Technologies",
 		"Level": "Gold",
-		"Logo": "/img/sponsors/mainstream-logo.jpg",
+		"Logo": "/img/sponsors/mti-vertical-primary.jpg",
 		"Website": "http://www.mainstream-tech.com/"
 	},
 	{
@@ -94,5 +94,11 @@
 		"Level": "Bronze",
 		"Logo": "/img/sponsors/teamsi-logo.png",
 		"Website": "https://www.teamsi.com/"
+	},
+	{
+		"Name": "HyperLeap",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/hyperleap-logo-large.png",
+		"Website": "https://signup.hyperleapnetwork.com/"
 	}
 ]
