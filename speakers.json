@@ -490,6 +490,29 @@
     ]
   },
   {
+    "Id": 60,
+    "FirstName": "Lance",
+    "LastName": "Finney",
+    "Bio": "After over a decade as a Java developer, I've been working in Angular for over four years. And I love it. I develop Angular applications with Oasis Digital, and I teach others to build them through Angular Boot Camp. Father of two boys, software developer, and world traveler (when I can sneak it in).",
+    "Website": "",
+    "Twitter": "LMFinneyCoder",
+    "Photo": "finney-lance.jpg",
+    "Company": "Oasis Digital/Angular Boot Camp",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 102,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 3,
+        "Topic": "So you're doing NgRx, but is your Data Safe?",
+        "Description": "A core tenet of ngrx and the Redux pattern is that state changes occur only in the reducer, and only by returning a new state object. What some people fail to realize is that this is only a pattern, and it is not enforced in any way. Best case, your application is one accidental modification away from crashing down like a house of cards. Worst case, there are subtle flaws in the workflow that you don't notice until it is in production. In this talk, I will make the case for immutability, illustrate the difference between compile-time and run-time immutability, and then see how we can easily achieve both using the record-extension pattern, leveraging the power of both Typescript and Immutable.js.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 64,
     "FirstName": "Zac",
     "LastName": "Brown",
