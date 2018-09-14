@@ -13,9 +13,9 @@
       {
         "Id": 10,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 1,
         "Topic": "Microservices Hurt, But I Like It.",
         "Description": "You've heard about the benefits of microservices. You've heard how billion dollar unicorn companies with thousands of developers have improved their productivity, become invulnerable to scaling issues and solved the problem of distributed computing with a handful of open source projects.<br/><br/>Join me to watch a 40 minute, slow motion replay of reality punching my team in the gut as we spent three years evolving our microservices stack in the cloud. This is a service provider and language agnostic look at approaching distributed computing if your team is still small enough to fed by two pizzas.",
         "SlidesLink": null
@@ -59,9 +59,9 @@
       {
         "Id": 47,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 6,
         "Topic": "Pop Songs and Programming for Fun and Profit",
         "Description": "The idea here is to convey ideas on how to get into development and stay as a developer using the tunes and titles from popular music. It's a fun talk where learning how to be a better person leads to being a better dev.<br/><br/>Through a series of pop songs we’ll look at what it’s like to:<br/><br/>- Start out on your own as a programmer - not sure where to go or to get involved in open source<br/><br/>- Work on a team dedicated to Open Source in the crazy world of SV/SF<br/><br/>- Open Source at a big blue company, and how large corporations view Open Source<br/><br/>- Sharing your knowledge with the next line of new folks looking to get in on OSS<br/><br/>- Going out on your own - giving a conference talk - being the expert and sharing what you know<br/>",
         "SlidesLink": null
@@ -115,9 +115,9 @@
       {
         "Id": 60,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 6,
         "Topic": "TDD: A Pragmatic Approach",
         "Description": "Unit Testing can be mysterious endeavor with a high bar for entry. It doesn't have to be that complicated. Many examples on the Internet show you how to write a Unit Test, but not how to test an entire application. We'll discuss the fundamentals of Test-Driven Development, how to approach an entire application, how to separate logical layers, and how to test the boundaries.<br/><br/>We'll continue to explore more advanced topics using Mocks, Fakes, and Stubs. And we'll wrap it up with a discussion on how to arrange your application and test suite to ease the pain of future enhancements and modifications.",
         "SlidesLink": null
@@ -161,9 +161,9 @@
       {
         "Id": 45,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "These are the anDroids you are looking for",
         "Description": "Want to write your first Android application? Join us to learn how to write an Android application using C# with Xamarin. I will show you how to consume a real API and render the data beautifully inside of Android. Bring your laptop and follow along whether you are using Visual Studio or Visual Studio for Mac. You will walk away with a working running native Android application.<br/>C# is a great language for writing mobile applications. Anything you can do in Java and Kotlin, you can do in C#. You will be able to create native mobile application and use all of the Native API's including calling Java and Kotlin code from your C#.",
         "SlidesLink": null
@@ -257,7 +257,7 @@
     "Website": "http://ron.dagdag.net/",
     "Twitter": "rondagdag",
     "Photo": "dagdag-ron.jpg",
-    "Company": "",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -286,9 +286,9 @@
       {
         "Id": 52,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 5,
         "Topic": "A Discussion on Approaches to Web Application MultiTenancy Architecture",
         "Description": "Generally aimed at architects, but there are things to be gained at all skill levels.<br/>This discussion will talk about several approaches to architecting a Multitenant web application.<br/><br/>* Full Tenancy<br/>* Sharded Tenancy<br/>* Multi-Single Tenancy<br/>* Hybrid Tenancy<br/><br/>Included with each is a list of pros and cons that should be considered.<br/><br/>I'll also discuss things like Feature Isolation, Data Isolation, Security Isolation, and many more.<br/><br/>Finally, i part ways with some thoughts that offer guidance for the future.",
         "SlidesLink": null
@@ -309,9 +309,9 @@
       {
         "Id": 58,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 4,
         "Topic": "What Tamagotchis can teach you about ES6 generators",
         "Description": "What do Tamagotchis — everyone’s favorite digital pets from the 90s — and ES6 generators — pausible functions for async tasks — have in common? Both are really fun to play with. As a recent side project, I built a web-version of a Tamagotchi. But I struggled with one key element: how to handle a series of animations. What do you do when animations need to know that other animations are complete? What do you do when you’ve queued animations but a user event needs to be handle instead? This talk explores where I went wrong (hint: promises) and what worked (hint: generators). You’ll leave this talk with a solid grasp of how to combine promises, generators, and coroutines for async work — whether it’s for a Tamagotchi or your day-to-day work.<br/>",
         "SlidesLink": null
@@ -319,9 +319,9 @@
       {
         "Id": 53,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "The how's and why's of flexible React components",
         "Description": "Building React components is simple — until it isn’t. Real world constraints can lead to large components that “do it all”. Or near identical components with one or two changes. So how do we create flexible components without sacrificing readability and scalability? Jenn shares how she re-architected components to handle multiple use cases and increase engineer happiness. She’ll breakdown the technical concerns for each component, the patterns she considered using, what didn’t work and what did. You'll learn more than the \"how\" of component architecture -- you'll learn the \"why\"!<br/><br/>You’ll get the most out of this session if you’ve written React components before. But even if you haven’t, you’ll walk away with practical patterns, tips and tricks for the future.",
         "SlidesLink": null
@@ -342,9 +342,9 @@
       {
         "Id": 55,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 2,
         "Topic": "The Ins n' Outs of Serverless Functions",
         "Description": "Serverless functions are a new tool for developers that can let even the smallest of entrepreneurs feel like they are at Google scale. They can be the backbone of a microservice architecture for your application/website or handle a pipeline of complicated back-end processing. I'll give a quick high level conceptual overview of how serverless functions work, then dive into practical examples of common use cases such as webhook handling, front-end content delivery, and scaled asynchronous data processing using tools like Google Cloud Functions & Twilio Functions. We'll also cover all bases with testing tips and development tools.  The audience will walk away with practical examples of ways to incorporate hosted functions into their workflows, as well as a solid understanding of the benefits (extreme cost savings, improved scalability, architecture) and drawbacks (cold start times, complexity). ",
         "SlidesLink": null
@@ -365,9 +365,9 @@
       {
         "Id": 56,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 3,
         "Topic": "JSON driven Xamarin.iOS UI's",
         "Description": "Creating workflows in Xamarin.iOS where your screens can vary between 1..X screens can be tricky to design and implement if using XIBs or Storyboards.  What happens if a particular user only needs to see 3 screens in this workflow while another needs to see 5 screens?  What if the text and elements differ on each screen?  That's where creating dynamic screens using iOS's UIStackView along with a bit of code that's driven by JSON can help with your dynamic workflow.  In this talk, I'll demonstrate a storyboard workflow and show that it is effective but has limitations.  I'll then take the user through converting this storyboard into something that utilizes Xamarin.iOS' UIStackView that is driven by some JSON that can be driven by an API.",
         "SlidesLink": null
@@ -388,9 +388,9 @@
       {
         "Id": 61,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 6,
         "Topic": "A Token Walks Into a SPA...",
         "Description": "Seems like all you hear about these days are Single Page Applications. Angular, React, Vue, Ember are transforming the way we think about the frontend. But what about securing these applications? This often tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through best practices and caveats that apply to any single-page application framework.",
         "SlidesLink": null
@@ -411,9 +411,9 @@
       {
         "Id": 62,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 6,
         "Topic": "ChatOps with Slack and Webtask.io",
         "Description": "With the rise in remote workers living the digital nomad life, Slack has become a central hub for team communication and collaboration. Teams have begun pushing critical monitoring information and kicking off processes directly from Slack. Webtask.io makes it easy for you do to this without having to wrestle with standing up and configure a server. In this presentation, Bobby will show you how to listen for specific events and push messages directly into a channel, setup a scheduled task that reports results to a channel and create CLI like commands with access control to fire on demand processes.",
         "SlidesLink": null
@@ -457,9 +457,9 @@
       {
         "Id": 71,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 6,
         "Topic": "Micro-metrics to forecast performance Tsunamis",
         "Description": "Elevator Pitch<br/> In recent times, hyper sensitive micro-metrics measuring technologies are employed to forecast Tsunamis. Similarly, it's hard to forecast production performance problems beforehand. In this session you will learn the micro-metrics to be measured in dev/test environments that can forecast production performance problems with fair level of accuracy.<br/><br/>Abstract<br/><br/>Most enterprises measure macro-metrics (response time, CPU utilization, memory consumption) only. These macro-metrics aren't adequate to forecast lot of production performance problems. Below is the list of micro-metrics that an enterprise can measure to forecast and detect performance problems:<br/><br/>1. GC Latency<br/><br/>In all the modern platforms, garbage collection is automatic. Even though GC is automatic, it's not free. GC pauses entire application. It means all the customer transactions that are in motion will be frozen until GC completes. GC latency is good micro-metrics to measure. GC latency is the amount of timew application is paused to do garbage collection. Increase in GC latency is a lead indicator of memory problems in the application.<br/><br/>2. GC Throughput<br/><br/>Garbage collection throughput is the amount of time your application spends in processing customer transactions vs amount of time it spends in doing garbage collection. One should target for high throughput (i.e. application should spend more time in processing customer transactions and less time in GC). Degradation in GC throughput is a lead indicator of increase in compute resource consumption.<br/><br/>3. Object creation/reclamation/promotion rate<br/><br/>The rate at which objects are created heavily influences CPU utilization. If inefficient data structures or code are used, then more objects will be generated to process the same number of transactions. A high object creation rate translates to frequent reclamation (i.e. Garbage Collection). Frequent GC translates to increased CPU consumption. Increase in Object creation/reclamation rate is a classic indicator of memory/CPU problems that is pervasive in the application.<br/><br/>4. Thread count and states<br/><br/>Application threads can be different states: NEW, RUNNABLE, WAITING, TIME_WAITING, BLOCKED, TERMINATED. If there is an increase in count of particular type of thread states, it should be evaluated. Too many BLOCKED threads can make application unresponsive. Too many RUNNABLE threads can cause CPU spikes.<br/><br/>5. Thread groups and their utilization<br/><br/>Thread group is a collection of threads doing particular type of tasks. Enterprise applications can have multiple thread groups. Each group thread count and states of those threads should be analyzed. Sometimes threads in critical thread groups may be fully consumed, sometimes there could be overallocation, sometimes there could be under allocation. <br/><br/>6. Memory wastage<br/><br/>Application memory is wasted in the form of duplicate objects, suboptimal data types, inefficient data structures, over-allocated but underutilized objects. We want to constantly measure memory wastage between releases. If there is an increase in the amount of memory wastage then application will suffer memory problems, response time degradations and CPU spikes. <br/><br/>How to source these micro-metrics?<br/><br/>GC Latency, GC Throughput, Object creation/reclamation/promotion rate metrics can be sourced from garbage collection logs. Thread Count and states, thread groups and their utilization metrics can be sourced from thread dumps. Memory wastage metrics can be sourced from heap dumps. In this session brief overview will be given on how to capture and analyze GC logs, thread dumps and heap dumps as well.<br/>",
         "SlidesLink": null
@@ -480,9 +480,9 @@
       {
         "Id": 76,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 5,
         "Topic": "Ruby not Red: Color Theory for the Rest of Us",
         "Description": "This talk will be broken into 5 sections:<br/><br/>### 1) What is Color Blindness?<br/><br/>Explain common types of color blindness. This is to increase audience understanding and empathy, as well as provide context as to why this is something we need to be conscious of and work to improve our efforts to address it effectively.<br/><br/>### 2) The Color Wheel and Dangerous Color Combos<br/><br/>How to evaluate and avoid tricky color combinations, and how to make better color pairing decisions.<br/><br/>### 3) Typography, Text, and Legibility<br/><br/>How color, contrast, and size can impact a user's ability to read text.<br/><br/>### 4) UX Patterns<br/><br/>Which UI trends lend themselves to accessibility, and strategies for successfully adapting those that do not.<br/><br/>### 5) Links, Buttons, and Forms<br/><br/>Strategies for making these utilitarian elements more usable for everyone.<br/><br/>### Conclusion<br/><br/>Making choices that increase visual accessibility ultimately increase how usable our work -- and the web -- is for everyone.",
         "SlidesLink": null
@@ -549,9 +549,9 @@
       {
         "Id": 111,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 5,
         "Topic": "ONE OF US, ONE OF US",
         "Description": "It’s hard to be on a team and not be one of the team.  By making interactions with teammates better, teams start to bond, creating high functioning work relationships that go far in crafting better products. Interactions like a simple conversation about the latest movie or where to go for lunch can go a long way to becoming a more involved with the team.<br/><br/>It's about how to get your dev team to accept QA as one of them.  I’ll give tips and tricks to help inspire QA to work with their teams and foster a relationship that will build quality into everything the team creates.  I'll talk about the Rubber Duck trick.  Talk about finding opportunities to learn more about code, automation, what the team is doing.  And about the interpersonal relationship building that you can do easily.  <br/><br/>We will talk about interpersonal relationship skills and how a simple conversation can be an opening to start getting more involved in the team dynamic.  <br/><br/>Will discuss the concept of Rubber Duck and give suggestions for places to improve skill sets (udemy.com, Lynda, Coursera, Khan Academy)<br/><br/>I want attendees to be able to become inspired to get closer to their teams and create those relationships that make everyone's job fun and create a team that's cohesive and works well together.<br/>",
         "SlidesLink": null
@@ -572,9 +572,9 @@
       {
         "Id": 125,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 4,
         "Topic": "CI/CD 101 with CircleCI Workshop",
         "Description": "Continuous Integration and Continuous Delivery/Deployment (CI/CD) concepts are increasingly adopted by many technology organizations and teams. CI\\CD enables teams to establish processes that increase velocity, collaboration and quality of their codebase. CI/CD enables developer & operations teams to breakdown unnecessary silos and gain a deeper knowledge of their respective arenas.<br/><br/>In this workshop the participants will be introduced to the basic fundamentals of Continuous Integration and Continuous Delivery/Deployment. Participants will learn the core principles of CI/CD and have the opportunity to reinforce what they’ve learned in a hands on workshop featuring the CircleCI platform.  The workshop will demonstrate CI/CD build configuration, code commits, commit builds, code testing and packaging.  The participants will leave with a hands-on experience and understanding of what it takes to CI/CD.",
         "SlidesLink": null
@@ -595,9 +595,9 @@
       {
         "Id": 127,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 4,
         "Topic": "DEPLOY ALL THE XR!!!",
         "Description": "we will explore using Unity#d to build an XR app then runs on many different devices. I will teach you how to set up a project to make it easy to test / build / deploy your app.<br/><br/>Come learn about Unity3D & XR for fun and profit! ",
         "SlidesLink": null
@@ -618,9 +618,9 @@
       {
         "Id": 129,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 3,
         "Topic": "MySQL 8 -- A New Beginning",
         "Description": "MySQL 8 is a major redesign of the most popular database on the web. it will have a true data dictionary (no more .frm, MYI, or other little files) which means you can have millions of tables within a schema. Windowing Functions and Common Table Expressions are available, multi  plane character support (because you need emojis in your data), user roles,  more JSON functions, and big optimizer improvements. And there will be a better 'out of the box' user experience.  And you will learn what happened to MySQL 6 and MySQL 7.",
         "SlidesLink": null
@@ -632,7 +632,7 @@
     "FirstName": "Cam",
     "LastName": "Soper",
     "Bio": "While in high school, Cam was getting paid for writing code and playing jazz (but not necessarily at the same time!). After flirting with several career paths in college, he decided to stick with what he knew.<br/><br/>Cam's development and IT career began in 1991 when a small town computer consultant took Cam, then 13 years old, as his apprentice. After graduating from Missouri State University in 1999, Cam worked as a trainer, adjunct professor, and freelance developer until he took a full-time developer job in the financial services industry in 2000.<br/><br/>In 2012, Cam achieved his childhood dream of joining Microsoft as a travelling support engineer, where he helped companies and public institutions of all sizes deploy software for .NET and Azure. He is currently part of the Microsoft APEX (Azure Platform Evangelism and Experiences) team, where he writes content about Azure and .NET on docs.microsoft.com, including reference applications and samples. <br/><br/>Cam lives in Kansas City, Missouri, USA with his wife, three sons, two dogs, two cats, three guinea pigs, and two hermit crabs. His hobbies include video games, 3D printing, home automation, and creating music.",
-    "Website": "",
+    "Website": null,
     "Twitter": "camsoper",
     "Photo": "soper-cam.jpg",
     "Company": "Microsoft",
@@ -664,9 +664,9 @@
       {
         "Id": 151,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 1,
         "Topic": "From Developer to Data Scientist",
         "Description": "Due to recent advances in technology, humanity is collecting vast amounts of data at an unprecedented rate, making the skills necessary to mine insights from this data increasingly valuable. So what does it take for a Developer to enter the world of data science?<br/><br/>Join me on a journey into the world of big data and machine learning where we will explore what the work actually looks like, identify which skills are most important, and design a road map for how you too can join this exciting and profitable industry.",
         "SlidesLink": null
@@ -710,9 +710,9 @@
       {
         "Id": 156,
         "Track": null,
-        "Day": null,
-        "Room": null,
-        "SessionNumber": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 1,
         "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
         "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
         "SlidesLink": null
