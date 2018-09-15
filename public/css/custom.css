@@ -270,6 +270,15 @@ div.article {
 .schedule .tab-content-schedule .schedule-item {
   padding: 0 0 0 60px;
 }
+.schedule-item .speaker {
+  margin-bottom: 0;
+}
+.schedule .tab-content-schedule .schedule-item {
+  padding: 10px;
+}
+.schedule-item h6.title {
+  font-size: 17px;
+}
 
 /* Extra Small */
 @media (max-width: 767px){

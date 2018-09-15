@@ -70,13 +70,14 @@ block content
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td
+																		td(style="vertical-align:top;text-align:center;")
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
-																					.lecture-icon-wrapper
-																						img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																					h6.title #{presentation.Topic}
-																					strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						h6.title #{presentation.Topic}
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 														else 
 															td 
 																h6.title TBD
@@ -99,10 +100,11 @@ block content
 																		td
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
-																					.lecture-icon-wrapper
-																						img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																					h6.title #{presentation.Topic}
-																					strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						h6.title #{presentation.Topic}
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 														else 
 															td 
 																h6.title TBD
@@ -138,10 +140,11 @@ block content
 																		td
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
-																					.lecture-icon-wrapper
-																						img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																					h6.title #{presentation.Topic}
-																					strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						h6.title #{presentation.Topic}
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 														else 
 															td 
 																h6.title TBD
@@ -164,10 +167,11 @@ block content
 																		td
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
-																					.lecture-icon-wrapper
-																						img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																					h6.title #{presentation.Topic}
-																					strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						h6.title #{presentation.Topic}
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 														else 
 															td 
 																h6.title TBD
@@ -181,7 +185,7 @@ block content
 		each presentation in speaker.Presentations
 			if presentation.Day === 1
 				.panel.schedule-item
-					.lecture-icon-wrapper
+					
 						span.fa.fa-cutlery
 					a.schedule-item-toggle(data-toggle='collapse' data-parent='#day1_auditorium1_timeline' href='#day1_auditorium1_time1')
 						h6.title
