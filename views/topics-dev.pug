@@ -33,10 +33,6 @@ mixin Day (fullDay)
 block content
 	.container
 		.schedule
-			.nav-wrapper
-				span.nav-current
-					h5.highlight Day 1
-					p.text-alt Thursday, October 4th
 			ul.nav.nav-schedule
 				li.active
 					a(href='#day1' data-toggle='tab')
@@ -51,7 +47,7 @@ block content
 					.tab-content.tab-content-schedule
 						#day1_auditorium1.tab-pane.fade.active.in
 							#day1_auditorium1_timeline.panel-group
-								table.table
+								table.schedule.table.stacktable
 									thead
 										tr
 											th(style="width:15%") &nbsp;
@@ -70,14 +66,14 @@ block content
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td(style="vertical-align:top;text-align:center;")
+																		td.speaker-cell
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
 																						.photo-wrapper.rounded
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																						h6.title #{presentation.Topic}
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 														else 
 															td 
 																h6.title TBD
@@ -97,14 +93,14 @@ block content
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td
+																		td.speaker-cell
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
 																						.photo-wrapper.rounded
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																						h6.title #{presentation.Topic}
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 														else 
 															td 
 																h6.title TBD
@@ -118,7 +114,7 @@ block content
 					.tab-content.tab-content-schedule
 						#day2_auditorium1.tab-pane.fade.active.in
 							#day2_auditorium1_timeline.panel-group
-								table.table
+								table.schedule.table.stacktable
 									thead
 										tr
 											th(style="width:15%") &nbsp;
@@ -137,14 +133,14 @@ block content
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td
+																		td.speaker-cell
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
 																						.photo-wrapper.rounded
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																						h6.title #{presentation.Topic}
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 														else 
 															td 
 																h6.title TBD
@@ -164,14 +160,14 @@ block content
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td
+																		td.speaker-cell
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
 																						.photo-wrapper.rounded
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																						h6.title #{presentation.Topic}
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 														else 
 															td 
 																h6.title TBD

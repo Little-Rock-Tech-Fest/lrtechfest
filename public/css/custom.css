@@ -261,7 +261,6 @@ div.article {
 .schedule .tab-content-schedule:before {
   border-right: none;
 }
-
 .schedule .tab-content-schedule {
   position: relative;
   border: none;
@@ -276,12 +275,47 @@ div.article {
 .schedule .tab-content-schedule .schedule-item {
   padding: 10px;
 }
-.schedule-item h6.title {
-  font-size: 17px;
+.schedule-item .speaker p strong {
+  font-size: 14px;
+  color: #262627;
+  font-weight: 600;
 }
-
+.schedule-item .speaker .photo-wrapper.rounded {
+  max-width: 55%;
+  vertical-align: top;
+  display: block;
+  clear: both;
+}
+table.schedule > tbody > tr > td {
+  border-width: 4px;
+  border-color: #ddd;
+}
+table.schedule > thead > tr > th {
+  border-color: #63a145;
+  border-width: 0 4px 0;
+  border: solid!important;
+  font-size: 18px;
+  text-align: center;
+}
+table.schedule td.speaker-cell {
+  vertical-align: top;
+  text-align: center;
+  padding: 5px;
+}
+.small-only {
+  display: none;
+  visibility: hidden;
+}
 /* Extra Small */
 @media (max-width: 767px){
+  .small-only {
+    display: block;
+    visibility: visible;
+  }
+  .large-only {
+    display: none;
+    visibility: hidden;
+  }
   a.logo {
     height:50px;margin-top: 0;
   }
@@ -305,13 +339,30 @@ div.article {
     margin: 0 35px;
   }
   .heading-block {
-      padding: 50px 0 25px;
+    padding: 50px 0 25px;
   }
   .socials-nav {
     margin-top: 40px;
   }
   .footer-nav > li {
     padding: 10px 0;
+  }
+  .schedule-item .speaker {
+    font-size: 18px;
+  }
+  .schedule-item .speaker .photo-wrapper.rounded {
+    max-width: 36%;
+  }
+  table.schedule > tbody > tr > td.st-key {
+    font-size: 16px;
+  }
+  table.schedule > tbody > tr > th.st-head-row {
+    border-width: 4px;
+    border-color: #ddd;
+  }
+  table.schedule > tbody > tr > th.st-head-row h6 {
+    padding: 5px 0 0;
+    font-size: 30px;
   }
 }
 

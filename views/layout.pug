@@ -14,7 +14,7 @@ html(lang="en")
 		link(href="/css/animations.css", rel="stylesheet")
 		link(href="/css/style.css", rel="stylesheet")
 		link(href="/css/style-green-color.css", rel="stylesheet")
-		link(href="/css/custom.css?v=1.1.1", rel="stylesheet")
+		link(href="/css/custom.css?v=1.1.2", rel="stylesheet")
 		script(src="/js/google-analytics.js")
 		//- Facebook Pixel Code
 		script.
@@ -143,8 +143,12 @@ html(lang="en")
 		script(src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js")
 		block scripts
 		script(src="/js/masonry.pkgd.min.js")
+		script(src="/js/stacktable.js")
 		script(src="/js/theme.js")
 		script(src="/js/site.js")
+
+		script.
+			$('.stacktable').stacktable();
 
 		script.
 			<!-- Drip -->
