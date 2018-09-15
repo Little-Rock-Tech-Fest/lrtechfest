@@ -34,7 +34,7 @@ router.get('/index-w-speakers', function(req, res) {
 	res.redirect('/');
 });
 router.get('/resources-review', function(req, res) {
-	res.redirect('/resources');
+	res.render('resources-review');
 });
 
 module.exports = router;
