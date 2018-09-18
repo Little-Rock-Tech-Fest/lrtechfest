@@ -246,9 +246,9 @@ block content
 								img.img-responsive(src="img/team/" + member.imgUrl)
 							.speaker-title
 								h3.name #{member.name}
-								p.text-alt #[small #{member.t1} @ #{member.c1}] 
-									if member.t2 && member.c2
-										| / #[small #{member.t2} @ #{member.c2}]
+								p.text-alt #[small #{member.firstTitle} @ #{member.firstCompany}] 
+									if member.secondTitle && member.secondCompany
+										| / #[small #{member.secondTitle} @ #{member.secondCompany}]
 							ul.speaker-socials
 								if member.twitter
 									li
