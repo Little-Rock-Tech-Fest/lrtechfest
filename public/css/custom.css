@@ -306,6 +306,7 @@ table.schedule td.speaker-cell {
   display: none;
   visibility: hidden;
 }
+
 /* Extra Small */
 @media (max-width: 767px){
   .small-only {

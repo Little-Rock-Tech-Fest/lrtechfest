@@ -11,11 +11,13 @@ var fs_readFile = Q.denodeify(fs.readFile);
 var slugs = require('slugs');
 var _ = require('lodash');
 
+var team = JSON.parse(fs.readFileSync('team.json', 'utf8'));
+
 router.get('/', function(req, res){
 	var speakers = require('../speakers.json');
 	var sponsors = require('../sponsors.json');
 	var photos = require('../gallery.json');
-	res.render('index', {title: 'Little Rock Tech Fest', speakers:speakers, sponsors:sponsors, photos:photos});
+	res.render('index', {title: 'Little Rock Tech Fest', speakers:speakers, sponsors:sponsors, photos:photos, team:team});
 });
 
 router.get('/resources', function(req, res){

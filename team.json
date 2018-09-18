@@ -1,0 +1,81 @@
+[
+	{
+		"name": "Daniel Pollock", 
+		"imgUrl": "daniel.png", 
+		"twitter": "dpollock", 
+		"linkedin": "dpollock68", 
+		"github": "dpollock", 
+		"t1": "CTO", 
+		"c1": "LumoXchange",
+		"t2": "Developer",
+		"c2": "NIC"
+	},
+	{
+		"name": "Abby Sims", 
+		"imgUrl": "abby-sims.jpg", 
+		"twitter": "abby_sims", 
+		"linkedin": "abbysims", 
+		"github": "asims", 
+		"t1": "Owner/Developer", 
+		"c1": "Idestini Dev Studio"
+	},
+	{
+		"name": "Paul Gower", 
+		"imgUrl": "paul.png", 
+		"twitter": "paulmgower", 
+		"linkedin": "pmgower", 
+		"github": "pmgower", 
+		"t1": "CTO, Kanban Coach", 
+		"c1": "Aristotle, Inc."
+	},
+	{
+		"name": "Schell Gower", 
+		"imgUrl": "schell.png", 
+		"twitter": "schellg", 
+		"linkedin": "schell-gower-8771769", 
+		"t1": "Marketing Consultant", 
+		"c1": "LunaMarketing"
+	},
+	{
+		"name": "Michael Collins", 
+		"imgUrl": "michael.png", 
+		"linkedin": "michael-collins-37553570", 
+		"github": "michaeljeffreycollins", 
+		"t1": "Developer", 
+		"c1": "Arkansas Children\"s Hospital"
+	},
+	{
+		"name": "Chris Steven", 
+		"imgUrl": "chris-steven.jpg", 
+		"twitter": "chrissteven81", 
+		"linkedin": "chrissteven81", 
+		"github": "chrissteven81", 
+		"t1": "CTO", 
+		"c1": "Idestini Dev Studio"
+	},
+	{
+		"name": "Curtis Weeks",
+		"imgUrl": "curtis-weeks.png",
+		"linkedin": "curtisweeks",
+		"github": "curtisweeks",
+		"t1": "Developer",
+		"c1": "Lafferty"
+	},
+	{
+		"name": "Aaron Ralls",
+		"imgUrl": "aaron-ralls.jpg",
+		"linkedin": "aaron-ralls",
+		"github": "aaronralls",
+		"t1": "Sr Application Architect",
+		"c1": "Accruent"
+	},
+	{
+		"name": "Joshua Carroll",
+		"imgUrl": "joshua-carroll.jpg",
+		"linkedin": "joshuacarroll",
+		"github": "JoshuaCarroll",
+		"t1": "Global Technical Marketing Engineer",
+		"c1": "Euronet Software Solutions"
+
+	}
+]
