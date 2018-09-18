@@ -100,5 +100,11 @@
 		"Level": "Bronze",
 		"Logo": "/img/sponsors/hyperleap-logo-large.png",
 		"Website": "https://signup.hyperleapnetwork.com/"
+	},
+	{
+		"Name": "The Venture Center",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/Venture_Center.png",
+		"Website": "https://www.venturecenter.co/"
 	}
 ]
