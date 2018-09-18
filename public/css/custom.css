@@ -307,6 +307,12 @@ table.schedule td.speaker-cell {
   visibility: hidden;
 }
 
+.speakers .masonry .masonry-item {
+  width: 26%;
+  display: block;
+  margin: 0 auto;
+}
+
 /* Extra Small */
 @media (max-width: 767px){
   .small-only {
