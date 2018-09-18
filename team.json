@@ -24,17 +24,21 @@
 		"imgUrl": "paul.png", 
 		"twitter": "paulmgower", 
 		"linkedin": "pmgower", 
-		"github": "pmgower", 
-		"firstTitle": "CTO, Kanban Coach", 
-		"firstCompany": "Aristotle, Inc."
+		"github": "pmgower",
+		"website": "https://www.lunamark.com/", 
+		"firstTitle": "Process Consultant, Coach", 
+		"firstCompany": "Lunamark",
+		"secondTitle": "Kanban Trainer",
+		"secondCompany": "Huge.io"
 	},
 	{
 		"name": "Schell Gower", 
 		"imgUrl": "schell.png", 
 		"twitter": "schellg", 
 		"linkedin": "schell-gower-8771769", 
+		"website": "https://clearmark.io",
 		"firstTitle": "Marketing Consultant", 
-		"firstCompany": "LunaMarketing"
+		"firstCompany": "ClearMark"
 	},
 	{
 		"name": "Michael Collins", 

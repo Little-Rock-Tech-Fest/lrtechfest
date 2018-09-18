@@ -264,6 +264,11 @@ block content
 									li
 										a(href="http://github.com/" + member.github target="_blank")
 											span.fa.fa-github
+
+								if member.website
+									li
+										a(href=member.website target="_blank")
+											span.fa.fa-globe
 	section#location
 		.contacts-wrapper
 			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")
