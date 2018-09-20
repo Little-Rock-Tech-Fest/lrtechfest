@@ -381,6 +381,8 @@ ul.footer-nav,
     font-size: 30px;
   }
   .sponsor.platinum:not(.inline):not(.big) {
+    width: 375px;
+    height: 375px;
     margin-right: 0;
   }
   .footer-nav > li {
