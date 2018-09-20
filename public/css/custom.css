@@ -144,9 +144,6 @@ a#apply {
   border:none;
 }
 
-.sponsor.platinum.inline img {
-  max-width: 350px
-}
 .nl2br {
   white-space: pre;
   white-space: pre-line;
@@ -366,9 +363,6 @@ ul.footer-nav,
   .socials-nav {
     margin-top: 40px;
   }
-  .footer-nav > li {
-    padding: 10px 0;
-  }
   .schedule-item .speaker {
     font-size: 18px;
   }
@@ -385,6 +379,12 @@ ul.footer-nav,
   table.schedule > tbody > tr > th.st-head-row h6 {
     padding: 5px 0 0;
     font-size: 30px;
+  }
+  .sponsor.platinum:not(.inline):not(.big) {
+    margin-right: 0;
+  }
+  .footer-nav > li {
+    padding: 10px 0;
   }
   .footer .endorsement {
     max-width: 35%;
@@ -405,6 +405,9 @@ ul.footer-nav,
   .heading-alt .loc {
     display: block;
     margin-top: 10px;
+  }
+  .sponsor.platinum:not(.inline):not(.big) {
+    margin-right: 0;
   }
   .footer-nav > li {
     padding: 10px 0;
