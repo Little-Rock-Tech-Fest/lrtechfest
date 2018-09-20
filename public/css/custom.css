@@ -317,6 +317,17 @@ table.schedule td.speaker-cell {
   margin: 0 auto;
 }
 
+ul.footer-nav,
+.footer .socials-nav,
+.footer .socials-nav + p {
+  margin-top: 42px;
+  float: left;
+}
+
+.footer .endorsement {
+  max-width: 75%;
+}
+
 /* Extra Small */
 @media (max-width: 767px){
   .small-only {
@@ -375,6 +386,9 @@ table.schedule td.speaker-cell {
     padding: 5px 0 0;
     font-size: 30px;
   }
+  .footer .endorsement {
+    max-width: 35%;
+  }  
 }
 
 /* Small */
@@ -394,6 +408,9 @@ table.schedule td.speaker-cell {
   }
   .footer-nav > li {
     padding: 10px 0;
+  }
+  .footer .endorsement {
+    max-width: 20%;
   }
 }
 
