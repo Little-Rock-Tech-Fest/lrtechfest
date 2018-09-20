@@ -66,6 +66,18 @@
 		"Website": "https://dpath.com/"
 	},
 	{
+		"Name": "Acxiom",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/acxiom.png",
+		"Website": "https://www.acxiom.com/"
+	},
+	{
+		"Name": "Lindsey Software Systems",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/lindsey-software-systems.png",
+		"Website": "http://www.lindseysoftware.com/"
+	},
+	{
 		"Name": "Balsamiq",
  		"Level": "Bronze",
 		"Logo": "/img/sponsors/balsamiq.png",

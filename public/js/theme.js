@@ -792,7 +792,7 @@ Ventcamp = {
                     columnWidth: function( containerWidth ) {
                         if ( containerWidth > 720 ) {
                             $container.removeClass('width400').removeClass('width720');
-                            if ( $container.is('.speakers') ) return containerWidth / 3;
+                            if ( $container.is('.speakers') ) return containerWidth / 4;
                             else return containerWidth / 4;
                         }else if ( containerWidth > 400 ) {
                             $container.addClass('width720').removeClass('width400');

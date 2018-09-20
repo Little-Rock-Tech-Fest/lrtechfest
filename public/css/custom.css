@@ -87,14 +87,17 @@ section#main {
 .sponsor.platinum:not(.inline):not(.big) {
   width: 400px;
   height: 400px;
+  margin-right: 25px;
 }
 .sponsor.gold:not(.inline):not(.big) {
   width: 300px;
   height: 300px;
+  margin-right: 25px;
 }
 .sponsor.silver:not(.inline):not(.big) {
   width: 250px;
   height: 250px;
+  margin-right: 25px;
 }
 .sponsor.bronze:not(.inline):not(.big) {
   width: 175px;
@@ -308,7 +311,8 @@ table.schedule td.speaker-cell {
 }
 
 .speakers .masonry .masonry-item {
-  width: 26%;
+  width: 25%;
+  height: 165px;
   display: block;
   margin: 0 auto;
 }
