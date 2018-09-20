@@ -1,0 +1,261 @@
+extends layout
+
+mixin room (roomId)
+	case roomId
+		when "1"
+			span.Ballroom.A
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+				span &nbsp;Ballroom A
+		when "2"
+			span.Ballroom.B
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true") 
+				span &nbsp;Ballroom B
+		when "3"
+			span.Ballroom.C
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
+				span &nbsp;Ballroom C
+		default
+			span.roomId
+				i.fa.fa-map-marker(style="color:#babfcc;" aria-hidden="true")
+				span &nbsp;#{roomId}
+
+mixin Day (fullDay)
+	case fullDay
+		when 1
+			span.Thursday
+				span(style="padding-right: 10px;") Thursday, Oct. 5
+		when 2
+			span.Friday
+				span(style="padding-right: 10px;") Friday, Oct. 6
+		default
+			span &nbsp;#{fullDay}
+
+block content
+	.container
+		.schedule
+			ul.nav.nav-schedule
+				li.active
+					a(href='#day1' data-toggle='tab')
+						h5.highlight Day 1
+						p.text-alt Thursday, October 4th
+				li
+					a(href='#day2' data-toggle='tab')
+						h5.highlight Day 2
+						p.text-alt Friday, October 5th
+			.tab-content
+				#day1.tab-pane.fade.active.in
+					.tab-content.tab-content-schedule
+						#day1_auditorium1.tab-pane.fade.active.in
+							#day1_auditorium1_timeline.panel-group
+								table.schedule.table.stacktable
+									thead
+										tr
+											th(style="width:15%") &nbsp;
+											th(style="width:21.25%") Room A
+											th(style="width:21.25%") Room B
+											th(style="width:21.25%") Room C
+											th(style="width:21.25%") Room D
+									tbody
+										each time, i in times
+											if time > 8 && time < 12
+												tr
+													td
+														h6.title #{time}:00 AM
+													each room in rooms
+														if room < 4
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
+														else 
+															td 
+																h6.title TBD
+										tr.success
+											td 
+												h6.title 12:00 PM
+											td.align-center(colspan="4") 
+												h6.title 🌮 Lunch! 
+
+										each time, i in times
+											if time > 0 && time < 4
+												tr
+													td 
+														h6.title #{time}:30 PM
+													each room in rooms
+														if room < 4
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
+														else 
+															td 
+																h6.title TBD
+										tr.success
+											td
+												h6.title 6:00 PM
+											td.align-center(colspan="4") 
+												h6.title 🍻 Party!
+
+				#day2.tab-pane.fade.in
+					.tab-content.tab-content-schedule
+						#day2_auditorium1.tab-pane.fade.active.in
+							#day2_auditorium1_timeline.panel-group
+								table.schedule.table.stacktable
+									thead
+										tr
+											th(style="width:15%") &nbsp;
+											th(style="width:21.25%") Room A
+											th(style="width:21.25%") Room B
+											th(style="width:21.25%") Room C
+											th(style="width:21.25%") Room D
+									tbody
+										each time, i in times
+											if time > 8 && time < 12
+												tr
+													td
+														h6.title #{time}:00 AM
+													each room in rooms
+														if room < 4
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
+														else 
+															td 
+																h6.title TBD
+										tr.success
+											td 
+												h6.title 12:00 PM
+											td.align-center(colspan="4") 
+												h6.title 🌮 Lunch!
+
+										each time, i in times
+											if time > 0 && time < 4
+												tr
+													td 
+														h6.title #{time}:30 PM
+													each room in rooms
+														if room < 4
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
+														else 
+															td 
+																h6.title TBD
+										tr.success
+											td
+												h6.title 6:00 PM
+											td.align-center(colspan="4") 
+												h6.title 🍻 Party!
+//--
+	each speaker in speakers
+		each presentation in speaker.Presentations
+			if presentation.Day === 1
+				.panel.schedule-item
+					
+						span.fa.fa-cutlery
+					a.schedule-item-toggle(data-toggle='collapse' data-parent='#day1_auditorium1_timeline' href='#day1_auditorium1_time1')
+						h6.title
+							span.icon.icon-office-24
+							| 2:20 PM
+						h6.title
+							| How to organize great events
+							i.icon.icon-arrows-06
+					#day1_auditorium1_time1.panel-collapse.collapse.in.schedule-item-body
+						article
+							p.description
+								| Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.
+							strong.highlight.speaker-name Michael Lambert
+				#day2.tab-pane.fade.in
+
+
+//--	
+	block content
+		section.section.align-center
+			.section-header.col-sm-10.col-sm-offset-1
+				h1 LRTF 2018 Session Lineup
+
+		section.fullwidth-section
+			.fullwidth-path
+			br
+			each speaker in speakers
+				div(id='#{speaker.slug}' class='col-sm-3')
+					.speaker
+						.photo-wrapper.rounded
+							img(src="/img/speakers/2018/"+speaker.Photo alt=speaker.FirstName + ' ' + speaker.LastName class="img-responsive" )
+						h3.name #{speaker.FirstName} #{speaker.LastName}
+						p.text-alt
+							small #{speaker.Company}
+						ul.speaker-socials
+							if speaker.Twitter
+								li
+									a(href="https://-twitter.com/#{speaker.Twitter}")
+										.fa.fa-twitter
+							if speaker.LinkedIn
+								li
+									a(href="#{speaker.LinkedIn}")
+										.fa.fa-linkedin
+							if speaker.Website
+								li
+									a(href="#{speaker.Website}")
+										.fa.fa-globe
+				div.col-sm-6
+					each presentation in speaker.Presentations
+						h4 #{presentation.Topic}
+						h6 #{presentation.Time}
+						if presentation.SlidesLink
+							h6 
+								a(href="#{presentation.SlidesLink}") Slides Link
+						+Day(presentation.Day)
+						+room(presentation.Room)
+						p !{presentation.Description}
+					h6 About #{speaker.FirstName}
+					p !{speaker.Bio}
+				hr
+
+//-
+	block content
+		section.section.section-hero.align-center
+			.section-header
+				h1 2018 Session Lineup
+
+		section.fullwidth-section.section-content
+			.container
+				.row
+					.col-md-7.col-lg-6.align-center.img-column
+						iframe(src="https://giphy.com/embed/QzY1VsAp0isdq" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen)
+					.col-md-5.col-lg-6.align-left
+						.article
+							h3 We're working on it!						
+							p The 2018 Little Rock Tech Fest Conference is getting ready for our sixth year being hosted in Central Arkansas. This year's conference will be on #[strong Oct 4th] and #[strong 5th] at the Little Rock Statehouse Convention Center.
+							p For the past five years, our audience has primarily consisted of professional software developers who are focused on learning and improving their knowledge in the industry. First round of speaker notifications will be made on August 1st and later entries will be made by Sept. 7th.
+							a.btn.cta(href="https://www.papercall.io/lrtf2018" target="new") Become A Speaker!

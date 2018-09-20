@@ -74,7 +74,8 @@ block content
 		.container
 			span.icon.section-icon.icon-faces-users-04
 			h3 Speakers
-			p.lead We 💚 our speakers
+			p.lead Check out these great #{moment().format('YYYY')} 
+				span.highlight speakers!
 
 			each val, i in speakers
 				if (i % 4 == 0)
@@ -233,7 +234,41 @@ block content
 									| &nbsp;
 
 							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
+	section.section.align-center
+		.container
+			p.lead LRTF is brought to you with #[i.fa.fa-heart] by
+			br
+			.speakers.masonry
+				each member in team
+					.speaker.masonry-item.mansonry-brick
+						.speaker-top
+							.photo-wrapper.rounded
+								img.img-responsive(src="img/team/" + member.imgUrl)
+							.speaker-title
+								h3.name #{member.name}
+								p.text-alt #[small #{member.firstTitle} @ #{member.firstCompany}] 
+									if member.secondTitle && member.secondCompany
+										| / #[small #{member.secondTitle} @ #{member.secondCompany}]
+							ul.speaker-socials
+								if member.twitter
+									li
+										a(href="http://twitter.com/" + member.twitter target="_blank")
+											span.fa.fa-twitter
 
+								if member.linkedin
+									li
+										a(href="http://linkedin.com/in/" + member.linkedin target="_blank")
+											span.fa.fa-linkedin
+
+								if member.github
+									li
+										a(href="http://github.com/" + member.github target="_blank")
+											span.fa.fa-github
+
+								if member.website
+									li
+										a(href=member.website target="_blank")
+											span.fa.fa-globe
 	section#location
 		.contacts-wrapper
 			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")

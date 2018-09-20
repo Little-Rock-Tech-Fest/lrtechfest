@@ -1,0 +1,93 @@
+[
+	{
+		"name": "Daniel Pollock", 
+		"imgUrl": "daniel.png", 
+		"twitter": "dpollock", 
+		"linkedin": "dpollock68", 
+		"github": "dpollock", 
+		"firstTitle": "CTO", 
+		"firstCompany": "LumoXchange",
+		"secondTitle": "Developer",
+		"secondCompany": "NIC"
+	},
+	{
+		"name": "Abby Sims", 
+		"imgUrl": "abby-sims.jpg", 
+		"twitter": "abby_sims", 
+		"linkedin": "abbysims", 
+		"github": "asims", 
+		"firstTitle": "Owner/Developer", 
+		"firstCompany": "Idestini Dev Studio"
+	},
+	{
+		"name": "Paul Gower", 
+		"imgUrl": "paul.png", 
+		"twitter": "paulmgower", 
+		"linkedin": "pmgower", 
+		"github": "pmgower",
+		"website": "https://www.lunamark.com/", 
+		"firstTitle": "Owner", 
+		"firstCompany": "Lunamark",
+		"secondTitle": "Kanban Trainer",
+		"secondCompany": "Huge.io"
+	},
+	{
+		"name": "Schell Gower", 
+		"imgUrl": "schell.png", 
+		"twitter": "schellg", 
+		"linkedin": "schell-gower-8771769", 
+		"website": "https://clearmark.io",
+		"firstTitle": "Marketing Consultant", 
+		"firstCompany": "ClearMark"
+	},
+	{
+		"name": "Michael Collins", 
+		"imgUrl": "michael.png", 
+		"linkedin": "michael-collins-37553570", 
+		"github": "michaeljeffreycollins", 
+		"firstTitle": "Developer", 
+		"firstCompany": "Arkansas Children's Hospital"
+	},
+	{
+		"name": "Chris Steven", 
+		"imgUrl": "chris-steven.jpg", 
+		"twitter": "chrissteven81", 
+		"linkedin": "chrissteven81", 
+		"github": "chrissteven81", 
+		"firstTitle": "CTO", 
+		"firstCompany": "Idestini Dev Studio"
+	},
+	{
+		"name": "Curtis Weeks",
+		"imgUrl": "curtis-weeks.png",
+		"linkedin": "curtisweeks",
+		"github": "curtisweeks",
+		"firstTitle": "Developer",
+		"firstCompany": "Lafferty"
+	},
+	{
+		"name": "Aaron Ralls",
+		"imgUrl": "aaron-ralls.jpg",
+		"linkedin": "aaron-ralls",
+		"github": "aaronralls",
+		"firstTitle": "Sr Application Architect",
+		"firstCompany": "Accruent"
+	},
+	{
+		"name": "Joshua Carroll",
+		"imgUrl": "joshua-carroll.jpg",
+		"linkedin": "joshuacarroll",
+		"github": "JoshuaCarroll",
+		"firstTitle": "Global Technical Marketing Engineer",
+		"firstCompany": "Euronet Software Solutions"
+
+	},
+	{
+		"name": "James Climer",
+		"imgUrl": "james.png",
+		"linkedin": "james-climer-19b2309",
+		"github": "jaclimer",
+		"firstTitle": "Software Development Consultant",
+		"firstCompany": "Optimal Software Development Group"	
+	}
+]

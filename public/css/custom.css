@@ -87,14 +87,17 @@ section#main {
 .sponsor.platinum:not(.inline):not(.big) {
   width: 400px;
   height: 400px;
+  margin-right: 25px;
 }
 .sponsor.gold:not(.inline):not(.big) {
   width: 300px;
   height: 300px;
+  margin-right: 25px;
 }
 .sponsor.silver:not(.inline):not(.big) {
   width: 250px;
   height: 250px;
+  margin-right: 25px;
 }
 .sponsor.bronze:not(.inline):not(.big) {
   width: 175px;
@@ -141,9 +144,6 @@ a#apply {
   border:none;
 }
 
-.sponsor.platinum.inline img {
-  max-width: 350px
-}
 .nl2br {
   white-space: pre;
   white-space: pre-line;
@@ -258,8 +258,83 @@ div.article {
   color: #009900;
 }
 
+.schedule .tab-content-schedule:before {
+  border-right: none;
+}
+.schedule .tab-content-schedule {
+  position: relative;
+  border: none;
+  padding: 20px;
+}
+.schedule .tab-content-schedule .schedule-item {
+  padding: 0 0 0 60px;
+}
+.schedule-item .speaker {
+  margin-bottom: 0;
+}
+.schedule .tab-content-schedule .schedule-item {
+  padding: 10px;
+}
+.schedule-item .speaker p strong {
+  font-size: 14px;
+  color: #262627;
+  font-weight: 600;
+}
+.schedule-item .speaker .photo-wrapper.rounded {
+  max-width: 55%;
+  vertical-align: top;
+  display: block;
+  clear: both;
+}
+table.schedule > tbody > tr > td {
+  border-width: 4px;
+  border-color: #ddd;
+}
+table.schedule > thead > tr > th {
+  border-color: #63a145;
+  border-width: 0 4px 0;
+  border: solid!important;
+  font-size: 18px;
+  text-align: center;
+}
+table.schedule td.speaker-cell {
+  vertical-align: top;
+  text-align: center;
+  padding: 5px;
+}
+.small-only {
+  display: none;
+  visibility: hidden;
+}
+
+.speakers .masonry .masonry-item {
+  width: 25%;
+  height: 165px;
+  display: block;
+  margin: 0 auto;
+}
+
+ul.footer-nav,
+.footer .socials-nav,
+.footer .socials-nav + p {
+  margin-top: 42px;
+  float: left;
+}
+
+.footer .endorsement {
+  max-width: 75%;
+}
+
 /* Extra Small */
 @media (max-width: 767px){
+  .small-only {
+    display: block;
+    visibility: visible;
+  }
+  .large-only {
+    display: none;
+    visibility: hidden;
+  }
   a.logo {
     height:50px;margin-top: 0;
   }
@@ -283,14 +358,39 @@ div.article {
     margin: 0 35px;
   }
   .heading-block {
-      padding: 50px 0 25px;
+    padding: 50px 0 25px;
   }
   .socials-nav {
     margin-top: 40px;
   }
+  .schedule-item .speaker {
+    font-size: 18px;
+  }
+  .schedule-item .speaker .photo-wrapper.rounded {
+    max-width: 36%;
+  }
+  table.schedule > tbody > tr > td.st-key {
+    font-size: 16px;
+  }
+  table.schedule > tbody > tr > th.st-head-row {
+    border-width: 4px;
+    border-color: #ddd;
+  }
+  table.schedule > tbody > tr > th.st-head-row h6 {
+    padding: 5px 0 0;
+    font-size: 30px;
+  }
+  .sponsor.platinum:not(.inline):not(.big) {
+    width: 375px;
+    height: 375px;
+    margin-right: 0;
+  }
   .footer-nav > li {
     padding: 10px 0;
   }
+  .footer .endorsement {
+    max-width: 35%;
+  }  
 }
 
 /* Small */
@@ -308,8 +408,14 @@ div.article {
     display: block;
     margin-top: 10px;
   }
+  .sponsor.platinum:not(.inline):not(.big) {
+    margin-right: 0;
+  }
   .footer-nav > li {
     padding: 10px 0;
+  }
+  .footer .endorsement {
+    max-width: 20%;
   }
 }
 
