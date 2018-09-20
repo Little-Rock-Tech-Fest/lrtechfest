@@ -1,5 +1,28 @@
 [
   {
+    "Id": 2,
+    "FirstName": "Brian",
+    "LastName": "Wentzloff",
+    "Bio": "I have several YouTube channels devoted to blockchain technology, cryptocurrencies, and DApp development using Ethereum. I am a full time developer, specializing in Python and Solidity development.",
+    "Website": "http://youtube.com/blockchainprogramming",
+    "Twitter": "brianwentzloff",
+    "Photo": "wentzloff-brian.jpg",
+    "Company": "Blockchain901",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 2,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 1,
+        "Topic": "Writing smart contracts in Ethereum using Solidity",
+        "Description": "This workshop will cover the basics of what blockchains are at a technical level, how smart contracts work in a blockchain context, and how they can be used in real world scenarios. Participants will see a basic distributed application built using the Solidity programming language. The paradigm of programming these applications will be discussed as well. In Solidity, you have to pay money for every line of code written. Your code is also immutable, so you need to plan for every contingency. This workshop will discuss how to balance those two seemingly conflicting concepts.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 4,
     "FirstName": "Jonathan",
     "LastName": "Barket",
@@ -444,6 +467,29 @@
     ]
   },
   {
+    "Id": 38,
+    "FirstName": "Mark",
+    "LastName": "Shead",
+    "Bio": "Mark Shead is the president of Xeric Corporation where he helps organizations increase their return on investment in software development. He has worked extensively as a coach with the U.S. Treasury and Federal Reserve Banks implementing Agile development and deployment practices. He specializes in helping teams use DevOps to build development/deployment pipelines in organizations with legacy change management policies and turning six-month deployments cycles into something measured in hours.<br/>",
+    "Website": "https://blogs.harvard.edu/markshead/",
+    "Twitter": "markwshead",
+    "Photo": "shead-mark.jpg",
+    "Company": "Xeric Corporation",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 68,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 4,
+        "Topic": "Agile Lean Flow Simulation (hands on)",
+        "Description": "Whether your organization makes software or widgets, it is important to focus on how efficiently you deliver. DevOps, Agile, BDD and TDD all provide powerful tools and approaches for delivering value, but your work must be optimized to actually deliver efficiently and quickly. In this session, each table will simulate an organization doing some simple work that will let us run experiments and track statistics. The goal is to simulate work in such a way that we can see how changes impact the value being delivered at both the departmental level and the organization level. This simulation will give participants a chance to think holistically about the way value is delivered through their own organizations. Most important, participants will leave with the ability to run the simulation with their teams back home to help create discussion on how to best optimize their delivery process.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 40,
     "FirstName": "Ram",
     "LastName": "Lakshmanan",
@@ -651,6 +697,52 @@
     ]
   },
   {
+    "Id": 80,
+    "FirstName": "Daniel",
+    "LastName": "Trimble",
+    "Bio": "I've spent 15 years as a Developer/Architect and have build many high scale production applications.<br/>Primarily over the last 10 years I have worked as a Java architect maturing our software development cycle and building some of our flagship applications.<br/>Currently I lead a team that is in charge of investigating and developing emerging technologies at JB Hunt.",
+    "Website": "",
+    "Twitter": "dstrimble",
+    "Photo": "trimble-daniel.jpg",
+    "Company": "JB Hunt Transportation",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 136,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 2,
+        "Topic": "Migration to Kubernetes in the Cloud",
+        "Description": "Our path to the cloud and kubernetes included the following steps:<br/><br/>Monitor<br/>Identify Criticality<br/>12 factor conversion<br/>Azure VMs<br/>Load Testing<br/>Right Scale<br/>Production<br/>Docker Containers<br/>Kubernetes Orchestration<br/>Elastic Autoscaling<br/><br/>We will talk through each step and how we have improved our code quality along the way.<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "FirstName": "Scott",
+    "LastName": "Ford",
+    "Bio": "Leading the Corgibytes technical team is Scott, who has been called the “Bob Vila of the internet.” Scott is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott’s love of software restoration and remodeling began in college where he and his team were responsible for retrofitting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing codebase needed to be improved.<br/><br/>In addition to fixing old code, Scott enjoys anime, reading sci-fi fiction and comic books and spending time with his family. And yes, he does have a Corgi, her name is Ein, and if you recognize that reference, we might just give you a discount.",
+    "Website": "http://corgibytes.com",
+    "Twitter": "mscottford",
+    "Photo": "ford-scott.jpg",
+    "Company": "Corgibytes",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 142,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 3,
+        "Topic": "Important Metrics for Measuring Code Health",
+        "Description": "## Outline<br/><br/>* Explore the health metaphor<br/>* Defining the metrics<br/>   * Churn<br/>   * Code Coverage<br/>   * Complexity<br/>* Tools to collect the metrics<br/>* Why these metrics?<br/>* What are good metric values?<br/>* Using the metrics together<br/>* Exploring common scenarios<br/><br/>## Learning Outcome<br/><br/>An understanding of the meaning of 3 important software metrics (churn, code coverage, and complexity) and how to interpret values in combination.<br/><br/>## Target Audience<br/><br/>Developers, Managers, Product Owners",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 89,
     "FirstName": "Gaines",
     "LastName": "Kergosien",
@@ -661,6 +753,16 @@
     "Company": "Music City Tech",
     "LinkedIn": null,
     "Presentations": [
+      {
+        "Id": 150,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 5,
+        "Topic": "7 Habits of Highly Paid Developers",
+        "Description": "Software and website developers are in extremely high demand and rates continue to climb, but many developers have not yet realized their potential. Being good at what you do is important, but it's equally important that you can communicate the value you bring to an organization and build a reputation that will provide opportunities for growth, both professionally and financially. We will work together to measure your accomplishments, establish a personal brand, and walk away with a resume that conveys your true value!",
+        "SlidesLink": null
+      },
       {
         "Id": 151,
         "Track": null,
@@ -687,11 +789,44 @@
       {
         "Id": 115,
         "Track": null,
-        "Day": 1,
-        "Room": "2",
+        "Day": 2,
+        "Room": "4",
         "SessionNumber": 2,
         "Topic": "Panel: Blockchain",
         "Description": null,
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 91,
+    "FirstName": "Josh",
+    "LastName": "Holmes",
+    "Bio": "Josh Holmes is a passionate soul who gets his kicks solving problems with deep fried awesomeness. He is currently employed by Microsoft as the lead of the Web Apps and Frameworks team helping build a better browser for people to build apps around. Prior to joining Microsoft in October 2006, Josh was a consultant working with a variety of clients ranging from large Fortune 500 firms to smaller sized companies. Josh is a frequent speaker and lead panelist at national and international software development conferences focusing on web technologies on the Microsoft stack such as ASP.NET, PHP, IronRuby, JavaScript and more. Community focused, Josh has founded and/or run many technology organizations from the Great Lakes Area .NET Users Group to the Ann Arbor Computer Society and was on the forming committee for CodeMash. You can contact Josh through his blog at https://joshholmes.com.",
+    "Website": "https://www.joshholmes.com",
+    "Twitter": "joshholmes",
+    "Photo": "holmes-josh.jpg",
+    "Company": "Microsoft",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 152,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 7,
+        "Topic": "Performance tuning your progressive web app (PWA)",
+        "Description": "Your users deserve a fast and responsive web app and PWAs help you step that up a notch through notifications, offline support and more. <br/>There's a lot that goes into that from understanding how the DOM tree works and how that plays with CSS and JavaScript to how to leverage the ServiceWorker for cashing and push notifications. <br/>In this session, we'll build a PWA that show cases many of the things you need to keep in mind when building a great and fast progressive web app. ",
+        "SlidesLink": null
+      },
+      {
+        "Id": 153,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 7,
+        "Topic": "Leadership 101",
+        "Description": "\"The company picks the manager, the team picks the leader. Sometimes you are lucky enough that it's the same person.\" This is something that one of my first technical mentors told me. I really wasn't able to fully comprehend that statement until much later in my career as I've had a lot of great leaders in my life, only a small percentage of whom were actually my manager as well. <br/>In this talk, we'll dive into what it means to be a leader both as an individual contributor and as a manager. ",
         "SlidesLink": null
       }
     ]
@@ -710,11 +845,100 @@
       {
         "Id": 156,
         "Track": null,
-        "Day": 1,
+        "Day": 2,
         "Room": "3",
-        "SessionNumber": 1,
+        "SessionNumber": 4,
         "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
         "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
+        "SlidesLink": null
+      },
+      {
+        "Id": 169,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
+        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 94,
+    "FirstName": "Rhaelene",
+    "LastName": "Rollins Lowther",
+    "Bio": "Rhaelene Lowther is an Associate Professor of Art: Game, Animation and Simulation Design. She worked as an environment artist for Microsoft for 5 years, working on one of the original XBox launch titles, Amped Snowboarding. She also worked at Sensory Sweep Software working on Nintendo DS games for 5 years. She earned a BFA in painting from Brigham Young University and an MFA from Utah State University. She taught at the Art Institute of Salt Lake City and Utah State University before moving to Arkansas to start the Game Development program at Southern Arkansas University. She has lived in Magnolia, AR for 5 years. <br/><br/>Kurt Coppersmith is an assistant professor at Southern Arkansas University. In addition to teaching game development courses,  he has worked in the technology industry for over 20 years. He has managed interdisciplinary teams for entities as large as Bosch and Dell to mid size eCommerce companies and tech startups.  He continues to work on multiple projects, most recently implementing  new technology and software for the recent renovation of an NBA arena.  Kurt currently lives with his family in Magnolia, Arkansas.  <br/>",
+    "Website": null,
+    "Twitter": "rhaelene",
+    "Photo": "rollins-lowther-rhaelene.jpg",
+    "Company": "Southern Arkansas University",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 160,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 7,
+        "Topic": "Strategies for Fostering Collaboration and Building a Foundation for a Unified Team",
+        "Description": "Game and Software industry veterans share real world strategies that help bring teams together to create better products. We will talk about big picture ideas like communication and creating buy in. These concepts will be brought to life with anecdotes and specific strategies we found successful in unifying interdisciplinary teams. Topics will include development diaries, team communication apps, postmortems, and more.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 97,
+    "FirstName": "Jeff",
+    "LastName": "Rudokas",
+    "Bio": "I'm a Senior DevOps Architect at Elyxor. Since the late 80's, when big hair and embarrassing song lyrics riddled the air, I worked for companies like GXS, Rue La La, Sonicbids, and various other gigs. I usually labeled my role as the duct tape between developers and operations. Today, people are calling it DevOps and I can't enjoy it enough.",
+    "Website": "http://www.elyxor.com",
+    "Twitter": "elyxor",
+    "Photo": "rudokas-jeff.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 170,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 1,
+        "Topic": "Automating and auditing your infrastructure",
+        "Description": "A slew of tools are all ripe for automating your SDLC: Github, Packer, Jenkins, Terraform. How do you take them off your desktop and put them into the cloud? You want automation with security and audit-ability, so let's go from code to cloud! Connect all of the tools you've heard of, see exactly what went on, and barely push any buttons… unless you want to.<br/><br/>We will begin with a live walk-through, taking code commits of basic terraform, a packer file, some application code, and demonstrating how jenkins and github can glue it all together in AWS for pennies, with speed, automation, security and visibility. <br/><br/>After the walk-through, I will highlight the connections and configurations of each, and explain how simple it is for these tools to get you automated fast, whether you're a one man crew or supporting a cast of hundreds.",
+        "SlidesLink": null
+      },
+      {
+        "Id": 171,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 2,
+        "Topic": "Evolution: Test Automation to Continuous Testing ",
+        "Description": "Test automation has taken on a negative connotation over the last few years, specifically in organizations that continue to silo the automation team into a separate group. These folks have the unenviable task of \"taking the latest build\" and developing test scripts for it. These scripts need to be manually executed, groomed for feature drift, and maintained like any other component of code. This is often one of the last things that occurs in a release or worse yet, \"one-sprint-behind\", so that automation is never current. This is a recipe for frustration and constant release challenges. <br/><br/>Continuous Testing (CT), in concert with Continuous Integration and Continuous Development (CI / CD) introduces the concept of test automation code, treated as code, embedded within the feature code, managed and maintained with each PR, and executed in a continuous fashion via Jenkins or another build tool. This ensures code coverage increases as your code coverage metrics trend, build over build. This ensures that your test code is always up-to-date with the feature repo, since they are developed hand-in-hand. This removes the stigma that test automation \"takes too long\" and is an expensive impediment to release, and creates the success patterns for safe, continuous release of your software, at the speed that the business can consume it.<br/><br/>This talk will explain the evolution of test automation, from the early days of silo-d teams the power of a fully integrated team leveraging both software developers and software developers in test (SDET). ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 99,
+    "FirstName": "Jan",
+    "LastName": "Jorgensen",
+    "Bio": "Curriculum Manager (Full Stack Web) at Trilogy Education Services & Full Time RVer. Obsessed with teaching, learning, and writing usable APIs. I have too many hobbies.",
+    "Website": "http://www.ramblinjan.com",
+    "Twitter": "ramblinjan",
+    "Photo": "jorgensen-jan.jpg",
+    "Company": "Trilogy Education Services",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 175,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 3,
+        "Topic": "How to Learn Anything and Teach JavaScript",
+        "Description": "Learning to develop web apps is hard, but clearly it’s possible and even fun. Many of us have read about or heard why it’s hard, and plenty of people are working to make it easier. Yet, unlike playing violin, golfing, or even cooking at an expert level, we do not yet have a well-defined methodology for teaching or learning this in-demand skill.<br/><br/>We’ll talk about the cognitive stages of learning and how they apply to something you already have experience with -- JavaScript -- so you can not only share your expertise effectively with a newcomer, but so you have a clear path to acquire any new skill.",
         "SlidesLink": null
       }
     ]
