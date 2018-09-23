@@ -38,7 +38,7 @@
         "Track": null,
         "Day": 2,
         "Room": "3",
-        "SessionNumber": 1,
+        "SessionNumber": 6,
         "Topic": "Microservices Hurt, But I Like It.",
         "Description": "You've heard about the benefits of microservices. You've heard how billion dollar unicorn companies with thousands of developers have improved their productivity, become invulnerable to scaling issues and solved the problem of distributed computing with a handful of open source projects.<br/><br/>Join me to watch a 40 minute, slow motion replay of reality punching my team in the gut as we spent three years evolving our microservices stack in the cloud. This is a service provider and language agnostic look at approaching distributed computing if your team is still small enough to fed by two pizzas.",
         "SlidesLink": null
@@ -605,6 +605,29 @@
     ]
   },
   {
+    "Id": 71,
+    "FirstName": "David",
+    "LastName": "Neal",
+    "Bio": "David is a family man, geek, musician, illustrator, speaker, and software developer living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
+    "Website": "http://reverentgeek.com",
+    "Twitter": "reverentgeek",
+    "Photo": "neal-david.jpg",
+    "Company": "ReverentGeek",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 116,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 7,
+        "Topic": "Node.js Crash Course",
+        "Description": "Node.js is a compelling platform that is quickly spreading from startups to the enterprise. Node.js strategically unites developers of all backgrounds through the common language of JavaScript. Why should you learn Node.js and where do you start? You will come away from this talk with the evidence to support Node.js, and tools you need to be productive. We will walk through a typical workflow of creating and debugging a web application. We'll also look at popular frameworks and modules, and other learning resources to give you the best start.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 75,
     "FirstName": "Angel",
     "LastName": "Rivera",
@@ -791,7 +814,7 @@
         "Track": null,
         "Day": 2,
         "Room": "4",
-        "SessionNumber": 2,
+        "SessionNumber": 5,
         "Topic": "Panel: Blockchain",
         "Description": null,
         "SlidesLink": null
@@ -813,8 +836,8 @@
         "Id": 152,
         "Track": null,
         "Day": 1,
-        "Room": "1",
-        "SessionNumber": 7,
+        "Room": "4",
+        "SessionNumber": 6,
         "Topic": "Performance tuning your progressive web app (PWA)",
         "Description": "Your users deserve a fast and responsive web app and PWAs help you step that up a notch through notifications, offline support and more. <br/>There's a lot that goes into that from understanding how the DOM tree works and how that plays with CSS and JavaScript to how to leverage the ServiceWorker for cashing and push notifications. <br/>In this session, we'll build a PWA that show cases many of the things you need to keep in mind when building a great and fast progressive web app. ",
         "SlidesLink": null
@@ -823,7 +846,7 @@
         "Id": 153,
         "Track": null,
         "Day": 1,
-        "Room": "2",
+        "Room": "4",
         "SessionNumber": 7,
         "Topic": "Leadership 101",
         "Description": "\"The company picks the manager, the team picks the leader. Sometimes you are lucky enough that it's the same person.\" This is something that one of my first technical mentors told me. I really wasn't able to fully comprehend that statement until much later in my career as I've had a lot of great leaders in my life, only a small percentage of whom were actually my manager as well. <br/>In this talk, we'll dive into what it means to be a leader both as an individual contributor and as a manager. ",
@@ -878,9 +901,9 @@
       {
         "Id": 160,
         "Track": null,
-        "Day": 1,
+        "Day": 2,
         "Room": "3",
-        "SessionNumber": 7,
+        "SessionNumber": 1,
         "Topic": "Strategies for Fostering Collaboration and Building a Foundation for a Unified Team",
         "Description": "Game and Software industry veterans share real world strategies that help bring teams together to create better products. We will talk about big picture ideas like communication and creating buy in. These concepts will be brought to life with anecdotes and specific strategies we found successful in unifying interdisciplinary teams. Topics will include development diaries, team communication apps, postmortems, and more.",
         "SlidesLink": null
