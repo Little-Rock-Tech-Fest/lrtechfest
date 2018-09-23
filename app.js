@@ -6,7 +6,7 @@ var slugs = require('slugs');
 var _ = require('lodash');
 
 var webRouter = require('./routes/web');
-var topicRouter = require('./routes/topics');
+var scheduleRouter = require('./routes/schedule');
 var sponsorRouter = require('./routes/sponsors');
 var speakerRouter = require('./routes/speakers');
 var eventRouter = require('./routes/events');
@@ -25,7 +25,7 @@ app.set('view engine', 'pug');
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/topics', topicRouter);
+app.use('/schedule', scheduleRouter);
 app.use('/sponsors', sponsorRouter);
 app.use('/speakers', speakerRouter);
 app.use('/pastyear', eventRouter);
