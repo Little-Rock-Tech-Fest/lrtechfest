@@ -20,10 +20,6 @@ router.get('/', function(req, res){
 	res.render('index', {title: 'Little Rock Tech Fest', speakers:speakers, sponsors:sponsors, photos:photos, team:team});
 });
 
-router.get('/resources', function(req, res){
-	res.render('resources');
-});
-
 router.get("/programs/:year", function (req, res) {
 	res.download("public/programs/program-" + req.params.year + ".pdf", function (err) {
 		if (err) {
@@ -32,11 +28,18 @@ router.get("/programs/:year", function (req, res) {
 	});
 });
 
+router.get('/event', function(req, res) {
+	res.render('event');
+});
+
 router.get('/index-w-speakers', function(req, res) {
 	res.redirect('/');
 });
+router.get('/resources', function(req, res){
+	res.redirect('/event');
+});
 router.get('/resources-review', function(req, res) {
-	res.render('resources-review');
+	res.redirect('/event');
 });
 
 module.exports = router;
