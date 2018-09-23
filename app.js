@@ -10,7 +10,6 @@ var scheduleRouter = require('./routes/schedule');
 var sponsorRouter = require('./routes/sponsors');
 var speakerRouter = require('./routes/speakers');
 var eventRouter = require('./routes/events');
-var appRouter = require('./routes/app');
 var jobRouter = require('./routes/jobs');
 
 var app = express();
@@ -30,7 +29,6 @@ app.use('/sponsors', sponsorRouter);
 app.use('/speakers', speakerRouter);
 app.use('/pastyear', eventRouter);
 app.use('/jobs', jobRouter);
-app.use('/app', appRouter); //mobile app
 app.use('/', webRouter); //general URIs
 
 app.use(function (req, res, next) {
