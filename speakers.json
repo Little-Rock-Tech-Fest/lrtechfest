@@ -697,6 +697,29 @@
     ]
   },
   {
+    "Id": 78,
+    "FirstName": "Scott",
+    "LastName": "Jones",
+    "Bio": "Scott Jones is an Acxiom Fellow at Acxiom Corporation.  He specializes in API designs, ultra-low latency system designs and full stack designs to solve business needs.  He has three patents pending and 3 patents approved for the leading edge Ad Tech Platform technology.  His innovative design started with the platform concept, implementation and ultimately the execution of a system that processed 3 billion transactions a day, against a terabyte of data, with transactions averaging 2 mls per transaction.  Mr. Jones also serves as one of Acxiom’s Privacy Engineers, with expert skills applying nuanced next-gen data governance concepts at the engineering layer. Previously he worked for Alltel Information Services the predecessor to FIS.  Mr. Jones serves as a mentor at The Venture Center and as an advisor to two of the 2016 VC FinTech Accelerator companies, Monotto and PFITR.  Mr. Jones holds a BS in Computer Science from Arkansas Tech University.",
+    "Website": "https://www.linkedin.com/in/scottjones10/",
+    "Twitter": "",
+    "Photo": "jones-scott.jpg",
+    "Company": "Acxiom Corporation",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 131,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 7,
+        "Topic": "Pissing off IT and Delivery: A tale of 2 ODS’s",
+        "Description": "Pissing off IT and Delivery: A tale of 2 ODS’s.<br/>====================<br/>**Long live RDBMs!**<br/><br/>For years they have been a staple of large data set storage, manipulation and retrieval. But what if I told you that we were able to simplify every aspect of our new Operational Data Store product development; from data maintenance and implementation to API design, scalability and maintainability by doing one simple thing? That thing: Throwing out the rulebook and starting new with a MongoDB-backed document store. We will walk through our document and API design to show how using Mongo Atlas, Mongo Stitch and Mongo Import we were able to radically change how we build Operational Data Stores and the short and long-term benefits these changes brought us.<br/><br/>Description<br/>====================<br/>The Acxiom team changed their Operational Data Store product by moving from an RDBMs to a MongoDB Document Store.  This talk will be about how the use of a document store, the use of  MongoDB Atlas and the use of Mongo Stitch simplified our ODS product while<br/>1. Allowing for an increased profit margin<br/>2. Decreasing time to market<br/>3. Increasing scalability<br/>4. Lowering our latency<br/>5. Decreasing our dependencies on Acxiom IT<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 79,
     "FirstName": "Cam",
     "LastName": "Soper",
