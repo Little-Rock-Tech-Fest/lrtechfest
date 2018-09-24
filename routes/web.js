@@ -55,5 +55,8 @@ router.get('/resources', function(req, res){
 router.get('/resources-review', function(req, res) {
 	res.redirect('/event');
 });
+router.get('/topics', function(req, res) {
+	res.redirect('/speakers');
+});
 
 module.exports = router;
