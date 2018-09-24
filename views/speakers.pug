@@ -62,7 +62,7 @@ block content
 												th(style="width:21.25%") Room E
 										tbody
 											each time, i in times
-												if time > 8 && time < 11
+												if time >= 8 && time <= 10
 													tr
 														td
 															h6.title #{time}:30 AM
@@ -85,7 +85,7 @@ block content
 													h6.title 🌮 Lunch in Ballroom D 
 
 											each time, i in times
-												if time > 1 && time < 5
+												if time >= 1 && time <= 4
 													tr
 														td 
 															h6.title #{time}:00 PM
@@ -121,7 +121,7 @@ block content
 												th(style="width:21.25%") Room E
 										tbody
 											each time, i in times
-												if time > 8 && time < 11
+												if time >= 8 && time <= 10
 													tr
 														td
 															h6.title #{time}:30 AM
@@ -139,12 +139,12 @@ block content
 																						p #[strong #{presentation.Topic}]
 											tr.success
 												td 
-													h6.title 12:00 PM
+													h6.title 11:30 PM
 												td.align-center(colspan="4") 
 													h6.title 🌮 Lunch in Ballroom D!
 
 											each time, i in times
-												if time > 0 && time < 4
+												if time > 1 && time < 4
 													tr
 														td 
 															h6.title #{time}:00 PM
