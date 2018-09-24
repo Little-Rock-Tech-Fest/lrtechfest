@@ -11,12 +11,13 @@ var fs_readFile = Q.denodeify(fs.readFile);
 var speakers = JSON.parse(fs.readFileSync('speakers.json', 'utf8'));
 var rooms = ['1','2','3','4']
 var times = {
-	'1' : '9', 
-	'2' : '10', 
-	'3' : '11',
+	'1' : '8', 
+	'2' : '9', 
+	'3' : '10',
 	'4' : '1', 
 	'5' : '2', 
 	'6' : '3', 
+	'7' : '4', 
 };
 
 var presentations = [];
