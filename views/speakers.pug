@@ -67,21 +67,17 @@ block content
 														td
 															h6.title #{time}:00 AM
 														each room in rooms
-															if room < 4
-																each speaker in speakers
-																	each presentation in speaker.Presentations
-																		if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																			td.speaker-cell
-																				a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
-																					.panel.schedule-item
-																						.speaker 
-																							.photo-wrapper.rounded
-																								img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																							strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
-																							p #[strong #{presentation.Topic}]
-															else 
-																td 
-																	h6.title TBD
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 											tr.success
 												td 
 													h6.title 12:00 PM
@@ -94,21 +90,17 @@ block content
 														td 
 															h6.title #{time}:30 PM
 														each room in rooms
-															if room < 4
-																each speaker in speakers
-																	each presentation in speaker.Presentations
-																		if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																			td.speaker-cell
-																				a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
-																					.panel.schedule-item
-																						.speaker 
-																							.photo-wrapper.rounded
-																								img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																							strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
-																							p #[strong #{presentation.Topic}]
-															else 
-																td 
-																	h6.title TBD
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 											tr.success
 												td
 													h6.title 6:00 PM
@@ -134,21 +126,17 @@ block content
 														td
 															h6.title #{time}:00 AM
 														each room in rooms
-															if room < 4
-																each speaker in speakers
-																	each presentation in speaker.Presentations
-																		if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																			td.speaker-cell
-																				a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
-																					.panel.schedule-item
-																						.speaker 
-																							.photo-wrapper.rounded
-																								img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																							strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
-																							p #[strong #{presentation.Topic}]
-															else 
-																td 
-																	h6.title TBD
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 											tr.success
 												td 
 													h6.title 12:00 PM
@@ -161,21 +149,17 @@ block content
 														td 
 															h6.title #{time}:30 PM
 														each room in rooms
-															if room < 4
-																each speaker in speakers
-																	each presentation in speaker.Presentations
-																		if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																			td.speaker-cell
-																				a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
-																					.panel.schedule-item
-																						.speaker 
-																							.photo-wrapper.rounded
-																								img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																							strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
-																							p #[strong #{presentation.Topic}]
-															else 
-																td 
-																	h6.title TBD
+															each speaker in speakers
+																each presentation in speaker.Presentations
+																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
+																		td.speaker-cell
+																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																				.panel.schedule-item
+																					.speaker 
+																						.photo-wrapper.rounded
+																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																						p #[strong #{presentation.Topic}]
 											tr.success
 												td
 													h6.title 6:00 PM
