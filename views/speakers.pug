@@ -67,10 +67,10 @@ block content
 														td
 															h6.title #{time}:30 AM
 														each room in rooms
-															each speaker in speakers
-																each presentation in speaker.Presentations
-																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td.speaker-cell
+															td.speaker-cell
+																each speaker in speakers
+																	each presentation in speaker.Presentations
+																		if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
@@ -90,10 +90,10 @@ block content
 														td 
 															h6.title #{time}:00 PM
 														each room in rooms
-															each speaker in speakers
-																each presentation in speaker.Presentations
-																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td.speaker-cell
+															td.speaker-cell
+																each speaker in speakers
+																	each presentation in speaker.Presentations
+																		if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
 																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
