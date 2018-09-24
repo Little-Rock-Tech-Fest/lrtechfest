@@ -13,8 +13,22 @@ var _ = require('lodash');
 
 var team = JSON.parse(fs.readFileSync('team.json', 'utf8'));
 
+function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+}
+
 router.get('/', function(req, res){
-	var speakers = require('../speakers.json');
+	var speakerJson = require('../speakers.json');
+	var speakers = [];
+	for (speaker in speakerJson) {
+   		speakers.push(speakerJson[speaker]);
+	}
+	shuffle(speakers);
+	speakers = speakers.slice(0, 4);
 	var sponsors = require('../sponsors.json');
 	var photos = require('../gallery.json');
 	res.render('index', {title: 'Little Rock Tech Fest', speakers:speakers, sponsors:sponsors, photos:photos, team:team});

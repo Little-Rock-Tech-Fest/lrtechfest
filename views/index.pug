@@ -74,9 +74,9 @@ block content
 		.container
 			span.icon.section-icon.icon-faces-users-04
 			h3 Speakers
-			p.lead Check out these great #{moment().format('YYYY')} 
-				span.highlight speakers!
-
+			p.lead We have more 
+				span.highlight speakers 
+				| than ever before planned for #{moment().format('YYYY')}!
 			each val, i in speakers
 				if (i % 4 == 0)
 					.row
@@ -103,6 +103,7 @@ block content
 												li
 													a(href=speaker.Website target="new")
 														span.fa.fa-globe
+			a.btn.btn-block(href="/speakers") View the full lineup
 
 	section#sponsors.section.align-center
 		.container
