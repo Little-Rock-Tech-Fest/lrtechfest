@@ -505,7 +505,7 @@
         "Track": null,
         "Day": 1,
         "Room": "3",
-        "SessionNumber": 6,
+        "SessionNumber": 4,
         "Topic": "Micro-metrics to forecast performance Tsunamis",
         "Description": "Elevator Pitch<br/> In recent times, hyper sensitive micro-metrics measuring technologies are employed to forecast Tsunamis. Similarly, it's hard to forecast production performance problems beforehand. In this session you will learn the micro-metrics to be measured in dev/test environments that can forecast production performance problems with fair level of accuracy.<br/><br/>Abstract<br/><br/>Most enterprises measure macro-metrics (response time, CPU utilization, memory consumption) only. These macro-metrics aren't adequate to forecast lot of production performance problems. Below is the list of micro-metrics that an enterprise can measure to forecast and detect performance problems:<br/><br/>1. GC Latency<br/><br/>In all the modern platforms, garbage collection is automatic. Even though GC is automatic, it's not free. GC pauses entire application. It means all the customer transactions that are in motion will be frozen until GC completes. GC latency is good micro-metrics to measure. GC latency is the amount of timew application is paused to do garbage collection. Increase in GC latency is a lead indicator of memory problems in the application.<br/><br/>2. GC Throughput<br/><br/>Garbage collection throughput is the amount of time your application spends in processing customer transactions vs amount of time it spends in doing garbage collection. One should target for high throughput (i.e. application should spend more time in processing customer transactions and less time in GC). Degradation in GC throughput is a lead indicator of increase in compute resource consumption.<br/><br/>3. Object creation/reclamation/promotion rate<br/><br/>The rate at which objects are created heavily influences CPU utilization. If inefficient data structures or code are used, then more objects will be generated to process the same number of transactions. A high object creation rate translates to frequent reclamation (i.e. Garbage Collection). Frequent GC translates to increased CPU consumption. Increase in Object creation/reclamation rate is a classic indicator of memory/CPU problems that is pervasive in the application.<br/><br/>4. Thread count and states<br/><br/>Application threads can be different states: NEW, RUNNABLE, WAITING, TIME_WAITING, BLOCKED, TERMINATED. If there is an increase in count of particular type of thread states, it should be evaluated. Too many BLOCKED threads can make application unresponsive. Too many RUNNABLE threads can cause CPU spikes.<br/><br/>5. Thread groups and their utilization<br/><br/>Thread group is a collection of threads doing particular type of tasks. Enterprise applications can have multiple thread groups. Each group thread count and states of those threads should be analyzed. Sometimes threads in critical thread groups may be fully consumed, sometimes there could be overallocation, sometimes there could be under allocation. <br/><br/>6. Memory wastage<br/><br/>Application memory is wasted in the form of duplicate objects, suboptimal data types, inefficient data structures, over-allocated but underutilized objects. We want to constantly measure memory wastage between releases. If there is an increase in the amount of memory wastage then application will suffer memory problems, response time degradations and CPU spikes. <br/><br/>How to source these micro-metrics?<br/><br/>GC Latency, GC Throughput, Object creation/reclamation/promotion rate metrics can be sourced from garbage collection logs. Thread Count and states, thread groups and their utilization metrics can be sourced from thread dumps. Memory wastage metrics can be sourced from heap dumps. In this session brief overview will be given on how to capture and analyze GC logs, thread dumps and heap dumps as well.<br/>",
         "SlidesLink": null
@@ -666,7 +666,7 @@
         "Track": null,
         "Day": 1,
         "Room": "3",
-        "SessionNumber": 4,
+        "SessionNumber": 6,
         "Topic": "DEPLOY ALL THE XR!!!",
         "Description": "we will explore using Unity#d to build an XR app then runs on many different devices. I will teach you how to set up a project to make it easy to test / build / deploy your app.<br/><br/>Come learn about Unity3D & XR for fun and profit! ",
         "SlidesLink": null
@@ -743,6 +743,29 @@
     ]
   },
   {
+    "Id": 81,
+    "FirstName": "Chris",
+    "LastName": "King",
+    "Bio": "Chris is a hands-on software architect, consulting adviser and thought leader at J. B. Hunt Transport. Chris's passions include performance tuning, security, application portfolio rationalization and integration. You can usually find him at the whiteboard leading a discussion, or pouring over logs and providing performance analysis. Chris is currently working on enterprise architecture emerging technology for the J. B. Hunt 360 cloud platform.",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "king-chris.jpg",
+    "Company": "J. B. Hunt, Transport",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 137,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 2,
+        "Topic": "Installing Skynet to Production - Stitching Together Microservices, AI and Kubernetes in the Cloud",
+        "Description": "We will present a reference architecture for integrating a deep learning model into a production web application backed by containerized micro-services.  The use case is a recommendation engine that uses collaborative-filtering to predict which items a user will be interested in.  Starting with an overview of the data-science lifecycle, we will quickly focus in on the run-time architectural components.  We will dive into all of the components in the flow including: gathering training data, training the model, saving the new model, serving the model via a web service, scoring new items as they are added, and finally producing a top K recommended items for a user.  We will also review the CI/CD pipeline used to build and deploy changes and discuss how additional features would be added.  Finally, we will review our definition of what it means to be \"production-grade\" and discuss how all of these criteria were achieved.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
     "Id": 83,
     "FirstName": "Scott",
     "LastName": "Ford",
@@ -802,10 +825,10 @@
     "Id": 90,
     "FirstName": "Gary",
     "LastName": "Dowdy",
-    "Bio": "",
-    "Website": "",
-    "Twitter": "",
-    "Photo": "missing.png",
+    "Bio": null,
+    "Website": null,
+    "Twitter": null,
+    "Photo": "dowdy-gary.jpg",
     "Company": "J.B. Hunt",
     "LinkedIn": null,
     "Presentations": [
@@ -813,7 +836,7 @@
         "Id": 115,
         "Track": null,
         "Day": 2,
-        "Room": "4",
+        "Room": "3",
         "SessionNumber": 5,
         "Topic": "Panel: Blockchain",
         "Description": null,
@@ -869,7 +892,7 @@
         "Id": 156,
         "Track": null,
         "Day": 2,
-        "Room": "3",
+        "Room": "4",
         "SessionNumber": 4,
         "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
         "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
@@ -879,7 +902,7 @@
         "Id": 169,
         "Track": null,
         "Day": 2,
-        "Room": "3",
+        "Room": "4",
         "SessionNumber": 5,
         "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
         "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?<br/><br/>This presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. <br/><br/>You will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  <br/> <br/>As an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  <br/> <br/>This presentation is your guided tour to how much is really possible in 30 minutes.<br/><br/>#Learn the P.A.t.h. Checklist<br/><br/>## Persistence -- the 'P' in P.A.t.h.<br/>Learn the 3 most common SQL performance anti-patterns and how to detect them.<br/><br/>## Alien Systems -- the 'A' in P.A.t.h.<br/><br/>Alien systems are those your Java JVM communicates with over a network.<br/>Learn how to detect slow network requests from your JVM and identify exactly the code making the requests.<br/>Also learn how to avoid a huge security vulnerability with a very common network optimization.<br/><br/>## threads -- the 't' in P.A.t.h.<br/><br/>Learn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.<br/><br/>## heap -- the 'h' in P.A.t.h.<br/><br/>Learn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
@@ -939,6 +962,29 @@
         "SessionNumber": 2,
         "Topic": "Evolution: Test Automation to Continuous Testing ",
         "Description": "Test automation has taken on a negative connotation over the last few years, specifically in organizations that continue to silo the automation team into a separate group. These folks have the unenviable task of \"taking the latest build\" and developing test scripts for it. These scripts need to be manually executed, groomed for feature drift, and maintained like any other component of code. This is often one of the last things that occurs in a release or worse yet, \"one-sprint-behind\", so that automation is never current. This is a recipe for frustration and constant release challenges. <br/><br/>Continuous Testing (CT), in concert with Continuous Integration and Continuous Development (CI / CD) introduces the concept of test automation code, treated as code, embedded within the feature code, managed and maintained with each PR, and executed in a continuous fashion via Jenkins or another build tool. This ensures code coverage increases as your code coverage metrics trend, build over build. This ensures that your test code is always up-to-date with the feature repo, since they are developed hand-in-hand. This removes the stigma that test automation \"takes too long\" and is an expensive impediment to release, and creates the success patterns for safe, continuous release of your software, at the speed that the business can consume it.<br/><br/>This talk will explain the evolution of test automation, from the early days of silo-d teams the power of a fully integrated team leveraging both software developers and software developers in test (SDET). ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 98,
+    "FirstName": "Paul",
+    "LastName": "Spears",
+    "Bio": "As an instructor and open-source maintainer for Angular Boot Camp, Paul Spears travels the globe training developers in Angular and AngularJS. Paul also enjoys engaging the community outside of the classroom as a frequent guest of Adventures in Angular, ngHouston, and ngPortland. He also helps organize an Angular meetup in St. Louis. <br/><br/>When not teaching, Paul is a technical lead at Oasis Digital Solutions inc. Recent projects include an Apache “big data” dashboard and an app used to visualize complex business and social relationships. Areas of interest include run-time performance, data visualization, and UI/UX design. <br/>",
+    "Website": "",
+    "Twitter": "dpsthree",
+    "Photo": "spears-paul.jpg",
+    "Company": "Oasis Digital Solutions Inc",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 173,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 4,
+        "Topic": "Angular Prototyping and Documentation with StackBlitz",
+        "Description": "Modern web frameworks are often built on a stack of advanced tools. These tool chains can act as a barrier for developers and designers who are looking to quickly spin up an example application, create a bug repo or start a prototype.<br/><br/>StackBlitz is a web based IDE and build environment. With a click of a button StackBlitz will launch an editor, install dependencies, build your Angular application, start a development server and provide a link that can be used to invite others to participate. After taking a tour of StackBlitz’s most popular prototyping features we’ll take a look at how StackBlitz is used for documentation by the Angular team at Google as well as Angular Boot Camp.<br/>",
         "SlidesLink": null
       }
     ]
