@@ -31,38 +31,42 @@ mixin Day (fullDay)
 			span &nbsp;#{fullDay}
 
 block content
-	.container
-		.schedule
-			ul.nav.nav-schedule
-				li.active
-					a(href='#day1' data-toggle='tab')
-						h5.highlight Day 1
-						p.text-alt Thursday, October 4th
-				li
-					a(href='#day2' data-toggle='tab')
-						h5.highlight Day 2
-						p.text-alt Friday, October 5th
-			.tab-content
-				#day1.tab-pane.fade.active.in
-					.tab-content.tab-content-schedule
-						#day1_auditorium1.tab-pane.fade.active.in
-							#day1_auditorium1_timeline.panel-group
-								table.schedule.table.stacktable
-									thead
-										tr
-											th(style="width:15%") &nbsp;
-											th(style="width:21.25%") Room A
-											th(style="width:21.25%") Room B
-											th(style="width:21.25%") Room C
-											th(style="width:21.25%") Room D
-									tbody
-										each time, i in times
-											if time > 8 && time < 12
-												tr
-													td
-														h6.title #{time}:00 AM
-													each room in rooms
-														if room < 4
+	section#speakers.section.align-center
+		.container
+			span.icon.section-icon.icon-faces-users-04
+			h3 Speakers
+			p.lead Check out these great #{moment().format('YYYY')} 
+				span.highlight speakers!
+			.schedule
+				ul.nav.nav-schedule
+					li.active
+						a(href='#day1' data-toggle='tab')
+							h5.highlight Day 1
+							p.text-alt Thursday, October 4th
+					li
+						a(href='#day2' data-toggle='tab')
+							h5.highlight Day 2
+							p.text-alt Friday, October 5th
+				.tab-content
+					#day1.tab-pane.fade.active.in
+						.tab-content.tab-content-schedule
+							#day1_auditorium1.tab-pane.fade.active.in
+								#day1_auditorium1_timeline.panel-group
+									table.schedule.table.stacktable
+										thead
+											tr
+												th(style="width:15%") &nbsp;
+												th(style="width:21.25%") Room A
+												th(style="width:21.25%") Room B
+												th(style="width:21.25%") Room C
+												th(style="width:21.25%") Room D
+										tbody
+											each time, i in times
+												if time > 8 && time < 12
+													tr
+														td
+															h6.title #{time}:00 AM
+														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
@@ -74,22 +78,18 @@ block content
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 																						p #[strong #{presentation.Topic}]
-														else 
-															td 
-																h6.title TBD
-										tr.success
-											td 
-												h6.title 12:00 PM
-											td.align-center(colspan="4") 
-												h6.title 🌮 Lunch! 
+											tr.success
+												td 
+													h6.title 12:00 PM
+												td.align-center(colspan="4") 
+													h6.title 🌮 Lunch! 
 
-										each time, i in times
-											if time > 0 && time < 4
-												tr
-													td 
-														h6.title #{time}:30 PM
-													each room in rooms
-														if room < 4
+											each time, i in times
+												if time > 0 && time < 4
+													tr
+														td 
+															h6.title #{time}:30 PM
+														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
@@ -101,35 +101,31 @@ block content
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 																						p #[strong #{presentation.Topic}]
-														else 
-															td 
-																h6.title TBD
-										tr.success
-											td
-												h6.title 6:00 PM
-											td.align-center(colspan="4") 
-												h6.title 🍻 Party!
+											tr.success
+												td
+													h6.title 6:00 PM
+												td.align-center(colspan="4") 
+													h6.title 🍻 Party!
 
-				#day2.tab-pane.fade.in
-					.tab-content.tab-content-schedule
-						#day2_auditorium1.tab-pane.fade.active.in
-							#day2_auditorium1_timeline.panel-group
-								table.schedule.table.stacktable
-									thead
-										tr
-											th(style="width:15%") &nbsp;
-											th(style="width:21.25%") Room A
-											th(style="width:21.25%") Room B
-											th(style="width:21.25%") Room C
-											th(style="width:21.25%") Room D
-									tbody
-										each time, i in times
-											if time > 8 && time < 12
-												tr
-													td
-														h6.title #{time}:00 AM
-													each room in rooms
-														if room < 4
+					#day2.tab-pane.fade.in
+						.tab-content.tab-content-schedule
+							#day2_auditorium1.tab-pane.fade.active.in
+								#day2_auditorium1_timeline.panel-group
+									table.schedule.table.stacktable
+										thead
+											tr
+												th(style="width:15%") &nbsp;
+												th(style="width:21.25%") Room A
+												th(style="width:21.25%") Room B
+												th(style="width:21.25%") Room C
+												th(style="width:21.25%") Room D
+										tbody
+											each time, i in times
+												if time > 8 && time < 12
+													tr
+														td
+															h6.title #{time}:00 AM
+														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
@@ -141,22 +137,18 @@ block content
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 																						p #[strong #{presentation.Topic}]
-														else 
-															td 
-																h6.title TBD
-										tr.success
-											td 
-												h6.title 12:00 PM
-											td.align-center(colspan="4") 
-												h6.title 🌮 Lunch!
+											tr.success
+												td 
+													h6.title 12:00 PM
+												td.align-center(colspan="4") 
+													h6.title 🌮 Lunch!
 
-										each time, i in times
-											if time > 0 && time < 4
-												tr
-													td 
-														h6.title #{time}:30 PM
-													each room in rooms
-														if room < 4
+											each time, i in times
+												if time > 0 && time < 4
+													tr
+														td 
+															h6.title #{time}:30 PM
+														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
@@ -168,14 +160,11 @@ block content
 																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 																						p #[strong #{presentation.Topic}]
-														else 
-															td 
-																h6.title TBD
-										tr.success
-											td
-												h6.title 6:00 PM
-											td.align-center(colspan="4") 
-												h6.title 🍻 Party!
+											tr.success
+												td
+													h6.title 6:00 PM
+												td.align-center(colspan="4") 
+													h6.title 🍻 Party!
 //--
 	each speaker in speakers
 		each presentation in speaker.Presentations

@@ -14,7 +14,7 @@ html(lang="en")
 		link(href="/css/animations.css", rel="stylesheet")
 		link(href="/css/style.css", rel="stylesheet")
 		link(href="/css/style-green-color.css", rel="stylesheet")
-		link(href="/css/custom.css?v=1.2.2", rel="stylesheet")
+		link(href="/css/custom.css?v=1.2.3", rel="stylesheet")
 		script(src="/js/google-analytics.js")
 		//- Facebook Pixel Code
 		script.
@@ -55,40 +55,19 @@ html(lang="en")
 					.col-sm-10.col-xs-12.navigation-container
 						#navigation.navbar-collapse.collapse
 							ul.navigation-list.pull-left.light-text
-								li.navigation-item
-									a.navigation-link(href="/#about") About
-								li.navigation-item
-									a(class="navigation-link" href="/#speakers") Speakers
 								li.navigation-item.dropdown
+									a.navigation-link(href="/speakers") Speakers
+								li.navigation-item
 									a.navigation-link(href="/#sponsors") Sponsors
-									ul.dropdown-menu
-										li.navigation-item
-											a.navigation-link(href="/sponsors") Become a sponsor
 								li.navigation-item
 									a.navigation-link(href="/#gallery") Gallery									
-								//- li.navigation-item
-								//- 	a(class="navigation-link" href="/#schedule") Schedule
-								//- li.navigation-item.dropdown
-									a.navigation-link.dropdown-toggle(href="/#schedule") Schedule
-									ul.dropdown-menu
-										li.navigation-item
-											a(class="navigation-link" href="/resources") Resources
-								li.navigation-item
-									a(class="navigation-link" href="/#tickets") Tickets
 								li.navigation-item
 									a.navigation-link(href="/#location") Location
-								//-li.navigation-item
-								//-	a.navigation-link(href="/sponsors") Become a sponsor
-								//-li.navigation-item.dropdown
-									a.navigation-link.dropdown-toggle(href="/#sponsors") Sponsors
-									ul.dropdown-menu
-										li.navigation-item
-											a(class="navigation-link" href="/sponsors") Become a sponsor
-								//- li.navigation-item
-									//- a(class="navigation-link" href="https://www.papercall.io/lrtf2018" target="_blank") Call for Speakers
+								li.navigation-item
+									a.navigation-link(href="/event") Event
 								li.navigation-item
 									a.navigation-link(href="/jobs") Jobs
-								li.navigation-item.dropdown
+								//-li.navigation-item.dropdown
 									a.navigation-link(href="/pastyear") Past Events
 									ul.dropdown-menu
 										li.navigation-item
@@ -100,11 +79,7 @@ html(lang="en")
 										li.navigation-item
 											a.navigation-link(href="/pastyear/2014") 2014
 
-								//- li.navigation-item
-								//- 	a(class="navigation-link" href="#speakers") Schedule
-								//-		a(class="pull-right buy-btn" href="#") Buy Tickets1
-
-							a.pull-right.buy-btn(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884?ref=website" target="new") Buy Tickets
+							a.pull-right.buy-btn(href="/#tickets") Buy Tickets
 
 
 		block content
@@ -115,7 +90,7 @@ html(lang="en")
 				.container
 					.col-md-2
 						a(href="http://www.techtober.com/about/" target="new")
-							img(src="img/TECHTOBER_supporter.png" alt="Proud Supporter of Techtober" class="endorsement")
+							img(src="/img/TECHTOBER_supporter.png" alt="Proud Supporter of Techtober" class="endorsement")
 					.col-md-6
 						ul.footer-nav
 							li.footer-nav-item
@@ -124,10 +99,8 @@ html(lang="en")
 								a(href="http://confcodeofconduct.com/" target="new") Code of Conduct
 							li.footer-nav-item
 								a(href='http://usergroup.tv/videos/category/group/little-rock-tech-fest' target="new") Speaker Videos
-							//- li.footer-nav-item
-							//- 	a(href="#") Privacy policy
-							//- li.footer-nav-item
-							//- 	a(href="#") Press
+							li.footer-nav-item
+								a(href="/pastyear") Past Events
 					.col-md-4.align-right
 						ul.socials-nav.align-right
 							li.socials-nav-item

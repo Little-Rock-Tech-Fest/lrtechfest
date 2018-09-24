@@ -53,7 +53,13 @@ section#main {
 .lead {
   font-weight: 300;
 }
-
+.header .buy-btn {
+  margin-top: 30px;
+}
+a.navigation-link,
+a.pull-right.buy-btn {
+  font-size: 14px;
+}
 #about p.lead {
   padding: 15px 0 10px;
 }
@@ -408,6 +414,9 @@ ul.footer-nav,
     display: block;
     margin-top: 10px;
   }
+  a.pull-right.buy-btn {
+    font-size: 0;
+  }
   .sponsor.platinum:not(.inline):not(.big) {
     margin-right: 0;
   }
@@ -437,6 +446,11 @@ ul.footer-nav,
   .heading-alt .loc {
     display: block;
     margin-top: 10px;
+  }
+  ul.footer-nav, 
+  .footer .socials-nav, 
+  .footer .socials-nav + p {
+    margin-top: 18px;
   }
 }
 

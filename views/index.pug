@@ -74,9 +74,9 @@ block content
 		.container
 			span.icon.section-icon.icon-faces-users-04
 			h3 Speakers
-			p.lead Check out these great #{moment().format('YYYY')} 
-				span.highlight speakers!
-
+			p.lead We have more 
+				span.highlight speakers 
+				| than ever before planned for #{moment().format('YYYY')}!
 			each val, i in speakers
 				if (i % 4 == 0)
 					.row
@@ -103,12 +103,14 @@ block content
 												li
 													a(href=speaker.Website target="new")
 														span.fa.fa-globe
+			a.btn.btn-block(href="/speakers") View the full lineup
 
 	section#sponsors.section.align-center
 		.container
 			span.icon.section-icon.icon-documents-bookmarks-12
 			h3 Sponsors
-			p.lead These are the organizations that help us make this event possible. <a href="/sponsors">Want to see your logo here?</a>
+			p.lead These are the organizations that help us make this event possible. 
+			//-<a href="/sponsors">Want to see your logo here?</a>
 
 			h5.heading-alt Platinum
 			.sponsors
@@ -166,8 +168,8 @@ block content
 			br
 			br
 			div.row
-				div.col-sm-4
-					.package-column
+				div.col-sm-4.col-sm-offset-2
+					.package-column.package-bright
 						h6.package-title Student Ticket
 						div.package-price
 							span.currency $75
@@ -189,31 +191,32 @@ block content
 									| &nbsp;
 
 						a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Student' });" target="_blank") Buy now
-				div.col-sm-4
-					div.package-column.special-column#earlybird
-						span.sale-label.uppercase Hot!
-						h6.package-title Early Bird
-						div.package-price
-							span.currency $100
-						div.package-detail
-							ul
-								li
-									span.fa.fa-check.check-icon
-									span Lunch both days
-								li
-									span.fa.fa-check.check-icon
-									span T-shirt
-								li
-									span.fa.fa-check.check-icon
-									span Swag
-								li
-									| &nbsp;
-								li
-									| &nbsp;
-						a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg" onclick="fbq('track', 'Lead', { type: 'EarlyBird' });" target="_blank") Buy now
+				//--
+					div.col-sm-4
+						div.package-column.special-column#earlybird
+							span.sale-label.uppercase Hot!
+							h6.package-title Early Bird
+							div.package-price
+								span.currency $100
+							div.package-detail
+								ul
+									li
+										span.fa.fa-check.check-icon
+										span Lunch both days
+									li
+										span.fa.fa-check.check-icon
+										span T-shirt
+									li
+										span.fa.fa-check.check-icon
+										span Swag
+									li
+										| &nbsp;
+									li
+										| &nbsp;
+							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg" onclick="fbq('track', 'Lead', { type: 'EarlyBird' });" target="_blank") Buy now
 
 				div.col-sm-4
-					div.package-column.disabled
+					div.package-column.package-bright.special-column 
 						h6.package-title Standard Ticket
 						div.package-price
 							span.currency $125
@@ -233,7 +236,7 @@ block content
 								li
 									| &nbsp;
 
-							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
+							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-white" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
 	section.section.align-center
 		.container
 			p.lead LRTF is brought to you with #[i.fa.fa-heart] by
