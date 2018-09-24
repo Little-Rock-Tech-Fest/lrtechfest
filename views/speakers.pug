@@ -69,9 +69,9 @@ block content
 														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
+																	td.speaker-cell
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td.speaker-cell
-																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																		a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
 																						.photo-wrapper.rounded
@@ -92,9 +92,9 @@ block content
 														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
+																	td.speaker-cell
 																	if presentation.Day === 1 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td.speaker-cell
-																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																		a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
 																				.panel.schedule-item
 																					.speaker 
 																						.photo-wrapper.rounded
