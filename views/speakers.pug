@@ -59,13 +59,13 @@ block content
 												th(style="width:21.25%") Room A
 												th(style="width:21.25%") Room B
 												th(style="width:21.25%") Room C
-												th(style="width:21.25%") Room D
+												th(style="width:21.25%") Room E
 										tbody
 											each time, i in times
-												if time > 8 && time < 12
+												if time > 8 && time < 11
 													tr
 														td
-															h6.title #{time}:00 AM
+															h6.title #{time}:30 AM
 														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
@@ -80,15 +80,15 @@ block content
 																						p #[strong #{presentation.Topic}]
 											tr.success
 												td 
-													h6.title 12:00 PM
+													h6.title 11:30 PM
 												td.align-center(colspan="4") 
-													h6.title 🌮 Lunch! 
+													h6.title 🌮 Lunch in Ballroom D 
 
 											each time, i in times
-												if time > 0 && time < 4
+												if time > 1 && time < 5
 													tr
 														td 
-															h6.title #{time}:30 PM
+															h6.title #{time}:00 PM
 														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
@@ -105,7 +105,7 @@ block content
 												td
 													h6.title 6:00 PM
 												td.align-center(colspan="4") 
-													h6.title 🍻 Party!
+													h6.title 🍻 Attendee Party @ Brewski's!
 
 					#day2.tab-pane.fade.in
 						.tab-content.tab-content-schedule
@@ -118,13 +118,13 @@ block content
 												th(style="width:21.25%") Room A
 												th(style="width:21.25%") Room B
 												th(style="width:21.25%") Room C
-												th(style="width:21.25%") Room D
+												th(style="width:21.25%") Room E
 										tbody
 											each time, i in times
-												if time > 8 && time < 12
+												if time > 8 && time < 11
 													tr
 														td
-															h6.title #{time}:00 AM
+															h6.title #{time}:30 AM
 														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
@@ -141,13 +141,13 @@ block content
 												td 
 													h6.title 12:00 PM
 												td.align-center(colspan="4") 
-													h6.title 🌮 Lunch!
+													h6.title 🌮 Lunch in Ballroom D!
 
 											each time, i in times
 												if time > 0 && time < 4
 													tr
 														td 
-															h6.title #{time}:30 PM
+															h6.title #{time}:00 PM
 														each room in rooms
 															each speaker in speakers
 																each presentation in speaker.Presentations
@@ -161,10 +161,16 @@ block content
 																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
 																						p #[strong #{presentation.Topic}]
 											tr.success
+												td 
+													h6.title 4:00 PM
+												td.align-center(colspan="4") 
+													h6.title Closing Remarks in Ballroom D!
+
+											tr.success
 												td
 													h6.title 6:00 PM
 												td.align-center(colspan="4") 
-													h6.title 🍻 Party!
+													h6.title 🍻 Still here? Join us @ Fassler Hall!
 //--
 	each speaker in speakers
 		each presentation in speaker.Presentations
