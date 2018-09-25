@@ -14,7 +14,7 @@
         "Id": 2,
         "Track": null,
         "Day": 1,
-        "Room": "4",
+        "Room": "3",
         "SessionNumber": 1,
         "Topic": "Writing smart contracts in Ethereum using Solidity",
         "Description": "This workshop will cover the basics of what blockchains are at a technical level, how smart contracts work in a blockchain context, and how they can be used in real world scenarios. Participants will see a basic distributed application built using the Solidity programming language. The paradigm of programming these applications will be discussed as well. In Solidity, you have to pay money for every line of code written. Your code is also immutable, so you need to plan for every contingency. This workshop will discuss how to balance those two seemingly conflicting concepts.",
@@ -116,8 +116,8 @@
         "Id": 30,
         "Track": null,
         "Day": 2,
-        "Room": "3",
-        "SessionNumber": 2,
+        "Room": "2",
+        "SessionNumber": 1,
         "Topic": "Istio Service Mesh with kubernetes: Microservices 3.0",
         "Description": "Microservice Architecture means a lot of ‘things’ you have to prepare and account for. Just to rattle off some concepts (buzzwords): Load balancing, routing, circuit breakers, Canary and Blue/Green deployments, pool ejection, tracing, monitoring, chaos engineering, dark launches STAHP. JUST STAHP!<br/><br/>To account for any (or all) of this ‘stuff’, you have historically had to include several libraries in your code and write code to support those libraries. But aren’t *micro* services supposed to be small … micro, even?<br/><br/>Enter Istio and sidecar containers and the Service Mesh. Implement all of the above without changing your code. Move these operational concerns away from developers and into the domain of the operations people. Go home Friday at 5.<br/><br/>This session -- valuable for both developers and those in operations -- will introduce Istio and show some of its capabilities, giving you the information you need to start using the next generation of microservice tools.",
         "SlidesLink": null
@@ -343,8 +343,8 @@
         "Id": 53,
         "Track": null,
         "Day": 2,
-        "Room": "2",
-        "SessionNumber": 1,
+        "Room": "3",
+        "SessionNumber": 2,
         "Topic": "The how's and why's of flexible React components",
         "Description": "Building React components is simple — until it isn’t. Real world constraints can lead to large components that “do it all”. Or near identical components with one or two changes. So how do we create flexible components without sacrificing readability and scalability? Jenn shares how she re-architected components to handle multiple use cases and increase engineer happiness. She’ll breakdown the technical concerns for each component, the patterns she considered using, what didn’t work and what did. You'll learn more than the \"how\" of component architecture -- you'll learn the \"why\"!<br/><br/>You’ll get the most out of this session if you’ve written React components before. But even if you haven’t, you’ll walk away with practical patterns, tips and tricks for the future.",
         "SlidesLink": null
@@ -412,8 +412,8 @@
         "Id": 61,
         "Track": null,
         "Day": 1,
-        "Room": "1",
-        "SessionNumber": 6,
+        "Room": "2",
+        "SessionNumber": 7,
         "Topic": "A Token Walks Into a SPA...",
         "Description": "Seems like all you hear about these days are Single Page Applications. Angular, React, Vue, Ember are transforming the way we think about the frontend. But what about securing these applications? This often tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through best practices and caveats that apply to any single-page application framework.",
         "SlidesLink": null
@@ -504,8 +504,8 @@
         "Id": 71,
         "Track": null,
         "Day": 1,
-        "Room": "3",
-        "SessionNumber": 4,
+        "Room": "4",
+        "SessionNumber": 5,
         "Topic": "Micro-metrics to forecast performance Tsunamis",
         "Description": "Elevator Pitch<br/> In recent times, hyper sensitive micro-metrics measuring technologies are employed to forecast Tsunamis. Similarly, it's hard to forecast production performance problems beforehand. In this session you will learn the micro-metrics to be measured in dev/test environments that can forecast production performance problems with fair level of accuracy.<br/><br/>Abstract<br/><br/>Most enterprises measure macro-metrics (response time, CPU utilization, memory consumption) only. These macro-metrics aren't adequate to forecast lot of production performance problems. Below is the list of micro-metrics that an enterprise can measure to forecast and detect performance problems:<br/><br/>1. GC Latency<br/><br/>In all the modern platforms, garbage collection is automatic. Even though GC is automatic, it's not free. GC pauses entire application. It means all the customer transactions that are in motion will be frozen until GC completes. GC latency is good micro-metrics to measure. GC latency is the amount of timew application is paused to do garbage collection. Increase in GC latency is a lead indicator of memory problems in the application.<br/><br/>2. GC Throughput<br/><br/>Garbage collection throughput is the amount of time your application spends in processing customer transactions vs amount of time it spends in doing garbage collection. One should target for high throughput (i.e. application should spend more time in processing customer transactions and less time in GC). Degradation in GC throughput is a lead indicator of increase in compute resource consumption.<br/><br/>3. Object creation/reclamation/promotion rate<br/><br/>The rate at which objects are created heavily influences CPU utilization. If inefficient data structures or code are used, then more objects will be generated to process the same number of transactions. A high object creation rate translates to frequent reclamation (i.e. Garbage Collection). Frequent GC translates to increased CPU consumption. Increase in Object creation/reclamation rate is a classic indicator of memory/CPU problems that is pervasive in the application.<br/><br/>4. Thread count and states<br/><br/>Application threads can be different states: NEW, RUNNABLE, WAITING, TIME_WAITING, BLOCKED, TERMINATED. If there is an increase in count of particular type of thread states, it should be evaluated. Too many BLOCKED threads can make application unresponsive. Too many RUNNABLE threads can cause CPU spikes.<br/><br/>5. Thread groups and their utilization<br/><br/>Thread group is a collection of threads doing particular type of tasks. Enterprise applications can have multiple thread groups. Each group thread count and states of those threads should be analyzed. Sometimes threads in critical thread groups may be fully consumed, sometimes there could be overallocation, sometimes there could be under allocation. <br/><br/>6. Memory wastage<br/><br/>Application memory is wasted in the form of duplicate objects, suboptimal data types, inefficient data structures, over-allocated but underutilized objects. We want to constantly measure memory wastage between releases. If there is an increase in the amount of memory wastage then application will suffer memory problems, response time degradations and CPU spikes. <br/><br/>How to source these micro-metrics?<br/><br/>GC Latency, GC Throughput, Object creation/reclamation/promotion rate metrics can be sourced from garbage collection logs. Thread Count and states, thread groups and their utilization metrics can be sourced from thread dumps. Memory wastage metrics can be sourced from heap dumps. In this session brief overview will be given on how to capture and analyze GC logs, thread dumps and heap dumps as well.<br/>",
         "SlidesLink": null
@@ -527,8 +527,8 @@
         "Id": 76,
         "Track": null,
         "Day": 1,
-        "Room": "2",
-        "SessionNumber": 5,
+        "Room": "3",
+        "SessionNumber": 4,
         "Topic": "Ruby not Red: Color Theory for the Rest of Us",
         "Description": "This talk will be broken into 5 sections:<br/><br/>### 1) What is Color Blindness?<br/><br/>Explain common types of color blindness. This is to increase audience understanding and empathy, as well as provide context as to why this is something we need to be conscious of and work to improve our efforts to address it effectively.<br/><br/>### 2) The Color Wheel and Dangerous Color Combos<br/><br/>How to evaluate and avoid tricky color combinations, and how to make better color pairing decisions.<br/><br/>### 3) Typography, Text, and Legibility<br/><br/>How color, contrast, and size can impact a user's ability to read text.<br/><br/>### 4) UX Patterns<br/><br/>Which UI trends lend themselves to accessibility, and strategies for successfully adapting those that do not.<br/><br/>### 5) Links, Buttons, and Forms<br/><br/>Strategies for making these utilitarian elements more usable for everyone.<br/><br/>### Conclusion<br/><br/>Making choices that increase visual accessibility ultimately increase how usable our work -- and the web -- is for everyone.",
         "SlidesLink": null
@@ -550,7 +550,7 @@
         "Id": 102,
         "Track": null,
         "Day": 1,
-        "Room": "2",
+        "Room": "4",
         "SessionNumber": 3,
         "Topic": "So you're doing NgRx, but is your Data Safe?",
         "Description": "A core tenet of ngrx and the Redux pattern is that state changes occur only in the reducer, and only by returning a new state object. What some people fail to realize is that this is only a pattern, and it is not enforced in any way. Best case, your application is one accidental modification away from crashing down like a house of cards. Worst case, there are subtle flaws in the workflow that you don't notice until it is in production. In this talk, I will make the case for immutability, illustrate the difference between compile-time and run-time immutability, and then see how we can easily achieve both using the record-extension pattern, leveraging the power of both Typescript and Immutable.js.",
@@ -596,7 +596,7 @@
         "Id": 111,
         "Track": null,
         "Day": 1,
-        "Room": "3",
+        "Room": "2",
         "SessionNumber": 5,
         "Topic": "ONE OF US, ONE OF US",
         "Description": "It’s hard to be on a team and not be one of the team.  By making interactions with teammates better, teams start to bond, creating high functioning work relationships that go far in crafting better products. Interactions like a simple conversation about the latest movie or where to go for lunch can go a long way to becoming a more involved with the team.<br/><br/>It's about how to get your dev team to accept QA as one of them.  I’ll give tips and tricks to help inspire QA to work with their teams and foster a relationship that will build quality into everything the team creates.  I'll talk about the Rubber Duck trick.  Talk about finding opportunities to learn more about code, automation, what the team is doing.  And about the interpersonal relationship building that you can do easily.  <br/><br/>We will talk about interpersonal relationship skills and how a simple conversation can be an opening to start getting more involved in the team dynamic.  <br/><br/>Will discuss the concept of Rubber Duck and give suggestions for places to improve skill sets (udemy.com, Lynda, Coursera, Khan Academy)<br/><br/>I want attendees to be able to become inspired to get closer to their teams and create those relationships that make everyone's job fun and create a team that's cohesive and works well together.<br/>",
@@ -665,10 +665,10 @@
         "Id": 127,
         "Track": null,
         "Day": 1,
-        "Room": "3",
+        "Room": "4",
         "SessionNumber": 6,
         "Topic": "DEPLOY ALL THE XR!!!",
-        "Description": "we will explore using Unity#d to build an XR app then runs on many different devices. I will teach you how to set up a project to make it easy to test / build / deploy your app.<br/><br/>Come learn about Unity3D & XR for fun and profit! ",
+        "Description": "We will explore using Unity3d to build an XR app then runs on many different devices. I will teach you how to set up a project to make it easy to test / build / deploy your app.<br/><br/>Come learn about Unity3D & XR for fun and profit! ",
         "SlidesLink": null
       }
     ]
@@ -693,6 +693,16 @@
         "Topic": "MySQL 8 -- A New Beginning",
         "Description": "MySQL 8 is a major redesign of the most popular database on the web. it will have a true data dictionary (no more .frm, MYI, or other little files) which means you can have millions of tables within a schema. Windowing Functions and Common Table Expressions are available, multi  plane character support (because you need emojis in your data), user roles,  more JSON functions, and big optimizer improvements. And there will be a better 'out of the box' user experience.  And you will learn what happened to MySQL 6 and MySQL 7.",
         "SlidesLink": null
+      },
+      {
+        "Id": 130,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 2,
+        "Topic": "The Proper Care and Feeding of MySQL Databases for Busy Linux Admins",
+        "Description": "Are you in charge of MySQL databases but have no DBA training?  This sessions is for you!  Learn what you really need to know to keep your MySQL servers happy, running quickly, and make sure your data is safe.  See which config settings make servers more responsive and backup strategies to save your rear.  Understand how to use replication for backup, where to spend your scarce hardware upgrade funds, why databases do not play well with others, how to escape account admin purgatory, and more.  You may not be a trained DBA but after this session you will know the secrets of MySQL Administration on Linux.",
+        "SlidesLink": null
       }
     ]
   },
@@ -711,8 +721,8 @@
         "Id": 131,
         "Track": null,
         "Day": 1,
-        "Room": "2",
-        "SessionNumber": 7,
+        "Room": "1",
+        "SessionNumber": 6,
         "Topic": "Pissing off IT and Delivery: A tale of 2 ODS’s",
         "Description": "Pissing off IT and Delivery: A tale of 2 ODS’s.<br/>====================<br/>**Long live RDBMs!**<br/><br/>For years they have been a staple of large data set storage, manipulation and retrieval. But what if I told you that we were able to simplify every aspect of our new Operational Data Store product development; from data maintenance and implementation to API design, scalability and maintainability by doing one simple thing? That thing: Throwing out the rulebook and starting new with a MongoDB-backed document store. We will walk through our document and API design to show how using Mongo Atlas, Mongo Stitch and Mongo Import we were able to radically change how we build Operational Data Stores and the short and long-term benefits these changes brought us.<br/><br/>Description<br/>====================<br/>The Acxiom team changed their Operational Data Store product by moving from an RDBMs to a MongoDB Document Store.  This talk will be about how the use of a document store, the use of  MongoDB Atlas and the use of Mongo Stitch simplified our ODS product while<br/>1. Allowing for an increased profit margin<br/>2. Decreasing time to market<br/>3. Increasing scalability<br/>4. Lowering our latency<br/>5. Decreasing our dependencies on Acxiom IT<br/>",
         "SlidesLink": null
@@ -758,7 +768,7 @@
         "Track": null,
         "Day": 1,
         "Room": "4",
-        "SessionNumber": 2,
+        "SessionNumber": 1,
         "Topic": "Migration to Kubernetes in the Cloud",
         "Description": "Our path to the cloud and kubernetes included the following steps:<br/><br/>Monitor<br/>Identify Criticality<br/>12 factor conversion<br/>Azure VMs<br/>Load Testing<br/>Right Scale<br/>Production<br/>Docker Containers<br/>Kubernetes Orchestration<br/>Elastic Autoscaling<br/><br/>We will talk through each step and how we have improved our code quality along the way.<br/>",
         "SlidesLink": null
@@ -803,7 +813,7 @@
         "Id": 142,
         "Track": null,
         "Day": 1,
-        "Room": "4",
+        "Room": "2",
         "SessionNumber": 3,
         "Topic": "Important Metrics for Measuring Code Health",
         "Description": "## Outline<br/><br/>* Explore the health metaphor<br/>* Defining the metrics<br/>   * Churn<br/>   * Code Coverage<br/>   * Complexity<br/>* Tools to collect the metrics<br/>* Why these metrics?<br/>* What are good metric values?<br/>* Using the metrics together<br/>* Exploring common scenarios<br/><br/>## Learning Outcome<br/><br/>An understanding of the meaning of 3 important software metrics (churn, code coverage, and complexity) and how to interpret values in combination.<br/><br/>## Target Audience<br/><br/>Developers, Managers, Product Owners",
@@ -826,7 +836,7 @@
         "Id": 150,
         "Track": null,
         "Day": 1,
-        "Room": "4",
+        "Room": "3",
         "SessionNumber": 5,
         "Topic": "7 Habits of Highly Paid Developers",
         "Description": "Software and website developers are in extremely high demand and rates continue to climb, but many developers have not yet realized their potential. Being good at what you do is important, but it's equally important that you can communicate the value you bring to an organization and build a reputation that will provide opportunities for growth, both professionally and financially. We will work together to measure your accomplishments, establish a personal brand, and walk away with a resume that conveys your true value!",
@@ -881,9 +891,9 @@
       {
         "Id": 152,
         "Track": null,
-        "Day": 1,
-        "Room": "4",
-        "SessionNumber": 6,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 1,
         "Topic": "Performance tuning your progressive web app (PWA)",
         "Description": "Your users deserve a fast and responsive web app and PWAs help you step that up a notch through notifications, offline support and more. <br/>There's a lot that goes into that from understanding how the DOM tree works and how that plays with CSS and JavaScript to how to leverage the ServiceWorker for cashing and push notifications. <br/>In this session, we'll build a PWA that show cases many of the things you need to keep in mind when building a great and fast progressive web app. ",
         "SlidesLink": null
@@ -892,8 +902,8 @@
         "Id": 153,
         "Track": null,
         "Day": 1,
-        "Room": "4",
-        "SessionNumber": 7,
+        "Room": "3",
+        "SessionNumber": 6,
         "Topic": "Leadership 101",
         "Description": "\"The company picks the manager, the team picks the leader. Sometimes you are lucky enough that it's the same person.\" This is something that one of my first technical mentors told me. I really wasn't able to fully comprehend that statement until much later in my career as I've had a lot of great leaders in my life, only a small percentage of whom were actually my manager as well. <br/>In this talk, we'll dive into what it means to be a leader both as an individual contributor and as a manager. ",
         "SlidesLink": null
@@ -948,7 +958,7 @@
         "Id": 160,
         "Track": null,
         "Day": 2,
-        "Room": "3",
+        "Room": "4",
         "SessionNumber": 1,
         "Topic": "Strategies for Fostering Collaboration and Building a Foundation for a Unified Team",
         "Description": "Game and Software industry veterans share real world strategies that help bring teams together to create better products. We will talk about big picture ideas like communication and creating buy in. These concepts will be brought to life with anecdotes and specific strategies we found successful in unifying interdisciplinary teams. Topics will include development diaries, team communication apps, postmortems, and more.",
@@ -970,9 +980,9 @@
       {
         "Id": 170,
         "Track": null,
-        "Day": 2,
-        "Room": "4",
-        "SessionNumber": 1,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 7,
         "Topic": "Automating and auditing your infrastructure",
         "Description": "A slew of tools are all ripe for automating your SDLC: Github, Packer, Jenkins, Terraform. How do you take them off your desktop and put them into the cloud? You want automation with security and audit-ability, so let's go from code to cloud! Connect all of the tools you've heard of, see exactly what went on, and barely push any buttons… unless you want to.<br/><br/>We will begin with a live walk-through, taking code commits of basic terraform, a packer file, some application code, and demonstrating how jenkins and github can glue it all together in AWS for pennies, with speed, automation, security and visibility. <br/><br/>After the walk-through, I will highlight the connections and configurations of each, and explain how simple it is for these tools to get you automated fast, whether you're a one man crew or supporting a cast of hundreds.",
         "SlidesLink": null
@@ -1008,29 +1018,6 @@
         "SessionNumber": 4,
         "Topic": "Angular Prototyping and Documentation with StackBlitz",
         "Description": "Modern web frameworks are often built on a stack of advanced tools. These tool chains can act as a barrier for developers and designers who are looking to quickly spin up an example application, create a bug repo or start a prototype.<br/><br/>StackBlitz is a web based IDE and build environment. With a click of a button StackBlitz will launch an editor, install dependencies, build your Angular application, start a development server and provide a link that can be used to invite others to participate. After taking a tour of StackBlitz’s most popular prototyping features we’ll take a look at how StackBlitz is used for documentation by the Angular team at Google as well as Angular Boot Camp.<br/>",
-        "SlidesLink": null
-      }
-    ]
-  },
-  {
-    "Id": 99,
-    "FirstName": "Jan",
-    "LastName": "Jorgensen",
-    "Bio": "Curriculum Manager (Full Stack Web) at Trilogy Education Services & Full Time RVer. Obsessed with teaching, learning, and writing usable APIs. I have too many hobbies.",
-    "Website": "http://www.ramblinjan.com",
-    "Twitter": "ramblinjan",
-    "Photo": "jorgensen-jan.jpg",
-    "Company": "Trilogy Education Services",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 175,
-        "Track": null,
-        "Day": 2,
-        "Room": "4",
-        "SessionNumber": 3,
-        "Topic": "How to Learn Anything and Teach JavaScript",
-        "Description": "Learning to develop web apps is hard, but clearly it’s possible and even fun. Many of us have read about or heard why it’s hard, and plenty of people are working to make it easier. Yet, unlike playing violin, golfing, or even cooking at an expert level, we do not yet have a well-defined methodology for teaching or learning this in-demand skill.<br/><br/>We’ll talk about the cognitive stages of learning and how they apply to something you already have experience with -- JavaScript -- so you can not only share your expertise effectively with a newcomer, but so you have a clear path to acquire any new skill.",
         "SlidesLink": null
       }
     ]
