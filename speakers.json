@@ -566,7 +566,7 @@
     "Website": "http://yupitszac.com/",
     "Twitter": "YupItsZac",
     "Photo": "brown-zac.jpg",
-    "Company": "Nextiva",
+    "Company": null,
     "LinkedIn": null,
     "Presentations": [
       {
@@ -810,6 +810,16 @@
     "LinkedIn": null,
     "Presentations": [
       {
+        "Id": 140,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 3,
+        "Topic": "Introducing Storybook - a tool for building and documenting UI components in isolation",
+        "Description": "## Outline<br/><br/>* What is Storybook?<br/>* Getting started<br/>* Story time<br/>   * Writing your first story<br/>   * Use additional stories to showcase UI options<br/>   * Setting up actions to view events<br/>* Addons<br/>   * Knobs - UI to dynamically control the way your component is rendered<br/>   * Info - add documentation for your components<br/>   * Storyshots - snapshot testing for your stories<br/>   * Backgrounds - make sure your components look great on multiple backrgounds<br/>   * Viewport - make sure your component renders correctly at different sizes and layouts<br/><br/>## Learning Outcome<br/><br/>A basic understanding of Storybook and how to use it to its fullest potential<br/><br/>## Target Audience<br/><br/>Developers using React, Angular or Vue to build UI components",
+        "SlidesLink": null
+      },
+      {
         "Id": 142,
         "Track": null,
         "Day": 1,
@@ -858,7 +868,7 @@
     "Id": 90,
     "FirstName": "Gary",
     "LastName": "Dowdy",
-    "Bio": null,
+    "Bio": "Gary Dowdy is an award-winning technology executive with experience in e-commerce, marketing, software development, management consulting, business development and strategic planning from start-ups to Fortune 20.<br/><br/>As Chief Technology Officer at J.B. Hunt, Gary is responsible for enterprise services that span the lifecycle of the Company’s internal and external applications and products, including emerging/disruptive technology and partnerships, advancing the company’s digital prowess and transforming to a technology-driven provider of supply chain solutions.<br/><br/>Gary received his Bachelor of Science in Computer Science from the University of Arkansas and an MBA from the Krannert School of Business at Purdue University.",
     "Website": null,
     "Twitter": null,
     "Photo": "dowdy-gary.jpg",
