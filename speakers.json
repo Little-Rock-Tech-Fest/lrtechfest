@@ -986,16 +986,6 @@
         "Topic": "Automating and auditing your infrastructure",
         "Description": "A slew of tools are all ripe for automating your SDLC: Github, Packer, Jenkins, Terraform. How do you take them off your desktop and put them into the cloud? You want automation with security and audit-ability, so let's go from code to cloud! Connect all of the tools you've heard of, see exactly what went on, and barely push any buttons… unless you want to.<br/><br/>We will begin with a live walk-through, taking code commits of basic terraform, a packer file, some application code, and demonstrating how jenkins and github can glue it all together in AWS for pennies, with speed, automation, security and visibility. <br/><br/>After the walk-through, I will highlight the connections and configurations of each, and explain how simple it is for these tools to get you automated fast, whether you're a one man crew or supporting a cast of hundreds.",
         "SlidesLink": null
-      },
-      {
-        "Id": 171,
-        "Track": null,
-        "Day": 2,
-        "Room": "4",
-        "SessionNumber": 2,
-        "Topic": "Evolution: Test Automation to Continuous Testing ",
-        "Description": "Test automation has taken on a negative connotation over the last few years, specifically in organizations that continue to silo the automation team into a separate group. These folks have the unenviable task of \"taking the latest build\" and developing test scripts for it. These scripts need to be manually executed, groomed for feature drift, and maintained like any other component of code. This is often one of the last things that occurs in a release or worse yet, \"one-sprint-behind\", so that automation is never current. This is a recipe for frustration and constant release challenges. <br/><br/>Continuous Testing (CT), in concert with Continuous Integration and Continuous Development (CI / CD) introduces the concept of test automation code, treated as code, embedded within the feature code, managed and maintained with each PR, and executed in a continuous fashion via Jenkins or another build tool. This ensures code coverage increases as your code coverage metrics trend, build over build. This ensures that your test code is always up-to-date with the feature repo, since they are developed hand-in-hand. This removes the stigma that test automation \"takes too long\" and is an expensive impediment to release, and creates the success patterns for safe, continuous release of your software, at the speed that the business can consume it.<br/><br/>This talk will explain the evolution of test automation, from the early days of silo-d teams the power of a fully integrated team leveraging both software developers and software developers in test (SDET). ",
-        "SlidesLink": null
       }
     ]
   },
@@ -1018,6 +1008,29 @@
         "SessionNumber": 4,
         "Topic": "Angular Prototyping and Documentation with StackBlitz",
         "Description": "Modern web frameworks are often built on a stack of advanced tools. These tool chains can act as a barrier for developers and designers who are looking to quickly spin up an example application, create a bug repo or start a prototype.<br/><br/>StackBlitz is a web based IDE and build environment. With a click of a button StackBlitz will launch an editor, install dependencies, build your Angular application, start a development server and provide a link that can be used to invite others to participate. After taking a tour of StackBlitz’s most popular prototyping features we’ll take a look at how StackBlitz is used for documentation by the Angular team at Google as well as Angular Boot Camp.<br/>",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 101,
+    "FirstName": "Aaron",
+    "LastName": "Cook",
+    "Bio": "Aaron has devoted his career to the successful release of quality software. This has variously taken the form of Sr. Director of QA for a large consulting practice in Boston, to start up product companies, to his current gig, working with exceptionally smart people, developing the next generation of the software development lifecycle (SDLC). Test automation has always been a factor in this journey, striving to deliver better quality software, faster, more reliably and predictably, enabling various business to consume those changes at their speed.<br/><br/>Aaron has spoken and presented technical classes on quality, test automation frameworks, and overall test management best practices at Segue (Borland / Microfocus) user conferences, Software Test and Performance Conferences (STPCon East and West), Software Test Analysis and Review (STAREAST) as well as STPCon Magazine, published in 2008 and 2009.",
+    "Website": "http://www.elyxor.com",
+    "Twitter": "elyxor",
+    "Photo": "cook-aaron.jpg",
+    "Company": "Elyor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 171,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 2,
+        "Topic": "Evolution: Test Automation to Continuous Testing ",
+        "Description": "Test automation has taken on a negative connotation over the last few years, specifically in organizations that continue to silo the automation team into a separate group. These folks have the unenviable task of \"taking the latest build\" and developing test scripts for it. These scripts need to be manually executed, groomed for feature drift, and maintained like any other component of code. This is often one of the last things that occurs in a release or worse yet, \"one-sprint-behind\", so that automation is never current. This is a recipe for frustration and constant release challenges. <br/><br/>Continuous Testing (CT), in concert with Continuous Integration and Continuous Development (CI / CD) introduces the concept of test automation code, treated as code, embedded within the feature code, managed and maintained with each PR, and executed in a continuous fashion via Jenkins or another build tool. This ensures code coverage increases as your code coverage metrics trend, build over build. This ensures that your test code is always up-to-date with the feature repo, since they are developed hand-in-hand. This removes the stigma that test automation \"takes too long\" and is an expensive impediment to release, and creates the success patterns for safe, continuous release of your software, at the speed that the business can consume it.<br/><br/>This talk will explain the evolution of test automation, from the early days of silo-d teams the power of a fully integrated team leveraging both software developers and software developers in test (SDET). ",
         "SlidesLink": null
       }
     ]
