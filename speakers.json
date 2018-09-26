@@ -115,9 +115,9 @@
       {
         "Id": 30,
         "Track": null,
-        "Day": 2,
+        "Day": 1,
         "Room": "2",
-        "SessionNumber": 1,
+        "SessionNumber": 7,
         "Topic": "Istio Service Mesh with kubernetes: Microservices 3.0",
         "Description": "Microservice Architecture means a lot of ‘things’ you have to prepare and account for. Just to rattle off some concepts (buzzwords): Load balancing, routing, circuit breakers, Canary and Blue/Green deployments, pool ejection, tracing, monitoring, chaos engineering, dark launches STAHP. JUST STAHP!<br/><br/>To account for any (or all) of this ‘stuff’, you have historically had to include several libraries in your code and write code to support those libraries. But aren’t *micro* services supposed to be small … micro, even?<br/><br/>Enter Istio and sidecar containers and the Service Mesh. Implement all of the above without changing your code. Move these operational concerns away from developers and into the domain of the operations people. Go home Friday at 5.<br/><br/>This session -- valuable for both developers and those in operations -- will introduce Istio and show some of its capabilities, giving you the information you need to start using the next generation of microservice tools.",
         "SlidesLink": null
@@ -411,9 +411,9 @@
       {
         "Id": 61,
         "Track": null,
-        "Day": 1,
+        "Day": 2,
         "Room": "2",
-        "SessionNumber": 7,
+        "SessionNumber": 1,
         "Topic": "A Token Walks Into a SPA...",
         "Description": "Seems like all you hear about these days are Single Page Applications. Angular, React, Vue, Ember are transforming the way we think about the frontend. But what about securing these applications? This often tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through best practices and caveats that apply to any single-page application framework.",
         "SlidesLink": null
@@ -1010,6 +1010,16 @@
     "Company": "Oasis Digital Solutions Inc",
     "LinkedIn": null,
     "Presentations": [
+      {
+        "Id": 172,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 7,
+        "Topic": "AngularFire: Bringing together Angular and Firestore for rapid application development",
+        "Description": "You have probably heard of two-way databinding, but have you heard of three-way databinding? Angular makes it easy to use two-way data binding to update the views of your web applications. When these bindings are connected to Firestore your applications can suddenly read and write in real time straight from the database. In this talk, Paul will demonstrate how easy it is to get started with both Angular and Firestore by live coding a simple chat application.",
+        "SlidesLink": null
+      },
       {
         "Id": 173,
         "Track": null,
