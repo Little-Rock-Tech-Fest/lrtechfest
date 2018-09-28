@@ -36,9 +36,9 @@
       {
         "Id": 10,
         "Track": null,
-        "Day": 2,
-        "Room": "3",
-        "SessionNumber": 6,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 7,
         "Topic": "Microservices Hurt, But I Like It.",
         "Description": "You've heard about the benefits of microservices. You've heard how billion dollar unicorn companies with thousands of developers have improved their productivity, become invulnerable to scaling issues and solved the problem of distributed computing with a handful of open source projects.<br/><br/>Join me to watch a 40 minute, slow motion replay of reality punching my team in the gut as we spent three years evolving our microservices stack in the cloud. This is a service provider and language agnostic look at approaching distributed computing if your team is still small enough to fed by two pizzas.",
         "SlidesLink": null
@@ -115,9 +115,9 @@
       {
         "Id": 30,
         "Track": null,
-        "Day": 1,
-        "Room": "2",
-        "SessionNumber": 7,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 6,
         "Topic": "Istio Service Mesh with kubernetes: Microservices 3.0",
         "Description": "Microservice Architecture means a lot of ‘things’ you have to prepare and account for. Just to rattle off some concepts (buzzwords): Load balancing, routing, circuit breakers, Canary and Blue/Green deployments, pool ejection, tracing, monitoring, chaos engineering, dark launches STAHP. JUST STAHP!<br/><br/>To account for any (or all) of this ‘stuff’, you have historically had to include several libraries in your code and write code to support those libraries. But aren’t *micro* services supposed to be small … micro, even?<br/><br/>Enter Istio and sidecar containers and the Service Mesh. Implement all of the above without changing your code. Move these operational concerns away from developers and into the domain of the operations people. Go home Friday at 5.<br/><br/>This session -- valuable for both developers and those in operations -- will introduce Istio and show some of its capabilities, giving you the information you need to start using the next generation of microservice tools.",
         "SlidesLink": null
@@ -508,29 +508,6 @@
         "SessionNumber": 5,
         "Topic": "Micro-metrics to forecast performance Tsunamis",
         "Description": "Elevator Pitch<br/> In recent times, hyper sensitive micro-metrics measuring technologies are employed to forecast Tsunamis. Similarly, it's hard to forecast production performance problems beforehand. In this session you will learn the micro-metrics to be measured in dev/test environments that can forecast production performance problems with fair level of accuracy.<br/><br/>Abstract<br/><br/>Most enterprises measure macro-metrics (response time, CPU utilization, memory consumption) only. These macro-metrics aren't adequate to forecast lot of production performance problems. Below is the list of micro-metrics that an enterprise can measure to forecast and detect performance problems:<br/><br/>1. GC Latency<br/><br/>In all the modern platforms, garbage collection is automatic. Even though GC is automatic, it's not free. GC pauses entire application. It means all the customer transactions that are in motion will be frozen until GC completes. GC latency is good micro-metrics to measure. GC latency is the amount of timew application is paused to do garbage collection. Increase in GC latency is a lead indicator of memory problems in the application.<br/><br/>2. GC Throughput<br/><br/>Garbage collection throughput is the amount of time your application spends in processing customer transactions vs amount of time it spends in doing garbage collection. One should target for high throughput (i.e. application should spend more time in processing customer transactions and less time in GC). Degradation in GC throughput is a lead indicator of increase in compute resource consumption.<br/><br/>3. Object creation/reclamation/promotion rate<br/><br/>The rate at which objects are created heavily influences CPU utilization. If inefficient data structures or code are used, then more objects will be generated to process the same number of transactions. A high object creation rate translates to frequent reclamation (i.e. Garbage Collection). Frequent GC translates to increased CPU consumption. Increase in Object creation/reclamation rate is a classic indicator of memory/CPU problems that is pervasive in the application.<br/><br/>4. Thread count and states<br/><br/>Application threads can be different states: NEW, RUNNABLE, WAITING, TIME_WAITING, BLOCKED, TERMINATED. If there is an increase in count of particular type of thread states, it should be evaluated. Too many BLOCKED threads can make application unresponsive. Too many RUNNABLE threads can cause CPU spikes.<br/><br/>5. Thread groups and their utilization<br/><br/>Thread group is a collection of threads doing particular type of tasks. Enterprise applications can have multiple thread groups. Each group thread count and states of those threads should be analyzed. Sometimes threads in critical thread groups may be fully consumed, sometimes there could be overallocation, sometimes there could be under allocation. <br/><br/>6. Memory wastage<br/><br/>Application memory is wasted in the form of duplicate objects, suboptimal data types, inefficient data structures, over-allocated but underutilized objects. We want to constantly measure memory wastage between releases. If there is an increase in the amount of memory wastage then application will suffer memory problems, response time degradations and CPU spikes. <br/><br/>How to source these micro-metrics?<br/><br/>GC Latency, GC Throughput, Object creation/reclamation/promotion rate metrics can be sourced from garbage collection logs. Thread Count and states, thread groups and their utilization metrics can be sourced from thread dumps. Memory wastage metrics can be sourced from heap dumps. In this session brief overview will be given on how to capture and analyze GC logs, thread dumps and heap dumps as well.<br/>",
-        "SlidesLink": null
-      }
-    ]
-  },
-  {
-    "Id": 43,
-    "FirstName": "Louisa",
-    "LastName": "Barrett",
-    "Bio": "Louisa is the Director of the Front-End Engineering program at the Turing School of Software and Design. She is the former director of Colorado for Women Who Code and past chapter leader for Girl Develop It Denver/Boulder. She began her career as an illustrator and graphic designer, and a passion for understanding people lead her to programming. She has a soft spot for UX, typography, and correcting students when they refer to an assignment operator as an ‘equals sign’.",
-    "Website": "http://turing.io/",
-    "Twitter": "weesie_b",
-    "Photo": "barrett-louisa.jpg",
-    "Company": "Turing School of Software and Design",
-    "LinkedIn": null,
-    "Presentations": [
-      {
-        "Id": 76,
-        "Track": null,
-        "Day": 1,
-        "Room": "3",
-        "SessionNumber": 4,
-        "Topic": "Ruby not Red: Color Theory for the Rest of Us",
-        "Description": "This talk will be broken into 5 sections:<br/><br/>### 1) What is Color Blindness?<br/><br/>Explain common types of color blindness. This is to increase audience understanding and empathy, as well as provide context as to why this is something we need to be conscious of and work to improve our efforts to address it effectively.<br/><br/>### 2) The Color Wheel and Dangerous Color Combos<br/><br/>How to evaluate and avoid tricky color combinations, and how to make better color pairing decisions.<br/><br/>### 3) Typography, Text, and Legibility<br/><br/>How color, contrast, and size can impact a user's ability to read text.<br/><br/>### 4) UX Patterns<br/><br/>Which UI trends lend themselves to accessibility, and strategies for successfully adapting those that do not.<br/><br/>### 5) Links, Buttons, and Forms<br/><br/>Strategies for making these utilitarian elements more usable for everyone.<br/><br/>### Conclusion<br/><br/>Making choices that increase visual accessibility ultimately increase how usable our work -- and the web -- is for everyone.",
         "SlidesLink": null
       }
     ]
