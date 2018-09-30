@@ -220,11 +220,11 @@
     "Id": 25,
     "FirstName": "Daniel",
     "LastName": "Costea",
-    "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of technologies like: ASP.NET MVC, WebAPI, HTML, CSS, Javascript, SQL, Clean Code, IoT.<br/>He works as:<br/>- trainer at Fortech (a Romanian software services company headquartered in Cluj-Napoca)<br/>- discipline manager and trainer at Informal School of IT Romania<br/>- owner of Apex Code Ltd (a small company delivering training solutions, organizing workshops and bootcamps)",
+    "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of other technologies like: ASP.NET MVC, WebAPI, ASP.NET Core, Clean Code, IoT.<br/><br/>He works as:<br/>- owner of Apex Code Ltd (a small company delivering training solutions, organizing workshops and bootcamps)<br/>- trainer at Fortech (a Romanian software services company headquartered in Cluj-Napoca)",
     "Website": "https://www.linkedin.com/in/danielcostea/",
     "Twitter": "dfcostea",
     "Photo": "costea-daniel.jpg",
-    "Company": "Apex Code, Fortech, ISIT",
+    "Company": "Apex Code, Fortech",
     "LinkedIn": null,
     "Presentations": [
       {
@@ -234,7 +234,7 @@
         "Room": "1",
         "SessionNumber": 2,
         "Topic": "Raspberry Pi Invasion: The Second Wave Part 2",
-        "Description": "Microsoft new vision “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT.  In this session you will see a real-time (SignalR) ASP.NET Core 2.1 application reading sensors and making ML predictions. The application is running in Docker container on Raspberry Pi 3 powered by Raspbian OS.    .NET Core is here to stay!  ",
+        "Description": "Artificial Intelligence and Internet of Things will bring a new revolution like electricity or smartphones and Machine Learning will change the way we code.<br/><br/>In this session it's time to get something useful from our sensors, something like prediction. Processing the data in old fashion way is very complex and rigid. Use Machine Learning instead! It’s easy, it’s flexible and it works!",
         "SlidesLink": null
       },
       {
@@ -244,7 +244,7 @@
         "Room": "1",
         "SessionNumber": 1,
         "Topic": "Raspberry Pi Invasion: The Second Wave",
-        "Description": "Microsoft new vision “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT.<br/>In this session you will see a real-time (SignalR) ASP.NET Core 2.1 application reading sensors and making ML predictions. The application is running in Docker container on Raspberry Pi 3 powered by Raspbian OS.<br/><br/>.NET Core is here to stay!<br/>",
+        "Description": "The new vision of Microsoft, “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT. In this session you will see a web application running on Linux and reading sensors in real-time.<br/><br/>I will present a demo with the latest web technologies from Microsoft, like: ASP.NET Core 2.1 and SignalR on a Raspberry Pi 3 device.<br/><br/>.NET Core is here to stay!",
         "SlidesLink": null
       }
     ]
@@ -302,7 +302,7 @@
     "Bio": "",
     "Website": "",
     "Twitter": "",
-    "Photo": "missing.png",
+    "Photo": "cummins-shawn.jpg",
     "Company": "",
     "LinkedIn": null,
     "Presentations": [
