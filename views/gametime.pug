@@ -1,0 +1,225 @@
+extends layout
+
+block hero
+	section#hero.hero-section.bg1.light-text
+
+		div.video-bg
+			video(autoplay, loop, muted)
+				source(src="video/2017-promo-web.mp4", type="video/mp4")
+				source(src="video/2017-promo-web.ogv", type="video/ogv")
+				source(src="video/2017-promo-web.webm", type="video/webm")
+
+		ul.socials-nav
+			li.socials-nav-item
+				a(href="https://twitter.com/LRTechFest" target="_blank")
+					span.fa.fa-twitter
+			li.socials-nav-item
+				a(href="https://www.facebook.com/LittleRockTechFest" target="_blank")
+					span.fa.fa-facebook
+			li.socials-nav-item
+				a(href="mailto:info@lrtechfest.com?Subject=TechFest")
+					span.fa.fa-envelope
+		.heading-block.centered-block.align-center
+			.container
+				h5.heading-alt(style="margin-bottom: 8px;")
+					.date
+						span.fa.fa-calendar-o.base-clr-txt
+						span October 4 - 5, 2018
+					.loc
+						span.fa.fa-map-marker.base-clr-txt
+						span Little Rock, AR
+				h1.extra-heading Little Rock Tech Fest
+				h6.thin.base-font Two days of learning, networking, and fun for web and software developers
+				.btns-container
+					a.btn.btn-primary.btn-md(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884?ref=website" target="new") Buy Tickets
+					a.btn.btn-danger.btn-md(href="#" data-modal-link="0") Video
+
+
+block content
+
+	section#about.section.align-center
+		.container
+
+	section#speakers.section.align-center
+
+		.container
+
+			- day = Number(moment().format('d'))
+			- hour = Number(moment().format('h'))
+			- upNext = Number(moment().add(1, 'hours').format('h'))
+			
+			span.icon.section-icon Speaking Now
+			h3 #{moment().format('dddd hh:mm A')}
+			p.lead 
+
+			.row
+				each speaker in speakers
+					each presentation in speaker.Presentations
+						//- console.log(presentation)
+							//- if presentation.Day === 1
+								//- if presentation.SessionNumber === 1
+						if presentation.PresentationDay === day
+							if presentation.PresentationHour === hour
+								.col-sm-3
+									.speaker
+										.photo-wrapper.rounded
+											a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+												img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+										a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+											h3.name #{speaker.FirstName} #{speaker.LastName}
+										p.text-alt
+											small #{speaker.Company}
+										each presentation in speaker.Presentations
+											//- if presentation.SessionNumber === 1
+											if presentation.PresentationHour === hour
+												p(style="font-weight:700") Room #{presentation.PresentationRoom}
+												p.about
+													strong #{presentation.Topic}
+										ul.speaker-socials
+											if (speaker.Twitter)
+												li
+													a(href='https://twitter.com/' + speaker.Twitter target="new")
+														span.fa.fa-twitter
+											if (speaker.Website)
+												li
+													a(href=speaker.Website target="new")
+														span.fa.fa-globe
+
+
+		.container
+
+			span.icon.section-icon Speaking Next
+			h3 #{moment().add(1, 'hours').format('dddd h A')}
+			p.lead 
+
+			.row
+				each speaker in speakers
+					each presentation in speaker.Presentations
+						if presentation.PresentationDay === day
+							if presentation.PresentationHour === upNext
+								.col-sm-3
+									.speaker
+										.photo-wrapper.rounded
+											a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+												img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+										a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+											h3.name #{speaker.FirstName} #{speaker.LastName}
+										p.text-alt
+											small #{speaker.Company}
+										each presentation in speaker.Presentations
+											if presentation.PresentationHour === hour
+												p(style="font-weight:700") Room #{presentation.PresentationRoom}
+												p.about
+													strong #{presentation.Topic}
+										ul.speaker-socials
+											if (speaker.Twitter)
+												li
+													a(href='https://twitter.com/' + speaker.Twitter target="new")
+														span.fa.fa-twitter
+											if (speaker.Website)
+												li
+													a(href=speaker.Website target="new")
+														span.fa.fa-globe
+
+			a.btn.btn-block(href="/speakers") View the full lineup
+
+	section#sponsors.section.align-center
+		.container
+			span.icon.section-icon.icon-documents-bookmarks-12
+			h3 Sponsors
+			p.lead These are the organizations that help us make this event possible. 
+
+			h5.heading-alt Platinum
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Platinum"
+						.sponsor.platinum
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Gold
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Gold"
+						.sponsor.gold
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Silver
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Silver"
+						.sponsor.silver
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+			h5.heading-alt Bronze
+			.sponsors
+				each sponsor in sponsors
+					if sponsor.Level == "Bronze"
+						.sponsor.bronze
+							a(href=sponsor.Website target="_blank")
+								img(src=sponsor.Logo alt=sponsor.Name)
+
+	section.section.align-center
+		.container
+			p.lead LRTF is brought to you with #[i.fa.fa-heart] by
+			br
+			.speakers.masonry
+				each member in team
+					.speaker.masonry-item.mansonry-brick
+						.speaker-top
+							.photo-wrapper.rounded
+								img.img-responsive(src="img/team/" + member.imgUrl)
+							.speaker-title
+								h3.name #{member.name}
+								p.text-alt #[small #{member.firstTitle} @ #{member.firstCompany}] 
+									if member.secondTitle && member.secondCompany
+										| / #[small #{member.secondTitle} @ #{member.secondCompany}]
+							ul.speaker-socials
+								if member.twitter
+									li
+										a(href="http://twitter.com/" + member.twitter target="_blank")
+											span.fa.fa-twitter
+
+								if member.linkedin
+									li
+										a(href="http://linkedin.com/in/" + member.linkedin target="_blank")
+											span.fa.fa-linkedin
+
+								if member.github
+									li
+										a(href="http://github.com/" + member.github target="_blank")
+											span.fa.fa-github
+
+								if member.website
+									li
+										a(href=member.website target="_blank")
+											span.fa.fa-globe
+	section#location
+		.contacts-wrapper
+			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")
+
+			.container.contacts-on-map-container
+				.contacts-on-map
+					h3 Event Location
+					h5 Statehouse Convention Center
+					ul.list
+						li
+							i.fa.fa-map-marker
+							span 101 E Markham St, Little Rock, AR 72201
+						li
+							i.fa.fa-map-o
+							a(href="https://www.google.com/maps/place/Statehouse+Convention+Center/@34.7487084,-92.2728966,17z/data=!4m13!1m7!3m6!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!2sStatehouse+Convention+Center!3b1!8m2!3d34.7487084!4d-92.2707079!3m4!1s0x87d2bb7c7d42bb63:0x1700cdf88779977b!8m2!3d34.7487084!4d-92.2707079" target="_blank") Get directions
+
+	div(class="modal-window" data-modal="0" style="background-color: rgba(2, 2, 2, 0.85);")
+		div(class="modal-box iframe-box iframe-video")
+			span(class="close-btn icon icon-office-52")
+			iframe(src="https://www.youtube.com/embed/oUgg0eDB85M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen)
+
+
+block scripts
+
+	script(src="//maps.googleapis.com/maps/api/js?v=3&libraries=places&key=AIzaSyBI59PHKJ6RKHij4YneTlmGbjyfrX6nBG8")
+	script(src="/js/modal-box.js")
+	script(src="/js/jquery.waypoints.min.js")
