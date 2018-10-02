@@ -152,14 +152,37 @@ block content
 															each speaker in speakers
 																each presentation in speaker.Presentations
 																	if presentation.Day === 2 && presentation.Room+'-'+presentation.SessionNumber === room+'-'+i
-																		td.speaker-cell
-																			a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+
+																		if speaker.LastName+speaker.FirstName === 'DowdyGary'
+																			td.speaker-cell
 																				.panel.schedule-item
-																					.speaker 
-																						.photo-wrapper.rounded
-																							img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-																						strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
-																						p #[strong #{presentation.Topic}]
+																					a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																						.speaker
+																							.photo-wrapper.rounded
+																								img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																							strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																					a(href="/speakers/2018/trimbledaniel")
+																						.speaker(style="padding-top:15px;")
+																							.photo-wrapper.rounded
+																								img.img-responsive(src="/img/speakers/2018/trimble-daniel.jpg" alt="Speaker Photo")
+																							strong.highlight.speaker-name Daniel Trimble
+																					a(href="/speakers/2018/lacitymary")
+																						.speaker(style="padding-top:15px;")
+																							.photo-wrapper.rounded
+																								img.img-responsive(src="/img/speakers/2018/lacity-mary.jpg" alt="Speaker Photo")
+																							strong.highlight.speaker-name Dr. Mary Lacity
+																					.speaker
+																						p(style="padding-top:15px;") #[strong Blockchain Panel : "Excitement in Arkansas"]
+
+																		if presentation.Topic !== 'Blockchain Panel : "Excitement in Arkansas"'
+																			td.speaker-cell
+																				a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+																					.panel.schedule-item
+																						.speaker 
+																							.photo-wrapper.rounded
+																								img.img-responsive(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
+																							strong.highlight.speaker-name #{speaker.FirstName} #{speaker.LastName}
+																							p #[strong #{presentation.Topic}]																
 											tr.success
 												td 
 													h6.title 4:00 PM
