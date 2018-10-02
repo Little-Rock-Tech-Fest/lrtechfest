@@ -749,6 +749,16 @@
         "Topic": "Migration to Kubernetes in the Cloud",
         "Description": "Our path to the cloud and kubernetes included the following steps:<br/><br/>Monitor<br/>Identify Criticality<br/>12 factor conversion<br/>Azure VMs<br/>Load Testing<br/>Right Scale<br/>Production<br/>Docker Containers<br/>Kubernetes Orchestration<br/>Elastic Autoscaling<br/><br/>We will talk through each step and how we have improved our code quality along the way.<br/>",
         "SlidesLink": null
+      },
+      {
+        "Id": 182,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Blockchain Panel : \"Excitement in Arkansas\"",
+        "Description": "This panel will discuss the growing usage of blockchain in Arkansas.<br/><br/>Moderator: <br/>  Gary Dowdy - Chief Technology Officer at JB Hunt<br/>Panelists: <br/>  Dr. Mary Lacity - Director of Blockchain Center of Excellence at the University of Arkansas<br/>  Daniel Trimble  - Sr. Expert Software Engineer at JB Hunt",
+        "SlidesLink": null
       }
     ]
   },
@@ -858,8 +868,8 @@
         "Day": 2,
         "Room": "3",
         "SessionNumber": 5,
-        "Topic": "Panel: Blockchain",
-        "Description": null,
+        "Topic": "Blockchain Panel : \"Excitement in Arkansas\"",
+        "Description": "This panel will discuss the growing usage of blockchain in Arkansas.<br/><br/>Moderator: <br/>  Gary Dowdy - Chief Technology Officer at JB Hunt<br/>Panelists: <br/>  Dr. Mary Lacity - Director of Blockchain Center of Excellence at the University of Arkansas<br/>  Daniel Trimble  - Sr. Expert Software Engineer at JB Hunt",
         "SlidesLink": null
       }
     ]
@@ -1028,6 +1038,29 @@
         "SessionNumber": 2,
         "Topic": "Evolution: Test Automation to Continuous Testing ",
         "Description": "Test automation has taken on a negative connotation over the last few years, specifically in organizations that continue to silo the automation team into a separate group. These folks have the unenviable task of \"taking the latest build\" and developing test scripts for it. These scripts need to be manually executed, groomed for feature drift, and maintained like any other component of code. This is often one of the last things that occurs in a release or worse yet, \"one-sprint-behind\", so that automation is never current. This is a recipe for frustration and constant release challenges. <br/><br/>Continuous Testing (CT), in concert with Continuous Integration and Continuous Development (CI / CD) introduces the concept of test automation code, treated as code, embedded within the feature code, managed and maintained with each PR, and executed in a continuous fashion via Jenkins or another build tool. This ensures code coverage increases as your code coverage metrics trend, build over build. This ensures that your test code is always up-to-date with the feature repo, since they are developed hand-in-hand. This removes the stigma that test automation \"takes too long\" and is an expensive impediment to release, and creates the success patterns for safe, continuous release of your software, at the speed that the business can consume it.<br/><br/>This talk will explain the evolution of test automation, from the early days of silo-d teams the power of a fully integrated team leveraging both software developers and software developers in test (SDET). ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 103,
+    "FirstName": "Mary",
+    "LastName": "Lacity",
+    "Bio": "Dr. Lacity is a Walton Professor of Information Systems and Director of the Blockchain Center of Excellence at the University of Arkansas and author or coauthor of 28 books, most recently, of A Manager’s Guide to Blockchains for Business, SB Publishing, UK. She was previously Curators’ Distinguished Professor of IS at the University of Missouri-St. Louis. She has also held visiting positions at MIT, the London School of Economics, Washington University, and Oxford University. She is also a Senior Editor of MIS Quarterly Executive.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "lacity-mary.jpg",
+    "Company": "University of Arkansas",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 181,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Blockchain Panel : \"Excitement in Arkansas\"",
+        "Description": "This panel will discuss the growing usage of blockchain in Arkansas.<br/><br/>Moderator: <br/>  Gary Dowdy - Chief Technology Officer at JB Hunt<br/>Panelists: <br/>  Dr. Mary Lacity - Director of Blockchain Center of Excellence at the University of Arkansas<br/>  Daniel Trimble  - Sr. Expert Software Engineer at JB Hunt",
         "SlidesLink": null
       }
     ]
