@@ -40,16 +40,16 @@ block content
 				| lineup!
 			.schedule
 				ul.nav.nav-schedule
-					li.active
+					li
 						a(href='#day1' data-toggle='tab')
 							h5.highlight Day 1
 							p.text-alt Thursday, October 4th
-					li
+					li.active
 						a(href='#day2' data-toggle='tab')
 							h5.highlight Day 2
 							p.text-alt Friday, October 5th
 				.tab-content
-					#day1.tab-pane.fade.active.in
+					#day1.tab-pane.fade.in
 						.tab-content.tab-content-schedule
 							#day1_auditorium1.tab-pane.fade.active.in
 								#day1_auditorium1_timeline.panel-group
@@ -108,7 +108,7 @@ block content
 												td.align-center(colspan="4") 
 													h6.title 🍻 Attendee Party @ Brewski's!
 
-					#day2.tab-pane.fade.in
+					#day2.tab-pane.fade.active.in
 						.tab-content.tab-content-schedule
 							#day2_auditorium1.tab-pane.fade.active.in
 								#day2_auditorium1_timeline.panel-group
