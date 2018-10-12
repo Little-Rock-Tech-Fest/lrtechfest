@@ -222,5 +222,19 @@
 		"Your Name": "Tyler Baumgardner",
 		"Your Email": "tyler.baumgardner@abcfinancial.com",
 		"Your Phone": "501-515-5000 ext. 1589"
+	},
+	{
+		"logo": "/img/sponsors/first-orion.png",
+		"datePosted": "10/11/18",
+		"posTitle": "Linux Administrator",
+		"located": "Little Rock, AR",
+		"posType": "Full Time",
+		"posDesc": "First Orion is an industry-leading call protection/transparency and data provider, developing software and services to enable our customers to take complete control over their telecommunications, powered by world-class data and technology solutions. Our applications and in-network services provide call and text blocking, spam and robocall tagging/blocking, caller identification, caller categorization, directory assistance and complaint filing with regulatory agencies in US and abroad. With our customers help we have tagged and/or blocked over 2.5 billion calls in the past 12 months and our users file over 50,000 complaints monthly against offending callers directly to federal agencies. First Orion provides solutions to some of the largest mobile service providers in the world and features leading brands in the communication industry including PrivacyStar with offices in Washington, Arkansas and London, England. \n\n We are looking for a Linux Administrator who will be responsible for designing, implementing, and monitoring the infrastructure; also, to collaborate with other team members to develop automation strategies and deployment processes.  Additional job responsibilities include: \n-Helping to tune performance and ensure high availability of infrastructure\n-Designing and developing infrastructure monitoring and reporting tools\n-Developing and maintaining configuration management solutions\n -On Call Rotation for issues\n-Afterhours Maintenance windows for Deployment of Application updates and configuration changes\n -Creating tools to help teams make the most out of the available infrastructure\n\nRequired Skills:\n-Experience with Linux servers in virtualized environments\n-Familiarity with the fundamentals of Linux scripting languages\n-A solid understanding of the Linux boot process and problem diagnosis\n-Experience installing, configuring, and maintaining services such as Apache, MySQL, Nginx and SNMP\n-Proficient with network tools such as Iptables, Linux IPVS and HAProxy\n-Ability to build and monitor services on production servers\n\nNice To Have Skills:\n-5+ years of industry experience focused on Linux including both software \n development and system administration\n-Bachelor of Science in Computer Science or related area of study\n-Telecommunications experience\n-Familiarity with load balancing and firewalls\n-Strong grasp on configuration management tools, such as Puppet and Chef \n-Experience maintaining open source packages and/or working with the open source community\n-Experience maintaining large scale Linux implementations\n-Proficient with Python and familiar with C, C++ and Java",
+		"appLink": "https://grnh.se/fca877f41",
+		"orgName": "First Orion",
+		"orgDesc": "At First Orion we offer a competitive salary, full benefit package including matching 401(k) and an open paid time off policy. Our work environment is energetic, focused, fun, and collaborative. We’ve created a special culture where trust and transparency are key and employees are empowered to make their own decisions. Our people are passionate about what we do and have an indomitable spirit to get things done. Everyone is a part of the big picture here.\n\nFirst Orion Voted Great Place to Work US with Top Rankings in every category! Check out the full spread here: http://ow.ly/a731303vHps.\n\nFirst Orion is an Affirmative Action and Equal Opportunity Employer. Apply today!",
+		"Your Name": "Allison Nicholas",
+		"Your Email": "anicholas@privacystar.com",
+		"Your Phone": "501.269.4119"
 	}
 ]
