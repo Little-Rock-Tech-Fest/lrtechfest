@@ -26,14 +26,14 @@ block hero
 				h5.heading-alt(style="margin-bottom: 8px;")
 					.date
 						span.fa.fa-calendar-o.base-clr-txt
-						span October 4 - 5, 2018
+						span October 10 - 11, 2019
 					.loc
 						span.fa.fa-map-marker.base-clr-txt
 						span Little Rock, AR
 				h1.extra-heading Little Rock Tech Fest
 				h6.thin.base-font Two days of learning, networking, and fun for web and software developers
 				.btns-container
-					a.btn.btn-primary.btn-md(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884?ref=website" target="new") Buy Tickets
+					//- a.btn.btn-primary.btn-md(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884?ref=website" target="new") Buy Tickets
 					//- a.btn.btn-info.btn-md(href="https://www.papercall.io/lrtf2018" target="new") Call For Speakers
 					a.btn.btn-danger.btn-md(href="#" data-modal-link="0") Video
 					//- a(class="btn btn-info btn-md" href="http://usergroup.tv/videos/category/group/little-rock-tech-fest" target="_blank") Watch LRTF 2017 Videos!
@@ -59,7 +59,7 @@ block content
 		.container
 			.icon.section-icon.icon-multimedia-12
 			h3 You want to be at #LRTF#{moment().format('YYYY')}
-			p.lead This will be a full two days of  format, hosted on October 4th and 5th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
+			p.lead This will be a full two days of  format, hosted on October 10th and 11th<br class="hidden-sm hidden-xs"/> at the Statehouse Convention Center in Little Rock, Arkansas.
 
 			.col-sm-6
 				p.align-left Little Rock Tech Fest is an annual developer conference featuring popular web, mobile, database, devops and related developer topics from industry leaders. It is the event in Little Rock for both professional and aspiring software developers. Speakers from across the country come to present. Students and professionals from across Arkansas and surrounding regions come to learn and network with peers.
@@ -70,127 +70,131 @@ block content
 
 				p.align-left This is our #[strong #{converter.toWordsOrdinal(moment().diff('2011-10-01', 'years'))}] year hosting the event.  Will you join us?
 
-	section#speakers.section.align-center
-		.container
-			span.icon.section-icon.icon-faces-users-04
-			h3 Speakers
-			p.lead We have more 
-				span.highlight speakers 
-				| than ever before planned for #{moment().format('YYYY')}!
-			each val, i in speakers
-				if (i % 4 == 0)
-					.row
-						each speaker, ii in speakers.slice(i, i+4)
-							if slugs(speaker.FirstName+speaker.LastName) !== 'placeholder'
-								.col-sm-3
-									.speaker
-										.photo-wrapper.rounded
+	//-
+		section#speakers.section.align-center
+			.container
+				span.icon.section-icon.icon-faces-users-04
+				h3 Speakers
+				p.lead We have more 
+					span.highlight speakers 
+					| than ever before planned for #{moment().format('YYYY')}!
+				each val, i in speakers
+					if (i % 4 == 0)
+						.row
+							each speaker, ii in speakers.slice(i, i+4)
+								if slugs(speaker.FirstName+speaker.LastName) !== 'placeholder'
+									.col-sm-3
+										.speaker
+											.photo-wrapper.rounded
+												a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
+													img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
 											a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
-												img(src="/img/speakers/2018/" + speaker.Photo alt="Speaker Photo")
-										a(href="/speakers/2018/"+slugs(speaker.LastName+speaker.FirstName))
-											h3.name #{speaker.FirstName} #{speaker.LastName}
-										p.text-alt
-											small #{speaker.Company}
-										each presentation in speaker.Presentations
-											p.about
-												strong #{presentation.Topic}
-										ul.speaker-socials
-											if (speaker.Twitter)
-												li
-													a(href='https://twitter.com/' + speaker.Twitter target="new")
-														span.fa.fa-twitter
-											if (speaker.Website)
-												li
-													a(href=speaker.Website target="new")
-														span.fa.fa-globe
-			a.btn.btn-block(href="/speakers") View the full lineup
+												h3.name #{speaker.FirstName} #{speaker.LastName}
+											p.text-alt
+												small #{speaker.Company}
+											each presentation in speaker.Presentations
+												p.about
+													strong #{presentation.Topic}
+											ul.speaker-socials
+												if (speaker.Twitter)
+													li
+														a(href='https://twitter.com/' + speaker.Twitter target="new")
+															span.fa.fa-twitter
+												if (speaker.Website)
+													li
+														a(href=speaker.Website target="new")
+															span.fa.fa-globe
+				a.btn.btn-block(href="/speakers") View the full lineup
 
-	section#sponsors.section.align-center
-		.container
-			span.icon.section-icon.icon-documents-bookmarks-12
-			h3 Sponsors
-			p.lead These are the organizations that help us make this event possible. 
-			//-<a href="/sponsors">Want to see your logo here?</a>
+	//-
+		section#sponsors.section.align-center
+			.container
+				span.icon.section-icon.icon-documents-bookmarks-12
+				h3 Sponsors
+				p.lead These are the organizations that help us make this event possible. 
+				//-<a href="/sponsors">Want to see your logo here?</a>
 
-			h5.heading-alt Platinum
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Platinum"
-						.sponsor.platinum
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
+				h5.heading-alt Platinum
+				.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Platinum"
+							.sponsor.platinum
+								a(href=sponsor.Website target="_blank")
+									img(src=sponsor.Logo alt=sponsor.Name)
 
-			h5.heading-alt Gold
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Gold"
-						.sponsor.gold
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
+				h5.heading-alt Gold
+				.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Gold"
+							.sponsor.gold
+								a(href=sponsor.Website target="_blank")
+									img(src=sponsor.Logo alt=sponsor.Name)
 
-			h5.heading-alt Silver
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Silver"
-						.sponsor.silver
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
+				h5.heading-alt Silver
+				.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Silver"
+							.sponsor.silver
+								a(href=sponsor.Website target="_blank")
+									img(src=sponsor.Logo alt=sponsor.Name)
 
-			h5.heading-alt Bronze
-			.sponsors
-				each sponsor in sponsors
-					if sponsor.Level == "Bronze"
-						.sponsor.bronze
-							a(href=sponsor.Website target="_blank")
-								img(src=sponsor.Logo alt=sponsor.Name)
+				h5.heading-alt Bronze
+				.sponsors
+					each sponsor in sponsors
+						if sponsor.Level == "Bronze"
+							.sponsor.bronze
+								a(href=sponsor.Website target="_blank")
+									img(src=sponsor.Logo alt=sponsor.Name)
 
-	section#gallery.section.align-center
-		.container
-			span.icon.section-icon.icon-graphic-design-06
-			h3 Gallery
-			p.lead Highlights from our #[a(href="https://twitter.com/search?q=%23LRTF2017" target="new") #LRTF2017] event.
-			.gallery.masonry
-				each photo in photos
-					span.masonry-item.masonry-brick
-						a.gallery-thumb-link(data-modal-link=photo.Pos)
-							img(src=photo.Thumb alt=photo.Alt)
+	//-
+		section#gallery.section.align-center
+			.container
+				span.icon.section-icon.icon-graphic-design-06
+				h3 Gallery
+				p.lead Highlights from our #[a(href="https://twitter.com/search?q=%23LRTF2017" target="new") #LRTF2017] event.
+				.gallery.masonry
+					each photo in photos
+						span.masonry-item.masonry-brick
+							a.gallery-thumb-link(data-modal-link=photo.Pos)
+								img(src=photo.Thumb alt=photo.Alt)
 
-						.modal-window(data-modal=photo.Pos)
-							.modal-box.medium.animated(data-animation="zoomIn" data-duration="700")
-								span.close-btn.icon.icon-office-52
-								//-h5.heading-alt photo.Alt
-								img(src=photo.Full alt=photo.Alt)
+							.modal-window(data-modal=photo.Pos)
+								.modal-box.medium.animated(data-animation="zoomIn" data-duration="700")
+									span.close-btn.icon.icon-office-52
+									//-h5.heading-alt photo.Alt
+									img(src=photo.Full alt=photo.Alt)
 
-	section#tickets.section.align-center
-		.container
-			span.icon.section-icon.icon-shopping-04
-			h3 Tickets
-			br
-			br
-			div.row
-				div.col-sm-4.col-sm-offset-2
-					.package-column.package-bright
-						h6.package-title Student Ticket
-						div.package-price
-							span.currency $75
-						div.package-detail
-							ul
-								li
-									span.fa.fa-check.check-icon
-									span Lunch both days
-								li
-									span.fa.fa-check.check-icon
-									span T-shirt
-								li
-									span.fa.fa-check.check-icon
-									span Swag
-								li
-									span.fa.fa-check.check-icon
-									span Must have valid .edu email.
-								li
-									| &nbsp;
+	//-
+		section#tickets.section.align-center
+			.container
+				span.icon.section-icon.icon-shopping-04
+				h3 Tickets
+				br
+				br
+				div.row
+					div.col-sm-4.col-sm-offset-2
+						.package-column.package-bright
+							h6.package-title Student Ticket
+							div.package-price
+								span.currency $75
+							div.package-detail
+								ul
+									li
+										span.fa.fa-check.check-icon
+										span Lunch both days
+									li
+										span.fa.fa-check.check-icon
+										span T-shirt
+									li
+										span.fa.fa-check.check-icon
+										span Swag
+									li
+										span.fa.fa-check.check-icon
+										span Must have valid .edu email.
+									li
+										| &nbsp;
 
-						a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Student' });" target="_blank") Buy now
+							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-outline-clr" onclick="fbq('track', 'Lead', { type: 'Student' });" target="_blank") Buy now
 				//--
 					div.col-sm-4
 						div.package-column.special-column#earlybird
@@ -235,43 +239,43 @@ block content
 									| &nbsp;
 								li
 									| &nbsp;
-
 							a(href="https://www.eventbrite.com/e/little-rock-tech-fest-2018-tickets-46640129884" class="btn btn-lg btn-white" onclick="fbq('track', 'Lead', { type: 'Standard' });" target="_blank") Buy now
-	section.section.align-center
-		.container
-			p.lead LRTF is brought to you with #[i.fa.fa-heart] by
-			br
-			.speakers.masonry
-				each member in team
-					.speaker.masonry-item.mansonry-brick
-						.speaker-top
-							.photo-wrapper.rounded
-								img.img-responsive(src="img/team/" + member.imgUrl)
-							.speaker-title
-								h3.name #{member.name}
-								p.text-alt #[small #{member.firstTitle} @ #{member.firstCompany}] 
-									if member.secondTitle && member.secondCompany
-										| / #[small #{member.secondTitle} @ #{member.secondCompany}]
-							ul.speaker-socials
-								if member.twitter
-									li
-										a(href="http://twitter.com/" + member.twitter target="_blank")
-											span.fa.fa-twitter
+	//-							
+		section.section.align-center
+			.container
+				p.lead LRTF is brought to you with #[i.fa.fa-heart] by
+				br
+				.speakers.masonry
+					each member in team
+						.speaker.masonry-item.mansonry-brick
+							.speaker-top
+								.photo-wrapper.rounded
+									img.img-responsive(src="img/team/" + member.imgUrl)
+								.speaker-title
+									h3.name #{member.name}
+									p.text-alt #[small #{member.firstTitle} @ #{member.firstCompany}] 
+										if member.secondTitle && member.secondCompany
+											| / #[small #{member.secondTitle} @ #{member.secondCompany}]
+								ul.speaker-socials
+									if member.twitter
+										li
+											a(href="http://twitter.com/" + member.twitter target="_blank")
+												span.fa.fa-twitter
 
-								if member.linkedin
-									li
-										a(href="http://linkedin.com/in/" + member.linkedin target="_blank")
-											span.fa.fa-linkedin
+									if member.linkedin
+										li
+											a(href="http://linkedin.com/in/" + member.linkedin target="_blank")
+												span.fa.fa-linkedin
 
-								if member.github
-									li
-										a(href="http://github.com/" + member.github target="_blank")
-											span.fa.fa-github
+									if member.github
+										li
+											a(href="http://github.com/" + member.github target="_blank")
+												span.fa.fa-github
 
-								if member.website
-									li
-										a(href=member.website target="_blank")
-											span.fa.fa-globe
+									if member.website
+										li
+											a(href=member.website target="_blank")
+												span.fa.fa-globe
 	section#location
 		.contacts-wrapper
 			#contacts-map.map(data-settings="/data/map-settings.json" style="height:560px;")
