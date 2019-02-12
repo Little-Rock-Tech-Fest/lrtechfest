@@ -31,7 +31,7 @@
     "slugs": "~0.1.2"
   },
   "devDependencies": {
-    "jshint": "^2.9.5",
+    "jshint": "^2.10.1",
     "pug-lint": "^2.5.0"
   }
 }
