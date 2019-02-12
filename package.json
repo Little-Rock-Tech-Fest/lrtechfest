@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/kneumei/lrtechfest.git"
   },
+  "scripts": {  
+    "postinstall": "gulp" 
+  },
   "engines": {
     "node": "8.11.1",
     "npm": "6.7.0"
