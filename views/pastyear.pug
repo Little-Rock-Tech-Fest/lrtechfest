@@ -10,8 +10,6 @@ block content
 			h2 Sponsors #{year}
 			hr
 
-		#content
-
 		.section-content
 			#sponsors-content
 				.container-fluid
@@ -50,7 +48,6 @@ block scripts
 	script.
 
 		$('.talk-description').each(function() {
-			console.log($(this).html());
 			$(this).html(marked($(this).html()));
 		});
 
