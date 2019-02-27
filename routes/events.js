@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-var years = ["2017", "2016", "2015", "2014"];
+var years = ["2018", "2017", "2016", "2015", "2014"];
 
 /* GET event pages */
 router.get('/', function (req, res) {

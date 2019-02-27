@@ -1,0 +1,1090 @@
+[
+  {
+    "Id": 2,
+    "FirstName": "Brian",
+    "LastName": "Wentzloff",
+    "Bio": "I have several YouTube channels devoted to blockchain technology, cryptocurrencies, and DApp development using Ethereum. I am a full time developer, specializing in Python and Solidity development.",
+    "Website": "http://youtube.com/blockchainprogramming",
+    "Twitter": "brianwentzloff",
+    "Photo": "/img/speakers/2018/wentzloff-brian.jpg",
+    "Company": "Blockchain901",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 2,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 1,
+        "Topic": "Writing smart contracts in Ethereum using Solidity",
+        "Description": "This workshop will cover the basics of what blockchains are at a technical level, how smart contracts work in a blockchain context, and how they can be used in real world scenarios. Participants will see a basic distributed application built using the Solidity programming language. The paradigm of programming these applications will be discussed as well. In Solidity, you have to pay money for every line of code written. Your code is also immutable, so you need to plan for every contingency. This workshop will discuss how to balance those two seemingly conflicting concepts.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "FirstName": "Jonathan",
+    "LastName": "Barket",
+    "Bio": "I've been a software developer since Classic ASP was just regular ASP. In 2008, I accepted an invitation to be a Teaching Fellow at the Harvard Extension School because I thought having a Harvard email address would be baller. This ignited a fire in me for teaching, mentoring and being a developer advocate.\n\n\n\nMy greatest regret is that I will never be as tall as Daniel.",
+    "Website": "http://jonathanbarket.com/",
+    "Twitter": "jbarket",
+    "Photo": "/img/speakers/2018/barket-jonathan.jpg",
+    "Company": "NIC",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 10,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 7,
+        "Topic": "Microservices Hurt, But I Like It.",
+        "Description": "You've heard about the benefits of microservices. You've heard how billion dollar unicorn companies with thousands of developers have improved their productivity, become invulnerable to scaling issues and solved the problem of distributed computing with a handful of open source projects.\n\n\n\nJoin me to watch a 40 minute, slow motion replay of reality punching my team in the gut as we spent three years evolving our microservices stack in the cloud. This is a service provider and language agnostic look at approaching distributed computing if your team is still small enough to fed by two pizzas.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "FirstName": "Bill",
+    "LastName": "Dinger",
+    "Bio": "Bill is a Solutions Architect with VML working on delivering digital solutions to our clients. Over the last 15 years Bill has worked in enterprise IT starting in the trenches on the help desk. After that, Bill spent almost a decade working in infrastructure support focusing in the Microsoft stack. Over the last 5 years Bill has been developing, architecting and leading teams of software developers with VML. During that time Bill has done everything from troubleshoot dial up connections in rural Nebraska to building the digital experiences for some of America's most well known brands.\n\n\n\nWhen not working, Bill will probably be found on his bike exploring gravel roads in his hometown of Lincoln, Nebraska.",
+    "Website": "",
+    "Twitter": "adazlian",
+    "Photo": "/img/speakers/2018/dinger-bill.jpg",
+    "Company": "VML",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 57,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 5,
+        "Topic": "Continuous Security: Integrate OWASP tools into your DevOps Pipeline",
+        "Description": "OWASP has a number of flagship projects designed to help us deliver secure applications. The <a href=\\\"https://www.owasp.org/index.php/OWASP_Dependency_Check\\\" target=\\\"_blank\\\">OWASP Depedency Check</a> works with Java, .NET, and Javascript dependencies to check for known security vulnerabilities. The <a href=\\\"https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project\\\" target=\\\"_blank\\\">OWASP ZAP</a> is a attack proxy to actively probe your application and the <a href=\\\"https://www.owasp.org/index.php/OWASP_OWTF\\\" target=\\\"_blank\\\">OWTF (offensive web testing framework)</a>. Finally, we'll go over the <a href=\\\"https://www.owasp.org/index.php/Category:OWASP_Application_Security_Verification_Standard_Project\\\" target=\\\"_blank\\\">Application Security Verification Series (ASVS)</a> as it applies to your DevOps toolchain itself to make sure you know and are securing your pipeline itself.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 10,
+    "FirstName": "PJ",
+    "LastName": "Hagerty",
+    "Bio": "Developer, writer, speaker, musician, and founder of DevRelate.io, PJ is known to travel the world speaking about programming and the way people think and interact.  He is also known for wearing hats.",
+    "Website": "http://devrelate.io",
+    "Twitter": "aspleenic",
+    "Photo": "/img/speakers/2018/hagerty-pj.jpg",
+    "Company": "DevRelate.io",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 47,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 6,
+        "Topic": "Pop Songs and Programming for Fun and Profit",
+        "Description": "The idea here is to convey ideas on how to get into development and stay as a developer using the tunes and titles from popular music. It's a fun talk where learning how to be a better person leads to being a better dev.\n\n\n\nThrough a series of pop songs we’ll look at what it’s like to:\n\n\n\n- Start out on your own as a programmer - not sure where to go or to get involved in open source\n\n\n\n- Work on a team dedicated to Open Source in the crazy world of SV/SF\n\n\n\n- Open Source at a big blue company, and how large corporations view Open Source\n\n\n\n- Sharing your knowledge with the next line of new folks looking to get in on OSS\n\n\n\n- Going out on your own - giving a conference talk - being the expert and sharing what you know\n\n",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 12,
+    "FirstName": "Don",
+    "LastName": "Schenck",
+    "Bio": "A developer who has seen it all, Don is a Microsoft MVP, author of “Transitioning to .NET Core on Red Hat Enterprise Linux” by O’Reilly Media, and currently a Director of Developer Experience at Red Hat, with a focus on Microservices and Serverless computing. Prior to Red Hat, Don was a Developer Advocate at Rackspace where he was immersed in cloud technology. He enjoys cooking and studying human behavior, and loathes the designated hitter rule.\n\n\n\nDon's overarching belief is this: \"A program is not a communication between a developer and a machine; it's a communication between a developer and the next developer.\"",
+    "Website": "http://redhatloves.net",
+    "Twitter": "DonSchenck",
+    "Photo": "/img/speakers/2018/schenck-don.jpg",
+    "Company": "Red Hat",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 26,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 3,
+        "Topic": "Taking Control Of Your Life",
+        "Description": "STOP! … take a deep breath … and start now to take control of your life.\n\n \n\nFace it; as IT professional, we’re often overwhelmed with demands on our time. Family, friends, self and work are enough to keep most people on their heels, but we have to add in constant learning and imposed deadlines. What is a person to do?\n\n \n\nThis talk will give you some technologies, practices and the mindset you need to take control of your life. Stop feeling overwhelmed and scattered, as if someone else controlled your time. There’s more to life than deploying web services.\n\n \n\nDon Schenck will deliver this entertaining and possibly life-changing talk in a style that can best be described as a combination of a preacher, Tony Robbins, and a 39-year veteran of software development. You don’t want to miss this.\n\n",
+        "SlidesLink": null
+      },
+      {
+        "Id": 30,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 6,
+        "Topic": "Istio Service Mesh with kubernetes: Microservices 3.0",
+        "Description": "Microservice Architecture means a lot of ‘things’ you have to prepare and account for. Just to rattle off some concepts (buzzwords): Load balancing, routing, circuit breakers, Canary and Blue/Green deployments, pool ejection, tracing, monitoring, chaos engineering, dark launches STAHP. JUST STAHP!\n\n\n\nTo account for any (or all) of this ‘stuff’, you have historically had to include several libraries in your code and write code to support those libraries. But aren’t *micro* services supposed to be small … micro, even?\n\n\n\nEnter Istio and sidecar containers and the Service Mesh. Implement all of the above without changing your code. Move these operational concerns away from developers and into the domain of the operations people. Go home Friday at 5.\n\n\n\nThis session -- valuable for both developers and those in operations -- will introduce Istio and show some of its capabilities, giving you the information you need to start using the next generation of microservice tools.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 13,
+    "FirstName": "John",
+    "LastName": "Callaway",
+    "Bio": "An author, speaker, and Microsoft MVP, John has been a professional developer since 1999. He has focused primarily on web technologies and has experience with everything from PHP to C# to ReactJS to SignalR. Clean code and professionalism are particularly important to him, as well as mentoring and teaching others what he has learned along the way.",
+    "Website": "http://6figuredev.com/",
+    "Twitter": "matsubonsai",
+    "Photo": "/img/speakers/2018/callaway-john.jpg",
+    "Company": "The 6 Figure Developer Podcast",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 60,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 6,
+        "Topic": "TDD: A Pragmatic Approach",
+        "Description": "Unit Testing can be mysterious endeavor with a high bar for entry. It doesn't have to be that complicated. Many examples on the Internet show you how to write a Unit Test, but not how to test an entire application. We'll discuss the fundamentals of Test-Driven Development, how to approach an entire application, how to separate logical layers, and how to test the boundaries.\n\n\n\nWe'll continue to explore more advanced topics using Mocks, Fakes, and Stubs. And we'll wrap it up with a discussion on how to arrange your application and test suite to ease the pain of future enhancements and modifications.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 14,
+    "FirstName": "Clement",
+    "LastName": "Ho",
+    "Bio": "Clement is a frontend engineer at GitLab. He is a maintainer of GitLab's frontend code and a merge request coach for community contributed code. Prior to GitLab, he worked at HP and received a CIO Excellence award. He also had a brief stint as a cofounder of a startup.",
+    "Website": "https://gitlab.com/clemmakesapps",
+    "Twitter": "clemmakesapps",
+    "Photo": "/img/speakers/2018/ho-clement.jpg",
+    "Company": "GitLab",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 32,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 1,
+        "Topic": "Refactoring CSS Bloat",
+        "Description": "CSS technical debt is something we all face as our projects scale. Different companies and projects resolve these debt differently. I'd like to share about how GitLab identified our CSS bloat and what actions we have taken and are planning to take to remove our bloat and our plan to create a UI component library that adheres with a design system so that other frontend engineers can easily add new features without worrying about styling.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 22,
+    "FirstName": "Sean",
+    "LastName": "Sparkman",
+    "Bio": "I have been a software developer for 17 years now.  I have worked in various industries from advertising to voice recognition.  I love troubleshooting and problem solving.  As a team lead and senior programmer at Infinity Interactive, Inc., I do primarily C# development for web and mobile.  My passion for mobile development has driven me to found the DFW Mobile .NET User Group, found the Dev Fest Weekend conference and helped me achieve my Xamarin MVP and Microsoft MVP awards.",
+    "Website": "https://about.me/seansparkman",
+    "Twitter": "seansparkman",
+    "Photo": "/img/speakers/2018/sparkman-sean.jpg",
+    "Company": "Infinity Interactive, Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 45,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 4,
+        "Topic": "These are the anDroids you are looking for",
+        "Description": "Want to write your first Android application? Join us to learn how to write an Android application using C# with Xamarin. I will show you how to consume a real API and render the data beautifully inside of Android. Bring your laptop and follow along whether you are using Visual Studio or Visual Studio for Mac. You will walk away with a working running native Android application.\n\nC# is a great language for writing mobile applications. Anything you can do in Java and Kotlin, you can do in C#. You will be able to create native mobile application and use all of the Native API's including calling Java and Kotlin code from your C#.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 23,
+    "FirstName": "Will",
+    "LastName": "Mitchell",
+    "Bio": "I'm Will Mitchell, an engineer, teacher, learner, entrepreneur, and lover of most anything done in the sunshine. I started my life in software development as a hobby, and gradually shifted it into my career. I've worked for a variety of startups in Denver, CO, and currently teach the next generation of developers at the *Turing School of Software and Design*. When I'm not teaching my students, I enjoy traveling, going to live music, and spending time with my family.",
+    "Website": "https://wvmitchell.net",
+    "Twitter": "wvmitchell",
+    "Photo": "/img/speakers/2018/mitchell-will.jpg",
+    "Company": "Turing School of Software and Design",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 46,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 4,
+        "Topic": "Front end testing that you won't hate",
+        "Description": "Engineering on the back end has a robust testing ecosystem. Increasingly, it's possilbe to test your front end applications the same way you test the back end. \n\n\n\nIn days gone by, testing front end JavaScript code was cumbersome and brittle. However, as front end applications have become more robust and complex, it's become ever more important to thoroughly test your applications. \n\n\n\nWe'll explore common patterns in the React community then show off the power of Jest and Enzyme. You'll see that these tools utilize familiar practices and will be ready to apply them to your applications.\n\n\n\nYou will get the most out of this talk if you have some prior programming experience, particularly if you enjoy testing. However, if you're new to the field, the material will still be approachable. ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 25,
+    "FirstName": "Daniel",
+    "LastName": "Costea",
+    "Bio": "Daniel is enthusiastic about technology and knowledge sharing, therefore is not surprising he is a trainer. With C# it was love at first sight but he works with a series of other technologies like: ASP.NET MVC, WebAPI, ASP.NET Core, Clean Code, IoT.\n\n\n\nHe works as:\n\n- owner of Apex Code Ltd (a small company delivering training solutions, organizing workshops and bootcamps)\n\n- trainer at Fortech (a Romanian software services company headquartered in Cluj-Napoca)",
+    "Website": "https://www.linkedin.com/in/danielcostea/",
+    "Twitter": "dfcostea",
+    "Photo": "/img/speakers/2018/costea-daniel.jpg",
+    "Company": "Apex Code, Fortech",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 114,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "Raspberry Pi Invasion: The Second Wave Part 2",
+        "Description": "Artificial Intelligence and Internet of Things will bring a new revolution like electricity or smartphones and Machine Learning will change the way we code.\n\n\n\nIn this session it's time to get something useful from our sensors, something like prediction. Processing the data in old fashion way is very complex and rigid. Use Machine Learning instead! It’s easy, it’s flexible and it works!",
+        "SlidesLink": null
+      },
+      {
+        "Id": 49,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 1,
+        "Topic": "Raspberry Pi Invasion: The Second Wave",
+        "Description": "The new vision of Microsoft, “Any Developer, Any App, Any Platform. - Scott Hunter” is getting closer to reality through .NET Core invasion in the world of IoT. In this session you will see a web application running on Linux and reading sensors in real-time.\n\n\n\nI will present a demo with the latest web technologies from Microsoft, like: ASP.NET Core 2.1 and SignalR on a Raspberry Pi 3 device.\n\n\n\n.NET Core is here to stay!",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 26,
+    "FirstName": "Jason",
+    "LastName": "Swett",
+    "Bio": "Jason Swett is a developer, trainer, author and former panelist on the Ruby Rogues podcast.\n\n\n\nSince putting his first website online in 1996, Jason has worked with organizations like AT&T, Lenovo, VMware, HP, Dow Jones, Deloitte, Kroger and the University of Chicago.\n\n\n\nHe has taught programming in the United States, The Netherlands, Bulgaria and Nigeria.\n\n\n\nJason is also a co-organizer of the GRWebDev Meetup, the largest programming meetup West Michigan. He lives in Sand Lake, Michigan with his wife and two kids.",
+    "Website": "https://www.codewithjason.com/",
+    "Twitter": "jasonswett",
+    "Photo": "/img/speakers/2018/swett-jason.jpg",
+    "Company": "Code with Jason",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 50,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 2,
+        "Topic": "How My Lack of Testing Skills Lost Me a Job Opportunity - and What I Did About It",
+        "Description": "\"Sorry, we were looking for more of a senior-level developer. Your code needs WAY more tests.\" This was the response I got after sharing a code sample with a prospective employer. I was crushed. I thought I WAS a senior-level developer. But unlike the PHP background I had come from, employers in the Rails world expected, rightly, that candidates should know how to write tests.\n\n\n\nIt took me a few years but I did end up becoming a competent tester. I got my first full-time Rails job in 2013 at a small startup that made a health-related product. Their codebase had a test suite, which allowed me to see what a real production test suite looked like. Their test suite had some problems. There were a number of \"flapping tests\" that would fail once in a while, seemingly at random. This taught me how to reproduce flapping test failures and how to fix them (or what to do if they can't be fixed). Their test suite also used Cucumber for integration testing, which taught me the pros and cons of Cucumber.\n\n\n\nIn early 2014 I started working with a client with an \"Airbnb for surfers\" product who had only one developer and a very fragile and messy legacy codebase. This experience helped teach me how to use tests to wrangle legacy code into compliance. Working with this legacy codebase also helped me develop the skill of what Michael Feathers calls \"characterization testing\", or what I sometimes call \"reverse TDD\".\n\n\n\nIn this talk you'll learn:\n\n\n\n- Why it was hard for me to get started learning testing\n\n\n\n- How my exposure to various different codebases helped me learn what makes good and bad tests\n\n\n\n- What the high-level testing lessons I learned were\n\n\n\n- How you can get better at testing faster than I did\n\n\n\n- Testing books, tutorials and other resources you can turn to",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 27,
+    "FirstName": "Ron",
+    "LastName": "Dagdag",
+    "Bio": "During the day, Ron is a Senior Software Engineer at thyssenkrupp Elevator, where  he supports developers with their Windows, Web and 3D application development. On the side, Ron is a Hackster Ambassador and Littlebits Chapter Leader in Dallas where he organizes workshop events. He also creates resources for developers by building creative projects at www.dagdag.net. \n\nRon is passionate about studying the convergence of Augmented Reality/Virtual Reality, Machine Learning and the Internet of Things.\n\nRon Dagdag is a community leader all things .NET, C#, web development in Node and Javascript, IoT, HoloLens and Mixed Reality applications. He is a Microsoft MVP for Visual Studio and Development Technologies.\n\n",
+    "Website": "http://ron.dagdag.net/",
+    "Twitter": "rondagdag",
+    "Photo": "/img/speakers/2018/dagdag-ron.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 79,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 3,
+        "Topic": "Say What ?! Teaching our robot overlords how to understand humans.",
+        "Description": "A bot framework empowers developers to build bots that support different types of interactions with humans. We will explore conversation as a platform and focus on creating skills using the Microsoft Bot Framework. Then we’ll discuss how Cortana Skills Kit can help you easily create intelligent, personalized voice-enabled experiences. We use Language Understanding Intelligent Services (LUIS) to train our robot overlords to understand humans.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 28,
+    "FirstName": "Shawn",
+    "LastName": "Cummins",
+    "Bio": "",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "/img/speakers/2018/cummins-shawn.jpg",
+    "Company": "",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 52,
+        "Track": null,
+        "Day": 2,
+        "Room": "1",
+        "SessionNumber": 5,
+        "Topic": "A Discussion on Approaches to Web Application MultiTenancy Architecture",
+        "Description": "Generally aimed at architects, but there are things to be gained at all skill levels.\n\nThis discussion will talk about several approaches to architecting a Multitenant web application.\n\n\n\n* Full Tenancy\n\n* Sharded Tenancy\n\n* Multi-Single Tenancy\n\n* Hybrid Tenancy\n\n\n\nIncluded with each is a list of pros and cons that should be considered.\n\n\n\nI'll also discuss things like Feature Isolation, Data Isolation, Security Isolation, and many more.\n\n\n\nFinally, i part ways with some thoughts that offer guidance for the future.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 29,
+    "FirstName": "Jenn",
+    "LastName": "Creighton",
+    "Bio": "Jenn Creighton is a senior front end engineer at ClassPass where she writes code between workouts. She is likely to talk your ear off about React, JavaScript, or her hatred of CSS floats. She lives in New York City with her 2 cats & 1 dog & a handful of succulents. Say hello to her @gurlcode!",
+    "Website": "",
+    "Twitter": "gurlcode",
+    "Photo": "/img/speakers/2018/creighton-jenn.jpg",
+    "Company": "ClassPass",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 58,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 4,
+        "Topic": "What Tamagotchis can teach you about ES6 generators",
+        "Description": "What do Tamagotchis — everyone’s favorite digital pets from the 90s — and ES6 generators — pausible functions for async tasks — have in common? Both are really fun to play with. As a recent side project, I built a web-version of a Tamagotchi. But I struggled with one key element: how to handle a series of animations. What do you do when animations need to know that other animations are complete? What do you do when you’ve queued animations but a user event needs to be handle instead? This talk explores where I went wrong (hint: promises) and what worked (hint: generators). You’ll leave this talk with a solid grasp of how to combine promises, generators, and coroutines for async work — whether it’s for a Tamagotchi or your day-to-day work.\n\n",
+        "SlidesLink": null
+      },
+      {
+        "Id": 53,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 2,
+        "Topic": "The how's and why's of flexible React components",
+        "Description": "Building React components is simple — until it isn’t. Real world constraints can lead to large components that “do it all”. Or near identical components with one or two changes. So how do we create flexible components without sacrificing readability and scalability? Jenn shares how she re-architected components to handle multiple use cases and increase engineer happiness. She’ll breakdown the technical concerns for each component, the patterns she considered using, what didn’t work and what did. You'll learn more than the \"how\" of component architecture -- you'll learn the \"why\"!\n\n\n\nYou’ll get the most out of this session if you’ve written React components before. But even if you haven’t, you’ll walk away with practical patterns, tips and tricks for the future.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 31,
+    "FirstName": "Tristan",
+    "LastName": "Sokol",
+    "Bio": "Tristan works on the developer platform at Square. In the rare moments he isn't in front of a computer, he is usually outside wishing he was a hobby farmer. ",
+    "Website": "https://tristansokol.com",
+    "Twitter": "tristansokol",
+    "Photo": "/img/speakers/2018/sokol-tristan.jpg",
+    "Company": "Square",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 55,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 2,
+        "Topic": "The Ins n' Outs of Serverless Functions",
+        "Description": "Serverless functions are a new tool for developers that can let even the smallest of entrepreneurs feel like they are at Google scale. They can be the backbone of a microservice architecture for your application/website or handle a pipeline of complicated back-end processing. I'll give a quick high level conceptual overview of how serverless functions work, then dive into practical examples of common use cases such as webhook handling, front-end content delivery, and scaled asynchronous data processing using tools like Google Cloud Functions & Twilio Functions. We'll also cover all bases with testing tips and development tools.  The audience will walk away with practical examples of ways to incorporate hosted functions into their workflows, as well as a solid understanding of the benefits (extreme cost savings, improved scalability, architecture) and drawbacks (cold start times, complexity). ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 32,
+    "FirstName": "Paul",
+    "LastName": "Zolnierczyk",
+    "Bio": "Hey there, I'm Paul Zolnierczyk and I'm a Team Lead and Sr. Developer at Infinity Interactive Inc. (II for short) . II is a virtual consulting company, we're a passionate crew of technologists spread out all through the U.S. and Canada (some even travel the world and work).  I come from a Java background but made the change to C# 5 years ago and haven't looked back.  I discovered Xamarin a few years ago in 2012 and have been impressed with it ever since.  I always wanted to create mobile applications but learning objective-c was something I tried but just didn't work with me.  Thankfully, Xamarin came along and revolutionized the way we can create mobile applications and allowed me to create iOS and Android apps in the language I love, C#.  I'm a three time Xamarin Certified Developer and I look forward to continue growing with Xamarin every day.",
+    "Website": "https://iinteractive.com/notebook/2016/11/04/mkedotnet-recap.html",
+    "Twitter": "paulish29",
+    "Photo": "/img/speakers/2018/zolnierczyk-paul.jpg",
+    "Company": "Infinity Interactive Inc",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 56,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 3,
+        "Topic": "JSON driven Xamarin.iOS UI's",
+        "Description": "Creating workflows in Xamarin.iOS where your screens can vary between 1..X screens can be tricky to design and implement if using XIBs or Storyboards.  What happens if a particular user only needs to see 3 screens in this workflow while another needs to see 5 screens?  What if the text and elements differ on each screen?  That's where creating dynamic screens using iOS's UIStackView along with a bit of code that's driven by JSON can help with your dynamic workflow.  In this talk, I'll demonstrate a storyboard workflow and show that it is effective but has limitations.  I'll then take the user through converting this storyboard into something that utilizes Xamarin.iOS' UIStackView that is driven by some JSON that can be driven by an API.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 34,
+    "FirstName": "Joel",
+    "LastName": "Lord",
+    "Bio": "",
+    "Website": "https://auth0.com/blog/",
+    "Twitter": "joel__lord",
+    "Photo": "/img/speakers/2018/lord-joel.jpg",
+    "Company": "Auth0",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 61,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 1,
+        "Topic": "A Token Walks Into a SPA...",
+        "Description": "Seems like all you hear about these days are Single Page Applications. Angular, React, Vue, Ember are transforming the way we think about the frontend. But what about securing these applications? This often tends to take a back seat to speed, animations and other cool features of these frameworks. Between cookies, tokens, keeping users authenticated, and handling resource access, securing these apps can be tricky - you may even feel like you need a second page (gasp!) for your authentication setup! But we have the technology to create truly secure single-page applications. In this talk, we’ll walk through best practices and caveats that apply to any single-page application framework.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 35,
+    "FirstName": "Bobby",
+    "LastName": "Johnson",
+    "Bio": "Bobby is a passionate agile engineer with an interest in shipping quality software, building strong collaborative teams and continuous improvement of his skills, team and the product. His experience ranges from building small line of business applications allowing financial professionals to execute quickly to large public facing distributed social content apps. He has a passion for new technologies, open source software and the greater software development community.",
+    "Website": "https://iamnotmyself.com/",
+    "Twitter": "notmyself",
+    "Photo": "/img/speakers/2018/johnson-bobby.jpg",
+    "Company": "Extend by Auth0",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 62,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 6,
+        "Topic": "ChatOps with Slack and Webtask.io",
+        "Description": "With the rise in remote workers living the digital nomad life, Slack has become a central hub for team communication and collaboration. Teams have begun pushing critical monitoring information and kicking off processes directly from Slack. Webtask.io makes it easy for you do to this without having to wrestle with standing up and configure a server. In this presentation, Bobby will show you how to listen for specific events and push messages directly into a channel, setup a scheduled task that reports results to a channel and create CLI like commands with access control to fire on demand processes.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 37,
+    "FirstName": "Jan",
+    "LastName": "Jorgensen",
+    "Bio": "Works at Baymard Institute & Full Time RVer. Obsessed with teaching, learning, and writing usable APIs. I have too many hobbies.",
+    "Website": "http://www.ramblinjan.com",
+    "Twitter": "ramblinjan",
+    "Photo": "/img/speakers/2018/jorgensen-jan.jpg",
+    "Company": "Baymard Institute",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 64,
+        "Track": null,
+        "Day": 2,
+        "Room": "2",
+        "SessionNumber": 5,
+        "Topic": "How to Learn Anything and Teach JavaScript",
+        "Description": "Learning to develop web apps is hard, but clearly it’s possible and even fun. Many of us have read about or heard why it’s hard, and plenty of people are working to make it easier. Yet, unlike playing violin, golfing, or even cooking at an expert level, we do not yet have a well-defined methodology for teaching or learning this in-demand skill.\n\n\n\nWe’ll talk about the cognitive stages of learning and how they apply to something you already have experience with -- JavaScript -- so you can not only share your expertise effectively with a newcomer, but so you have a clear path to acquire any new skill.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 38,
+    "FirstName": "Mark",
+    "LastName": "Shead",
+    "Bio": "Mark Shead is the president of Xeric Corporation where he helps organizations increase their return on investment in software development. He has worked extensively as a coach with the U.S. Treasury and Federal Reserve Banks implementing Agile development and deployment practices. He specializes in helping teams use DevOps to build development/deployment pipelines in organizations with legacy change management policies and turning six-month deployments cycles into something measured in hours.\n\n",
+    "Website": "https://blogs.harvard.edu/markshead/",
+    "Twitter": "markwshead",
+    "Photo": "/img/speakers/2018/shead-mark.jpg",
+    "Company": "Xeric Corporation",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 68,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 4,
+        "Topic": "Agile Lean Flow Simulation (hands on)",
+        "Description": "Whether your organization makes software or widgets, it is important to focus on how efficiently you deliver. DevOps, Agile, BDD and TDD all provide powerful tools and approaches for delivering value, but your work must be optimized to actually deliver efficiently and quickly. In this session, each table will simulate an organization doing some simple work that will let us run experiments and track statistics. The goal is to simulate work in such a way that we can see how changes impact the value being delivered at both the departmental level and the organization level. This simulation will give participants a chance to think holistically about the way value is delivered through their own organizations. Most important, participants will leave with the ability to run the simulation with their teams back home to help create discussion on how to best optimize their delivery process.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 40,
+    "FirstName": "Ram",
+    "LastName": "Lakshmanan",
+    "Bio": "Every single day millions & millions of people in North America travel, bank and do commerce using the applications that Ram Lakshmanan has architected. He has developed one of the world’s largest banking application which is used by 1 in 3 USA households. He has designed a B2B travel application which processes 70% of North America’s Leisure travel bookings. Ram is the founder of the highly popular DevOps tools GCeasy.io, fastThread.io, heapHero.io. Ram advices startups, Fortune 500 enterprises, Governmental organizations on their critical technology initiatives. He is a highly sought speaker in major developer conferences all throughout the world.\n\nLinkedIn Profile: https://www.linkedin.com/in/ramlakshman\n\n",
+    "Website": "http://gceasy.io/",
+    "Twitter": "tier1app",
+    "Photo": "/img/speakers/2018/lakshmanan-ram.jpg",
+    "Company": "GCeasy.io, FastThread.io, HeapHero.io",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 71,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 5,
+        "Topic": "Micro-metrics to forecast performance Tsunamis",
+        "Description": "Elevator Pitch\n\n In recent times, hyper sensitive micro-metrics measuring technologies are employed to forecast Tsunamis. Similarly, it's hard to forecast production performance problems beforehand. In this session you will learn the micro-metrics to be measured in dev/test environments that can forecast production performance problems with fair level of accuracy.\n\n\n\nAbstract\n\n\n\nMost enterprises measure macro-metrics (response time, CPU utilization, memory consumption) only. These macro-metrics aren't adequate to forecast lot of production performance problems. Below is the list of micro-metrics that an enterprise can measure to forecast and detect performance problems:\n\n\n\n1. GC Latency\n\n\n\nIn all the modern platforms, garbage collection is automatic. Even though GC is automatic, it's not free. GC pauses entire application. It means all the customer transactions that are in motion will be frozen until GC completes. GC latency is good micro-metrics to measure. GC latency is the amount of timew application is paused to do garbage collection. Increase in GC latency is a lead indicator of memory problems in the application.\n\n\n\n2. GC Throughput\n\n\n\nGarbage collection throughput is the amount of time your application spends in processing customer transactions vs amount of time it spends in doing garbage collection. One should target for high throughput (i.e. application should spend more time in processing customer transactions and less time in GC). Degradation in GC throughput is a lead indicator of increase in compute resource consumption.\n\n\n\n3. Object creation/reclamation/promotion rate\n\n\n\nThe rate at which objects are created heavily influences CPU utilization. If inefficient data structures or code are used, then more objects will be generated to process the same number of transactions. A high object creation rate translates to frequent reclamation (i.e. Garbage Collection). Frequent GC translates to increased CPU consumption. Increase in Object creation/reclamation rate is a classic indicator of memory/CPU problems that is pervasive in the application.\n\n\n\n4. Thread count and states\n\n\n\nApplication threads can be different states: NEW, RUNNABLE, WAITING, TIME_WAITING, BLOCKED, TERMINATED. If there is an increase in count of particular type of thread states, it should be evaluated. Too many BLOCKED threads can make application unresponsive. Too many RUNNABLE threads can cause CPU spikes.\n\n\n\n5. Thread groups and their utilization\n\n\n\nThread group is a collection of threads doing particular type of tasks. Enterprise applications can have multiple thread groups. Each group thread count and states of those threads should be analyzed. Sometimes threads in critical thread groups may be fully consumed, sometimes there could be overallocation, sometimes there could be under allocation. \n\n\n\n6. Memory wastage\n\n\n\nApplication memory is wasted in the form of duplicate objects, suboptimal data types, inefficient data structures, over-allocated but underutilized objects. We want to constantly measure memory wastage between releases. If there is an increase in the amount of memory wastage then application will suffer memory problems, response time degradations and CPU spikes. \n\n\n\nHow to source these micro-metrics?\n\n\n\nGC Latency, GC Throughput, Object creation/reclamation/promotion rate metrics can be sourced from garbage collection logs. Thread Count and states, thread groups and their utilization metrics can be sourced from thread dumps. Memory wastage metrics can be sourced from heap dumps. In this session brief overview will be given on how to capture and analyze GC logs, thread dumps and heap dumps as well.\n\n",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 60,
+    "FirstName": "Lance",
+    "LastName": "Finney",
+    "Bio": "After over a decade as a Java developer, I've been working in Angular for over four years. And I love it. I develop Angular applications with Oasis Digital, and I teach others to build them through Angular Boot Camp. Father of two boys, software developer, and world traveler (when I can sneak it in).",
+    "Website": "",
+    "Twitter": "LMFinneyCoder",
+    "Photo": "/img/speakers/2018/finney-lance.jpg",
+    "Company": "Oasis Digital/Angular Boot Camp",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 102,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 3,
+        "Topic": "So you're doing NgRx, but is your Data Safe?",
+        "Description": "A core tenet of ngrx and the Redux pattern is that state changes occur only in the reducer, and only by returning a new state object. What some people fail to realize is that this is only a pattern, and it is not enforced in any way. Best case, your application is one accidental modification away from crashing down like a house of cards. Worst case, there are subtle flaws in the workflow that you don't notice until it is in production. In this talk, I will make the case for immutability, illustrate the difference between compile-time and run-time immutability, and then see how we can easily achieve both using the record-extension pattern, leveraging the power of both Typescript and Immutable.js.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 64,
+    "FirstName": "Zac",
+    "LastName": "Brown",
+    "Bio": "Since writing his first line of code at age 9, Zac has been completely fascinated with computers. 14 years later, at age 23 Zac is working on Python, erlang and node based applications at one of the leading VoIP communications companies today. With experience in multiple areas of product development and delivery, Zac brings his years of learning and growing to multiple venues and events across the globe.",
+    "Website": "http://yupitszac.com/",
+    "Twitter": "YupItsZac",
+    "Photo": "/img/speakers/2018/brown-zac.jpg",
+    "Company": null,
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 107,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 3,
+        "Topic": "Easy CI/CD for your Python app using Bitbucket Pipelines",
+        "Description": "Building your application is the fun part, but delivering your application is equally important. Many engineers lack the additional devops knowledge required to build and maintain a pipeline process using tools like Jenkins, or Bamboo. Bitbucket has saved the day,  we'll explore how. \n\n\n\nIn this talk, we'll discuss and demonstrate the various options and functionality available to help us easily build, test and deploy our Python applications with just a few lines of yml ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 68,
+    "FirstName": "Amanda",
+    "LastName": "Perkins",
+    "Bio": "I've been a QA for 6 years now and I try to use my varied job skills to help improve not only software quality but the quality of interactions with my team.  I have a background in customer service and music and feel that these skills help me to think outside the box when it comes to quality.  I am currently pursuing my degree in Cyber Security at Norwich University and feel that the additional skills I’m learning there will help me take QA even further.\n\n\n\nI'm a lover of hunting bugs, Doctor Who, books and movies.  I dress up every year for the Renaissance Festival and this year I'll do it again.  I'm married with 2 kids, a cat, and a dog and find new and exciting ways to drive them all nuts!!\n\n\n\nLinkedIn : https://www.linkedin.com/in/amanda-perkins-bbaa3020/",
+    "Website": "",
+    "Twitter": "agiese79",
+    "Photo": "/img/speakers/2018/perkins-amanda.jpg",
+    "Company": "NIC",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 111,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 5,
+        "Topic": "ONE OF US, ONE OF US",
+        "Description": "It’s hard to be on a team and not be one of the team.  By making interactions with teammates better, teams start to bond, creating high functioning work relationships that go far in crafting better products. Interactions like a simple conversation about the latest movie or where to go for lunch can go a long way to becoming a more involved with the team.\n\n\n\nIt's about how to get your dev team to accept QA as one of them.  I’ll give tips and tricks to help inspire QA to work with their teams and foster a relationship that will build quality into everything the team creates.  I'll talk about the Rubber Duck trick.  Talk about finding opportunities to learn more about code, automation, what the team is doing.  And about the interpersonal relationship building that you can do easily.  \n\n\n\nWe will talk about interpersonal relationship skills and how a simple conversation can be an opening to start getting more involved in the team dynamic.  \n\n\n\nWill discuss the concept of Rubber Duck and give suggestions for places to improve skill sets (udemy.com, Lynda, Coursera, Khan Academy)\n\n\n\nI want attendees to be able to become inspired to get closer to their teams and create those relationships that make everyone's job fun and create a team that's cohesive and works well together.\n\n",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 71,
+    "FirstName": "David",
+    "LastName": "Neal",
+    "Bio": "David is a family man, geek, musician, illustrator, speaker, and software developer living in North GA. He runs on a high-octane mixture of caffeine and JavaScript, and is entirely made of bacon.",
+    "Website": "http://reverentgeek.com",
+    "Twitter": "reverentgeek",
+    "Photo": "/img/speakers/2018/neal-david.jpg",
+    "Company": "ReverentGeek",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 116,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 7,
+        "Topic": "Node.js Crash Course",
+        "Description": "Node.js is a compelling platform that is quickly spreading from startups to the enterprise. Node.js strategically unites developers of all backgrounds through the common language of JavaScript. Why should you learn Node.js and where do you start? You will come away from this talk with the evidence to support Node.js, and tools you need to be productive. We will walk through a typical workflow of creating and debugging a web application. We'll also look at popular frameworks and modules, and other learning resources to give you the best start.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 75,
+    "FirstName": "Angel",
+    "LastName": "Rivera",
+    "Bio": "Angel started his career as an US Air Force Space Systems Operations specialist in Cape Canaveral AF Station where he realized his passion for technology and software development. He has extensive experience in the private, public and military sectors and his technical experience includes military/space lift operations, technical writing, software development, SRE/DevOPs engineering. He also has a wealth of experience in defense and federal sectors such as contracting, information systems security and management.\n\n\n\nYou can usual find him speaking at or organizing local tech meetups and hackathons where he enjoys engaging with developers.\n\n\n\nAngel’s passions are positive disruption, learning, teaching, mentoring but most of all inspiring all forms of technologists & building awesome tech communities.\n\n\n\nFun Fact:          Angel is hackathon junky\n\nFavorite Hobby:    Smoking all types of food meats, fish, cheeses, deserts\n\n",
+    "Website": "",
+    "Twitter": "punkdata",
+    "Photo": "/img/speakers/2018/rivera-angel.jpg",
+    "Company": "CircleCI",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 125,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 4,
+        "Topic": "CI/CD 101 with CircleCI Workshop",
+        "Description": "Continuous Integration and Continuous Delivery/Deployment (CI/CD) concepts are increasingly adopted by many technology organizations and teams. CI\\CD enables teams to establish processes that increase velocity, collaboration and quality of their codebase. CI/CD enables developer & operations teams to breakdown unnecessary silos and gain a deeper knowledge of their respective arenas.\n\n\n\nIn this workshop the participants will be introduced to the basic fundamentals of Continuous Integration and Continuous Delivery/Deployment. Participants will learn the core principles of CI/CD and have the opportunity to reinforce what they’ve learned in a hands on workshop featuring the CircleCI platform.  The workshop will demonstrate CI/CD build configuration, code commits, commit builds, code testing and packaging.  The participants will leave with a hands-on experience and understanding of what it takes to CI/CD.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 76,
+    "FirstName": "Adam",
+    "LastName": "Hill",
+    "Bio": "Adam Hill is a local developer and is actively involved in the  tech community. He knew he wanted to be a programmer when he was 10 years old and never looked back. \n\n\n\nHe loves hacking hardware and programming anything involving pocket sized supercomputers, visualization, computer graphics, or games. Adam speaks at many user groups in the DFW area every year and puts on the local Global Game Jam at Collin College, a crazy, worldwide race to make games in 72 hours. \n\n\n\nOn the weekends you can find him gaming, making / eating weird food and oh yeah... doing that code thing.",
+    "Website": "",
+    "Twitter": "adamhill",
+    "Photo": "/img/speakers/2018/hill-adam.jpg",
+    "Company": "Paycor Inc.",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 127,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 6,
+        "Topic": "DEPLOY ALL THE XR!!!",
+        "Description": "We will explore using Unity3d to build an XR app then runs on many different devices. I will teach you how to set up a project to make it easy to test / build / deploy your app.\n\n\n\nCome learn about Unity3D & XR for fun and profit! ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 77,
+    "FirstName": "David",
+    "LastName": "Stokes",
+    "Bio": "Dave Stokes is a MySQL Community Manager for Oracle Corporation and started at MySQL as a PHP Developer in the MySQL Certification Group.  He lives in Texas, is the author of MySQL and JSON: A Practical Programming Guide, and makes extensive use of the Open G tuning when playing guitars. ",
+    "Website": "http://elephantdolphin.blogspot.com",
+    "Twitter": "stoker",
+    "Photo": "/img/speakers/2018/stokes-david.jpg",
+    "Company": "Oracle",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 129,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 3,
+        "Topic": "MySQL 8 -- A New Beginning",
+        "Description": "MySQL 8 is a major redesign of the most popular database on the web. it will have a true data dictionary (no more .frm, MYI, or other little files) which means you can have millions of tables within a schema. Windowing Functions and Common Table Expressions are available, multi  plane character support (because you need emojis in your data), user roles,  more JSON functions, and big optimizer improvements. And there will be a better 'out of the box' user experience.  And you will learn what happened to MySQL 6 and MySQL 7.",
+        "SlidesLink": null
+      },
+      {
+        "Id": 130,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 2,
+        "Topic": "The Proper Care and Feeding of MySQL Databases for Busy Linux Admins",
+        "Description": "Are you in charge of MySQL databases but have no DBA training?  This sessions is for you!  Learn what you really need to know to keep your MySQL servers happy, running quickly, and make sure your data is safe.  See which config settings make servers more responsive and backup strategies to save your rear.  Understand how to use replication for backup, where to spend your scarce hardware upgrade funds, why databases do not play well with others, how to escape account admin purgatory, and more.  You may not be a trained DBA but after this session you will know the secrets of MySQL Administration on Linux.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 78,
+    "FirstName": "Scott",
+    "LastName": "Jones",
+    "Bio": "Scott Jones is an Acxiom Fellow at Acxiom Corporation.  He specializes in API designs, ultra-low latency system designs and full stack designs to solve business needs.  He has three patents pending and 3 patents approved for the leading edge Ad Tech Platform technology.  His innovative design started with the platform concept, implementation and ultimately the execution of a system that processed 3 billion transactions a day, against a terabyte of data, with transactions averaging 2 mls per transaction.  Mr. Jones also serves as one of Acxiom’s Privacy Engineers, with expert skills applying nuanced next-gen data governance concepts at the engineering layer. Previously he worked for Alltel Information Services the predecessor to FIS.  Mr. Jones serves as a mentor at The Venture Center and as an advisor to two of the 2016 VC FinTech Accelerator companies, Monotto and PFITR.  Mr. Jones holds a BS in Computer Science from Arkansas Tech University.",
+    "Website": "https://www.linkedin.com/in/scottjones10/",
+    "Twitter": "",
+    "Photo": "/img/speakers/2018/jones-scott.jpg",
+    "Company": "Acxiom Corporation",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 131,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 6,
+        "Topic": "Pissing off IT and Delivery: A tale of 2 ODS’s",
+        "Description": "Pissing off IT and Delivery: A tale of 2 ODS’s.\n\n====================\n\n**Long live RDBMs!**\n\n\n\nFor years they have been a staple of large data set storage, manipulation and retrieval. But what if I told you that we were able to simplify every aspect of our new Operational Data Store product development; from data maintenance and implementation to API design, scalability and maintainability by doing one simple thing? That thing: Throwing out the rulebook and starting new with a MongoDB-backed document store. We will walk through our document and API design to show how using Mongo Atlas, Mongo Stitch and Mongo Import we were able to radically change how we build Operational Data Stores and the short and long-term benefits these changes brought us.\n\n\n\nDescription\n\n====================\n\nThe Acxiom team changed their Operational Data Store product by moving from an RDBMs to a MongoDB Document Store.  This talk will be about how the use of a document store, the use of  MongoDB Atlas and the use of Mongo Stitch simplified our ODS product while\n\n1. Allowing for an increased profit margin\n\n2. Decreasing time to market\n\n3. Increasing scalability\n\n4. Lowering our latency\n\n5. Decreasing our dependencies on Acxiom IT\n\n",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 79,
+    "FirstName": "Cam",
+    "LastName": "Soper",
+    "Bio": "While in high school, Cam was getting paid for writing code and playing jazz (but not necessarily at the same time!). After flirting with several career paths in college, he decided to stick with what he knew.\n\n\n\nCam's development and IT career began in 1991 when a small town computer consultant took Cam, then 13 years old, as his apprentice. After graduating from Missouri State University in 1999, Cam worked as a trainer, adjunct professor, and freelance developer until he took a full-time developer job in the financial services industry in 2000.\n\n\n\nIn 2012, Cam achieved his childhood dream of joining Microsoft as a travelling support engineer, where he helped companies and public institutions of all sizes deploy software for .NET and Azure. He is currently part of the Microsoft APEX (Azure Platform Evangelism and Experiences) team, where he writes content about Azure and .NET on docs.microsoft.com, including reference applications and samples. \n\n\n\nCam lives in Kansas City, Missouri, USA with his wife, three sons, two dogs, two cats, three guinea pigs, and two hermit crabs. His hobbies include video games, 3D printing, home automation, and creating music.",
+    "Website": null,
+    "Twitter": "camsoper",
+    "Photo": "/img/speakers/2018/soper-cam.jpg",
+    "Company": "Microsoft",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 135,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 2,
+        "Topic": "How Insightful! Grok Your ASP.NET Core Web Apps with Application Insights",
+        "Description": "You know the feeling. An executive sends that email that your web application's performance is costing sales. All hands on deck! Fix it now! Your future is now hours poring over log files, days guessing where the bottleneck is. You hope for success with each new deployment. There's a different path. Application Insights to the rescue!  Instrument your app with Application Insights to get a deep look into the performance profile of your on-premise or Azure-hosted app. Prevent bottlenecks before you get that \"all hands on deck\" email.\u000b\u000b\n\n\n\nYou will learn:\n\n- What telemetry Application Insights collects automatically\n\n- How to instrument your ASP.NET Core application with custom events and metrics\n\n- How to view and analyze the telemetry using Azure's powerful tools\u000b",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 80,
+    "FirstName": "Daniel",
+    "LastName": "Trimble",
+    "Bio": "I've spent 15 years as a Developer/Architect and have build many high scale production applications.\n\nPrimarily over the last 10 years I have worked as a Java architect maturing our software development cycle and building some of our flagship applications.\n\nCurrently I lead a team that is in charge of investigating and developing emerging technologies at JB Hunt.",
+    "Website": "",
+    "Twitter": "dstrimble",
+    "Photo": "/img/speakers/2018/trimble-daniel.jpg",
+    "Company": "JB Hunt Transportation",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 136,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 1,
+        "Topic": "Migration to Kubernetes in the Cloud",
+        "Description": "Our path to the cloud and kubernetes included the following steps:\n\n\n\nMonitor\n\nIdentify Criticality\n\n12 factor conversion\n\nAzure VMs\n\nLoad Testing\n\nRight Scale\n\nProduction\n\nDocker Containers\n\nKubernetes Orchestration\n\nElastic Autoscaling\n\n\n\nWe will talk through each step and how we have improved our code quality along the way.\n\n",
+        "SlidesLink": null
+      },
+      {
+        "Id": 182,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Blockchain Panel : \"Excitement in Arkansas\"",
+        "Description": "This panel will discuss the growing usage of blockchain in Arkansas.\n\n\n\nModerator: \n\n  Gary Dowdy - Chief Technology Officer at JB Hunt\n\nPanelists: \n\n  Dr. Mary Lacity - Director of Blockchain Center of Excellence at the University of Arkansas\n\n  Daniel Trimble  - Sr. Expert Software Engineer at JB Hunt",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 81,
+    "FirstName": "Chris",
+    "LastName": "King",
+    "Bio": "Chris is a hands-on software architect, consulting adviser and thought leader at J. B. Hunt Transport. Chris's passions include performance tuning, security, application portfolio rationalization and integration. You can usually find him at the whiteboard leading a discussion, or pouring over logs and providing performance analysis. Chris is currently working on enterprise architecture emerging technology for the J. B. Hunt 360 cloud platform.",
+    "Website": "",
+    "Twitter": "",
+    "Photo": "/img/speakers/2018/king-chris.jpg",
+    "Company": "J. B. Hunt, Transport",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 137,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 2,
+        "Topic": "Installing Skynet to Production - Stitching Together Microservices, AI and Kubernetes in the Cloud",
+        "Description": "We will present a reference architecture for integrating a deep learning model into a production web application backed by containerized micro-services.  The use case is a recommendation engine that uses collaborative-filtering to predict which items a user will be interested in.  Starting with an overview of the data-science lifecycle, we will quickly focus in on the run-time architectural components.  We will dive into all of the components in the flow including: gathering training data, training the model, saving the new model, serving the model via a web service, scoring new items as they are added, and finally producing a top K recommended items for a user.  We will also review the CI/CD pipeline used to build and deploy changes and discuss how additional features would be added.  Finally, we will review our definition of what it means to be \"production-grade\" and discuss how all of these criteria were achieved.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 83,
+    "FirstName": "Scott",
+    "LastName": "Ford",
+    "Bio": "Leading the Corgibytes technical team is Scott, who has been called the “Bob Vila of the internet.” Scott is a polyglot developer who, at last count, is fluent in over twenty programming languages. Scott’s love of software restoration and remodeling began in college where he and his team were responsible for retrofitting the testing tools for the X-31 jet fighter. Since then, Scott has maintained a test-focused approach to his work and found the most joy in projects where an existing codebase needed to be improved.\n\n\n\nIn addition to fixing old code, Scott enjoys anime, reading sci-fi fiction and comic books and spending time with his family. And yes, he does have a Corgi, her name is Ein, and if you recognize that reference, we might just give you a discount.",
+    "Website": "http://corgibytes.com",
+    "Twitter": "mscottford",
+    "Photo": "/img/speakers/2018/ford-scott.jpg",
+    "Company": "Corgibytes",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 140,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 3,
+        "Topic": "Introducing Storybook - a tool for building and documenting UI components in isolation",
+        "Description": "## Outline\n\n\n\n* What is Storybook?\n\n* Getting started\n\n* Story time\n\n   * Writing your first story\n\n   * Use additional stories to showcase UI options\n\n   * Setting up actions to view events\n\n* Addons\n\n   * Knobs - UI to dynamically control the way your component is rendered\n\n   * Info - add documentation for your components\n\n   * Storyshots - snapshot testing for your stories\n\n   * Backgrounds - make sure your components look great on multiple backrgounds\n\n   * Viewport - make sure your component renders correctly at different sizes and layouts\n\n\n\n## Learning Outcome\n\n\n\nA basic understanding of Storybook and how to use it to its fullest potential\n\n\n\n## Target Audience\n\n\n\nDevelopers using React, Angular or Vue to build UI components",
+        "SlidesLink": null
+      },
+      {
+        "Id": 142,
+        "Track": null,
+        "Day": 1,
+        "Room": "2",
+        "SessionNumber": 3,
+        "Topic": "Important Metrics for Measuring Code Health",
+        "Description": "## Outline\n\n\n\n* Explore the health metaphor\n\n* Defining the metrics\n\n   * Churn\n\n   * Code Coverage\n\n   * Complexity\n\n* Tools to collect the metrics\n\n* Why these metrics?\n\n* What are good metric values?\n\n* Using the metrics together\n\n* Exploring common scenarios\n\n\n\n## Learning Outcome\n\n\n\nAn understanding of the meaning of 3 important software metrics (churn, code coverage, and complexity) and how to interpret values in combination.\n\n\n\n## Target Audience\n\n\n\nDevelopers, Managers, Product Owners",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 89,
+    "FirstName": "Gaines",
+    "LastName": "Kergosien",
+    "Bio": "<p><a target=\"new\" href=\"http://linkedin.kergosien.net\">Gaines Kergosien</a> is an associate director at <a target=\"new\" href=\"http://www.ubs.com\">UBS</a>, director of <a target=\"new\" href=\"http://www.musiccitytech.com\">Music City Tech</a>, <a target=\"new\" href=\"http://mvp.microsoft.com/en-us/PublicProfile/5001800\">Microsoft MVP</a>, and serves as board member for the <a target=\"new\" href=\"http://technologycouncil.com\">Nashville Technology Council</a> and <a target=\"new\" href=\"http://nashdotnet.org\">Nashville .NET User Group</a>. He also <a target=\"new\" href=\"http://speaking.kergosien.net\">presents at software development conferences</a> throughout the United States. With over 15 years in solutions development, his work includes consulting for such companies as Bridgestone, Deloitte, Hospital Corporation of America (HCA), American General (AIG), Lexis Nexis, Gibson Guitars, and Cardinal Healthcare.</p>",
+    "Website": "http://kergosien.net",
+    "Twitter": "gainesk",
+    "Photo": "/img/speakers/2018/kergosien-gaines.jpg",
+    "Company": "Music City Tech",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 150,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "7 Habits of Highly Paid Developers",
+        "Description": "Software and website developers are in extremely high demand and rates continue to climb, but many developers have not yet realized their potential. Being good at what you do is important, but it's equally important that you can communicate the value you bring to an organization and build a reputation that will provide opportunities for growth, both professionally and financially. We will work together to measure your accomplishments, establish a personal brand, and walk away with a resume that conveys your true value!",
+        "SlidesLink": null
+      },
+      {
+        "Id": 151,
+        "Track": null,
+        "Day": 1,
+        "Room": "1",
+        "SessionNumber": 1,
+        "Topic": "From Developer to Data Scientist",
+        "Description": "Due to recent advances in technology, humanity is collecting vast amounts of data at an unprecedented rate, making the skills necessary to mine insights from this data increasingly valuable. So what does it take for a Developer to enter the world of data science?\n\n\n\nJoin me on a journey into the world of big data and machine learning where we will explore what the work actually looks like, identify which skills are most important, and design a road map for how you too can join this exciting and profitable industry.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 90,
+    "FirstName": "Gary",
+    "LastName": "Dowdy",
+    "Bio": "Gary Dowdy is an award-winning technology executive with experience in e-commerce, marketing, software development, management consulting, business development and strategic planning from start-ups to Fortune 20.\n\n\n\nAs Chief Technology Officer at J.B. Hunt, Gary is responsible for enterprise services that span the lifecycle of the Company’s internal and external applications and products, including emerging/disruptive technology and partnerships, advancing the company’s digital prowess and transforming to a technology-driven provider of supply chain solutions.\n\n\n\nGary received his Bachelor of Science in Computer Science from the University of Arkansas and an MBA from the Krannert School of Business at Purdue University.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/img/speakers/2018/dowdy-gary.jpg",
+    "Company": "J.B. Hunt",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 115,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Blockchain Panel : \"Excitement in Arkansas\"",
+        "Description": "This panel will discuss the growing usage of blockchain in Arkansas.\n\n\n\nModerator: \n\n  Gary Dowdy - Chief Technology Officer at JB Hunt\n\nPanelists: \n\n  Dr. Mary Lacity - Director of Blockchain Center of Excellence at the University of Arkansas\n\n  Daniel Trimble  - Sr. Expert Software Engineer at JB Hunt",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 91,
+    "FirstName": "Josh",
+    "LastName": "Holmes",
+    "Bio": "Josh Holmes is a passionate soul who gets his kicks solving problems with deep fried awesomeness. He is currently employed by Microsoft as the lead of the Web Apps and Frameworks team helping build a better browser for people to build apps around. Prior to joining Microsoft in October 2006, Josh was a consultant working with a variety of clients ranging from large Fortune 500 firms to smaller sized companies. Josh is a frequent speaker and lead panelist at national and international software development conferences focusing on web technologies on the Microsoft stack such as ASP.NET, PHP, IronRuby, JavaScript and more. Community focused, Josh has founded and/or run many technology organizations from the Great Lakes Area .NET Users Group to the Ann Arbor Computer Society and was on the forming committee for CodeMash. You can contact Josh through his blog at https://joshholmes.com.",
+    "Website": "https://www.joshholmes.com",
+    "Twitter": "joshholmes",
+    "Photo": "/img/speakers/2018/holmes-josh.jpg",
+    "Company": "Microsoft",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 152,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 1,
+        "Topic": "Performance tuning your progressive web app (PWA)",
+        "Description": "Your users deserve a fast and responsive web app and PWAs help you step that up a notch through notifications, offline support and more. \n\nThere's a lot that goes into that from understanding how the DOM tree works and how that plays with CSS and JavaScript to how to leverage the ServiceWorker for cashing and push notifications. \n\nIn this session, we'll build a PWA that show cases many of the things you need to keep in mind when building a great and fast progressive web app. ",
+        "SlidesLink": null
+      },
+      {
+        "Id": 153,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 6,
+        "Topic": "Leadership 101",
+        "Description": "\"The company picks the manager, the team picks the leader. Sometimes you are lucky enough that it's the same person.\" This is something that one of my first technical mentors told me. I really wasn't able to fully comprehend that statement until much later in my career as I've had a lot of great leaders in my life, only a small percentage of whom were actually my manager as well. \n\nIn this talk, we'll dive into what it means to be a leader both as an individual contributor and as a manager. ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 92,
+    "FirstName": "Erik",
+    "LastName": "Ostermueller",
+    "Bio": "Erik Ostermueller is the author of the recently published \"Troubleshooting Java Performance\" [1] from apress.com.\n\n\n\nHe has spent the last 10 years or so years tuning high throughput Java financial systems in North and South America, Europe and Asia.  In 2011, he wrote a paper for an international performance conference titled  “How to Help Developers (Finally) Find Their Own Performance Defects” that won “Best Paper” and the “Mullen Award” for best speaker [2].  The proceeds of this award financed an 8-city speaking tour in the US, Canada, UK, and Italy.  \n\n \n\nFounder of heapSpank.org and wuqiSpank.org and a contributor to JMeter-Plugins and other open source projects.\n\n \n\n[1] https://www.amazon.com/Troubleshooting-Java-Performance-Detecting-Anti-Patterns/dp/1484229789/ref=sr_1_1?ie=UTF8&qid=1516082703\n\n[2] https://www.cmg.org/about-cmg/awards-scholarships/\n\n",
+    "Website": "http://erikostermueller.com/",
+    "Twitter": "EOstermueller",
+    "Photo": "/img/speakers/2018/ostermueller-erik.jpg",
+    "Company": "Fidelity Information Services",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 156,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 4,
+        "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
+        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?\n\n\n\nThis presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. \n\n\n\nYou will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  \n\n \n\nAs an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  \n\n \n\nThis presentation is your guided tour to how much is really possible in 30 minutes.\n\n\n\n# Learn the P.A.t.h. Checklist\n\n\n\n## Persistence -- the 'P' in P.A.t.h.\n\nLearn the 3 most common SQL performance anti-patterns and how to detect them.\n\n\n\n## Alien Systems -- the 'A' in P.A.t.h.\n\n\n\nAlien systems are those your Java JVM communicates with over a network.\n\nLearn how to detect slow network requests from your JVM and identify exactly the code making the requests.\n\nAlso learn how to avoid a huge security vulnerability with a very common network optimization.\n\n\n\n## threads -- the 't' in P.A.t.h.\n\n\n\nLearn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.\n\n\n\n## heap -- the 'h' in P.A.t.h.\n\n\n\nLearn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
+        "SlidesLink": null
+      },
+      {
+        "Id": 169,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 5,
+        "Topic": "Java Performance in 30 Minutes:  The Performance Training Session",
+        "Description": "The clock is ticking!  With just 30 minutes of troubleshooting, how close can you get to finding the root cause of a Java performance problem in production?   What observability tools would you use?  What subsystems would you investigate?\n\n\n\nThis presentations show one approach to getting the most out of your 30 minutes and aims to show that much more is possible than is generally thought, even for Java developers with little exposure to performance tuning. \n\n\n\nYou will learn to identify the most widespread, repeated and pernicious Java performance defects using walk-throughs of more than a dozen server-side performance puzzles that are ready to run on your own machine.  \n\n \n\nAs an antidote to pervasive and lackluster average response times that are multi-second throughout the industry, this presentation provides a long absent, easy-to-follow performance training regimen that we all should master early on in our careers.  \n\n \n\nThis presentation is your guided tour to how much is really possible in 30 minutes.\n\n\n\n# Learn the P.A.t.h. Checklist\n\n\n\n## Persistence -- the 'P' in P.A.t.h.\n\nLearn the 3 most common SQL performance anti-patterns and how to detect them.\n\n\n\n## Alien Systems -- the 'A' in P.A.t.h.\n\n\n\nAlien systems are those your Java JVM communicates with over a network.\n\nLearn how to detect slow network requests from your JVM and identify exactly the code making the requests.\n\nAlso learn how to avoid a huge security vulnerability with a very common network optimization.\n\n\n\n## threads -- the 't' in P.A.t.h.\n\n\n\nLearn how to use jstack to take thread dumps that point to slow executing code.  No need a the Java profiler in production.\n\n\n\n## heap -- the 'h' in P.A.t.h.\n\n\n\nLearn the fastest way to assess whether GC processing is unhealthy, an learn a few tips for diagnosing memory leaks.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 94,
+    "FirstName": "Rhaelene",
+    "LastName": "Rollins Lowther",
+    "Bio": "Rhaelene Lowther is an Associate Professor of Art: Game, Animation and Simulation Design. She worked as an environment artist for Microsoft for 5 years, working on one of the original XBox launch titles, Amped Snowboarding. She also worked at Sensory Sweep Software working on Nintendo DS games for 5 years. She earned a BFA in painting from Brigham Young University and an MFA from Utah State University. She taught at the Art Institute of Salt Lake City and Utah State University before moving to Arkansas to start the Game Development program at Southern Arkansas University. She has lived in Magnolia, AR for 5 years. \n\n\n\nKurt Coppersmith is an assistant professor at Southern Arkansas University. In addition to teaching game development courses,  he has worked in the technology industry for over 20 years. He has managed interdisciplinary teams for entities as large as Bosch and Dell to mid size eCommerce companies and tech startups.  He continues to work on multiple projects, most recently implementing  new technology and software for the recent renovation of an NBA arena.  Kurt currently lives with his family in Magnolia, Arkansas.  \n\n",
+    "Website": null,
+    "Twitter": "rhaelene",
+    "Photo": "/img/speakers/2018/rollins-lowther-rhaelene.jpg",
+    "Company": "Southern Arkansas University",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 160,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 1,
+        "Topic": "Strategies for Fostering Collaboration and Building a Foundation for a Unified Team",
+        "Description": "Game and Software industry veterans share real world strategies that help bring teams together to create better products. We will talk about big picture ideas like communication and creating buy in. These concepts will be brought to life with anecdotes and specific strategies we found successful in unifying interdisciplinary teams. Topics will include development diaries, team communication apps, postmortems, and more.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 97,
+    "FirstName": "Jeff",
+    "LastName": "Rudokas",
+    "Bio": "I'm a Senior DevOps Architect at Elyxor. Since the late 80's, when big hair and embarrassing song lyrics riddled the air, I worked for companies like GXS, Rue La La, Sonicbids, and various other gigs. I usually labeled my role as the duct tape between developers and operations. Today, people are calling it DevOps and I can't enjoy it enough.",
+    "Website": "http://www.elyxor.com",
+    "Twitter": "elyxor",
+    "Photo": "/img/speakers/2018/rudokas-jeff.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 170,
+        "Track": null,
+        "Day": 1,
+        "Room": "3",
+        "SessionNumber": 7,
+        "Topic": "Automating and auditing your infrastructure",
+        "Description": "A slew of tools are all ripe for automating your SDLC: Github, Packer, Jenkins, Terraform. How do you take them off your desktop and put them into the cloud? You want automation with security and audit-ability, so let's go from code to cloud! Connect all of the tools you've heard of, see exactly what went on, and barely push any buttons… unless you want to.\n\n\n\nWe will begin with a live walk-through, taking code commits of basic terraform, a packer file, some application code, and demonstrating how jenkins and github can glue it all together in AWS for pennies, with speed, automation, security and visibility. \n\n\n\nAfter the walk-through, I will highlight the connections and configurations of each, and explain how simple it is for these tools to get you automated fast, whether you're a one man crew or supporting a cast of hundreds.",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 98,
+    "FirstName": "Paul",
+    "LastName": "Spears",
+    "Bio": "As an instructor and open-source maintainer for Angular Boot Camp, Paul Spears travels the globe training developers in Angular and AngularJS. Paul also enjoys engaging the community outside of the classroom as a frequent guest of Adventures in Angular, ngHouston, and ngPortland. He also helps organize an Angular meetup in St. Louis. \n\n\n\nWhen not teaching, Paul is a technical lead at Oasis Digital Solutions inc. Recent projects include an Apache “big data” dashboard and an app used to visualize complex business and social relationships. Areas of interest include run-time performance, data visualization, and UI/UX design. \n\n",
+    "Website": "",
+    "Twitter": "dpsthree",
+    "Photo": "/img/speakers/2018/spears-paul.jpg",
+    "Company": "Oasis Digital Solutions Inc",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 172,
+        "Track": null,
+        "Day": 1,
+        "Room": "4",
+        "SessionNumber": 7,
+        "Topic": "AngularFire: Bringing together Angular and Firestore for rapid application development",
+        "Description": "You have probably heard of two-way databinding, but have you heard of three-way databinding? Angular makes it easy to use two-way data binding to update the views of your web applications. When these bindings are connected to Firestore your applications can suddenly read and write in real time straight from the database. In this talk, Paul will demonstrate how easy it is to get started with both Angular and Firestore by live coding a simple chat application.",
+        "SlidesLink": null
+      },
+      {
+        "Id": 173,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 4,
+        "Topic": "Angular Prototyping and Documentation with StackBlitz",
+        "Description": "Modern web frameworks are often built on a stack of advanced tools. These tool chains can act as a barrier for developers and designers who are looking to quickly spin up an example application, create a bug repo or start a prototype.\n\n\n\nStackBlitz is a web based IDE and build environment. With a click of a button StackBlitz will launch an editor, install dependencies, build your Angular application, start a development server and provide a link that can be used to invite others to participate. After taking a tour of StackBlitz’s most popular prototyping features we’ll take a look at how StackBlitz is used for documentation by the Angular team at Google as well as Angular Boot Camp.\n\n",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 101,
+    "FirstName": "Aaron",
+    "LastName": "Cook",
+    "Bio": "Aaron has devoted his career to the successful release of quality software. This has variously taken the form of Sr. Director of QA for a large consulting practice in Boston, to start up product companies, to his current gig, working with exceptionally smart people, developing the next generation of the software development lifecycle (SDLC). Test automation has always been a factor in this journey, striving to deliver better quality software, faster, more reliably and predictably, enabling various business to consume those changes at their speed.\n\n\n\nAaron has spoken and presented technical classes on quality, test automation frameworks, and overall test management best practices at Segue (Borland / Microfocus) user conferences, Software Test and Performance Conferences (STPCon East and West), Software Test Analysis and Review (STAREAST) as well as STPCon Magazine, published in 2008 and 2009.",
+    "Website": "http://www.elyxor.com",
+    "Twitter": "elyxor",
+    "Photo": "/img/speakers/2018/cook-aaron.jpg",
+    "Company": "Elyxor",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 171,
+        "Track": null,
+        "Day": 2,
+        "Room": "4",
+        "SessionNumber": 2,
+        "Topic": "Evolution: Test Automation to Continuous Testing ",
+        "Description": "Test automation has taken on a negative connotation over the last few years, specifically in organizations that continue to silo the automation team into a separate group. These folks have the unenviable task of \"taking the latest build\" and developing test scripts for it. These scripts need to be manually executed, groomed for feature drift, and maintained like any other component of code. This is often one of the last things that occurs in a release or worse yet, \"one-sprint-behind\", so that automation is never current. This is a recipe for frustration and constant release challenges. \n\n\n\nContinuous Testing (CT), in concert with Continuous Integration and Continuous Development (CI / CD) introduces the concept of test automation code, treated as code, embedded within the feature code, managed and maintained with each PR, and executed in a continuous fashion via Jenkins or another build tool. This ensures code coverage increases as your code coverage metrics trend, build over build. This ensures that your test code is always up-to-date with the feature repo, since they are developed hand-in-hand. This removes the stigma that test automation \"takes too long\" and is an expensive impediment to release, and creates the success patterns for safe, continuous release of your software, at the speed that the business can consume it.\n\n\n\nThis talk will explain the evolution of test automation, from the early days of silo-d teams the power of a fully integrated team leveraging both software developers and software developers in test (SDET). ",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 103,
+    "FirstName": "Mary",
+    "LastName": "Lacity",
+    "Bio": "Dr. Lacity is a Walton Professor of Information Systems and Director of the Blockchain Center of Excellence at the University of Arkansas and author or coauthor of 28 books, most recently, of A Manager’s Guide to Blockchains for Business, SB Publishing, UK. She was previously Curators’ Distinguished Professor of IS at the University of Missouri-St. Louis. She has also held visiting positions at MIT, the London School of Economics, Washington University, and Oxford University. She is also a Senior Editor of MIS Quarterly Executive.",
+    "Website": null,
+    "Twitter": null,
+    "Photo": "/img/speakers/2018/lacity-mary.jpg",
+    "Company": "University of Arkansas",
+    "LinkedIn": null,
+    "Presentations": [
+      {
+        "Id": 181,
+        "Track": null,
+        "Day": 2,
+        "Room": "3",
+        "SessionNumber": 5,
+        "Topic": "Blockchain Panel : \"Excitement in Arkansas\"",
+        "Description": "This panel will discuss the growing usage of blockchain in Arkansas.\n\n\n\nModerator: \n\n  Gary Dowdy - Chief Technology Officer at JB Hunt\n\nPanelists: \n\n  Dr. Mary Lacity - Director of Blockchain Center of Excellence at the University of Arkansas\n\n  Daniel Trimble  - Sr. Expert Software Engineer at JB Hunt",
+        "SlidesLink": null
+      }
+    ]
+  },
+  {
+    "Id": 999,
+    "FirstName": "Southern Arkansas",
+    "LastName": "University",
+    "Photo": "/img/speakers/2018/missing.png",
+    "Presentations": [
+        {
+            "Id": 998,
+            "Day": 1,
+            "Room": "3",
+            "SessionNumber": 4,
+            "Topic": "Impact of Game Development & Virtual Reality Workshop Classes at SAU"
+        },
+        {
+            "Id": 997,
+            "Day": 1,
+            "Room": "3",
+            "SessionNumber": 4,
+            "Topic": "User Identification Using Keystroke Biometrics"
+        }
+    ]
+  }
+]

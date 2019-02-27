@@ -119,7 +119,7 @@
         "Id": 18,
         "Track": "Web",
         "Topic": "Building modular enterprise scale AngularJS applications",
-        "Description": "<p>AngularJS enables developers to rapidly build single page applications. However, the framework leaves many decisions to development teams including structuring content, script loading, and module management. When building large scale applications for businesses and enterprises this can quickly become challenging to maintain, test, iterate, and extend.&nbsp;</p><p>The talk will focus on best practices and strategies for structuring large AngularJS applications, maintainable code styling for modular code, and introduce tools and strategies for teams to effectively build, package, deliver, and deploy in an enterprise environment.<br/></p>",
+        "Description": "<p>AngularJS enables developers to rapidly build single page applications. However, the framework leaves many decisions to development teams including structuring content, script loading, and module management. When building large scale applications for businesses and enterprises this can quickly become challenging to maintain, test, iterate, and extend.&nbsp;</p><p>The talk will focus on best practices and strategies for structuring large AngularJS applications, maintainable code styling for modular code, and introduce tools and strategies for teams to effectively build, package, deliver, and deploy in an enterprise environment.\n\n</p>",
         "Room": "1",
         "Session": "3"
       }
@@ -484,7 +484,7 @@
         "Id": 48,
         "Track": "Tech Entrepreneurship",
         "Topic": "Development Techniques used in iQPresenter for MacOS and Related iOS Apps",
-        "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.<br/><br/>We will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more.",
+        "Description": "The presentation will focus on developer tools, features, and techniques for creating a major application on the MacOS platform and for related iOS products. iQPresenter is our highly-advanced presentation product with unparalleled features for classroom and other presentations, and will be used to actually create and display this live presentation.\n\n\n\nWe will discuss the many essential development techniques needed for producing such an application and its related iOS Apps, such as remote control, viewers, and teleprompters. The discussion will include basic principles, such as MVC (Model-View-Controller, applicable to any application development), plus XCode, Key-Value Coding, Notifications and Observers, UI Bindings, CoreData, CALayers, AVFoundation, Multipeer Communication, website uploading, and more.",
         "Room": "4",
         "Session": "3"
       }

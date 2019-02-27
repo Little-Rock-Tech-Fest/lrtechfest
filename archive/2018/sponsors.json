@@ -1,0 +1,122 @@
+[
+	{
+		"Name": "First Orion",
+		"Level": "Platinum",
+		"Logo": "/img/sponsors/first-orion.png",
+		"Website": "https://firstorion.com/"
+	},
+	{
+		"Name": "ABC Financial",
+		"Level": "Platinum",
+		"Logo": "/img/sponsors/abc-financial.png",
+		"Website": "http://www.abcfinancial.com/"
+	},
+	{
+		"Name": "Mainstream Technologies",
+		"Level": "Gold",
+		"Logo": "/img/sponsors/mti-vertical-primary.jpg",
+		"Website": "http://www.mainstream-tech.com/"
+	},
+	{
+		"Name": "Apptegy",
+		"Level": "Gold",
+		"Logo": "/img/sponsors/apptegy.png",
+		"Website": "https://www.apptegy.com/"
+	},
+	{
+		"Name": "Euronet Worldwide",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/euronet-software-logo.png",
+		"Website": "http://www.euronetsoftware.com/"
+ 	},
+ 	{
+		"Name": "J.B. Hunt",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/jbhunt.png",
+		"Website": "https://www.jbhunt.com/"
+	},
+	{
+		"Name": "Dassault Falcon Jet Corp",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/dassault-falcon-jet.png",
+		"Website": "https://www.dassaultfalcon.com"
+	},
+	{
+		"Name": "SupplyPike",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/supply-pike.png",
+		"Website": "https://supplypike.com/"
+	},
+	{
+		"Name": "MySQL",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/my_sql.png",
+		"Website": "https://www.mysql.com/"
+	},
+	{
+		"Name": "Idestini Dev Studio",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/idestini.png",
+		"Website": "https://idestini.com/"
+	},
+	{
+		"Name": "DataPath",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/datapath_logo.png",
+		"Website": "https://dpath.com/"
+	},
+	{
+		"Name": "Acxiom",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/acxiom.png",
+		"Website": "https://www.acxiom.com/"
+	},
+	{
+		"Name": "Lindsey Software Systems",
+		"Level": "Silver",
+		"Logo": "/img/sponsors/lindsey-software-systems.png",
+		"Website": "http://www.lindseysoftware.com/"
+	},
+	{
+		"Name": "Balsamiq",
+ 		"Level": "Bronze",
+		"Logo": "/img/sponsors/balsamiq.png",
+ 		"Website": "https://balsamiq.com/"
+	},
+	{
+		"Name": "Sketch",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/sketch.png",
+		"Website": "https://sketchapp.com/"
+	},
+	{
+		"Name": "Lafferty Equipment Manufacturing",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/lafferty.png",
+		"Website": "https://www.laffertyequipment.com/"
+	},
+	{
+		"Name": "Code Magazine",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/CODEMagazine.png",
+		"Website": "https://www.codemag.com/"
+	},
+	{
+		"Name": "Team SI",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/teamsi-logo.png",
+		"Website": "https://www.teamsi.com/"
+	},
+	{
+		"Name": "HyperLeap",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/hyperleap-logo-large.png",
+		"Website": "https://signup.hyperleapnetwork.com/"
+	},
+	{
+		"Name": "The Venture Center",
+		"Level": "Bronze",
+		"Logo": "/img/sponsors/Venture_Center.png",
+		"Website": "https://www.venturecenter.co/"
+	}
+]

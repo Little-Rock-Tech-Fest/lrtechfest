@@ -10,6 +10,8 @@ block content
 			h2 Sponsors #{year}
 			hr
 
+		#content
+
 		.section-content
 			#sponsors-content
 				.container-fluid
@@ -40,4 +42,16 @@ block content
 								.talk-title #{talk.Topic}
 								.talk-description !{talk.Description}
 				hr
+
+block scripts
+
+	script(src="https://cdn.jsdelivr.net/npm/marked/marked.min.js")
+
+	script.
+
+		$('.talk-description').each(function() {
+			console.log($(this).html());
+			$(this).html(marked($(this).html()));
+		});
+
 

@@ -114,6 +114,31 @@ a.pull-right.buy-btn {
   width: 200px
 }
 
+.speaker .name {
+  font-size: 22px;
+}
+
+.speaker .name,
+.speaker .talk-title,
+.speaker .talk-description {
+  text-align: left;
+}
+
+.speaker .talk-description h1,
+.speaker .talk-description h2,
+.speaker .talk-description h3,
+.speaker .talk-description h4,
+.speaker .talk-description h5,
+.speaker .talk-description h6 {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.speaker .talk-description p {
+  font-size: 14px;
+}
+
 a.logo {
   height:80px;
 }
