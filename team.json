@@ -11,15 +11,6 @@
 		"secondCompany": "NIC"
 	},
 	{
-		"name": "Abby Sims", 
-		"imgUrl": "abby-sims.jpg", 
-		"twitter": "abby_sims", 
-		"linkedin": "abbysims", 
-		"github": "asims", 
-		"firstTitle": "Owner/Developer", 
-		"firstCompany": "Idestini Dev Studio"
-	},
-	{
 		"name": "Paul Gower", 
 		"imgUrl": "paul.png", 
 		"twitter": "paulmgower", 
@@ -49,29 +40,12 @@
 		"firstCompany": "Arkansas Children's Hospital"
 	},
 	{
-		"name": "Chris Steven", 
-		"imgUrl": "chris-steven.jpg", 
-		"twitter": "chrissteven81", 
-		"linkedin": "chrissteven81", 
-		"github": "chrissteven81", 
-		"firstTitle": "CTO", 
-		"firstCompany": "Idestini Dev Studio"
-	},
-	{
 		"name": "Curtis Weeks",
 		"imgUrl": "curtis-weeks.png",
 		"linkedin": "curtisweeks",
 		"github": "curtisweeks",
 		"firstTitle": "Developer",
 		"firstCompany": "Lafferty"
-	},
-	{
-		"name": "Aaron Ralls",
-		"imgUrl": "aaron-ralls.jpg",
-		"linkedin": "aaron-ralls",
-		"github": "aaronralls",
-		"firstTitle": "Sr Application Architect",
-		"firstCompany": "Accruent"
 	},
 	{
 		"name": "Joshua Carroll",
@@ -81,13 +55,5 @@
 		"firstTitle": "Global Technical Marketing Engineer",
 		"firstCompany": "Euronet Software Solutions"
 
-	},
-	{
-		"name": "James Climer",
-		"imgUrl": "james.png",
-		"linkedin": "james-climer-19b2309",
-		"github": "jaclimer",
-		"firstTitle": "Software Development Consultant",
-		"firstCompany": "Optimal Software Development Group"	
 	}
 ]
