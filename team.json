@@ -55,5 +55,15 @@
 		"firstTitle": "Global Technical Marketing Engineer",
 		"firstCompany": "Euronet Software Solutions"
 
-	}
+	},
+	{
+		"name": "Christopher Wright",
+		"imgUrl": "christopher-wright.jpg",
+		"linkedin": "wright-christopher",
+		"website": "https://citadelsystems.co/",
+		"firstTitle": "Owner",
+		"firstCompany": "Citadel Systems"
+
+	},
+	
 ]
