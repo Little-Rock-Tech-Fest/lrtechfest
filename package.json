@@ -17,7 +17,7 @@
   "author": "Kyle Neumeier",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "~4.16",
+    "express": "~4.17",
     "gulp": "~3.9.1",
     "gulp-install": "~1.1",
     "gulp-less": "~4.0",
